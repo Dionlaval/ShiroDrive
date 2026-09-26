@@ -1,0 +1,765 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/h784w8",
+    "id": "h784w8",
+    "slide": 2,
+    "layoutId": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F7F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47mt47qt",
+      "id": "1",
+      "name": "Electrical requirements and operating envelope",
+      "bbox": [
+        58,
+        42,
+        1475,
+        87
+      ],
+      "geometry": "rect",
+      "text": "Electrical requirements and operating envelope",
+      "textPreview": "Electrical requirements and operating envelope",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 47,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Electrical requirements and operating envelope"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Electrical requirements and operating envelope",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Electrical requirements and operating envelope",
+              "fontSize": 47,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36dcvmp8",
+      "id": "2",
+      "name": "02",
+      "bbox": [
+        1490,
+        833,
+        60,
+        31
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/254b2h8n",
+      "id": "3",
+      "name": "KiCad schematic, page 2",
+      "bbox": [
+        60,
+        837,
+        1360,
+        25
+      ],
+      "geometry": "rect",
+      "text": "KiCad schematic, page 2",
+      "textPreview": "KiCad schematic, page 2",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KiCad schematic, page 2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KiCad schematic, page 2",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KiCad schematic, page 2",
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/gnqt8ba9",
+      "id": "4",
+      "bbox": [
+        60,
+        346,
+        925,
+        211
+      ],
+      "alt": "KiCad source page 2, dc circuit crop",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "b0c8ef26-dc91-4d67-bbb8-9b8e4d642d11",
+        "contentType": "image/png",
+        "byteLength": 32028
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cb6d8rqp",
+      "id": "5",
+      "name": "18–42 V bus",
+      "bbox": [
+        1030,
+        163,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "18–42 V bus",
+      "textPreview": "18–42 V bus",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "18–42 V bus"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "18–42 V bus",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "18–42 V bus",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/raxczmp4",
+      "id": "6",
+      "name": "6S–10S packs. The preferred design point is 8S: 29.6 V nomin",
+      "bbox": [
+        1030,
+        211,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "6S–10S packs. The preferred design point is 8S: 29.6 V nominal, 33.6 V fully charged.",
+      "textPreview": "6S–10S packs. The preferred design point is 8S: 29.6 V nominal, 33.6 V fully charged.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6S–10S packs. The preferred design"
+          },
+          {
+            "index": 2,
+            "text": "point is 8S: 29.6 V nominal, 33.6 V fully"
+          },
+          {
+            "index": 3,
+            "text": "charged."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6S–10S packs. The preferred design point is 8S: 29.6 V nominal, 33.6 V fully charged.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6S–10S packs. The preferred design point is 8S: 29.6 V nominal, 33.6 V fully charged.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q9ob6h8z",
+      "id": "7",
+      "name": "25 / 40 Arms targets",
+      "bbox": [
+        1030,
+        338,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "25 / 40 Arms targets",
+      "textPreview": "25 / 40 Arms targets",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "25 / 40 Arms targets"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "25 / 40 Arms targets",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "25 / 40 Arms targets",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t0bupsr6",
+      "id": "8",
+      "name": "Passive cooling / a defined thermal solution. Phase current ",
+      "bbox": [
+        1030,
+        386,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "Passive cooling / a defined thermal solution. Phase current differs from battery current.",
+      "textPreview": "Passive cooling / a defined thermal solution. Phase current differs from battery current.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Passive cooling / a defined thermal"
+          },
+          {
+            "index": 2,
+            "text": "solution. Phase current differs from"
+          },
+          {
+            "index": 3,
+            "text": "battery current."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Passive cooling / a defined thermal solution. Phase current differs from battery current.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Passive cooling / a defined thermal solution. Phase current differs from battery current.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sf2twnql",
+      "id": "9",
+      "name": "80 A peak is a future target",
+      "bbox": [
+        1030,
+        513,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "80 A peak is a future target",
+      "textPreview": "80 A peak is a future target",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "80 A peak is a future target"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "80 A peak is a future target",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "80 A peak is a future target",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ip43el87",
+      "id": "10",
+      "name": "At most 2 s, subject to qualification. Initial +60 A protect",
+      "bbox": [
+        1030,
+        561,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "At most 2 s, subject to qualification. Initial +60 A protection prevents treating this as an enabled rating.",
+      "textPreview": "At most 2 s, subject to qualification. Initial +60 A protection prevents treating this as an enabled rating.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "At most 2 s, subject to qualification."
+          },
+          {
+            "index": 2,
+            "text": "Initial +60 A protection prevents treating"
+          },
+          {
+            "index": 3,
+            "text": "this as an enabled rating."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "At most 2 s, subject to qualification. Initial +60 A protection prevents treating this as an enabled rating.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "At most 2 s, subject to qualification. Initial +60 A protection prevents treating this as an enabled rating.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qdk7qps",
+      "id": "11",
+      "name": "60 V MOSFET absolute maximum requires margin for regeneratio",
+      "bbox": [
+        60,
+        777,
+        1460,
+        57
+      ],
+      "geometry": "rect",
+      "text": "60 V MOSFET absolute maximum requires margin for regeneration and switching overshoot.",
+      "textPreview": "60 V MOSFET absolute maximum requires margin for regeneration and switching overshoot.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "60 V MOSFET absolute maximum requires margin for regeneration and switching overshoot."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "60 V MOSFET absolute maximum requires margin for regeneration and switching overshoot.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "60 V MOSFET absolute maximum requires margin for regeneration and switching overshoot.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

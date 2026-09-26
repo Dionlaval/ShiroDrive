@@ -1,0 +1,221 @@
+{
+  "R1": {
+    "MPN": "BVR-Z-R0005-1.0",
+    "Manufacturer": "Isabellenhuette",
+    "Footprint": "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026",
+    "Datasheet": "https://www.isabellenhuette.com/hubfs/143808517/files/Data%20sheets/BVR.pdf",
+    "Power Rating": "5 W at stated terminal conditions; 9 W at 70 C per 2024 datasheet",
+    "BOM Comments": "Four-terminal shunt. Power pads 1/4; Kelvin sense pads 2/3. 0.5 mOhm with gain 28 = 14 mV/A. Board target 25 Arms with cooling; thermal validation pending.",
+    "Value": "0.5m 1%"
+  },
+  "R3": {
+    "MPN": "BVR-Z-R0005-1.0",
+    "Manufacturer": "Isabellenhuette",
+    "Footprint": "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026",
+    "Datasheet": "https://www.isabellenhuette.com/hubfs/143808517/files/Data%20sheets/BVR.pdf",
+    "Power Rating": "5 W at stated terminal conditions; 9 W at 70 C per 2024 datasheet",
+    "BOM Comments": "Four-terminal shunt. Power pads 1/4; Kelvin sense pads 2/3. 0.5 mOhm with gain 28 = 14 mV/A. Board target 25 Arms with cooling; thermal validation pending.",
+    "Value": "0.5m 1%"
+  },
+  "R5": {
+    "MPN": "BVR-Z-R0005-1.0",
+    "Manufacturer": "Isabellenhuette",
+    "Footprint": "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026",
+    "Datasheet": "https://www.isabellenhuette.com/hubfs/143808517/files/Data%20sheets/BVR.pdf",
+    "Power Rating": "5 W at stated terminal conditions; 9 W at 70 C per 2024 datasheet",
+    "BOM Comments": "Four-terminal shunt. Power pads 1/4; Kelvin sense pads 2/3. 0.5 mOhm with gain 28 = 14 mV/A. Board target 25 Arms with cooling; thermal validation pending.",
+    "Value": "0.5m 1%"
+  },
+  "R2": {
+    "MPN": "RC0805FR-074R7L",
+    "Manufacturer": "YAGEO",
+    "Footprint": "Resistor_SMD:R_0805_2012Metric",
+    "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074R7L",
+    "Tolerance": "1%",
+    "Power Rating": "0.125 W",
+    "BOM Comments": "4.7 ohm high-side gate resistor; mount at GH. Qg*Vgate*f upper energy estimate 28 mW at 56 nC, 10 V, 50 kHz; actual resistor share lower."
+  },
+  "R4": {
+    "MPN": "RC0805FR-074R7L",
+    "Manufacturer": "YAGEO",
+    "Footprint": "Resistor_SMD:R_0805_2012Metric",
+    "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074R7L",
+    "Tolerance": "1%",
+    "Power Rating": "0.125 W",
+    "BOM Comments": "4.7 ohm high-side gate resistor; mount at GH. Qg*Vgate*f upper energy estimate 28 mW at 56 nC, 10 V, 50 kHz; actual resistor share lower."
+  },
+  "R6": {
+    "MPN": "RC0805FR-074R7L",
+    "Manufacturer": "YAGEO",
+    "Footprint": "Resistor_SMD:R_0805_2012Metric",
+    "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074R7L",
+    "Tolerance": "1%",
+    "Power Rating": "0.125 W",
+    "BOM Comments": "4.7 ohm high-side gate resistor; mount at GH. Qg*Vgate*f upper energy estimate 28 mW at 56 nC, 10 V, 50 kHz; actual resistor share lower."
+  },
+  "C1": {
+    "MPN": "C1005X7S2A103K050BB",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C1005X7S2A103K050BB.pdf",
+    "Voltage Rating": "100 V",
+    "Dielectric": "X7S",
+    "Tolerance": "10%",
+    "BOM Comments": "Changed from generic 100 nF to TI recommended 10 nF / 100 V / 0402 for CSD88599 at up to 42 V. Short local loop; this does not prove switching overshoot is controlled.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7S2A103K050BB",
+    "Value": "10nF"
+  },
+  "C5": {
+    "MPN": "C1005X7S2A103K050BB",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C1005X7S2A103K050BB.pdf",
+    "Voltage Rating": "100 V",
+    "Dielectric": "X7S",
+    "Tolerance": "10%",
+    "BOM Comments": "Changed from generic 100 nF to TI recommended 10 nF / 100 V / 0402 for CSD88599 at up to 42 V. Short local loop; this does not prove switching overshoot is controlled.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7S2A103K050BB",
+    "Value": "10nF"
+  },
+  "C9": {
+    "MPN": "C1005X7S2A103K050BB",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_0402_1005Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C1005X7S2A103K050BB.pdf",
+    "Voltage Rating": "100 V",
+    "Dielectric": "X7S",
+    "Tolerance": "10%",
+    "BOM Comments": "Changed from generic 100 nF to TI recommended 10 nF / 100 V / 0402 for CSD88599 at up to 42 V. Short local loop; this does not prove switching overshoot is controlled.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X7S2A103K050BB",
+    "Value": "10nF"
+  },
+  "C2": {
+    "MPN": "C3216X7R2A105K160AA",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C3216X7R2A105K160AA.pdf",
+    "Voltage Rating": "100 V",
+    "Dielectric": "X7R",
+    "Tolerance": "10%",
+    "BOM Comments": "Local VM bypass. Nominal capacitance; effective capacitance reduces under DC bias. Retain main bulk capacitors.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X7R2A105K160AA",
+    "Value": "1uF"
+  },
+  "C6": {
+    "MPN": "C3216X7R2A105K160AA",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C3216X7R2A105K160AA.pdf",
+    "Voltage Rating": "100 V",
+    "Dielectric": "X7R",
+    "Tolerance": "10%",
+    "BOM Comments": "Local VM bypass. Nominal capacitance; effective capacitance reduces under DC bias. Retain main bulk capacitors.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X7R2A105K160AA",
+    "Value": "1uF"
+  },
+  "C10": {
+    "MPN": "C3216X7R2A105K160AA",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C3216X7R2A105K160AA.pdf",
+    "Voltage Rating": "100 V",
+    "Dielectric": "X7R",
+    "Tolerance": "10%",
+    "BOM Comments": "Local VM bypass. Nominal capacitance; effective capacitance reduces under DC bias. Retain main bulk capacitors.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3216X7R2A105K160AA",
+    "Value": "1uF"
+  },
+  "C3": {
+    "MPN": "C3225X7S2A475K200AB",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C3225X7S2A475K200AB.pdf",
+    "Voltage Rating": "100 V",
+    "Dielectric": "X7S",
+    "Tolerance": "10%",
+    "BOM Comments": "Local VM bypass. Nominal capacitance; effective capacitance and RMS ripple temperature require final PWM/layout validation. Generic STEP is visualization only; maximum component height 2.2 mm.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7S2A475K200AB",
+    "Value": "4.7uF"
+  },
+  "C7": {
+    "MPN": "C3225X7S2A475K200AB",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C3225X7S2A475K200AB.pdf",
+    "Voltage Rating": "100 V",
+    "Dielectric": "X7S",
+    "Tolerance": "10%",
+    "BOM Comments": "Local VM bypass. Nominal capacitance; effective capacitance and RMS ripple temperature require final PWM/layout validation. Generic STEP is visualization only; maximum component height 2.2 mm.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7S2A475K200AB",
+    "Value": "4.7uF"
+  },
+  "C11": {
+    "MPN": "C3225X7S2A475K200AB",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C3225X7S2A475K200AB.pdf",
+    "Voltage Rating": "100 V",
+    "Dielectric": "X7S",
+    "Tolerance": "10%",
+    "BOM Comments": "Local VM bypass. Nominal capacitance; effective capacitance and RMS ripple temperature require final PWM/layout validation. Generic STEP is visualization only; maximum component height 2.2 mm.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7S2A475K200AB",
+    "Value": "4.7uF"
+  },
+  "C4": {
+    "MPN": "C1608X7R1H224K080AB",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C1608X7R1H224K080AB.pdf",
+    "Voltage Rating": "50 V",
+    "Dielectric": "X7R",
+    "Tolerance": "10%",
+    "BOM Comments": "Bootstrap capacitor across BOOT and SH. 56 nC / 220 nF = 0.255 V nominal gate-charge droop; design for at least 150 nF effective. Firmware must precharge and provide regular low-side refresh; not indefinite 100% high-side duty.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H224K080AB",
+    "Value": "220nF"
+  },
+  "C8": {
+    "MPN": "C1608X7R1H224K080AB",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C1608X7R1H224K080AB.pdf",
+    "Voltage Rating": "50 V",
+    "Dielectric": "X7R",
+    "Tolerance": "10%",
+    "BOM Comments": "Bootstrap capacitor across BOOT and SH. 56 nC / 220 nF = 0.255 V nominal gate-charge droop; design for at least 150 nF effective. Firmware must precharge and provide regular low-side refresh; not indefinite 100% high-side duty.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H224K080AB",
+    "Value": "220nF"
+  },
+  "C12": {
+    "MPN": "C1608X7R1H224K080AB",
+    "Manufacturer": "TDK",
+    "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "Datasheet": "https://product.tdk.com/info/en/documents/chara_sheet/C1608X7R1H224K080AB.pdf",
+    "Voltage Rating": "50 V",
+    "Dielectric": "X7R",
+    "Tolerance": "10%",
+    "BOM Comments": "Bootstrap capacitor across BOOT and SH. 56 nC / 220 nF = 0.255 V nominal gate-charge droop; design for at least 150 nF effective. Firmware must precharge and provide regular low-side refresh; not indefinite 100% high-side duty.",
+    "Product URL": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H224K080AB",
+    "Value": "220nF"
+  },
+  "U1": {
+    "MPN": "CSD88599Q5DC",
+    "Manufacturer": "Texas Instruments",
+    "Footprint": "Manual:DMM0022A",
+    "Datasheet": "https://www.ti.com/lit/ds/symlink/csd88599q5dc.pdf",
+    "BOM Comments": "Retain downloaded CAD. Existing grouped symbol pins and extra footprint pads must be reconciled before PCB update. No custom CAD made in this selection pass."
+  },
+  "U2": {
+    "MPN": "CSD88599Q5DC",
+    "Manufacturer": "Texas Instruments",
+    "Footprint": "Manual:DMM0022A",
+    "Datasheet": "https://www.ti.com/lit/ds/symlink/csd88599q5dc.pdf",
+    "BOM Comments": "Retain downloaded CAD. Existing grouped symbol pins and extra footprint pads must be reconciled before PCB update. No custom CAD made in this selection pass."
+  },
+  "U3": {
+    "MPN": "CSD88599Q5DC",
+    "Manufacturer": "Texas Instruments",
+    "Footprint": "Manual:DMM0022A",
+    "Datasheet": "https://www.ti.com/lit/ds/symlink/csd88599q5dc.pdf",
+    "BOM Comments": "Retain downloaded CAD. Existing grouped symbol pins and extra footprint pads must be reconciled before PCB update. No custom CAD made in this selection pass."
+  }
+}

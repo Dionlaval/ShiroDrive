@@ -1,0 +1,783 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/aoney3",
+    "id": "aoney3",
+    "slide": 23,
+    "layoutId": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F7F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1k3i5orq",
+      "id": "1",
+      "name": "Phase temperature measurement",
+      "bbox": [
+        58,
+        42,
+        1475,
+        87
+      ],
+      "geometry": "rect",
+      "text": "Phase temperature measurement",
+      "textPreview": "Phase temperature measurement",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 47,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Phase temperature measurement"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Phase temperature measurement",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Phase temperature measurement",
+              "fontSize": 47,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ehsza9sz",
+      "id": "2",
+      "name": "23",
+      "bbox": [
+        1490,
+        833,
+        60,
+        31
+      ],
+      "geometry": "rect",
+      "text": "23",
+      "textPreview": "23",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "23"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "23",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "23",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zil03e9k",
+      "id": "3",
+      "name": "KiCad schematic, page 7",
+      "bbox": [
+        60,
+        837,
+        1360,
+        25
+      ],
+      "geometry": "rect",
+      "text": "KiCad schematic, page 7",
+      "textPreview": "KiCad schematic, page 7",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KiCad schematic, page 7"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KiCad schematic, page 7",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KiCad schematic, page 7",
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/h4fapcfy",
+      "id": "4",
+      "bbox": [
+        256,
+        156,
+        524,
+        300
+      ],
+      "alt": "KiCad source page 7, ntc circuit crop",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "0ff78195-1c44-4475-9df5-61fc6c70a458",
+        "contentType": "image/png",
+        "byteLength": 18818
+      }
+    },
+    {
+      "order": 5,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/5s3u94vy",
+      "id": "5",
+      "bbox": [
+        78,
+        474,
+        870,
+        277
+      ],
+      "chartType": "line"
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qdsz6ps3",
+      "id": "6",
+      "name": "Three 10 kΩ NTCs, B3380",
+      "bbox": [
+        1030,
+        163,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "Three 10 kΩ NTCs, B3380",
+      "textPreview": "Three 10 kΩ NTCs, B3380",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Three 10 kΩ NTCs, B3380"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Three 10 kΩ NTCs, B3380",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Three 10 kΩ NTCs, B3380",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/re10zu98",
+      "id": "7",
+      "name": "TH701–TH703 monitor local phase heating. Each uses a 4.7 kΩ ",
+      "bbox": [
+        1030,
+        211,
+        510,
+        73
+      ],
+      "geometry": "rect",
+      "text": "TH701–TH703 monitor local phase heating. Each uses a 4.7 kΩ pull-up.",
+      "textPreview": "TH701–TH703 monitor local phase heating. Each uses a 4.7 kΩ pull-up.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TH701–TH703 monitor local phase"
+          },
+          {
+            "index": 2,
+            "text": "heating. Each uses a 4.7 kΩ pull-up."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TH701–TH703 monitor local phase heating. Each uses a 4.7 kΩ pull-up.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TH701–TH703 monitor local phase heating. Each uses a 4.7 kΩ pull-up.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4bah4zax",
+      "id": "8",
+      "name": "Sensitivity shifts toward warm operation",
+      "bbox": [
+        1030,
+        304,
+        510,
+        77
+      ],
+      "geometry": "rect",
+      "text": "Sensitivity shifts toward warm operation",
+      "textPreview": "Sensitivity shifts toward warm operation",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sensitivity shifts toward warm"
+          },
+          {
+            "index": 2,
+            "text": "operation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sensitivity shifts toward warm operation",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sensitivity shifts toward warm operation",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pcjix4ri",
+      "id": "9",
+      "name": "The lower fixed resistor improves the useful divider span at",
+      "bbox": [
+        1030,
+        388,
+        510,
+        141
+      ],
+      "geometry": "rect",
+      "text": "The lower fixed resistor improves the useful divider span at elevated temperature. Each ADC has 1 kΩ / 10 nF filtering.",
+      "textPreview": "The lower fixed resistor improves the useful divider span at elevated temperature. Each ADC has 1 kΩ / 10 nF filtering.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The lower fixed resistor improves the"
+          },
+          {
+            "index": 2,
+            "text": "useful divider span at elevated"
+          },
+          {
+            "index": 3,
+            "text": "temperature. Each ADC has 1 kΩ / 10"
+          },
+          {
+            "index": 4,
+            "text": "nF filtering."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The lower fixed resistor improves the useful divider span at elevated temperature. Each ADC has 1 kΩ / 10 nF filtering.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The lower fixed resistor improves the useful divider span at elevated temperature. Each ADC has 1 kΩ / 10 nF filtering.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgj21cjq",
+      "id": "10",
+      "name": "Use the hottest valid sensor",
+      "bbox": [
+        1030,
+        549,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "Use the hottest valid sensor",
+      "textPreview": "Use the hottest valid sensor",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Use the hottest valid sensor"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Use the hottest valid sensor",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use the hottest valid sensor",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfa1s725",
+      "id": "11",
+      "name": "An open NTC reads high, a short reads low. Sensor temperatur",
+      "bbox": [
+        1030,
+        597,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "An open NTC reads high, a short reads low. Sensor temperature lags MOSFET junction temperature.",
+      "textPreview": "An open NTC reads high, a short reads low. Sensor temperature lags MOSFET junction temperature.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "An open NTC reads high, a short reads"
+          },
+          {
+            "index": 2,
+            "text": "low. Sensor temperature lags MOSFET"
+          },
+          {
+            "index": 3,
+            "text": "junction temperature."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "An open NTC reads high, a short reads low. Sensor temperature lags MOSFET junction temperature.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "An open NTC reads high, a short reads low. Sensor temperature lags MOSFET junction temperature.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/be1kz21k",
+      "id": "12",
+      "name": "VADC = 3.3 × RNTC / (4.7 kΩ + RNTC)",
+      "bbox": [
+        60,
+        777,
+        1460,
+        57
+      ],
+      "geometry": "rect",
+      "text": "VADC = 3.3 × RNTC / (4.7 kΩ + RNTC)",
+      "textPreview": "VADC = 3.3 × RNTC / (4.7 kΩ + RNTC)",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VADC = 3.3 × RNTC / (4.7 kΩ + RNTC)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VADC = 3.3 × RNTC / (4.7 kΩ + RNTC)",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "VADC = 3.3 × RNTC / (4.7 kΩ + RNTC)",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

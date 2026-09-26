@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R502/R501
+* Expected Vout = 3.3 * 0.996711 = 3.2891 V
+* Model: ideal passives (exact, unloaded)
+
+VIN __unnamed_29 0 DC 3.3
+R502 __unnamed_29 BRAKE_PWM 33
+R501 BRAKE_PWM 0 10k
+
+.control
+op 
+let vout_sim = v(BRAKE_PWM)
+let error_pct = abs(vout_sim - 3.2891463) / 3.2891463 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=3.2891463" > ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/spice_work/voltage-divider_R502_R501.out
+quit
+.endc
+
+.end

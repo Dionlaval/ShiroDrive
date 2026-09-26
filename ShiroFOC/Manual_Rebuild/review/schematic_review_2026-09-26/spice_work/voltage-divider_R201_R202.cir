@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R201/R202
+* Expected Vout = 3.3 * 0.099910 = 0.3297 V
+* Model: ideal passives (exact, unloaded)
+
+VIN VCC 0 DC 3.3
+R201 VCC n10V_FB 100k
+R202 n10V_FB 0 11.1k
+
+.control
+op 
+let vout_sim = v(n10V_FB)
+let error_pct = abs(vout_sim - 0.32970299999999997) / 0.32970299999999997 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=0.32970299999999997" > ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/spice_work/voltage-divider_R201_R202.out
+quit
+.endc
+
+.end

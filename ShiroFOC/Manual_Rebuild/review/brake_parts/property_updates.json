@@ -1,0 +1,132 @@
+{
+  "R501": {
+    "MPN": "RC0603FR-0710KL",
+    "Manufacturer": "Yageo",
+    "Value": "10k",
+    "Rating": "1%; 0.1W; 75V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "Selection Note": "Logic/gate pulldown; retained existing value."
+  },
+  "R504": {
+    "MPN": "RC0603FR-0710KL",
+    "Manufacturer": "Yageo",
+    "Value": "10k",
+    "Rating": "1%; 0.1W; 75V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "Selection Note": "Logic/gate pulldown; retained existing value."
+  },
+  "R505": {
+    "MPN": "RC0603FR-0710KL",
+    "Manufacturer": "Yageo",
+    "Value": "10k",
+    "Rating": "1%; 0.1W; 75V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "Selection Note": "Logic/gate pulldown; retained existing value."
+  },
+  "R502": {
+    "MPN": "RC0603FR-0733RL",
+    "Manufacturer": "Yageo",
+    "Value": "33R",
+    "Rating": "1%; 0.1W; 75V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "Selection Note": "MCU command series resistor; retained existing value."
+  },
+  "R503": {
+    "MPN": "RC0603FR-074R7L",
+    "Manufacturer": "Yageo",
+    "Value": "4.7R",
+    "Rating": "1%; 0.1W; 75V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "Selection Note": "Gate edge damping; confirm switching waveform on prototype."
+  },
+  "R506": {
+    "MPN": "RT1206BRD07150KL",
+    "Manufacturer": "Yageo",
+    "Value": "150k 0.1% 200V",
+    "Rating": "0.1%; 25ppm/K; 0.25W; 200V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+    "Selection Note": "Three series resistors form 450k high-side divider; about 1.5mW each at 46V bus."
+  },
+  "R507": {
+    "MPN": "RT1206BRD07150KL",
+    "Manufacturer": "Yageo",
+    "Value": "150k 0.1% 200V",
+    "Rating": "0.1%; 25ppm/K; 0.25W; 200V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+    "Selection Note": "Three series resistors form 450k high-side divider; about 1.5mW each at 46V bus."
+  },
+  "R508": {
+    "MPN": "RT1206BRD07150KL",
+    "Manufacturer": "Yageo",
+    "Value": "150k 0.1% 200V",
+    "Rating": "0.1%; 25ppm/K; 0.25W; 200V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+    "Selection Note": "Three series resistors form 450k high-side divider; about 1.5mW each at 46V bus."
+  },
+  "R509": {
+    "MPN": "RT0603BRD0712K7L",
+    "Manufacturer": "Yageo",
+    "Value": "12.7k 0.1%",
+    "Rating": "0.1%; 25ppm/K; 0.1W; 75V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+    "Selection Note": "Divider lower leg; threshold approximately 45.9V rising with R510 and TLV3012B hysteresis."
+  },
+  "R510": {
+    "MPN": "RT0603BRD071ML",
+    "Manufacturer": "Yageo",
+    "Value": "1M 0.1%",
+    "Rating": "0.1%; 25ppm/K; 0.1W; 75V",
+    "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+    "Selection Note": "Positive feedback; release threshold approximately 44.2V. Not a battery charge threshold."
+  },
+  "C501": {
+    "MPN": "C1608X7R1E105K080AB",
+    "Manufacturer": "TDK",
+    "Value": "1uF 25V",
+    "Rating": "X7R; 10%; 25V",
+    "Datasheet": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1E105K080AB",
+    "Selection Note": "Local driver energy reservoir on 10V VCC; allow for DC bias loss."
+  },
+  "C502": {
+    "MPN": "C1608X7R1H104K080AA",
+    "Manufacturer": "TDK",
+    "Value": "100nF 50V",
+    "Rating": "X7R; 10%; 50V",
+    "Datasheet": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+    "Selection Note": "Local supply bypass; C502 at gate driver, C503 at comparator."
+  },
+  "C503": {
+    "MPN": "C1608X7R1H104K080AA",
+    "Manufacturer": "TDK",
+    "Value": "100nF 50V",
+    "Rating": "X7R; 10%; 50V",
+    "Datasheet": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608X7R1H104K080AA",
+    "Selection Note": "Local supply bypass; C502 at gate driver, C503 at comparator."
+  },
+  "C504": {
+    "MPN": "C1608C0G1H102J080AA",
+    "Manufacturer": "TDK",
+    "Value": "1nF C0G",
+    "Rating": "C0G; 5%; 50V",
+    "Datasheet": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1608C0G1H102J080AA",
+    "Selection Note": "Divider noise filter, nominal 12.2us time constant. Adds response delay; not a hard voltage clamp."
+  },
+  "D501": {
+    "MPN": "BZT52C12-7-F",
+    "Manufacturer": "Diodes Incorporated",
+    "Datasheet": "https://www.diodes.com/_files/datasheets/ds18004.pdf",
+    "Rating": "12V nominal; 500mW (datasheet mounting conditions)"
+  },
+  "U502": {
+    "Function": "Capacitor un-exploder",
+    "Protection Scope": "Board-bus overvoltage backup; NOT a BMS or battery/cell protector",
+    "Nominal Thresholds": "ON 45.9V; OFF 44.2V; tolerances and dynamic overshoot apply"
+  },
+  "J501": {
+    "MPN": "PCB feature",
+    "External Resistor MPN": "RH25010R00FE01",
+    "External Resistor Manufacturer": "Vishay Dale",
+    "External Resistor Rating": "10 ohm; 1%; 250W with datasheet heatsink at 25C; derate with temperature",
+    "Selection Note": "Provisional off-board bench resistor. 211.6W and 4.6A at 46V full-on. Resistor/heatsink and braking-energy validation required for each application."
+  }
+}

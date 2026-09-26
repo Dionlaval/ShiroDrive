@@ -1,0 +1,20 @@
+* Auto-generated testbench for regulator feedback: U201
+* Divider: R201/R202, ratio=0.0999
+* Expected Vout=3.3V, Vfb=0.3297V (Vref=0.6V)
+* Topology: standard
+* Model: ideal passives (exact for DC divider)
+
+VIN out_rail 0 DC 3.3
+R201 out_rail fb_net 100k
+R202 fb_net 0 11.1k
+
+.control
+op 
+let vfb_sim = v(fb_net)
+let expected = 0.32970299999999997
+let error_pct = abs(vfb_sim - expected) / expected * 100
+echo "vfb_sim=$&vfb_sim error_pct=$&error_pct expected=0.32970299999999997 vin=3.3 vref=0.6" > ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/spice_work/regulator-feedback_U201_R201_R202.out
+quit
+.endc
+
+.end

@@ -1,0 +1,24 @@
+Reference,Value,MPN,Manufacturer,Rating,Note
+U501,UCC27517ADBVR,UCC27517ADBVR,,"See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified",
+R509,12.7k 0.1%,RT0603BRD0712K7L,Yageo,0.1%; 25ppm/K; 0.1W; 75V,Divider lower leg; threshold approximately 45.9V rising with R510 and TLV3012B hysteresis.
+D501,BZT52C12 12V,BZT52C12-7-F,Diodes Incorporated,12V nominal; 500mW (datasheet mounting conditions),
+Q501,CSD19531Q5A 100V,CSD19531Q5A,,"See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified",
+R501,10k,RC0603FR-0710KL,Yageo,1%; 0.1W; 75V,Logic/gate pulldown; retained existing value.
+R510,1M 0.1%,RT0603BRD071ML,Yageo,0.1%; 25ppm/K; 0.1W; 75V,Positive feedback; release threshold approximately 44.2V. Not a battery charge threshold.
+C504,1nF C0G,C1608C0G1H102J080AA,TDK,C0G; 5%; 50V,"Divider noise filter, nominal 12.2us time constant. Adds response delay; not a hard voltage clamp."
+R506,150k 0.1% 200V,RT1206BRD07150KL,Yageo,0.1%; 25ppm/K; 0.25W; 200V,Three series resistors form 450k high-side divider; about 1.5mW each at 46V bus.
+R505,10k,RC0603FR-0710KL,Yageo,1%; 0.1W; 75V,Logic/gate pulldown; retained existing value.
+C502,100nF 50V,C1608X7R1H104K080AA,TDK,X7R; 10%; 50V,"Local supply bypass; C502 at gate driver, C503 at comparator."
+D502,BAT54H,"BAT54H,115",,"See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified",
+U502,TLV3012BIDBVR,TLV3012BIDBVR,,"See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified",
+R507,150k 0.1% 200V,RT1206BRD07150KL,Yageo,0.1%; 25ppm/K; 0.25W; 200V,Three series resistors form 450k high-side divider; about 1.5mW each at 46V bus.
+D503,BAT54H,"BAT54H,115",,"See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified",
+R502,33R,RC0603FR-0733RL,Yageo,1%; 0.1W; 75V,MCU command series resistor; retained existing value.
+C501,1uF 25V,C1608X7R1E105K080AB,TDK,X7R; 10%; 25V,Local driver energy reservoir on 10V VCC; allow for DC bias loss.
+R504,10k,RC0603FR-0710KL,Yageo,1%; 0.1W; 75V,Logic/gate pulldown; retained existing value.
+R508,150k 0.1% 200V,RT1206BRD07150KL,Yageo,0.1%; 25ppm/K; 0.25W; 200V,Three series resistors form 450k high-side divider; about 1.5mW each at 46V bus.
+C503,100nF 50V,C1608X7R1H104K080AA,TDK,X7R; 10%; 50V,"Local supply bypass; C502 at gate driver, C503 at comparator."
+R503,4.7R,RC0603FR-074R7L,Yageo,1%; 0.1W; 75V,Gate edge damping; confirm switching waveform on prototype.
+D504,B5100C 100V 5A,B5100C-13-F,,"See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified",
+J501,BRAKE RESISTOR,PCB feature,,"See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified",Provisional off-board bench resistor. 211.6W and 4.6A at 46V full-on. Resistor/heatsink and braking-energy validation required for each application.
+External accessory at J501,10 ohm 250W,RH25010R00FE01,Vishay Dale,1%; 250W at 25C with specified heatsink; temperature derating applies,Provisional off-board resistor; not a PCB assembly line item. Size final resistor and heatsink for actual braking duty and energy.

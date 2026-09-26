@@ -1,0 +1,14 @@
+Sensor interface RC checks -- ideal lumped capacitors, not a sensor or PCB model
+Vstep src 0 PULSE(0 3.3 1u 1n 1n 10u 20u)
+Rpu src scl 2.2k
+Cbus scl 0 150p
+Vhall vh 0 5
+Rhall vh hall 4.7k
+Rdown hall 0 100k
+.control
+tran 1n 3u
+meas tran rise_30_70 TRIG v(scl) VAL=0.99 RISE=1 TARG v(scl) VAL=2.31 RISE=1
+op
+print v(hall)
+.endc
+.end

@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R201/R202
+* Expected Vout = 5.0 * 0.199359 = 0.9968 V
+* Model: ideal passives (exact, unloaded)
+
+VIN n5V_BAT 0 DC 5.0
+R201 n5V_BAT n5V_FB 100k
+R202 n5V_FB 0 24.9k
+
+.control
+op 
+let vout_sim = v(n5V_FB)
+let error_pct = abs(vout_sim - 0.9967950000000001) / 0.9967950000000001 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=0.9967950000000001" > /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R201_R202.out
+quit
+.endc
+
+.end

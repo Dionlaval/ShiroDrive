@@ -1,8 +1,8 @@
 # ShiroDrive
 
-ShiroDrive is an independent motion control project focused on building modular stepper motor control hardware and applying it to experimental robotic systems.
+ShiroDrive is an independent motion-control project focused on modular motor-drive hardware and experimental robotic systems.
 
-The current focus is precise, high-quality motion using custom electronics and firmware — starting with stepper control and CoreXY machines.
+The current hardware direction includes both stepper control and compact, networked FOC servo modules.
 
 This is an evolving engineering project.
 
@@ -18,7 +18,7 @@ ShiroDrive currently explores:
 - Resonance mitigation and control refinement
 - CoreXY motion architectures
 
-All control and firmware development is currently based on the **ESP32** platform.
+The stepper platform uses ESP32, while ShiroFOC is based on the STSPIN32G4 with its embedded STM32G431 motor-control MCU.
 
 ESP32 provides:
 
@@ -26,6 +26,14 @@ ESP32 provides:
 - Flexible peripheral configuration
 - Wireless debugging and telemetry
 - Rapid prototyping flexibility
+
+STSPIN32G4 provides:
+
+- Integrated STM32G4 real-time motor-control MCU
+- Three external-MOSFET gate drivers
+- Integrated current-sense op-amps and hardware protection comparators
+- CAN-based modular communication
+- Compact single-axis FOC architecture
 
 ---
 
@@ -44,6 +52,21 @@ Focus areas:
 - Firmware-driven motion refinement
 
 This board forms the foundation of all current machines.
+
+### ShiroFOC
+
+A single-axis, 48 V-class FOC servo module for robotics.
+
+Planned features include:
+
+- STSPIN32G4 controller and external three-phase MOSFET bridge
+- Three-shunt phase-current sensing
+- CAN communication to a coordinating motherboard
+- Integrated magnetic encoder and 6-axis IMU
+- External Hall and encoder inputs
+- SWD programming and debug
+
+See [ShiroFOC design constraints](ShiroFOC/docs/DESIGN_CONSTRAINTS.md) for the preliminary Rev A targets.
 
 ---
 

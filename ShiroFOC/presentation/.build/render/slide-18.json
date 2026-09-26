@@ -1,0 +1,765 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/diihj3",
+    "id": "diihj3",
+    "slide": 18,
+    "layoutId": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F7F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cvqhcfa",
+      "id": "1",
+      "name": "Local capacitors, ringing and snubbers",
+      "bbox": [
+        58,
+        42,
+        1475,
+        87
+      ],
+      "geometry": "rect",
+      "text": "Local capacitors, ringing and snubbers",
+      "textPreview": "Local capacitors, ringing and snubbers",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 47,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Local capacitors, ringing and snubbers"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Local capacitors, ringing and snubbers",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Local capacitors, ringing and snubbers",
+              "fontSize": 47,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9476xgz",
+      "id": "2",
+      "name": "18",
+      "bbox": [
+        1490,
+        833,
+        60,
+        31
+      ],
+      "geometry": "rect",
+      "text": "18",
+      "textPreview": "18",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "18"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "18",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "18",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fad8f2xk",
+      "id": "3",
+      "name": "KiCad schematic, page 6",
+      "bbox": [
+        60,
+        837,
+        1360,
+        25
+      ],
+      "geometry": "rect",
+      "text": "KiCad schematic, page 6",
+      "textPreview": "KiCad schematic, page 6",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KiCad schematic, page 6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KiCad schematic, page 6",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KiCad schematic, page 6",
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/9sb6h8ri",
+      "id": "4",
+      "bbox": [
+        291,
+        157,
+        464,
+        588
+      ],
+      "alt": "KiCad source page 6, localcaps circuit crop",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "97fba373-7c4b-4f7e-852e-0f3f0bbf1b67",
+        "contentType": "image/png",
+        "byteLength": 51284
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0fqlcfm",
+      "id": "5",
+      "name": "Two different return points",
+      "bbox": [
+        1030,
+        163,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "Two different return points",
+      "textPreview": "Two different return points",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Two different return points"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Two different return points",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Two different return points",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x47ahgv",
+      "id": "6",
+      "name": "C412 = 1 µF to GND. C415 = 10 nF directly to the source abov",
+      "bbox": [
+        1030,
+        211,
+        510,
+        73
+      ],
+      "geometry": "rect",
+      "text": "C412 = 1 µF to GND. C415 = 10 nF directly to the source above the shunt.",
+      "textPreview": "C412 = 1 µF to GND. C415 = 10 nF directly to the source above the shunt.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C412 = 1 µF to GND. C415 = 10 nF"
+          },
+          {
+            "index": 2,
+            "text": "directly to the source above the shunt."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C412 = 1 µF to GND. C415 = 10 nF directly to the source above the shunt.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "C412 = 1 µF to GND. C415 = 10 nF directly to the source above the shunt.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3yd8j2xg",
+      "id": "7",
+      "name": "R415 / C413 are DNP",
+      "bbox": [
+        1030,
+        304,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "R415 / C413 are DNP",
+      "textPreview": "R415 / C413 are DNP",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "R415 / C413 are DNP"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "R415 / C413 are DNP",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "R415 / C413 are DNP",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c369gryx",
+      "id": "8",
+      "name": "A series RC branch can damp phase-node resonance after measu",
+      "bbox": [
+        1030,
+        352,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "A series RC branch can damp phase-node resonance after measurement identifies the ringing.",
+      "textPreview": "A series RC branch can damp phase-node resonance after measurement identifies the ringing.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A series RC branch can damp"
+          },
+          {
+            "index": 2,
+            "text": "phase-node resonance after"
+          },
+          {
+            "index": 3,
+            "text": "measurement identifies the ringing."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A series RC branch can damp phase-node resonance after measurement identifies the ringing.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A series RC branch can damp phase-node resonance after measurement identifies the ringing.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4fqpwfi",
+      "id": "9",
+      "name": "42 V and regeneration need attention",
+      "bbox": [
+        1030,
+        479,
+        510,
+        77
+      ],
+      "geometry": "rect",
+      "text": "42 V and regeneration need attention",
+      "textPreview": "42 V and regeneration need attention",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "42 V and regeneration need"
+          },
+          {
+            "index": 2,
+            "text": "attention"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "42 V and regeneration need attention",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "42 V and regeneration need attention",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkzmd8fy",
+      "id": "10",
+      "name": "TI calls for RC snubbers in its 42–54 V input region. This b",
+      "bbox": [
+        1030,
+        563,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "TI calls for RC snubbers in its 42–54 V input region. This board has no fitted phase snubber yet.",
+      "textPreview": "TI calls for RC snubbers in its 42–54 V input region. This board has no fitted phase snubber yet.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "TI calls for RC snubbers in its 42–54 V"
+          },
+          {
+            "index": 2,
+            "text": "input region. This board has no fitted"
+          },
+          {
+            "index": 3,
+            "text": "phase snubber yet."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "TI calls for RC snubbers in its 42–54 V input region. This board has no fitted phase snubber yet.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "TI calls for RC snubbers in its 42–54 V input region. This board has no fitted phase snubber yet.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjq5k3yd",
+      "id": "11",
+      "name": "Commissioning target: measured VDS peaks below 55 V, with ma",
+      "bbox": [
+        60,
+        777,
+        1460,
+        57
+      ],
+      "geometry": "rect",
+      "text": "Commissioning target: measured VDS peaks below 55 V, with margin to the 60 V absolute limit.",
+      "textPreview": "Commissioning target: measured VDS peaks below 55 V, with margin to the 60 V absolute limit.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Commissioning target: measured VDS peaks below 55 V, with margin to the 60 V absolute limit."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Commissioning target: measured VDS peaks below 55 V, with margin to the 60 V absolute limit.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Commissioning target: measured VDS peaks below 55 V, with margin to the 60 V absolute limit.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

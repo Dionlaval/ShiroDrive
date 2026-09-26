@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R106/R105
+* Expected Vout = 5.0 * 0.964286 = 4.8214 V
+* Model: ideal passives (exact, unloaded)
+
+VIN VBUS_MUX_IN 0 DC 5.0
+R106 VBUS_MUX_IN __unnamed_2 1k
+R105 __unnamed_2 0 27k
+
+.op 
+
+.end

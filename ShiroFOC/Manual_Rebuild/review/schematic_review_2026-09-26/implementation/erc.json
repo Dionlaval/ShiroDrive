@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-26T22:18:08+0100",
+    "kicad_version": "9.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9",
+            "violations": []
+        },
+        {
+            "path": "/DC link / input/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159",
+            "violations": []
+        },
+        {
+            "path": "/5 V / 3.3 V power/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/8ca6a06b-6ca2-4f85-8b36-9985a90d4b51",
+            "violations": []
+        },
+        {
+            "path": "/MCU / clock / SWD/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772",
+            "violations": []
+        },
+        {
+            "path": "/Gate driver / VCC/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/caea6781-5777-4ffc-bcfd-2962cd62fd15",
+            "violations": []
+        },
+        {
+            "path": "/Three-phase bridge/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747",
+            "violations": []
+        },
+        {
+            "path": "/Current / temperature/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/73a3ad8a-8b99-485f-a068-1c059917a31b",
+            "violations": []
+        },
+        {
+            "path": "/Brake chopper/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/5ceb4185-62cb-4c9d-9d51-ca14fe464dec",
+            "violations": []
+        },
+        {
+            "path": "/Encoder / IMU/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/fa38cb73-7f02-40fb-8ef4-f35ba7d105ca",
+            "violations": []
+        },
+        {
+            "path": "/External feedback/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/924ea1ce-eeef-4d2a-928e-6e88c4a8e14a",
+            "violations": []
+        },
+        {
+            "path": "/CAN interface/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907",
+            "violations": []
+        },
+        {
+            "path": "/USB service/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/125ed450-03d7-4cd4-8a9e-840ff4ab4934",
+            "violations": []
+        }
+    ],
+    "source": "ShiroFOC_Manual.kicad_sch"
+}

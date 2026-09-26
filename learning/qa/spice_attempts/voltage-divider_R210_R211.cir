@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R210/R211
+* Expected Vout = 5.0 * 0.195402 = 0.9770 V
+* Model: ideal passives (exact, unloaded)
+
+VIN n5V_BAT 0 DC 5.0
+R210 n5V_BAT __unnamed_9 21k
+R211 __unnamed_9 0 5.1k
+
+.op 
+
+.end

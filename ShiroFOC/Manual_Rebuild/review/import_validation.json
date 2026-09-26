@@ -1,0 +1,97 @@
+{
+  "status": "schematic review baseline; not fabrication release",
+  "checks_passed": [
+    "copied source component properties",
+    "copied source net partition",
+    "bridge net partition and byte hash",
+    "bootstrap and Kelvin interfaces",
+    "one U4 / 65 pin footprint coverage",
+    "imported footprint/model/PCB preservation"
+  ],
+  "component_count": 252,
+  "copied_components": 230,
+  "retained_bridge_components": 22,
+  "backup": "ShiroFOC/backups/manual_before_reference_merge_2026-09-24_220041.zip",
+  "source": "ShiroFOC/ShiroFOC_KiCad_P1",
+  "remaining_mos_symbol_pins_without_matching_pad": [
+    "[12-20]",
+    "[3-11]"
+  ],
+  "remaining_mos_pads_without_matching_pin": [
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "23",
+    "24",
+    "25",
+    "26",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "V"
+  ],
+  "unresolved_assigned_footprints": [],
+  "referenced_model_files_missing": [
+    {
+      "reference": "J101",
+      "model": "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-M_1x02_P7.20mm_Horizontal.step"
+    },
+    {
+      "reference": "U203",
+      "model": "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_VQFN-HR-12_2x2.5mm_P0.5mm.step"
+    },
+    {
+      "reference": "J501",
+      "model": "${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm.step"
+    },
+    {
+      "reference": "D601",
+      "model": "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/Texas_R-PDSO-N5_DRL-5.step"
+    },
+    {
+      "reference": "J201",
+      "model": "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+    },
+    {
+      "reference": "U901",
+      "model": "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm.step"
+    }
+  ],
+  "blank_footprint_references": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "J1",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6"
+  ],
+  "download_catalogue": "downloads/component_footprint_map.csv",
+  "erc_total": 16,
+  "erc_note": "4 existing library mismatches, 5 existing bridge pin-type conflicts, 7 power-drive annotations on retained bridge/bootstrap interface; no ERC suppressions added."
+}

@@ -1,0 +1,769 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/b7rk7r",
+    "id": "b7rk7r",
+    "slide": 15,
+    "layoutId": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F7F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9wnaxk7e",
+      "id": "1",
+      "name": "Bootstrap refresh and PWM limits",
+      "bbox": [
+        58,
+        42,
+        1475,
+        87
+      ],
+      "geometry": "rect",
+      "text": "Bootstrap refresh and PWM limits",
+      "textPreview": "Bootstrap refresh and PWM limits",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 47,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bootstrap refresh and PWM limits"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bootstrap refresh and PWM limits",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bootstrap refresh and PWM limits",
+              "fontSize": 47,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mtwrm5o3",
+      "id": "2",
+      "name": "15",
+      "bbox": [
+        1490,
+        833,
+        60,
+        31
+      ],
+      "geometry": "rect",
+      "text": "15",
+      "textPreview": "15",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "15"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "15",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "15",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nu5svapo",
+      "id": "3",
+      "name": "KiCad schematic, page 6",
+      "bbox": [
+        60,
+        837,
+        1360,
+        25
+      ],
+      "geometry": "rect",
+      "text": "KiCad schematic, page 6",
+      "textPreview": "KiCad schematic, page 6",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KiCad schematic, page 6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KiCad schematic, page 6",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KiCad schematic, page 6",
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/xcfm1oj6",
+      "id": "4",
+      "bbox": [
+        292,
+        157,
+        462,
+        588
+      ],
+      "alt": "KiCad source page 6, phase circuit crop",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "e183b4e7-abcc-495c-a7e4-45178763c29b",
+        "contentType": "image/png",
+        "byteLength": 51248
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk7a147q",
+      "id": "5",
+      "name": "20 kHz gives a 50 µs period",
+      "bbox": [
+        1030,
+        163,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "20 kHz gives a 50 µs period",
+      "textPreview": "20 kHz gives a 50 µs period",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "20 kHz gives a 50 µs period"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "20 kHz gives a 50 µs period",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "20 kHz gives a 50 µs period",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/axgbqpoz",
+      "id": "6",
+      "name": "Low-side time must support both bootstrap replenishment and ",
+      "bbox": [
+        1030,
+        211,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "Low-side time must support both bootstrap replenishment and valid current sampling.",
+      "textPreview": "Low-side time must support both bootstrap replenishment and valid current sampling.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Low-side time must support both"
+          },
+          {
+            "index": 2,
+            "text": "bootstrap replenishment and valid"
+          },
+          {
+            "index": 3,
+            "text": "current sampling."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Low-side time must support both bootstrap replenishment and valid current sampling.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Low-side time must support both bootstrap replenishment and valid current sampling.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vypszupk",
+      "id": "7",
+      "name": "Internal charging resistance matters",
+      "bbox": [
+        1030,
+        338,
+        510,
+        77
+      ],
+      "geometry": "rect",
+      "text": "Internal charging resistance matters",
+      "textPreview": "Internal charging resistance matters",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Internal charging resistance"
+          },
+          {
+            "index": 2,
+            "text": "matters"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Internal charging resistance matters",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Internal charging resistance matters",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c3u9gv61",
+      "id": "8",
+      "name": "The local ST datasheet lists 100 Ω typical, 200 Ω maximum. W",
+      "bbox": [
+        1030,
+        422,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "The local ST datasheet lists 100 Ω typical, 200 Ω maximum. With 100 nF, the simple RC scale is 10–20 µs.",
+      "textPreview": "The local ST datasheet lists 100 Ω typical, 200 Ω maximum. With 100 nF, the simple RC scale is 10–20 µs.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The local ST datasheet lists 100 Ω"
+          },
+          {
+            "index": 2,
+            "text": "typical, 200 Ω maximum. With 100 nF,"
+          },
+          {
+            "index": 3,
+            "text": "the simple RC scale is 10–20 µs."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The local ST datasheet lists 100 Ω typical, 200 Ω maximum. With 100 nF, the simple RC scale is 10–20 µs.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The local ST datasheet lists 100 Ω typical, 200 Ω maximum. With 100 nF, the simple RC scale is 10–20 µs.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/do3ap076",
+      "id": "9",
+      "name": "No static high-side 100% duty",
+      "bbox": [
+        1030,
+        549,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "No static high-side 100% duty",
+      "textPreview": "No static high-side 100% duty",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "No static high-side 100% duty"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "No static high-side 100% duty",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No static high-side 100% duty",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/po3qx8j6",
+      "id": "10",
+      "name": "Precharge at startup and enforce refresh intervals. Determin",
+      "bbox": [
+        1030,
+        597,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "Precharge at startup and enforce refresh intervals. Determine the modulation limit from measured BOOT–OUT voltage.",
+      "textPreview": "Precharge at startup and enforce refresh intervals. Determine the modulation limit from measured BOOT–OUT voltage.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Precharge at startup and enforce refresh"
+          },
+          {
+            "index": 2,
+            "text": "intervals. Determine the modulation limit"
+          },
+          {
+            "index": 3,
+            "text": "from measured BOOT–OUT voltage."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Precharge at startup and enforce refresh intervals. Determine the modulation limit from measured BOOT–OUT voltage.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Precharge at startup and enforce refresh intervals. Determine the modulation limit from measured BOOT–OUT voltage.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o3u9o32l",
+      "id": "11",
+      "name": "An RC illustration: 90% recharge from empty takes about 2.3τ",
+      "bbox": [
+        60,
+        777,
+        1460,
+        57
+      ],
+      "geometry": "rect",
+      "text": "An RC illustration: 90% recharge from empty takes about 2.3τ = 23–46 µs.",
+      "textPreview": "An RC illustration: 90% recharge from empty takes about 2.3τ = 23–46 µs.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "An RC illustration: 90% recharge from empty takes about 2.3τ = 23–46 µs."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "An RC illustration: 90% recharge from empty takes about 2.3τ = 23–46 µs.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "An RC illustration: 90% recharge from empty takes about 2.3τ = 23–46 µs.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

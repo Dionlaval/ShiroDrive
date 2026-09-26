@@ -1,0 +1,364 @@
+[
+  {
+    "net": "/SPI sensors/BMI323_MISO_RAW",
+    "ref": "U701",
+    "pin": "1",
+    "new_items": [
+      "ca8d0b35-124b-42ae-996b-ef88a5efb4ea",
+      "1cf609d1-325b-4b55-b3d8-3b92daff20a7"
+    ]
+  },
+  {
+    "net": "IMU_INT1",
+    "ref": "U701",
+    "pin": "4",
+    "new_items": [
+      "0f547154-7443-4820-a057-3385c37e78a1",
+      "a360e7e4-0649-49d5-9937-6982ae6ecdc8"
+    ]
+  },
+  {
+    "net": "IMU_INT2",
+    "ref": "U701",
+    "pin": "9",
+    "new_items": [
+      "0716c03c-1fe3-44c8-beca-5069600ec3fc",
+      "f62a438b-b2bd-42f5-9d41-938284b6cce8",
+      "d50cd347-6da9-4e8a-af79-1a0e93796252"
+    ]
+  },
+  {
+    "net": "/SPI sensors/SPI3_MOSI",
+    "ref": "U701",
+    "pin": "14",
+    "new_items": [
+      "0de428c5-ee32-486b-86df-99490dbe9a3a",
+      "d2310c13-8f83-4991-86f7-3289d64d483a"
+    ]
+  },
+  {
+    "net": "/MCU / clock / SWD/SPARE_GPIO_3",
+    "ref": "U301",
+    "pin": "3",
+    "new_items": [
+      "44c9b426-5c9c-4db1-9512-b899b468bb6c",
+      "9db765b3-dd81-48fa-88e1-5d874ee914a8",
+      "0bad2185-6fda-4969-8da1-abab59c43e98",
+      "7568be08-bc97-4086-a68b-c9afdbeea3ea",
+      "62e20659-858c-4117-8559-bb239cd86b4e"
+    ]
+  },
+  {
+    "net": "NTC_PHASE_B",
+    "ref": "U301",
+    "pin": "9",
+    "new_items": [
+      "1328b3f0-4731-41c0-8e01-cca891647355",
+      "10bc6e4f-c74f-4595-a89f-32599a3ce817",
+      "bda8c28f-e603-41e6-9100-438f1a93b844",
+      "669a0e14-26ef-47a1-9285-0d25bf6aacaf",
+      "9b0787a6-8ccf-4bdf-91ef-b23d1746be36",
+      "68e3546c-56b3-4d3f-a16c-abd872cbcdeb"
+    ]
+  },
+  {
+    "net": "NTC_PHASE_C",
+    "ref": "U301",
+    "pin": "10",
+    "new_items": [
+      "b99b594c-b2bb-4bfe-92c7-1feb39ab5ad9",
+      "3958e15d-1f8b-4fa9-8ae6-4cc8b847255d",
+      "bb129f0d-35b8-44c3-b101-23a83a0339a9",
+      "859e8e63-256a-4146-8a0c-176ff4296ef7",
+      "e7dde479-2e77-45fd-80f9-67db471a4e4e",
+      "bc48d24b-265e-46b9-9003-fe989f77f506",
+      "b5b1853f-c6f7-45f0-b809-c8f8e6255467",
+      "92ed502f-f8a6-4532-ae41-500f10c49ca2"
+    ]
+  },
+  {
+    "net": "IMU_INT1",
+    "ref": "U301",
+    "pin": "17",
+    "new_items": [
+      "f89d21f5-647f-4468-b02a-785e3b36cc47",
+      "71661d51-bfbc-42c2-8c47-4da6ae98558f",
+      "282fbf43-67a9-4a65-b518-6dc3f34696d2",
+      "5729073f-aaf0-438f-b0f2-bf23df76d734"
+    ]
+  },
+  {
+    "net": "IMU_INT2",
+    "ref": "U301",
+    "pin": "18",
+    "new_items": [
+      "b4cb43f9-375c-4faa-9e09-5756ba4f3937",
+      "952f69b4-a874-47be-bb7e-fec0facfcfbc",
+      "5097948f-f7fc-4ff1-b28d-cd4b3556ce78",
+      "fdea9dfd-c9ab-4219-a3de-b5c4614d3ad7",
+      "6121ed24-e67e-4389-97ef-a8b2cc30ec04"
+    ]
+  },
+  {
+    "net": "CAN_STB",
+    "ref": "U301",
+    "pin": "28",
+    "new_items": [
+      "dc77716b-166d-4324-b99d-39b933915db6",
+      "a273bb19-b4aa-4cad-982c-818f6d99ec72"
+    ]
+  },
+  {
+    "net": "/MCU / clock / SWD/SPARE_TIM_GPIO",
+    "ref": "U301",
+    "pin": "44",
+    "new_items": [
+      "eb2e6d12-a583-4291-8609-1044fe3c497b",
+      "151242d3-20b3-4d4d-8ad6-895d9842567e",
+      "b05479f6-2b64-4243-9837-99302cebf156"
+    ]
+  },
+  {
+    "net": "USB_UART_TX",
+    "ref": "U301",
+    "pin": "45",
+    "new_items": [
+      "754eb95d-3f81-4e70-88bf-79b6abfbf260",
+      "63f73a58-a8c7-41c1-aee3-a320917fae45",
+      "da5b391d-4c5b-4b11-9c27-6b4e682cb2b9",
+      "0f6d95b0-4295-4ccd-9328-e2e4f4c56117",
+      "bd9c9acf-3326-49f6-b774-5d91bf1b65f8"
+    ]
+  },
+  {
+    "net": "FDCAN1_RX",
+    "ref": "U301",
+    "pin": "47",
+    "new_items": [
+      "97713a38-3c4a-495d-8596-2f2987f99462",
+      "f256a9b2-193d-4651-9333-f7ab972d8192"
+    ]
+  },
+  {
+    "net": "FDCAN1_TX",
+    "ref": "U301",
+    "pin": "48",
+    "new_items": [
+      "1aa3ede3-5657-4b16-9222-bc51d6bf7c16",
+      "1dcca9d6-9486-4779-a8c0-4fb54512a19e"
+    ]
+  },
+  {
+    "net": "Net-(U301A-PA13{slash}SWDIO)",
+    "ref": "U301",
+    "pin": "49",
+    "new_items": [
+      "f7651a25-6ff2-4210-8657-54d22bcaed57",
+      "f0bfd1ce-9075-4423-ac38-9f9b3ade43e5",
+      "d448272d-1d85-45b7-b4fe-9b875a9bba17"
+    ]
+  },
+  {
+    "net": "Net-(U301A-PA14{slash}SWCLK)",
+    "ref": "U301",
+    "pin": "50",
+    "new_items": [
+      "03b19785-1a40-4a24-ab27-ccd4abb2fbdb",
+      "1ff8d5f0-e2f0-4262-befe-b47a5e72dd54"
+    ]
+  },
+  {
+    "net": "AS5047P_CS_N",
+    "ref": "U301",
+    "pin": "51",
+    "new_items": [
+      "7165fe65-fe30-4b1f-9c89-163dc501fbd5",
+      "0728343d-a7da-435b-a258-3ef5a2fc73e8"
+    ]
+  },
+  {
+    "net": "FEEDBACK_SELECT",
+    "ref": "U301",
+    "pin": "53",
+    "new_items": [
+      "ab314d4c-b53b-4a41-a7ef-e42d1e825742",
+      "94eebfbe-b2af-4037-9b3a-8d00dff324d3",
+      "67ce3475-52e5-474b-9f02-3a394f8a4568",
+      "1b55f85c-86e6-48ad-b5f7-c1432d99fc98"
+    ]
+  },
+  {
+    "net": "SPI3_SCK_MCU",
+    "ref": "U301",
+    "pin": "54",
+    "new_items": [
+      "5ec35be8-50f7-412e-8c96-41aa0366cace",
+      "8f5ee453-6e62-4f02-8eb9-611dd8fb9b6d",
+      "e648d266-3e06-4154-a0c2-12785969559c",
+      "3a6791a1-fbeb-48d2-be18-2c8f8c3aaf85"
+    ]
+  },
+  {
+    "net": "SPI3_MOSI_MCU",
+    "ref": "U301",
+    "pin": "56",
+    "new_items": [
+      "19805ba5-f8e7-48d7-9499-d8b5471d88bc",
+      "05abac53-4ea9-449d-8bd8-bc8783b9a287"
+    ]
+  },
+  {
+    "net": "FEEDBACK_A_H1",
+    "ref": "U301",
+    "pin": "57",
+    "new_items": [
+      "b8f955ef-b560-454a-9307-db853dd115a9",
+      "4f7fab7a-8dfe-4cd4-9869-f95574591c72",
+      "339a7926-74b7-4895-9102-12cf0961237f",
+      "50e6095d-2492-4160-9386-4292b0d8dcad",
+      "2370e715-31dc-4499-8418-5c09d0c39832",
+      "233c8bfe-39f5-4ab2-9b9d-5fa1e221e311"
+    ]
+  },
+  {
+    "net": "FEEDBACK_I_H3",
+    "ref": "U301",
+    "pin": "59",
+    "new_items": [
+      "621cd8f9-7544-4a2b-9270-63cfeb5a7979",
+      "819680ff-5daf-4df1-ba8b-049d64db2998"
+    ]
+  },
+  {
+    "net": "BRAKE_PWM",
+    "ref": "U301",
+    "pin": "60",
+    "new_items": [
+      "79050c9f-bc98-41de-a84a-d0496c31b03b",
+      "040b7671-a16d-4fc1-b353-e479d98df313"
+    ]
+  },
+  {
+    "net": "Net-(D302-K)",
+    "ref": "U301",
+    "pin": "62",
+    "new_items": [
+      "525dafeb-cc27-4cda-a77e-47e44333bb7f",
+      "0f45893e-4fec-4e9b-bd17-6bfd5c0bb548",
+      "6da047d0-f51a-4383-a97e-eee53b8dff90",
+      "83e6dec1-4f1e-46e2-8c7d-5bc8c17506c1"
+    ]
+  },
+  {
+    "net": "Net-(U203-OV1)",
+    "ref": "U203",
+    "pin": "5",
+    "new_items": [
+      "48b17028-7d9b-41af-934f-e60d0dfeb268",
+      "1c1bad3e-8585-49d5-9b9c-cbd97e92a08f",
+      "d5e1c43d-37cc-4c92-b384-f3e53f4432bd"
+    ]
+  },
+  {
+    "net": "/USB service/USB_DM_CONN",
+    "ref": "U202",
+    "pin": "1",
+    "new_items": [
+      "6aed9abc-be0c-4d0c-8889-3e54df0c0ad5",
+      "ffd7167d-91a8-4168-97c1-0c1a38134934"
+    ]
+  },
+  {
+    "net": "/USB service/USB_DP",
+    "ref": "U202",
+    "pin": "4",
+    "new_items": [
+      "e9645574-1cc0-45a1-88cc-cdb9b3d8ee50",
+      "d4204c6c-2e49-42bd-8870-60d01ff8ba44"
+    ]
+  },
+  {
+    "net": "/USB service/USB_DP",
+    "ref": "U901",
+    "pin": "4",
+    "new_items": [
+      "92e22a7c-40f0-47fa-a9af-93ce784e5efd",
+      "246be411-7196-4fea-8843-38471d1b2634",
+      "ae4be568-6ab9-435e-847f-59ee81baa5b3"
+    ]
+  },
+  {
+    "net": "AS5047P_CS_N",
+    "ref": "U601",
+    "pin": "1",
+    "new_items": [
+      "db6c92c7-c527-4aef-94b1-9756dcbea55d",
+      "36108810-8e39-42fd-a7b7-2c4e05a6009a"
+    ]
+  },
+  {
+    "net": "/SPI sensors/SPI3_SCK",
+    "ref": "U601",
+    "pin": "2",
+    "new_items": [
+      "4e575971-869a-4098-a685-c57e918408c9",
+      "b19d0d9d-816c-47a1-8b49-20eddcd5b773"
+    ]
+  },
+  {
+    "net": "/SPI sensors/ENC_ON_B",
+    "ref": "U601",
+    "pin": "6",
+    "new_items": [
+      "6c58dac0-cd9c-4a78-9702-6c77387e0db1",
+      "d909e7eb-e5fe-406f-90a3-8d2b478767fd"
+    ]
+  },
+  {
+    "net": "/SPI sensors/ENC_ON_I",
+    "ref": "U601",
+    "pin": "14",
+    "new_items": [
+      "481ea192-1a83-4f8d-b0c2-bb2e863d29b6",
+      "5ce649ce-92e1-4fda-9ae5-dfa013a2a4bb"
+    ]
+  },
+  {
+    "net": "FEEDBACK_A_H1",
+    "ref": "U602",
+    "pin": "4",
+    "new_items": [
+      "d2246ab7-f6a0-4137-a254-e51460804d4a",
+      "bac233c8-2cb4-4f0c-bf5b-7be0e3201f8c"
+    ]
+  },
+  {
+    "net": "MUX_ON_B",
+    "ref": "U602",
+    "pin": "5",
+    "new_items": [
+      "3f242d22-578e-4f22-a87c-21c432634f4c",
+      "32519dd3-44c8-4639-8f7f-95182c581279"
+    ]
+  },
+  {
+    "net": "/Feedback selection/MUX_EXT_B",
+    "ref": "U602",
+    "pin": "6",
+    "new_items": [
+      "a5539263-4d73-4d48-94b9-306ad98aacf6",
+      "27e5e756-07c7-4850-8c48-e5b9ca791c74",
+      "e5b3eccf-9b74-4f34-a1b7-806ba91aa900"
+    ]
+  },
+  {
+    "net": "FEEDBACK_B_H2",
+    "ref": "U602",
+    "pin": "7",
+    "new_items": [
+      "4f30e3e1-fa36-4e3d-ba02-2c51f2db5572",
+      "757dbdd9-e50d-44c0-b8a6-739e412c3e55",
+      "d68c89d5-f1d8-4db6-84d0-8e966cb15c71"
+    ]
+  }
+]

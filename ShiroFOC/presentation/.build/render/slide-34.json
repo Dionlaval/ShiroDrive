@@ -1,0 +1,773 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/sdw0xz",
+    "id": "sdw0xz",
+    "slide": 34,
+    "layoutId": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F7F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47algf6l",
+      "id": "1",
+      "name": "Startup and low-energy commissioning",
+      "bbox": [
+        58,
+        42,
+        1475,
+        87
+      ],
+      "geometry": "rect",
+      "text": "Startup and low-energy commissioning",
+      "textPreview": "Startup and low-energy commissioning",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 47,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Startup and low-energy commissioning"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Startup and low-energy commissioning",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Startup and low-energy commissioning",
+              "fontSize": 47,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/361kna50",
+      "id": "2",
+      "name": "34",
+      "bbox": [
+        1490,
+        833,
+        60,
+        31
+      ],
+      "geometry": "rect",
+      "text": "34",
+      "textPreview": "34",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "34"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "34",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "34",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2583u5of",
+      "id": "3",
+      "name": "KiCad schematic, page 4",
+      "bbox": [
+        60,
+        837,
+        1360,
+        25
+      ],
+      "geometry": "rect",
+      "text": "KiCad schematic, page 4",
+      "textPreview": "KiCad schematic, page 4",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KiCad schematic, page 4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KiCad schematic, page 4",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KiCad schematic, page 4",
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/8juhc7u9",
+      "id": "4",
+      "bbox": [
+        60,
+        294,
+        925,
+        314
+      ],
+      "alt": "KiCad source page 4, debug circuit crop",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "957814ac-20db-4444-8c08-9221df5644ae",
+        "contentType": "image/png",
+        "byteLength": 47942
+      }
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbalkf6x",
+      "id": "5",
+      "name": "Verify logic power first",
+      "bbox": [
+        1030,
+        163,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "Verify logic power first",
+      "textPreview": "Verify logic power first",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Verify logic power first"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Verify logic power first",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Verify logic power first",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra14ra5c",
+      "id": "6",
+      "name": "Check rails, source priority, backfeed and reset defaults. P",
+      "bbox": [
+        1030,
+        211,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "Check rails, source priority, backfeed and reset defaults. Program and retain recovery through SWD.",
+      "textPreview": "Check rails, source priority, backfeed and reset defaults. Program and retain recovery through SWD.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Check rails, source priority, backfeed"
+          },
+          {
+            "index": 2,
+            "text": "and reset defaults. Program and retain"
+          },
+          {
+            "index": 3,
+            "text": "recovery through SWD."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Check rails, source priority, backfeed and reset defaults. Program and retain recovery through SWD.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Check rails, source priority, backfeed and reset defaults. Program and retain recovery through SWD.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q9s3ipor",
+      "id": "7",
+      "name": "Prove protection before raising power",
+      "bbox": [
+        1030,
+        338,
+        510,
+        77
+      ],
+      "geometry": "rect",
+      "text": "Prove protection before raising power",
+      "textPreview": "Prove protection before raising power",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Prove protection before raising"
+          },
+          {
+            "index": 2,
+            "text": "power"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Prove protection before raising power",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Prove protection before raising power",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgz2h0ny",
+      "id": "8",
+      "name": "Calibrate ADCs and current offsets. Demonstrate timer break,",
+      "bbox": [
+        1030,
+        422,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "Calibrate ADCs and current offsets. Demonstrate timer break, VDS faults and hardware braking.",
+      "textPreview": "Calibrate ADCs and current offsets. Demonstrate timer break, VDS faults and hardware braking.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Calibrate ADCs and current offsets."
+          },
+          {
+            "index": 2,
+            "text": "Demonstrate timer break, VDS faults"
+          },
+          {
+            "index": 3,
+            "text": "and hardware braking."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Calibrate ADCs and current offsets. Demonstrate timer break, VDS faults and hardware braking.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Calibrate ADCs and current offsets. Demonstrate timer break, VDS faults and hardware braking.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfqlov6d",
+      "id": "9",
+      "name": "Begin unloaded and current-limited",
+      "bbox": [
+        1030,
+        549,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "Begin unloaded and current-limited",
+      "textPreview": "Begin unloaded and current-limited",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Begin unloaded and current-limited"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Begin unloaded and current-limited",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Begin unloaded and current-limited",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y9kr2p4z",
+      "id": "10",
+      "name": "18 V, 1–2 A current command, 20 kHz, 500 ns deadtime. Inspec",
+      "bbox": [
+        1030,
+        597,
+        510,
+        141
+      ],
+      "geometry": "rect",
+      "text": "18 V, 1–2 A current command, 20 kHz, 500 ns deadtime. Inspect gates and bootstrap voltage before increasing load.",
+      "textPreview": "18 V, 1–2 A current command, 20 kHz, 500 ns deadtime. Inspect gates and bootstrap voltage before increasing load.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "18 V, 1–2 A current command, 20 kHz,"
+          },
+          {
+            "index": 2,
+            "text": "500 ns deadtime. Inspect gates and"
+          },
+          {
+            "index": 3,
+            "text": "bootstrap voltage before increasing"
+          },
+          {
+            "index": 4,
+            "text": "load."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "18 V, 1–2 A current command, 20 kHz, 500 ns deadtime. Inspect gates and bootstrap voltage before increasing load.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "18 V, 1–2 A current command, 20 kHz, 500 ns deadtime. Inspect gates and bootstrap voltage before increasing load.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zatsvulk",
+      "id": "11",
+      "name": "Voltage and current increase only after waveform, fault-resp",
+      "bbox": [
+        60,
+        777,
+        1460,
+        57
+      ],
+      "geometry": "rect",
+      "text": "Voltage and current increase only after waveform, fault-response and thermal checks pass.",
+      "textPreview": "Voltage and current increase only after waveform, fault-response and thermal checks pass.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Voltage and current increase only after waveform, fault-response and thermal checks pass."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Voltage and current increase only after waveform, fault-response and thermal checks pass.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Voltage and current increase only after waveform, fault-response and thermal checks pass.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

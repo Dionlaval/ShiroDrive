@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R904/R905
+* Expected Vout = 5.0 * 0.682471 = 3.4124 V
+* Model: ideal passives (exact, unloaded)
+
+VIN n5V_USB_RAW 0 DC 5.0
+R904 n5V_USB_RAW CP2102_VBUS_SENSE 22.1k
+R905 CP2102_VBUS_SENSE 0 47.5k
+
+.control
+op 
+let vout_sim = v(CP2102_VBUS_SENSE)
+let error_pct = abs(vout_sim - 3.4123550000000002) / 3.4123550000000002 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=3.4123550000000002" > ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/spice_work/voltage-divider_R904_R905.out
+quit
+.endc
+
+.end

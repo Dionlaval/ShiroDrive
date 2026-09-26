@@ -1,0 +1,104 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+1 102 3V3 2 steps terminals 1595 417 1.24 s
+2 102 VBUS_SENSE -2 steps terminals 343 59 1.29 s
+3 102 /SPI sensors/SPI3_MOSI 17 steps terminals 1977 146 1.29 s
+4 102 3V3 23 steps terminals 2022 292 1.31 s
+5 102 3V3 93 steps terminals 41 1857 1.24 s
+6 102 Net-(D301-K) 33 steps terminals 1545 1162 1.29 s
+7 102 /Current / temperature/NTC_A_RAW 183 steps terminals 292 738 1.3 s
+8 102 VREF+ 16 steps terminals 280 560 1.29 s
+9 102 Net-(D301-K) -2 steps terminals 367 79 1.29 s
+10 102 3V3 5 steps terminals 2275 2437 1.27 s
+11 102 Net-(U203-SS) -2 steps terminals 24 330 1.3 s
+12 102 CAN_STB 22 steps terminals 1506 316 1.29 s
+13 102 3V3 224 steps terminals 327 403 1.26 s
+14 102 NTC_PHASE_B 120 steps terminals 644 316 1.29 s
+15 102 Net-(U502-IN+) -4 steps terminals 2297 229 1.45 s
+16 102 3V3 2 steps terminals 29758 316 1.27 s
+17 102 VDDA 178 steps terminals 261 707 1.31 s
+18 102 Net-(U203-OV1) 63 steps terminals 234 5194 1.33 s
+19 102 3V3 42 steps terminals 30140 4794 1.28 s
+20 102 Net-(R310-Pad2) 24 steps terminals 274 657 1.32 s
+21 102 Net-(U203-PR1) -4 steps terminals 725 26 1.48 s
+22 102 Net-(D302-K) 12 steps terminals 6004 288 1.3 s
+23 102 Net-(U301C-SCREF) 62 steps terminals 1071 700 1.3 s
+24 102 AS5047P_CS_N 84 steps terminals 198 275 1.39 s
+25 102 3V3 152 steps terminals 35121 4057 1.3 s
+26 102 VDDA 75 steps terminals 1812 424 1.32 s
+27 102 SPI3_MISO -4 steps terminals 285 73 1.49 s
+28 102 NTC_PHASE_A -2 steps terminals 67 724 1.36 s
+29 102 Net-(U203-ILM) -4 steps terminals 285 27 1.49 s
+30 102 Net-(U301A-PF0) -2 steps terminals 59 1160 1.35 s
+31 102 /USB service/CP2102_RST_N -2 steps terminals 15 287 1.36 s
+32 102 FEEDBACK_I_H3 140 steps terminals 1430 1569 1.39 s
+33 102 /SPI sensors/ENC_ON_B 287 steps terminals 259 243 1.37 s
+34 102 5V_USB_RAW 113 steps terminals 3458 2024 1.35 s
+35 102 VREF+ 1180 steps terminals 3599 967 1.48 s
+36 102 /SPI sensors/SPI3_SCK -2 steps terminals 239 266 1.41 s
+37 102 3V3 58 steps terminals 1489 3166 1.36 s
+38 102 IMU_CS_N 224 steps terminals 2523 213 1.42 s
+39 102 /MCU / clock / SWD/NRST -4 steps terminals 315 1197 1.58 s
+40 102 5V_BAT 40 steps terminals 17580 1220 1.41 s
+41 102 FEEDBACK_ENABLE_N -2 steps terminals 592 405 1.43 s
+42 102 /SPI sensors/SPI3_MOSI -4 steps terminals 2047 147 1.57 s
+43 102 NTC_PHASE_A -4 steps terminals 316 719 1.61 s
+44 102 NTC_PHASE_B -4 steps terminals 1446 306 1.53 s
+45 102 /SPI sensors/SPI3_SCK -2 steps terminals 239 926 1.42 s
+46 102 Net-(D301-K) 166 steps terminals 79 2844 1.41 s
+47 102 PWR_SOURCE_STATUS -2 steps terminals 55 292 1.42 s
+48 102 /SPI sensors/BMI323_MISO_RAW -4 steps terminals 279 124 1.57 s
+49 102 5V_USB 449 steps terminals 8819 1275 1.44 s
+50 102 Net-(R506-Pad2) 445 steps terminals 741 732 1.43 s
+51 102 3V3 425 steps terminals 4916 39852 1.41 s
+52 102 FEEDBACK_I_H3 -4 steps terminals 3678 171 1.56 s
+53 102 /SPI sensors/ENC_ON_I -2 steps terminals 333 292 1.44 s
+54 102 IMU_CS_N -2 steps terminals 485 144 1.41 s
+55 102 Net-(R104-Pad2) -2 steps terminals 745 2175 1.43 s
+56 102 SPI3_MISO -2 steps terminals 280 285 1.42 s
+57 102 NTC_PHASE_C -2 steps terminals 297 1358 1.41 s
+58 102 FEEDBACK_B_H2 -2 steps terminals 276 74 1.43 s
+59 102 3V3 166 steps terminals 46656 1045 1.38 s
+60 102 USB_UART_TX 203 steps terminals 289 309 1.42 s
+61 102 /MCU / clock / SWD/NRST 166 steps terminals 4468 315 1.4 s
+62 102 FEEDBACK_A_H1 -2 steps terminals 293 252 1.42 s
+63 102 FEEDBACK_SELECT -4 steps terminals 3324 227 1.62 s
+64 102 SPI3_MISO -4 steps terminals 280 280 1.58 s
+65 102 SPI3_SCK_MCU -2 steps terminals 245 210 1.41 s
+66 102 IMU_CS_N -4 steps terminals 3859 144 1.59 s
+67 102 /MCU / clock / SWD/NRST 185 steps terminals 8899 5442 1.41 s
+68 102 VBUS_SENSE -4 steps terminals 714 343 1.57 s
+69 102 FEEDBACK_I_H3 -4 steps terminals 529 96 1.55 s
+70 102 SPI3_MOSI_MCU -2 steps terminals 292 181 1.44 s
+71 102 USB_UART_RX 456 steps terminals 280 316 1.42 s
+72 102 IMU_INT2 1098 steps terminals 147 272 1.48 s
+73 102 MUX_ON_B -4 steps terminals 216 292 1.58 s
+74 102 3V3 601 steps terminals 48269 292 1.49 s
+75 102 FEEDBACK_I_H3 -4 steps terminals 3678 96 1.58 s
+76 102 FEEDBACK_ENABLE_N -2 steps terminals 592 65 1.44 s
+77 102 IMU_INT1 -4 steps terminals 141 211 1.58 s
+78 102 /Current / temperature/NTC_A_RAW -2 steps terminals 114 1884 1.44 s
+79 102 FEEDBACK_A_H1 -2 steps terminals 252 206 1.42 s
+80 102 /Current / temperature/NTC_A_RAW -2 steps terminals 114 1637 1.5 s
+81 102 VBUS_SENSE -2 steps terminals 463 343 1.43 s
+82 102 FEEDBACK_B_H2 -2 steps terminals 74 244 1.45 s
+83 102 FDCAN1_RX -4 steps terminals 1355 200 1.6 s
+84 102 AS5047P_CS_N -2 steps terminals 832 270 1.44 s
+85 102 FDCAN1_TX -4 steps terminals 2207 199 1.57 s
+86 102 MUX_ON_I -2 steps terminals 265 116 1.42 s
+87 102 BRAKE_PWM -2 steps terminals 181 1559 1.44 s
+88 102 CAN_STB -4 steps terminals 1979 138 1.59 s
+89 102 /Feedback selection/MUX_EXT_A -4 steps terminals 828 108 1.59 s
+90 102 USB_UART_TX -2 steps terminals 262 1710 1.43 s
+91 102 USB_UART_RX -4 steps terminals 2532 1009 1.58 s
+92 102 /Feedback selection/MUX_EXT_B -4 steps terminals 223 864 1.59 s
+93 102 /Current / temperature/NTC_C_RAW 787 steps terminals 292 697 1.51 s
+94 102 Net-(U301A-PA13{slash}SWDIO) -2 steps terminals 194 1780 1.44 s
+95 102 /Current / temperature/NTC_B_RAW 1458 steps terminals 708 292 1.52 s
+96 102 /Feedback selection/MUX_EXT_I -4 steps terminals 841 109 1.6 s
+97 102 VBUS_MUX_IN -2 steps terminals 623 271 1.51 s
+98 102 Net-(U301A-PA14{slash}SWCLK) -4 steps terminals 1443 176 1.59 s
+99 102 Net-(R1001-Pad2) -4 steps terminals 2337 205 1.6 s
+100 102 /MCU / clock / SWD/SPARE_GPIO_1 -2 steps terminals 80 307 1.45 s
+101 102 /MCU / clock / SWD/SPARE_GPIO_3 -2 steps terminals 267 316 1.45 s
+102 102 /MCU / clock / SWD/SPARE_TIM_GPIO -2 steps terminals 195 316 1.45 s
+ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/connected_candidate.kicad_pcb

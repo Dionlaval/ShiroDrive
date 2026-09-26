@@ -1,0 +1,2379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/dionlava/Documents/GitHub/ShiroDrive/tmp/redraw_interfaces/ShiroFOC_KiCad.kicad_sch</source>
+    <date>2026-09-15T21:54:13+0100</date>
+    <tool>Eeschema 9.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ShiroFOC_KiCad.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/">
+      <title_block>
+        <title>CAN / CAN-FD interface</title>
+        <company>ShiroFOC</company>
+        <rev>A1-Drawing</rev>
+        <date>2026-09-15</date>
+        <source>08_CAN.kicad_sch</source>
+        <comment number="1" value="Same A0 circuit; connected functional drawing"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/">
+      <title_block>
+        <title>USB-C service / UART bridge</title>
+        <company>ShiroFOC</company>
+        <rev>A1-Drawing</rev>
+        <date>2026-09-15</date>
+        <source>09_USB_Service.kicad_sch</source>
+        <comment number="1" value="Same A0 circuit; connected functional drawing"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/">
+      <title_block>
+        <title>Shared SPI bus / position encoder / IMU</title>
+        <company>ShiroFOC</company>
+        <rev>A1-Drawing</rev>
+        <date>2026-09-15</date>
+        <source>06_SPI_Sensors.kicad_sch</source>
+        <comment number="1" value="Same A0 circuit; connected functional drawing"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C801">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 100nF; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C801" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 100nF; C_0603_1608Metric"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>a394810e-db58-54ae-9f39-d1d3aae6dd1d</tstamps>
+    </comp>
+    <comp ref="C802">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 1uF; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C802" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 1uF; C_0603_1608Metric"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>c9ffbf31-0bdb-58e9-831b-8530c1ce3dd7</tstamps>
+    </comp>
+    <comp ref="D801">
+      <value>PESD2CANFD24V-T</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf</datasheet>
+      <fields>
+        <field name="MPN">PESD2CANFD24V-T</field>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_D801" description=""/>
+      <property name="MPN" value="PESD2CANFD24V-T"/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value=""/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>a330ac3b-0b92-5bca-816d-73d2a8911232</tstamps>
+    </comp>
+    <comp ref="J801">
+      <value>CAN 1</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">BM04B-GHS-TBT</field>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement"/>
+        <field name="Footprint">Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_J801" description=""/>
+      <property name="MPN" value="BM04B-GHS-TBT"/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value=""/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>8465d49b-a510-51d8-80fc-4bc92b8fcf80</tstamps>
+    </comp>
+    <comp ref="J802">
+      <value>CAN 2</value>
+      <footprint>Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">BM04B-GHS-TBT</field>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement"/>
+        <field name="Footprint">Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_J802" description=""/>
+      <property name="MPN" value="BM04B-GHS-TBT"/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value=""/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>ceacdacb-4532-5861-9884-09fb247e1c67</tstamps>
+    </comp>
+    <comp ref="JP801">
+      <value>TERM ENABLE</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">DNP</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: TERM ENABLE; SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_JP801" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="DNP"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: TERM ENABLE; SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>13efe125-e689-5178-abb6-c69c83530ffc</tstamps>
+    </comp>
+    <comp ref="R801">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 10k; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R801" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 10k; R_0603_1608Metric"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>25988c76-5eb7-539e-a458-26754c824a01</tstamps>
+    </comp>
+    <comp ref="R802">
+      <value>120R 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">DNP</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 120R 1%; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R802" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="DNP"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 120R 1%; R_0603_1608Metric"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>7c526ded-4017-50f4-ab9a-8584979520c9</tstamps>
+    </comp>
+    <comp ref="R803">
+      <value>0R CANH link</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 0R CANH link; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R803" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 0R CANH link; R_0603_1608Metric"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>4d5a2a81-7ba2-5ece-9f4d-e5fe1cca01e5</tstamps>
+    </comp>
+    <comp ref="R804">
+      <value>0R CANL link</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 0R CANL link; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R804" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 0R CANL link; R_0603_1608Metric"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>5989d5b2-2053-5091-9e4e-35b9efaa3797</tstamps>
+    </comp>
+    <comp ref="R805">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 10k; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R805" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 10k; R_0603_1608Metric"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>a66210c6-9ea1-57c4-a93d-ee4bd735c8fe</tstamps>
+    </comp>
+    <comp ref="TP1013">
+      <value>FDCAN1_TX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: FDCAN1_TX; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP1013" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: FDCAN1_TX; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>1f175f63-c35b-56cf-96c4-57cacb3e2ca3</tstamps>
+    </comp>
+    <comp ref="TP1014">
+      <value>FDCAN1_RX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: FDCAN1_RX; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP1014" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: FDCAN1_RX; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>9c470004-b548-5a6c-a979-474a7a63cf99</tstamps>
+    </comp>
+    <comp ref="TP1022">
+      <value>CAN_STB</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: CAN_STB; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP1022" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: CAN_STB; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>908e9cf7-5406-5b6a-958d-4aa9886ce534</tstamps>
+    </comp>
+    <comp ref="U801">
+      <value>TCAN3413DR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tcan3413.pdf</datasheet>
+      <fields>
+        <field name="MPN">TCAN3413DR</field>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement"/>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tcan3413.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_U801" description=""/>
+      <property name="MPN" value="TCAN3413DR"/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value=""/>
+      <property name="Sheetname" value="CAN / CAN-FD interface"/>
+      <property name="Sheetfile" value="08_CAN.kicad_sch"/>
+      <sheetpath names="/CAN / CAN-FD interface/" tstamps="/b641c755-6da9-5298-b2d1-3d296f83b18f/"/>
+      <tstamps>d982d3f7-80d8-51c3-aa73-d55ef8b50f57</tstamps>
+    </comp>
+    <comp ref="C207">
+      <value>4.7nF 2kV</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">DNP</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 4.7nF 2kV; C_1206_3216Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C207" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="DNP"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 4.7nF 2kV; C_1206_3216Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>7a764b80-673e-54a3-9ffc-0389a5df9638</tstamps>
+    </comp>
+    <comp ref="C208">
+      <value>1uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 1uF 10V; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C208" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 1uF 10V; C_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>04cc804e-ecd5-5c6a-8ddb-0ee3f8337c6e</tstamps>
+    </comp>
+    <comp ref="C901">
+      <value>4.7uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 4.7uF 10V; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C901" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 4.7uF 10V; C_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>428ba15d-7ed0-5213-a25a-fb0d1f40bc38</tstamps>
+    </comp>
+    <comp ref="C902">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 100nF; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C902" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 100nF; C_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>f4990aca-25d3-5acb-a40b-09ea75fe486a</tstamps>
+    </comp>
+    <comp ref="C903">
+      <value>4.7uF 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 4.7uF 10V; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C903" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 4.7uF 10V; C_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>ac428a00-5930-54ae-a6c6-a89d90adcc82</tstamps>
+    </comp>
+    <comp ref="C904">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 100nF; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C904" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 100nF; C_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>57e53428-e022-5712-b88d-502b3ffbd0f9</tstamps>
+    </comp>
+    <comp ref="J201">
+      <value>USB-C service</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <fields>
+        <field name="MPN">TYPE-C-31-M-12</field>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement"/>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_J201" description=""/>
+      <property name="MPN" value="TYPE-C-31-M-12"/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value=""/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>5fec031c-c2e0-538d-9210-d842e5f1163a</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 5.1k; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R203" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 5.1k; R_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>e605cc1a-4a6d-5d2e-af2c-0328419a464a</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 5.1k; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R204" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 5.1k; R_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>878e6584-aea5-5e35-8ead-0c7868e46d50</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 0R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R205" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 0R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>ffd00781-2c9d-5426-9b3b-b07a402f7f49</tstamps>
+    </comp>
+    <comp ref="R901">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 1k; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R901" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 1k; R_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>f0fdb7db-c2c8-56c6-8905-9905de41e86c</tstamps>
+    </comp>
+    <comp ref="R902">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 100R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R902" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 100R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>645194af-f3d2-5d54-81a8-7d28eea1d348</tstamps>
+    </comp>
+    <comp ref="R903">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 100R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R903" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 100R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>e4de1c43-a218-5088-8089-b740846ec6f5</tstamps>
+    </comp>
+    <comp ref="R904">
+      <value>22.1k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 22.1k 1%; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R904" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 22.1k 1%; R_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>a1a4347f-46ac-5ff2-93f1-4c74d55565c0</tstamps>
+    </comp>
+    <comp ref="R905">
+      <value>47.5k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 47.5k 1%; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R905" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 47.5k 1%; R_0603_1608Metric"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>af16c70b-5f7d-553f-8812-3eb164e46024</tstamps>
+    </comp>
+    <comp ref="TP202">
+      <value>5V_USB</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 5V_USB; TestPoint_Pad_D1.5mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP202" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 5V_USB; TestPoint_Pad_D1.5mm"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>234b70d7-95dc-5735-b3fb-9b398b1eae12</tstamps>
+    </comp>
+    <comp ref="TP901">
+      <value>USB_UART_TX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: USB_UART_TX; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP901" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: USB_UART_TX; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>f12956f1-ca11-51ee-90b8-968c8d77f748</tstamps>
+    </comp>
+    <comp ref="TP902">
+      <value>USB_UART_RX</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: USB_UART_RX; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP902" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: USB_UART_RX; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>9c4a4085-7566-5d07-8772-959b0a408632</tstamps>
+    </comp>
+    <comp ref="TP903">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: GND; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP903" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: GND; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>25c21ac5-6ab3-5a07-bab8-4ec3963e4e32</tstamps>
+    </comp>
+    <comp ref="TP1004">
+      <value>5V_USB</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 5V_USB; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP1004" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 5V_USB; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>787c4fc5-6cef-544f-a089-3648b13744d6</tstamps>
+    </comp>
+    <comp ref="U202">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_U202" description=""/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value=""/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>276fd6f6-c27a-5c4a-9924-dd5a3cd1ef1d</tstamps>
+    </comp>
+    <comp ref="U901">
+      <value>CP2102N-A02-GQFN20</value>
+      <footprint>Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <fields>
+        <field name="MPN">CP2102N-A02-GQFN20</field>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement"/>
+        <field name="Footprint">Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_U901" description=""/>
+      <property name="MPN" value="CP2102N-A02-GQFN20"/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value=""/>
+      <property name="Sheetname" value="USB-C service / UART bridge"/>
+      <property name="Sheetfile" value="09_USB_Service.kicad_sch"/>
+      <sheetpath names="/USB-C service / UART bridge/" tstamps="/319a5509-a37a-55ff-b586-3bc8f197aff9/"/>
+      <tstamps>0b529ecc-c375-50d6-b806-ee30d286c1d2</tstamps>
+    </comp>
+    <comp ref="C601">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 100nF; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C601" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 100nF; C_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>31dd2ac8-ad9d-55cb-948b-530bd7b35ca7</tstamps>
+    </comp>
+    <comp ref="C602">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 1uF; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C602" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 1uF; C_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>4620a870-dc2e-5820-81d0-fe928bdc07da</tstamps>
+    </comp>
+    <comp ref="C701">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 100nF; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C701" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 100nF; C_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>4a274fe8-c390-50f7-8e32-360f003aace5</tstamps>
+    </comp>
+    <comp ref="C702">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 100nF; C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_C702" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 100nF; C_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>011ee04b-2501-5608-98e3-36e27ae3f7c1</tstamps>
+    </comp>
+    <comp ref="R308">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 10k; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R308" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 10k; R_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>54aaa87e-ebbb-5af3-88ea-ee7f0bd056c2</tstamps>
+    </comp>
+    <comp ref="R309">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 10k; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R309" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 10k; R_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>26ea92e0-a347-50ec-a031-c0b68f3e0028</tstamps>
+    </comp>
+    <comp ref="R313">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 22R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R313" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 22R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>2c2c7fd3-75e2-58fb-be15-4865ab988af5</tstamps>
+    </comp>
+    <comp ref="R314">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 22R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R314" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 22R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>fb9e4c07-d395-542d-b651-1661d9637855</tstamps>
+    </comp>
+    <comp ref="R601">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 33R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R601" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 33R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>173fd63b-73b1-5cfb-80dd-c08c01166ceb</tstamps>
+    </comp>
+    <comp ref="R602">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 33R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R602" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 33R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>93dd2054-3a3d-584d-b49d-25abe2008ecc</tstamps>
+    </comp>
+    <comp ref="R603">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 33R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R603" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 33R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>f77d5fa0-ccdd-5f9f-a387-16b601c92a9d</tstamps>
+    </comp>
+    <comp ref="R611">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 33R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R611" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 33R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>962730ab-7aa0-507a-be0c-d54211a589a8</tstamps>
+    </comp>
+    <comp ref="R714">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: 33R; R_0603_1608Metric</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_R714" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: 33R; R_0603_1608Metric"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>1ee7a5ed-97d3-565f-89f0-0c964a17386a</tstamps>
+    </comp>
+    <comp ref="TP1010">
+      <value>SPI3_SCK</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: SPI3_SCK; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP1010" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: SPI3_SCK; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>aa5389c1-2140-5e05-ac01-50c1bf6accdd</tstamps>
+    </comp>
+    <comp ref="TP1011">
+      <value>SPI3_MISO</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: SPI3_MISO; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP1011" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: SPI3_MISO; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>12d1ff58-1fde-58a0-bbfb-521b8696fec4</tstamps>
+    </comp>
+    <comp ref="TP1012">
+      <value>SPI3_MOSI</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Assembly">FIT</field>
+        <field name="MPN"/>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement">Select to specification: SPI3_MOSI; TestPoint_Pad_D1.0mm</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_TP1012" description=""/>
+      <property name="Assembly" value="FIT"/>
+      <property name="MPN" value=""/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value="Select to specification: SPI3_MOSI; TestPoint_Pad_D1.0mm"/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>0a24e357-b55d-5232-94a6-b4981565a8ef</tstamps>
+    </comp>
+    <comp ref="U601">
+      <value>AS5047P-ATSM</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://ams-osram.com/products/sensors/position-sensors/ams-as5047p-high-resolution-position-sensor</datasheet>
+      <fields>
+        <field name="MPN">AS5047P-ATSM</field>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement"/>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://ams-osram.com/products/sensors/position-sensors/ams-as5047p-high-resolution-position-sensor</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_U601" description=""/>
+      <property name="MPN" value="AS5047P-ATSM"/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value=""/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>2647c5e2-def1-5b25-9b29-c44c8d6422ce</tstamps>
+    </comp>
+    <comp ref="U701">
+      <value>BMI323</value>
+      <footprint>Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm</footprint>
+      <datasheet>https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.PDF</datasheet>
+      <fields>
+        <field name="MPN">BMI323</field>
+        <field name="Assembly">FIT</field>
+        <field name="Rating">See Value and PCB_LAYOUT_HANDOFF.md</field>
+        <field name="Procurement"/>
+        <field name="Footprint">Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm</field>
+        <field name="Datasheet">https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.PDF</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ShiroFOC_Redraw" part="COMP_U701" description=""/>
+      <property name="MPN" value="BMI323"/>
+      <property name="Assembly" value="FIT"/>
+      <property name="Rating" value="See Value and PCB_LAYOUT_HANDOFF.md"/>
+      <property name="Procurement" value=""/>
+      <property name="Sheetname" value="Shared SPI bus / position encoder / IMU"/>
+      <property name="Sheetfile" value="06_SPI_Sensors.kicad_sch"/>
+      <sheetpath names="/Shared SPI bus / position encoder / IMU/" tstamps="/b8f8d852-bc1e-5794-9724-aaf7b36dccf4/"/>
+      <tstamps>d8fbeda5-0804-50d7-8b1d-d36e6f76709d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C207">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C207</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C208">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C208</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C601">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C601</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C602">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C602</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C701">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C701</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C702">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C702</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C801">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C801</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C802">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C802</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C901">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C901</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C902">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C902</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C903">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C903</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_C904">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">COMP_C904</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_D801">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">COMP_D801</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CANH_IN" type="passive"/>
+        <pin num="2" name="CANL_IN" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_J201">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">COMP_J201</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="passive"/>
+        <pin num="A6" name="D+" type="passive"/>
+        <pin num="A7" name="D-" type="passive"/>
+        <pin num="A8" name="SBU1" type="passive"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="passive"/>
+        <pin num="B6" name="D+" type="passive"/>
+        <pin num="B7" name="D-" type="passive"/>
+        <pin num="B8" name="SBU2" type="passive"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_J801">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">COMP_J801</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_J802">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">COMP_J802</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_JP801">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">COMP_JP801</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R203">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R203</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R204">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R204</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R205">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R205</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R308">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R308</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R309">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R309</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R313">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R313</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R314">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R314</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R601">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R601</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R602">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R602</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R603</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R611">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R611</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R714">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R714</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R801">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R801</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R802">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R802</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R803">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R803</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R804">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R804</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R805">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R805</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R901">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R901</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R902">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R902</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R903">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R903</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R904">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R904</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_R905">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">COMP_R905</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP1004">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP1004</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP1010">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP1010</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP1011">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP1011</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP1012">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP1012</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP1013">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP1013</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP1014">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP1014</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP1022">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP1022</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP202">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP202</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP901">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP901</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP902">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP902</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_TP903">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">COMP_TP903</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_U202">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">COMP_U202</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="IO1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_U601">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">COMP_U601</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CSn" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="MISO" type="tri_state"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="TEST" type="input"/>
+        <pin num="6" name="B" type="output"/>
+        <pin num="7" name="A" type="output"/>
+        <pin num="8" name="W/PWM" type="output"/>
+        <pin num="9" name="V" type="output"/>
+        <pin num="10" name="U" type="output"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="VDD3V3" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="I/PWM" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_U701">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">COMP_U701</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SDO" type="tri_state"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="INT1" type="output"/>
+        <pin num="5" name="VDDIO" type="power_in"/>
+        <pin num="6" name="GNDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="INT2" type="output"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="CSB" type="input"/>
+        <pin num="13" name="SCK" type="input"/>
+        <pin num="14" name="SDI" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_U801">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">COMP_U801</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="STB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ShiroFOC_Redraw" part="COMP_U901">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">COMP_U901</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO.1" type="bidirectional"/>
+        <pin num="2" name="GPIO.0" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="D-" type="bidirectional"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VREGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="RST" type="bidirectional"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="SUSPEND_N" type="output"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="WAKEUP" type="input"/>
+        <pin num="14" name="SUSPEND" type="output"/>
+        <pin num="15" name="CTS" type="input"/>
+        <pin num="16" name="RTS" type="output"/>
+        <pin num="17" name="RXD" type="input"/>
+        <pin num="18" name="TXD" type="output"/>
+        <pin num="19" name="GPIO.3" type="bidirectional"/>
+        <pin num="20" name="GPIO.2" type="bidirectional"/>
+        <pin num="21" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/CAN / CAN-FD interface/CANH_BUS" class="Default">
+      <node ref="D801" pin="1" pinfunction="CANH_IN" pintype="passive"/>
+      <node ref="J801" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J802" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R802" pin="1" pintype="passive"/>
+      <node ref="R803" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/CAN / CAN-FD interface/CANH_INT" class="Default">
+      <node ref="R803" pin="1" pintype="passive"/>
+      <node ref="U801" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/CAN / CAN-FD interface/CANL_BUS" class="Default">
+      <node ref="D801" pin="2" pinfunction="CANL_IN" pintype="passive"/>
+      <node ref="J801" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J802" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP801" pin="2" pintype="passive"/>
+      <node ref="R804" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/CAN / CAN-FD interface/CANL_INT" class="Default">
+      <node ref="R804" pin="1" pintype="passive"/>
+      <node ref="U801" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/CAN / CAN-FD interface/CAN_SHIELD" class="Default">
+      <node ref="J801" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J802" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="6" name="/CAN / CAN-FD interface/CAN_TERM_MID" class="Default">
+      <node ref="JP801" pin="1" pintype="passive"/>
+      <node ref="R802" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/Shared SPI bus / position encoder / IMU/AS5047_MISO_RAW" class="Default">
+      <node ref="R611" pin="1" pintype="passive"/>
+      <node ref="U601" pin="3" pinfunction="MISO" pintype="tri_state"/>
+    </net>
+    <net code="8" name="/Shared SPI bus / position encoder / IMU/BMI323_MISO_RAW" class="Default">
+      <node ref="R714" pin="1" pintype="passive"/>
+      <node ref="U701" pin="1" pinfunction="SDO" pintype="tri_state"/>
+    </net>
+    <net code="9" name="/Shared SPI bus / position encoder / IMU/ENC_ON_A" class="Default">
+      <node ref="R601" pin="1" pintype="passive"/>
+      <node ref="U601" pin="7" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="10" name="/Shared SPI bus / position encoder / IMU/ENC_ON_B" class="Default">
+      <node ref="R602" pin="1" pintype="passive"/>
+      <node ref="U601" pin="6" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="11" name="/Shared SPI bus / position encoder / IMU/ENC_ON_I" class="Default">
+      <node ref="R603" pin="1" pintype="passive"/>
+      <node ref="U601" pin="14" pinfunction="I/PWM" pintype="output"/>
+    </net>
+    <net code="12" name="/Shared SPI bus / position encoder / IMU/SPI3_MOSI" class="Default">
+      <node ref="R314" pin="2" pintype="passive"/>
+      <node ref="TP1012" pin="1" pintype="passive"/>
+      <node ref="U601" pin="4" pinfunction="MOSI" pintype="input"/>
+      <node ref="U701" pin="14" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="13" name="/Shared SPI bus / position encoder / IMU/SPI3_SCK" class="Default">
+      <node ref="R313" pin="2" pintype="passive"/>
+      <node ref="TP1010" pin="1" pintype="passive"/>
+      <node ref="U601" pin="2" pinfunction="CLK" pintype="input"/>
+      <node ref="U701" pin="13" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="14" name="/USB-C service / UART bridge/CP2102_RST_N" class="Default">
+      <node ref="R901" pin="2" pintype="passive"/>
+      <node ref="U901" pin="9" pinfunction="RST" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/USB-C service / UART bridge/CP2102_VBUS_SENSE" class="Default">
+      <node ref="R904" pin="2" pintype="passive"/>
+      <node ref="R905" pin="1" pintype="passive"/>
+      <node ref="U901" pin="8" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="16" name="/USB-C service / UART bridge/UART_BRIDGE_RX" class="Default">
+      <node ref="R903" pin="2" pintype="passive"/>
+      <node ref="U901" pin="17" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="17" name="/USB-C service / UART bridge/UART_BRIDGE_TX" class="Default">
+      <node ref="R902" pin="1" pintype="passive"/>
+      <node ref="U901" pin="18" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="18" name="/USB-C service / UART bridge/USB_CC1" class="Default">
+      <node ref="J201" pin="A5" pinfunction="CC1" pintype="passive"/>
+      <node ref="R203" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/USB-C service / UART bridge/USB_CC2" class="Default">
+      <node ref="J201" pin="B5" pinfunction="CC2" pintype="passive"/>
+      <node ref="R204" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="/USB-C service / UART bridge/USB_DM" class="Default">
+      <node ref="U202" pin="6" pinfunction="IO1" pintype="passive"/>
+      <node ref="U901" pin="5" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/USB-C service / UART bridge/USB_DM_CONN" class="Default">
+      <node ref="J201" pin="A7" pinfunction="D-" pintype="passive"/>
+      <node ref="J201" pin="B7" pinfunction="D-" pintype="passive"/>
+      <node ref="U202" pin="1" pinfunction="IO1" pintype="passive"/>
+    </net>
+    <net code="22" name="/USB-C service / UART bridge/USB_DP" class="Default">
+      <node ref="U202" pin="4" pinfunction="IO2" pintype="passive"/>
+      <node ref="U901" pin="4" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/USB-C service / UART bridge/USB_DP_CONN" class="Default">
+      <node ref="J201" pin="A6" pinfunction="D+" pintype="passive"/>
+      <node ref="J201" pin="B6" pinfunction="D+" pintype="passive"/>
+      <node ref="U202" pin="3" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="24" name="/USB-C service / UART bridge/USB_SHIELD" class="Default">
+      <node ref="C207" pin="1" pintype="passive"/>
+      <node ref="J201" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="25" name="3V3" class="Default">
+      <node ref="C601" pin="1" pintype="passive"/>
+      <node ref="C602" pin="1" pintype="passive"/>
+      <node ref="C701" pin="1" pintype="passive"/>
+      <node ref="C702" pin="1" pintype="passive"/>
+      <node ref="C801" pin="1" pintype="passive"/>
+      <node ref="C802" pin="1" pintype="passive"/>
+      <node ref="C901" pin="1" pintype="passive"/>
+      <node ref="C902" pin="1" pintype="passive"/>
+      <node ref="C903" pin="1" pintype="passive"/>
+      <node ref="C904" pin="1" pintype="passive"/>
+      <node ref="R308" pin="1" pintype="passive"/>
+      <node ref="R309" pin="1" pintype="passive"/>
+      <node ref="R801" pin="1" pintype="passive"/>
+      <node ref="R805" pin="1" pintype="passive"/>
+      <node ref="R901" pin="1" pintype="passive"/>
+      <node ref="U601" pin="11" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U601" pin="12" pinfunction="VDD3V3" pintype="power_in"/>
+      <node ref="U701" pin="5" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U701" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U801" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U801" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U901" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U901" pin="7" pinfunction="VREGIN" pintype="power_in"/>
+    </net>
+    <net code="26" name="5V_USB" class="Default">
+      <node ref="C208" pin="1" pintype="passive"/>
+      <node ref="R205" pin="2" pintype="passive"/>
+      <node ref="TP1004" pin="1" pintype="passive"/>
+      <node ref="TP202" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="5V_USB_RAW" class="Default">
+      <node ref="J201" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J201" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J201" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J201" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R205" pin="1" pintype="passive"/>
+      <node ref="R904" pin="1" pintype="passive"/>
+      <node ref="U202" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="28" name="AS5047P_CS_N" class="Default">
+      <node ref="R309" pin="2" pintype="passive"/>
+      <node ref="U601" pin="1" pinfunction="CSn" pintype="input"/>
+    </net>
+    <net code="29" name="CAN_STB" class="Default">
+      <node ref="R801" pin="2" pintype="passive"/>
+      <node ref="TP1022" pin="1" pintype="passive"/>
+      <node ref="U801" pin="8" pinfunction="STB" pintype="input"/>
+    </net>
+    <net code="30" name="FDCAN1_RX" class="Default">
+      <node ref="TP1014" pin="1" pintype="passive"/>
+      <node ref="U801" pin="4" pinfunction="RXD" pintype="output"/>
+    </net>
+    <net code="31" name="FDCAN1_TX" class="Default">
+      <node ref="R805" pin="2" pintype="passive"/>
+      <node ref="TP1013" pin="1" pintype="passive"/>
+      <node ref="U801" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="32" name="GND" class="Default">
+      <node ref="C207" pin="2" pintype="passive"/>
+      <node ref="C208" pin="2" pintype="passive"/>
+      <node ref="C601" pin="2" pintype="passive"/>
+      <node ref="C602" pin="2" pintype="passive"/>
+      <node ref="C701" pin="2" pintype="passive"/>
+      <node ref="C702" pin="2" pintype="passive"/>
+      <node ref="C801" pin="2" pintype="passive"/>
+      <node ref="C802" pin="2" pintype="passive"/>
+      <node ref="C901" pin="2" pintype="passive"/>
+      <node ref="C902" pin="2" pintype="passive"/>
+      <node ref="C903" pin="2" pintype="passive"/>
+      <node ref="C904" pin="2" pintype="passive"/>
+      <node ref="D801" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J201" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J201" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J201" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J201" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J801" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J802" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R203" pin="2" pintype="passive"/>
+      <node ref="R204" pin="2" pintype="passive"/>
+      <node ref="R905" pin="2" pintype="passive"/>
+      <node ref="TP903" pin="1" pintype="passive"/>
+      <node ref="U202" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U601" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U601" pin="5" pinfunction="TEST" pintype="input"/>
+      <node ref="U701" pin="6" pinfunction="GNDIO" pintype="power_in"/>
+      <node ref="U701" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U801" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U901" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U901" pin="21" pinfunction="EP" pintype="power_in"/>
+      <node ref="U901" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="33" name="IMU_CS_N" class="Default">
+      <node ref="R308" pin="2" pintype="passive"/>
+      <node ref="U701" pin="12" pinfunction="CSB" pintype="input"/>
+    </net>
+    <net code="34" name="IMU_INT1" class="Default">
+      <node ref="U701" pin="4" pinfunction="INT1" pintype="output"/>
+    </net>
+    <net code="35" name="IMU_INT2" class="Default">
+      <node ref="U701" pin="9" pinfunction="INT2" pintype="output"/>
+    </net>
+    <net code="36" name="MUX_ON_A" class="Default">
+      <node ref="R601" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="MUX_ON_B" class="Default">
+      <node ref="R602" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="MUX_ON_I" class="Default">
+      <node ref="R603" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="SPI3_MISO" class="Default">
+      <node ref="R611" pin="2" pintype="passive"/>
+      <node ref="R714" pin="2" pintype="passive"/>
+      <node ref="TP1011" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="SPI3_MOSI_MCU" class="Default">
+      <node ref="R314" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="SPI3_SCK_MCU" class="Default">
+      <node ref="R313" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="USB_UART_RX" class="Default">
+      <node ref="R902" pin="2" pintype="passive"/>
+      <node ref="TP902" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="USB_UART_TX" class="Default">
+      <node ref="R903" pin="1" pintype="passive"/>
+      <node ref="TP901" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(J201-SBU1-PadA8)" class="Default">
+      <node ref="J201" pin="A8" pinfunction="SBU1" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J201-SBU2-PadB8)" class="Default">
+      <node ref="J201" pin="B8" pinfunction="SBU2" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U601-U-Pad10)" class="Default">
+      <node ref="U601" pin="10" pinfunction="U" pintype="output+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U601-V-Pad9)" class="Default">
+      <node ref="U601" pin="9" pinfunction="V" pintype="output+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U601-W/PWM-Pad8)" class="Default">
+      <node ref="U601" pin="8" pinfunction="W/PWM" pintype="output+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U701-NC-Pad2)" class="Default">
+      <node ref="U701" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U701-NC-Pad3)" class="Default">
+      <node ref="U701" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U701-NC-Pad10)" class="Default">
+      <node ref="U701" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U701-NC-Pad11)" class="Default">
+      <node ref="U701" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U901-CTS-Pad15)" class="Default">
+      <node ref="U901" pin="15" pinfunction="CTS" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U901-GPIO.0-Pad2)" class="Default">
+      <node ref="U901" pin="2" pinfunction="GPIO.0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U901-GPIO.1-Pad1)" class="Default">
+      <node ref="U901" pin="1" pinfunction="GPIO.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U901-GPIO.2-Pad20)" class="Default">
+      <node ref="U901" pin="20" pinfunction="GPIO.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U901-GPIO.3-Pad19)" class="Default">
+      <node ref="U901" pin="19" pinfunction="GPIO.3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U901-NC-Pad10)" class="Default">
+      <node ref="U901" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U901-RTS-Pad16)" class="Default">
+      <node ref="U901" pin="16" pinfunction="RTS" pintype="output+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U901-SUSPEND-Pad14)" class="Default">
+      <node ref="U901" pin="14" pinfunction="SUSPEND" pintype="output+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U901-SUSPEND_N-Pad11)" class="Default">
+      <node ref="U901" pin="11" pinfunction="SUSPEND_N" pintype="output+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U901-WAKEUP-Pad13)" class="Default">
+      <node ref="U901" pin="13" pinfunction="WAKEUP" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R502/R501
+* Expected Vout = 3.3 * 0.996711 = 3.2891 V
+* Model: ideal passives (exact, unloaded)
+
+VIN __unnamed_53 0 DC 3.3
+R502 __unnamed_53 BRAKE_PWM 33
+R501 BRAKE_PWM 0 10k
+
+.control
+op 
+let vout_sim = v(BRAKE_PWM)
+let error_pct = abs(vout_sim - 3.2891463) / 3.2891463 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=3.2891463" > /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R502_R501.out
+quit
+.endc
+
+.end

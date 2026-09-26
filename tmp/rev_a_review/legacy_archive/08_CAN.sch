@@ -1,0 +1,228 @@
+EESchema Schematic File Version 4
+LIBS:ShiroFOC_KiCad-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "08 - CAN / CAN-FD Interface"
+Date "2026-09-14"
+Rev "A"
+Comp "ShiroFOC"
+Comment1 "Rev A first-build schematic"
+Comment2 "6S-10S LiPo / 24-42 V nominal operating range"
+Comment3 "Prototype: validate switching, transient, and thermal behavior"
+Comment4 "GND and PGND are one electrical net; route returns deliberately"
+$EndDescr
+$Comp
+L ShiroFOC_KiCad:TCAN3413DR U801
+U 1 1 10000001
+P 5200 3500
+F 0 "U801" H 5200 2720 50  0000 C CNN
+F 1 "TCAN3413DR" H 5200 4280 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5200 3500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tcan3413.pdf" H 5200 3500 50  0001 C CNN
+F 4 "TCAN3413DR" H 5200 3500 50  0001 C CNN "MPN"
+	1    5200 3500
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R801
+U 1 1 10000002
+P 2300 2600
+F 0 "R801" H 2300 2320 50  0000 C CNN
+F 1 "10k" H 2300 2880 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2300 2600 50  0001 C CNN
+F 3 "" H 2300 2600 50  0001 C CNN
+F 4 "" H 2300 2600 50  0001 C CNN "MPN"
+F 5 "FIT" H 2300 2600 50  0001 C CNN "Assembly"
+	1    2300 2600
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C801
+U 1 1 10000003
+P 2300 3300
+F 0 "C801" H 2300 3020 50  0000 C CNN
+F 1 "100nF" H 2300 3580 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2300 3300 50  0001 C CNN
+F 3 "" H 2300 3300 50  0001 C CNN
+F 4 "" H 2300 3300 50  0001 C CNN "MPN"
+F 5 "FIT" H 2300 3300 50  0001 C CNN "Assembly"
+	1    2300 3300
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C802
+U 1 1 10000004
+P 2300 4000
+F 0 "C802" H 2300 3720 50  0000 C CNN
+F 1 "1uF" H 2300 4280 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2300 4000 50  0001 C CNN
+F 3 "" H 2300 4000 50  0001 C CNN
+F 4 "" H 2300 4000 50  0001 C CNN "MPN"
+F 5 "FIT" H 2300 4000 50  0001 C CNN "Assembly"
+	1    2300 4000
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R803
+U 1 1 10000005
+P 7900 3150
+F 0 "R803" H 7900 2870 50  0000 C CNN
+F 1 "0R CANH link" H 7900 3430 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7900 3150 50  0001 C CNN
+F 3 "" H 7900 3150 50  0001 C CNN
+F 4 "" H 7900 3150 50  0001 C CNN "MPN"
+F 5 "FIT" H 7900 3150 50  0001 C CNN "Assembly"
+	1    7900 3150
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R804
+U 1 1 10000006
+P 7900 3850
+F 0 "R804" H 7900 3570 50  0000 C CNN
+F 1 "0R CANL link" H 7900 4130 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7900 3850 50  0001 C CNN
+F 3 "" H 7900 3850 50  0001 C CNN
+F 4 "" H 7900 3850 50  0001 C CNN "MPN"
+F 5 "FIT" H 7900 3850 50  0001 C CNN "Assembly"
+	1    7900 3850
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:PESD2CANFD24V D801
+U 1 1 10000007
+P 9900 3500
+F 0 "D801" H 9900 2970 50  0000 C CNN
+F 1 "PESD2CANFD24V-T" H 9900 4030 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9900 3500 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf" H 9900 3500 50  0001 C CNN
+F 4 "PESD2CANFD24V-T" H 9900 3500 50  0001 C CNN "MPN"
+	1    9900 3500
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R802
+U 1 1 10000008
+P 11500 2750
+F 0 "R802" H 11500 2470 50  0000 C CNN
+F 1 "120R 1%" H 11500 3030 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11500 2750 50  0001 C CNN
+F 3 "" H 11500 2750 50  0001 C CNN
+F 4 "" H 11500 2750 50  0001 C CNN "MPN"
+F 5 "DNP" H 11500 2750 50  0001 C CNN "Assembly"
+	1    11500 2750
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:SWITCH JP801
+U 1 1 10000009
+P 11500 3500
+F 0 "JP801" H 11500 3220 50  0000 C CNN
+F 1 "TERM ENABLE" H 11500 3780 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 11500 3500 50  0001 C CNN
+F 3 "" H 11500 3500 50  0001 C CNN
+F 4 "" H 11500 3500 50  0001 C CNN "MPN"
+F 5 "DNP" H 11500 3500 50  0001 C CNN "Assembly"
+	1    11500 3500
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CONN_4 J801
+U 1 1 1000000A
+P 12800 3500
+F 0 "J801" H 12800 2820 50  0000 C CNN
+F 1 "CAN 1" H 12800 4180 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 12800 3500 50  0001 C CNN
+F 3 "" H 12800 3500 50  0001 C CNN
+F 4 "BM04B-GHS-TBT" H 12800 3500 50  0001 C CNN "MPN"
+	1    12800 3500
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CONN_4 J802
+U 1 1 1000000B
+P 14500 3500
+F 0 "J802" H 14500 2820 50  0000 C CNN
+F 1 "CAN 2" H 14500 4180 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 14500 3500 50  0001 C CNN
+F 3 "" H 14500 3500 50  0001 C CNN
+F 4 "BM04B-GHS-TBT" H 14500 3500 50  0001 C CNN "MPN"
+	1    14500 3500
+	1 0 0 -1
+$EndComp
+Text Notes 600 450 0    85    ~ 12
+3.3 V CAN-FD TRANSCEIVER WITH DAISY-CHAIN CONNECTORS
+Text GLabel 4200 3300 0    45   BiDi ~ 0
+FDCAN1_TX
+Text GLabel 4200 3500 0    45   BiDi ~ 0
+FDCAN1_RX
+Text GLabel 4200 3700 0    45   BiDi ~ 0
+CAN_STB
+Text GLabel 6200 3100 2    45   BiDi ~ 0
+CANH_INT
+Text GLabel 6200 3300 2    45   BiDi ~ 0
+CANL_INT
+Text GLabel 6200 3500 2    45   BiDi ~ 0
+3V3
+Text GLabel 6200 3700 2    45   BiDi ~ 0
+3V3
+Text GLabel 6200 3900 2    45   BiDi ~ 0
+GND
+Text GLabel 1950 2600 0    45   BiDi ~ 0
+CAN_STB
+Text GLabel 2650 2600 2    45   BiDi ~ 0
+GND
+Text GLabel 1950 3300 0    45   BiDi ~ 0
+3V3
+Text GLabel 2650 3300 2    45   BiDi ~ 0
+GND
+Text GLabel 1950 4000 0    45   BiDi ~ 0
+3V3
+Text GLabel 2650 4000 2    45   BiDi ~ 0
+GND
+Text GLabel 7550 3150 0    45   BiDi ~ 0
+CANH_INT
+Text GLabel 8250 3150 2    45   BiDi ~ 0
+CANH_BUS
+Text GLabel 7550 3850 0    45   BiDi ~ 0
+CANL_INT
+Text GLabel 8250 3850 2    45   BiDi ~ 0
+CANL_BUS
+Text GLabel 9050 3400 0    45   BiDi ~ 0
+CANH_BUS
+Text GLabel 9050 3600 0    45   BiDi ~ 0
+CANL_BUS
+Text GLabel 10750 3500 2    45   BiDi ~ 0
+GND
+Text GLabel 11150 2750 0    45   BiDi ~ 0
+CANH_BUS
+Text GLabel 11850 2750 2    45   BiDi ~ 0
+CAN_TERM_MID
+Text GLabel 11150 3500 0    45   BiDi ~ 0
+CAN_TERM_MID
+Text GLabel 11850 3500 2    45   BiDi ~ 0
+CANL_BUS
+Text GLabel 12200 3200 0    45   BiDi ~ 0
+GND
+Text GLabel 12200 3400 0    45   BiDi ~ 0
+CANL_BUS
+Text GLabel 12200 3600 0    45   BiDi ~ 0
+CANH_BUS
+Text GLabel 12200 3800 0    45   BiDi ~ 0
+CAN_SHIELD
+Text GLabel 13900 3200 0    45   BiDi ~ 0
+GND
+Text GLabel 13900 3400 0    45   BiDi ~ 0
+CANL_BUS
+Text GLabel 13900 3600 0    45   BiDi ~ 0
+CANH_BUS
+Text GLabel 13900 3800 0    45   BiDi ~ 0
+CAN_SHIELD
+Text Notes 600 6300 0    60    ~ 0
+R803/R804 are fitted 0R links. A true 4-pin CAN common-mode choke is deferred unless EMC testing shows it is required. Termination is DNP except at a physical bus end.
+Text Notes 600 6700 0    60    ~ 0
+CAN connector pinout is identical on both JST-GH headers. Twist CANH/CANL. Pin 4 is shield/drain provision and is not a power conductor.
+$EndSCHEMATC

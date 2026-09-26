@@ -1,0 +1,14 @@
+2026-09-20 09:22:50.232 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-20 09:22:52.060 INFO   [FBF206\D1F510] Loading board file 'finish2.dsn'...
+2026-09-20 09:22:52.962 INFO   Layer 'In1.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-20 09:22:52.963 INFO   Layer 'In2.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-20 09:22:52.964 WARN   DSN file 'finish2.dsn' was loaded with 6 warning(s).
+2026-09-20 09:22:53.193 INFO   [FBF206\D1F510] Job 'FBF206\D1F510' started at 2026-09-20T08:22:53.192887Z.
+2026-09-20 09:22:54.127 INFO   [FBF206\D1F510] Auto-routing stage started on board 'f21d884f7dcaa06b06d97859ce59d117' for 350 unrouted items.
+2026-09-20 09:25:50.296 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net '/Brake chopper/BRAKE_PWM_DRV' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-09-20 09:26:03.591 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net '5V_USB' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-09-20 09:26:20.621 INFO   [FBF206\D1F510] Auto-routing pass #1 on board '6c09b292efd91922785ed2a790054295' was completed in 203.88 seconds with score 23.82 (237 unrouted and 2051 violations), using 202.04 CPU seconds and the job allocated 1208.17 GB of memory so far.
+2026-09-20 09:26:22.197 INFO   [FBF206\D1F510] Auto-routing stage completed: started with 350 unrouted nets, completed in 208.05 seconds, final score: 23.82 (237 unrouted and 2051 violations), using 204.04 total CPU seconds, 1222.26 GB total allocated, and 686.9 MB peak heap usage.
+2026-09-20 09:26:22.243 INFO   [FBF206\D1F510] Job 'FBF206\D1F510' finished with state: COMPLETED (elapsed: 3 minutes 29.05 seconds, finished at UTC: 2026-09-20T08:26:22.242360Z).
+2026-09-20 09:26:22.469 INFO   Saving output file '/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/finish2.ses' (SES)...
+2026-09-20 09:26:22.471 INFO   Successfully saved output file '/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/finish2.ses' (152124 bytes).

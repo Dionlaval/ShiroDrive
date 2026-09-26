@@ -1,0 +1,64 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-15T06:45:32+0100",
+    "kicad_version": "9.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75",
+            "violations": []
+        },
+        {
+            "path": "/01 - Battery Input and DC Link/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/f49161cd-c911-59b3-b2f1-af93e24eb1bf",
+            "violations": []
+        },
+        {
+            "path": "/02 - Auxiliary Power, USB and Source Mux/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/944c6ed5-8895-502f-9b5a-4cff871430b2",
+            "violations": []
+        },
+        {
+            "path": "/03 - STSPIN32G4 Core and Gate-Driver Supply/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/dab1be84-a134-5927-ab8f-adce628d762e",
+            "violations": []
+        },
+        {
+            "path": "/04 - Three-Phase Inverter and Current Sensing/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/6b8150ac-3b6b-518d-864e-6ab6e98046bf",
+            "violations": []
+        },
+        {
+            "path": "/05 - Brake Chopper/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/433b8a85-216f-5561-84a8-3b14123a7a60",
+            "violations": []
+        },
+        {
+            "path": "/06 - Onboard and External Position Feedback/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/2ed0046a-7f0e-544e-89c8-6c21a854aa92",
+            "violations": []
+        },
+        {
+            "path": "/07 - IMU and Half-Bridge Temperature/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/58e6bc42-2d65-5398-94f6-d6680f60a8ec",
+            "violations": []
+        },
+        {
+            "path": "/08 - CAN / CAN-FD Interface/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/6818927a-e157-5ba8-be7e-3a8c8bbd129e",
+            "violations": []
+        },
+        {
+            "path": "/09 - USB-UART Service Interface/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/47e8f161-b66e-540d-b460-de529bf58551",
+            "violations": []
+        },
+        {
+            "path": "/10 - SWD, Boot and Test Access/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/82bfdd37-9d82-5efa-8871-7778ab100779",
+            "violations": []
+        }
+    ],
+    "source": "ShiroFOC_KiCad.kicad_sch"
+}

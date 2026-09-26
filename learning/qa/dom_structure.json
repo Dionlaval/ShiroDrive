@@ -1,0 +1,1740 @@
+[
+  [
+    "html",
+    {
+      "lang": "en"
+    }
+  ],
+  [
+    "head",
+    {}
+  ],
+  [
+    "meta",
+    {
+      "charset": "utf-8"
+    }
+  ],
+  [
+    "meta",
+    {
+      "name": "viewport",
+      "content": "width=device-width,initial-scale=1"
+    }
+  ],
+  [
+    "title",
+    {}
+  ],
+  [
+    "link",
+    {
+      "rel": "stylesheet",
+      "href": "lab.css"
+    }
+  ],
+  [
+    "body",
+    {}
+  ],
+  [
+    "header",
+    {}
+  ],
+  [
+    "small",
+    {}
+  ],
+  [
+    "h1",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "main",
+    {}
+  ],
+  [
+    "nav",
+    {
+      "role": "tablist",
+      "aria-label": "Learning chapters"
+    }
+  ],
+  [
+    "button",
+    {
+      "id": "t0",
+      "role": "tab",
+      "aria-controls": "s0",
+      "aria-selected": "true"
+    }
+  ],
+  [
+    "button",
+    {
+      "id": "t1",
+      "role": "tab",
+      "aria-controls": "s1",
+      "aria-selected": "false"
+    }
+  ],
+  [
+    "button",
+    {
+      "id": "t2",
+      "role": "tab",
+      "aria-controls": "s2",
+      "aria-selected": "false"
+    }
+  ],
+  [
+    "button",
+    {
+      "id": "t3",
+      "role": "tab",
+      "aria-controls": "s3",
+      "aria-selected": "false"
+    }
+  ],
+  [
+    "button",
+    {
+      "id": "t4",
+      "role": "tab",
+      "aria-controls": "s4",
+      "aria-selected": "false"
+    }
+  ],
+  [
+    "button",
+    {
+      "id": "t5",
+      "role": "tab",
+      "aria-controls": "s5",
+      "aria-selected": "false"
+    }
+  ],
+  [
+    "button",
+    {
+      "id": "t6",
+      "role": "tab",
+      "aria-controls": "s6",
+      "aria-selected": "false"
+    }
+  ],
+  [
+    "section",
+    {
+      "id": "s0",
+      "role": "tabpanel",
+      "aria-labelledby": "t0"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "eyebrow"
+    }
+  ],
+  [
+    "h2",
+    {}
+  ],
+  [
+    "p",
+    {
+      "class": "intro"
+    }
+  ],
+  [
+    "img",
+    {
+      "src": "figures/00_power_path.svg",
+      "alt": "Battery and cable feed the three half bridges and motor; DC-link capacitors and brake chopper connect across the bus."
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "reading"
+    }
+  ],
+  [
+    "div",
+    {}
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "div",
+    {}
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "div",
+    {}
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "NOTEBOOK.md"
+    }
+  ],
+  [
+    "a",
+    {
+      "href": "BOARD_INPUTS.md"
+    }
+  ],
+  [
+    "p",
+    {
+      "class": "prompt"
+    }
+  ],
+  [
+    "section",
+    {
+      "id": "s1",
+      "role": "tabpanel",
+      "aria-labelledby": "t1",
+      "hidden": null
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "eyebrow"
+    }
+  ],
+  [
+    "h2",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "div",
+    {
+      "class": "steps"
+    }
+  ],
+  [
+    "span",
+    {}
+  ],
+  [
+    "span",
+    {}
+  ],
+  [
+    "p",
+    {
+      "class": "muted"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "controls",
+      "id": "switch-controls"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "swv-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "swv",
+      "type": "range",
+      "min": "18",
+      "max": "42",
+      "step": "1",
+      "value": "36"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "swd-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "swd",
+      "type": "range",
+      "min": "10",
+      "max": "90",
+      "step": "1",
+      "value": "50"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "swf-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "swf",
+      "type": "range",
+      "min": "10",
+      "max": "60",
+      "step": "1",
+      "value": "20"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "swl-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "swl",
+      "type": "range",
+      "min": "20",
+      "max": "500",
+      "step": "10",
+      "value": "100"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "swr-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "swr",
+      "type": "range",
+      "min": "0.02",
+      "max": "0.5",
+      "step": "0.01",
+      "value": "0.1"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "swi-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "swi",
+      "type": "range",
+      "min": "5",
+      "max": "50",
+      "step": "1",
+      "value": "20"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "switch-v",
+      "role": "img",
+      "aria-label": "Switch-node voltage against time"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plots"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "switch-i",
+      "role": "img",
+      "aria-label": "Winding and bus current against time"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "legend"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "switch-c",
+      "role": "img",
+      "aria-label": "Capacitor charge and discharge current against time"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "div",
+    {
+      "id": "switch-result",
+      "class": "result",
+      "aria-live": "polite"
+    }
+  ],
+  [
+    "p",
+    {
+      "class": "prompt"
+    }
+  ],
+  [
+    "details",
+    {}
+  ],
+  [
+    "summary",
+    {}
+  ],
+  [
+    "div",
+    {
+      "class": "equation"
+    }
+  ],
+  [
+    "br",
+    {}
+  ],
+  [
+    "br",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "section",
+    {
+      "id": "s2",
+      "role": "tabpanel",
+      "aria-labelledby": "t2",
+      "hidden": null
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "eyebrow"
+    }
+  ],
+  [
+    "h2",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "div",
+    {
+      "class": "controls"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "cn-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "cn",
+      "type": "range",
+      "min": "10",
+      "max": "100",
+      "step": "5",
+      "value": "40"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "cret-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "cret",
+      "type": "range",
+      "min": "20",
+      "max": "100",
+      "step": "5",
+      "value": "50"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "ci-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "ci",
+      "type": "range",
+      "min": "5",
+      "max": "80",
+      "step": "1",
+      "value": "20"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "cf-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "cf",
+      "type": "range",
+      "min": "10",
+      "max": "60",
+      "step": "1",
+      "value": "20"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "cd-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "cd",
+      "type": "range",
+      "min": "10",
+      "max": "90",
+      "step": "1",
+      "value": "50"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "cl-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "cl",
+      "type": "range",
+      "min": "1",
+      "max": "50",
+      "step": "1",
+      "value": "3"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plots"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "cap-v",
+      "role": "img",
+      "aria-label": "Capacitor voltage ripple against time"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "legend"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "cap-z",
+      "role": "img",
+      "aria-label": "Logarithmic bus impedance against frequency"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "legend"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "div",
+    {
+      "id": "cap-result",
+      "class": "result",
+      "aria-live": "polite"
+    }
+  ],
+  [
+    "p",
+    {
+      "class": "muted"
+    }
+  ],
+  [
+    "details",
+    {
+      "open": null
+    }
+  ],
+  [
+    "summary",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "div",
+    {
+      "id": "comparison-table",
+      "class": "tablewrap"
+    }
+  ],
+  [
+    "img",
+    {
+      "src": "figures/03_capacitor_comparison.svg",
+      "alt": "Computed three-phase bus voltage and cable-current comparison for five capacitor arrangements"
+    }
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "MODEL_GUIDE.md"
+    }
+  ],
+  [
+    "p",
+    {
+      "class": "prompt"
+    }
+  ],
+  [
+    "section",
+    {
+      "id": "s3",
+      "role": "tabpanel",
+      "aria-labelledby": "t3",
+      "hidden": null
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "eyebrow"
+    }
+  ],
+  [
+    "h2",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "div",
+    {
+      "class": "controls"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "select",
+    {
+      "id": "event"
+    }
+  ],
+  [
+    "option",
+    {
+      "value": "step"
+    }
+  ],
+  [
+    "option",
+    {
+      "value": "start"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "tc-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "tc",
+      "type": "range",
+      "min": "20",
+      "max": "2200",
+      "step": "10",
+      "value": "100"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "tl-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "tl",
+      "type": "range",
+      "min": "0.2",
+      "max": "5",
+      "step": "0.1",
+      "value": "1"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "tr-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "tr",
+      "type": "range",
+      "min": "5",
+      "max": "300",
+      "step": "5",
+      "value": "50"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "te-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "te",
+      "type": "range",
+      "min": "1",
+      "max": "100",
+      "step": "1",
+      "value": "2"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "tv-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "tv",
+      "type": "range",
+      "min": "18",
+      "max": "42",
+      "step": "1",
+      "value": "36"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plots"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "trans-v",
+      "role": "img",
+      "aria-label": "RLC bus voltage response"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "trans-i",
+      "role": "img",
+      "aria-label": "RLC source current response"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "div",
+    {
+      "id": "trans-result",
+      "class": "result",
+      "aria-live": "polite"
+    }
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "div",
+    {
+      "class": "controls"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "energy-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "energy",
+      "type": "range",
+      "min": "0.1",
+      "max": "220",
+      "step": "0.1",
+      "value": "10"
+    }
+  ],
+  [
+    "div",
+    {
+      "id": "energy-result",
+      "class": "result",
+      "aria-live": "polite"
+    }
+  ],
+  [
+    "p",
+    {
+      "class": "prompt"
+    }
+  ],
+  [
+    "section",
+    {
+      "id": "s4",
+      "role": "tabpanel",
+      "aria-labelledby": "t4",
+      "hidden": null
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "eyebrow"
+    }
+  ],
+  [
+    "h2",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "div",
+    {
+      "class": "controls"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "pl-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "pl",
+      "type": "range",
+      "min": "1",
+      "max": "50",
+      "step": "1",
+      "value": "10"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "pi-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "pi",
+      "type": "range",
+      "min": "5",
+      "max": "80",
+      "step": "1",
+      "value": "40"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "pt-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "pt",
+      "type": "range",
+      "min": "20",
+      "max": "250",
+      "step": "5",
+      "value": "80"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "pg-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "pg",
+      "type": "range",
+      "min": "0",
+      "max": "22",
+      "step": "0.1",
+      "value": "4.7"
+    }
+  ],
+  [
+    "div",
+    {
+      "id": "placement-result",
+      "class": "result",
+      "aria-live": "polite"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "placement-z",
+      "role": "img",
+      "aria-label": "Capacitor-bank impedance for 3 nH and adjustable connection inductance"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "legend"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "img",
+    {
+      "src": "figures/08_actual_placement.svg",
+      "alt": "Actual top and bottom P0 component centres with major components labelled; no routing or P1 mounting holes yet"
+    }
+  ],
+  [
+    "ol",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "strong",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "strong",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "strong",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "strong",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "strong",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "strong",
+    {}
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "p",
+    {
+      "class": "prompt"
+    }
+  ],
+  [
+    "section",
+    {
+      "id": "s5",
+      "role": "tabpanel",
+      "aria-labelledby": "t5",
+      "hidden": null
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "eyebrow"
+    }
+  ],
+  [
+    "h2",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "div",
+    {
+      "class": "equation"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "controls"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "si-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "si",
+      "type": "range",
+      "min": "-100",
+      "max": "100",
+      "step": "1",
+      "value": "40"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "sr-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "sr",
+      "type": "range",
+      "min": "0",
+      "max": "500",
+      "step": "10",
+      "value": "100"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "fr-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "fr",
+      "type": "range",
+      "min": "100",
+      "max": "10000",
+      "step": "100",
+      "value": "1000"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "fc-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "fc",
+      "type": "range",
+      "min": "1",
+      "max": "100",
+      "step": "1",
+      "value": "10"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "fb-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "fb",
+      "type": "range",
+      "min": "100",
+      "max": "5000",
+      "step": "100",
+      "value": "2000"
+    }
+  ],
+  [
+    "label",
+    {}
+  ],
+  [
+    "output",
+    {
+      "id": "fd-o"
+    }
+  ],
+  [
+    "input",
+    {
+      "id": "fd",
+      "type": "range",
+      "min": "0",
+      "max": "75",
+      "step": "1",
+      "value": "25"
+    }
+  ],
+  [
+    "div",
+    {
+      "id": "sense-result",
+      "class": "result",
+      "aria-live": "polite"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plots"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "filter-mag",
+      "role": "img",
+      "aria-label": "Filter gain responses"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "legend"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "plot"
+    }
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "canvas",
+    {
+      "id": "filter-phase",
+      "role": "img",
+      "aria-label": "Filter phase and filter plus delay phase"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "legend"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "tooltip"
+    }
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "strong",
+    {}
+  ],
+  [
+    "img",
+    {
+      "src": "figures/07_sampling.svg",
+      "alt": "Illustrative current measurement ringing after switching edges, showing samples near and away from an edge"
+    }
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "p",
+    {
+      "class": "prompt"
+    }
+  ],
+  [
+    "section",
+    {
+      "id": "s6",
+      "role": "tabpanel",
+      "aria-labelledby": "t6",
+      "hidden": null
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "eyebrow"
+    }
+  ],
+  [
+    "h2",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "ul",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "li",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "DECISION_RECORD.md"
+    }
+  ],
+  [
+    "div",
+    {
+      "class": "reading"
+    }
+  ],
+  [
+    "div",
+    {}
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "NOTEBOOK.md"
+    }
+  ],
+  [
+    "br",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "EXERCISES.md"
+    }
+  ],
+  [
+    "br",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "BOARD_INPUTS.md"
+    }
+  ],
+  [
+    "div",
+    {}
+  ],
+  [
+    "h3",
+    {}
+  ],
+  [
+    "p",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "MODEL_GUIDE.md"
+    }
+  ],
+  [
+    "br",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "models/build_models.py"
+    }
+  ],
+  [
+    "br",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "data/comparison.csv"
+    }
+  ],
+  [
+    "br",
+    {}
+  ],
+  [
+    "a",
+    {
+      "href": "SOURCES.md"
+    }
+  ],
+  [
+    "p",
+    {
+      "class": "prompt"
+    }
+  ],
+  [
+    "footer",
+    {}
+  ],
+  [
+    "script",
+    {
+      "src": "models/lab_models.js"
+    }
+  ],
+  [
+    "script",
+    {
+      "src": "data/comparison.js"
+    }
+  ],
+  [
+    "script",
+    {
+      "src": "lab.js"
+    }
+  ]
+]

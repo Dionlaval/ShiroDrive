@@ -1,0 +1,21 @@
+* Actual fitted ShiroFOC channel topology, ideal linear amplifier with finite gain.
+* VI represents current in amperes. 0.5 milliohm shunt; DNP C414 omitted.
+VREF vr 0 3.3
+VI isig 0 0
+VCM cm 0 0
+BPOS kp 0 V=V(cm)+0.0005*V(isig)
+R417 kp plus 1k
+R410 vr plus 56k
+R441 plus 0 56k
+R418 cm minus 1k
+R419 out minus 28k
+EAMP out 0 plus minus 1e6
+.control
+dc VI -100 100 25
+wrdata /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/current_sense_dc.dat v(out)
+let zero=v(out)[4]
+let gain=(v(out)[8]-v(out)[0])/200
+echo "zero=$&zero volts_per_amp=$&gain" > /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/current_sense_dc.out
+quit
+.endc
+.end

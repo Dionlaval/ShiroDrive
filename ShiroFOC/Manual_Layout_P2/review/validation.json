@@ -1,0 +1,28 @@
+{
+  "status": "rough placement for manual routing; not fabrication-ready",
+  "footprints": 255,
+  "pad_net_errors": [],
+  "missing_nonphysical_pins": [
+    [
+      "U205",
+      "19"
+    ],
+    [
+      "U205",
+      "20"
+    ]
+  ],
+  "original_source_files_unchanged": true,
+  "erc_violations": 0,
+  "board_tracks_vias_zones": 0,
+  "drc_categories": {
+    "clearance": 4,
+    "silk_edge_clearance": 4,
+    "hole_to_hole": 4,
+    "silk_over_copper": 7,
+    "silk_overlap": 8
+  },
+  "unconnected_items": 499,
+  "schematic_parity_issues": 2,
+  "final_placement_adjustments": "C1/C5 moved 0.15 mm left after manifest creation to meet power clearance"
+}

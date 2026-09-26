@@ -1,0 +1,19 @@
+Brake divider DC check - fixed comparator output; not a transistor-level protection simulation
+Vbus bus 0 45.91942322834647
+Vout out 0 0
+R506 bus a 150k
+R507 a b 150k
+R508 b sense 150k
+R509 sense 0 12.7k
+R510 out sense 1meg
+C504 sense 0 1n
+.control
+op
+print v(sense)
+alter Vbus 44.21312480314962
+alter Vout 3.3
+op
+print v(sense)
+quit
+.endc
+.end

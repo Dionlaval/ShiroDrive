@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R212/R213
+* Expected Vout = 5.0 * 0.195402 = 0.9770 V
+* Model: ideal passives (exact, unloaded)
+
+VIN n5V_USB 0 DC 5.0
+R212 n5V_USB __unnamed_11 21k
+R213 __unnamed_11 0 5.1k
+
+.op 
+
+.end

@@ -1,0 +1,2146 @@
+{
+  "board": "ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/merged_candidate.kicad_pcb",
+  "sha256": "6bdfc86b4ef10057d6b2224bbd796edfa2977571f4b80e5dd0323e6528d8bf28",
+  "legend": {
+    "bus": "DC link",
+    "aux": "5 V / 3.3 V",
+    "mcu": "MCU / gate driver",
+    "bridge": "Inverter / shunts",
+    "sense": "Current amplifiers",
+    "brake": "Brake chopper",
+    "encoder": "Position feedback",
+    "imu": "IMU / temperature",
+    "can": "CAN",
+    "usb": "USB / UART",
+    "debug": "Debug / probes",
+    "mechanical": "Mounts"
+  },
+  "colors": {
+    "bus": "#c58a1e",
+    "aux": "#2f76ac",
+    "mcu": "#7751b5",
+    "bridge": "#d74e47",
+    "sense": "#129c96",
+    "brake": "#d57c2d",
+    "encoder": "#ac479b",
+    "imu": "#529e48",
+    "can": "#22739d",
+    "usb": "#5b6cb3",
+    "debug": "#71828c",
+    "mechanical": "#4c535b"
+  },
+  "components": [
+    {
+      "ref": "D503",
+      "value": "BAT54H",
+      "function": "brake",
+      "side": "F",
+      "x": 28.0,
+      "y": 37.5
+    },
+    {
+      "ref": "D301",
+      "value": "RED",
+      "function": "mcu",
+      "side": "F",
+      "x": 57.0,
+      "y": 69.0
+    },
+    {
+      "ref": "J802",
+      "value": "CAN 2",
+      "function": "can",
+      "side": "F",
+      "x": 39.0,
+      "y": 75.5
+    },
+    {
+      "ref": "R804",
+      "value": "0R CANL link",
+      "function": "can",
+      "side": "F",
+      "x": 24.0,
+      "y": 66.69999999999999
+    },
+    {
+      "ref": "U201",
+      "value": "LMR36510FADDAR",
+      "function": "aux",
+      "side": "F",
+      "x": 10.0,
+      "y": 45.0
+    },
+    {
+      "ref": "R714",
+      "value": "33R",
+      "function": "imu",
+      "side": "F",
+      "x": 33.5,
+      "y": 40.5
+    },
+    {
+      "ref": "U501",
+      "value": "UCC27517ADBVR",
+      "function": "brake",
+      "side": "F",
+      "x": 22.0,
+      "y": 29.0
+    },
+    {
+      "ref": "R434",
+      "value": "100k",
+      "function": "bridge",
+      "side": "F",
+      "x": 61.0,
+      "y": 64.69999999999999
+    },
+    {
+      "ref": "U701",
+      "value": "BMI323",
+      "function": "imu",
+      "side": "F",
+      "x": 31.0,
+      "y": 49.0
+    },
+    {
+      "ref": "C103",
+      "value": "680uF 63V",
+      "function": "bus",
+      "side": "F",
+      "x": 60.0,
+      "y": 12.0
+    },
+    {
+      "ref": "C425",
+      "value": "10nF 100V X7S",
+      "function": "bridge",
+      "side": "F",
+      "x": 60.5,
+      "y": 42.0
+    },
+    {
+      "ref": "R211",
+      "value": "5.10k 1%",
+      "function": "aux",
+      "side": "F",
+      "x": 22.5,
+      "y": 59.0
+    },
+    {
+      "ref": "U301",
+      "value": "STSPIN32G4",
+      "function": "mcu",
+      "side": "F",
+      "x": 42.0,
+      "y": 49.0
+    },
+    {
+      "ref": "C312",
+      "value": "10uF 25V X7R",
+      "function": "mcu",
+      "side": "F",
+      "x": 40.5,
+      "y": 61.5
+    },
+    {
+      "ref": "U801",
+      "value": "TCAN3413DR",
+      "function": "can",
+      "side": "F",
+      "x": 33.0,
+      "y": 69.0
+    },
+    {
+      "ref": "R1001",
+      "value": "1k",
+      "function": "debug",
+      "side": "F",
+      "x": 58.5,
+      "y": 61.0
+    },
+    {
+      "ref": "R502",
+      "value": "33R",
+      "function": "brake",
+      "side": "F",
+      "x": 23.5,
+      "y": 25.5
+    },
+    {
+      "ref": "R610",
+      "value": "10k DNP Hall pull-up",
+      "function": "encoder",
+      "side": "F",
+      "x": 44.0,
+      "y": 68.19999999999999
+    },
+    {
+      "ref": "R433",
+      "value": "100k",
+      "function": "bridge",
+      "side": "F",
+      "x": 69.0,
+      "y": 60.0
+    },
+    {
+      "ref": "R209",
+      "value": "5.10k 1%",
+      "function": "aux",
+      "side": "F",
+      "x": 16.5,
+      "y": 50.5
+    },
+    {
+      "ref": "C413",
+      "value": "SNUBBER C TUNE",
+      "function": "bridge",
+      "side": "F",
+      "x": 69.0,
+      "y": 28.0
+    },
+    {
+      "ref": "U203",
+      "value": "TPS2121RUXR",
+      "function": "aux",
+      "side": "F",
+      "x": 16.0,
+      "y": 54.0
+    },
+    {
+      "ref": "R605",
+      "value": "100R",
+      "function": "encoder",
+      "side": "F",
+      "x": 48.5,
+      "y": 63.0
+    },
+    {
+      "ref": "SW1001",
+      "value": "BOOT0",
+      "function": "debug",
+      "side": "F",
+      "x": 15.0,
+      "y": 74.0
+    },
+    {
+      "ref": "C102",
+      "value": "680uF 63V",
+      "function": "bus",
+      "side": "F",
+      "x": 40.0,
+      "y": 12.0
+    },
+    {
+      "ref": "R423",
+      "value": "100k",
+      "function": "bridge",
+      "side": "F",
+      "x": 69.0,
+      "y": 46.0
+    },
+    {
+      "ref": "L301",
+      "value": "22uH / 2.75A",
+      "function": "mcu",
+      "side": "F",
+      "x": 34.0,
+      "y": 60.5
+    },
+    {
+      "ref": "C308",
+      "value": "10pF C0G",
+      "function": "mcu",
+      "side": "F",
+      "x": 44.0,
+      "y": 59.30000000000001
+    },
+    {
+      "ref": "Q501",
+      "value": "CSD19531Q5A 100V",
+      "function": "brake",
+      "side": "F",
+      "x": 28.0,
+      "y": 29.0
+    },
+    {
+      "ref": "R214",
+      "value": "80.6k 1%",
+      "function": "aux",
+      "side": "F",
+      "x": 13.5,
+      "y": 49.0
+    },
+    {
+      "ref": "R208",
+      "value": "10.0k 1%",
+      "function": "aux",
+      "side": "F",
+      "x": 17.5,
+      "y": 57.5
+    },
+    {
+      "ref": "R431",
+      "value": "4.7R",
+      "function": "bridge",
+      "side": "F",
+      "x": 67.0,
+      "y": 61.5
+    },
+    {
+      "ref": "C415",
+      "value": "10nF 100V X7S",
+      "function": "bridge",
+      "side": "F",
+      "x": 60.5,
+      "y": 28.0
+    },
+    {
+      "ref": "J101",
+      "value": "AMASS XT60PW-M",
+      "function": "bus",
+      "side": "F",
+      "x": 16.0,
+      "y": 36.0
+    },
+    {
+      "ref": "R432",
+      "value": "0R",
+      "function": "bridge",
+      "side": "F",
+      "x": 61.0,
+      "y": 61.5
+    },
+    {
+      "ref": "R206",
+      "value": "15.0k 1%",
+      "function": "aux",
+      "side": "F",
+      "x": 13.5,
+      "y": 56.5
+    },
+    {
+      "ref": "C431",
+      "value": "100nF 25V",
+      "function": "bridge",
+      "side": "F",
+      "x": 46.80000000000001,
+      "y": 41.900000000000006
+    },
+    {
+      "ref": "C604",
+      "value": "100nF 50V",
+      "function": "encoder",
+      "side": "F",
+      "x": 49.0,
+      "y": 65.5
+    },
+    {
+      "ref": "J1001",
+      "value": "ARM Cortex SWD 10-pin",
+      "function": "debug",
+      "side": "F",
+      "x": 65.0,
+      "y": 71.0
+    },
+    {
+      "ref": "R607",
+      "value": "100R",
+      "function": "encoder",
+      "side": "F",
+      "x": 47.5,
+      "y": 68.19999999999999
+    },
+    {
+      "ref": "R414",
+      "value": "100k",
+      "function": "bridge",
+      "side": "F",
+      "x": 58.5,
+      "y": 36.69999999999999
+    },
+    {
+      "ref": "D504",
+      "value": "B5100C 100V 5A",
+      "function": "brake",
+      "side": "F",
+      "x": 38.0,
+      "y": 30.0
+    },
+    {
+      "ref": "R204",
+      "value": "5.1k",
+      "function": "aux",
+      "side": "F",
+      "x": 3.0,
+      "y": 68.0
+    },
+    {
+      "ref": "C423",
+      "value": "SNUBBER C TUNE",
+      "function": "bridge",
+      "side": "F",
+      "x": 69.0,
+      "y": 42.0
+    },
+    {
+      "ref": "R104",
+      "value": "270k 0.1% 100V",
+      "function": "bus",
+      "side": "F",
+      "x": 32.0,
+      "y": 44.5
+    },
+    {
+      "ref": "R424",
+      "value": "100k",
+      "function": "bridge",
+      "side": "F",
+      "x": 58.5,
+      "y": 50.69999999999999
+    },
+    {
+      "ref": "C432",
+      "value": "1uF 100V X7R",
+      "function": "bridge",
+      "side": "F",
+      "x": 64.0,
+      "y": 61.900000000000006
+    },
+    {
+      "ref": "C702",
+      "value": "100nF",
+      "function": "imu",
+      "side": "F",
+      "x": 31.5,
+      "y": 40.5
+    },
+    {
+      "ref": "J601",
+      "value": "EXT ENCODER / HALL",
+      "function": "encoder",
+      "side": "F",
+      "x": 54.0,
+      "y": 74.0
+    },
+    {
+      "ref": "R212",
+      "value": "21.0k 1%",
+      "function": "aux",
+      "side": "F",
+      "x": 20.0,
+      "y": 64.5
+    },
+    {
+      "ref": "J401",
+      "value": "MOTOR U/V/W",
+      "function": "bridge",
+      "side": "F",
+      "x": 75.0,
+      "y": 28.0
+    },
+    {
+      "ref": "R307",
+      "value": "10k",
+      "function": "mcu",
+      "side": "F",
+      "x": 35.0,
+      "y": 43.0
+    },
+    {
+      "ref": "R421",
+      "value": "4.7R",
+      "function": "bridge",
+      "side": "F",
+      "x": 67.0,
+      "y": 47.5
+    },
+    {
+      "ref": "SW1002",
+      "value": "RESET",
+      "function": "debug",
+      "side": "F",
+      "x": 15.0,
+      "y": 68.0
+    },
+    {
+      "ref": "R412",
+      "value": "0R",
+      "function": "bridge",
+      "side": "F",
+      "x": 61.0,
+      "y": 33.5
+    },
+    {
+      "ref": "R801",
+      "value": "10k",
+      "function": "can",
+      "side": "F",
+      "x": 38.5,
+      "y": 70.0
+    },
+    {
+      "ref": "R103",
+      "value": "270k 0.1% 100V",
+      "function": "bus",
+      "side": "F",
+      "x": 26.0,
+      "y": 42.5
+    },
+    {
+      "ref": "C209",
+      "value": "100nF",
+      "function": "aux",
+      "side": "F",
+      "x": 18.5,
+      "y": 51.5
+    },
+    {
+      "ref": "R501",
+      "value": "10k",
+      "function": "brake",
+      "side": "F",
+      "x": 21.0,
+      "y": 32.5
+    },
+    {
+      "ref": "J501",
+      "value": "BRAKE RESISTOR",
+      "function": "brake",
+      "side": "F",
+      "x": 5.5,
+      "y": 13.0
+    },
+    {
+      "ref": "R105",
+      "value": "27k 0.1%",
+      "function": "bus",
+      "side": "F",
+      "x": 23.5,
+      "y": 51.0
+    },
+    {
+      "ref": "U202",
+      "value": "USBLC6-2SC6",
+      "function": "aux",
+      "side": "F",
+      "x": 10.0,
+      "y": 57.5
+    },
+    {
+      "ref": "D601",
+      "value": "TPD3E001DRLR 3-line ESD",
+      "function": "encoder",
+      "side": "F",
+      "x": 50.5,
+      "y": 68.5
+    },
+    {
+      "ref": "C802",
+      "value": "1uF",
+      "function": "can",
+      "side": "F",
+      "x": 40.0,
+      "y": 67.0
+    },
+    {
+      "ref": "C207",
+      "value": "4.7nF 2kV",
+      "function": "aux",
+      "side": "F",
+      "x": 16.0,
+      "y": 63.0
+    },
+    {
+      "ref": "C201",
+      "value": "2.2uF 100V X7R",
+      "function": "aux",
+      "side": "F",
+      "x": 4.0,
+      "y": 44.0
+    },
+    {
+      "ref": "R106",
+      "value": "1k",
+      "function": "bus",
+      "side": "F",
+      "x": 24.5,
+      "y": 57.0
+    },
+    {
+      "ref": "C205",
+      "value": "22uF 10V X7R",
+      "function": "aux",
+      "side": "F",
+      "x": 29.0,
+      "y": 43.0
+    },
+    {
+      "ref": "C212",
+      "value": "2.2uF 10V X7R",
+      "function": "aux",
+      "side": "F",
+      "x": 21.0,
+      "y": 51.5
+    },
+    {
+      "ref": "JP801",
+      "value": "TERM ENABLE",
+      "function": "can",
+      "side": "F",
+      "x": 45.5,
+      "y": 76.0
+    },
+    {
+      "ref": "C421",
+      "value": "100nF 25V",
+      "function": "bridge",
+      "side": "F",
+      "x": 43.400000000000006,
+      "y": 41.900000000000006
+    },
+    {
+      "ref": "C314",
+      "value": "10nF",
+      "function": "mcu",
+      "side": "F",
+      "x": 35.0,
+      "y": 50.900000000000006
+    },
+    {
+      "ref": "H3",
+      "value": "M3 NPTH",
+      "function": "mechanical",
+      "side": "F",
+      "x": 74.0,
+      "y": 74.0
+    },
+    {
+      "ref": "C411",
+      "value": "100nF 25V",
+      "function": "bridge",
+      "side": "F",
+      "x": 40.0,
+      "y": 41.900000000000006
+    },
+    {
+      "ref": "C210",
+      "value": "22uF 10V X7R",
+      "function": "aux",
+      "side": "F",
+      "x": 20.0,
+      "y": 55.5
+    },
+    {
+      "ref": "C303",
+      "value": "100nF",
+      "function": "mcu",
+      "side": "F",
+      "x": 49.0,
+      "y": 47.599999999999994
+    },
+    {
+      "ref": "D801",
+      "value": "PESD2CANFD24V-T",
+      "function": "can",
+      "side": "F",
+      "x": 27.0,
+      "y": 70.0
+    },
+    {
+      "ref": "U502",
+      "value": "TLV3012BIDBVR",
+      "function": "brake",
+      "side": "F",
+      "x": 22.0,
+      "y": 36.0
+    },
+    {
+      "ref": "R422",
+      "value": "0R",
+      "function": "bridge",
+      "side": "F",
+      "x": 61.0,
+      "y": 47.5
+    },
+    {
+      "ref": "C422",
+      "value": "1uF 100V X7R",
+      "function": "bridge",
+      "side": "F",
+      "x": 64.0,
+      "y": 47.900000000000006
+    },
+    {
+      "ref": "C309",
+      "value": "10pF C0G",
+      "function": "mcu",
+      "side": "F",
+      "x": 44.0,
+      "y": 56.5
+    },
+    {
+      "ref": "R311",
+      "value": "10k",
+      "function": "mcu",
+      "side": "F",
+      "x": 35.0,
+      "y": 47.30000000000001
+    },
+    {
+      "ref": "J801",
+      "value": "CAN 1",
+      "function": "can",
+      "side": "F",
+      "x": 27.0,
+      "y": 75.5
+    },
+    {
+      "ref": "R609",
+      "value": "10k DNP Hall pull-up",
+      "function": "encoder",
+      "side": "F",
+      "x": 43.0,
+      "y": 66.1
+    },
+    {
+      "ref": "R205",
+      "value": "0R",
+      "function": "aux",
+      "side": "F",
+      "x": 7.5,
+      "y": 54.0
+    },
+    {
+      "ref": "L201",
+      "value": "22uH / 2.75A",
+      "function": "aux",
+      "side": "F",
+      "x": 20.0,
+      "y": 45.0
+    },
+    {
+      "ref": "SW301",
+      "value": "RESET",
+      "function": "mcu",
+      "side": "F",
+      "x": 55.0,
+      "y": 64.5
+    },
+    {
+      "ref": "Y301",
+      "value": "24MHz 7pF",
+      "function": "mcu",
+      "side": "F",
+      "x": 41.0,
+      "y": 56.5
+    },
+    {
+      "ref": "C305",
+      "value": "100nF",
+      "function": "mcu",
+      "side": "F",
+      "x": 49.0,
+      "y": 49.80000000000001
+    },
+    {
+      "ref": "R210",
+      "value": "21.0k 1%",
+      "function": "aux",
+      "side": "F",
+      "x": 19.0,
+      "y": 62.5
+    },
+    {
+      "ref": "C701",
+      "value": "100nF",
+      "function": "imu",
+      "side": "F",
+      "x": 31.0,
+      "y": 51.5
+    },
+    {
+      "ref": "C211",
+      "value": "100nF",
+      "function": "aux",
+      "side": "F",
+      "x": 13.5,
+      "y": 53.0
+    },
+    {
+      "ref": "R503",
+      "value": "4.7R",
+      "function": "brake",
+      "side": "F",
+      "x": 23.0,
+      "y": 32.5
+    },
+    {
+      "ref": "U204",
+      "value": "TLV75533PDYDR",
+      "function": "aux",
+      "side": "F",
+      "x": 24.0,
+      "y": 54.0
+    },
+    {
+      "ref": "C412",
+      "value": "1uF 100V X7R",
+      "function": "bridge",
+      "side": "F",
+      "x": 64.0,
+      "y": 33.900000000000006
+    },
+    {
+      "ref": "R207",
+      "value": "5.10k 1%",
+      "function": "aux",
+      "side": "F",
+      "x": 11.5,
+      "y": 54.0
+    },
+    {
+      "ref": "R805",
+      "value": "10k",
+      "function": "can",
+      "side": "F",
+      "x": 27.5,
+      "y": 65.0
+    },
+    {
+      "ref": "R608",
+      "value": "10k DNP Hall pull-up",
+      "function": "encoder",
+      "side": "F",
+      "x": 45.0,
+      "y": 64.0
+    },
+    {
+      "ref": "C206",
+      "value": "22uF 10V X7R",
+      "function": "aux",
+      "side": "F",
+      "x": 27.0,
+      "y": 49.0
+    },
+    {
+      "ref": "R213",
+      "value": "5.10k 1%",
+      "function": "aux",
+      "side": "F",
+      "x": 22.5,
+      "y": 62.5
+    },
+    {
+      "ref": "R803",
+      "value": "0R CANH link",
+      "function": "can",
+      "side": "F",
+      "x": 27.5,
+      "y": 67.0
+    },
+    {
+      "ref": "H1",
+      "value": "M3 NPTH",
+      "function": "mechanical",
+      "side": "F",
+      "x": 6.0,
+      "y": 6.0
+    },
+    {
+      "ref": "J201",
+      "value": "USB-C service",
+      "function": "aux",
+      "side": "F",
+      "x": 2.5,
+      "y": 61.0
+    },
+    {
+      "ref": "Q401",
+      "value": "CSD88599Q5DC",
+      "function": "bridge",
+      "side": "F",
+      "x": 64.0,
+      "y": 28.0
+    },
+    {
+      "ref": "C433",
+      "value": "SNUBBER C TUNE",
+      "function": "bridge",
+      "side": "F",
+      "x": 69.0,
+      "y": 56.0
+    },
+    {
+      "ref": "R604",
+      "value": "0R; external load <=25mA",
+      "function": "encoder",
+      "side": "F",
+      "x": 59.5,
+      "y": 69.0
+    },
+    {
+      "ref": "R203",
+      "value": "5.1k",
+      "function": "aux",
+      "side": "F",
+      "x": 2.5,
+      "y": 54.0
+    },
+    {
+      "ref": "C435",
+      "value": "10nF 100V X7S",
+      "function": "bridge",
+      "side": "F",
+      "x": 60.5,
+      "y": 56.0
+    },
+    {
+      "ref": "D302",
+      "value": "STPS1H100A",
+      "function": "mcu",
+      "side": "F",
+      "x": 32.80000000000001,
+      "y": 54.5
+    },
+    {
+      "ref": "R802",
+      "value": "120R 1%",
+      "function": "can",
+      "side": "F",
+      "x": 33.0,
+      "y": 73.5
+    },
+    {
+      "ref": "C213",
+      "value": "2.2uF 10V X7R",
+      "function": "aux",
+      "side": "F",
+      "x": 27.0,
+      "y": 57.0
+    },
+    {
+      "ref": "Q402",
+      "value": "CSD88599Q5DC",
+      "function": "bridge",
+      "side": "F",
+      "x": 64.0,
+      "y": 42.0
+    },
+    {
+      "ref": "R606",
+      "value": "100R",
+      "function": "encoder",
+      "side": "F",
+      "x": 46.5,
+      "y": 66.1
+    },
+    {
+      "ref": "R312",
+      "value": "1k",
+      "function": "mcu",
+      "side": "F",
+      "x": 35.0,
+      "y": 49.099999999999994
+    },
+    {
+      "ref": "Q403",
+      "value": "CSD88599Q5DC",
+      "function": "bridge",
+      "side": "F",
+      "x": 64.0,
+      "y": 56.0
+    },
+    {
+      "ref": "R304",
+      "value": "1k",
+      "function": "mcu",
+      "side": "F",
+      "x": 47.0,
+      "y": 71.0
+    },
+    {
+      "ref": "R411",
+      "value": "4.7R",
+      "function": "bridge",
+      "side": "F",
+      "x": 67.0,
+      "y": 33.5
+    },
+    {
+      "ref": "C101",
+      "value": "680uF 63V",
+      "function": "bus",
+      "side": "F",
+      "x": 20.0,
+      "y": 12.0
+    },
+    {
+      "ref": "R215",
+      "value": "10k",
+      "function": "aux",
+      "side": "F",
+      "x": 10.0,
+      "y": 49.0
+    },
+    {
+      "ref": "H2",
+      "value": "M3 NPTH",
+      "function": "mechanical",
+      "side": "F",
+      "x": 74.0,
+      "y": 6.0
+    },
+    {
+      "ref": "H4",
+      "value": "M3 NPTH",
+      "function": "mechanical",
+      "side": "F",
+      "x": 6.0,
+      "y": 74.0
+    },
+    {
+      "ref": "R310",
+      "value": "100k",
+      "function": "mcu",
+      "side": "F",
+      "x": 35.0,
+      "y": 45.5
+    },
+    {
+      "ref": "C801",
+      "value": "100nF",
+      "function": "can",
+      "side": "F",
+      "x": 38.0,
+      "y": 67.0
+    },
+    {
+      "ref": "U901",
+      "value": "CP2102N-A02-GQFN20",
+      "function": "usb",
+      "side": "F",
+      "x": 12.0,
+      "y": 62.0
+    },
+    {
+      "ref": "C208",
+      "value": "1uF 10V",
+      "function": "aux",
+      "side": "F",
+      "x": 5.0,
+      "y": 54.5
+    },
+    {
+      "ref": "R413",
+      "value": "100k",
+      "function": "bridge",
+      "side": "F",
+      "x": 69.0,
+      "y": 32.0
+    },
+    {
+      "ref": "D502",
+      "value": "BAT54H",
+      "function": "brake",
+      "side": "F",
+      "x": 25.5,
+      "y": 34.5
+    },
+    {
+      "ref": "R309",
+      "value": "10k",
+      "function": "mcu",
+      "side": "F",
+      "x": 19.0,
+      "y": 60.5
+    },
+    {
+      "ref": "C904",
+      "value": "100nF",
+      "function": "usb",
+      "side": "B",
+      "x": 16.0,
+      "y": 64.0
+    },
+    {
+      "ref": "TP204",
+      "value": "3V3",
+      "function": "aux",
+      "side": "B",
+      "x": 28.0,
+      "y": 56.0
+    },
+    {
+      "ref": "R314",
+      "value": "22R",
+      "function": "mcu",
+      "side": "B",
+      "x": 31.5,
+      "y": 37.5
+    },
+    {
+      "ref": "R439",
+      "value": "28k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 48.400000000000006,
+      "y": 48.0
+    },
+    {
+      "ref": "TP202",
+      "value": "5V_USB",
+      "function": "aux",
+      "side": "B",
+      "x": 25.0,
+      "y": 60.0
+    },
+    {
+      "ref": "R901",
+      "value": "1k",
+      "function": "usb",
+      "side": "B",
+      "x": 16.0,
+      "y": 60.5
+    },
+    {
+      "ref": "R506",
+      "value": "150k 0.1% 100V",
+      "function": "brake",
+      "side": "B",
+      "x": 27.0,
+      "y": 35.0
+    },
+    {
+      "ref": "R302",
+      "value": "0R",
+      "function": "mcu",
+      "side": "B",
+      "x": 51.599999999999994,
+      "y": 42.400000000000006
+    },
+    {
+      "ref": "R202",
+      "value": "24.9k 1%",
+      "function": "aux",
+      "side": "B",
+      "x": 14.0,
+      "y": 50.099999999999994
+    },
+    {
+      "ref": "TP1003",
+      "value": "5V_BAT",
+      "function": "debug",
+      "side": "B",
+      "x": 22.0,
+      "y": 62.5
+    },
+    {
+      "ref": "R442",
+      "value": "56k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 51.599999999999994,
+      "y": 56.5
+    },
+    {
+      "ref": "R905",
+      "value": "47.5k 1%",
+      "function": "usb",
+      "side": "B",
+      "x": 14.0,
+      "y": 69.1
+    },
+    {
+      "ref": "R426",
+      "value": "BVR-Z-R0005 0.5mR",
+      "function": "bridge",
+      "side": "B",
+      "x": 65.65,
+      "y": 36.0
+    },
+    {
+      "ref": "C901",
+      "value": "4.7uF 10V",
+      "function": "usb",
+      "side": "B",
+      "x": 10.0,
+      "y": 64.0
+    },
+    {
+      "ref": "TP102",
+      "value": "GND",
+      "function": "bus",
+      "side": "B",
+      "x": 31.0,
+      "y": 26.5
+    },
+    {
+      "ref": "TP1020",
+      "value": "OPO_W1",
+      "function": "sense",
+      "side": "B",
+      "x": 45.69999999999999,
+      "y": 46.0
+    },
+    {
+      "ref": "TP1010",
+      "value": "SPI3_SCK",
+      "function": "debug",
+      "side": "B",
+      "x": 35.5,
+      "y": 48.0
+    },
+    {
+      "ref": "C311",
+      "value": "220nF 100V",
+      "function": "mcu",
+      "side": "B",
+      "x": 38.400000000000006,
+      "y": 48.400000000000006
+    },
+    {
+      "ref": "R437",
+      "value": "1k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 51.599999999999994,
+      "y": 49.69999999999999
+    },
+    {
+      "ref": "R701",
+      "value": "4.7k 1%",
+      "function": "imu",
+      "side": "B",
+      "x": 36.0,
+      "y": 56.0
+    },
+    {
+      "ref": "R702",
+      "value": "4.7k 1%",
+      "function": "imu",
+      "side": "B",
+      "x": 36.0,
+      "y": 57.69999999999999
+    },
+    {
+      "ref": "TP902",
+      "value": "USB_UART_RX",
+      "function": "usb",
+      "side": "B",
+      "x": 10.5,
+      "y": 70.0
+    },
+    {
+      "ref": "R305",
+      "value": "10k",
+      "function": "mcu",
+      "side": "B",
+      "x": 47.5,
+      "y": 41.0
+    },
+    {
+      "ref": "R435",
+      "value": "SNUBBER R TUNE",
+      "function": "bridge",
+      "side": "B",
+      "x": 75.5,
+      "y": 49.0
+    },
+    {
+      "ref": "R427",
+      "value": "1k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 51.599999999999994,
+      "y": 54.80000000000001
+    },
+    {
+      "ref": "TP701",
+      "value": "NTC_A",
+      "function": "imu",
+      "side": "B",
+      "x": 37.0,
+      "y": 64.0
+    },
+    {
+      "ref": "TP203",
+      "value": "5V_SYS",
+      "function": "aux",
+      "side": "B",
+      "x": 22.0,
+      "y": 57.0
+    },
+    {
+      "ref": "C414",
+      "value": "47pF C0G",
+      "function": "sense",
+      "side": "B",
+      "x": 45.0,
+      "y": 57.0
+    },
+    {
+      "ref": "R611",
+      "value": "33R",
+      "function": "encoder",
+      "side": "B",
+      "x": 42.0,
+      "y": 35.5
+    },
+    {
+      "ref": "TP1019",
+      "value": "OPO_V1",
+      "function": "sense",
+      "side": "B",
+      "x": 45.75,
+      "y": 52.19999999999999
+    },
+    {
+      "ref": "R428",
+      "value": "1k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 51.599999999999994,
+      "y": 53.099999999999994
+    },
+    {
+      "ref": "TP1021",
+      "value": "SPARE_GPIO_1",
+      "function": "debug",
+      "side": "B",
+      "x": 44.0,
+      "y": 72.0
+    },
+    {
+      "ref": "TH702",
+      "value": "10k NTC B3380",
+      "function": "imu",
+      "side": "B",
+      "x": 68.0,
+      "y": 43.0
+    },
+    {
+      "ref": "TP301",
+      "value": "VCC",
+      "function": "mcu",
+      "side": "B",
+      "x": 29.0,
+      "y": 61.0
+    },
+    {
+      "ref": "TP1022",
+      "value": "CAN_STB",
+      "function": "can",
+      "side": "B",
+      "x": 37.0,
+      "y": 70.0
+    },
+    {
+      "ref": "TP502",
+      "value": "BRK_SW",
+      "function": "brake",
+      "side": "B",
+      "x": 29.5,
+      "y": 24.5
+    },
+    {
+      "ref": "TP903",
+      "value": "GND",
+      "function": "usb",
+      "side": "B",
+      "x": 31.0,
+      "y": 52.0
+    },
+    {
+      "ref": "TP1014",
+      "value": "FDCAN1_RX",
+      "function": "debug",
+      "side": "B",
+      "x": 34.0,
+      "y": 70.0
+    },
+    {
+      "ref": "C310",
+      "value": "100nF",
+      "function": "mcu",
+      "side": "B",
+      "x": 42.0,
+      "y": 53.0
+    },
+    {
+      "ref": "TP1013",
+      "value": "FDCAN1_TX",
+      "function": "debug",
+      "side": "B",
+      "x": 31.0,
+      "y": 70.0
+    },
+    {
+      "ref": "TP1023",
+      "value": "SPARE_GPIO_3",
+      "function": "debug",
+      "side": "B",
+      "x": 47.0,
+      "y": 72.0
+    },
+    {
+      "ref": "R713",
+      "value": "1k",
+      "function": "imu",
+      "side": "B",
+      "x": 37.0,
+      "y": 61.400000000000006
+    },
+    {
+      "ref": "C304",
+      "value": "1uF",
+      "function": "mcu",
+      "side": "B",
+      "x": 48.19999999999999,
+      "y": 43.0
+    },
+    {
+      "ref": "TP1004",
+      "value": "5V_USB",
+      "function": "debug",
+      "side": "B",
+      "x": 19.5,
+      "y": 57.5
+    },
+    {
+      "ref": "R703",
+      "value": "4.7k 1%",
+      "function": "imu",
+      "side": "B",
+      "x": 35.5,
+      "y": 59.400000000000006
+    },
+    {
+      "ref": "TP1008",
+      "value": "SWDIO",
+      "function": "debug",
+      "side": "B",
+      "x": 61.0,
+      "y": 69.0
+    },
+    {
+      "ref": "TP1009",
+      "value": "SWCLK",
+      "function": "debug",
+      "side": "B",
+      "x": 69.0,
+      "y": 69.0
+    },
+    {
+      "ref": "R306",
+      "value": "10k",
+      "function": "mcu",
+      "side": "B",
+      "x": 36.0,
+      "y": 35.5
+    },
+    {
+      "ref": "TP1007",
+      "value": "NRST",
+      "function": "debug",
+      "side": "B",
+      "x": 42.0,
+      "y": 59.75
+    },
+    {
+      "ref": "R201",
+      "value": "100k 1%",
+      "function": "aux",
+      "side": "B",
+      "x": 14.0,
+      "y": 48.0
+    },
+    {
+      "ref": "TP1018",
+      "value": "OPO_U1",
+      "function": "sense",
+      "side": "B",
+      "x": 42.0,
+      "y": 55.80000000000001
+    },
+    {
+      "ref": "R102",
+      "value": "RC DAMP R - TUNE",
+      "function": "bus",
+      "side": "B",
+      "x": 18.5,
+      "y": 9.5
+    },
+    {
+      "ref": "R443",
+      "value": "56k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 51.599999999999994,
+      "y": 51.400000000000006
+    },
+    {
+      "ref": "C105",
+      "value": "100nF 100V X7R",
+      "function": "bus",
+      "side": "B",
+      "x": 20.0,
+      "y": 36.5
+    },
+    {
+      "ref": "C502",
+      "value": "100nF 25V",
+      "function": "brake",
+      "side": "B",
+      "x": 23.5,
+      "y": 31.599999999999994
+    },
+    {
+      "ref": "TH701",
+      "value": "10k NTC B3380",
+      "function": "imu",
+      "side": "B",
+      "x": 68.0,
+      "y": 29.0
+    },
+    {
+      "ref": "TP1012",
+      "value": "SPI3_MOSI",
+      "function": "debug",
+      "side": "B",
+      "x": 30.5,
+      "y": 49.0
+    },
+    {
+      "ref": "R509",
+      "value": "12.7k 0.1%",
+      "function": "brake",
+      "side": "B",
+      "x": 16.5,
+      "y": 40.0
+    },
+    {
+      "ref": "C902",
+      "value": "100nF",
+      "function": "usb",
+      "side": "B",
+      "x": 12.0,
+      "y": 64.5
+    },
+    {
+      "ref": "R904",
+      "value": "22.1k 1%",
+      "function": "usb",
+      "side": "B",
+      "x": 14.0,
+      "y": 67.0
+    },
+    {
+      "ref": "TH703",
+      "value": "10k NTC B3380",
+      "function": "imu",
+      "side": "B",
+      "x": 68.0,
+      "y": 57.0
+    },
+    {
+      "ref": "R313",
+      "value": "22R",
+      "function": "mcu",
+      "side": "B",
+      "x": 33.5,
+      "y": 37.5
+    },
+    {
+      "ref": "U601",
+      "value": "AS5047P-ATSM",
+      "function": "encoder",
+      "side": "B",
+      "x": 40.0,
+      "y": 40.0
+    },
+    {
+      "ref": "R711",
+      "value": "1k",
+      "function": "imu",
+      "side": "B",
+      "x": 39.5,
+      "y": 56.0
+    },
+    {
+      "ref": "TP1016",
+      "value": "FEEDBACK_B_H2",
+      "function": "debug",
+      "side": "B",
+      "x": 29.0,
+      "y": 47.0
+    },
+    {
+      "ref": "C503",
+      "value": "100nF",
+      "function": "brake",
+      "side": "B",
+      "x": 23.5,
+      "y": 35.0
+    },
+    {
+      "ref": "C903",
+      "value": "4.7uF 10V",
+      "function": "usb",
+      "side": "B",
+      "x": 14.0,
+      "y": 64.0
+    },
+    {
+      "ref": "R507",
+      "value": "150k 0.1% 100V",
+      "function": "brake",
+      "side": "B",
+      "x": 27.0,
+      "y": 40.0
+    },
+    {
+      "ref": "C424",
+      "value": "47pF C0G",
+      "function": "sense",
+      "side": "B",
+      "x": 48.400000000000006,
+      "y": 54.80000000000001
+    },
+    {
+      "ref": "R438",
+      "value": "1k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 51.599999999999994,
+      "y": 48.0
+    },
+    {
+      "ref": "TP303",
+      "value": "NRST",
+      "function": "mcu",
+      "side": "B",
+      "x": 55.0,
+      "y": 69.0
+    },
+    {
+      "ref": "R419",
+      "value": "28k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 45.0,
+      "y": 55.30000000000001
+    },
+    {
+      "ref": "R301",
+      "value": "0R",
+      "function": "mcu",
+      "side": "B",
+      "x": 45.0,
+      "y": 44.0
+    },
+    {
+      "ref": "C204",
+      "value": "1uF",
+      "function": "aux",
+      "side": "B",
+      "x": 14.0,
+      "y": 45.5
+    },
+    {
+      "ref": "C306",
+      "value": "1uF",
+      "function": "mcu",
+      "side": "B",
+      "x": 51.599999999999994,
+      "y": 44.599999999999994
+    },
+    {
+      "ref": "R425",
+      "value": "SNUBBER R TUNE",
+      "function": "bridge",
+      "side": "B",
+      "x": 75.5,
+      "y": 35.0
+    },
+    {
+      "ref": "R505",
+      "value": "10k",
+      "function": "brake",
+      "side": "B",
+      "x": 19.0,
+      "y": 29.0
+    },
+    {
+      "ref": "C108",
+      "value": "10nF",
+      "function": "bus",
+      "side": "B",
+      "x": 43.849999999999994,
+      "y": 52.94999999999999
+    },
+    {
+      "ref": "TP1011",
+      "value": "SPI3_MISO",
+      "function": "debug",
+      "side": "B",
+      "x": 32.5,
+      "y": 48.5
+    },
+    {
+      "ref": "R903",
+      "value": "100R",
+      "function": "usb",
+      "side": "B",
+      "x": 14.5,
+      "y": 58.0
+    },
+    {
+      "ref": "C602",
+      "value": "1uF",
+      "function": "encoder",
+      "side": "B",
+      "x": 33.5,
+      "y": 34.0
+    },
+    {
+      "ref": "C713",
+      "value": "10nF",
+      "function": "imu",
+      "side": "B",
+      "x": 44.0,
+      "y": 62.400000000000006
+    },
+    {
+      "ref": "TP1005",
+      "value": "5V_SYS",
+      "function": "debug",
+      "side": "B",
+      "x": 19.5,
+      "y": 60.0
+    },
+    {
+      "ref": "R601",
+      "value": "33R",
+      "function": "encoder",
+      "side": "B",
+      "x": 45.5,
+      "y": 38.0
+    },
+    {
+      "ref": "C301",
+      "value": "100nF",
+      "function": "mcu",
+      "side": "B",
+      "x": 38.0,
+      "y": 52.5
+    },
+    {
+      "ref": "C601",
+      "value": "100nF",
+      "function": "encoder",
+      "side": "B",
+      "x": 35.0,
+      "y": 41.0
+    },
+    {
+      "ref": "C302",
+      "value": "10uF 10V",
+      "function": "mcu",
+      "side": "B",
+      "x": 36.0,
+      "y": 51.0
+    },
+    {
+      "ref": "R101",
+      "value": "470k 0.25W",
+      "function": "bus",
+      "side": "B",
+      "x": 8.0,
+      "y": 33.0
+    },
+    {
+      "ref": "TP1002",
+      "value": "VCC",
+      "function": "debug",
+      "side": "B",
+      "x": 29.0,
+      "y": 64.0
+    },
+    {
+      "ref": "D501",
+      "value": "BZT52C12 12V",
+      "function": "brake",
+      "side": "B",
+      "x": 34.0,
+      "y": 30.0
+    },
+    {
+      "ref": "D101",
+      "value": "VM TVS - SELECT AFTER TEST",
+      "function": "bus",
+      "side": "B",
+      "x": 13.0,
+      "y": 17.0
+    },
+    {
+      "ref": "C434",
+      "value": "47pF C0G",
+      "function": "sense",
+      "side": "B",
+      "x": 48.400000000000006,
+      "y": 46.30000000000001
+    },
+    {
+      "ref": "R303",
+      "value": "100k",
+      "function": "mcu",
+      "side": "B",
+      "x": 40.0,
+      "y": 53.5
+    },
+    {
+      "ref": "U602",
+      "value": "TMUX1574PW",
+      "function": "encoder",
+      "side": "B",
+      "x": 54.0,
+      "y": 35.0
+    },
+    {
+      "ref": "C106",
+      "value": "10nF 100V C0G",
+      "function": "bus",
+      "side": "B",
+      "x": 20.0,
+      "y": 38.5
+    },
+    {
+      "ref": "TP702",
+      "value": "NTC_B",
+      "function": "imu",
+      "side": "B",
+      "x": 40.0,
+      "y": 65.0
+    },
+    {
+      "ref": "R417",
+      "value": "1k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 45.0,
+      "y": 58.69999999999999
+    },
+    {
+      "ref": "TP1001",
+      "value": "VM",
+      "function": "debug",
+      "side": "B",
+      "x": 63.0,
+      "y": 59.0
+    },
+    {
+      "ref": "R415",
+      "value": "SNUBBER R TUNE",
+      "function": "bridge",
+      "side": "B",
+      "x": 75.5,
+      "y": 21.0
+    },
+    {
+      "ref": "R504",
+      "value": "10k",
+      "function": "brake",
+      "side": "B",
+      "x": 24.5,
+      "y": 37.5
+    },
+    {
+      "ref": "R420",
+      "value": "56k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 48.400000000000006,
+      "y": 56.5
+    },
+    {
+      "ref": "TP201",
+      "value": "5V_BAT",
+      "function": "aux",
+      "side": "B",
+      "x": 22.0,
+      "y": 60.0
+    },
+    {
+      "ref": "R418",
+      "value": "1k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 48.400000000000006,
+      "y": 58.19999999999999
+    },
+    {
+      "ref": "TP302",
+      "value": "SCREF",
+      "function": "mcu",
+      "side": "B",
+      "x": 33.0,
+      "y": 46.25
+    },
+    {
+      "ref": "C712",
+      "value": "10nF",
+      "function": "imu",
+      "side": "B",
+      "x": 40.5,
+      "y": 61.69999999999999
+    },
+    {
+      "ref": "R602",
+      "value": "33R",
+      "function": "encoder",
+      "side": "B",
+      "x": 39.5,
+      "y": 44.099999999999994
+    },
+    {
+      "ref": "R430",
+      "value": "56k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 48.400000000000006,
+      "y": 51.400000000000006
+    },
+    {
+      "ref": "C603",
+      "value": "100nF",
+      "function": "encoder",
+      "side": "B",
+      "x": 59.0,
+      "y": 34.0
+    },
+    {
+      "ref": "R436",
+      "value": "BVR-Z-R0005 0.5mR",
+      "function": "bridge",
+      "side": "B",
+      "x": 65.65,
+      "y": 50.0
+    },
+    {
+      "ref": "TP703",
+      "value": "NTC_C",
+      "function": "imu",
+      "side": "B",
+      "x": 43.0,
+      "y": 65.0
+    },
+    {
+      "ref": "TP1015",
+      "value": "FEEDBACK_A_H1",
+      "function": "debug",
+      "side": "B",
+      "x": 29.0,
+      "y": 44.0
+    },
+    {
+      "ref": "R441",
+      "value": "56k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 48.400000000000006,
+      "y": 60.400000000000006
+    },
+    {
+      "ref": "R410",
+      "value": "56k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 45.0,
+      "y": 60.400000000000006
+    },
+    {
+      "ref": "C711",
+      "value": "10nF",
+      "function": "imu",
+      "side": "B",
+      "x": 40.5,
+      "y": 58.0
+    },
+    {
+      "ref": "C104",
+      "value": "4.7uF 100V X7R",
+      "function": "bus",
+      "side": "B",
+      "x": 20.0,
+      "y": 33.0
+    },
+    {
+      "ref": "TP501",
+      "value": "BRAKE_GATE",
+      "function": "brake",
+      "side": "B",
+      "x": 31.5,
+      "y": 32.5
+    },
+    {
+      "ref": "C501",
+      "value": "1uF 25V",
+      "function": "brake",
+      "side": "B",
+      "x": 22.0,
+      "y": 29.0
+    },
+    {
+      "ref": "R308",
+      "value": "10k",
+      "function": "mcu",
+      "side": "B",
+      "x": 49.0,
+      "y": 38.0
+    },
+    {
+      "ref": "C307",
+      "value": "100nF",
+      "function": "mcu",
+      "side": "B",
+      "x": 34.0,
+      "y": 51.0
+    },
+    {
+      "ref": "C504",
+      "value": "1nF C0G",
+      "function": "brake",
+      "side": "B",
+      "x": 19.0,
+      "y": 40.5
+    },
+    {
+      "ref": "TP101",
+      "value": "VM",
+      "function": "bus",
+      "side": "B",
+      "x": 18.0,
+      "y": 25.5
+    },
+    {
+      "ref": "TP1006",
+      "value": "3V3",
+      "function": "debug",
+      "side": "B",
+      "x": 46.0,
+      "y": 70.0
+    },
+    {
+      "ref": "C203",
+      "value": "100nF",
+      "function": "aux",
+      "side": "B",
+      "x": 14.0,
+      "y": 43.5
+    },
+    {
+      "ref": "R510",
+      "value": "1M 0.1%",
+      "function": "brake",
+      "side": "B",
+      "x": 19.0,
+      "y": 42.5
+    },
+    {
+      "ref": "C202",
+      "value": "220nF 100V X7R",
+      "function": "aux",
+      "side": "B",
+      "x": 6.0,
+      "y": 43.5
+    },
+    {
+      "ref": "C313",
+      "value": "100nF 25V",
+      "function": "mcu",
+      "side": "B",
+      "x": 35.5,
+      "y": 54.5
+    },
+    {
+      "ref": "R508",
+      "value": "150k 0.1% 100V",
+      "function": "brake",
+      "side": "B",
+      "x": 23.0,
+      "y": 41.5
+    },
+    {
+      "ref": "R712",
+      "value": "1k",
+      "function": "imu",
+      "side": "B",
+      "x": 39.0,
+      "y": 59.69999999999999
+    },
+    {
+      "ref": "TP901",
+      "value": "USB_UART_TX",
+      "function": "usb",
+      "side": "B",
+      "x": 9.0,
+      "y": 66.5
+    },
+    {
+      "ref": "TP103",
+      "value": "VBUS_SENSE",
+      "function": "bus",
+      "side": "B",
+      "x": 33.25,
+      "y": 57.5
+    },
+    {
+      "ref": "R416",
+      "value": "BVR-Z-R0005 0.5mR",
+      "function": "bridge",
+      "side": "B",
+      "x": 65.65,
+      "y": 22.0
+    },
+    {
+      "ref": "R603",
+      "value": "33R",
+      "function": "encoder",
+      "side": "B",
+      "x": 36.0,
+      "y": 44.5
+    },
+    {
+      "ref": "R429",
+      "value": "28k 0.1%",
+      "function": "sense",
+      "side": "B",
+      "x": 48.400000000000006,
+      "y": 53.099999999999994
+    },
+    {
+      "ref": "TP1024",
+      "value": "SPARE_TIM_GPIO",
+      "function": "debug",
+      "side": "B",
+      "x": 50.0,
+      "y": 72.0
+    },
+    {
+      "ref": "R902",
+      "value": "100R",
+      "function": "usb",
+      "side": "B",
+      "x": 11.0,
+      "y": 58.0
+    },
+    {
+      "ref": "C107",
+      "value": "RC DAMP C - TUNE",
+      "function": "bus",
+      "side": "B",
+      "x": 13.0,
+      "y": 9.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+* Auto-generated testbench for RC filter: R713/C713
+* Type: low-pass, expected fc = 15915.5 Hz
+* Model: ideal passives (exact for RC)
+
+
+R713 NTC_C_RAW NTC_PHASE_C 1k
+
+C713 NTC_PHASE_C 0 10n
+
+* AC stimulus
+VAC NTC_C_RAW 0 DC 0 AC 1
+
+.ac dec 100 159.2 1.592Meg
+.meas ac fc_sim when vdb(NTC_PHASE_C)=-3
+.meas ac phase_fc find vp(NTC_PHASE_C) at=fc_sim
+
+.end

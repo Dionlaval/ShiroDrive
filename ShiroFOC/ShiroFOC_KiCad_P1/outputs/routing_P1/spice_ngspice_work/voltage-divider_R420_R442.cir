@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R420/R442
+* Expected Vout = 3.3 * 0.500000 = 1.6500 V
+* Model: ideal passives (exact, unloaded)
+
+VIN VREF_ 0 DC 3.3
+R420 VREF_ OPP_V1 56k
+R442 OPP_V1 0 56k
+
+.control
+op 
+let vout_sim = v(OPP_V1)
+let error_pct = abs(vout_sim - 1.65) / 1.65 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=1.65" > /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R420_R442.out
+quit
+.endc
+
+.end

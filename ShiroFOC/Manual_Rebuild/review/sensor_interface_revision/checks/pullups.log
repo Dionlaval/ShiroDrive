@@ -1,0 +1,24 @@
+stderr Warning: can't find the initialization file spinit.
+stdout ******
+stdout ** ngspice-44.2 shared library
+stdout ******
+stdout Note: No compatibility mode selected!
+stdout Circuit: sensor interface rc checks -- ideal lumped capacitors, not a sensor or pcb model
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout src                                          0
+stdout scl                                          0
+stdout vh                                           5
+stdout hall                                   4.77555
+stdout vhall#branch                      -4.77555e-05
+stdout vstep#branch                                 0
+stdout No. of Data Rows : 3018
+stdout rise_30_70          =  2.796079e-07 targ=  1.397811e-06 trig=  1.118203e-06
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 1
+stdout v(hall) = 4.775549e+00

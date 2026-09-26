@@ -1,0 +1,554 @@
+{
+  "date": "2026-09-25",
+  "backup": "ShiroFOC/backups/manual_before_cad_association_2026-09-25_100127.zip",
+  "associations": {
+    "U201": "Manual:LMR36510_DDA",
+    "U203": "Manual:TPS2121_RUX",
+    "U204": "Manual:TLV75533_DYD_GND",
+    "L201": "Manual:WE_LHMI_7050_74437349220",
+    "Q501": "Manual:CSD19531Q5A_Q5A_DQJ0008A",
+    "U601": "Manual:AS5047P_TSSOP14",
+    "U701": "Manual:BMI323_LGA14",
+    "U602": "Manual:TMUX1574_PW16",
+    "U501": "Manual:UCC27517A_DBV5",
+    "U202": "Manual:USBLC6_SOT23_6",
+    "D601": "Manual:TPD3E001_DRL5",
+    "J1001": "Manual:FTSH_105_01_L_DV_K",
+    "C101": "Manual:Panasonic_EEVFK_K16_18x16.5",
+    "L301": "Manual:WE_LHMI_7050_74437349220",
+    "C102": "Manual:Panasonic_EEVFK_K16_18x16.5",
+    "C103": "Manual:Panasonic_EEVFK_K16_18x16.5"
+  },
+  "packages": [
+    {
+      "zip": "ul_LMR36510FADDAR.zip",
+      "ref": "U201",
+      "name": "LMR36510_DDA",
+      "geometry": "existing",
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_SO.pretty/Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias.kicad_mod",
+      "model": "DDA0008E.stp",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/LMR36510_DDA.kicad_mod"
+    },
+    {
+      "zip": "ul_TPS2121RUXR.zip",
+      "ref": "U203",
+      "name": "TPS2121_RUX",
+      "geometry": "existing",
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_DFN_QFN.pretty/Texas_VQFN-HR-12_2x2.5mm_P0.5mm_ThermalVias.kicad_mod",
+      "model": "RUX0012A.stp",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/TPS2121_RUX.kicad_mod"
+    },
+    {
+      "zip": "ul_TLV75533PDYDR.zip",
+      "ref": "U204",
+      "name": "TLV75533_DYD_GND",
+      "geometry": "download",
+      "source": "/private/tmp/shiro_cad_audit/ul_TLV75533PDYDR/KiCADv6/footprints.pretty/DYD0005A-MFG.kicad_mod",
+      "model": "DYD0005A.stp",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/TLV75533_DYD_GND.kicad_mod"
+    },
+    {
+      "zip": "ul_74437349220.zip",
+      "ref": "L201",
+      "name": "WE_LHMI_7050_74437349220",
+      "geometry": "existing",
+      "source": "ShiroFOC/Manual_Rebuild/libs/Manual.pretty/WE_LHMI_7050_74437349220.kicad_mod",
+      "model": "Download_STP_WE-LHMI-7050_rev1.stp",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/WE_LHMI_7050_74437349220.kicad_mod"
+    },
+    {
+      "zip": "ul_CSD19531Q5A.zip",
+      "ref": "Q501",
+      "name": "CSD19531Q5A_Q5A_DQJ0008A",
+      "geometry": "existing",
+      "source": "ShiroFOC/Manual_Rebuild/libs/Manual.pretty/CSD19531Q5A_Q5A_DQJ0008A.kicad_mod",
+      "model": "DQJ0008A.stp",
+      "rotation": 180,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/CSD19531Q5A_Q5A_DQJ0008A.kicad_mod"
+    },
+    {
+      "zip": "ul_AS5047P-ATSM.zip",
+      "ref": "U601",
+      "name": "AS5047P_TSSOP14",
+      "geometry": "existing",
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+      "model": "TSSOP14_OSM.step",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/AS5047P_TSSOP14.kicad_mod"
+    },
+    {
+      "zip": "ul_BMI323.zip",
+      "ref": "U701",
+      "name": "BMI323_LGA14",
+      "geometry": "existing",
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_LGA.pretty/Bosch_LGA-14_3x2.5mm_P0.5mm.kicad_mod",
+      "model": "BMI323_BOS.step",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/BMI323_LGA14.kicad_mod"
+    },
+    {
+      "zip": "ul_TMUX1574PWR.zip",
+      "ref": "U602",
+      "name": "TMUX1574_PW16",
+      "geometry": "existing",
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_SO.pretty/TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+      "model": "PW0016A.stp",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/TMUX1574_PW16.kicad_mod"
+    },
+    {
+      "zip": "ul_UCC27517ADBVR.zip",
+      "ref": "U501",
+      "name": "UCC27517A_DBV5",
+      "geometry": "existing",
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod",
+      "model": "DBV0005A.stp",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/UCC27517A_DBV5.kicad_mod"
+    },
+    {
+      "zip": "ul_USBLC6-2SC6.zip",
+      "ref": "U202",
+      "name": "USBLC6_SOT23_6",
+      "geometry": "existing",
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+      "model": "SOT23-6L_STM.step",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/USBLC6_SOT23_6.kicad_mod"
+    },
+    {
+      "zip": "ul_TPD3E001DRLR.zip",
+      "ref": "D601",
+      "name": "TPD3E001_DRL5",
+      "geometry": "existing",
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Package_TO_SOT_SMD.pretty/Texas_R-PDSO-N5_DRL-5.kicad_mod",
+      "model": "DRL0005A.stp",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/TPD3E001_DRL5.kicad_mod"
+    },
+    {
+      "zip": "ul_FTSH-105-01-L-DV-K.zip",
+      "ref": "J1001",
+      "name": "FTSH_105_01_L_DV_K",
+      "geometry": "download",
+      "source": "/private/tmp/shiro_cad_audit/ul_FTSH-105-01-L-DV-K/KiCADv6/footprints.pretty/CON10_2X5_DUK_FTSH_SAI.kicad_mod",
+      "model": "CON10_2X5_DUK_FTSH_SAI.step",
+      "rotation": 0,
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/FTSH_105_01_L_DV_K.kicad_mod"
+    },
+    {
+      "ref": "C101",
+      "name": "Panasonic_EEVFK_K16_18x16.5",
+      "geometry": "manufacturer pad dimensions applied to standard outline",
+      "source": "/Applications/KiCad/KiCad.app/Contents/SharedSupport/footprints/Capacitor_SMD.pretty/CP_Elec_18x17.5.kicad_mod",
+      "model": "standard CP_Elec_18x17.5.step; approximate",
+      "status": "applied",
+      "installed_footprint": "libs/Manual.pretty/Panasonic_EEVFK_K16_18x16.5.kicad_mod"
+    }
+  ],
+  "preserved_hashes": {
+    "ShiroFOC/Manual_Rebuild/Three-phase bridge.kicad_sch": "ec33d3ecae184e75774fe95b70eddd88b6abf75ce1b81915b8e5c6a8356a8b76",
+    "ShiroFOC/Manual_Rebuild/ShiroFOC_Manual.kicad_pcb": "588251504dd5a3671c161ee803fa6cafb0909a522e00dbd61f22088b06577189",
+    "ShiroFOC/Manual_Rebuild/ShiroFOC_Manual.kicad_pro": "2fa59d8f9601b143a69492a146685130b30b340cc527d35797787a36d7daa719",
+    "ShiroFOC/Manual_Rebuild/libs/Manual.pretty/DMM0022A.kicad_mod": "ec9ccfd53289fe3b81f9c2338b68fb9af95cc375a4ab943de7ed3d47a960e032",
+    "ShiroFOC/Manual_Rebuild/libs/Manual.pretty/QFN_IN32G4_STM.kicad_mod": "41c6d89a683aa3056607f624c60ce0fd2fc694307b538b307804d0288f96a789"
+  },
+  "validation": "PASS: unchanged 252-component circuit, pin-to-net mapping and ERC results; all 16 changed associations have matching pad numbers and resolving models",
+  "scope": "schematic footprint associations and local CAD only; PCB not synchronized",
+  "erc_count": 16,
+  "pad_mapping_checks": {
+    "U201": {
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "footprint_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "model_links_resolve": true
+    },
+    "U203": {
+      "symbol_pins": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "footprint_pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "model_links_resolve": true
+    },
+    "U204": {
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "footprint_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "model_links_resolve": true
+    },
+    "L201": {
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "footprint_pads": [
+        "1",
+        "2"
+      ],
+      "model_links_resolve": true
+    },
+    "Q501": {
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "footprint_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "model_links_resolve": true
+    },
+    "U601": {
+      "symbol_pins": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "footprint_pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "model_links_resolve": true
+    },
+    "U701": {
+      "symbol_pins": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "footprint_pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "model_links_resolve": true
+    },
+    "U602": {
+      "symbol_pins": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "footprint_pads": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "model_links_resolve": true
+    },
+    "U501": {
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "footprint_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "model_links_resolve": true
+    },
+    "U202": {
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "footprint_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "model_links_resolve": true
+    },
+    "D601": {
+      "symbol_pins": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "footprint_pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "model_links_resolve": true
+    },
+    "J1001": {
+      "symbol_pins": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "footprint_pads": [
+        "1",
+        "10",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "model_links_resolve": true
+    },
+    "C101": {
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "footprint_pads": [
+        "1",
+        "2"
+      ],
+      "model_links_resolve": true
+    },
+    "L301": {
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "footprint_pads": [
+        "1",
+        "2"
+      ],
+      "model_links_resolve": true
+    },
+    "C102": {
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "footprint_pads": [
+        "1",
+        "2"
+      ],
+      "model_links_resolve": true
+    },
+    "C103": {
+      "symbol_pins": [
+        "1",
+        "2"
+      ],
+      "footprint_pads": [
+        "1",
+        "2"
+      ],
+      "model_links_resolve": true
+    }
+  },
+  "missing_model_files": [
+    {
+      "ref": "J101",
+      "path": "${KICAD9_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT60PW-M_1x02_P7.20mm_Horizontal.step"
+    },
+    {
+      "ref": "J501",
+      "path": "${KICAD9_3DMODEL_DIR}/Connector_Wire.3dshapes/SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm.step"
+    },
+    {
+      "ref": "J201",
+      "path": "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+    },
+    {
+      "ref": "U901",
+      "path": "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm.step"
+    }
+  ],
+  "trust_summary": {
+    "high_confidence": [
+      "netlist identity",
+      "protected-file hashes",
+      "assigned footprint pad-number coverage",
+      "TI thermal-pad net mapping",
+      "Panasonic K16 pad dimensions"
+    ],
+    "visual_check": [
+      "12 downloaded STEP models rendered with their assigned footprints: top and angled views"
+    ],
+    "limitations": [
+      "Not a fabrication release; retained bridge pin-range mapping and 19 blank footprint assignments remain",
+      "Crystal exact-part drawing not obtained",
+      "Generic capacitor STEP is an approximate 18x17.5mm envelope",
+      "LMR STEP DDA0008E is package visualization; land geometry follows DDA0008J",
+      "No stock or fabricator checks"
+    ]
+  }
+}

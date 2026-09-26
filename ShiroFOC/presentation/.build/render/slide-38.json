@@ -1,0 +1,1078 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/inkrgg",
+    "id": "inkrgg",
+    "slide": 38,
+    "layoutId": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F7F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ah8zapwb",
+      "id": "1",
+      "name": "A2. Power and analog calculation summary",
+      "bbox": [
+        58,
+        42,
+        1475,
+        87
+      ],
+      "geometry": "rect",
+      "text": "A2. Power and analog calculation summary",
+      "textPreview": "A2. Power and analog calculation summary",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 47,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A2. Power and analog calculation summary"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A2. Power and analog calculation summary",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A2. Power and analog calculation summary",
+              "fontSize": 47,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkjyl4f2",
+      "id": "2",
+      "name": "A2",
+      "bbox": [
+        1490,
+        833,
+        60,
+        31
+      ],
+      "geometry": "rect",
+      "text": "A2",
+      "textPreview": "A2",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A2",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A2",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjqhczeh",
+      "id": "3",
+      "name": "ShiroFOC engineering review",
+      "bbox": [
+        60,
+        837,
+        1360,
+        25
+      ],
+      "geometry": "rect",
+      "text": "ShiroFOC engineering review",
+      "textPreview": "ShiroFOC engineering review",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ShiroFOC engineering review"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ShiroFOC engineering review",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ShiroFOC engineering review",
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/ml4j6lcj",
+      "id": "4",
+      "bbox": [
+        60,
+        151,
+        1480,
+        600
+      ],
+      "text": "Network | Calculation | Nominal result\n5 V buck divider | 1 × (1 + 100/24.9) | 5.016 V\nBuck inductor ripple | VOUT(1−VOUT/VIN)/(Lf) | 0.41–0.50 App at 18–42 V\nMux OV threshold | 1.06 × (21+5.10)/5.10 | 5.43 V\nLDO at 250 / 320 mA | (5.25−3.3) × I | 0.488 / 0.624 W\nVM divider and filter | VM/21; (25.714k+1k)×10n | 2.00 V at 42 V; 267 µs\nShunt at 40 / 80 A | I² × 0.5 mΩ | 0.8 / 3.2 W\nCurrent gain / ideal code | 28 × 0.5 mΩ; 3.3/4096/gain | 14 mV/A; 57.5 mA/code\nSCREF and filter | 3.3/11; ((100k||10k)+1k)×10n | 0.30 V; 101 µs",
+      "textPreview": "Network | Calculation | Nominal result | 5 V buck divider | 1 × (1 + 100/24.9) | 5.016 V | Buck inductor ripple | VOUT(1−VOUT/VIN)/(Lf) |...",
+      "rows": 9,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            60,
+            151,
+            493.33,
+            66.67
+          ],
+          "text": "Network",
+          "textPreview": "Network",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Network",
+              "resolvedTextStyle": {
+                "fontSize": 27,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Network",
+                  "fontSize": 27,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            553.33,
+            151,
+            493.33,
+            66.67
+          ],
+          "text": "Calculation",
+          "textPreview": "Calculation",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Calculation",
+              "resolvedTextStyle": {
+                "fontSize": 27,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Calculation",
+                  "fontSize": 27,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            151,
+            493.33,
+            66.67
+          ],
+          "text": "Nominal result",
+          "textPreview": "Nominal result",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Nominal result",
+              "resolvedTextStyle": {
+                "fontSize": 27,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Nominal result",
+                  "fontSize": 27,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            60,
+            217.67,
+            493.33,
+            66.67
+          ],
+          "text": "5 V buck divider",
+          "textPreview": "5 V buck divider",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "5 V buck divider",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "5 V buck divider"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            553.33,
+            217.67,
+            493.33,
+            66.67
+          ],
+          "text": "1 × (1 + 100/24.9)",
+          "textPreview": "1 × (1 + 100/24.9)",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1 × (1 + 100/24.9)",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1 × (1 + 100/24.9)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            217.67,
+            493.33,
+            66.67
+          ],
+          "text": "5.016 V",
+          "textPreview": "5.016 V",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "5.016 V",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "5.016 V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            60,
+            284.33,
+            493.33,
+            66.67
+          ],
+          "text": "Buck inductor ripple",
+          "textPreview": "Buck inductor ripple",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Buck inductor ripple",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Buck inductor ripple"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            553.33,
+            284.33,
+            493.33,
+            66.67
+          ],
+          "text": "VOUT(1−VOUT/VIN)/(Lf)",
+          "textPreview": "VOUT(1−VOUT/VIN)/(Lf)",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "VOUT(1−VOUT/VIN)/(Lf)",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "VOUT(1−VOUT/VIN)/(Lf)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            284.33,
+            493.33,
+            66.67
+          ],
+          "text": "0.41–0.50 App at 18–42 V",
+          "textPreview": "0.41–0.50 App at 18–42 V",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.41–0.50 App at 18–42 V",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.41–0.50 App at 18–42 V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            60,
+            351,
+            493.33,
+            66.67
+          ],
+          "text": "Mux OV threshold",
+          "textPreview": "Mux OV threshold",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Mux OV threshold",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Mux OV threshold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            553.33,
+            351,
+            493.33,
+            66.67
+          ],
+          "text": "1.06 × (21+5.10)/5.10",
+          "textPreview": "1.06 × (21+5.10)/5.10",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1.06 × (21+5.10)/5.10",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1.06 × (21+5.10)/5.10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            351,
+            493.33,
+            66.67
+          ],
+          "text": "5.43 V",
+          "textPreview": "5.43 V",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "5.43 V",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "5.43 V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            60,
+            417.67,
+            493.33,
+            66.67
+          ],
+          "text": "LDO at 250 / 320 mA",
+          "textPreview": "LDO at 250 / 320 mA",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "LDO at 250 / 320 mA",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "LDO at 250 / 320 mA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            553.33,
+            417.67,
+            493.33,
+            66.67
+          ],
+          "text": "(5.25−3.3) × I",
+          "textPreview": "(5.25−3.3) × I",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "(5.25−3.3) × I",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "(5.25−3.3) × I"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            417.67,
+            493.33,
+            66.67
+          ],
+          "text": "0.488 / 0.624 W",
+          "textPreview": "0.488 / 0.624 W",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.488 / 0.624 W",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.488 / 0.624 W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            60,
+            484.33,
+            493.33,
+            66.67
+          ],
+          "text": "VM divider and filter",
+          "textPreview": "VM divider and filter",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "VM divider and filter",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "VM divider and filter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            553.33,
+            484.33,
+            493.33,
+            66.67
+          ],
+          "text": "VM/21; (25.714k+1k)×10n",
+          "textPreview": "VM/21; (25.714k+1k)×10n",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "VM/21; (25.714k+1k)×10n",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "VM/21; (25.714k+1k)×10n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            484.33,
+            493.33,
+            66.67
+          ],
+          "text": "2.00 V at 42 V; 267 µs",
+          "textPreview": "2.00 V at 42 V; 267 µs",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2.00 V at 42 V; 267 µs",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2.00 V at 42 V; 267 µs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            60,
+            551,
+            493.33,
+            66.67
+          ],
+          "text": "Shunt at 40 / 80 A",
+          "textPreview": "Shunt at 40 / 80 A",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Shunt at 40 / 80 A",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Shunt at 40 / 80 A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            553.33,
+            551,
+            493.33,
+            66.67
+          ],
+          "text": "I² × 0.5 mΩ",
+          "textPreview": "I² × 0.5 mΩ",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "I² × 0.5 mΩ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "I² × 0.5 mΩ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            551,
+            493.33,
+            66.67
+          ],
+          "text": "0.8 / 3.2 W",
+          "textPreview": "0.8 / 3.2 W",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.8 / 3.2 W",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.8 / 3.2 W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            60,
+            617.67,
+            493.33,
+            66.67
+          ],
+          "text": "Current gain / ideal code",
+          "textPreview": "Current gain / ideal code",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Current gain / ideal code",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Current gain / ideal code"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            553.33,
+            617.67,
+            493.33,
+            66.67
+          ],
+          "text": "28 × 0.5 mΩ; 3.3/4096/gain",
+          "textPreview": "28 × 0.5 mΩ; 3.3/4096/gain",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "28 × 0.5 mΩ; 3.3/4096/gain",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "28 × 0.5 mΩ; 3.3/4096/gain"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 8,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            617.67,
+            493.33,
+            66.67
+          ],
+          "text": "14 mV/A; 57.5 mA/code",
+          "textPreview": "14 mV/A; 57.5 mA/code",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "14 mV/A; 57.5 mA/code",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "14 mV/A; 57.5 mA/code"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "row": 9,
+          "column": 1,
+          "bbox": [
+            60,
+            684.33,
+            493.33,
+            66.67
+          ],
+          "text": "SCREF and filter",
+          "textPreview": "SCREF and filter",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "SCREF and filter",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "SCREF and filter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "row": 9,
+          "column": 2,
+          "bbox": [
+            553.33,
+            684.33,
+            493.33,
+            66.67
+          ],
+          "text": "3.3/11; ((100k||10k)+1k)×10n",
+          "textPreview": "3.3/11; ((100k||10k)+1k)×10n",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "3.3/11; ((100k||10k)+1k)×10n",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "3.3/11; ((100k||10k)+1k)×10n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "row": 9,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            684.33,
+            493.33,
+            66.67
+          ],
+          "text": "0.30 V; 101 µs",
+          "textPreview": "0.30 V; 101 µs",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.30 V; 101 µs",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.30 V; 101 µs"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylsze9w7",
+      "id": "5",
+      "name": "Nominal calculations use released values. Tolerance and oper",
+      "bbox": [
+        60,
+        778,
+        1460,
+        55
+      ],
+      "geometry": "rect",
+      "text": "Nominal calculations use released values. Tolerance and operating conditions remain part of qualification.",
+      "textPreview": "Nominal calculations use released values. Tolerance and operating conditions remain part of qualification.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Nominal calculations use released values. Tolerance and operating conditions remain part of qualification."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Nominal calculations use released values. Tolerance and operating conditions remain part of qualification.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Nominal calculations use released values. Tolerance and operating conditions remain part of qualification.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

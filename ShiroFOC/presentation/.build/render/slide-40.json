@@ -1,0 +1,1390 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/liwuc0",
+    "id": "liwuc0",
+    "slide": 40,
+    "layoutId": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F7F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ul4fe9cr",
+      "id": "1",
+      "name": "A4. Schematic and component cross-reference",
+      "bbox": [
+        58,
+        42,
+        1475,
+        87
+      ],
+      "geometry": "rect",
+      "text": "A4. Schematic and component cross-reference",
+      "textPreview": "A4. Schematic and component cross-reference",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 47,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A4. Schematic and component cross-reference"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A4. Schematic and component cross-reference",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A4. Schematic and component cross-reference",
+              "fontSize": 47,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h8vypob2",
+      "id": "2",
+      "name": "A4",
+      "bbox": [
+        1490,
+        833,
+        60,
+        31
+      ],
+      "geometry": "rect",
+      "text": "A4",
+      "textPreview": "A4",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A4",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A4",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gnmxgjuh",
+      "id": "3",
+      "name": "ShiroFOC engineering review",
+      "bbox": [
+        60,
+        837,
+        1360,
+        25
+      ],
+      "geometry": "rect",
+      "text": "ShiroFOC engineering review",
+      "textPreview": "ShiroFOC engineering review",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ShiroFOC engineering review"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ShiroFOC engineering review",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ShiroFOC engineering review",
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/ap8nepkz",
+      "id": "4",
+      "bbox": [
+        60,
+        151,
+        1480,
+        600
+      ],
+      "text": "PDF page / module | Main slides | Key references\n1  System overview | 1, 3, 36 | Root sheet\n2  Battery / DC link | 2, 5–7 | J101, C101–C108, R101–R106\n3  Auxiliary power | 4, 8–10 | U201, U203, U204, L201\n4  Controller / debug | 11, 34 | U301 A/B, Y301, J1001\n5  Driver / VCC | 12, 17, 22 | U301 C, L301, R310–R312\n6  Inverter | 13–19, 33, 35 | Q401–Q403, C411/421/431\n7  Current / temperature | 20, 21, 23 | U301 D/E/F, TH701–TH703\n8  Brake | 24–26, 32 | U501, U502, Q501, J501\n9  SPI sensors | 27, 28 | U601, U701\n10 Feedback selection | 7, 29 | U602, J601, D601\n11 CAN | 30 | U801, D801, J801/J802\n12 USB service | 31 | U202, U901, J201",
+      "textPreview": "PDF page / module | Main slides | Key references | 1  System overview | 1, 3, 36 | Root sheet | 2  Battery / DC link | 2, 5–7 | J101, C10...",
+      "rows": 13,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            60,
+            151,
+            493.33,
+            46.15
+          ],
+          "text": "PDF page / module",
+          "textPreview": "PDF page / module",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "PDF page / module",
+              "resolvedTextStyle": {
+                "fontSize": 24,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "PDF page / module",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            553.33,
+            151,
+            493.33,
+            46.15
+          ],
+          "text": "Main slides",
+          "textPreview": "Main slides",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Main slides",
+              "resolvedTextStyle": {
+                "fontSize": 24,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Main slides",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            151,
+            493.33,
+            46.15
+          ],
+          "text": "Key references",
+          "textPreview": "Key references",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Key references",
+              "resolvedTextStyle": {
+                "fontSize": 24,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Key references",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            60,
+            197.15,
+            493.33,
+            46.15
+          ],
+          "text": "1  System overview",
+          "textPreview": "1  System overview",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1  System overview",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1  System overview"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            553.33,
+            197.15,
+            493.33,
+            46.15
+          ],
+          "text": "1, 3, 36",
+          "textPreview": "1, 3, 36",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1, 3, 36",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1, 3, 36"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            197.15,
+            493.33,
+            46.15
+          ],
+          "text": "Root sheet",
+          "textPreview": "Root sheet",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Root sheet",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Root sheet"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            60,
+            243.31,
+            493.33,
+            46.15
+          ],
+          "text": "2  Battery / DC link",
+          "textPreview": "2  Battery / DC link",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2  Battery / DC link",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2  Battery / DC link"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            553.33,
+            243.31,
+            493.33,
+            46.15
+          ],
+          "text": "2, 5–7",
+          "textPreview": "2, 5–7",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2, 5–7",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2, 5–7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            243.31,
+            493.33,
+            46.15
+          ],
+          "text": "J101, C101–C108, R101–R106",
+          "textPreview": "J101, C101–C108, R101–R106",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "J101, C101–C108, R101–R106",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "J101, C101–C108, R101–R106"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            60,
+            289.46,
+            493.33,
+            46.15
+          ],
+          "text": "3  Auxiliary power",
+          "textPreview": "3  Auxiliary power",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "3  Auxiliary power",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "3  Auxiliary power"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            553.33,
+            289.46,
+            493.33,
+            46.15
+          ],
+          "text": "4, 8–10",
+          "textPreview": "4, 8–10",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "4, 8–10",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "4, 8–10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            289.46,
+            493.33,
+            46.15
+          ],
+          "text": "U201, U203, U204, L201",
+          "textPreview": "U201, U203, U204, L201",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "U201, U203, U204, L201",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "U201, U203, U204, L201"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            60,
+            335.62,
+            493.33,
+            46.15
+          ],
+          "text": "4  Controller / debug",
+          "textPreview": "4  Controller / debug",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "4  Controller / debug",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "4  Controller / debug"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            553.33,
+            335.62,
+            493.33,
+            46.15
+          ],
+          "text": "11, 34",
+          "textPreview": "11, 34",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "11, 34",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "11, 34"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            335.62,
+            493.33,
+            46.15
+          ],
+          "text": "U301 A/B, Y301, J1001",
+          "textPreview": "U301 A/B, Y301, J1001",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "U301 A/B, Y301, J1001",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "U301 A/B, Y301, J1001"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            60,
+            381.77,
+            493.33,
+            46.15
+          ],
+          "text": "5  Driver / VCC",
+          "textPreview": "5  Driver / VCC",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "5  Driver / VCC",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "5  Driver / VCC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            553.33,
+            381.77,
+            493.33,
+            46.15
+          ],
+          "text": "12, 17, 22",
+          "textPreview": "12, 17, 22",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "12, 17, 22",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "12, 17, 22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            381.77,
+            493.33,
+            46.15
+          ],
+          "text": "U301 C, L301, R310–R312",
+          "textPreview": "U301 C, L301, R310–R312",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "U301 C, L301, R310–R312",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "U301 C, L301, R310–R312"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            60,
+            427.92,
+            493.33,
+            46.15
+          ],
+          "text": "6  Inverter",
+          "textPreview": "6  Inverter",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "6  Inverter",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "6  Inverter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            553.33,
+            427.92,
+            493.33,
+            46.15
+          ],
+          "text": "13–19, 33, 35",
+          "textPreview": "13–19, 33, 35",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "13–19, 33, 35",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "13–19, 33, 35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            427.92,
+            493.33,
+            46.15
+          ],
+          "text": "Q401–Q403, C411/421/431",
+          "textPreview": "Q401–Q403, C411/421/431",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Q401–Q403, C411/421/431",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Q401–Q403, C411/421/431"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            60,
+            474.08,
+            493.33,
+            46.15
+          ],
+          "text": "7  Current / temperature",
+          "textPreview": "7  Current / temperature",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "7  Current / temperature",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "7  Current / temperature"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            553.33,
+            474.08,
+            493.33,
+            46.15
+          ],
+          "text": "20, 21, 23",
+          "textPreview": "20, 21, 23",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "20, 21, 23",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "20, 21, 23"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 8,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            474.08,
+            493.33,
+            46.15
+          ],
+          "text": "U301 D/E/F, TH701–TH703",
+          "textPreview": "U301 D/E/F, TH701–TH703",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "U301 D/E/F, TH701–TH703",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "U301 D/E/F, TH701–TH703"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "row": 9,
+          "column": 1,
+          "bbox": [
+            60,
+            520.23,
+            493.33,
+            46.15
+          ],
+          "text": "8  Brake",
+          "textPreview": "8  Brake",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "8  Brake",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "8  Brake"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "row": 9,
+          "column": 2,
+          "bbox": [
+            553.33,
+            520.23,
+            493.33,
+            46.15
+          ],
+          "text": "24–26, 32",
+          "textPreview": "24–26, 32",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "24–26, 32",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "24–26, 32"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "row": 9,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            520.23,
+            493.33,
+            46.15
+          ],
+          "text": "U501, U502, Q501, J501",
+          "textPreview": "U501, U502, Q501, J501",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "U501, U502, Q501, J501",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "U501, U502, Q501, J501"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "row": 10,
+          "column": 1,
+          "bbox": [
+            60,
+            566.38,
+            493.33,
+            46.15
+          ],
+          "text": "9  SPI sensors",
+          "textPreview": "9  SPI sensors",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "9  SPI sensors",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "9  SPI sensors"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "row": 10,
+          "column": 2,
+          "bbox": [
+            553.33,
+            566.38,
+            493.33,
+            46.15
+          ],
+          "text": "27, 28",
+          "textPreview": "27, 28",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "27, 28",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "27, 28"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "row": 10,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            566.38,
+            493.33,
+            46.15
+          ],
+          "text": "U601, U701",
+          "textPreview": "U601, U701",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "U601, U701",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "U601, U701"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "row": 11,
+          "column": 1,
+          "bbox": [
+            60,
+            612.54,
+            493.33,
+            46.15
+          ],
+          "text": "10 Feedback selection",
+          "textPreview": "10 Feedback selection",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "10 Feedback selection",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "10 Feedback selection"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "row": 11,
+          "column": 2,
+          "bbox": [
+            553.33,
+            612.54,
+            493.33,
+            46.15
+          ],
+          "text": "7, 29",
+          "textPreview": "7, 29",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "7, 29",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "7, 29"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "row": 11,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            612.54,
+            493.33,
+            46.15
+          ],
+          "text": "U602, J601, D601",
+          "textPreview": "U602, J601, D601",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "U602, J601, D601",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "U602, J601, D601"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "row": 12,
+          "column": 1,
+          "bbox": [
+            60,
+            658.69,
+            493.33,
+            46.15
+          ],
+          "text": "11 CAN",
+          "textPreview": "11 CAN",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "11 CAN",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "11 CAN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "row": 12,
+          "column": 2,
+          "bbox": [
+            553.33,
+            658.69,
+            493.33,
+            46.15
+          ],
+          "text": "30",
+          "textPreview": "30",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "30",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "30"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "row": 12,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            658.69,
+            493.33,
+            46.15
+          ],
+          "text": "U801, D801, J801/J802",
+          "textPreview": "U801, D801, J801/J802",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "U801, D801, J801/J802",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "U801, D801, J801/J802"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "row": 13,
+          "column": 1,
+          "bbox": [
+            60,
+            704.85,
+            493.33,
+            46.15
+          ],
+          "text": "12 USB service",
+          "textPreview": "12 USB service",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "12 USB service",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "12 USB service"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "row": 13,
+          "column": 2,
+          "bbox": [
+            553.33,
+            704.85,
+            493.33,
+            46.15
+          ],
+          "text": "31",
+          "textPreview": "31",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "31",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "31"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "row": 13,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            704.85,
+            493.33,
+            46.15
+          ],
+          "text": "U202, U901, J201",
+          "textPreview": "U202, U901, J201",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "U202, U901, J201",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "U202, U901, J201"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hkfa9cf",
+      "id": "5",
+      "name": "All 12 source sheets are represented. Full source citations ",
+      "bbox": [
+        60,
+        778,
+        1460,
+        55
+      ],
+      "geometry": "rect",
+      "text": "All 12 source sheets are represented. Full source citations and component detail are in the speaker notes.",
+      "textPreview": "All 12 source sheets are represented. Full source citations and component detail are in the speaker notes.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "All 12 source sheets are represented. Full source citations and component detail are in the speaker notes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "All 12 source sheets are represented. Full source citations and component detail are in the speaker notes.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "All 12 source sheets are represented. Full source citations and component detail are in the speaker notes.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

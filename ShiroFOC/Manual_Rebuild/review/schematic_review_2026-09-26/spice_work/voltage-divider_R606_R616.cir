@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R606/R616
+* Expected Vout = 3.3 * 0.999001 = 3.2967 V
+* Model: ideal passives (exact, unloaded)
+
+VIN __unnamed_64 0 DC 3.3
+R606 __unnamed_64 __unnamed_63 100
+R616 __unnamed_63 0 100k
+
+.control
+op 
+let vout_sim = v(__unnamed_63)
+let error_pct = abs(vout_sim - 3.2967033) / 3.2967033 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=3.2967033" > ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/spice_work/voltage-divider_R606_R616.out
+quit
+.endc
+
+.end

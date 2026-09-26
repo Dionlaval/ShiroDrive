@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-26T15:51:14+0100",
+    "kicad_version": "9.0.4",
+    "schematic_parity": [],
+    "source": "cad.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 13 [PGND] of U205 on F.Cu",
+                    "pos": {
+                        "x": 6.25,
+                        "y": 3.555606
+                    },
+                    "uuid": "4626aa4b-3dec-48ff-ac88-d7bee54a4748"
+                },
+                {
+                    "description": "Pad 14 [PGND] of U205 on F.Cu",
+                    "pos": {
+                        "x": 5.75,
+                        "y": 3.555606
+                    },
+                    "uuid": "0f8ea3ed-3179-4baf-a252-cbc06e8f1647"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 12 [PGND] of U205 on F.Cu",
+                    "pos": {
+                        "x": 6.440561,
+                        "y": 4.44999
+                    },
+                    "uuid": "c65bfee6-163b-483e-8f01-b0196a85ff7f"
+                },
+                {
+                    "description": "Pad 13 [PGND] of U205 on F.Cu",
+                    "pos": {
+                        "x": 6.25,
+                        "y": 3.555606
+                    },
+                    "uuid": "4626aa4b-3dec-48ff-ac88-d7bee54a4748"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

@@ -1,0 +1,15 @@
+Illustrative SPI series R and assumed 30pF load - NOT a PCB transmission-line model
+Vin in 0 AC 1
+R22 in out22 22
+C22 out22 0 30p
+R33 in out33 33
+C33 out33 0 30p
+.control
+ac dec 100 1meg 1g
+let gain22 = db(v(out22))
+let gain33 = db(v(out33))
+meas ac fc22 when gain22=-3.0103
+meas ac fc33 when gain33=-3.0103
+quit
+.endc
+.end

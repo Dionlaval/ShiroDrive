@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R1001/R307
+* Expected Vout = 3.3 * 0.909091 = 3.0000 V
+* Model: ideal passives (exact, unloaded)
+
+VIN __unnamed_23 0 DC 3.3
+R1001 __unnamed_23 FEEDBACK_I_H3 1k
+R307 FEEDBACK_I_H3 0 10k
+
+.op 
+
+.end

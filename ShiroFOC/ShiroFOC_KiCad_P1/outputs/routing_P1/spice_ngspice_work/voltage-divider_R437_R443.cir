@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R437/R443
+* Expected Vout = 3.3 * 0.982456 = 3.2421 V
+* Model: ideal passives (exact, unloaded)
+
+VIN SHUNT_W_SENSE_P 0 DC 3.3
+R437 SHUNT_W_SENSE_P OPP_W1 1k
+R443 OPP_W1 0 56k
+
+.control
+op 
+let vout_sim = v(OPP_W1)
+let error_pct = abs(vout_sim - 3.2421048) / 3.2421048 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=3.2421048" > /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R437_R443.out
+quit
+.endc
+
+.end

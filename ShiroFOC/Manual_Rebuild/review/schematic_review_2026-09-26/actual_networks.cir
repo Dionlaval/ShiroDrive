@@ -1,0 +1,46 @@
+Actual network DC checks, ideal amplifier, not switching/short-circuit validation
+Vref ref 0 3.3
+Vsense sp 0 0
+Rplus sp pp 1k
+Rbias ref pp 56k
+Rbiasg pp 0 56k
+Rminus 0 pn 1k
+Rfeedback out pn 28k
+Eamp out 0 pp pn 1e8
+Vvm vm 0 42
+Rvm1 vm vma 270k
+Rvm2 vma vmb 270k
+Rvm3 vmb 0 27k
+Rvm4 vmb vmadc 1k
+Cvm vmadc 0 10n
+Rntct ref ntc 4.7k
+Rntc ntc 0 10k
+Rntcf ntc ntcadc 1k
+Cntc ntcadc 0 10n
+Vbuck10 buck10 0 10.009009009
+Rf10 buck10 fb10 100k
+Rb10 fb10 0 11.1k
+Vbuck5 buck5 0 4.978585516
+Rf5 buck5 fb5 34k
+Rb5 fb5 0 6.49k
+Vbrake bus 0 45.91942322834647
+Vcmd cmd 0 0
+Rbr1 bus a 150k
+Rbr2 a b 150k
+Rbr3 b sense 150k
+Rbr4 sense 0 12.7k
+Rbr5 cmd sense 1meg
+.control
+op
+print v(out) v(pp) v(vmadc) v(ntcadc) v(fb10) v(fb5) v(sense)
+alter Vsense 0.01767766953
+op
+print v(out) v(pp)
+alter Vsense -0.01767766953
+alter Vbrake 44.21312480314962
+alter Vcmd 3.3
+op
+print v(out) v(pp) v(sense)
+quit
+.endc
+.end

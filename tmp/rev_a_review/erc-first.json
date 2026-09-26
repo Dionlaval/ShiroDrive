@@ -1,0 +1,134 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-15T06:44:19+0100",
+    "kicad_version": "9.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75",
+            "violations": [
+                {
+                    "description": "Footprint 'WE_LHMI_7050_74437349220' not found in library 'ShiroFOC_Footprints'.",
+                    "items": [
+                        {
+                            "description": "Symbol L301 [INDUCTOR]",
+                            "pos": {
+                                "x": 6.0325,
+                                "y": 0.8001
+                            },
+                            "uuid": "6ab61b60-b1c9-52b2-9b8b-1c4b0e15c3d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Footprint 'WE_LHMI_7050_74437349220' not found in library 'ShiroFOC_Footprints'.",
+                    "items": [
+                        {
+                            "description": "Symbol L201 [INDUCTOR]",
+                            "pos": {
+                                "x": 2.5781,
+                                "y": 1.4859
+                            },
+                            "uuid": "1fedd0ec-f283-548e-910a-b062e1c2b9bf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        },
+        {
+            "path": "/01 - Battery Input and DC Link/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/f49161cd-c911-59b3-b2f1-af93e24eb1bf",
+            "violations": []
+        },
+        {
+            "path": "/02 - Auxiliary Power, USB and Source Mux/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/944c6ed5-8895-502f-9b5a-4cff871430b2",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U201 Pin 7 [BOOT, Power input, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.1049
+                            },
+                            "uuid": "09b205d9-41f3-4b11-ac97-00fffa0b634a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U203 Pin 1 [OUT, Power output, Line]",
+                            "pos": {
+                                "x": 5.4102,
+                                "y": 1.4478
+                            },
+                            "uuid": "82091c1f-a0cc-4319-84c0-33a444bc4995"
+                        },
+                        {
+                            "description": "Symbol U203 Pin 8 [OUT, Power output, Line]",
+                            "pos": {
+                                "x": 5.4102,
+                                "y": 1.4986
+                            },
+                            "uuid": "a5b37cd4-6732-4665-8c5c-3fbe0454d192"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/03 - STSPIN32G4 Core and Gate-Driver Supply/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/dab1be84-a134-5927-ab8f-adce628d762e",
+            "violations": []
+        },
+        {
+            "path": "/04 - Three-Phase Inverter and Current Sensing/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/6b8150ac-3b6b-518d-864e-6ab6e98046bf",
+            "violations": []
+        },
+        {
+            "path": "/05 - Brake Chopper/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/433b8a85-216f-5561-84a8-3b14123a7a60",
+            "violations": []
+        },
+        {
+            "path": "/06 - Onboard and External Position Feedback/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/2ed0046a-7f0e-544e-89c8-6c21a854aa92",
+            "violations": []
+        },
+        {
+            "path": "/07 - IMU and Half-Bridge Temperature/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/58e6bc42-2d65-5398-94f6-d6680f60a8ec",
+            "violations": []
+        },
+        {
+            "path": "/08 - CAN / CAN-FD Interface/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/6818927a-e157-5ba8-be7e-3a8c8bbd129e",
+            "violations": []
+        },
+        {
+            "path": "/09 - USB-UART Service Interface/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/47e8f161-b66e-540d-b460-de529bf58551",
+            "violations": []
+        },
+        {
+            "path": "/10 - SWD, Boot and Test Access/",
+            "uuid_path": "/a77d5bc4-a154-5c82-9669-89026d9e3c75/82bfdd37-9d82-5efa-8871-7778ab100779",
+            "violations": []
+        }
+    ],
+    "source": "ShiroFOC_KiCad.kicad_sch"
+}

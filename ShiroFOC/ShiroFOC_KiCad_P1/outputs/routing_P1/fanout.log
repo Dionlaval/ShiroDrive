@@ -1,0 +1,50 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+fanout U701 1 /SPI sensors/BMI323_MISO_RAW 2
+fanout U701 4 IMU_INT1 2
+fanout U701 9 IMU_INT2 10
+fanout U701 14 /SPI sensors/SPI3_MOSI 5
+fanout U301 3 /MCU / clock / SWD/SPARE_GPIO_3 25
+fanout U301 4 FEEDBACK_ENABLE_N -2
+fanout U301 5 /MCU / clock / SWD/SPARE_GPIO_1 -2
+fanout U301 6 Net-(U301A-PF0) -2
+fanout U301 9 NTC_PHASE_B 32
+fanout U301 10 NTC_PHASE_C 41
+fanout U301 12 NTC_PHASE_A -2
+fanout U301 17 IMU_INT1 18
+fanout U301 18 IMU_INT2 23
+fanout U301 28 CAN_STB 3
+fanout U301 44 /MCU / clock / SWD/SPARE_TIM_GPIO 8
+fanout U301 45 USB_UART_TX 22
+fanout U301 47 FDCAN1_RX 5
+fanout U301 48 FDCAN1_TX 6
+fanout U301 49 Net-(U301A-PA13{slash}SWDIO) 10
+fanout U301 50 Net-(U301A-PA14{slash}SWCLK) 3
+fanout U301 51 AS5047P_CS_N 6
+fanout U301 53 FEEDBACK_SELECT 16
+fanout U301 54 SPI3_SCK_MCU 18
+fanout U301 56 SPI3_MOSI_MCU 4
+fanout U301 57 FEEDBACK_A_H1 26
+fanout U301 58 FEEDBACK_B_H2 -2
+fanout U301 59 FEEDBACK_I_H3 3
+fanout U301 60 BRAKE_PWM 4
+fanout U301 62 Net-(D302-K) 26
+fanout U203 5 Net-(U203-OV1) 36
+fanout U203 6 Net-(U203-PR1) -2
+fanout U203 10 Net-(U203-ILM) -2
+fanout U203 11 Net-(U203-SS) -2
+fanout U202 1 /USB service/USB_DM_CONN 8
+fanout U202 4 /USB service/USB_DP 6
+fanout U901 4 /USB service/USB_DP 11
+fanout U901 5 /USB service/USB_DM -2
+fanout U901 9 /USB service/CP2102_RST_N -1
+fanout U601 1 AS5047P_CS_N 2
+fanout U601 2 /SPI sensors/SPI3_SCK 2
+fanout U601 6 /SPI sensors/ENC_ON_B 2
+fanout U601 14 /SPI sensors/ENC_ON_I 8
+fanout U602 3 /Feedback selection/MUX_EXT_A -2
+fanout U602 4 FEEDBACK_A_H1 4
+fanout U602 5 MUX_ON_B 6
+fanout U602 6 /Feedback selection/MUX_EXT_B 8
+fanout U602 7 FEEDBACK_B_H2 9
+fanout U602 10 /Feedback selection/MUX_EXT_I -1
+fanout U602 11 MUX_ON_I -1

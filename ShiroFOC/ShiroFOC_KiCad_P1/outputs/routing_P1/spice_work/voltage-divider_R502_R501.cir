@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R502/R501
+* Expected Vout = 3.3 * 0.996711 = 3.2891 V
+* Model: ideal passives (exact, unloaded)
+
+VIN __unnamed_53 0 DC 3.3
+R502 __unnamed_53 BRAKE_PWM 33
+R501 BRAKE_PWM 0 10k
+
+.op 
+
+.end

@@ -1,0 +1,1403 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2c8b7510-9664-4afd-8f00-ac42aa791be9")
+	(paper "A3")
+	(title_block
+		(title "ShiroFOC - connected functional overview")
+		(date "2026-09-26")
+		(rev "PWR2"))
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default))
+					(fill
+						(type none))))
+			(embedded_fonts no)))
+	(polyline
+		(pts
+			(xy 99.06 234.95)
+			(xy 101.6 236.22)
+			(xy 99.06 237.49))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 0fe9ec85-73f4-50d9-99a6-7bae311083b2))
+	(polyline
+		(pts
+			(xy 107.95 58.42)
+			(xy 107.95 34.29)
+			(xy 365.76 34.29)
+			(xy 365.76 44.45))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 12ed6ed7-df08-580e-a7f1-9c7cffd94d10))
+	(polyline
+		(pts
+			(xy 168.91 177.8)
+			(xy 171.45 179.07)
+			(xy 168.91 180.34))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 217b0b4b-f9f3-5e51-aed3-f168b051dfd2))
+	(polyline
+		(pts
+			(xy 246.38 193.04)
+			(xy 247.65 190.5)
+			(xy 248.92 193.04))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 52a22f1a-0f24-56dc-9776-4b1ad58e744e))
+	(polyline
+		(pts
+			(xy 251.46 269.24)
+			(xy 252.73 271.78)
+			(xy 254 269.24))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 60251d7a-be01-5600-a0eb-593cdc935b17))
+	(polyline
+		(pts
+			(xy 194.31 234.95)
+			(xy 196.85 236.22)
+			(xy 194.31 237.49))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 72d40cba-a734-5fc6-9872-1febaee9af8e))
+	(polyline
+		(pts
+			(xy 336.55 222.25)
+			(xy 336.55 199.39)
+			(xy 247.65 199.39)
+			(xy 247.65 190.5))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 775ad831-4318-5ef6-b3f5-8d8d25ff3e48))
+	(polyline
+		(pts
+			(xy 327.66 133.35)
+			(xy 330.2 134.62)
+			(xy 327.66 135.89))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 7c01ba80-010a-51bc-b5ce-cea25f16a098))
+	(polyline
+		(pts
+			(xy 184.15 190.5)
+			(xy 184.15 205.74)
+			(xy 135.89 205.74)
+			(xy 135.89 222.25))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 7c15748f-a39f-5fb1-b6aa-9abfe2028ae1))
+	(polyline
+		(pts
+			(xy 364.49 41.91)
+			(xy 365.76 44.45)
+			(xy 367.03 41.91))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 83d9d245-2bbf-528d-a948-17a592fcedbb))
+	(polyline
+		(pts
+			(xy 289.56 234.95)
+			(xy 292.1 236.22)
+			(xy 289.56 237.49))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 94f54952-d46b-5ae9-9013-878cdd84fdde))
+	(polyline
+		(pts
+			(xy 12.7 215.9)
+			(xy 82.55 215.9)
+			(xy 82.55 236.22)
+			(xy 101.6 236.22))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid 98a23780-90aa-5d78-aeed-e80b824d33fa))
+	(polyline
+		(pts
+			(xy 52.07 162.56)
+			(xy 53.34 165.1)
+			(xy 54.61 162.56))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid a71853af-d1aa-55c8-8fe6-50b55127b01f))
+	(polyline
+		(pts
+			(xy 168.91 127)
+			(xy 171.45 128.27)
+			(xy 168.91 129.54))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid b34e5671-9c71-5e53-ad91-45d9bb19a2a9))
+	(polyline
+		(pts
+			(xy 261.62 74.93)
+			(xy 262.89 72.39)
+			(xy 264.16 74.93))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid b49dab43-3228-51f1-b093-3c7def5bae1d))
+	(polyline
+		(pts
+			(xy 107.95 58.42)
+			(xy 107.95 86.36)
+			(xy 12.7 86.36)
+			(xy 12.7 260.35)
+			(xy 231.14 260.35))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid b5461390-4dda-5aec-9203-eac58cb1ac73))
+	(polyline
+		(pts
+			(xy 163.83 72.39)
+			(xy 163.83 92.71)
+			(xy 184.15 92.71)
+			(xy 184.15 107.95))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid b616ebbd-99aa-5d13-b6af-0b45ef6d7cbb))
+	(polyline
+		(pts
+			(xy 262.89 72.39)
+			(xy 262.89 87.63)
+			(xy 228.6 87.63)
+			(xy 228.6 107.95))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid ba4c3d90-5c9b-54ed-a1b1-b7509c04cb78))
+	(polyline
+		(pts
+			(xy 182.88 105.41)
+			(xy 184.15 107.95)
+			(xy 185.42 105.41))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid bb9044cf-71fd-58ca-af1c-fdee91f57465))
+	(polyline
+		(pts
+			(xy 203.2 57.15)
+			(xy 200.66 58.42)
+			(xy 203.2 59.69))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid c81c75de-8253-5bb0-8018-e6f562d75157))
+	(polyline
+		(pts
+			(xy 124.46 57.15)
+			(xy 127 58.42)
+			(xy 124.46 59.69))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid d2de4015-c5a0-5f60-89d1-0b6b0c4dd9eb))
+	(polyline
+		(pts
+			(xy 227.33 105.41)
+			(xy 228.6 107.95)
+			(xy 229.87 105.41))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid d7a0a2ea-42b3-50b9-aee7-9f8b27dff5ef))
+	(polyline
+		(pts
+			(xy 91.44 127)
+			(xy 88.9 128.27)
+			(xy 91.44 129.54))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid d9f43090-ebf9-5da9-937a-7e25e19f7e12))
+	(polyline
+		(pts
+			(xy 262.89 133.35)
+			(xy 260.35 134.62)
+			(xy 262.89 135.89))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid dc338f32-3f85-5cee-9789-b1a15e833541))
+	(polyline
+		(pts
+			(xy 247.65 107.95)
+			(xy 247.65 99.06)
+			(xy 355.6 99.06)
+			(xy 355.6 72.39))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid e8adc80e-0944-55da-bdaf-0807dd715a2c))
+	(polyline
+		(pts
+			(xy 229.87 252.73)
+			(xy 231.14 250.19)
+			(xy 232.41 252.73))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid f12eb40e-7ad3-5df7-8ad5-69f1d034d55c))
+	(polyline
+		(pts
+			(xy 354.33 74.93)
+			(xy 355.6 72.39)
+			(xy 356.87 74.93))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid f7eba0fa-fa18-593f-8775-702388ccece5))
+	(polyline
+		(pts
+			(xy 134.62 219.71)
+			(xy 135.89 222.25)
+			(xy 137.16 219.71))
+		(stroke
+			(width 0.254)
+			(type default))
+		(fill
+			(type none))
+		(uuid fc7ca750-1718-57fe-aba9-d38f059e7fb4))
+	(text "VM"
+		(exclude_from_sim no)
+		(at 214.63 262.89 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "00467db9-d465-5503-b113-6c9d3f06d0fb"))
+	(text "Sheet 9"
+		(exclude_from_sim no)
+		(at 22.86 135.89 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "014aee36-e867-50a5-bde0-401b35c8b4d5"))
+	(text "Open any sheet box to inspect its circuit.\nArrows show system relationships.\nShared power rails feed the interface sheets."
+		(exclude_from_sim no)
+		(at 19.05 199.39 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "043acb05-3671-546d-b752-208d9974a2f0"))
+	(text "Sheet 3"
+		(exclude_from_sim no)
+		(at 130.81 66.04 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "0472f034-ca0b-5971-bd50-61c9309438b2"))
+	(text "Sheet 8"
+		(exclude_from_sim no)
+		(at 334.01 66.04 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "0610dd59-c046-55a1-a024-b495c146dfa0"))
+	(text "Independent OV backup"
+		(exclude_from_sim no)
+		(at 334.01 55.88 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "0bd38e98-6e8b-543b-94cd-54231f40c52a"))
+	(text "Sheet 2"
+		(exclude_from_sim no)
+		(at 22.86 66.04 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "0d01fd69-6194-537d-b073-60fb507eb76c"))
+	(text "Sheet 7"
+		(exclude_from_sim no)
+		(at 295.91 243.84 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "0e5e6153-0c92-5144-b9c0-980e39f2aba2"))
+	(text "FDCAN"
+		(exclude_from_sim no)
+		(at 287.02 128.27 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "17257c1f-3822-54b9-b649-b9a2c5715185"))
+	(text "4 x M3 / 3.2 mm NPTH"
+		(exclude_from_sim no)
+		(at 104.14 135.89 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "1e30bcc8-5f56-5349-b2b6-d3f7161d26bb"))
+	(text "VM distribution"
+		(exclude_from_sim no)
+		(at 16.51 78.74 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "22beca58-a63d-5b39-8038-c5a46b9f52ed"))
+	(text "VM, bulk capacitors, sensing"
+		(exclude_from_sim no)
+		(at 22.86 55.88 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "2425789f-d679-5ca7-8258-f88034cb07c8"))
+	(text "Sheet 6"
+		(exclude_from_sim no)
+		(at 200.66 243.84 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "2e42b2ce-ebba-53dd-b7b2-f0517fba76b9"))
+	(text "Encoder + IMU on one bus"
+		(exclude_from_sim no)
+		(at 22.86 125.73 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "31e55de8-b959-5a0f-a4a2-f4da9c7ac67e"))
+	(text "ABI"
+		(exclude_from_sim no)
+		(at 57.15 149.86 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "354cad87-9779-598c-98fd-fc8c9ebb6b4f"))
+	(text "ShiroFOC - MANUAL REVIEW BASELINE"
+		(exclude_from_sim no)
+		(at 15.24 15.24 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left top))
+		(uuid "3d96c9b1-492b-5f1a-846b-36e35ae433ba"))
+	(text "Protection + termination"
+		(exclude_from_sim no)
+		(at 334.01 132.08 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "4936ba56-9e14-55f0-82ab-7fb12863c175"))
+	(text "Sheet 10"
+		(exclude_from_sim no)
+		(at 22.86 186.69 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "4a5f752e-bb7e-5c7e-a3d1-16ee1750b791"))
+	(text "TIM4 / VM ADC"
+		(exclude_from_sim no)
+		(at 107.95 171.45 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "4f730641-3761-54b9-8beb-3f544fb070f4"))
+	(text "CAN interface"
+		(exclude_from_sim no)
+		(at 334.01 124.46 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "57765282-697e-5bd2-9b52-3d2be973e2ba"))
+	(text "Sheet 4"
+		(exclude_from_sim no)
+		(at 175.26 184.15 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "5874c1bc-8ff2-5dad-b1ed-eb06dfb8bf39"))
+	(text "Motor U/V/W"
+		(exclude_from_sim no)
+		(at 256.54 262.89 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "595560ae-dd4d-5195-90ac-5523ea80eb28"))
+	(text "3V3 control rail"
+		(exclude_from_sim no)
+		(at 165.1 81.28 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "5989527e-c1e4-53be-aa1c-0f8332d0860d"))
+	(text "External 10 V gate supply"
+		(exclude_from_sim no)
+		(at 105.41 233.68 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "6d1efa15-dbd3-5229-b6d0-2eafe3c5de3e"))
+	(text "USB service"
+		(exclude_from_sim no)
+		(at 232.41 48.26 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "720270ea-74d5-5c02-9f26-dfa35a746dd6"))
+	(text "Feedback selection"
+		(exclude_from_sim no)
+		(at 22.86 168.91 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "80f51921-a38b-518a-8743-d68f9549afc3"))
+	(text "VM"
+		(exclude_from_sim no)
+		(at 97.79 52.07 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "81ec395a-db2e-5b28-b37b-ccef8ab5c605"))
+	(text "Kelvin"
+		(exclude_from_sim no)
+		(at 269.24 228.6 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "8d800142-b506-5ba2-b469-10698259889c"))
+	(text "Brake chopper"
+		(exclude_from_sim no)
+		(at 334.01 48.26 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "8dfc7154-ce69-5d74-b05d-fadc6ffe278c"))
+	(text "MCU / clock / SWD"
+		(exclude_from_sim no)
+		(at 175.26 111.76 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "92963c9a-fbe0-5d8b-b7ba-0c08d05c1bdb"))
+	(text "Driver control"
+		(exclude_from_sim no)
+		(at 138.43 198.12 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "936cdb2c-f77e-574f-9245-d08edd87ce35"))
+	(text "VM"
+		(exclude_from_sim no)
+		(at 83.82 228.6 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "9387b260-76c8-53e0-94a2-30e4ad354404"))
+	(text "Battery / USB priority mux"
+		(exclude_from_sim no)
+		(at 130.81 55.88 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "94fec3e1-53be-5634-b3d8-fe7035e8a28d"))
+	(text "Gates"
+		(exclude_from_sim no)
+		(at 176.53 228.6 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "956c669a-1309-5bc0-be7e-e367ab5b1fc3"))
+	(text "SPI sensors"
+		(exclude_from_sim no)
+		(at 22.86 118.11 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "971c5c46-d516-562d-a178-45b56a260aab"))
+	(text "Kelvin amplifiers + NTCs"
+		(exclude_from_sim no)
+		(at 295.91 233.68 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "9ab4cf7e-a75b-5b78-8965-65f190494046"))
+	(text "ABI/Hall + VM isolation"
+		(exclude_from_sim no)
+		(at 22.86 176.53 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "a9475bfa-7a7a-5175-8a81-a533f487ef4f"))
+	(text "Gate driver / VCC"
+		(exclude_from_sim no)
+		(at 105.41 226.06 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "af87437f-8e07-592c-9997-d59ad6a4656d"))
+	(text "Current / NTC ADC"
+		(exclude_from_sim no)
+		(at 274.32 191.77 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "b3bb4497-e5dc-588a-8015-de017dcf50a8"))
+	(text "Three-phase bridge"
+		(exclude_from_sim no)
+		(at 200.66 226.06 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "b5892a5b-f31c-511e-a0e8-a5f7909d0441"))
+	(text "USB-C / UART bridge"
+		(exclude_from_sim no)
+		(at 232.41 55.88 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "be1ca7c1-1933-51c0-ab41-2259010ebca6"))
+	(text "STSPIN32G4"
+		(exclude_from_sim no)
+		(at 175.26 119.38 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "c2a32050-6c5e-5601-8239-0cba2ea4a436"))
+	(text "Sheet 12"
+		(exclude_from_sim no)
+		(at 232.41 66.04 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "c8c7b389-68e7-5199-92c1-640e04f4cecb"))
+	(text "Three identical power legs"
+		(exclude_from_sim no)
+		(at 200.66 233.68 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "cc55a47b-be59-5173-b578-ecb06cade8ec"))
+	(text "Sheet 11"
+		(exclude_from_sim no)
+		(at 334.01 142.24 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "d027e3f6-270c-5f6f-bff7-46bd04985911"))
+	(text "Current / temperature"
+		(exclude_from_sim no)
+		(at 295.91 226.06 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "d4a6d833-0850-5a87-9f86-a79b8de95c4e"))
+	(text "Review each page before PCB update. Downloads/checklist: downloads/FOOTPRINT_CAD_CHECKLIST.md\nH1-H4: M3 clearance holes. Existing manual PCB has not been synchronized with this schematic."
+		(exclude_from_sim no)
+		(at 15.24 281.94 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "e4481bb6-888f-56e6-ba92-60c1b9a774a8"))
+	(text "P1 functional sheets copied | Your manual MOSFET bridge retained | CAD replacement and component review pending"
+		(exclude_from_sim no)
+		(at 15.24 24.13 0)
+		(effects
+			(font
+				(size 1.143 1.143))
+			(justify left top))
+		(uuid "e4642981-8936-5cab-943e-4b1385191615"))
+	(text "DC link / input"
+		(exclude_from_sim no)
+		(at 22.86 48.26 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "eab664a1-586a-54e7-9c81-c9bc1c01c738"))
+	(text "VM"
+		(exclude_from_sim no)
+		(at 311.15 27.94 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "ee0b4bf3-c894-5911-ae37-53ec9167c3dd"))
+	(text "SPI3"
+		(exclude_from_sim no)
+		(at 119.38 121.92 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "ef91fa66-c827-5b49-bd43-e1e339a54234"))
+	(text "Sheet 5"
+		(exclude_from_sim no)
+		(at 105.41 243.84 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "efe938e5-bdc1-57f6-b070-44d155535770"))
+	(text "UART"
+		(exclude_from_sim no)
+		(at 234.95 81.28 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "f08a7cb4-8fe7-55b6-9a95-b0bf38b5485d"))
+	(text "SPI3 / FDCAN / UART\nTimer feedback and ADC\nGate and brake control"
+		(exclude_from_sim no)
+		(at 177.8 143.51 0)
+		(effects
+			(font
+				(size 1.143 1.143))
+			(justify left top))
+		(uuid "fafacec9-656c-5534-b6b5-96665d073373"))
+	(text "USB 5 V"
+		(exclude_from_sim no)
+		(at 204.47 50.8 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "fd48b9ad-a32b-5b61-932e-b42e3822abec"))
+	(text "5 V / 3.3 V power"
+		(exclude_from_sim no)
+		(at 130.81 48.26 0)
+		(effects
+			(font
+				(size 1.5 1.5))
+			(justify left top))
+		(uuid "fdb80966-645c-53c4-9eda-0316895e6048"))
+	(text "Brake PWM"
+		(exclude_from_sim no)
+		(at 294.64 92.71 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "fddef4c5-1735-5122-90d2-46f12e96be0a"))
+	(polyline
+		(pts
+			(xy 231.14 260.35)
+			(xy 231.14 250.19))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "20d0a96c-d504-50fa-b91c-d5e070a73955"))
+	(polyline
+		(pts
+			(xy 252.73 250.19)
+			(xy 252.73 271.78))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "32444592-b1f2-5b1c-8b6d-0f8b9d981545"))
+	(polyline
+		(pts
+			(xy 266.7 236.22)
+			(xy 292.1 236.22))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "40431185-8ddb-5e7b-ada6-235eb7d4cac3"))
+	(polyline
+		(pts
+			(xy 260.35 134.62)
+			(xy 330.2 134.62))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "65ca4f51-db6e-5b5f-b407-3704d8481817"))
+	(polyline
+		(pts
+			(xy 88.9 128.27)
+			(xy 171.45 128.27))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "72a80b13-9521-5cf8-bfe6-dad1115ddd9c"))
+	(polyline
+		(pts
+			(xy 87.63 58.42)
+			(xy 127 58.42))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "8cd03261-dfac-52a4-9626-d79316702436"))
+	(polyline
+		(pts
+			(xy 53.34 142.24)
+			(xy 53.34 165.1))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "a4ddac08-b5b7-5565-abe4-c2bd38168f87"))
+	(polyline
+		(pts
+			(xy 171.45 236.22)
+			(xy 196.85 236.22))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "a8122877-1c05-57f7-af46-3f38c18888c3"))
+	(polyline
+		(pts
+			(xy 88.9 179.07)
+			(xy 171.45 179.07))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "c9c8761e-edd2-564a-a2ad-791c8e27d194"))
+	(polyline
+		(pts
+			(xy 228.6 58.42)
+			(xy 200.66 58.42))
+		(stroke
+			(width 0.254)
+			(type default))
+		(uuid "df0e0870-dc07-5abd-ab95-0036dc83e118"))
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 111.76 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e1092c7-a7b0-5f43-b665-8077be91ca67")
+		(property "Reference" "H3"
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "M3 NPTH"
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(reference "H3")
+					(unit 1)))))
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 147.32 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "284d6b2c-308a-5e37-acd6-825b0e67bf27")
+		(property "Reference" "H2"
+			(at 147.32 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "M3 NPTH"
+			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 147.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 147.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 147.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(reference "H2")
+					(unit 1)))))
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 147.32 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "81c19c17-d2c8-53a2-8248-935af27d783f")
+		(property "Reference" "H4"
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "M3 NPTH"
+			(at 147.32 167.64 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 147.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 147.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 147.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(reference "H4")
+					(unit 1)))))
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 111.76 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4591ce5-50b8-5f6e-85f4-206b4c71e62b")
+		(property "Reference" "H1"
+			(at 111.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "M3 NPTH"
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 111.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(reference "H1")
+					(unit 1)))))
+	(sheet
+		(at 228.6 44.45)
+		(size 69.85 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "125ed450-03d7-4cd4-8a9e-840ff4ab4934")
+		(property "Sheetname" "USB service"
+			(at 263.525 40.64 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "11_USB_Service.kicad_sch"
+			(at 263.525 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "12")))))
+	(sheet
+		(at 196.85 222.25)
+		(size 69.85 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "155a09fd-a132-4a64-8435-ff994cbe5747")
+		(property "Sheetname" "Three-phase bridge"
+			(at 231.775 218.44 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "Three-phase bridge.kicad_sch"
+			(at 231.775 254 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "6")))))
+	(sheet
+		(at 19.05 44.45)
+		(size 68.58 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "302dc34a-7561-4149-81f0-6edd60941159")
+		(property "Sheetname" "DC link / input"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "01_DC_Link.kicad_sch"
+			(at 53.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "2")))))
+	(sheet
+		(at 330.2 44.45)
+		(size 69.85 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "5ceb4185-62cb-4c9d-9d51-ca14fe464dec")
+		(property "Sheetname" "Brake chopper"
+			(at 365.125 40.64 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "07_Brake_Chopper.kicad_sch"
+			(at 365.125 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "8")))))
+	(sheet
+		(at 171.45 107.95)
+		(size 88.9 82.55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "72c68966-ddbf-45d8-a1a7-ab83562ae772")
+		(property "Sheetname" "MCU / clock / SWD"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "MCUclockSWD.kicad_sch"
+			(at 215.9 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "4")))))
+	(sheet
+		(at 292.1 222.25)
+		(size 88.9 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "73a3ad8a-8b99-485f-a068-1c059917a31b")
+		(property "Sheetname" "Current / temperature"
+			(at 336.55 218.44 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "06_Current_Temperature.kicad_sch"
+			(at 336.55 254 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "7")))))
+	(sheet
+		(at 127 44.45)
+		(size 73.66 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "8ca6a06b-6ca2-4f85-8b36-9985a90d4b51")
+		(property "Sheetname" "5 V / 3.3 V power"
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "02_Auxiliary_Power.kicad_sch"
+			(at 163.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "3")))))
+	(sheet
+		(at 19.05 165.1)
+		(size 69.85 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "924ea1ce-eeef-4d2a-928e-6e88c4a8e14a")
+		(property "Sheetname" "Feedback selection"
+			(at 53.975 161.29 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "09_Feedback_Selection.kicad_sch"
+			(at 53.975 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "10")))))
+	(sheet
+		(at 101.6 222.25)
+		(size 69.85 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "caea6781-5777-4ffc-bcfd-2962cd62fd15")
+		(property "Sheetname" "Gate driver / VCC"
+			(at 136.525 218.44 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "04_Gate_Driver.kicad_sch"
+			(at 136.525 254 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "5")))))
+	(sheet
+		(at 330.2 120.65)
+		(size 69.85 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "cdd56f0e-8dc5-44d0-8480-47c65cc22907")
+		(property "Sheetname" "CAN interface"
+			(at 365.125 116.84 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "10_CAN.kicad_sch"
+			(at 365.125 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "11")))))
+	(sheet
+		(at 19.05 114.3)
+		(size 69.85 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid))
+		(fill
+			(color 0 0 0 0.0000))
+		(uuid "fa38cb73-7f02-40fb-8ef4-f35ba7d105ca")
+		(property "Sheetname" "SPI sensors"
+			(at 53.975 110.49 0)
+			(effects
+				(font
+					(size 1.5 1.5))
+				(hide yes)))
+		(property "Sheetfile" "08_SPI_Sensors.kicad_sch"
+			(at 53.975 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9"
+					(page "9")))))
+	(sheet_instances
+		(path "/"
+			(page "1")))
+	(embedded_fonts no))

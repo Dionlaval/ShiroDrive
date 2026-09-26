@@ -1,0 +1,35 @@
+{
+  "result": "PASS scoped schematic change",
+  "erc_violations": 0,
+  "component_count": 254,
+  "pin_net_assertions": 21,
+  "permitted_existing_net_changes": {
+    "('R604', '2')": [
+      "/External feedback/EXT_VCC",
+      "EXT_SENSOR_FAULT_N"
+    ],
+    "('TP1023', '1')": [
+      "/MCU / clock / SWD/SPARE_GPIO_3",
+      "EXT_SENSOR_FAULT_N"
+    ],
+    "('U4', '3')": [
+      "/MCU / clock / SWD/SPARE_GPIO_3",
+      "EXT_SENSOR_FAULT_N"
+    ],
+    "('JP601', '2')": [
+      "Net-(JP601-C)",
+      "/External feedback/EXT_SUPPLY_SELECTED"
+    ],
+    "('R604', '1')": [
+      "Net-(JP601-C)",
+      "3V3"
+    ]
+  },
+  "unrelated_pin_nets_unchanged": true,
+  "pcb_unchanged": true,
+  "limits": [
+    "Footprint/3D qualification deferred",
+    "No short-circuit transient or hardware validation; main-rail survival must be bench-tested at both voltages",
+    "No signal-to-battery-voltage protection claim"
+  ]
+}

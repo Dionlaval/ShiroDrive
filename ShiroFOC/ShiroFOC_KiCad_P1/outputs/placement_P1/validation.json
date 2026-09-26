@@ -1,0 +1,101 @@
+{
+  "stage": "P1 component placement; not a routed or fabrication-ready board",
+  "pcb_sha256": "d4a6fc50e1e47ceb7e1f74f220b8e840eb2a521158a83a24ba0b42d1f0846ba9",
+  "source_netlist_sha256": "7500c8f120b3cd4123e219aaa1fc903b5b9ea1c85dfb351dc6cb25536d21ad3e",
+  "footprints": 264,
+  "front": 123,
+  "back": 141,
+  "dnp": 18,
+  "matched_electrical_pads_including_duplicate_thermal_pads": 833,
+  "matched_unique_component_pin_pairs": 761,
+  "layers": 4,
+  "tracks_and_routed_vias": 0,
+  "zones": 0,
+  "schematic_parity_issues": 0,
+  "unconnected_DRC_items_expected_at_P1": 499,
+  "other_DRC_violations": {
+    "silk_edge_clearance": 4,
+    "lib_footprint_mismatch": 1,
+    "silk_over_copper": 4
+  },
+  "original_project_preserved": true,
+  "mounting_holes": [
+    {
+      "reference": "H1",
+      "local_xy_mm": [
+        6,
+        6
+      ],
+      "drill_mm": 3.2,
+      "washer_envelope_mm": 8
+    },
+    {
+      "reference": "H2",
+      "local_xy_mm": [
+        74,
+        6
+      ],
+      "drill_mm": 3.2,
+      "washer_envelope_mm": 8
+    },
+    {
+      "reference": "H3",
+      "local_xy_mm": [
+        74,
+        74
+      ],
+      "drill_mm": 3.2,
+      "washer_envelope_mm": 8
+    },
+    {
+      "reference": "H4",
+      "local_xy_mm": [
+        6,
+        74
+      ],
+      "drill_mm": 3.2,
+      "washer_envelope_mm": 8
+    }
+  ],
+  "phase_geometry": [
+    {
+      "phase": "U",
+      "mosfet_local_mm": [
+        64.0,
+        28.0
+      ],
+      "terminal_local_mm": [
+        75.0,
+        28.0
+      ],
+      "output_bank_to_terminal_centre_mm": 8.65
+    },
+    {
+      "phase": "V",
+      "mosfet_local_mm": [
+        64.0,
+        42.0
+      ],
+      "terminal_local_mm": [
+        75.0,
+        42.0
+      ],
+      "output_bank_to_terminal_centre_mm": 8.65
+    },
+    {
+      "phase": "W",
+      "mosfet_local_mm": [
+        64.0,
+        56.0
+      ],
+      "terminal_local_mm": [
+        75.0,
+        56.0
+      ],
+      "output_bank_to_terminal_centre_mm": 8.65
+    }
+  ],
+  "opposite_side_body_to_through_pad_collisions": [],
+  "hardware_envelope_collisions": [],
+  "problems": []
+}

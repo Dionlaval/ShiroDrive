@@ -1,0 +1,253 @@
+EESchema Schematic File Version 4
+LIBS:ShiroFOC_KiCad-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "09 - USB-UART Service Interface"
+Date "2026-09-14"
+Rev "A"
+Comp "ShiroFOC"
+Comment1 "Rev A first-build schematic"
+Comment2 "6S-10S LiPo / 24-42 V nominal operating range"
+Comment3 "Prototype: validate switching, transient, and thermal behavior"
+Comment4 "GND and PGND are one electrical net; route returns deliberately"
+$EndDescr
+$Comp
+L ShiroFOC_KiCad:CP2102N-A02-GQFN20 U901
+U 1 1 10000001
+P 6000 3900
+F 0 "U901" H 6000 2720 50  0000 C CNN
+F 1 "CP2102N-A02-GQFN20" H 6000 5080 50  0000 C CNN
+F 2 "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm_ThermalVias" H 6000 3900 50  0001 C CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 6000 3900 50  0001 C CNN
+F 4 "CP2102N-A02-GQFN20" H 6000 3900 50  0001 C CNN "MPN"
+	1    6000 3900
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C901
+U 1 1 10000002
+P 2800 2300
+F 0 "C901" H 2800 2020 50  0000 C CNN
+F 1 "4.7uF 10V" H 2800 2580 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 2300 50  0001 C CNN
+F 3 "" H 2800 2300 50  0001 C CNN
+F 4 "" H 2800 2300 50  0001 C CNN "MPN"
+F 5 "FIT" H 2800 2300 50  0001 C CNN "Assembly"
+	1    2800 2300
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C902
+U 1 1 10000003
+P 2800 2850
+F 0 "C902" H 2800 2570 50  0000 C CNN
+F 1 "100nF" H 2800 3130 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 2850 50  0001 C CNN
+F 3 "" H 2800 2850 50  0001 C CNN
+F 4 "" H 2800 2850 50  0001 C CNN "MPN"
+F 5 "FIT" H 2800 2850 50  0001 C CNN "Assembly"
+	1    2800 2850
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C903
+U 1 1 10000004
+P 2800 3400
+F 0 "C903" H 2800 3120 50  0000 C CNN
+F 1 "4.7uF 10V" H 2800 3680 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 3400 50  0001 C CNN
+F 3 "" H 2800 3400 50  0001 C CNN
+F 4 "" H 2800 3400 50  0001 C CNN "MPN"
+F 5 "FIT" H 2800 3400 50  0001 C CNN "Assembly"
+	1    2800 3400
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C904
+U 1 1 10000005
+P 2800 3950
+F 0 "C904" H 2800 3670 50  0000 C CNN
+F 1 "100nF" H 2800 4230 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 3950 50  0001 C CNN
+F 3 "" H 2800 3950 50  0001 C CNN
+F 4 "" H 2800 3950 50  0001 C CNN "MPN"
+F 5 "FIT" H 2800 3950 50  0001 C CNN "Assembly"
+	1    2800 3950
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R901
+U 1 1 10000006
+P 2800 4550
+F 0 "R901" H 2800 4270 50  0000 C CNN
+F 1 "1k" H 2800 4830 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2800 4550 50  0001 C CNN
+F 3 "" H 2800 4550 50  0001 C CNN
+F 4 "" H 2800 4550 50  0001 C CNN "MPN"
+F 5 "FIT" H 2800 4550 50  0001 C CNN "Assembly"
+	1    2800 4550
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R902
+U 1 1 10000007
+P 9100 3300
+F 0 "R902" H 9100 3020 50  0000 C CNN
+F 1 "100R" H 9100 3580 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9100 3300 50  0001 C CNN
+F 3 "" H 9100 3300 50  0001 C CNN
+F 4 "" H 9100 3300 50  0001 C CNN "MPN"
+F 5 "FIT" H 9100 3300 50  0001 C CNN "Assembly"
+	1    9100 3300
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R903
+U 1 1 10000008
+P 9100 3950
+F 0 "R903" H 9100 3670 50  0000 C CNN
+F 1 "100R" H 9100 4230 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9100 3950 50  0001 C CNN
+F 3 "" H 9100 3950 50  0001 C CNN
+F 4 "" H 9100 3950 50  0001 C CNN "MPN"
+F 5 "FIT" H 9100 3950 50  0001 C CNN "Assembly"
+	1    9100 3950
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R904
+U 1 1 10000009
+P 9100 4700
+F 0 "R904" H 9100 4420 50  0000 C CNN
+F 1 "22.1k 1%" H 9100 4980 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9100 4700 50  0001 C CNN
+F 3 "" H 9100 4700 50  0001 C CNN
+F 4 "" H 9100 4700 50  0001 C CNN "MPN"
+F 5 "FIT" H 9100 4700 50  0001 C CNN "Assembly"
+	1    9100 4700
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R905
+U 1 1 1000000A
+P 9100 5250
+F 0 "R905" H 9100 4970 50  0000 C CNN
+F 1 "47.5k 1%" H 9100 5530 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9100 5250 50  0001 C CNN
+F 3 "" H 9100 5250 50  0001 C CNN
+F 4 "" H 9100 5250 50  0001 C CNN "MPN"
+F 5 "FIT" H 9100 5250 50  0001 C CNN "Assembly"
+	1    9100 5250
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:TESTPOINT TP901
+U 1 1 1000000B
+P 10800 5600
+F 0 "TP901" H 10800 5320 50  0000 C CNN
+F 1 "USB_UART_TX" H 10800 5880 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10800 5600 50  0001 C CNN
+F 3 "" H 10800 5600 50  0001 C CNN
+	1    10800 5600
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:TESTPOINT TP902
+U 1 1 1000000C
+P 12200 5600
+F 0 "TP902" H 12200 5320 50  0000 C CNN
+F 1 "USB_UART_RX" H 12200 5880 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 12200 5600 50  0001 C CNN
+F 3 "" H 12200 5600 50  0001 C CNN
+	1    12200 5600
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:TESTPOINT TP903
+U 1 1 1000000D
+P 13600 5600
+F 0 "TP903" H 13600 5320 50  0000 C CNN
+F 1 "GND" H 13600 5880 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 13600 5600 50  0001 C CNN
+F 3 "" H 13600 5600 50  0001 C CNN
+	1    13600 5600
+	1 0 0 -1
+$EndComp
+Text Notes 600 450 0    85    ~ 12
+CP2102N USB-UART - SERVICE, LOGS AND ROM-UART PROGRAMMING
+Text GLabel 4800 3400 0    45   BiDi ~ 0
+CP2102_VBUS_SENSE
+Text GLabel 4800 3600 0    45   BiDi ~ 0
+USB_DM
+Text GLabel 4800 3800 0    45   BiDi ~ 0
+USB_DP
+Text GLabel 4800 4000 0    45   BiDi ~ 0
+5V_SYS
+Text GLabel 4800 4200 0    45   BiDi ~ 0
+CP2102_VDD
+Text GLabel 4800 4400 0    45   BiDi ~ 0
+CP2102_RST_N
+Text GLabel 7200 3100 2    45   BiDi ~ 0
+UART_BRIDGE_TX
+Text GLabel 7200 3300 2    45   BiDi ~ 0
+UART_BRIDGE_RX
+Text GLabel 7200 4300 2    45   BiDi ~ 0
+GND
+Text GLabel 7200 4500 2    45   BiDi ~ 0
+GND
+Text GLabel 7200 4700 2    45   BiDi ~ 0
+GND
+NoConn ~ 7200 4100
+NoConn ~ 7200 3900
+NoConn ~ 7200 3700
+NoConn ~ 7200 3500
+Text GLabel 2450 2300 0    45   BiDi ~ 0
+5V_SYS
+Text GLabel 3150 2300 2    45   BiDi ~ 0
+GND
+Text GLabel 2450 2850 0    45   BiDi ~ 0
+5V_SYS
+Text GLabel 3150 2850 2    45   BiDi ~ 0
+GND
+Text GLabel 2450 3400 0    45   BiDi ~ 0
+CP2102_VDD
+Text GLabel 3150 3400 2    45   BiDi ~ 0
+GND
+Text GLabel 2450 3950 0    45   BiDi ~ 0
+CP2102_VDD
+Text GLabel 3150 3950 2    45   BiDi ~ 0
+GND
+Text GLabel 2450 4550 0    45   BiDi ~ 0
+CP2102_VDD
+Text GLabel 3150 4550 2    45   BiDi ~ 0
+CP2102_RST_N
+Text GLabel 8750 3300 0    45   BiDi ~ 0
+UART_BRIDGE_TX
+Text GLabel 9450 3300 2    45   BiDi ~ 0
+USB_UART_RX
+Text GLabel 8750 3950 0    45   BiDi ~ 0
+USB_UART_TX
+Text GLabel 9450 3950 2    45   BiDi ~ 0
+UART_BRIDGE_RX
+Text GLabel 8750 4700 0    45   BiDi ~ 0
+5V_USB_RAW
+Text GLabel 9450 4700 2    45   BiDi ~ 0
+CP2102_VBUS_SENSE
+Text GLabel 8750 5250 0    45   BiDi ~ 0
+CP2102_VBUS_SENSE
+Text GLabel 9450 5250 2    45   BiDi ~ 0
+GND
+Text GLabel 10500 5600 0    45   BiDi ~ 0
+USB_UART_TX
+Text GLabel 11900 5600 0    45   BiDi ~ 0
+USB_UART_RX
+Text GLabel 13300 5600 0    45   BiDi ~ 0
+GND
+Text Notes 600 7200 0    60    ~ 0
+VREGIN is powered from 5V_SYS so an active MCU cannot back-power an unpowered bridge. VBUS senses raw USB through 22.1k/47.5k; D+/D- activate only with a cable.
+Text Notes 600 7600 0    60    ~ 0
+Manual BOOT0 and NRST remain on the SWD/test sheet. CP2102 RTS is intentionally not wired to reset in Rev A.
+$EndSCHEMATC

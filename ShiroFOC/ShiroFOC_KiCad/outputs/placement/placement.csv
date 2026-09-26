@@ -1,0 +1,261 @@
+ref,x_mm,y_mm,rotation_deg,side,group,fixed_anchor
+U601,40.0,40.0,0,B,Encoder,True
+C101,12.0,12.0,90,F,DC link,True
+C102,34.0,12.0,90,F,DC link,True
+C103,56.0,12.0,90,F,DC link,True
+J401,75.0,14.0,270,F,Phase outputs,True
+J101,16.0,36.0,90,F,DC input,True
+J201,2.5,61.0,270,F,USB service,True
+U301,54.0,45.0,90,F,MCU / gate driver,True
+C415,20.5,29.0,90,F,/Three-phase bridge/,True
+C425,34.5,29.0,90,F,/Three-phase bridge/,True
+C435,48.5,29.0,90,F,/Three-phase bridge/,True
+Q401,24.0,29.0,180,F,Phase U,True
+Q402,38.0,29.0,180,F,Phase V,True
+Q403,52.0,29.0,180,F,Phase W,True
+R416,24.0,23,0,B,Phase U shunt,True
+C412,29.5,25.5,0,F,/Three-phase bridge/,False
+R411,26.5,34.3,90,F,/Three-phase bridge/,False
+R412,21.5,34.3,90,F,/Three-phase bridge/,False
+R413,29.0,32.0,90,F,/Three-phase bridge/,False
+R414,19.5,32.0,90,F,/Three-phase bridge/,False
+C413,31.5,30.0,90,F,/Three-phase bridge/,False
+R415,28.5,38.0,0,F,/Three-phase bridge/,False
+TH701,27.5,32.0,90,B,/Current / temperature/,False
+R426,38.0,23,0,B,Phase V shunt,True
+C422,43.5,25.5,0,F,/Three-phase bridge/,False
+R421,42.0,30.8,90,F,/Three-phase bridge/,False
+R422,34.0,32.8,90,F,/Three-phase bridge/,False
+R423,44.0,31.5,90,F,/Three-phase bridge/,False
+R424,32.0,34.0,90,F,/Three-phase bridge/,False
+C423,49.0,35.0,90,F,/Three-phase bridge/,False
+R425,55.0,34.5,0,F,/Three-phase bridge/,False
+TH702,44.5,29.0,90,B,/Current / temperature/,False
+R436,52.0,23,0,B,Phase W shunt,True
+C432,57.5,25.5,0,F,/Three-phase bridge/,False
+R431,56.0,30.8,90,F,/Three-phase bridge/,False
+R432,47.0,30.8,90,F,/Three-phase bridge/,False
+R433,58.0,30.5,90,F,/Three-phase bridge/,False
+R434,47.0,27.5,90,F,/Three-phase bridge/,False
+C433,60.5,30.0,90,F,/Three-phase bridge/,False
+R435,64.0,25.5,0,F,/Three-phase bridge/,False
+TH703,55.5,32.0,90,B,/Current / temperature/,False
+C411,48.0,43.5,90,F,/Three-phase bridge/,False
+C421,60.0,38.5,90,F,/Three-phase bridge/,False
+C431,60.0,35.0,90,F,/Three-phase bridge/,False
+U602,54.0,36.5,0,B,Feedback mux,False
+U201,10.0,45.0,0,F,/5 V / 3.3 V power/,False
+L201,20.0,45.0,0,F,/5 V / 3.3 V power/,False
+U203,16.0,54.0,0,F,/5 V / 3.3 V power/,False
+U204,24.0,54.0,0,F,/5 V / 3.3 V power/,False
+L301,46.0,56.5,180,F,/Gate driver / VCC/,False
+D302,44.8,50.5,180,F,/Gate driver / VCC/,False
+U701,33.0,58.0,0,F,/SPI sensors/,False
+U901,12.0,62.0,0,F,/USB service/,False
+U801,33.0,69.0,180,F,/CAN interface/,False
+J601,54.0,74.0,180,F,/Feedback selection/,False
+J801,27.0,75.5,180,F,/CAN interface/,False
+J802,39.0,75.5,180,F,/CAN interface/,False
+J1001,65.0,71.0,0,F,/MCU / clock / SWD/,False
+Q501,70.0,54.0,180,F,/Brake chopper/,False
+J501,73.0,61.0,270,F,/Brake chopper/,False
+D504,67.5,46.0,90,F,/Brake chopper/,False
+U501,64.0,54.0,180,F,/Brake chopper/,False
+U502,63.0,61.0,0,F,/Brake chopper/,False
+Y301,53.0,52.5,0,F,/MCU / clock / SWD/,False
+SW301,56.0,64.5,0,F,/MCU / clock / SWD/,False
+SW1001,14.0,74.0,0,F,/MCU / clock / SWD/,False
+SW1002,15.0,68.0,0,F,/MCU / clock / SWD/,False
+C301,50.0,48.5,90,B,MCU underside,False
+C302,48.0,47.0,90,B,MCU underside,False
+C303,59.0,44.0,0,B,MCU underside,False
+C304,59.0,42.0,0,B,MCU underside,False
+C305,62.5,44.0,0,B,MCU underside,False
+C306,62.5,42.0,0,B,MCU underside,False
+C307,46.0,47.0,90,B,MCU underside,False
+C310,54.0,49.0,90,B,MCU underside,False
+R301,60.0,40.0,0,B,MCU underside,False
+R302,63.5,40.0,0,B,MCU underside,False
+C108,57.0,49.5,90,B,MCU underside,False
+R417,56.0,52.0,0,B,Current sense U,False
+R418,56.0,54.1,0,B,Current sense U,False
+R419,59.2,52.0,0,B,Current sense U,False
+C414,59.2,54.1,0,B,Current sense U,False
+R410,56.0,56.2,0,B,Current sense U,False
+R441,59.2,56.2,0,B,Current sense U,False
+R427,60.0,48.0,0,B,Current sense V,False
+R428,60.0,50.1,0,B,Current sense V,False
+R429,63.2,48.0,0,B,Current sense V,False
+C424,63.2,50.1,0,B,Current sense V,False
+R420,62.5,52.2,0,B,Current sense V,False
+R442,65.7,52.2,0,B,Current sense V,False
+R437,63.0,46.0,0,B,Current sense W,False
+R438,66.0,44.1,0,B,Current sense W,False
+R439,66.2,46.0,0,B,Current sense W,False
+C434,66.7,48.1,0,B,Current sense W,False
+R430,59.5,46.2,0,B,Current sense W,False
+R443,66.7,50.2,0,B,Current sense W,False
+R701,48.0,52.0,0,B,Temperature ADC,False
+R711,51.5,52.0,0,B,Temperature ADC,False
+C711,52.5,54.0,0,B,Temperature ADC,False
+R702,48.0,53.7,0,B,Temperature ADC,False
+R712,51.0,55.7,0,B,Temperature ADC,False
+C712,52.5,57.7,0,B,Temperature ADC,False
+R703,47.5,55.4,0,B,Temperature ADC,False
+R713,49.0,57.4,0,B,Temperature ADC,False
+C713,56.0,57.9,0,B,Temperature ADC,False
+C104,20.0,33.0,90,B,/DC link / input/,False
+C105,20.0,36.5,0,B,/DC link / input/,False
+C106,20.0,38.5,0,B,/DC link / input/,False
+C107,10.0,9.0,90,B,/DC link / input/,False
+D101,11.0,17.0,0,B,/DC link / input/,False
+R101,8.0,33.0,0,B,/DC link / input/,False
+R102,18.0,10.0,90,B,/DC link / input/,False
+R103,26.0,42.5,90,F,/DC link / input/,False
+R104,26.0,47.5,90,F,/DC link / input/,False
+R105,26.0,51.0,0,F,/DC link / input/,False
+R106,29.0,49.0,0,F,/DC link / input/,False
+C201,4.0,44.0,90,F,/5 V / 3.3 V power/,False
+C202,6.0,43.5,90,B,/5 V / 3.3 V power/,False
+C203,14.0,43.5,0,B,/5 V / 3.3 V power/,False
+C204,14.0,45.5,0,B,/5 V / 3.3 V power/,False
+C205,29.0,43.0,90,F,/5 V / 3.3 V power/,False
+C206,29.5,52.5,90,F,/5 V / 3.3 V power/,False
+R201,14.0,48.0,0,B,/5 V / 3.3 V power/,False
+R202,14.0,50.1,0,B,/5 V / 3.3 V power/,False
+C209,18.5,51.5,90,F,/5 V / 3.3 V power/,False
+C210,20.0,55.5,90,F,/5 V / 3.3 V power/,False
+C211,13.5,53.0,90,F,/5 V / 3.3 V power/,False
+C212,21.0,51.5,90,F,/5 V / 3.3 V power/,False
+C213,27.0,54.0,90,F,/5 V / 3.3 V power/,False
+R206,13.5,56.5,90,F,/5 V / 3.3 V power/,False
+R207,11.5,54.0,90,F,/5 V / 3.3 V power/,False
+R208,17.5,57.5,90,F,/5 V / 3.3 V power/,False
+R209,16.5,50.5,90,F,/5 V / 3.3 V power/,False
+R210,16.0,60.0,0,F,/5 V / 3.3 V power/,False
+R211,20.0,59.0,0,F,/5 V / 3.3 V power/,False
+R212,20.0,61.0,0,F,/5 V / 3.3 V power/,False
+R213,16.5,62.0,0,F,/5 V / 3.3 V power/,False
+R214,13.5,49.0,0,F,/5 V / 3.3 V power/,False
+R215,10.0,49.0,0,F,/5 V / 3.3 V power/,False
+C311,40.0,49.5,90,F,/Gate driver / VCC/,False
+C312,52.5,57.5,90,F,/Gate driver / VCC/,False
+C313,48.0,47.0,90,F,/Gate driver / VCC/,False
+C314,49.0,42.0,0,B,/Gate driver / VCC/,False
+R310,48.5,38.5,90,B,/Gate driver / VCC/,False
+R311,51.5,41.0,90,B,/Gate driver / VCC/,False
+R312,49.0,43.8,0,B,/Gate driver / VCC/,False
+C308,56.0,55.3,0,F,/MCU / clock / SWD/,False
+C309,56.0,52.5,90,F,/MCU / clock / SWD/,False
+R303,52.0,49.5,90,B,/MCU / clock / SWD/,False
+R304,59.0,69.0,90,F,/MCU / clock / SWD/,False
+D301,57.0,69.0,90,F,/MCU / clock / SWD/,False
+R1001,59.0,61.0,0,F,/MCU / clock / SWD/,False
+C601,35.0,40.0,90,B,/SPI sensors/,False
+C602,35.0,36.5,90,B,/SPI sensors/,False
+R308,45.0,38.0,90,B,/SPI sensors/,False
+R601,45.5,42.0,0,B,/SPI sensors/,False
+R602,44.5,44.1,0,B,/SPI sensors/,False
+R603,37.0,44.5,0,B,/SPI sensors/,False
+R611,44.5,35.5,0,B,/SPI sensors/,False
+C701,33.0,60.5,0,F,/SPI sensors/,False
+C702,36.0,58.0,90,F,/SPI sensors/,False
+R309,33.0,55.5,0,F,/SPI sensors/,False
+R714,30.0,57.0,90,F,/SPI sensors/,False
+R313,49.0,35.0,90,B,/SPI sensors/,False
+R314,47.0,34.0,90,B,/SPI sensors/,False
+C603,59.0,34.0,90,B,/Feedback selection/,False
+R305,59.5,37.0,0,B,/Feedback selection/,False
+R306,49.0,31.5,0,B,/Feedback selection/,False
+R307,54.0,41.5,0,B,/Feedback selection/,False
+D601,53.0,68.5,180,F,/Feedback selection/,False
+C604,50.0,68.0,90,F,/Feedback selection/,False
+R604,62.0,65.5,90,F,/Feedback selection/,False
+R605,49.5,64.0,0,F,/Feedback selection/,False
+R606,47.5,66.1,0,F,/Feedback selection/,False
+R607,47.5,68.2,0,F,/Feedback selection/,False
+R608,46.0,64.0,0,F,/Feedback selection/,False
+R609,44.0,66.1,0,F,/Feedback selection/,False
+R610,44.0,68.2,0,F,/Feedback selection/,False
+U202,10.0,57.5,0,F,/USB service/,False
+C208,5.0,54.5,0,F,/USB service/,False
+R203,2.5,54.0,90,F,/USB service/,False
+R204,3.0,68.0,90,F,/USB service/,False
+R205,7.5,54.0,90,F,/USB service/,False
+C207,5.5,69.0,90,F,/USB service/,False
+C901,10.0,64.0,90,B,/USB service/,False
+C902,12.0,64.5,90,B,/USB service/,False
+C903,14.0,64.0,90,B,/USB service/,False
+C904,16.0,64.0,90,B,/USB service/,False
+R901,16.0,60.5,90,B,/USB service/,False
+R902,11.0,58.0,0,B,/USB service/,False
+R903,14.5,58.0,0,B,/USB service/,False
+R904,14.0,67.0,0,B,/USB service/,False
+R905,14.0,69.1,0,B,/USB service/,False
+C801,38.0,67.0,90,F,/CAN interface/,False
+C802,40.0,67.0,90,F,/CAN interface/,False
+D801,27.0,70.0,90,F,/CAN interface/,False
+R801,38.5,70.0,0,F,/CAN interface/,False
+R802,33.0,73.5,90,F,/CAN interface/,False
+JP801,45.5,76.0,90,F,/CAN interface/,False
+R803,27.5,67.0,0,F,/CAN interface/,False
+R804,24.0,66.7,0,F,/CAN interface/,False
+R805,33.0,65.0,0,F,/CAN interface/,False
+C501,64.0,54.0,0,B,/Brake chopper/,False
+C502,64.0,56.1,0,B,/Brake chopper/,False
+C503,64.0,60.0,0,B,/Brake chopper/,False
+C504,63.0,64.0,0,B,/Brake chopper/,False
+D501,68.0,54.5,0,B,/Brake chopper/,False
+D502,60.5,56.0,90,F,/Brake chopper/,False
+D503,56.0,59.5,90,F,/Brake chopper/,False
+R501,63.0,57.5,90,F,/Brake chopper/,False
+R502,61.0,52.0,90,F,/Brake chopper/,False
+R503,65.5,57.5,90,F,/Brake chopper/,False
+R504,66.5,57.5,90,B,/Brake chopper/,False
+R505,61.0,59.0,90,B,/Brake chopper/,False
+R506,69.0,60.0,90,B,/Brake chopper/,False
+R507,69.0,65.0,90,B,/Brake chopper/,False
+R508,65.0,66.5,0,B,/Brake chopper/,False
+R509,60.5,63.0,90,B,/Brake chopper/,False
+R510,61.0,66.0,0,B,/Brake chopper/,False
+TP101,53.0,60.0,0,B,Test access,False
+TP102,43.5,48.5,0,B,Test access,False
+TP103,69.0,43.5,0,B,Test access,False
+TP1001,63.0,58.0,0,B,Test access,False
+TP201,22.0,60.0,0,B,Test access,False
+TP203,22.0,57.0,0,B,Test access,False
+TP204,45.0,51.5,0,B,Test access,False
+TP1003,22.0,62.5,0,B,Test access,False
+TP1005,19.5,60.0,0,B,Test access,False
+TP1006,47.5,50.0,0,B,Test access,False
+TP303,58.0,60.5,0,B,Test access,False
+TP1007,55.5,60.0,0,B,Test access,False
+TP1008,69.0,46.0,0,B,Test access,False
+TP1009,65.5,42.0,0,B,Test access,False
+TP1021,69.5,51.0,0,B,Test access,False
+TP1023,69.5,48.5,0,B,Test access,False
+TP1024,50.5,60.0,0,B,Test access,False
+TP301,68.0,40.5,0,B,Test access,False
+TP302,66.0,62.5,0,B,Test access,False
+TP1002,62.5,62.0,0,B,Test access,False
+TP701,71.5,53.5,0,B,Test access,False
+TP702,55.5,62.5,0,B,Test access,False
+TP703,71.5,56.0,0,B,Test access,False
+TP1018,53.0,62.5,0,B,Test access,False
+TP1019,50.5,62.5,0,B,Test access,False
+TP1020,72.0,51.0,0,B,Test access,False
+TP501,76.5,60.0,0,B,Test access,False
+TP502,76.0,57.0,0,B,Test access,False
+TP1010,41.0,49.0,0,B,Test access,False
+TP1011,58.5,63.0,0,B,Test access,False
+TP1012,42.5,51.5,0,B,Test access,False
+TP1015,72.0,48.5,0,B,Test access,False
+TP1016,48.0,59.5,0,B,Test access,False
+TP1013,48.0,62.0,0,B,Test access,False
+TP1014,62.5,38.0,0,B,Test access,False
+TP1022,65.0,38.0,0,B,Test access,False
+TP202,25.0,60.0,0,B,Test access,False
+TP901,67.5,38.0,0,B,Test access,False
+TP902,70.0,38.0,0,B,Test access,False
+TP903,40.0,51.5,0,B,Test access,False
+TP1004,19.5,57.5,0,B,Test access,False

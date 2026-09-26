@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R104/R105
+* Expected Vout = 3.3 * 0.047619 = 0.1571 V
+* Model: ideal passives (exact, unloaded)
+
+VIN VM 0 DC 3.3
+R104 VM __unnamed_2 540k
+R105 __unnamed_2 0 27k
+
+.op 
+
+.end

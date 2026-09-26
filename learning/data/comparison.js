@@ -1,0 +1,59 @@
+window.ComparisonData = {
+  "Existing bulk + local": {
+    "bus_pp_V": 6.8975655274324446,
+    "bus_min_V": 30.964160004413284,
+    "bus_max_V": 37.86172553184573,
+    "input_mean_A": 29.39605885216239,
+    "branch_rms_A": [
+      25.286417412388744,
+      11.205750400956877
+    ],
+    "estimated_ESR_loss_W": 7.021873265778293,
+    "effective_C_uF": 2043.905
+  },
+  "20 ceramics": {
+    "bus_pp_V": 16.185238996703966,
+    "bus_min_V": 24.7445926743344,
+    "bus_max_V": 40.929831671038365,
+    "input_mean_A": 29.39605885216239,
+    "branch_rms_A": [
+      33.67416165614512
+    ],
+    "estimated_ESR_loss_W": 2.267898326488388,
+    "effective_C_uF": 47.0
+  },
+  "40 ceramics": {
+    "bus_pp_V": 8.13318772977333,
+    "bus_min_V": 31.070146402423486,
+    "bus_max_V": 39.203334132196815,
+    "input_mean_A": 29.39605885216239,
+    "branch_rms_A": [
+      30.517831851187246
+    ],
+    "estimated_ESR_loss_W": 1.3970070913460082,
+    "effective_C_uF": 94.0
+  },
+  "80 ceramics": {
+    "bus_pp_V": 3.6267970526045588,
+    "bus_min_V": 32.800418821956264,
+    "bus_max_V": 36.42721587456082,
+    "input_mean_A": 29.39605885216239,
+    "branch_rms_A": [
+      25.864550038979576
+    ],
+    "estimated_ESR_loss_W": 0.836218685898598,
+    "effective_C_uF": 188.0
+  },
+  "40 ceramics + 1000uF": {
+    "bus_pp_V": 2.222538859418144,
+    "bus_min_V": 33.46013191053471,
+    "bus_max_V": 35.68267076995286,
+    "input_mean_A": 29.39605885216239,
+    "branch_rms_A": [
+      17.687188472060967,
+      17.874685729087886
+    ],
+    "estimated_ESR_loss_W": 10.054386651479055,
+    "effective_C_uF": 1094.0
+  }
+};

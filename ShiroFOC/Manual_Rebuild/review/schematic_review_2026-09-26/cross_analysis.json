@@ -1,0 +1,133 @@
+{
+  "analyzer_type": "cross_analysis",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "/tmp/final_schematic_review.json"
+    ],
+    "source_hashes": {
+      "/tmp/final_schematic_review.json": "89226b6a71de0793ae75087cbec08c4f288c46ccfdb4b8ae85aa41b35484fa83"
+    },
+    "run_id": "20260926T203054Z-e56ed4",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "/tmp/final_schematic_review.json",
+        "sha256": "89226b6a71de0793ae75087cbec08c4f288c46ccfdb4b8ae85aa41b35484fa83",
+        "schema_version": "1.4.0",
+        "run_id": "20260926T203054Z-e56ed4"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "elapsed_s": 0.025,
+  "summary": {
+    "total_findings": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    }
+  },
+  "findings": [],
+  "assessments": [],
+  "checks_run": [
+    {
+      "check": "CC-001",
+      "ran": false,
+      "reason_skipped": "no PCB data provided",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "EG-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 8,
+      "findings": 0
+    },
+    {
+      "check": "DA-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "XV-001..003",
+      "ran": false,
+      "reason_skipped": "no PCB data provided",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "NR-001",
+      "ran": false,
+      "reason_skipped": "no PCB data provided",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "RP-002",
+      "ran": false,
+      "reason_skipped": "no PCB data provided",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "TW-001",
+      "ran": false,
+      "reason_skipped": "no PCB or schematic data provided",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "PS-002",
+      "ran": false,
+      "reason_skipped": "no PCB data provided",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "VS-002",
+      "ran": false,
+      "reason_skipped": "no PCB data provided",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "DP-005",
+      "ran": false,
+      "reason_skipped": "no PCB data provided",
+      "items_examined": 0,
+      "findings": 0
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20260926T203054Z-e56ed4"
+  }
+}

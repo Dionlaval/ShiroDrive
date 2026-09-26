@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R430/R443
+* Expected Vout = 3.3 * 0.500000 = 1.6500 V
+* Model: ideal passives (exact, unloaded)
+
+VIN VREF_ 0 DC 3.3
+R430 VREF_ OPP_W1 56k
+R443 OPP_W1 0 56k
+
+.op 
+
+.end

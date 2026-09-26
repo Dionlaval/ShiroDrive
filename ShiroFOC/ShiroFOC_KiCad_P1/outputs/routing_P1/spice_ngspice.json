@@ -1,0 +1,627 @@
+{
+  "analyzer_type": "spice",
+  "schema_version": "1.4.0",
+  "summary": {
+    "total": 26,
+    "total_findings": 0,
+    "pass": 26,
+    "warn": 0,
+    "fail": 0,
+    "skip": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 26
+    }
+  },
+  "findings": [],
+  "simulation_results": [
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R1001",
+        "R307"
+      ],
+      "expected": {
+        "ratio": 0.909091,
+        "vout_V": 3.0000003
+      },
+      "simulated": {
+        "vout_V": 3.0
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R1001_R307.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R1001_R307.log",
+      "elapsed_s": 0.04,
+      "reference": "R1001/R307"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R104",
+        "R105"
+      ],
+      "expected": {
+        "ratio": 0.047619,
+        "vout_V": 0.1571427
+      },
+      "simulated": {
+        "vout_V": 0.157143
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R104_R105.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R104_R105.log",
+      "elapsed_s": 0.022,
+      "reference": "R104/R105"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R106",
+        "R105"
+      ],
+      "expected": {
+        "ratio": 0.964286,
+        "vout_V": 4.821429999999999
+      },
+      "simulated": {
+        "vout_V": 4.82143
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R106_R105.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R106_R105.log",
+      "elapsed_s": 0.022,
+      "reference": "R106/R105"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R201",
+        "R202"
+      ],
+      "expected": {
+        "ratio": 0.199359,
+        "vout_V": 0.9967950000000001
+      },
+      "simulated": {
+        "vout_V": 0.996797
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R201_R202.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R201_R202.log",
+      "elapsed_s": 0.021,
+      "reference": "R201/R202"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R206",
+        "R207"
+      ],
+      "expected": {
+        "ratio": 0.253731,
+        "vout_V": 1.2686549999999999
+      },
+      "simulated": {
+        "vout_V": 1.26866
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R206_R207.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R206_R207.log",
+      "elapsed_s": 0.022,
+      "reference": "R206/R207"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R208",
+        "R209"
+      ],
+      "expected": {
+        "ratio": 0.337748,
+        "vout_V": 1.68874
+      },
+      "simulated": {
+        "vout_V": 1.68874
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R208_R209.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R208_R209.log",
+      "elapsed_s": 0.024,
+      "reference": "R208/R209"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R210",
+        "R211"
+      ],
+      "expected": {
+        "ratio": 0.195402,
+        "vout_V": 0.9770099999999999
+      },
+      "simulated": {
+        "vout_V": 0.977011
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R210_R211.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R210_R211.log",
+      "elapsed_s": 0.022,
+      "reference": "R210/R211"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R212",
+        "R213"
+      ],
+      "expected": {
+        "ratio": 0.195402,
+        "vout_V": 0.9770099999999999
+      },
+      "simulated": {
+        "vout_V": 0.977011
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R212_R213.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R212_R213.log",
+      "elapsed_s": 0.024,
+      "reference": "R212/R213"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R310",
+        "R311"
+      ],
+      "expected": {
+        "ratio": 0.090909,
+        "vout_V": 0.2999997
+      },
+      "simulated": {
+        "vout_V": 0.3
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R310_R311.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R310_R311.log",
+      "elapsed_s": 0.023,
+      "reference": "R310/R311"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R312",
+        "R311"
+      ],
+      "expected": {
+        "ratio": 0.909091,
+        "vout_V": 3.0000003
+      },
+      "simulated": {
+        "vout_V": 3.0
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R312_R311.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R312_R311.log",
+      "elapsed_s": 0.023,
+      "reference": "R312/R311"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R410",
+        "R441"
+      ],
+      "expected": {
+        "ratio": 0.5,
+        "vout_V": 1.65
+      },
+      "simulated": {
+        "vout_V": 1.65
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R410_R441.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R410_R441.log",
+      "elapsed_s": 0.022,
+      "reference": "R410/R441"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R417",
+        "R441"
+      ],
+      "expected": {
+        "ratio": 0.982456,
+        "vout_V": 3.2421048
+      },
+      "simulated": {
+        "vout_V": 3.24211
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R417_R441.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R417_R441.log",
+      "elapsed_s": 0.023,
+      "reference": "R417/R441"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R420",
+        "R442"
+      ],
+      "expected": {
+        "ratio": 0.5,
+        "vout_V": 1.65
+      },
+      "simulated": {
+        "vout_V": 1.65
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R420_R442.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R420_R442.log",
+      "elapsed_s": 0.022,
+      "reference": "R420/R442"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R427",
+        "R442"
+      ],
+      "expected": {
+        "ratio": 0.982456,
+        "vout_V": 3.2421048
+      },
+      "simulated": {
+        "vout_V": 3.24211
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R427_R442.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R427_R442.log",
+      "elapsed_s": 0.023,
+      "reference": "R427/R442"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R430",
+        "R443"
+      ],
+      "expected": {
+        "ratio": 0.5,
+        "vout_V": 1.65
+      },
+      "simulated": {
+        "vout_V": 1.65
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R430_R443.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R430_R443.log",
+      "elapsed_s": 0.023,
+      "reference": "R430/R443"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R437",
+        "R443"
+      ],
+      "expected": {
+        "ratio": 0.982456,
+        "vout_V": 3.2421048
+      },
+      "simulated": {
+        "vout_V": 3.24211
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R437_R443.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R437_R443.log",
+      "elapsed_s": 0.023,
+      "reference": "R437/R443"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R502",
+        "R501"
+      ],
+      "expected": {
+        "ratio": 0.996711,
+        "vout_V": 3.2891463
+      },
+      "simulated": {
+        "vout_V": 3.28915
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R502_R501.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R502_R501.log",
+      "elapsed_s": 0.022,
+      "reference": "R502/R501"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R508",
+        "R509"
+      ],
+      "expected": {
+        "ratio": 0.027448,
+        "vout_V": 0.09057839999999999
+      },
+      "simulated": {
+        "vout_V": 0.090577
+      },
+      "delta": {
+        "vout_error_pct": 0.001
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R508_R509.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R508_R509.log",
+      "elapsed_s": 0.022,
+      "reference": "R508/R509"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R510",
+        "R509"
+      ],
+      "expected": {
+        "ratio": 0.012541,
+        "vout_V": 0.0413853
+      },
+      "simulated": {
+        "vout_V": 0.0413844
+      },
+      "delta": {
+        "vout_error_pct": 0.002
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R510_R509.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R510_R509.log",
+      "elapsed_s": 0.022,
+      "reference": "R510/R509"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R904",
+        "R905"
+      ],
+      "expected": {
+        "ratio": 0.682471,
+        "vout_V": 3.4123550000000002
+      },
+      "simulated": {
+        "vout_V": 3.41236
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R904_R905.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R904_R905.log",
+      "elapsed_s": 0.022,
+      "reference": "R904/R905"
+    },
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R418",
+        "C414"
+      ],
+      "filter_type": "RC-network",
+      "expected": {
+        "cutoff_hz": 3386275.38,
+        "type": "RC-network"
+      },
+      "simulated": {
+        "cutoff_hz": 3378240.0,
+        "phase_at_fc_deg": -0.784199
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R418_C414.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R418_C414.log",
+      "elapsed_s": 0.022,
+      "reference": "R418/C414"
+    },
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R428",
+        "C424"
+      ],
+      "filter_type": "RC-network",
+      "expected": {
+        "cutoff_hz": 3386275.38,
+        "type": "RC-network"
+      },
+      "simulated": {
+        "cutoff_hz": 3378240.0,
+        "phase_at_fc_deg": -0.784199
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R428_C424.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R428_C424.log",
+      "elapsed_s": 0.024,
+      "reference": "R428/C424"
+    },
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R438",
+        "C434"
+      ],
+      "filter_type": "RC-network",
+      "expected": {
+        "cutoff_hz": 3386275.38,
+        "type": "RC-network"
+      },
+      "simulated": {
+        "cutoff_hz": 3378240.0,
+        "phase_at_fc_deg": -0.784199
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R438_C434.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R438_C434.log",
+      "elapsed_s": 0.023,
+      "reference": "R438/C434"
+    },
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R711",
+        "C711"
+      ],
+      "filter_type": "low-pass",
+      "expected": {
+        "cutoff_hz": 15915.49,
+        "type": "low-pass"
+      },
+      "simulated": {
+        "cutoff_hz": 15877.7,
+        "phase_at_fc_deg": -0.784197
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R711_C711.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R711_C711.log",
+      "elapsed_s": 0.021,
+      "reference": "R711/C711"
+    },
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R712",
+        "C712"
+      ],
+      "filter_type": "low-pass",
+      "expected": {
+        "cutoff_hz": 15915.49,
+        "type": "low-pass"
+      },
+      "simulated": {
+        "cutoff_hz": 15877.7,
+        "phase_at_fc_deg": -0.784197
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R712_C712.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R712_C712.log",
+      "elapsed_s": 0.023,
+      "reference": "R712/C712"
+    },
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R713",
+        "C713"
+      ],
+      "filter_type": "low-pass",
+      "expected": {
+        "cutoff_hz": 15915.49,
+        "type": "low-pass"
+      },
+      "simulated": {
+        "cutoff_hz": 15877.7,
+        "phase_at_fc_deg": -0.784197
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R713_C713.cir",
+      "log_file": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/rc-filter_R713_C713.log",
+      "elapsed_s": 0.023,
+      "reference": "R713/C713"
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "workdir": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work",
+  "total_elapsed_s": 0.603,
+  "simulator": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/tools/ngspice_local.py",
+  "ngspice": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/tools/ngspice_local.py"
+}

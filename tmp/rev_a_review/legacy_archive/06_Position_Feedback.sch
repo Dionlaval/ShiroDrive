@@ -1,0 +1,406 @@
+EESchema Schematic File Version 4
+LIBS:ShiroFOC_KiCad-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "06 - Onboard and External Position Feedback"
+Date "2026-09-14"
+Rev "A"
+Comp "ShiroFOC"
+Comment1 "Rev A first-build schematic"
+Comment2 "6S-10S LiPo / 24-42 V nominal operating range"
+Comment3 "Prototype: validate switching, transient, and thermal behavior"
+Comment4 "GND and PGND are one electrical net; route returns deliberately"
+$EndDescr
+$Comp
+L ShiroFOC_KiCad:AS5047P U601
+U 1 1 10000001
+P 3000 3200
+F 0 "U601" H 3000 2120 50  0000 C CNN
+F 1 "AS5047P-ATSM" H 3000 4280 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3000 3200 50  0001 C CNN
+F 3 "https://ams-osram.com/products/sensors/position-sensors/ams-as5047p-high-resolution-position-sensor" H 3000 3200 50  0001 C CNN
+F 4 "AS5047P-ATSM" H 3000 3200 50  0001 C CNN "MPN"
+	1    3000 3200
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C601
+U 1 1 10000002
+P 900 2100
+F 0 "C601" H 900 1820 50  0000 C CNN
+F 1 "100nF" H 900 2380 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 900 2100 50  0001 C CNN
+F 3 "" H 900 2100 50  0001 C CNN
+F 4 "" H 900 2100 50  0001 C CNN "MPN"
+F 5 "FIT" H 900 2100 50  0001 C CNN "Assembly"
+	1    900 2100
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C602
+U 1 1 10000003
+P 900 2750
+F 0 "C602" H 900 2470 50  0000 C CNN
+F 1 "1uF" H 900 3030 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 900 2750 50  0001 C CNN
+F 3 "" H 900 2750 50  0001 C CNN
+F 4 "" H 900 2750 50  0001 C CNN "MPN"
+F 5 "FIT" H 900 2750 50  0001 C CNN "Assembly"
+	1    900 2750
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R601
+U 1 1 10000004
+P 5100 2250
+F 0 "R601" H 5100 1970 50  0000 C CNN
+F 1 "33R" H 5100 2530 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 2250 50  0001 C CNN
+F 3 "" H 5100 2250 50  0001 C CNN
+F 4 "" H 5100 2250 50  0001 C CNN "MPN"
+F 5 "FIT" H 5100 2250 50  0001 C CNN "Assembly"
+	1    5100 2250
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R602
+U 1 1 10000005
+P 5100 2900
+F 0 "R602" H 5100 2620 50  0000 C CNN
+F 1 "33R" H 5100 3180 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 2900 50  0001 C CNN
+F 3 "" H 5100 2900 50  0001 C CNN
+F 4 "" H 5100 2900 50  0001 C CNN "MPN"
+F 5 "FIT" H 5100 2900 50  0001 C CNN "Assembly"
+	1    5100 2900
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R603
+U 1 1 10000006
+P 5100 3550
+F 0 "R603" H 5100 3270 50  0000 C CNN
+F 1 "33R" H 5100 3830 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 3550 50  0001 C CNN
+F 3 "" H 5100 3550 50  0001 C CNN
+F 4 "" H 5100 3550 50  0001 C CNN "MPN"
+F 5 "FIT" H 5100 3550 50  0001 C CNN "Assembly"
+	1    5100 3550
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R611
+U 1 1 10000007
+P 5100 4200
+F 0 "R611" H 5100 3920 50  0000 C CNN
+F 1 "33R" H 5100 4480 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 4200 50  0001 C CNN
+F 3 "" H 5100 4200 50  0001 C CNN
+F 4 "" H 5100 4200 50  0001 C CNN "MPN"
+F 5 "FIT" H 5100 4200 50  0001 C CNN "Assembly"
+	1    5100 4200
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CONN_6 J601
+U 1 1 10000008
+P 2600 7300
+F 0 "J601" H 2600 6420 50  0000 C CNN
+F 1 "EXT ENCODER / HALL" H 2600 8180 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 2600 7300 50  0001 C CNN
+F 3 "" H 2600 7300 50  0001 C CNN
+F 4 "BM06B-GHS-TBT" H 2600 7300 50  0001 C CNN "MPN"
+	1    2600 7300
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R604
+U 1 1 10000009
+P 900 6500
+F 0 "R604" H 900 6220 50  0000 C CNN
+F 1 "0R / current limit option" H 900 6780 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 900 6500 50  0001 C CNN
+F 3 "" H 900 6500 50  0001 C CNN
+F 4 "" H 900 6500 50  0001 C CNN "MPN"
+F 5 "FIT" H 900 6500 50  0001 C CNN "Assembly"
+	1    900 6500
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:TPD3E001DRLR D601
+U 1 1 1000000A
+P 5100 7300
+F 0 "D601" H 5100 6720 50  0000 C CNN
+F 1 "TPD3E001DRLR 3-line ESD" H 5100 7880 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:Texas_R-PDSO-N5_DRL-5" H 5100 7300 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tpd3e001.pdf" H 5100 7300 50  0001 C CNN
+F 4 "TPD3E001DRLR" H 5100 7300 50  0001 C CNN "MPN"
+	1    5100 7300
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R605
+U 1 1 1000000B
+P 6900 6500
+F 0 "R605" H 6900 6220 50  0000 C CNN
+F 1 "100R" H 6900 6780 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6900 6500 50  0001 C CNN
+F 3 "" H 6900 6500 50  0001 C CNN
+F 4 "" H 6900 6500 50  0001 C CNN "MPN"
+F 5 "FIT" H 6900 6500 50  0001 C CNN "Assembly"
+	1    6900 6500
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R606
+U 1 1 1000000C
+P 6900 7150
+F 0 "R606" H 6900 6870 50  0000 C CNN
+F 1 "100R" H 6900 7430 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6900 7150 50  0001 C CNN
+F 3 "" H 6900 7150 50  0001 C CNN
+F 4 "" H 6900 7150 50  0001 C CNN "MPN"
+F 5 "FIT" H 6900 7150 50  0001 C CNN "Assembly"
+	1    6900 7150
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R607
+U 1 1 1000000D
+P 6900 7800
+F 0 "R607" H 6900 7520 50  0000 C CNN
+F 1 "100R" H 6900 8080 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6900 7800 50  0001 C CNN
+F 3 "" H 6900 7800 50  0001 C CNN
+F 4 "" H 6900 7800 50  0001 C CNN "MPN"
+F 5 "FIT" H 6900 7800 50  0001 C CNN "Assembly"
+	1    6900 7800
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R608
+U 1 1 1000000E
+P 8500 6500
+F 0 "R608" H 8500 6220 50  0000 C CNN
+F 1 "10k DNP Hall pull-up" H 8500 6780 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8500 6500 50  0001 C CNN
+F 3 "" H 8500 6500 50  0001 C CNN
+F 4 "" H 8500 6500 50  0001 C CNN "MPN"
+F 5 "DNP" H 8500 6500 50  0001 C CNN "Assembly"
+	1    8500 6500
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R609
+U 1 1 1000000F
+P 8500 7150
+F 0 "R609" H 8500 6870 50  0000 C CNN
+F 1 "10k DNP Hall pull-up" H 8500 7430 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8500 7150 50  0001 C CNN
+F 3 "" H 8500 7150 50  0001 C CNN
+F 4 "" H 8500 7150 50  0001 C CNN "MPN"
+F 5 "DNP" H 8500 7150 50  0001 C CNN "Assembly"
+	1    8500 7150
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R610
+U 1 1 10000010
+P 8500 7800
+F 0 "R610" H 8500 7520 50  0000 C CNN
+F 1 "10k DNP Hall pull-up" H 8500 8080 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8500 7800 50  0001 C CNN
+F 3 "" H 8500 7800 50  0001 C CNN
+F 4 "" H 8500 7800 50  0001 C CNN "MPN"
+F 5 "DNP" H 8500 7800 50  0001 C CNN "Assembly"
+	1    8500 7800
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:TMUX1574PW U602
+U 1 1 10000011
+P 11500 5000
+F 0 "U602" H 11500 3720 50  0000 C CNN
+F 1 "TMUX1574PW" H 11500 6280 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 11500 5000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tmux1574.pdf" H 11500 5000 50  0001 C CNN
+F 4 "TMUX1574PW" H 11500 5000 50  0001 C CNN "MPN"
+	1    11500 5000
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C603
+U 1 1 10000012
+P 14000 4700
+F 0 "C603" H 14000 4420 50  0000 C CNN
+F 1 "100nF" H 14000 4980 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14000 4700 50  0001 C CNN
+F 3 "" H 14000 4700 50  0001 C CNN
+F 4 "" H 14000 4700 50  0001 C CNN "MPN"
+F 5 "FIT" H 14000 4700 50  0001 C CNN "Assembly"
+	1    14000 4700
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C604
+U 1 1 10000013
+P 5100 8450
+F 0 "C604" H 5100 8170 50  0000 C CNN
+F 1 "100nF" H 5100 8730 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 8450 50  0001 C CNN
+F 3 "" H 5100 8450 50  0001 C CNN
+F 4 "" H 5100 8450 50  0001 C CNN "MPN"
+F 5 "FIT" H 5100 8450 50  0001 C CNN "Assembly"
+	1    5100 8450
+	1 0 0 -1
+$EndComp
+Text Notes 500 400 0    85    ~ 12
+AS5047P + EXTERNAL ABI/HALL -> TMUX1574 -> TIM4 CH1/2/3
+Text GLabel 1850 2700 0    45   BiDi ~ 0
+AS5047P_CS_N
+Text GLabel 1850 2900 0    45   BiDi ~ 0
+SPI3_SCK
+Text GLabel 1850 3100 0    45   BiDi ~ 0
+AS5047_MISO_RAW
+Text GLabel 1850 3300 0    45   BiDi ~ 0
+SPI3_MOSI
+Text GLabel 1850 3500 0    45   BiDi ~ 0
+GND
+Text GLabel 1850 3700 0    45   BiDi ~ 0
+GND
+Text GLabel 4150 2500 2    45   BiDi ~ 0
+ENC_ON_A
+Text GLabel 4150 2700 2    45   BiDi ~ 0
+ENC_ON_B
+Text GLabel 4150 2900 2    45   BiDi ~ 0
+ENC_ON_I
+Text GLabel 4150 3700 2    45   BiDi ~ 0
+3V3
+Text GLabel 4150 3900 2    45   BiDi ~ 0
+3V3
+NoConn ~ 4150 3100
+NoConn ~ 4150 3300
+NoConn ~ 4150 3500
+Text GLabel 550 2100 0    45   BiDi ~ 0
+3V3
+Text GLabel 1250 2100 2    45   BiDi ~ 0
+GND
+Text GLabel 550 2750 0    45   BiDi ~ 0
+3V3
+Text GLabel 1250 2750 2    45   BiDi ~ 0
+GND
+Text GLabel 4750 2250 0    45   BiDi ~ 0
+ENC_ON_A
+Text GLabel 5450 2250 2    45   BiDi ~ 0
+MUX_ON_A
+Text GLabel 4750 2900 0    45   BiDi ~ 0
+ENC_ON_B
+Text GLabel 5450 2900 2    45   BiDi ~ 0
+MUX_ON_B
+Text GLabel 4750 3550 0    45   BiDi ~ 0
+ENC_ON_I
+Text GLabel 5450 3550 2    45   BiDi ~ 0
+MUX_ON_I
+Text GLabel 4750 4200 0    45   BiDi ~ 0
+AS5047_MISO_RAW
+Text GLabel 5450 4200 2    45   BiDi ~ 0
+SPI3_MISO
+Text GLabel 2000 6800 0    45   BiDi ~ 0
+3V3_EXT_FB
+Text GLabel 2000 7000 0    45   BiDi ~ 0
+GND
+Text GLabel 2000 7200 0    45   BiDi ~ 0
+EXT_A_U_CONN
+Text GLabel 2000 7400 0    45   BiDi ~ 0
+EXT_B_V_CONN
+Text GLabel 2000 7600 0    45   BiDi ~ 0
+EXT_I_W_CONN
+NoConn ~ 2000 7800
+Text GLabel 550 6500 0    45   BiDi ~ 0
+3V3
+Text GLabel 1250 6500 2    45   BiDi ~ 0
+3V3_EXT_FB
+Text GLabel 4200 7100 0    45   BiDi ~ 0
+EXT_A_U_CONN
+Text GLabel 4200 7300 0    45   BiDi ~ 0
+EXT_B_V_CONN
+Text GLabel 4200 7500 0    45   BiDi ~ 0
+EXT_I_W_CONN
+Text GLabel 6000 7400 2    45   BiDi ~ 0
+GND
+Text GLabel 6000 7200 2    45   BiDi ~ 0
+3V3
+Text GLabel 6550 6500 0    45   BiDi ~ 0
+EXT_A_U_CONN
+Text GLabel 7250 6500 2    45   BiDi ~ 0
+MUX_EXT_A
+Text GLabel 6550 7150 0    45   BiDi ~ 0
+EXT_B_V_CONN
+Text GLabel 7250 7150 2    45   BiDi ~ 0
+MUX_EXT_B
+Text GLabel 6550 7800 0    45   BiDi ~ 0
+EXT_I_W_CONN
+Text GLabel 7250 7800 2    45   BiDi ~ 0
+MUX_EXT_I
+Text GLabel 8150 6500 0    45   BiDi ~ 0
+3V3
+Text GLabel 8850 6500 2    45   BiDi ~ 0
+MUX_EXT_A
+Text GLabel 8150 7150 0    45   BiDi ~ 0
+3V3
+Text GLabel 8850 7150 2    45   BiDi ~ 0
+MUX_EXT_B
+Text GLabel 8150 7800 0    45   BiDi ~ 0
+3V3
+Text GLabel 8850 7800 2    45   BiDi ~ 0
+MUX_EXT_I
+Text GLabel 12700 4500 2    45   BiDi ~ 0
+FEEDBACK_A_H1
+Text GLabel 12700 4700 2    45   BiDi ~ 0
+FEEDBACK_B_H2
+Text GLabel 12700 4900 2    45   BiDi ~ 0
+FEEDBACK_I_H3
+Text GLabel 10300 5700 0    45   BiDi ~ 0
+FEEDBACK_SELECT
+Text GLabel 10300 5900 0    45   BiDi ~ 0
+FEEDBACK_ENABLE_N
+Text GLabel 10300 4100 0    45   BiDi ~ 0
+MUX_ON_A
+Text GLabel 10300 4300 0    45   BiDi ~ 0
+MUX_EXT_A
+Text GLabel 10300 4500 0    45   BiDi ~ 0
+MUX_ON_B
+Text GLabel 10300 4700 0    45   BiDi ~ 0
+MUX_EXT_B
+Text GLabel 10300 4900 0    45   BiDi ~ 0
+MUX_ON_I
+Text GLabel 10300 5100 0    45   BiDi ~ 0
+MUX_EXT_I
+Text GLabel 12700 5100 2    45   BiDi ~ 0
+GND
+Text GLabel 10300 5500 0    45   BiDi ~ 0
+GND
+Text GLabel 10300 5300 0    45   BiDi ~ 0
+GND
+Text GLabel 12700 5300 2    45   BiDi ~ 0
+3V3
+Text GLabel 12700 5500 2    45   BiDi ~ 0
+GND
+Text GLabel 13650 4700 0    45   BiDi ~ 0
+3V3
+Text GLabel 14350 4700 2    45   BiDi ~ 0
+GND
+Text GLabel 4750 8450 0    45   BiDi ~ 0
+3V3
+Text GLabel 5450 8450 2    45   BiDi ~ 0
+GND
+Text Notes 500 9300 0    60    ~ 0
+Default: FEEDBACK_ENABLE_N high disables all outputs; FEEDBACK_SELECT low selects onboard encoder after firmware explicitly enables the mux.
+Text Notes 500 9650 0    60    ~ 0
+The mux switches only A/B/I signals, not sensor power. Budget 3V3 for AS5047P plus the permitted external load. J601 pin 6 is reserved/NC in Rev A.
+Text Notes 500 10000 0    60    ~ 0
+D601 pin map: IO1/IO2/IO3 = pins 1/2/4, GND = pin 3, VCC = pin 5. Place it at J601 before the 100R series resistors.
+$EndSCHEMATC

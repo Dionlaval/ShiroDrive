@@ -1,0 +1,2359 @@
+{
+  "status": "unrouted provisional placement",
+  "size_mm": [
+    80,
+    80
+  ],
+  "origin_mm": [
+    100,
+    100
+  ],
+  "copper_oz": [
+    2,
+    0.5,
+    0.5,
+    2
+  ],
+  "components": {
+    "U601": {
+      "ref": "U601",
+      "x_mm": 40.0,
+      "y_mm": 40.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Encoder",
+      "fixed_anchor": true
+    },
+    "C101": {
+      "ref": "C101",
+      "x_mm": 12.0,
+      "y_mm": 12.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "DC link",
+      "fixed_anchor": true
+    },
+    "C102": {
+      "ref": "C102",
+      "x_mm": 34.0,
+      "y_mm": 12.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "DC link",
+      "fixed_anchor": true
+    },
+    "C103": {
+      "ref": "C103",
+      "x_mm": 56.0,
+      "y_mm": 12.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "DC link",
+      "fixed_anchor": true
+    },
+    "J401": {
+      "ref": "J401",
+      "x_mm": 75.0,
+      "y_mm": 14.0,
+      "rotation_deg": 270,
+      "side": "F",
+      "group": "Phase outputs",
+      "fixed_anchor": true
+    },
+    "J101": {
+      "ref": "J101",
+      "x_mm": 16.0,
+      "y_mm": 36.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "DC input",
+      "fixed_anchor": true
+    },
+    "J201": {
+      "ref": "J201",
+      "x_mm": 2.5,
+      "y_mm": 61.0,
+      "rotation_deg": 270,
+      "side": "F",
+      "group": "USB service",
+      "fixed_anchor": true
+    },
+    "U301": {
+      "ref": "U301",
+      "x_mm": 54.0,
+      "y_mm": 45.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "MCU / gate driver",
+      "fixed_anchor": true
+    },
+    "C415": {
+      "ref": "C415",
+      "x_mm": 20.5,
+      "y_mm": 29.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": true
+    },
+    "C425": {
+      "ref": "C425",
+      "x_mm": 34.5,
+      "y_mm": 29.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": true
+    },
+    "C435": {
+      "ref": "C435",
+      "x_mm": 48.5,
+      "y_mm": 29.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": true
+    },
+    "Q401": {
+      "ref": "Q401",
+      "x_mm": 24.0,
+      "y_mm": 29.0,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "Phase U",
+      "fixed_anchor": true
+    },
+    "Q402": {
+      "ref": "Q402",
+      "x_mm": 38.0,
+      "y_mm": 29.0,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "Phase V",
+      "fixed_anchor": true
+    },
+    "Q403": {
+      "ref": "Q403",
+      "x_mm": 52.0,
+      "y_mm": 29.0,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "Phase W",
+      "fixed_anchor": true
+    },
+    "R416": {
+      "ref": "R416",
+      "x_mm": 24.0,
+      "y_mm": 23,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Phase U shunt",
+      "fixed_anchor": true
+    },
+    "C412": {
+      "ref": "C412",
+      "x_mm": 29.5,
+      "y_mm": 25.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R411": {
+      "ref": "R411",
+      "x_mm": 26.5,
+      "y_mm": 34.3,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R412": {
+      "ref": "R412",
+      "x_mm": 21.5,
+      "y_mm": 34.3,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R413": {
+      "ref": "R413",
+      "x_mm": 29.0,
+      "y_mm": 32.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R414": {
+      "ref": "R414",
+      "x_mm": 19.5,
+      "y_mm": 32.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "C413": {
+      "ref": "C413",
+      "x_mm": 31.5,
+      "y_mm": 30.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R415": {
+      "ref": "R415",
+      "x_mm": 28.5,
+      "y_mm": 38.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "TH701": {
+      "ref": "TH701",
+      "x_mm": 27.5,
+      "y_mm": 32.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Current / temperature/",
+      "fixed_anchor": false
+    },
+    "R426": {
+      "ref": "R426",
+      "x_mm": 38.0,
+      "y_mm": 23,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Phase V shunt",
+      "fixed_anchor": true
+    },
+    "C422": {
+      "ref": "C422",
+      "x_mm": 43.5,
+      "y_mm": 25.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R421": {
+      "ref": "R421",
+      "x_mm": 42.0,
+      "y_mm": 30.8,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R422": {
+      "ref": "R422",
+      "x_mm": 34.0,
+      "y_mm": 32.8,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R423": {
+      "ref": "R423",
+      "x_mm": 44.0,
+      "y_mm": 31.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R424": {
+      "ref": "R424",
+      "x_mm": 32.0,
+      "y_mm": 34.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "C423": {
+      "ref": "C423",
+      "x_mm": 49.0,
+      "y_mm": 35.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R425": {
+      "ref": "R425",
+      "x_mm": 55.0,
+      "y_mm": 34.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "TH702": {
+      "ref": "TH702",
+      "x_mm": 44.5,
+      "y_mm": 29.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Current / temperature/",
+      "fixed_anchor": false
+    },
+    "R436": {
+      "ref": "R436",
+      "x_mm": 52.0,
+      "y_mm": 23,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Phase W shunt",
+      "fixed_anchor": true
+    },
+    "C432": {
+      "ref": "C432",
+      "x_mm": 57.5,
+      "y_mm": 25.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R431": {
+      "ref": "R431",
+      "x_mm": 56.0,
+      "y_mm": 30.8,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R432": {
+      "ref": "R432",
+      "x_mm": 47.0,
+      "y_mm": 30.8,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R433": {
+      "ref": "R433",
+      "x_mm": 58.0,
+      "y_mm": 30.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R434": {
+      "ref": "R434",
+      "x_mm": 47.0,
+      "y_mm": 27.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "C433": {
+      "ref": "C433",
+      "x_mm": 60.5,
+      "y_mm": 30.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "R435": {
+      "ref": "R435",
+      "x_mm": 64.0,
+      "y_mm": 25.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "TH703": {
+      "ref": "TH703",
+      "x_mm": 55.5,
+      "y_mm": 32.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Current / temperature/",
+      "fixed_anchor": false
+    },
+    "C411": {
+      "ref": "C411",
+      "x_mm": 48.0,
+      "y_mm": 43.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "C421": {
+      "ref": "C421",
+      "x_mm": 60.0,
+      "y_mm": 38.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "C431": {
+      "ref": "C431",
+      "x_mm": 60.0,
+      "y_mm": 35.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Three-phase bridge/",
+      "fixed_anchor": false
+    },
+    "U602": {
+      "ref": "U602",
+      "x_mm": 54.0,
+      "y_mm": 36.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Feedback mux",
+      "fixed_anchor": false
+    },
+    "U201": {
+      "ref": "U201",
+      "x_mm": 10.0,
+      "y_mm": 45.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "L201": {
+      "ref": "L201",
+      "x_mm": 20.0,
+      "y_mm": 45.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "U203": {
+      "ref": "U203",
+      "x_mm": 16.0,
+      "y_mm": 54.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "U204": {
+      "ref": "U204",
+      "x_mm": 24.0,
+      "y_mm": 54.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "L301": {
+      "ref": "L301",
+      "x_mm": 46.0,
+      "y_mm": 56.5,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "/Gate driver / VCC/",
+      "fixed_anchor": false
+    },
+    "D302": {
+      "ref": "D302",
+      "x_mm": 44.8,
+      "y_mm": 50.5,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "/Gate driver / VCC/",
+      "fixed_anchor": false
+    },
+    "U701": {
+      "ref": "U701",
+      "x_mm": 33.0,
+      "y_mm": 58.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "U901": {
+      "ref": "U901",
+      "x_mm": 12.0,
+      "y_mm": 62.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "U801": {
+      "ref": "U801",
+      "x_mm": 33.0,
+      "y_mm": 69.0,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "J601": {
+      "ref": "J601",
+      "x_mm": 54.0,
+      "y_mm": 74.0,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "J801": {
+      "ref": "J801",
+      "x_mm": 27.0,
+      "y_mm": 75.5,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "J802": {
+      "ref": "J802",
+      "x_mm": 39.0,
+      "y_mm": 75.5,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "J1001": {
+      "ref": "J1001",
+      "x_mm": 65.0,
+      "y_mm": 71.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "Q501": {
+      "ref": "Q501",
+      "x_mm": 70.0,
+      "y_mm": 54.0,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "J501": {
+      "ref": "J501",
+      "x_mm": 73.0,
+      "y_mm": 61.0,
+      "rotation_deg": 270,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "D504": {
+      "ref": "D504",
+      "x_mm": 67.5,
+      "y_mm": 46.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "U501": {
+      "ref": "U501",
+      "x_mm": 64.0,
+      "y_mm": 54.0,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "U502": {
+      "ref": "U502",
+      "x_mm": 63.0,
+      "y_mm": 61.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "Y301": {
+      "ref": "Y301",
+      "x_mm": 53.0,
+      "y_mm": 52.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "SW301": {
+      "ref": "SW301",
+      "x_mm": 56.0,
+      "y_mm": 64.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "SW1001": {
+      "ref": "SW1001",
+      "x_mm": 14.0,
+      "y_mm": 74.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "SW1002": {
+      "ref": "SW1002",
+      "x_mm": 15.0,
+      "y_mm": 68.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "C301": {
+      "ref": "C301",
+      "x_mm": 50.0,
+      "y_mm": 48.5,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "C302": {
+      "ref": "C302",
+      "x_mm": 48.0,
+      "y_mm": 47.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "C303": {
+      "ref": "C303",
+      "x_mm": 59.0,
+      "y_mm": 44.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "C304": {
+      "ref": "C304",
+      "x_mm": 59.0,
+      "y_mm": 42.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "C305": {
+      "ref": "C305",
+      "x_mm": 62.5,
+      "y_mm": 44.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "C306": {
+      "ref": "C306",
+      "x_mm": 62.5,
+      "y_mm": 42.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "C307": {
+      "ref": "C307",
+      "x_mm": 46.0,
+      "y_mm": 47.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "C310": {
+      "ref": "C310",
+      "x_mm": 54.0,
+      "y_mm": 49.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "R301": {
+      "ref": "R301",
+      "x_mm": 60.0,
+      "y_mm": 40.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "R302": {
+      "ref": "R302",
+      "x_mm": 63.5,
+      "y_mm": 40.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "C108": {
+      "ref": "C108",
+      "x_mm": 57.0,
+      "y_mm": 49.5,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "MCU underside",
+      "fixed_anchor": false
+    },
+    "R417": {
+      "ref": "R417",
+      "x_mm": 56.0,
+      "y_mm": 52.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense U",
+      "fixed_anchor": false
+    },
+    "R418": {
+      "ref": "R418",
+      "x_mm": 56.0,
+      "y_mm": 54.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense U",
+      "fixed_anchor": false
+    },
+    "R419": {
+      "ref": "R419",
+      "x_mm": 59.2,
+      "y_mm": 52.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense U",
+      "fixed_anchor": false
+    },
+    "C414": {
+      "ref": "C414",
+      "x_mm": 59.2,
+      "y_mm": 54.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense U",
+      "fixed_anchor": false
+    },
+    "R410": {
+      "ref": "R410",
+      "x_mm": 56.0,
+      "y_mm": 56.2,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense U",
+      "fixed_anchor": false
+    },
+    "R441": {
+      "ref": "R441",
+      "x_mm": 59.2,
+      "y_mm": 56.2,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense U",
+      "fixed_anchor": false
+    },
+    "R427": {
+      "ref": "R427",
+      "x_mm": 60.0,
+      "y_mm": 48.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense V",
+      "fixed_anchor": false
+    },
+    "R428": {
+      "ref": "R428",
+      "x_mm": 60.0,
+      "y_mm": 50.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense V",
+      "fixed_anchor": false
+    },
+    "R429": {
+      "ref": "R429",
+      "x_mm": 63.2,
+      "y_mm": 48.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense V",
+      "fixed_anchor": false
+    },
+    "C424": {
+      "ref": "C424",
+      "x_mm": 63.2,
+      "y_mm": 50.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense V",
+      "fixed_anchor": false
+    },
+    "R420": {
+      "ref": "R420",
+      "x_mm": 62.5,
+      "y_mm": 52.2,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense V",
+      "fixed_anchor": false
+    },
+    "R442": {
+      "ref": "R442",
+      "x_mm": 65.7,
+      "y_mm": 52.2,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense V",
+      "fixed_anchor": false
+    },
+    "R437": {
+      "ref": "R437",
+      "x_mm": 63.0,
+      "y_mm": 46.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense W",
+      "fixed_anchor": false
+    },
+    "R438": {
+      "ref": "R438",
+      "x_mm": 66.0,
+      "y_mm": 44.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense W",
+      "fixed_anchor": false
+    },
+    "R439": {
+      "ref": "R439",
+      "x_mm": 66.2,
+      "y_mm": 46.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense W",
+      "fixed_anchor": false
+    },
+    "C434": {
+      "ref": "C434",
+      "x_mm": 66.7,
+      "y_mm": 48.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense W",
+      "fixed_anchor": false
+    },
+    "R430": {
+      "ref": "R430",
+      "x_mm": 59.5,
+      "y_mm": 46.2,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense W",
+      "fixed_anchor": false
+    },
+    "R443": {
+      "ref": "R443",
+      "x_mm": 66.7,
+      "y_mm": 50.2,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Current sense W",
+      "fixed_anchor": false
+    },
+    "R701": {
+      "ref": "R701",
+      "x_mm": 48.0,
+      "y_mm": 52.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Temperature ADC",
+      "fixed_anchor": false
+    },
+    "R711": {
+      "ref": "R711",
+      "x_mm": 51.5,
+      "y_mm": 52.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Temperature ADC",
+      "fixed_anchor": false
+    },
+    "C711": {
+      "ref": "C711",
+      "x_mm": 52.5,
+      "y_mm": 54.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Temperature ADC",
+      "fixed_anchor": false
+    },
+    "R702": {
+      "ref": "R702",
+      "x_mm": 48.0,
+      "y_mm": 53.7,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Temperature ADC",
+      "fixed_anchor": false
+    },
+    "R712": {
+      "ref": "R712",
+      "x_mm": 51.0,
+      "y_mm": 55.7,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Temperature ADC",
+      "fixed_anchor": false
+    },
+    "C712": {
+      "ref": "C712",
+      "x_mm": 52.5,
+      "y_mm": 57.7,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Temperature ADC",
+      "fixed_anchor": false
+    },
+    "R703": {
+      "ref": "R703",
+      "x_mm": 47.5,
+      "y_mm": 55.4,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Temperature ADC",
+      "fixed_anchor": false
+    },
+    "R713": {
+      "ref": "R713",
+      "x_mm": 49.0,
+      "y_mm": 57.4,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Temperature ADC",
+      "fixed_anchor": false
+    },
+    "C713": {
+      "ref": "C713",
+      "x_mm": 56.0,
+      "y_mm": 57.9,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Temperature ADC",
+      "fixed_anchor": false
+    },
+    "C104": {
+      "ref": "C104",
+      "x_mm": 20.0,
+      "y_mm": 33.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "C105": {
+      "ref": "C105",
+      "x_mm": 20.0,
+      "y_mm": 36.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "C106": {
+      "ref": "C106",
+      "x_mm": 20.0,
+      "y_mm": 38.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "C107": {
+      "ref": "C107",
+      "x_mm": 10.0,
+      "y_mm": 9.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "D101": {
+      "ref": "D101",
+      "x_mm": 11.0,
+      "y_mm": 17.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "R101": {
+      "ref": "R101",
+      "x_mm": 8.0,
+      "y_mm": 33.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "R102": {
+      "ref": "R102",
+      "x_mm": 18.0,
+      "y_mm": 10.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "R103": {
+      "ref": "R103",
+      "x_mm": 26.0,
+      "y_mm": 42.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "R104": {
+      "ref": "R104",
+      "x_mm": 26.0,
+      "y_mm": 47.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "R105": {
+      "ref": "R105",
+      "x_mm": 26.0,
+      "y_mm": 51.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "R106": {
+      "ref": "R106",
+      "x_mm": 29.0,
+      "y_mm": 49.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/DC link / input/",
+      "fixed_anchor": false
+    },
+    "C201": {
+      "ref": "C201",
+      "x_mm": 4.0,
+      "y_mm": 44.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C202": {
+      "ref": "C202",
+      "x_mm": 6.0,
+      "y_mm": 43.5,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C203": {
+      "ref": "C203",
+      "x_mm": 14.0,
+      "y_mm": 43.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C204": {
+      "ref": "C204",
+      "x_mm": 14.0,
+      "y_mm": 45.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C205": {
+      "ref": "C205",
+      "x_mm": 29.0,
+      "y_mm": 43.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C206": {
+      "ref": "C206",
+      "x_mm": 29.5,
+      "y_mm": 52.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R201": {
+      "ref": "R201",
+      "x_mm": 14.0,
+      "y_mm": 48.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R202": {
+      "ref": "R202",
+      "x_mm": 14.0,
+      "y_mm": 50.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C209": {
+      "ref": "C209",
+      "x_mm": 18.5,
+      "y_mm": 51.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C210": {
+      "ref": "C210",
+      "x_mm": 20.0,
+      "y_mm": 55.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C211": {
+      "ref": "C211",
+      "x_mm": 13.5,
+      "y_mm": 53.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C212": {
+      "ref": "C212",
+      "x_mm": 21.0,
+      "y_mm": 51.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C213": {
+      "ref": "C213",
+      "x_mm": 27.0,
+      "y_mm": 54.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R206": {
+      "ref": "R206",
+      "x_mm": 13.5,
+      "y_mm": 56.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R207": {
+      "ref": "R207",
+      "x_mm": 11.5,
+      "y_mm": 54.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R208": {
+      "ref": "R208",
+      "x_mm": 17.5,
+      "y_mm": 57.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R209": {
+      "ref": "R209",
+      "x_mm": 16.5,
+      "y_mm": 50.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R210": {
+      "ref": "R210",
+      "x_mm": 16.0,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R211": {
+      "ref": "R211",
+      "x_mm": 20.0,
+      "y_mm": 59.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R212": {
+      "ref": "R212",
+      "x_mm": 20.0,
+      "y_mm": 61.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R213": {
+      "ref": "R213",
+      "x_mm": 16.5,
+      "y_mm": 62.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R214": {
+      "ref": "R214",
+      "x_mm": 13.5,
+      "y_mm": 49.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "R215": {
+      "ref": "R215",
+      "x_mm": 10.0,
+      "y_mm": 49.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/5 V / 3.3 V power/",
+      "fixed_anchor": false
+    },
+    "C311": {
+      "ref": "C311",
+      "x_mm": 40.0,
+      "y_mm": 49.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Gate driver / VCC/",
+      "fixed_anchor": false
+    },
+    "C312": {
+      "ref": "C312",
+      "x_mm": 52.5,
+      "y_mm": 57.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Gate driver / VCC/",
+      "fixed_anchor": false
+    },
+    "C313": {
+      "ref": "C313",
+      "x_mm": 48.0,
+      "y_mm": 47.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Gate driver / VCC/",
+      "fixed_anchor": false
+    },
+    "C314": {
+      "ref": "C314",
+      "x_mm": 49.0,
+      "y_mm": 42.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Gate driver / VCC/",
+      "fixed_anchor": false
+    },
+    "R310": {
+      "ref": "R310",
+      "x_mm": 48.5,
+      "y_mm": 38.5,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Gate driver / VCC/",
+      "fixed_anchor": false
+    },
+    "R311": {
+      "ref": "R311",
+      "x_mm": 51.5,
+      "y_mm": 41.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Gate driver / VCC/",
+      "fixed_anchor": false
+    },
+    "R312": {
+      "ref": "R312",
+      "x_mm": 49.0,
+      "y_mm": 43.8,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Gate driver / VCC/",
+      "fixed_anchor": false
+    },
+    "C308": {
+      "ref": "C308",
+      "x_mm": 56.0,
+      "y_mm": 55.3,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "C309": {
+      "ref": "C309",
+      "x_mm": 56.0,
+      "y_mm": 52.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "R303": {
+      "ref": "R303",
+      "x_mm": 52.0,
+      "y_mm": 49.5,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "R304": {
+      "ref": "R304",
+      "x_mm": 59.0,
+      "y_mm": 69.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "D301": {
+      "ref": "D301",
+      "x_mm": 57.0,
+      "y_mm": 69.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "R1001": {
+      "ref": "R1001",
+      "x_mm": 59.0,
+      "y_mm": 61.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/MCU / clock / SWD/",
+      "fixed_anchor": false
+    },
+    "C601": {
+      "ref": "C601",
+      "x_mm": 35.0,
+      "y_mm": 40.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "C602": {
+      "ref": "C602",
+      "x_mm": 35.0,
+      "y_mm": 36.5,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "R308": {
+      "ref": "R308",
+      "x_mm": 45.0,
+      "y_mm": 38.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "R601": {
+      "ref": "R601",
+      "x_mm": 45.5,
+      "y_mm": 42.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "R602": {
+      "ref": "R602",
+      "x_mm": 44.5,
+      "y_mm": 44.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "R603": {
+      "ref": "R603",
+      "x_mm": 37.0,
+      "y_mm": 44.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "R611": {
+      "ref": "R611",
+      "x_mm": 44.5,
+      "y_mm": 35.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "C701": {
+      "ref": "C701",
+      "x_mm": 33.0,
+      "y_mm": 60.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "C702": {
+      "ref": "C702",
+      "x_mm": 36.0,
+      "y_mm": 58.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "R309": {
+      "ref": "R309",
+      "x_mm": 33.0,
+      "y_mm": 55.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "R714": {
+      "ref": "R714",
+      "x_mm": 30.0,
+      "y_mm": 57.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "R313": {
+      "ref": "R313",
+      "x_mm": 49.0,
+      "y_mm": 35.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "R314": {
+      "ref": "R314",
+      "x_mm": 47.0,
+      "y_mm": 34.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/SPI sensors/",
+      "fixed_anchor": false
+    },
+    "C603": {
+      "ref": "C603",
+      "x_mm": 59.0,
+      "y_mm": 34.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R305": {
+      "ref": "R305",
+      "x_mm": 59.5,
+      "y_mm": 37.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R306": {
+      "ref": "R306",
+      "x_mm": 49.0,
+      "y_mm": 31.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R307": {
+      "ref": "R307",
+      "x_mm": 54.0,
+      "y_mm": 41.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "D601": {
+      "ref": "D601",
+      "x_mm": 53.0,
+      "y_mm": 68.5,
+      "rotation_deg": 180,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "C604": {
+      "ref": "C604",
+      "x_mm": 50.0,
+      "y_mm": 68.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R604": {
+      "ref": "R604",
+      "x_mm": 62.0,
+      "y_mm": 65.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R605": {
+      "ref": "R605",
+      "x_mm": 49.5,
+      "y_mm": 64.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R606": {
+      "ref": "R606",
+      "x_mm": 47.5,
+      "y_mm": 66.1,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R607": {
+      "ref": "R607",
+      "x_mm": 47.5,
+      "y_mm": 68.2,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R608": {
+      "ref": "R608",
+      "x_mm": 46.0,
+      "y_mm": 64.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R609": {
+      "ref": "R609",
+      "x_mm": 44.0,
+      "y_mm": 66.1,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "R610": {
+      "ref": "R610",
+      "x_mm": 44.0,
+      "y_mm": 68.2,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/Feedback selection/",
+      "fixed_anchor": false
+    },
+    "U202": {
+      "ref": "U202",
+      "x_mm": 10.0,
+      "y_mm": 57.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "C208": {
+      "ref": "C208",
+      "x_mm": 5.0,
+      "y_mm": 54.5,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "R203": {
+      "ref": "R203",
+      "x_mm": 2.5,
+      "y_mm": 54.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "R204": {
+      "ref": "R204",
+      "x_mm": 3.0,
+      "y_mm": 68.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "R205": {
+      "ref": "R205",
+      "x_mm": 7.5,
+      "y_mm": 54.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "C207": {
+      "ref": "C207",
+      "x_mm": 5.5,
+      "y_mm": 69.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "C901": {
+      "ref": "C901",
+      "x_mm": 10.0,
+      "y_mm": 64.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "C902": {
+      "ref": "C902",
+      "x_mm": 12.0,
+      "y_mm": 64.5,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "C903": {
+      "ref": "C903",
+      "x_mm": 14.0,
+      "y_mm": 64.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "C904": {
+      "ref": "C904",
+      "x_mm": 16.0,
+      "y_mm": 64.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "R901": {
+      "ref": "R901",
+      "x_mm": 16.0,
+      "y_mm": 60.5,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "R902": {
+      "ref": "R902",
+      "x_mm": 11.0,
+      "y_mm": 58.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "R903": {
+      "ref": "R903",
+      "x_mm": 14.5,
+      "y_mm": 58.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "R904": {
+      "ref": "R904",
+      "x_mm": 14.0,
+      "y_mm": 67.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "R905": {
+      "ref": "R905",
+      "x_mm": 14.0,
+      "y_mm": 69.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/USB service/",
+      "fixed_anchor": false
+    },
+    "C801": {
+      "ref": "C801",
+      "x_mm": 38.0,
+      "y_mm": 67.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "C802": {
+      "ref": "C802",
+      "x_mm": 40.0,
+      "y_mm": 67.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "D801": {
+      "ref": "D801",
+      "x_mm": 27.0,
+      "y_mm": 70.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "R801": {
+      "ref": "R801",
+      "x_mm": 38.5,
+      "y_mm": 70.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "R802": {
+      "ref": "R802",
+      "x_mm": 33.0,
+      "y_mm": 73.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "JP801": {
+      "ref": "JP801",
+      "x_mm": 45.5,
+      "y_mm": 76.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "R803": {
+      "ref": "R803",
+      "x_mm": 27.5,
+      "y_mm": 67.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "R804": {
+      "ref": "R804",
+      "x_mm": 24.0,
+      "y_mm": 66.7,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "R805": {
+      "ref": "R805",
+      "x_mm": 33.0,
+      "y_mm": 65.0,
+      "rotation_deg": 0,
+      "side": "F",
+      "group": "/CAN interface/",
+      "fixed_anchor": false
+    },
+    "C501": {
+      "ref": "C501",
+      "x_mm": 64.0,
+      "y_mm": 54.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "C502": {
+      "ref": "C502",
+      "x_mm": 64.0,
+      "y_mm": 56.1,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "C503": {
+      "ref": "C503",
+      "x_mm": 64.0,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "C504": {
+      "ref": "C504",
+      "x_mm": 63.0,
+      "y_mm": 64.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "D501": {
+      "ref": "D501",
+      "x_mm": 68.0,
+      "y_mm": 54.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "D502": {
+      "ref": "D502",
+      "x_mm": 60.5,
+      "y_mm": 56.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "D503": {
+      "ref": "D503",
+      "x_mm": 56.0,
+      "y_mm": 59.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R501": {
+      "ref": "R501",
+      "x_mm": 63.0,
+      "y_mm": 57.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R502": {
+      "ref": "R502",
+      "x_mm": 61.0,
+      "y_mm": 52.0,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R503": {
+      "ref": "R503",
+      "x_mm": 65.5,
+      "y_mm": 57.5,
+      "rotation_deg": 90,
+      "side": "F",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R504": {
+      "ref": "R504",
+      "x_mm": 66.5,
+      "y_mm": 57.5,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R505": {
+      "ref": "R505",
+      "x_mm": 61.0,
+      "y_mm": 59.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R506": {
+      "ref": "R506",
+      "x_mm": 69.0,
+      "y_mm": 60.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R507": {
+      "ref": "R507",
+      "x_mm": 69.0,
+      "y_mm": 65.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R508": {
+      "ref": "R508",
+      "x_mm": 65.0,
+      "y_mm": 66.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R509": {
+      "ref": "R509",
+      "x_mm": 60.5,
+      "y_mm": 63.0,
+      "rotation_deg": 90,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "R510": {
+      "ref": "R510",
+      "x_mm": 61.0,
+      "y_mm": 66.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "/Brake chopper/",
+      "fixed_anchor": false
+    },
+    "TP101": {
+      "ref": "TP101",
+      "x_mm": 53.0,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP102": {
+      "ref": "TP102",
+      "x_mm": 43.5,
+      "y_mm": 48.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP103": {
+      "ref": "TP103",
+      "x_mm": 69.0,
+      "y_mm": 43.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1001": {
+      "ref": "TP1001",
+      "x_mm": 63.0,
+      "y_mm": 58.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP201": {
+      "ref": "TP201",
+      "x_mm": 22.0,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP203": {
+      "ref": "TP203",
+      "x_mm": 22.0,
+      "y_mm": 57.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP204": {
+      "ref": "TP204",
+      "x_mm": 45.0,
+      "y_mm": 51.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1003": {
+      "ref": "TP1003",
+      "x_mm": 22.0,
+      "y_mm": 62.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1005": {
+      "ref": "TP1005",
+      "x_mm": 19.5,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1006": {
+      "ref": "TP1006",
+      "x_mm": 47.5,
+      "y_mm": 50.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP303": {
+      "ref": "TP303",
+      "x_mm": 58.0,
+      "y_mm": 60.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1007": {
+      "ref": "TP1007",
+      "x_mm": 55.5,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1008": {
+      "ref": "TP1008",
+      "x_mm": 69.0,
+      "y_mm": 46.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1009": {
+      "ref": "TP1009",
+      "x_mm": 65.5,
+      "y_mm": 42.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1021": {
+      "ref": "TP1021",
+      "x_mm": 69.5,
+      "y_mm": 51.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1023": {
+      "ref": "TP1023",
+      "x_mm": 69.5,
+      "y_mm": 48.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1024": {
+      "ref": "TP1024",
+      "x_mm": 50.5,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP301": {
+      "ref": "TP301",
+      "x_mm": 68.0,
+      "y_mm": 40.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP302": {
+      "ref": "TP302",
+      "x_mm": 66.0,
+      "y_mm": 62.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1002": {
+      "ref": "TP1002",
+      "x_mm": 62.5,
+      "y_mm": 62.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP701": {
+      "ref": "TP701",
+      "x_mm": 71.5,
+      "y_mm": 53.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP702": {
+      "ref": "TP702",
+      "x_mm": 55.5,
+      "y_mm": 62.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP703": {
+      "ref": "TP703",
+      "x_mm": 71.5,
+      "y_mm": 56.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1018": {
+      "ref": "TP1018",
+      "x_mm": 53.0,
+      "y_mm": 62.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1019": {
+      "ref": "TP1019",
+      "x_mm": 50.5,
+      "y_mm": 62.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1020": {
+      "ref": "TP1020",
+      "x_mm": 72.0,
+      "y_mm": 51.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP501": {
+      "ref": "TP501",
+      "x_mm": 76.5,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP502": {
+      "ref": "TP502",
+      "x_mm": 76.0,
+      "y_mm": 57.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1010": {
+      "ref": "TP1010",
+      "x_mm": 41.0,
+      "y_mm": 49.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1011": {
+      "ref": "TP1011",
+      "x_mm": 58.5,
+      "y_mm": 63.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1012": {
+      "ref": "TP1012",
+      "x_mm": 42.5,
+      "y_mm": 51.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1015": {
+      "ref": "TP1015",
+      "x_mm": 72.0,
+      "y_mm": 48.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1016": {
+      "ref": "TP1016",
+      "x_mm": 48.0,
+      "y_mm": 59.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1013": {
+      "ref": "TP1013",
+      "x_mm": 48.0,
+      "y_mm": 62.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1014": {
+      "ref": "TP1014",
+      "x_mm": 62.5,
+      "y_mm": 38.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1022": {
+      "ref": "TP1022",
+      "x_mm": 65.0,
+      "y_mm": 38.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP202": {
+      "ref": "TP202",
+      "x_mm": 25.0,
+      "y_mm": 60.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP901": {
+      "ref": "TP901",
+      "x_mm": 67.5,
+      "y_mm": 38.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP902": {
+      "ref": "TP902",
+      "x_mm": 70.0,
+      "y_mm": 38.0,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP903": {
+      "ref": "TP903",
+      "x_mm": 40.0,
+      "y_mm": 51.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    },
+    "TP1004": {
+      "ref": "TP1004",
+      "x_mm": 19.5,
+      "y_mm": 57.5,
+      "rotation_deg": 0,
+      "side": "B",
+      "group": "Test access",
+      "fixed_anchor": false
+    }
+  }
+}

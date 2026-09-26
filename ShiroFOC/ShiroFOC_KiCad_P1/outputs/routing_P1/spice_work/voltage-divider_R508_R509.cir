@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R508/R509
+* Expected Vout = 3.3 * 0.027448 = 0.0906 V
+* Model: ideal passives (exact, unloaded)
+
+VIN VM 0 DC 3.3
+R508 VM __unnamed_59 450k
+R509 __unnamed_59 0 12.7k
+
+.op 
+
+.end

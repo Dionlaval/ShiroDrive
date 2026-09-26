@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R312/R311
+* Expected Vout = 3.3 * 0.909091 = 3.0000 V
+* Model: ideal passives (exact, unloaded)
+
+VIN __unnamed_70 0 DC 3.3
+R312 __unnamed_70 __unnamed_71 1k
+R311 __unnamed_71 0 10k
+
+.control
+op 
+let vout_sim = v(__unnamed_71)
+let error_pct = abs(vout_sim - 3.0000003) / 3.0000003 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=3.0000003" > ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/spice_work/voltage-divider_R312_R311.out
+quit
+.endc
+
+.end

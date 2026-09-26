@@ -1,0 +1,22 @@
+{
+  "stage": "P0 component placement; not a routed or fabrication-ready board",
+  "pcb_sha256": "199d052530e0e359f049a839891653e5bbcbe091f8ede0724fa191cd88128ae4",
+  "source_netlist_sha256": "ee5057302923d9e59da8a090b453b18d6fddaa0cdb572f1bc82557927f7a7b36",
+  "footprints": 260,
+  "front": 122,
+  "back": 138,
+  "dnp": 18,
+  "matched_electrical_pads_including_duplicate_thermal_pads": 833,
+  "matched_unique_component_pin_pairs": 761,
+  "layers": 4,
+  "tracks_and_routed_vias": 0,
+  "zones": 0,
+  "schematic_parity_issues": 0,
+  "unconnected_DRC_items_expected_at_P0": 499,
+  "other_DRC_violations": {
+    "silk_edge_clearance": 4,
+    "lib_footprint_mismatch": 1,
+    "silk_over_copper": 4
+  },
+  "problems": []
+}

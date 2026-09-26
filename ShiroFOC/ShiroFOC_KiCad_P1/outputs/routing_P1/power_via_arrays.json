@@ -1,0 +1,59 @@
+[
+  {
+    "ref": "R416",
+    "pad": "1",
+    "net": "/Three-phase bridge/SHUNT_U_FORCE_P",
+    "vias": 1,
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "process": "filled and capped via-in-pad required",
+    "adjacent_vias": 9
+  },
+  {
+    "ref": "R416",
+    "pad": "4",
+    "net": "GND",
+    "vias": 21,
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "process": "filled and capped via-in-pad required"
+  },
+  {
+    "ref": "R426",
+    "pad": "1",
+    "net": "/Three-phase bridge/SHUNT_V_FORCE_P",
+    "vias": 9,
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "process": "filled and capped via-in-pad required",
+    "adjacent_vias": 8
+  },
+  {
+    "ref": "R426",
+    "pad": "4",
+    "net": "GND",
+    "vias": 21,
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "process": "filled and capped via-in-pad required"
+  },
+  {
+    "ref": "R436",
+    "pad": "1",
+    "net": "/Three-phase bridge/SHUNT_W_FORCE_P",
+    "vias": 9,
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "process": "filled and capped via-in-pad required",
+    "adjacent_vias": 8
+  },
+  {
+    "ref": "R436",
+    "pad": "4",
+    "net": "GND",
+    "vias": 21,
+    "diameter_mm": 0.6,
+    "drill_mm": 0.3,
+    "process": "filled and capped via-in-pad required"
+  }
+]

@@ -1,0 +1,1078 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/3ld116",
+    "id": "3ld116",
+    "slide": 37,
+    "layoutId": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F7F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fm9ozmxg",
+      "id": "1",
+      "name": "A1. Bootstrap and gate-drive worksheet",
+      "bbox": [
+        58,
+        42,
+        1475,
+        87
+      ],
+      "geometry": "rect",
+      "text": "A1. Bootstrap and gate-drive worksheet",
+      "textPreview": "A1. Bootstrap and gate-drive worksheet",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 47,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A1. Bootstrap and gate-drive worksheet"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A1. Bootstrap and gate-drive worksheet",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A1. Bootstrap and gate-drive worksheet",
+              "fontSize": 47,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0nip8re1",
+      "id": "2",
+      "name": "A1",
+      "bbox": [
+        1490,
+        833,
+        60,
+        31
+      ],
+      "geometry": "rect",
+      "text": "A1",
+      "textPreview": "A1",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A1",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A1",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1or61wf6",
+      "id": "3",
+      "name": "ShiroFOC engineering review",
+      "bbox": [
+        60,
+        837,
+        1360,
+        25
+      ],
+      "geometry": "rect",
+      "text": "ShiroFOC engineering review",
+      "textPreview": "ShiroFOC engineering review",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ShiroFOC engineering review"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ShiroFOC engineering review",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ShiroFOC engineering review",
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/7qpsfu9w",
+      "id": "4",
+      "bbox": [
+        60,
+        151,
+        1480,
+        600
+      ],
+      "text": "Input / result | Value | Status or implication\nQg at 10 V | 56 nC maximum | TI test conditions: 30 V, 30 A\nQgd / internal gate R | 7 nC typ / 0.9 Ω typ | Use actual driver strength and waveform\nCBOOT nominal / effective | 100 nF / MPN dependent | Bias, temperature and tolerance remain inputs\nGate-only droop | 0.56 V at 100 nF | 1.12 V if effective capacitance is 50 nF\n100 kΩ pull-down demand | 100 µA at 10 V | Adds 5 nC over 50 µs\nCharging resistance scale | 100–200 Ω | RC = 10–20 µs at 100 nF\n90% empty-cap recharge | 23–46 µs, ideal RC | Startup illustration, not a PWM guarantee\nFinal acceptance inputs | UVLO, IHB, leakage, tON | Measure minimum BOOT−OUT and VGS",
+      "textPreview": "Input / result | Value | Status or implication | Qg at 10 V | 56 nC maximum | TI test conditions: 30 V, 30 A | Qgd / internal gate R | 7 ...",
+      "rows": 9,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            60,
+            151,
+            493.33,
+            66.67
+          ],
+          "text": "Input / result",
+          "textPreview": "Input / result",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Input / result",
+              "resolvedTextStyle": {
+                "fontSize": 27,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Input / result",
+                  "fontSize": 27,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            553.33,
+            151,
+            493.33,
+            66.67
+          ],
+          "text": "Value",
+          "textPreview": "Value",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Value",
+              "resolvedTextStyle": {
+                "fontSize": 27,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Value",
+                  "fontSize": 27,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            151,
+            493.33,
+            66.67
+          ],
+          "text": "Status or implication",
+          "textPreview": "Status or implication",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Status or implication",
+              "resolvedTextStyle": {
+                "fontSize": 27,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Status or implication",
+                  "fontSize": 27,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            60,
+            217.67,
+            493.33,
+            66.67
+          ],
+          "text": "Qg at 10 V",
+          "textPreview": "Qg at 10 V",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Qg at 10 V",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Qg at 10 V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            553.33,
+            217.67,
+            493.33,
+            66.67
+          ],
+          "text": "56 nC maximum",
+          "textPreview": "56 nC maximum",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "56 nC maximum",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "56 nC maximum"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            217.67,
+            493.33,
+            66.67
+          ],
+          "text": "TI test conditions: 30 V, 30 A",
+          "textPreview": "TI test conditions: 30 V, 30 A",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "TI test conditions: 30 V, 30 A",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "TI test conditions: 30 V, 30 A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            60,
+            284.33,
+            493.33,
+            66.67
+          ],
+          "text": "Qgd / internal gate R",
+          "textPreview": "Qgd / internal gate R",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Qgd / internal gate R",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Qgd / internal gate R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            553.33,
+            284.33,
+            493.33,
+            66.67
+          ],
+          "text": "7 nC typ / 0.9 Ω typ",
+          "textPreview": "7 nC typ / 0.9 Ω typ",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "7 nC typ / 0.9 Ω typ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "7 nC typ / 0.9 Ω typ"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            284.33,
+            493.33,
+            66.67
+          ],
+          "text": "Use actual driver strength and waveform",
+          "textPreview": "Use actual driver strength and waveform",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Use actual driver strength and waveform",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Use actual driver strength and waveform"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            60,
+            351,
+            493.33,
+            66.67
+          ],
+          "text": "CBOOT nominal / effective",
+          "textPreview": "CBOOT nominal / effective",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "CBOOT nominal / effective",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "CBOOT nominal / effective"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            553.33,
+            351,
+            493.33,
+            66.67
+          ],
+          "text": "100 nF / MPN dependent",
+          "textPreview": "100 nF / MPN dependent",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "100 nF / MPN dependent",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "100 nF / MPN dependent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            351,
+            493.33,
+            66.67
+          ],
+          "text": "Bias, temperature and tolerance remain inputs",
+          "textPreview": "Bias, temperature and tolerance remain inputs",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Bias, temperature and tolerance remain inputs",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Bias, temperature and tolerance remain inputs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            60,
+            417.67,
+            493.33,
+            66.67
+          ],
+          "text": "Gate-only droop",
+          "textPreview": "Gate-only droop",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Gate-only droop",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Gate-only droop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            553.33,
+            417.67,
+            493.33,
+            66.67
+          ],
+          "text": "0.56 V at 100 nF",
+          "textPreview": "0.56 V at 100 nF",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.56 V at 100 nF",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.56 V at 100 nF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            417.67,
+            493.33,
+            66.67
+          ],
+          "text": "1.12 V if effective capacitance is 50 nF",
+          "textPreview": "1.12 V if effective capacitance is 50 nF",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1.12 V if effective capacitance is 50 nF",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1.12 V if effective capacitance is 50 nF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            60,
+            484.33,
+            493.33,
+            66.67
+          ],
+          "text": "100 kΩ pull-down demand",
+          "textPreview": "100 kΩ pull-down demand",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "100 kΩ pull-down demand",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "100 kΩ pull-down demand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            553.33,
+            484.33,
+            493.33,
+            66.67
+          ],
+          "text": "100 µA at 10 V",
+          "textPreview": "100 µA at 10 V",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "100 µA at 10 V",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "100 µA at 10 V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            484.33,
+            493.33,
+            66.67
+          ],
+          "text": "Adds 5 nC over 50 µs",
+          "textPreview": "Adds 5 nC over 50 µs",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Adds 5 nC over 50 µs",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Adds 5 nC over 50 µs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            60,
+            551,
+            493.33,
+            66.67
+          ],
+          "text": "Charging resistance scale",
+          "textPreview": "Charging resistance scale",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Charging resistance scale",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Charging resistance scale"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            553.33,
+            551,
+            493.33,
+            66.67
+          ],
+          "text": "100–200 Ω",
+          "textPreview": "100–200 Ω",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "100–200 Ω",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "100–200 Ω"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            551,
+            493.33,
+            66.67
+          ],
+          "text": "RC = 10–20 µs at 100 nF",
+          "textPreview": "RC = 10–20 µs at 100 nF",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "RC = 10–20 µs at 100 nF",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "RC = 10–20 µs at 100 nF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            60,
+            617.67,
+            493.33,
+            66.67
+          ],
+          "text": "90% empty-cap recharge",
+          "textPreview": "90% empty-cap recharge",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "90% empty-cap recharge",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "90% empty-cap recharge"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            553.33,
+            617.67,
+            493.33,
+            66.67
+          ],
+          "text": "23–46 µs, ideal RC",
+          "textPreview": "23–46 µs, ideal RC",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "23–46 µs, ideal RC",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "23–46 µs, ideal RC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 8,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            617.67,
+            493.33,
+            66.67
+          ],
+          "text": "Startup illustration, not a PWM guarantee",
+          "textPreview": "Startup illustration, not a PWM guarantee",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Startup illustration, not a PWM guarantee",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Startup illustration, not a PWM guarantee"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "row": 9,
+          "column": 1,
+          "bbox": [
+            60,
+            684.33,
+            493.33,
+            66.67
+          ],
+          "text": "Final acceptance inputs",
+          "textPreview": "Final acceptance inputs",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Final acceptance inputs",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Final acceptance inputs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "row": 9,
+          "column": 2,
+          "bbox": [
+            553.33,
+            684.33,
+            493.33,
+            66.67
+          ],
+          "text": "UVLO, IHB, leakage, tON",
+          "textPreview": "UVLO, IHB, leakage, tON",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "UVLO, IHB, leakage, tON",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "UVLO, IHB, leakage, tON"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "row": 9,
+          "column": 3,
+          "bbox": [
+            1046.67,
+            684.33,
+            493.33,
+            66.67
+          ],
+          "text": "Measure minimum BOOT−OUT and VGS",
+          "textPreview": "Measure minimum BOOT−OUT and VGS",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Measure minimum BOOT−OUT and VGS",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Measure minimum BOOT−OUT and VGS"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nq9836dc",
+      "id": "5",
+      "name": "Charge balance and recharge time must both pass at the selec",
+      "bbox": [
+        60,
+        778,
+        1460,
+        55
+      ],
+      "geometry": "rect",
+      "text": "Charge balance and recharge time must both pass at the selected modulation limit.",
+      "textPreview": "Charge balance and recharge time must both pass at the selected modulation limit.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Charge balance and recharge time must both pass at the selected modulation limit."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Charge balance and recharge time must both pass at the selected modulation limit.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Charge balance and recharge time must both pass at the selected modulation limit.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

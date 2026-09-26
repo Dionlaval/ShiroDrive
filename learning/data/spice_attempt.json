@@ -1,0 +1,303 @@
+{
+  "analyzer_type": "spice",
+  "schema_version": "1.4.0",
+  "summary": {
+    "total": 20,
+    "total_findings": 0,
+    "pass": 0,
+    "warn": 0,
+    "fail": 0,
+    "skip": 20,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 20
+    }
+  },
+  "findings": [],
+  "simulation_results": [
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R1001",
+        "R307"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R1001_R307.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R1001_R307.log",
+      "elapsed_s": 0.207,
+      "reference": "R1001/R307"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R104",
+        "R105"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R104_R105.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R104_R105.log",
+      "elapsed_s": 0.022,
+      "reference": "R104/R105"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R106",
+        "R105"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R106_R105.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R106_R105.log",
+      "elapsed_s": 0.021,
+      "reference": "R106/R105"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R201",
+        "R202"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R201_R202.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R201_R202.log",
+      "elapsed_s": 0.022,
+      "reference": "R201/R202"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R206",
+        "R207"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R206_R207.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R206_R207.log",
+      "elapsed_s": 0.022,
+      "reference": "R206/R207"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R208",
+        "R209"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R208_R209.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R208_R209.log",
+      "elapsed_s": 0.021,
+      "reference": "R208/R209"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R210",
+        "R211"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R210_R211.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R210_R211.log",
+      "elapsed_s": 0.021,
+      "reference": "R210/R211"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R212",
+        "R213"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R212_R213.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R212_R213.log",
+      "elapsed_s": 0.022,
+      "reference": "R212/R213"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R310",
+        "R311"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R310_R311.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R310_R311.log",
+      "elapsed_s": 0.022,
+      "reference": "R310/R311"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R312",
+        "R311"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R312_R311.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R312_R311.log",
+      "elapsed_s": 0.023,
+      "reference": "R312/R311"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R410",
+        "R441"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R410_R441.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R410_R441.log",
+      "elapsed_s": 0.022,
+      "reference": "R410/R441"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R417",
+        "R441"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R417_R441.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R417_R441.log",
+      "elapsed_s": 0.021,
+      "reference": "R417/R441"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R420",
+        "R442"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R420_R442.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R420_R442.log",
+      "elapsed_s": 0.022,
+      "reference": "R420/R442"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R427",
+        "R442"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R427_R442.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R427_R442.log",
+      "elapsed_s": 0.022,
+      "reference": "R427/R442"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R430",
+        "R443"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R430_R443.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R430_R443.log",
+      "elapsed_s": 0.021,
+      "reference": "R430/R443"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R437",
+        "R443"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R437_R443.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R437_R443.log",
+      "elapsed_s": 0.022,
+      "reference": "R437/R443"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R502",
+        "R501"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R502_R501.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R502_R501.log",
+      "elapsed_s": 0.021,
+      "reference": "R502/R501"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R508",
+        "R509"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R508_R509.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R508_R509.log",
+      "elapsed_s": 0.021,
+      "reference": "R508/R509"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R510",
+        "R509"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R510_R509.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R510_R509.log",
+      "elapsed_s": 0.021,
+      "reference": "R510/R509"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R904",
+        "R905"
+      ],
+      "status": "skip",
+      "note": "Simulation failed",
+      "cir_file": "learning/qa/spice_attempts/voltage-divider_R904_R905.cir",
+      "log_file": "learning/qa/spice_attempts/voltage-divider_R904_R905.log",
+      "elapsed_s": 0.023,
+      "reference": "R904/R905"
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "workdir": "learning/models/spice",
+  "total_elapsed_s": 0.62,
+  "simulator": null,
+  "ngspice": null
+}

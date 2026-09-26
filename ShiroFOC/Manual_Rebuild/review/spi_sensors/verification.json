@@ -1,0 +1,24 @@
+{
+  "scope": "SPI sensor sheet walkthrough; connected MCU and feedback paths inspected, not full board review",
+  "schematic_sha256": "d1baf1f7943e0ea2990316cca0a7c6fffb1b02a47b0162cdf08c65e1a1234c05",
+  "schematic_changed": false,
+  "fresh_root_netlist": "2026-09-26",
+  "raw_connections_compared_to_manufacturer_pin_tables": true,
+  "schematic_svg_visually_inspected": true,
+  "simulated": "Illustrative 22/33 ohm + assumed 30pF only; not actual signal integrity",
+  "analyzer_triage": {
+    "single_pin_nets": "Sheet-only false positives: MCU and selector connections present in root netlist",
+    "missing_3V3_source": "Sheet-only false positive: U204 feeds 3V3 on auxiliary-power page",
+    "missing_MISO_pullup": "Heuristic false positive for active SPI output; MCU idle bias is a separate optional choice",
+    "missing_IMU_interrupt_pullups": "Use configured push-pull interrupts; open-drain would need a pull-up",
+    "missing_passive_MPNs": "Recorded by analyzer; sourcing is outside this walkthrough"
+  },
+  "not_performed": [
+    "Firmware execution",
+    "PCB placement/routing analysis",
+    "Oscilloscope measurements",
+    "Magnetic/thermal/vibration assessment",
+    "Footprint/3D work",
+    "Sourcing"
+  ]
+}

@@ -1,0 +1,1204 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/f5e50y",
+    "id": "f5e50y",
+    "slide": 4,
+    "layoutId": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F7F3",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ba583da8-3c39-490c-a1cf-56ec616de60c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "f6cb3667-c514-400e-8dca-15ea4dac4dc4",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxsba58f",
+      "id": "1",
+      "name": "Power domains and operating modes",
+      "bbox": [
+        58,
+        42,
+        1475,
+        87
+      ],
+      "geometry": "rect",
+      "text": "Power domains and operating modes",
+      "textPreview": "Power domains and operating modes",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 47,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Power domains and operating modes"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Power domains and operating modes",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Power domains and operating modes",
+              "fontSize": 47,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0jalkrq",
+      "id": "2",
+      "name": "04",
+      "bbox": [
+        1490,
+        833,
+        60,
+        31
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 21,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/czatcfq5",
+      "id": "3",
+      "name": "KiCad schematic, page 3",
+      "bbox": [
+        60,
+        837,
+        1360,
+        25
+      ],
+      "geometry": "rect",
+      "text": "KiCad schematic, page 3",
+      "textPreview": "KiCad schematic, page 3",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Helvetica Neue",
+        "color": "#49626B",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "KiCad schematic, page 3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "KiCad schematic, page 3",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Helvetica Neue",
+            "color": "#49626B"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "KiCad schematic, page 3",
+              "fontSize": 17,
+              "typeface": "Helvetica Neue",
+              "color": "#49626B"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/i9gze183",
+      "id": "4",
+      "bbox": [
+        60,
+        163,
+        925,
+        348
+      ],
+      "text": "Supply state | Logic | Power stage\nBattery only | 5V_BAT selected | Available after setup\nUSB only | 5V_USB selected | VM / VCC absent\nBoth valid | USB preferred | Available after setup\nVM returns | MCU may stay alive | Reinitialize before arming",
+      "textPreview": "Supply state | Logic | Power stage | Battery only | 5V_BAT selected | Available after setup | USB only | 5V_USB selected | VM / VCC absen...",
+      "rows": 5,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            60,
+            163,
+            308.33,
+            69.6
+          ],
+          "text": "Supply state",
+          "textPreview": "Supply state",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Supply state",
+              "resolvedTextStyle": {
+                "fontSize": 24,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Supply state",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            368.33,
+            163,
+            308.33,
+            69.6
+          ],
+          "text": "Logic",
+          "textPreview": "Logic",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Logic",
+              "resolvedTextStyle": {
+                "fontSize": 24,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Logic",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            676.67,
+            163,
+            308.33,
+            69.6
+          ],
+          "text": "Power stage",
+          "textPreview": "Power stage",
+          "fillColor": "#142F36",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Power stage",
+              "resolvedTextStyle": {
+                "fontSize": 24,
+                "typeface": "Helvetica Neue",
+                "color": "#FFFFFF",
+                "bold": true
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Power stage",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            60,
+            232.6,
+            308.33,
+            69.6
+          ],
+          "text": "Battery only",
+          "textPreview": "Battery only",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Battery only",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Battery only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            368.33,
+            232.6,
+            308.33,
+            69.6
+          ],
+          "text": "5V_BAT selected",
+          "textPreview": "5V_BAT selected",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "5V_BAT selected",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "5V_BAT selected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            676.67,
+            232.6,
+            308.33,
+            69.6
+          ],
+          "text": "Available after setup",
+          "textPreview": "Available after setup",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Available after setup",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Available after setup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            60,
+            302.2,
+            308.33,
+            69.6
+          ],
+          "text": "USB only",
+          "textPreview": "USB only",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "USB only",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "USB only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            368.33,
+            302.2,
+            308.33,
+            69.6
+          ],
+          "text": "5V_USB selected",
+          "textPreview": "5V_USB selected",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "5V_USB selected",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "5V_USB selected"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            676.67,
+            302.2,
+            308.33,
+            69.6
+          ],
+          "text": "VM / VCC absent",
+          "textPreview": "VM / VCC absent",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "VM / VCC absent",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "VM / VCC absent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            60,
+            371.8,
+            308.33,
+            69.6
+          ],
+          "text": "Both valid",
+          "textPreview": "Both valid",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Both valid",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Both valid"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            368.33,
+            371.8,
+            308.33,
+            69.6
+          ],
+          "text": "USB preferred",
+          "textPreview": "USB preferred",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "USB preferred",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "USB preferred"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            676.67,
+            371.8,
+            308.33,
+            69.6
+          ],
+          "text": "Available after setup",
+          "textPreview": "Available after setup",
+          "fillColor": "#F8F7F3",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Available after setup",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Available after setup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            60,
+            441.4,
+            308.33,
+            69.6
+          ],
+          "text": "VM returns",
+          "textPreview": "VM returns",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "VM returns",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "VM returns"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            368.33,
+            441.4,
+            308.33,
+            69.6
+          ],
+          "text": "MCU may stay alive",
+          "textPreview": "MCU may stay alive",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "MCU may stay alive",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "MCU may stay alive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            676.67,
+            441.4,
+            308.33,
+            69.6
+          ],
+          "text": "Reinitialize before arming",
+          "textPreview": "Reinitialize before arming",
+          "fillColor": "#EEF1ED",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Reinitialize before arming",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Reinitialize before arming"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/vu1cb694",
+      "id": "5",
+      "bbox": [
+        216,
+        542,
+        613,
+        203
+      ],
+      "alt": "KiCad source page 3, mux circuit crop",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "d3b49939-bf79-4269-b3b7-0ae23309892e",
+        "contentType": "image/png",
+        "byteLength": 24886
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwjah0ru",
+      "id": "6",
+      "name": "Control power survives USB service",
+      "bbox": [
+        1030,
+        163,
+        510,
+        77
+      ],
+      "geometry": "rect",
+      "text": "Control power survives USB service",
+      "textPreview": "Control power survives USB service",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Control power survives USB"
+          },
+          {
+            "index": 2,
+            "text": "service"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Control power survives USB service",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Control power survives USB service",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vat8vq9",
+      "id": "7",
+      "name": "5V_BAT and 5V_USB feed TPS2121. 5V_SYS feeds the external 3.",
+      "bbox": [
+        1030,
+        247,
+        510,
+        73
+      ],
+      "geometry": "rect",
+      "text": "5V_BAT and 5V_USB feed TPS2121. 5V_SYS feeds the external 3.3 V LDO.",
+      "textPreview": "5V_BAT and 5V_USB feed TPS2121. 5V_SYS feeds the external 3.3 V LDO.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5V_BAT and 5V_USB feed TPS2121."
+          },
+          {
+            "index": 2,
+            "text": "5V_SYS feeds the external 3.3 V LDO."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5V_BAT and 5V_USB feed TPS2121. 5V_SYS feeds the external 3.3 V LDO.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5V_BAT and 5V_USB feed TPS2121. 5V_SYS feeds the external 3.3 V LDO.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6hsbq9s",
+      "id": "8",
+      "name": "Gate power follows VM",
+      "bbox": [
+        1030,
+        340,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "Gate power follows VM",
+      "textPreview": "Gate power follows VM",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Gate power follows VM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Gate power follows VM",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Gate power follows VM",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u58r2ls7",
+      "id": "9",
+      "name": "The internal STSPIN buck generates VCC independently of the ",
+      "bbox": [
+        1030,
+        388,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "The internal STSPIN buck generates VCC independently of the 3.3 V control rail.",
+      "textPreview": "The internal STSPIN buck generates VCC independently of the 3.3 V control rail.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The internal STSPIN buck generates"
+          },
+          {
+            "index": 2,
+            "text": "VCC independently of the 3.3 V control"
+          },
+          {
+            "index": 3,
+            "text": "rail."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The internal STSPIN buck generates VCC independently of the 3.3 V control rail.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The internal STSPIN buck generates VCC independently of the 3.3 V control rail.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjutwzmp",
+      "id": "10",
+      "name": "VM return requires reinitialization",
+      "bbox": [
+        1030,
+        515,
+        510,
+        41
+      ],
+      "geometry": "rect",
+      "text": "VM return requires reinitialization",
+      "textPreview": "VM return requires reinitialization",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "VM return requires reinitialization"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "VM return requires reinitialization",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "VM return requires reinitialization",
+              "fontSize": 30,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3ap4na",
+      "id": "11",
+      "name": "USB can keep the MCU alive while the gate driver loses power",
+      "bbox": [
+        1030,
+        563,
+        510,
+        107
+      ],
+      "geometry": "rect",
+      "text": "USB can keep the MCU alive while the gate driver loses power. Restore VCC settings and protections before torque.",
+      "textPreview": "USB can keep the MCU alive while the gate driver loses power. Restore VCC settings and protections before torque.",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#142F36",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "USB can keep the MCU alive while the"
+          },
+          {
+            "index": 2,
+            "text": "gate driver loses power. Restore VCC"
+          },
+          {
+            "index": 3,
+            "text": "settings and protections before torque."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "USB can keep the MCU alive while the gate driver loses power. Restore VCC settings and protections before torque.",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#142F36"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "USB can keep the MCU alive while the gate driver loses power. Restore VCC settings and protections before torque.",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#142F36"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uxcbu94z",
+      "id": "12",
+      "name": "USB alone powers logic and sensors. It does not energize VM,",
+      "bbox": [
+        60,
+        777,
+        1460,
+        56
+      ],
+      "geometry": "rect",
+      "text": "USB alone powers logic and sensors. It does not energize VM, VCC or either power switch stage.",
+      "textPreview": "USB alone powers logic and sensors. It does not energize VM, VCC or either power switch stage.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#087F83",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "USB alone powers logic and sensors. It does not energize VM, VCC or either power switch stage."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "USB alone powers logic and sensors. It does not energize VM, VCC or either power switch stage.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#087F83",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "USB alone powers logic and sensors. It does not energize VM, VCC or either power switch stage.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#087F83",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

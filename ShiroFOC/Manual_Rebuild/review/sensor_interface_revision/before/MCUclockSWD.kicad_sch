@@ -1,0 +1,7951 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5a7375eb-6a56-4ddc-953e-83a6ba60ffc4")
+	(paper "A3")
+	(title_block
+		(title "Controller, clock, reset and debug")
+		(date "2026-09-16")
+		(rev "A1-Drawing")
+		(company "ShiroFOC")
+		(comment 1 "Same A0 circuit; connected functional drawing"))
+	(lib_symbols
+		(symbol "Manual:COMP_C301"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C301"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C301_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C302"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C302"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C302_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C303"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C303"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C303_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C304"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C304"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C304_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C305"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C305"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C305_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C306"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C306"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C306_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C307"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C307"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C307_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C308"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C308"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C308_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C309"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C309"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C309_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C310"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C310"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C310_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_D301"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_D301"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_D301_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -1.27 1.905)
+						(xy -1.27 -1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -1.27 0)
+						(xy 1.27 -1.905)
+						(xy 1.27 1.905)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0.381 2.54)
+						(xy 2.54 4.699))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.27 2.159)
+						(xy 3.429 4.318))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.27 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_J1001"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_J1001"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_J1001_1_1"
+				(rectangle
+					(start -6.35 15.24)
+					(end 6.35 -15.24)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin passive line
+					(at -11.43 11.43 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -11.43 8.89 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -11.43 6.35 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -11.43 3.81 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -11.43 1.27 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "5"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -11.43 -1.27 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "6"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -11.43 -3.81 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "7"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -11.43 -6.35 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "8"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -11.43 -8.89 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "9"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -11.43 -11.43 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "10"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_R301"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R301"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R301_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -1.905 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -1.905 0.8255)
+						(xy 1.905 0.8255)
+						(xy 1.905 -0.8255)
+						(xy -1.905 -0.8255)
+						(xy -1.905 0.8255))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.905 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_R302"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R302"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R302_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -1.905 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -1.905 0.8255)
+						(xy 1.905 0.8255)
+						(xy 1.905 -0.8255)
+						(xy -1.905 -0.8255)
+						(xy -1.905 0.8255))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.905 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_R303"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R303"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R303_1_1"
+				(polyline
+					(pts
+						(xy -0.8255 1.905)
+						(xy -0.8255 -1.905)
+						(xy 0.8255 -1.905)
+						(xy 0.8255 1.905)
+						(xy -0.8255 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -1.905)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_R304"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R304"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R304_1_1"
+				(polyline
+					(pts
+						(xy -1.905 0)
+						(xy -2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.905 0.8255)
+						(xy -1.905 0.8255)
+						(xy -1.905 -0.8255)
+						(xy 1.905 -0.8255)
+						(xy 1.905 0.8255))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 2.54 0)
+						(xy 1.905 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_SW301"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_SW301"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_SW301_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -1.27 0)
+						(xy 1.27 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.27 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_TP1008"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1008"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1008_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_TP1009"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1009"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1009_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_TP1021"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1021"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1021_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_TP1023"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1023"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1023_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_TP1024"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1024"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1024_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_TP303"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP303"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP303_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_Y301"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_Y301"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_Y301_1_1"
+				(polyline
+					(pts
+						(xy -8.89 0)
+						(xy -6.35 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -6.35 5.08)
+						(xy -6.35 -5.08))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -3.81 3.81)
+						(xy -3.81 -3.81)
+						(xy 3.81 -3.81)
+						(xy 3.81 3.81)
+						(xy -3.81 3.81))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 6.35 5.08)
+						(xy 6.35 -5.08))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 6.35 0)
+						(xy 8.89 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 2.54 -10.16 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:FLAG"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "FLAG"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "FLAG_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0)
+						(xy 0 1.27)
+						(xy 1.27 0)
+						(xy 0 -1.27)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin power_out line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:PWR_3V3"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "3V3"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "PWR_3V3_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27)
+						(xy 0 2.54)
+						(xy 1.27 1.27))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:PWR_GND"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "GND"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "PWR_GND_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:PWR_VDDA"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "VDDA"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "PWR_VDDA_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27)
+						(xy 0 2.54)
+						(xy 1.27 1.27))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:PWR_VREFplus"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "VREFplus"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "PWR_VREFplus_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27)
+						(xy 0 2.54)
+						(xy 1.27 1.27))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "VREF+"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:STSPIN32G4_Functional"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_U301"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" "Manual:QFN_IN32G4_STM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "STSPIN32G4_Functional_1_1"
+				(rectangle
+					(start -19.05 60.96)
+					(end 19.05 -60.96)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin output line
+					(at -24.13 43.18 0)
+					(length 5.08)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "48"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -24.13 40.64 0)
+					(length 5.08)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "47"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -24.13 38.1 0)
+					(length 5.08)
+					(name "PB10"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "28"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -24.13 30.48 0)
+					(length 5.08)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "45"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -24.13 27.94 0)
+					(length 5.08)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "46"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -24.13 20.32 0)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "54"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -24.13 17.78 0)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "56"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -24.13 15.24 0)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "55"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -24.13 12.7 0)
+					(length 5.08)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "51"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -24.13 10.16 0)
+					(length 5.08)
+					(name "PC4"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "21"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -24.13 0 0)
+					(length 5.08)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "57"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -24.13 -2.54 0)
+					(length 5.08)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "58"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -24.13 -5.08 0)
+					(length 5.08)
+					(name "PB8/BOOT0"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "59"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -24.13 -7.62 0)
+					(length 5.08)
+					(name "PD2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "53"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -24.13 -10.16 0)
+					(length 5.08)
+					(name "PC14"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -24.13 -17.78 0)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "17"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -24.13 -20.32 0)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "18"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -24.13 -27.94 0)
+					(length 5.08)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "60"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin bidirectional line
+					(at -24.13 -35.56 0)
+					(length 5.08)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin bidirectional line
+					(at -24.13 -45.72 0)
+					(length 5.08)
+					(name "PC15"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "5"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin bidirectional line
+					(at -24.13 -55.88 0)
+					(length 5.08)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "44"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin bidirectional line
+					(at 24.13 43.18 180)
+					(length 5.08)
+					(name "PF0"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "6"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin bidirectional line
+					(at 24.13 38.1 180)
+					(length 5.08)
+					(name "PF1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "7"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at 24.13 25.4 180)
+					(length 5.08)
+					(name "PC0"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "9"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at 24.13 22.86 180)
+					(length 5.08)
+					(name "PC1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "10"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at 24.13 20.32 180)
+					(length 5.08)
+					(name "PC3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "12"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at 24.13 17.78 180)
+					(length 5.08)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "13"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin bidirectional line
+					(at 24.13 0 180)
+					(length 5.08)
+					(name "PG10/NRST"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "8"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 24.13 -12.7 180)
+					(length 5.08)
+					(name "PC2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "11"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin bidirectional line
+					(at 24.13 -30.48 180)
+					(length 5.08)
+					(name "PA13/SWDIO"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "49"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at 24.13 -35.56 180)
+					(length 5.08)
+					(name "PA14/SWCLK"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "50"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(symbol "STSPIN32G4_Functional_2_1"
+				(rectangle
+					(start -15.24 13.97)
+					(end 15.24 -13.97)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin power_in line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "REG3V3/VDD"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "REGIN"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "64"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at 0 -19.05 90)
+					(length 5.08)
+					(name "VSS/EP"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "65"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at 20.32 6.35 180)
+					(length 5.08)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "27"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at 20.32 -6.35 180)
+					(length 5.08)
+					(name "VREF+"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "26"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(symbol "STSPIN32G4_Functional_3_1"
+				(rectangle
+					(start -17.78 43.18)
+					(end 17.78 -43.18)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin power_in line
+					(at -22.86 38.1 0)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "61"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at -22.86 21.59 0)
+					(length 5.08)
+					(name "BOOTSTRAP1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "41"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -22.86 13.97 0)
+					(length 5.08)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "42"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at -22.86 3.81 0)
+					(length 5.08)
+					(name "BOOTSTRAP2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "38"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -22.86 -3.81 0)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "39"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at -22.86 -13.97 0)
+					(length 5.08)
+					(name "BOOTSTRAP3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "35"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -22.86 -21.59 0)
+					(length 5.08)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "36"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -22.86 -35.56 0)
+					(length 5.08)
+					(name "SCREF"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "52"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin no_connect line
+					(at -12.7 -48.26 90)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "33"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at 0 48.26 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "63"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at 0 -48.26 90)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "32"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin no_connect line
+					(at 12.7 -48.26 90)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "34"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 22.86 38.1 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "62"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 22.86 21.59 180)
+					(length 5.08)
+					(name "GHS1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "43"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 22.86 13.97 180)
+					(length 5.08)
+					(name "GLS1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "29"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 22.86 3.81 180)
+					(length 5.08)
+					(name "GHS2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "40"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 22.86 -3.81 180)
+					(length 5.08)
+					(name "GLS2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "30"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 22.86 -13.97 180)
+					(length 5.08)
+					(name "GHS3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "37"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 22.86 -21.59 180)
+					(length 5.08)
+					(name "GLS3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "31"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(symbol "STSPIN32G4_Functional_4_1"
+				(polyline
+					(pts
+						(xy -15.24 15.24)
+						(xy -15.24 -15.24)
+						(xy 15.24 0)
+						(xy -15.24 15.24))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin input line
+					(at -17.78 6.35 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "16"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -17.78 -6.35 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "14"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "15"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(symbol "STSPIN32G4_Functional_5_1"
+				(polyline
+					(pts
+						(xy -15.24 15.24)
+						(xy -15.24 -15.24)
+						(xy 15.24 0)
+						(xy -15.24 15.24))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin input line
+					(at -17.78 6.35 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "22"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -17.78 -6.35 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "20"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "19"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(symbol "STSPIN32G4_Functional_6_1"
+				(polyline
+					(pts
+						(xy -15.24 15.24)
+						(xy -15.24 -15.24)
+						(xy 15.24 0)
+						(xy -15.24 15.24))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin input line
+					(at -17.78 6.35 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "25"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -17.78 -6.35 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "23"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "24"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no)))
+	(text "U4 units: A digital, B supplies, C gate driver, D/E/F current amplifiers. Same STSPIN32G4 package."
+		(exclude_from_sim no)
+		(at 15.24 273.05 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "3c7bb6fa-1527-5c2d-8321-595dc4db527c"))
+	(text "CONTROLLER / CLOCK / DEBUG"
+		(exclude_from_sim no)
+		(at 15.24 15.24 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left top))
+		(uuid "3f8235f6-1a9f-50d5-ab34-75776f68cbfc"))
+	(text "MCU / ANALOG SUPPLIES"
+		(exclude_from_sim no)
+		(at 15.24 187.96 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left top))
+		(uuid "5f0948b5-da0c-5060-a36e-640c7cf5699e"))
+	(text "BRAKE"
+		(exclude_from_sim no)
+		(at 22.86 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "6c52c038-ea73-5f1d-8ab9-610d323b658b"))
+	(text "24 MHz / 7 pF load\n10 pF C0G starting caps\nCase pads 2 and 4 = GND"
+		(exclude_from_sim no)
+		(at 342.9 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "73bd0713-b322-59bf-9857-755b39ec5e25"))
+	(text "IMU IRQ"
+		(exclude_from_sim no)
+		(at 22.86 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "b29dd0fd-2207-5dc5-b6ee-0a085906d8d3"))
+	(text "SPI3"
+		(exclude_from_sim no)
+		(at 22.86 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "b8e8c687-e140-5a73-8032-1f6529c7ff2c"))
+	(text "UART"
+		(exclude_from_sim no)
+		(at 22.86 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "ba141241-0622-59cd-99d7-aeb348efa9f0"))
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 22.86 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "bab58d70-c5be-5fed-97b2-a8fa4ea9562f"))
+	(text "FEEDBACK"
+		(exclude_from_sim no)
+		(at 22.86 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "d1c86fdf-e75c-568b-a1d8-829b2bf8c095"))
+	(text "SWD VTREF is sense-only.\nNo SWO: PB3 is SPI3 SCK.\nPins 6/7/8 are intentionally NC."
+		(exclude_from_sim no)
+		(at 254 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "f1e92c3b-83ca-55c6-aefc-2a901b2bad53"))
+	(junction
+		(at 199.39 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "061ad572-e62e-52ad-8ffd-25c528c2e7d4"))
+	(junction
+		(at 48.26 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13389171-37de-54cf-9a0d-688a42905baf"))
+	(junction
+		(at 300.99 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15d7e598-c8d7-516c-8560-bd3d73daece7"))
+	(junction
+		(at 245.11 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23fd915c-4fa6-50aa-80b4-7447928a883e"))
+	(junction
+		(at 220.98 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "289b3082-e923-5df7-a486-de39c512a75f"))
+	(junction
+		(at 220.98 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37e3e327-0f6f-5068-999f-76ac5e94969d"))
+	(junction
+		(at 195.58 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eed322f-d7d4-5bd4-8a0f-a3faa898b8ab"))
+	(junction
+		(at 220.98 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52f433dc-e94c-55e8-8b78-d503f2deee02"))
+	(junction
+		(at 265.43 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dd8bff5-cd9c-5a6e-b673-b543d244a006"))
+	(junction
+		(at 184.15 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6707087b-5f3b-55d6-9d3c-d00039f8fdfd"))
+	(junction
+		(at 281.94 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b8c5a8e-0c82-59fc-946a-64d0125c4caf"))
+	(junction
+		(at 92.71 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bd84be2-85c7-5cf4-aab9-bc4592cc7c3a"))
+	(junction
+		(at 69.85 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fa979fe-46a5-5694-923f-d9b298ac3eb5"))
+	(junction
+		(at 231.14 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "985f9be9-b575-42f5-9686-dcee91e03083"))
+	(junction
+		(at 245.11 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d73de620-f9e0-4bd2-99b7-722e0c71b7c8"))
+	(junction
+		(at 92.71 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0476200-aac9-5b98-a599-5afff19b3f56"))
+	(no_connect
+		(at 226.06 151.13)
+		(uuid "0f0d438f-03a3-5063-b0df-e64615c0723b"))
+	(no_connect
+		(at 226.06 153.67)
+		(uuid "1e0ad11f-54e2-5837-9023-39130abf456e"))
+	(no_connect
+		(at 226.06 156.21)
+		(uuid "de9ce55f-98d6-5876-a198-d7a51590e3ee"))
+	(wire
+		(pts
+			(xy 199.39 121.92)
+			(xy 199.39 137.16))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "00d55801-34d6-5530-8330-596754c326c0"))
+	(wire
+		(pts
+			(xy 86.36 106.68)
+			(xy 115.57 106.68))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "01d56986-97df-53ed-b150-dfbf96413a24"))
+	(wire
+		(pts
+			(xy 48.26 232.41)
+			(xy 48.26 240.03))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "064cb1b7-d84d-59c2-a298-6825010bc852"))
+	(wire
+		(pts
+			(xy 163.83 43.18)
+			(xy 245.11 43.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0818ad62-88ad-5485-984a-799a91b571d9"))
+	(wire
+		(pts
+			(xy 86.36 68.58)
+			(xy 115.57 68.58))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "098d2e5f-1b19-5e86-b0aa-c2fc08a772d7"))
+	(wire
+		(pts
+			(xy 195.58 234.95)
+			(xy 195.58 243.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0bdb46a2-d1c9-571c-b153-296cb2d419e4"))
+	(wire
+		(pts
+			(xy 245.11 66.04)
+			(xy 245.11 71.12))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "141d3da2-c28a-58a2-8fe7-9134d7f07fbd"))
+	(wire
+		(pts
+			(xy 262.89 27.94)
+			(xy 290.83 27.94))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "152f6103-3e35-5ca1-be7c-0e11e0dc16e7"))
+	(wire
+		(pts
+			(xy 152.4 234.95)
+			(xy 152.4 260.35))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "15981890-e2c0-5ed1-8caf-5129fe14b462"))
+	(wire
+		(pts
+			(xy 86.36 91.44)
+			(xy 115.57 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "160e9de1-59ff-5bed-b0ab-5b188b1b2386"))
+	(wire
+		(pts
+			(xy 184.15 210.82)
+			(xy 195.58 210.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "16d8a99c-536b-5521-8750-645613f80661"))
+	(wire
+		(pts
+			(xy 212.09 92.71)
+			(xy 212.09 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "16d9035c-1470-5838-9741-035cbcb8a3a0"))
+	(wire
+		(pts
+			(xy 152.4 260.35)
+			(xy 281.94 260.35))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "180a466e-7d00-5c87-a026-53d30239eb7b"))
+	(wire
+		(pts
+			(xy 199.39 137.16)
+			(xy 199.39 146.05))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "196b9973-cb8d-5ff3-a200-1298c56b3fd1"))
+	(wire
+		(pts
+			(xy 231.14 83.82)
+			(xy 231.14 86.36))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "1cb001d1-d3e4-4b64-88ed-ba5e89c555e6"))
+	(wire
+		(pts
+			(xy 265.43 86.36)
+			(xy 265.43 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "1d0ea650-84a9-5998-818c-80eba99b8c00"))
+	(wire
+		(pts
+			(xy 86.36 76.2)
+			(xy 115.57 76.2))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "1d932b54-c0fc-5bc1-a1ef-8952cfd01571"))
+	(wire
+		(pts
+			(xy 86.36 114.3)
+			(xy 115.57 114.3))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "23860265-f42d-58c5-a3b7-c0367dffa837"))
+	(wire
+		(pts
+			(xy 92.71 220.98)
+			(xy 99.06 220.98))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "24b163ff-a226-5eb0-a7e4-48178708dc81"))
+	(wire
+		(pts
+			(xy 26.67 208.28)
+			(xy 26.67 222.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "27162fb9-7e7c-5580-8e61-30c5dfaa7991"))
+	(wire
+		(pts
+			(xy 220.98 143.51)
+			(xy 226.06 143.51))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "28fbbf4a-f9c2-5002-b26e-441502474e38"))
+	(wire
+		(pts
+			(xy 48.26 208.28)
+			(xy 69.85 208.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2ad21c69-8283-5690-8275-10612d6d5fc1"))
+	(wire
+		(pts
+			(xy 262.89 27.94)
+			(xy 262.89 48.26))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2b3bd139-c43c-5e67-82bf-1dfe964031ad"))
+	(wire
+		(pts
+			(xy 86.36 73.66)
+			(xy 115.57 73.66))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2d652983-67ec-5212-a3b4-445716c6b2fe"))
+	(wire
+		(pts
+			(xy 245.11 95.25)
+			(xy 265.43 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2e0b0a73-fdac-4a89-94e3-a54c45ee1784"))
+	(wire
+		(pts
+			(xy 26.67 208.28)
+			(xy 48.26 208.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3239fc38-763a-5545-b6b2-5c308a0bdb0a"))
+	(wire
+		(pts
+			(xy 86.36 71.12)
+			(xy 115.57 71.12))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3346e436-f630-570d-9eaf-1675c42e274f"))
+	(wire
+		(pts
+			(xy 195.58 210.82)
+			(xy 195.58 224.79))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3cbf8f06-6aa3-5722-b567-6eea1707e2ca"))
+	(wire
+		(pts
+			(xy 300.99 210.82)
+			(xy 300.99 224.79))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "42d6ca15-935f-52d3-9fbf-bd8524f71b8d"))
+	(wire
+		(pts
+			(xy 220.98 148.59)
+			(xy 226.06 148.59))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "43fd5c02-d660-58a8-af7c-1fe83bc5f846"))
+	(wire
+		(pts
+			(xy 92.71 220.98)
+			(xy 92.71 228.6))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "46483065-63f7-5412-9c4e-4469fcb01977"))
+	(wire
+		(pts
+			(xy 245.11 43.18)
+			(xy 273.05 43.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4b8e4068-a295-5272-834a-635343a3f986"))
+	(wire
+		(pts
+			(xy 139.7 222.25)
+			(xy 184.15 222.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4d8b5214-1c0e-5b91-a269-6070c84ca3c9"))
+	(wire
+		(pts
+			(xy 86.36 142.24)
+			(xy 115.57 142.24))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4e1075ca-6c0c-5b7d-8a55-6a265866e542"))
+	(wire
+		(pts
+			(xy 92.71 236.22)
+			(xy 99.06 236.22))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4f3173ea-9dcf-505c-b5eb-51dd5b1c6bfb"))
+	(wire
+		(pts
+			(xy 191.77 116.84)
+			(xy 207.01 116.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "52658054-5493-5e62-83a5-fff03f4fe905"))
+	(wire
+		(pts
+			(xy 220.98 234.95)
+			(xy 220.98 243.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "54035c7f-a9e2-5363-93c4-d21b7419c52a"))
+	(wire
+		(pts
+			(xy 185.42 99.06)
+			(xy 201.93 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "56774fea-9dd6-5b56-a049-402e2d4548cc"))
+	(wire
+		(pts
+			(xy 163.83 48.26)
+			(xy 262.89 48.26))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "56dcaeed-5ee4-5526-8bf1-a6bbb9e3bebb"))
+	(wire
+		(pts
+			(xy 245.11 43.18)
+			(xy 245.11 55.88))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5942fe75-22cd-5376-ab52-8dfede20c5c7"))
+	(wire
+		(pts
+			(xy 284.48 53.34)
+			(xy 284.48 57.15))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5a6c7566-d20f-5ea6-b3ff-13daaf95ff36"))
+	(wire
+		(pts
+			(xy 279.4 53.34)
+			(xy 279.4 57.15))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5b09ce13-dc79-56bb-a7b1-a37f8cbdb68f"))
+	(wire
+		(pts
+			(xy 86.36 58.42)
+			(xy 115.57 58.42))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5c3f9e91-1b6b-50ae-835a-5cfede244dcf"))
+	(wire
+		(pts
+			(xy 320.04 66.04)
+			(xy 320.04 71.12))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5d8ee997-c73f-50f8-98bd-de7595d02cbe"))
+	(wire
+		(pts
+			(xy 163.83 63.5)
+			(xy 179.07 63.5))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5e20a348-f815-54db-a504-cf49e6209187"))
+	(wire
+		(pts
+			(xy 86.36 93.98)
+			(xy 115.57 93.98))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "62c28105-e219-55ea-8dc4-525902892e0b"))
+	(wire
+		(pts
+			(xy 265.43 69.85)
+			(xy 265.43 76.2))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "64d3cfc2-f4c4-5a2d-b0d9-424e95398442"))
+	(wire
+		(pts
+			(xy 290.83 43.18)
+			(xy 320.04 43.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6513a784-6edd-5be6-9470-fc47c3affd06"))
+	(wire
+		(pts
+			(xy 184.15 210.82)
+			(xy 184.15 222.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "66154430-dc32-5696-a775-890a2f278f4f"))
+	(wire
+		(pts
+			(xy 92.71 228.6)
+			(xy 99.06 228.6))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "66b9acbe-aee0-5d2f-b315-6dccce587561"))
+	(wire
+		(pts
+			(xy 163.83 60.96)
+			(xy 179.07 60.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "66ca5ed3-5eac-5748-a109-a588f9e1f514"))
+	(wire
+		(pts
+			(xy 290.83 27.94)
+			(xy 290.83 43.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "67c9ea6d-7b97-57e6-8f0f-66d45d267257"))
+	(wire
+		(pts
+			(xy 163.83 116.84)
+			(xy 191.77 116.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "680cac6f-714a-51a0-8a86-4868a882d8e1"))
+	(wire
+		(pts
+			(xy 300.99 234.95)
+			(xy 300.99 243.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6a5879ba-8a41-5f9b-8d49-3d03508ef681"))
+	(wire
+		(pts
+			(xy 220.98 158.75)
+			(xy 220.98 173.99))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "72093b15-bf56-5ded-97a7-951ab47df179"))
+	(wire
+		(pts
+			(xy 330.2 210.82)
+			(xy 330.2 224.79))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "72e5278f-da34-5cdc-b6ca-2232816e24f9"))
+	(wire
+		(pts
+			(xy 205.74 161.29)
+			(xy 226.06 161.29))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "73bd04b9-440e-55a7-9d3b-cd56bb9c47a0"))
+	(wire
+		(pts
+			(xy 220.98 130.81)
+			(xy 220.98 138.43))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "75b59888-7f52-5b92-9c9b-021347def852"))
+	(wire
+		(pts
+			(xy 152.4 210.82)
+			(xy 165.1 210.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "77fbac1e-9717-50e8-9fef-922b48e78e8b"))
+	(wire
+		(pts
+			(xy 231.14 95.25)
+			(xy 245.11 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7a54f18f-7d2c-4dd2-8690-b9d2f4178ccf"))
+	(wire
+		(pts
+			(xy 220.98 138.43)
+			(xy 226.06 138.43))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7b9af022-52c5-5922-82b2-857394bd2287"))
+	(wire
+		(pts
+			(xy 220.98 158.75)
+			(xy 226.06 158.75))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7cfcd95e-7daa-58c0-9d1b-714431814966"))
+	(wire
+		(pts
+			(xy 69.85 208.28)
+			(xy 69.85 222.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7ded16a7-01b5-5c4f-85e5-0638e0595224"))
+	(wire
+		(pts
+			(xy 220.98 210.82)
+			(xy 220.98 224.79))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "84f78536-2b95-5fb4-b3b0-e6e4e6ba42f6"))
+	(wire
+		(pts
+			(xy 175.26 210.82)
+			(xy 184.15 210.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "88df19db-107b-5849-bdca-470cb6b95a6c"))
+	(wire
+		(pts
+			(xy 86.36 104.14)
+			(xy 115.57 104.14))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "8b6b1ca4-46cd-5317-a20f-c7f3fb6fb438"))
+	(wire
+		(pts
+			(xy 281.94 210.82)
+			(xy 294.64 210.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "8c50e65b-f0d3-5e26-bf21-ee3522164eaf"))
+	(wire
+		(pts
+			(xy 269.24 210.82)
+			(xy 281.94 210.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "907e09b4-4b71-5a04-8619-a614f4287294"))
+	(wire
+		(pts
+			(xy 176.53 137.16)
+			(xy 199.39 137.16))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "931dd45f-f76e-5ac9-b84d-72f57d97f2af"))
+	(wire
+		(pts
+			(xy 69.85 208.28)
+			(xy 92.71 208.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "94ed9829-1241-5012-b858-9049eab1b94c"))
+	(wire
+		(pts
+			(xy 220.98 210.82)
+			(xy 259.08 210.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "96877a7e-55f7-5de7-ae5f-29f2abcc3fb4"))
+	(wire
+		(pts
+			(xy 245.11 95.25)
+			(xy 245.11 113.03))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9bf52623-771d-4328-a286-8321b5378436"))
+	(wire
+		(pts
+			(xy 281.94 210.82)
+			(xy 281.94 260.35))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9dd08367-d2e8-5f95-9fad-3f798d55cee0"))
+	(wire
+		(pts
+			(xy 69.85 232.41)
+			(xy 69.85 240.03))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a0b5b954-ec8c-59ef-8882-b8015d556dc4"))
+	(wire
+		(pts
+			(xy 330.2 234.95)
+			(xy 330.2 243.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a858a9f9-823e-5992-8322-956ec5fa4333"))
+	(wire
+		(pts
+			(xy 163.83 66.04)
+			(xy 179.07 66.04))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ab02764e-d9dc-56b6-ac3e-7f981dc52b0c"))
+	(wire
+		(pts
+			(xy 86.36 43.18)
+			(xy 115.57 43.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b2dae5ea-5a6e-5411-a216-00aadd87f828"))
+	(wire
+		(pts
+			(xy 231.14 86.36)
+			(xy 231.14 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b4ddf26c-ce0e-41d1-92cc-3cbbac6f2c45"))
+	(wire
+		(pts
+			(xy 92.71 228.6)
+			(xy 92.71 236.22))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b7030383-8cf3-50e1-a1f9-ac050e96cc49"))
+	(wire
+		(pts
+			(xy 86.36 86.36)
+			(xy 115.57 86.36))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "be72bbc7-2d25-5a33-a4ca-d7b3729b23c7"))
+	(wire
+		(pts
+			(xy 265.43 95.25)
+			(xy 265.43 107.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c7de20b1-18c1-5ce2-b581-2ba293d0c2f8"))
+	(wire
+		(pts
+			(xy 220.98 148.59)
+			(xy 220.98 158.75))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cd29ec57-8cc7-52f2-b115-513bb6226b29"))
+	(wire
+		(pts
+			(xy 86.36 96.52)
+			(xy 115.57 96.52))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cd698b65-f1d8-5b81-b609-8132fb5d7f9d"))
+	(wire
+		(pts
+			(xy 265.43 118.11)
+			(xy 265.43 123.19))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cde1bef2-1a96-5d0a-868e-36999411f46c"))
+	(wire
+		(pts
+			(xy 320.04 43.18)
+			(xy 320.04 55.88))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cf4a52f8-d5b3-5885-9d8b-af479f1fcf58"))
+	(wire
+		(pts
+			(xy 207.01 140.97)
+			(xy 226.06 140.97))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cfd55e34-68dd-5434-94c2-00f54738ae53"))
+	(wire
+		(pts
+			(xy 163.83 68.58)
+			(xy 179.07 68.58))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d02f5e8d-663e-5743-bbcf-dc803277fbf4"))
+	(wire
+		(pts
+			(xy 86.36 55.88)
+			(xy 115.57 55.88))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d5a70fb6-0d6d-58c6-869a-bde4a8438d3b"))
+	(wire
+		(pts
+			(xy 207.01 116.84)
+			(xy 207.01 140.97))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d61a1f22-3c0d-56b0-b9e9-2b09e1c0f323"))
+	(wire
+		(pts
+			(xy 86.36 66.04)
+			(xy 115.57 66.04))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d77454a5-0df9-53c6-aa84-18c1cc73d610"))
+	(wire
+		(pts
+			(xy 86.36 121.92)
+			(xy 115.57 121.92))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "dafe0c40-6aba-54a2-b734-4d868d91444e"))
+	(wire
+		(pts
+			(xy 48.26 208.28)
+			(xy 48.26 222.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "dd24febe-79c0-51ee-9557-840f47db53c9"))
+	(wire
+		(pts
+			(xy 86.36 45.72)
+			(xy 115.57 45.72))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "de08bc9e-9cf7-58bd-8814-bcb8de99fd38"))
+	(wire
+		(pts
+			(xy 220.98 143.51)
+			(xy 220.98 148.59))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "dff6751a-04b6-5bab-aefa-6f1a39841f96"))
+	(wire
+		(pts
+			(xy 255.27 113.03)
+			(xy 255.27 123.19))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e16fbf7c-ef1e-5586-8064-cf241823a6f4"))
+	(wire
+		(pts
+			(xy 92.71 208.28)
+			(xy 92.71 220.98))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e71a8065-9071-57a8-9414-67eed59d63ba"))
+	(wire
+		(pts
+			(xy 119.38 247.65)
+			(xy 119.38 255.27))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ec390e56-c13e-5d85-bd77-632c164c193b"))
+	(wire
+		(pts
+			(xy 86.36 48.26)
+			(xy 115.57 48.26))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "edd86517-5559-5cee-a01f-a5740949a70c"))
+	(wire
+		(pts
+			(xy 199.39 146.05)
+			(xy 226.06 146.05))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "eecf4191-e2e4-575c-b577-d69f5d0690ce"))
+	(wire
+		(pts
+			(xy 86.36 132.08)
+			(xy 115.57 132.08))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ef199639-20c7-5242-92f2-6d8731ffecb4"))
+	(wire
+		(pts
+			(xy 294.64 210.82)
+			(xy 300.99 210.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "efb20cec-0cbc-55a5-9b7c-00374a37c8c3"))
+	(wire
+		(pts
+			(xy 26.67 232.41)
+			(xy 26.67 240.03))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "efcff018-9370-5c1b-8082-d5bc08c19f2b"))
+	(wire
+		(pts
+			(xy 163.83 121.92)
+			(xy 199.39 121.92))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f1e3b3be-712e-5a7e-8421-dcb36ef651d6"))
+	(wire
+		(pts
+			(xy 195.58 210.82)
+			(xy 220.98 210.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f764bacd-7fc4-52aa-ad7e-cc326e131e88"))
+	(wire
+		(pts
+			(xy 300.99 210.82)
+			(xy 330.2 210.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f8b38304-de25-56bd-8a35-6bd4a2aafc1a"))
+	(wire
+		(pts
+			(xy 86.36 88.9)
+			(xy 115.57 88.9))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fab18510-3fbc-5abd-821f-df390e41b454"))
+	(wire
+		(pts
+			(xy 139.7 234.95)
+			(xy 152.4 234.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fb827a25-22a5-5d23-a094-9e7e6b71a93e"))
+	(wire
+		(pts
+			(xy 163.83 86.36)
+			(xy 231.14 86.36))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fd0ed407-31f7-5ed2-822e-962919d52040"))
+	(wire
+		(pts
+			(xy 163.83 99.06)
+			(xy 175.26 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fd100292-f06f-50a6-ad07-2594e873b7df"))
+	(label "NRST"
+		(at 172.72 86.36 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "1eb8866b-c381-5867-88b7-1795371bd035"))
+	(label "SPARE_TIM_GPIO"
+		(at 88.9 142.24 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "405285d6-4de6-5d79-8f4a-bae2c90acbfe"))
+	(label "SPARE_GPIO_3"
+		(at 88.9 121.92 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "66715357-fbe1-553c-a0f1-6e95aeb66c81"))
+	(label "NRST"
+		(at 205.74 161.29 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "a86919e8-aaa4-54f7-a46f-98364e85a57b"))
+	(label "SPARE_GPIO_1"
+		(at 88.9 132.08 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "f7f73a32-b602-5406-9e45-2aa89915fe77"))
+	(global_label "NTC_PHASE_C"
+		(shape bidirectional)
+		(at 179.07 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "018350c3-68c3-58bf-ba45-884f9a2eb666")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "FDCAN1_TX"
+		(shape bidirectional)
+		(at 86.36 43.18 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "090a825e-be7b-51c4-a7a0-e1232c1da853")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "FEEDBACK_SELECT"
+		(shape bidirectional)
+		(at 86.36 93.98 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "09741f69-e720-53b5-886e-02fce7a46676")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "VREF+"
+		(shape bidirectional)
+		(at 48.26 281.94 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "2e1c0fb1-7dce-5f1a-a952-790895ece752")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "IMU_CS_N"
+		(shape bidirectional)
+		(at 86.36 76.2 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "37e7b342-6cf8-551c-9c70-cd969c84d217")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "IMU_INT1"
+		(shape bidirectional)
+		(at 86.36 104.14 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "3a009f99-a6d0-578c-898b-c87a2a57964b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "SPI3_MISO"
+		(shape bidirectional)
+		(at 86.36 71.12 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "3e197e57-4427-5beb-ad0b-b3230f1333c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "VBUS_SENSE"
+		(shape bidirectional)
+		(at 179.07 68.58 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "46b22854-24a2-5ec1-a7c5-6ec941a8d8e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "VDDA"
+		(shape bidirectional)
+		(at 19.05 281.94 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "4cebfe5a-6212-5b3e-b664-58296ea1c8d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.05 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "FEEDBACK_A_H1"
+		(shape bidirectional)
+		(at 86.36 86.36 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "4d0289bb-7f13-5759-bd06-1b669bb42dad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "FEEDBACK_I_H3"
+		(shape bidirectional)
+		(at 86.36 91.44 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "4e87de76-70f0-5954-992c-1631baa9ef6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "AS5047P_CS_N"
+		(shape bidirectional)
+		(at 86.36 73.66 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "638dc6d1-e444-5469-bdc0-20a381953c23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "USB_UART_RX"
+		(shape bidirectional)
+		(at 86.36 58.42 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "6e4459cd-72c0-50ba-9d46-d5c4063f07ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "USB_UART_TX"
+		(shape bidirectional)
+		(at 86.36 55.88 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "71293cea-02ee-5fea-8168-c3c48d38eebb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "SPI3_MOSI_MCU"
+		(shape bidirectional)
+		(at 86.36 68.58 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "719b7fab-1a77-5ebe-8025-dfa90d7b391e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "NTC_PHASE_A"
+		(shape bidirectional)
+		(at 179.07 66.04 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "787cc3ce-4ba2-5d3f-b231-3cc1a720d902")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "NTC_PHASE_B"
+		(shape bidirectional)
+		(at 179.07 60.96 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "7fd73d65-9c6a-571e-a4b5-1e854b928d30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "FEEDBACK_ENABLE_N"
+		(shape bidirectional)
+		(at 86.36 96.52 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "844209e6-c9d8-5d68-95b6-fbdf77dba75c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "BRAKE_PWM"
+		(shape bidirectional)
+		(at 86.36 114.3 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "95eb3231-de57-5f75-99c1-30f894946279")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "FDCAN1_RX"
+		(shape bidirectional)
+		(at 86.36 45.72 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "96677545-e314-5f8e-8b0d-e4fcb6004402")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "IMU_INT2"
+		(shape bidirectional)
+		(at 86.36 106.68 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "9a1e9213-27db-54ee-aec0-3f871a36160a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "FEEDBACK_B_H2"
+		(shape bidirectional)
+		(at 86.36 88.9 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "dfbdb646-9c35-50bb-b282-94d7915a9517")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "SPI3_SCK_MCU"
+		(shape bidirectional)
+		(at 86.36 66.04 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "f0b079ad-cde4-5319-9524-d9d40973e111")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "CAN_STB"
+		(shape bidirectional)
+		(at 86.36 48.26 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "f9545f45-aa34-57b9-a880-2eff31233fc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(symbol
+		(lib_id "Manual:COMP_R304")
+		(at 207.01 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02da8a96-5d32-5aa1-a3c3-84333983711c")
+		(property "Reference" "R304"
+			(at 207.01 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "1k"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Procurement" "Select to specification: 1k; R_0603_1608Metric"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "2"
+			(uuid "84c7d532-6140-4acc-b728-12c796087a14"))
+		(pin "1"
+			(uuid "4735a900-f166-4d2f-846e-2610722c3ed8"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "R304")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 320.04 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "0442a4bf-3250-5f58-8e4a-eec34473f5fa")
+		(property "Reference" "#PWR03Controller1"
+			(at 320.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 320.04 74.93 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 320.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 320.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 320.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "1cd2c987-6736-4719-9119-d21c68e0b68e"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller1")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_R303")
+		(at 265.43 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "116179d1-6992-58b7-8d99-cbb58425c24b")
+		(property "Reference" "R303"
+			(at 269.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "100k"
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 265.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 100k; R_0603_1608Metric"
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "b19067da-3663-453a-b9da-1d056a3c69d8"))
+		(pin "2"
+			(uuid "edae8063-3a65-4fac-ada0-2d944f38ec49"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "R303")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:FLAG")
+		(at 19.05 281.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "17562701-9f0d-53b0-a795-cff6ab84498c")
+		(property "Reference" "#FLG20"
+			(at 19.05 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 19.05 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 19.05 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 19.05 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 19.05 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "902ad218-212c-4e85-ac37-ff5417d95782"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#FLG20")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_TP1021")
+		(at 86.36 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d527069-955b-5d67-b8eb-382eeabfe60e")
+		(property "Reference" "TP1021"
+			(at 88.9 127 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "SPARE_GPIO_1"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 86.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Assembly" "FIT"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "9811c723-6d6e-44b9-bbce-7ad4b7491bb6"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1021")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:STSPIN32G4_Functional")
+		(at 119.38 228.6 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25a6171a-662c-5c0b-be0d-b6a7907bc2e5")
+		(property "Reference" "U4"
+			(at 119.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "STSPIN32G4"
+			(at 119.38 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Manual:QFN_IN32G4_STM"
+			(at 119.38 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" "../DataSheets/STSPIN32G4.pdf"
+			(at 119.38 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 119.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" "STSPIN32G4"
+			(at 119.38 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 119.38 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 119.38 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "45"
+			(uuid "27eb5cb2-2ab8-4b2a-bc77-ca854880cc96"))
+		(pin "46"
+			(uuid "22a791c0-66eb-44ee-997d-77431cb62013"))
+		(pin "54"
+			(uuid "cbd0c0da-c923-4d0f-9d9c-3b64049fbb67"))
+		(pin "56"
+			(uuid "09bfcf6c-20ca-416b-b289-6a7f2dcff0b2"))
+		(pin "55"
+			(uuid "576eaf3e-8f4f-4f9b-8662-9cb33a003007"))
+		(pin "51"
+			(uuid "ae38e545-8c8d-47d5-9ffa-6d52b834e4a1"))
+		(pin "21"
+			(uuid "7bb1d0c2-8e52-4967-b78e-40c9c4058571"))
+		(pin "57"
+			(uuid "48563630-c33b-49bb-ac3d-21e937077e5f"))
+		(pin "58"
+			(uuid "b7d3c55c-2505-4e89-ab25-da8fc8d08060"))
+		(pin "59"
+			(uuid "f85e377f-3cdd-41e5-909d-b47aa206664e"))
+		(pin "53"
+			(uuid "7d96b14f-432e-4453-b0fd-78c919effe0a"))
+		(pin "4"
+			(uuid "215f65a1-363a-499a-adb6-22a482e2148b"))
+		(pin "17"
+			(uuid "a5c33ef5-6d76-4345-a43a-95245950ae33"))
+		(pin "18"
+			(uuid "31a5443b-a89a-49fb-a413-f5b928eb684e"))
+		(pin "60"
+			(uuid "7ef0c820-fe62-41ae-bc51-e8b496c9b0b7"))
+		(pin "3"
+			(uuid "710ffe15-c7ce-4225-bb81-4f66d7c9c5f9"))
+		(pin "5"
+			(uuid "40491f48-0f3b-4696-86f5-b2dbbeebcd4f"))
+		(pin "44"
+			(uuid "5b999f15-df9e-4c5d-9526-e5de5ee878f1"))
+		(pin "6"
+			(uuid "d905bc23-76aa-42ee-8dfa-58f66e6e5eb9"))
+		(pin "7"
+			(uuid "a38600c4-51a9-4b3c-b87f-885a13e163d7"))
+		(pin "9"
+			(uuid "c414ac3c-7d7b-40ae-b75e-a425552f3428"))
+		(pin "10"
+			(uuid "7458ddd6-a219-4026-8555-84e5d518760b"))
+		(pin "12"
+			(uuid "0c166ebb-59e4-437e-ae37-d35730a269ad"))
+		(pin "13"
+			(uuid "54e1f534-0b03-4e4f-b50a-91b5154de9bf"))
+		(pin "8"
+			(uuid "4d235ec1-73ab-47d4-979b-50d91c20f363"))
+		(pin "30"
+			(uuid "d8652ede-8d16-4a91-8bdb-7655f369e499"))
+		(pin "37"
+			(uuid "e68a9ef7-d7cb-47cd-91db-365755b994f4"))
+		(pin "31"
+			(uuid "8bfc2980-cb41-47af-afca-1e64c5d22734"))
+		(pin "16"
+			(uuid "ad29b7f7-02ac-4e5a-ae77-23d1f31032eb"))
+		(pin "14"
+			(uuid "71776b22-148a-4217-9504-376fe54936a0"))
+		(pin "15"
+			(uuid "54988add-87bb-47d6-be2d-86b64d147645"))
+		(pin "22"
+			(uuid "43c5c36e-c35e-400b-b555-8d311f83c149"))
+		(pin "20"
+			(uuid "061eb963-ffb8-40c1-a71f-9dd056776d5c"))
+		(pin "19"
+			(uuid "872e935d-4b67-4352-a9a2-82b72f263e3b"))
+		(pin "25"
+			(uuid "ce9a34a8-318f-4dd2-84e1-9b133894eba0"))
+		(pin "23"
+			(uuid "e25bfd14-cb82-49c9-acbe-e6faeafdefd6"))
+		(pin "24"
+			(uuid "97037e81-1fa0-4995-8007-cd724b03c21c"))
+		(pin "11"
+			(uuid "6c1c521a-cc55-46a5-84a7-7521ea027125"))
+		(pin "49"
+			(uuid "10bed26a-b126-460c-95cf-9f286651d686"))
+		(pin "50"
+			(uuid "8933662a-f2b9-4eb0-8718-4612605735dd"))
+		(pin "1"
+			(uuid "8a733cbd-7cc2-4aa6-91b9-e1e1a853786c"))
+		(pin "2"
+			(uuid "73ca726d-9135-4881-a46c-d135f8323f99"))
+		(pin "64"
+			(uuid "0a90af20-2059-42a5-b931-d35fc2b02097"))
+		(pin "65"
+			(uuid "42901c6d-dfdb-4702-9603-9bc0b67d0125"))
+		(pin "27"
+			(uuid "df3a17af-8ca7-4f70-b46c-ad09f80a0fdd"))
+		(pin "26"
+			(uuid "5053b93f-76cb-43e5-89e7-64525031cc16"))
+		(pin "61"
+			(uuid "7e31905b-5d96-42c0-ac27-78850563ade5"))
+		(pin "41"
+			(uuid "cebbf897-0143-4f86-86a8-7b53a5e3c3b2"))
+		(pin "42"
+			(uuid "76bb956f-a97b-4cdb-b272-cb778402229c"))
+		(pin "38"
+			(uuid "e149bcdd-f898-40b9-8f7a-cf7689b2758e"))
+		(pin "39"
+			(uuid "14f9a9d2-4d33-4d94-85e3-95d4c8e0c5f9"))
+		(pin "35"
+			(uuid "9a611ffd-e45a-47af-8f3f-5dfff3ac2a9b"))
+		(pin "36"
+			(uuid "5a03fb45-5055-4e8f-9af4-dbd4891e20e3"))
+		(pin "52"
+			(uuid "0fa3303a-5fb4-4bc9-957a-a8e897d7096d"))
+		(pin "33"
+			(uuid "bc6d5eb0-b8b4-4f84-909d-c6eff41190f2"))
+		(pin "63"
+			(uuid "e037ea10-db59-4f00-81f5-dd848121ddb1"))
+		(pin "32"
+			(uuid "a2d730e4-c128-405c-a147-fc76f5d4710a"))
+		(pin "34"
+			(uuid "c76f4a2e-8ca8-48dc-84a0-a4875224514d"))
+		(pin "62"
+			(uuid "f666c80c-6f2b-42a0-b931-aa75e4333d94"))
+		(pin "43"
+			(uuid "3e35af3a-6153-4839-a1b7-1dbcbf27924b"))
+		(pin "29"
+			(uuid "11f85cd3-c245-421a-b7cc-e55c78ee17e9"))
+		(pin "40"
+			(uuid "7e84dc08-4747-4102-9cf5-d8514bebff93"))
+		(pin "48"
+			(uuid "58c50b8f-31bd-4525-a500-707fbf3db571"))
+		(pin "47"
+			(uuid "aa8c44a8-3646-4da7-be7e-295629c7190f"))
+		(pin "28"
+			(uuid "8d9257d7-1bfb-4c52-bac6-8d0d30e44d62"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "U4")
+					(unit 2)))))
+	(symbol
+		(lib_id "Manual:PWR_3V3")
+		(at 152.4 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "381924b8-2100-5a8a-9aae-80b592895a53")
+		(property "Reference" "#PWR03Controller17"
+			(at 152.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "3V3"
+			(at 152.4 207.01 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 152.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 152.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 152.4 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "9bf15473-af59-4d08-bfa4-bccbfd7e44cf"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller17")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_R302")
+		(at 264.16 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e3afc57-c226-537a-ae0f-27804536ee9c")
+		(property "Reference" "R302"
+			(at 264.16 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "0R"
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 264.16 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Procurement" "Select to specification: 0R; R_0603_1608Metric"
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 264.16 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "1"
+			(uuid "5b53c101-983e-4092-b7f4-8eefaa13b2ad"))
+		(pin "2"
+			(uuid "91e2ae5d-a8a8-473f-994d-0aa10a649c07"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "R302")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 284.48 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "41daffef-11ed-5ba6-9386-7585a82f455f")
+		(property "Reference" "#PWR03Controller3"
+			(at 284.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 284.48 60.96 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 284.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 284.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 284.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "092ae722-8a64-44c0-8231-6d51033d79f3"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller3")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_TP1024")
+		(at 86.36 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42841ee2-d5e0-58bf-9b5e-9d7bae1ad443")
+		(property "Reference" "TP1024"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "SPARE_TIM_GPIO"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 86.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Assembly" "FIT"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "5f5390d3-8b65-4482-8021-f38206e0eac0"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1024")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 48.26 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "4a67158c-dd66-59c9-9188-a94bbf21f31b")
+		(property "Reference" "#PWR03Controller15"
+			(at 48.26 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 48.26 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 48.26 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 48.26 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 48.26 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "e16153ce-5774-4c73-a379-f84050da57dd"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller15")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_Y301")
+		(at 281.94 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c0ff186-2dff-5521-820e-db6cb7993321")
+		(property "Reference" "Y301"
+			(at 281.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "24MHz 7pF"
+			(at 302.26 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 281.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 281.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 281.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" "0132M4-24.000F07DTNLL"
+			(at 281.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 281.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 281.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "1"
+			(uuid "73822f2e-48b5-46c8-9fba-542911d65961"))
+		(pin "2"
+			(uuid "4eb17f92-ef2e-43dd-9d82-389b688fd5cb"))
+		(pin "4"
+			(uuid "096f8dc1-71ea-4c8f-9a32-5e054ffb137d"))
+		(pin "3"
+			(uuid "1b59bbde-c53d-4e76-ab19-ec8e02520ab0"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "Y301")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_TP1023")
+		(at 86.36 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50b029bc-1126-5fca-bf81-3099e7041370")
+		(property "Reference" "TP1023"
+			(at 88.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "SPARE_GPIO_3"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Assembly" "FIT"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 88.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "ce267b91-9270-4738-8388-d47d87a963eb"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1023")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_3V3")
+		(at 212.09 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "50b83345-a594-53a3-9058-58203b0ef210")
+		(property "Reference" "#PWR03Controller8"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "3V3"
+			(at 212.09 88.9 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "ce82ff67-7b19-44ea-bcbe-a992a35c6e31"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller8")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 330.2 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "5612bcc8-2b91-52e6-aa55-34be250775b2")
+		(property "Reference" "#PWR03Controller23"
+			(at 330.2 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 330.2 247.65 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 330.2 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 330.2 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 330.2 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "5038e165-83d0-428b-87e1-a1447d8680b0"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller23")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_3V3")
+		(at 92.71 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "56aab72c-9765-5cf9-bd8a-4705a40450d4")
+		(property "Reference" "#PWR03Controller12"
+			(at 92.71 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "3V3"
+			(at 92.71 204.47 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 92.71 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 92.71 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 92.71 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "b6949f81-c17e-43a8-9b28-ae29813f0eb3"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller12")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_VDDA")
+		(at 184.15 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "5dc9702d-515d-5c15-9797-cf84b2729b09")
+		(property "Reference" "#PWR03Controller18"
+			(at 184.15 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "VDDA"
+			(at 184.15 207.01 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 184.15 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 184.15 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 184.15 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "8bfffc43-692e-42a5-bb11-176ff033d561"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller18")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C302")
+		(at 48.26 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6884337e-2097-519b-ac99-9ffb4a4315a9")
+		(property "Reference" "C302"
+			(at 52.07 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "10uF 10V"
+			(at 52.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 52.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 52.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 48.26 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 52.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 52.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 10uF 10V; C_0805_2012Metric"
+			(at 52.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 52.07 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "5b4bfc23-ed96-4359-96c1-4ad243821bd8"))
+		(pin "2"
+			(uuid "450bf0ba-a767-426b-89fc-6ee71275e40c"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C302")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C307")
+		(at 69.85 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a7710b0-a07d-51c6-b5fe-ed7d741ad566")
+		(property "Reference" "C307"
+			(at 73.66 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "100nF"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 69.85 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 73.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "68b010c0-f791-4ebc-912e-b59cc047ed86"))
+		(pin "2"
+			(uuid "1d91e2fa-4d85-4fa3-8659-af22b19dfa92"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C307")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 279.4 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "7384530c-76fa-54ac-bb31-6cc66ee4af14")
+		(property "Reference" "#PWR03Controller2"
+			(at 279.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 279.4 60.96 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 279.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 279.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 279.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "3baad444-ee4f-44c6-93b9-d67a6655c6a7"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller2")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C310")
+		(at 265.43 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d1c421f-211c-53be-8454-7a9d87368900")
+		(property "Reference" "C310"
+			(at 269.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "100nF"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 265.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 269.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "22b44613-5194-4268-9a3b-6242e2c9952c"))
+		(pin "2"
+			(uuid "7c510ff4-5e6a-4d1e-ad8b-e66bda9e85bb"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C310")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_TP1009")
+		(at 176.53 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "856be33f-2db8-5fc8-afbd-915e24ca95b5")
+		(property "Reference" "TP1009"
+			(at 179.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "SWCLK"
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Assembly" "FIT"
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 179.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "751dc34b-0180-4794-904a-115425239be4"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1009")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 69.85 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "873e7abf-4669-5e00-b527-0b27763e3fc3")
+		(property "Reference" "#PWR03Controller16"
+			(at 69.85 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 69.85 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 69.85 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 69.85 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 69.85 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "cb5f1d57-fdf1-49b1-a206-c617f0593ba4"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller16")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C308")
+		(at 245.11 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ec10c64-a459-543d-9e95-9201de1f4002")
+		(property "Reference" "C308"
+			(at 248.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "10pF C0G"
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 245.11 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 10pF C0G; C_0603_1608Metric"
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "15662fe2-905d-4994-9ebc-40392e5d64cc"))
+		(pin "2"
+			(uuid "2066c229-9a13-4c3e-aadc-360779f04c22"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C308")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 26.67 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "8f952829-913f-5eb0-89ee-b7a51b2c2857")
+		(property "Reference" "#PWR03Controller14"
+			(at 26.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 26.67 243.84 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 26.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 26.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 26.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "5863e9a4-1b9b-4dad-8e99-024b3d0c0e4f"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller14")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 220.98 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "a260c0fc-531c-5108-97ff-485e6cd7b63f")
+		(property "Reference" "#PWR03Controller20"
+			(at 220.98 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 220.98 247.65 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 220.98 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 220.98 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 220.98 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "90b2d2b7-9495-4559-927f-1f7712442263"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller20")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_3V3")
+		(at 220.98 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "a39e8735-d287-53ba-b2af-b1cc808f0e46")
+		(property "Reference" "#PWR03Controller10"
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "3V3"
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "f9745127-6648-4c9c-8cba-a70d76b7a345"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller10")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_D301")
+		(at 180.34 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5a4db65-8f61-5e6a-9c34-ba4df03d3e91")
+		(property "Reference" "D301"
+			(at 178.054 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "RED"
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 180.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Procurement" "Select to specification: RED; LED_0603_1608Metric"
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "1"
+			(uuid "c826cb53-9c01-446f-a3e8-adab5a186055"))
+		(pin "2"
+			(uuid "08290280-44ed-47b9-a406-6395e858096d"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "D301")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C301")
+		(at 26.67 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6535ef3-705c-5967-aead-db132afff82a")
+		(property "Reference" "C301"
+			(at 30.48 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "100nF"
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 26.67 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "31fbaef2-b455-49da-98a2-a4050fee3f25"))
+		(pin "2"
+			(uuid "0f42fc28-bd82-4fca-9b24-b537c4e28428"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C301")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C305")
+		(at 300.99 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a67fedd1-88a1-5ef5-976a-69df02caf020")
+		(property "Reference" "C305"
+			(at 304.8 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "100nF"
+			(at 304.8 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 304.8 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 304.8 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 300.99 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 304.8 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 304.8 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+			(at 304.8 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 304.8 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "e939912c-24bc-4e96-ac92-2822190a69cb"))
+		(pin "2"
+			(uuid "b7c04ac3-e21d-4a3d-aa22-5075a8b5f41d"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C305")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 300.99 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "b926263a-8456-538b-b817-61b6afc7d7ac")
+		(property "Reference" "#PWR03Controller22"
+			(at 300.99 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 300.99 247.65 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 300.99 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 300.99 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 300.99 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "b184440a-4180-437d-89e0-0d41c4b6bdd3"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller22")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 255.27 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "bf38f355-145e-5911-a9cc-26b3e7b5b845")
+		(property "Reference" "#PWR03Controller6"
+			(at 255.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 255.27 127 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 255.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 255.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 255.27 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "3805b602-1f8b-4232-a57c-2c0def993e2a"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller6")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:FLAG")
+		(at 48.26 281.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "bf8f9102-794e-53f9-ae5f-01aec0a4da05")
+		(property "Reference" "#FLG21"
+			(at 48.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 48.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 48.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 48.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 48.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "a0e186d3-74f7-4aeb-aef9-0051f775e83e"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#FLG21")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_TP1008")
+		(at 191.77 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c278bb0f-9e2f-556f-b1c1-c02a1a0d3bed")
+		(property "Reference" "TP1008"
+			(at 194.31 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "SWDIO"
+			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Assembly" "FIT"
+			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "0f476d14-447f-4110-927e-766e0a1bb135"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1008")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:STSPIN32G4_Functional")
+		(at 139.7 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c43119a5-6ca4-40fc-beb4-28dd8f17bd5f")
+		(property "Reference" "U4"
+			(at 139.7 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "STSPIN32G4"
+			(at 139.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Manual:QFN_IN32G4_STM"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" "../DataSheets/STSPIN32G4.pdf"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" "STSPIN32G4"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "2"
+			(uuid "200df08d-6f50-48a1-9fb4-2c3c50c03d8c"))
+		(pin "64"
+			(uuid "276867cd-2dee-4903-ae68-ebb2939f4f0e"))
+		(pin "65"
+			(uuid "96159c06-54e1-41ce-93b2-e9638b5d4455"))
+		(pin "27"
+			(uuid "aadb1642-ad4d-456f-a713-2e110fa5fa04"))
+		(pin "26"
+			(uuid "6e2981e4-6135-455a-a7e3-09ef93ddc12f"))
+		(pin "61"
+			(uuid "06693774-e2f0-41da-89bb-d0b5c896a818"))
+		(pin "41"
+			(uuid "dfae7c2b-76ea-442c-a70f-4dfd7d95a31d"))
+		(pin "42"
+			(uuid "09db5786-21a6-44c2-a3fb-689f9d64ee03"))
+		(pin "38"
+			(uuid "8d71c95d-d718-4238-bdc4-9c007e16862c"))
+		(pin "39"
+			(uuid "ea629926-3667-4eef-8192-3fcb7c72bdf1"))
+		(pin "35"
+			(uuid "2215f3f3-634c-4080-8346-4bd8c5d0b804"))
+		(pin "36"
+			(uuid "3cf5d77c-85b5-44b3-bcd8-4046a95f4173"))
+		(pin "52"
+			(uuid "d9f7406a-6fed-4ccc-9042-b015945c62dd"))
+		(pin "33"
+			(uuid "51c27677-caec-4992-bc77-fb5cadd50171"))
+		(pin "63"
+			(uuid "f00056ca-443f-4de2-ab8f-98725e764f06"))
+		(pin "32"
+			(uuid "c9883779-ef9b-489b-af55-10c56d918c5b"))
+		(pin "34"
+			(uuid "311c6887-e971-4112-a9f9-4043f8c99761"))
+		(pin "62"
+			(uuid "a47b41be-9469-4a0b-833b-124697885990"))
+		(pin "43"
+			(uuid "c653fb3b-6459-43d5-b8f4-45396098d1e7"))
+		(pin "29"
+			(uuid "02afbfcc-571c-4a65-a37f-d75b7e1c09df"))
+		(pin "40"
+			(uuid "32869079-b5a3-4887-8bfb-6d4132447224"))
+		(pin "30"
+			(uuid "93a2044a-3a6d-4646-80cd-4fd3705bccb4"))
+		(pin "37"
+			(uuid "bc0dd7ef-122c-48ff-b114-7f56a9d6b221"))
+		(pin "31"
+			(uuid "44485177-f764-4741-b9ca-ee0910411312"))
+		(pin "16"
+			(uuid "c53f83fd-347a-43de-8a18-5b9681d1d119"))
+		(pin "48"
+			(uuid "33344dd2-1273-40a9-9f35-8ff40a8db0ce"))
+		(pin "47"
+			(uuid "29b9e48d-05dd-4301-a4fe-0690ac1f095d"))
+		(pin "28"
+			(uuid "503021c7-20c5-4ced-b53a-aa3fb8a310e9"))
+		(pin "45"
+			(uuid "667b33d1-d5e5-41c2-8f15-e6bfc7f71a36"))
+		(pin "46"
+			(uuid "bd18b03f-7e9c-4dd4-a515-04d159a8600a"))
+		(pin "54"
+			(uuid "f0a2fe70-a3fe-4f6c-b994-e08f174bfc10"))
+		(pin "56"
+			(uuid "40addf04-65d2-498f-9234-9de2c0b3f2a2"))
+		(pin "14"
+			(uuid "962da0b1-fad4-4efc-b631-2d57f8e7fff1"))
+		(pin "15"
+			(uuid "6e875128-d92e-4f26-b2f8-04f8d6cd99e2"))
+		(pin "22"
+			(uuid "491f4ba1-68e1-49f0-a632-96aab1ddede6"))
+		(pin "20"
+			(uuid "233ed51b-7f50-4156-97ed-a8ae9ef75931"))
+		(pin "19"
+			(uuid "88eed8b3-9df6-48ff-9c4e-1c983e451397"))
+		(pin "25"
+			(uuid "088cd2bc-d3dd-4899-8827-bab0ae04d2d3"))
+		(pin "23"
+			(uuid "65ba6505-f520-4abc-8d4e-04de73add7b3"))
+		(pin "24"
+			(uuid "fd28368c-1140-482a-93bd-1f3331080507"))
+		(pin "55"
+			(uuid "8736549a-fb65-469d-87de-384955b5a008"))
+		(pin "51"
+			(uuid "a2595ee5-78ad-4d68-bc6a-1f9eaa93534c"))
+		(pin "21"
+			(uuid "1a0a7a1e-4138-4adb-bf1d-ab8b3bc072e1"))
+		(pin "57"
+			(uuid "d99a5cff-1890-40a1-982a-64687c71b190"))
+		(pin "58"
+			(uuid "b279c76c-8b8b-4102-a3de-2ed4b9e2cf49"))
+		(pin "59"
+			(uuid "f96233b8-0f7c-4654-b7e2-74a871c9b7fa"))
+		(pin "53"
+			(uuid "b6d35880-0df8-427a-88b3-afdcc8a35fae"))
+		(pin "4"
+			(uuid "66f83f99-deff-4741-9b2d-90e6e79aa458"))
+		(pin "17"
+			(uuid "f3ab68cd-9843-4566-9e96-9dc7adb7b90b"))
+		(pin "18"
+			(uuid "a23e55c1-7aa0-40d1-af76-7d2696238ed1"))
+		(pin "60"
+			(uuid "1de22851-1dc1-4554-975a-359ef90e3fcd"))
+		(pin "3"
+			(uuid "29368e86-0723-4a9b-b8ed-0c3714bd5814"))
+		(pin "5"
+			(uuid "8847bad0-fe35-4251-ba08-bdc849de2a7e"))
+		(pin "44"
+			(uuid "fb4a2d2c-b465-42de-96e5-48ed8b17944c"))
+		(pin "6"
+			(uuid "745f3773-4d42-4b68-b0c0-4d9a86f1f899"))
+		(pin "7"
+			(uuid "be6e91e2-e729-4305-bc40-805914007386"))
+		(pin "9"
+			(uuid "23437fb4-9ebd-472b-92db-1ea1196b72cd"))
+		(pin "10"
+			(uuid "fe364660-b13c-4c1f-8528-dcef56ff9fbb"))
+		(pin "12"
+			(uuid "119458ed-b5fa-4dcf-bb75-a59a6323eb55"))
+		(pin "13"
+			(uuid "330603bb-7e66-46fa-8bc3-b769e78f0ccc"))
+		(pin "8"
+			(uuid "d98b4365-89a3-4c91-835f-f8d25446255b"))
+		(pin "11"
+			(uuid "ba54b569-a612-4f04-b62d-3eecb3403603"))
+		(pin "49"
+			(uuid "d6c7da58-dc50-403e-b926-009197387de7"))
+		(pin "50"
+			(uuid "03741caf-91f2-4d06-810b-ef950fdfb910"))
+		(pin "1"
+			(uuid "d19d968d-7804-4964-8b20-f03c9ccf65f4"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "U4")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 195.58 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "cdab76cd-776e-519f-bc80-17487c24cd2a")
+		(property "Reference" "#PWR03Controller19"
+			(at 195.58 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 195.58 247.65 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 195.58 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 195.58 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 195.58 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "58812657-6238-4148-9115-e4fb77eb2e20"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller19")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 119.38 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "d006e7d8-f2ff-5bdf-80ec-35ef5c3d6b65")
+		(property "Reference" "#PWR03Controller13"
+			(at 119.38 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 119.38 259.08 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 119.38 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 119.38 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 119.38 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "ee2f5c69-0c93-44b2-912f-becf710480e8"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller13")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_3V3")
+		(at 265.43 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "d200854e-5cf2-5cec-b602-a1d37f805f42")
+		(property "Reference" "#PWR03Controller4"
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "3V3"
+			(at 265.43 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 265.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "19c89c0d-8de9-461f-8674-c31c148a05f9"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller4")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C303")
+		(at 195.58 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db14580b-c0d4-5d88-abca-d2acac533d05")
+		(property "Reference" "C303"
+			(at 199.39 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "100nF"
+			(at 199.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 199.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 199.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 195.58 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 199.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 199.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+			(at 199.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 199.39 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "602393b0-26e3-4931-a69f-aacdfe8ce91c"))
+		(pin "2"
+			(uuid "e845fa7c-b5d7-473e-815f-2332c3e3797f"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C303")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 265.43 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "e0c6c132-38dc-5b85-bf46-6a374343d76b")
+		(property "Reference" "#PWR03Controller5"
+			(at 265.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 265.43 127 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 265.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 265.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 265.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "afdb2bd6-6012-47c9-90a8-cec1a8312350"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller5")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_TP303")
+		(at 231.14 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7b79452-dce3-58e5-b09b-c81f2196572c")
+		(property "Reference" "TP303"
+			(at 233.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "NRST"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 231.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Assembly" "FIT"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "a2ee0dce-18f3-4cad-adfa-8dde40ffb04a"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP303")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_J1001")
+		(at 237.49 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed3537b0-3919-5a2d-9864-8b1bff1c1f3b")
+		(property "Reference" "J1001"
+			(at 237.49 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "ARM Cortex SWD 10-pin"
+			(at 237.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Manual:FTSH_105_01_L_DV_K"
+			(at 237.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 237.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 237.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" "FTSH-105-01-L-DV-K"
+			(at 237.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 237.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 237.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "1"
+			(uuid "b6f5f7bb-d738-438e-aa73-c0e832c10b88"))
+		(pin "2"
+			(uuid "ab81abff-eca8-43f3-be9b-5600c84ddb6e"))
+		(pin "3"
+			(uuid "d6ec7237-651e-4174-8000-3d501ec213f0"))
+		(pin "4"
+			(uuid "b5121bdb-28b1-4f55-a46e-66d2f6161628"))
+		(pin "5"
+			(uuid "acb8a677-1397-4bb8-9925-7bbd6e89822a"))
+		(pin "6"
+			(uuid "f93c519d-19da-41e0-9bea-defc5cdb32ff"))
+		(pin "7"
+			(uuid "ce2d0edc-5637-46b2-8f48-4594112a0ff0"))
+		(pin "8"
+			(uuid "1bc3cf3b-fbae-450a-b8a8-cf3317b8b186"))
+		(pin "9"
+			(uuid "74b36253-33b7-4068-b979-f14231db2c5c"))
+		(pin "10"
+			(uuid "79c5be19-bb02-44af-bebf-14a2b6cb7afb"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "J1001")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_SW301")
+		(at 250.19 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eedfdef4-9058-5b9f-9c57-f8362e4ec325")
+		(property "Reference" "SW301"
+			(at 250.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "RESET"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 250.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Procurement" "Select to specification: RESET; SW_SPST_TL3305A"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "1"
+			(uuid "5eec69ad-c8ec-4991-8ea7-eb729a940d08"))
+		(pin "2"
+			(uuid "14e6cad2-6130-4129-8300-8d1c5df2a1a1"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "SW301")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_R301")
+		(at 170.18 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef104caa-8b02-52bd-9611-81d221e0b13f")
+		(property "Reference" "R301"
+			(at 170.18 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "0R"
+			(at 170.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 170.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 170.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 170.18 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 170.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 170.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Procurement" "Select to specification: 0R; R_0603_1608Metric"
+			(at 170.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 170.18 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "1"
+			(uuid "789d5a21-4a02-4df1-86f8-4bb2d1fb8788"))
+		(pin "2"
+			(uuid "db68c746-bb28-4951-926d-906d5d8e60c8"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "R301")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C309")
+		(at 320.04 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f558625c-fdde-550d-b284-b8a86d5b5f24")
+		(property "Reference" "C309"
+			(at 323.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "10pF C0G"
+			(at 323.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 323.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 323.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 320.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 323.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 323.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 10pF C0G; C_0603_1608Metric"
+			(at 323.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 323.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "75de04d9-7062-4dbd-9d86-6e33941110dc"))
+		(pin "2"
+			(uuid "d223833b-e2da-4453-8e1f-4158c0e33f59"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C309")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 220.98 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "f881804c-d581-5e5c-ab4a-d4e0f52724af")
+		(property "Reference" "#PWR03Controller9"
+			(at 220.98 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 220.98 177.8 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 220.98 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 220.98 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 220.98 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "a3f0a68f-997f-4d55-96c5-812a2cd9e81d"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller9")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C306")
+		(at 330.2 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcf356c8-3710-5c32-8d50-9cffc6dc861b")
+		(property "Reference" "C306"
+			(at 334.01 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "1uF"
+			(at 334.01 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 334.01 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 334.01 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 330.2 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 334.01 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 334.01 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 1uF; C_0603_1608Metric"
+			(at 334.01 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 334.01 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "7800a1fd-ae52-4893-9d24-a536f3d8a348"))
+		(pin "2"
+			(uuid "748a6407-d2bf-4576-a721-ddd946cfea6c"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C306")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C304")
+		(at 220.98 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd0913dd-8cbf-53fb-a978-19fcc3e83b99")
+		(property "Reference" "C304"
+			(at 224.79 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "1uF"
+			(at 224.79 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 224.79 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 224.79 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 220.98 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 224.79 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 224.79 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 1uF; C_0603_1608Metric"
+			(at 224.79 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 224.79 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "b804f1c8-cc7e-4c06-9751-14821926d930"))
+		(pin "2"
+			(uuid "5168e951-e7bb-4237-a093-b58618bb774b"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "C304")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_VREFplus")
+		(at 294.64 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "fe29d183-cc98-5f9b-ae46-14954a1b46a0")
+		(property "Reference" "#PWR03Controller21"
+			(at 294.64 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "VREF+"
+			(at 294.64 207.01 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 294.64 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 294.64 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 294.64 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "0e4dae19-3345-404f-b180-ba4c294c9163"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller21")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 245.11 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ff27ff54-e55b-5b99-a1aa-a817f5ab2707")
+		(property "Reference" "#PWR03Controller0"
+			(at 245.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 245.11 74.93 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 245.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 245.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 245.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "dd6bbc7b-5d13-4dfc-b1c1-d825ff0dd89e"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "#PWR03Controller0")
+					(unit 1))))))

@@ -1,0 +1,352 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-26T21:30:29+0100",
+    "kicad_version": "9.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9",
+            "violations": [
+                {
+                    "description": "Symbol 'CSD88599Q5DC' doesn't match copy in library 'Manual'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [CSD88599Q5DC]",
+                            "pos": {
+                                "x": 0.5207,
+                                "y": 0.508
+                            },
+                            "uuid": "5e0f3ca1-bae5-41f1-a7d3-3f376bf8e690"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'CSD88599Q5DC' doesn't match copy in library 'Manual'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [CSD88599Q5DC]",
+                            "pos": {
+                                "x": 1.3843,
+                                "y": 0.508
+                            },
+                            "uuid": "be4b4a70-b5e2-453e-898c-dfb8d15f8708"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'CSD88599Q5DC' doesn't match copy in library 'Manual'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [CSD88599Q5DC]",
+                            "pos": {
+                                "x": 2.2733,
+                                "y": 0.508
+                            },
+                            "uuid": "184a04af-abb6-4379-aed7-ba7953136992"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'Conn_Receptacle_3P_Protected' doesn't match copy in library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [Conn_Receptacle_3P_Protected]",
+                            "pos": {
+                                "x": 2.5781,
+                                "y": 1.2319
+                            },
+                            "uuid": "c0b3b725-1525-4bb1-ad21-698fe6f415d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/DC link / input/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159",
+            "violations": []
+        },
+        {
+            "path": "/5 V / 3.3 V power/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/8ca6a06b-6ca2-4f85-8b36-9985a90d4b51",
+            "violations": []
+        },
+        {
+            "path": "/MCU / clock / SWD/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772",
+            "violations": []
+        },
+        {
+            "path": "/Gate driver / VCC/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/caea6781-5777-4ffc-bcfd-2962cd62fd15",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 41 [BOOTSTRAP1, Power input, Line]",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 1.3208
+                            },
+                            "uuid": "fa011ae0-0bfd-4646-b668-0a23f199c4c7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 38 [BOOTSTRAP2, Power input, Line]",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 1.4986
+                            },
+                            "uuid": "c5f0d3d3-f1df-437c-8b83-6dde3de4dac3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 35 [BOOTSTRAP3, Power input, Line]",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 1.6764
+                            },
+                            "uuid": "d768f76f-7258-491b-8bff-379d49046e38"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Three-phase bridge/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin [12-20] [PGND, Power input, Line]",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.5588
+                            },
+                            "uuid": "29d4ce51-26d9-4d0b-ae07-5b300532f819"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 2 [SH, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.6731,
+                                "y": 0.508
+                            },
+                            "uuid": "d8d47da8-211a-4b11-aba7-2fc5dd5bcfe3"
+                        },
+                        {
+                            "description": "Symbol C4 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.508
+                            },
+                            "uuid": "6e05536e-457a-46ac-9014-fa27355ef42d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin [12-20] [PGND, Power input, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.5588
+                            },
+                            "uuid": "c18b6a63-fa61-4288-9868-e18d6c3a3d11"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 2 [SH, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 0.508
+                            },
+                            "uuid": "222a572f-66e9-4726-a2f2-f6bf1fe8026f"
+                        },
+                        {
+                            "description": "Symbol C8 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.508
+                            },
+                            "uuid": "8bc0e44f-943a-4655-8d65-5ac61127d826"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin [3-11] [VSW, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 0.5588
+                            },
+                            "uuid": "dfe663eb-c256-4ce1-8fef-1821d7747842"
+                        },
+                        {
+                            "description": "Symbol J1 Pin 2 [V, Power output, Line]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 1.2319
+                            },
+                            "uuid": "7f80e626-6f0c-4b40-9d97-fd2765179792"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin [12-20] [PGND, Power input, Line]",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.5588
+                            },
+                            "uuid": "ba894343-2c19-4980-a90d-76030afe04cf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 2 [SH, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.508
+                            },
+                            "uuid": "5f88bc00-1af9-4915-8abf-44c2a54004a7"
+                        },
+                        {
+                            "description": "Symbol C12 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.4384,
+                                "y": 0.508
+                            },
+                            "uuid": "085c7815-b5f1-411d-9577-712726466884"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin [3-11] [VSW, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.5588
+                            },
+                            "uuid": "02c4da8e-aadf-4822-974a-56aa1175d7a2"
+                        },
+                        {
+                            "description": "Symbol J1 Pin 3 [W, Power output, Line]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 1.2827
+                            },
+                            "uuid": "e9a9e522-3ff6-4300-8796-a5e20bd0e4d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin 1 [U, Power input, Line]",
+                            "pos": {
+                                "x": 2.4511,
+                                "y": 1.1811
+                            },
+                            "uuid": "3fa53625-cc72-4c09-9d0c-33770aec862e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Current / temperature/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/73a3ad8a-8b99-485f-a068-1c059917a31b",
+            "violations": []
+        },
+        {
+            "path": "/Brake chopper/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/5ceb4185-62cb-4c9d-9d51-ca14fe464dec",
+            "violations": []
+        },
+        {
+            "path": "/Encoder / IMU/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/fa38cb73-7f02-40fb-8ef4-f35ba7d105ca",
+            "violations": []
+        },
+        {
+            "path": "/External feedback/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/924ea1ce-eeef-4d2a-928e-6e88c4a8e14a",
+            "violations": []
+        },
+        {
+            "path": "/CAN interface/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907",
+            "violations": []
+        },
+        {
+            "path": "/USB service/",
+            "uuid_path": "/2c8b7510-9664-4afd-8f00-ac42aa791be9/125ed450-03d7-4cd4-8a9e-840ff4ab4934",
+            "violations": []
+        }
+    ],
+    "source": "ShiroFOC_Manual.kicad_sch"
+}

@@ -1,0 +1,3191 @@
+                                                                                                               TCAN3413, TCAN3414
+                                                                                       SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+  TCAN341x 3.3-V CAN FD Transceivers With Standby Mode and ±58 V Bus Standoff
+
+1 Features                                                            3 Description
+•  3.3 V Single supply operation                                      The    TCAN3413 and TCAN3414 are controller area
+   –   Eliminates the 5 V regulator saving BOM cost                   network (CAN) FD transceivers that are compatible
+       and reducing PCB space                                         with  the  physical  layer  requirements  of  the  ISO
+•  Excellent EMC operation in homogeneous and                         11898-2:2016 high-speed CAN specification.
+   heterogeneous networks                                             The   transceivers   have   certified   electromagnetic
+•  Compatible with the requirements of ISO                            compatibility (EMC) operation for use with classical
+   11898-2:2016 physical layer standard                               CAN  and  CAN  FD  networks  up  to  5  megabits
+•  Support of classical CAN and optimized CAN FD                      per  second  (Mbps).  Up  to  8  Mbps  operation  in
+   performance at 2, 5, and 8 Mbps                                    simpler networks is possible with these devices. The
+   –   Short and symmetrical propagation delays for                   TCAN3413  includes  internal  logic  level  translation
+       enhanced timing margin                                         through the VIO pin. Allowing the direct interface of the
+•  TCAN3413: I/O voltage range supports:                              transceiver I/O to 1.8-V, 2.5-V, or 3.3-V logic levels.
+   1.7 V to 3.6 V                                                     The transceivers support a low-power standby mode,
+•  Receiver common mode input voltage: ±30 V                          and a wake over CAN which is compliant to the ISO
+•  Protection features:                                               11898-2:2016 defined wake-up pattern (WUP).
+   –   Bus fault protection: ±58 V                                    The  transceivers  include  thermal-shutdown  (TSD),
+   –   IEC ESD protection on bus pins: ±10 kV                         TXD-dominant  time-out  (DTO),  supply  undervoltage
+   –   Undervoltage protection                                        detection, and ±58-V bus fault protection. The devices
+   –   TXD-dominant time-out (DTO)                                    have defined fail-safe behavior in supply undervoltage
+   –   Thermal-shutdown protection (TSD)                              or   floating   pin   scenarios.   The   transceivers   are
+•  Operating modes:                                                   available in industry-standard SOIC-8, the VSON-8,
+   –   Normal mode                                                    and a space-saving small footprint SOT-23 packages.
+   –   Low power standby mode supporting remote
+       wake-up request                                                                    Package Information
+   –   Ultra-low power shutdown mode:                                      PART NUMBER             PACKAGE(1)       PACKAGE SIZE(2)
+       TCAN3414 only                                                                             SOIC (D)          4.9 mm x 6 mm
+•  Optimized behavior when unpowered                                   TCAN3413                  VSON (DRB)        3 mm x 3 mm
+   –   Bus and logic pins are high impedance (no load                  TCAN3414
+       to operating bus or application)                                                          SOT-23 (DDF)      2.9 mm x 2.8 mm
+   –   Hot-plug capable: power up or down glitch-free                 (1)   For more information, see Section 12.
+       operation on bus and RXD output                                (2)   The package size (length × width) is a nominal value and
+•  8-Pin SOIC, small footprint SOT-23 and lead less                         includes pins, where applicable.
+   VSON-8 package with improved automated optical                                          Device Information
+   inspection (AOI) capability                                           Part Number               Pin 5                   Pin 8
+2 Applications                                                         TCAN3414           Ultra-low power         Low Power Standby
+                                                                                          shutdown mode           Mode with Remote
+•  Factory automation                                                  TCAN3413           Low voltage I/O support Wake
+•  Grid Infrastructure
+•  Industrial transport
+•  Motor drives
+
+
+
+
+
+
+
+
+
+
+
+                                                      Simplified Schematic
+
+      An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+      intellectual property matters and other important disclaimers. PRODUCTION DATA.
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                                                                     www.ti.com
+
+                                                                              Table of Contents
+
+ 1 Features............................................................................1                7.2 Functional Block Diagram.........................................16
+ 2 Applications.....................................................................1                   7.3 Feature Description...................................................17
+ 3 Description.......................................................................1                  7.4 Device Functional Modes..........................................21
+ 4 Pin Configuration and Functions...................................3                               8 Application and Implementation..................................24
+ 5 Specifications..................................................................4                    8.1 Application Information.............................................              24
+    5.1 Absolute Maximum Ratings........................................4                               8.2 Typical Application....................................................           24
+    5.2 ESD Ratings ..............................................................          4           8.3 System Examples.....................................................              27
+    5.3 ESD Ratings, IEC Transients......................................4                              8.4 Power Supply Recommendations.............................28
+    5.4 Recommended Operating Conditions.........................4                                      8.5 Layout.......................................................................     29
+    5.5 Thermal Characteristics..............................................4                       9 Device and Documentation Support............................30
+    5.6 Supply Characteristics................................................5                         9.1 Receiving Notification of Documentation Updates....30
+    5.7 Dissipation Ratings.....................................................6                       9.2 Support Resources...................................................              30
+    5.8 Electrical Characteristics.............................................6                        9.3 Trademarks...............................................................30
+    5.9 Switching Characteristics............................................8                          9.4 Electrostatic Discharge Caution................................30
+    5.10 Typical Characteristics............................................              11            9.5 Glossary....................................................................30
+ 6 Parameter Measurement Information..........................13                                     10 Revision History..........................................................            30
+ 7 Detailed Description......................................................16                      11 Mechanical, Packaging, and Orderable
+    7.1 Overview...................................................................16                   Information....................................................................       30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2        Submit Document Feedback                                                                                                      Copyright © 2023 Texas Instruments Incorporated
+                                                                  Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                                        TCAN3413, TCAN3414
+www.ti.com                                                                                                SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+4 Pin Configuration and Functions
+
+
+
+
+
+                 TXD           1                   8                STB                             TXD           1                   8                STB
+
+                GND            2                   7                CANH                           GND            2                   7                CANH
+
+                VCC            3                   6                CANL                           VCC            3                   6                CANL
+
+                 RXD           4                   5                SHDN,VIO                        RXD           4                   5                SHDN,VIO
+
+
+
+                             Not to scale                                                                       Not to scale
+              Figure 4-1. DDF Package, 8-Pin SOT                                                  Figure 4-2. D Package, 8-Pin SOIC
+                                  (Top View)                                                                         (Top View)
+
+
+
+
+                                                               TXD         1              8             STB
+
+
+                                                              GND          2              7             CANH
+                                                                               Thermal
+                                                                                 Pad
+                                                              VCC          3              6             CANL
+
+
+                                                              RXD          4              5             SHDN,VIO
+
+
+                                                                     Not to scale
+                                                      Figure 4-3. DRB Package, 8-Pin VSON
+                                                                           (Top View)
+
+                                                                Table 4-1. Pin Functions
+                  Pins                         Type(1)                                                    Description
+ Name                       No.
+ TXD                         1              Digital Input   CAN transmit data input; integrated pull-up
+ GND                         2                    G         Ground connection
+ VCC                         3                 Supply       3.3 V supply voltage
+ RXD                         4             Digital Output   CAN receive data output, tri-stated when device powered off
+ SHDN                                       Digital Input   Device in ultra-low power shutdown mode if pin is high; integrated pull-down (TCAN3414
+                             5                              only)
+ VIO                                           Supply       I/O supply voltage (TCAN3413 only)
+ CANL                        6                 Bus IO       Low-level CAN bus input/output line
+ CANH                        7                 Bus IO       High-level CAN bus input/output line
+ STB                         8              Digital Input   Standby input for mode control; integrated pull-up
+ Thermal Pad (VSON only)                         —          Connect the thermal pad to any internal PCB ground plane using multiple vias for optimal
+                                                            thermal performance.
+
+(1)    I = Input, O = Output, I/O = Input or Output, G = Ground.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                              Submit Document Feedback                 3
+                                                         Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                                                www.ti.com
+
+5 Specifications
+5.1 Absolute Maximum Ratings
+over operating free-air temperature range (unless otherwise noted)(1) (2)
+
+                                                                                                                            MIN                 MAX           UNIT
+ VCC                   Supply voltage                                                                                      –0.3                     6           V
+ VIO                   Supply voltage I/O level shifter (only for TCAN3413)                                                –0.3                     6           V
+ VBUS                  CAN bus I/O voltage range on CANH and CANL                                                           –58                    58           V
+ V                     Max differential voltage between CANH and CANL                                                       –58                    58           V
+   DIFF                VDIFF = (CANH - CANL)
+
+ VLogic_Input          Logic pin input voltage (TXD, STB, SHDN)                                                            –0.3                     6           V
+ VRXD                  Logic output voltage range (RXD)                                                                    –0.3                     6           V
+ IO(RXD)               RXD output current                                                                                    –8                     8          mA
+ TJ                    Junction temperature                                                                                 –40                  165           °C
+ TSTG                  Storage temperature                                                                                  –65                  150           °C
+
+(1)     Operation outside the Absolute Maximum Ratings may cause permanent device damage. Absolute Maximum Ratings do not imply
+        functional operation of the device at these or any other conditions beyond those listed under Recommended Operating Conditions.
+        If used outside the Recommended Operating Conditions but within the Absolute Maximum Ratings, the device may not be fully
+        functional, and this may affect device reliability, functionality, performance, and shorten the device lifetime.
+(2)     All voltage values, except differential I/O bus voltages, are with respect to ground terminal.
+
+5.2 ESD Ratings
+
+                                                                                                                                              VALUE             UNIT
+                                                                                                        HBM classification level 3A for       ±4000               V
+                                                                                                        all pins
+                                            Human-body model (HBM)                                      HBM classification level 3B for
+ VESD             Electrostatic discharge                                                               global pins CANH and CANL             ±10000              V
+                                                                                                        with respect to GND
+                                            Charged-device model (CDM)                                                                         ±750               V
+                                            CDM classification level C5 for all pins
+
+
+5.3 ESD Ratings, IEC Transients
+
+                                                                                                                                                       VALUE         UNIT
+ VESD    System level electrostatic discharge             CAN bus terminals (CANH, CANL) to GND            IEC61000-4-2                                ±10000          V
+
+
+5.4 Recommended Operating Conditions
+
+                                                                                                                   MIN             NOM              MAX         UNIT
+ VCC                Supply voltage                                                                                    3              3.3              3.6         V
+ VIO                Supply voltage for I/O level shifter (only for TCAN3413)                                        1.7                               3.6         V
+ IOH(RXD)           RXD terminal high-level output current                                                           –2                                          mA
+ IOL(RXD)           RXD terminal low-level output current                                                                                               2        mA
+ IOH(RXD)           RXD terminal high-level output current  (only for TCAN3413)                                    –1.5                                          mA
+ IOL(RXD)           RXD terminal low-level output current  (only for TCAN3413)                                                                        1.5        mA
+ TJ                 Junction temperature                                                                           –40                               150         °C
+
+
+5.5 Thermal Characteristics
+
+
+                                              (1)                                                        TCAN3413/3414
+                        THERMAL METRIC                                           D (SOIC)                   DDF (SOT)                   DRB (VSON)                UNIT
+
+ RΘJA          Junction-to-ambient thermal resistance                   114.4                        122.9                       50.9                             ℃/W
+ RΘJC(top)     Junction-to-case (top) thermal resistance                49.0                         51.7                        55.8                             ℃/W
+ RΘJB          Junction-to-board thermal resistance                     58.0                         45.7                        23.2                             ℃/W
+
+4       Submit Document Feedback                                                                                       Copyright © 2023 Texas Instruments Incorporated
+                                                           Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                                               TCAN3413, TCAN3414
+www.ti.com                                                                                                      SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+5.5 Thermal Characteristics (continued)
+
+                                                                                                            TCAN3413/3414
+                         THERMAL METRIC(1)                                         D (SOIC)                    DDF (SOT)                   DRB (VSON)                UNIT
+
+ ΨJT            Junction-to-top characterization parameter                7.0                          1.3                          1.4                              ℃/W
+ ΨJB            Junction-to-board characterization parameter              57.1                         45.4                         23.2                             ℃/W
+ RΘJC(bot)      Junction-to-case (bottom) thermal resistance              N/A                          N/A                          7.7                              ℃/W
+
+(1)     For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+        report.
+
+5.6 Supply Characteristics
+parameters valid over recommended operating conditions with -40℃ ≤ TJ ≤ 150℃ (Typical values are at VCC = 3.3 V; VIO =
+3.3 V for TCAN3413, Device ambient maintained at 27℃) unless otherwise noted
+              PARAMETER                                            TEST CONDITIONS                                        MIN             TYP            MAX        UNIT
+                                                                 TXD = 0 V, STB = 0 V
+                                             Dominant            RL = 60 Ω, CL = open                                                       42              55       mA
+                                                                 See Figure 6-1
+             Supply current normal                               TXD = 0 V, STB = 0 V
+ ICC         mode                            Dominant            RL = 50 Ω, CL = open                                                       50              60       mA
+                                                                 See Figure 6-1
+                                                                 TXD = VCC, STB = 0 V
+                                             Recessive           RL = 50 Ω, CL = open                                                        7             8.2       mA
+                                                                 See Figure 6-1
+             Supply current normal                               TXD = 0 V, STB = 0 V
+             mode                            Dominant with       CANH = CANL = ±25 V                                                                      130        mA
+                                             bus fault           RL = open, CL = open
+                                                                 See Figure 6-1
+                                                                 TXD = STB = VIO, RL = 50 Ω, CL = open ,                                     1               2
+                                                                 TJ <= 85 °C, See Figure 6-1
+             Supply current standby mode (TCAN3413)              TXD = STB = VIO, RL = 50 Ω, CL = open ,                                     1               3        µA
+                                                                 TJ <= 125 °C, See Figure 6-1
+ ICC                                                             TXD = STB = VIO, RL = 50 Ω, CL = open,
+                                                                 T   <= 150 °C, See Figure 6-1                                               1               4
+                                                                   J
+                                                                 TXD = STB = VCC, RL = 50 Ω, CL = open,                                     10              15
+                                                                 TJ <= 85 °C, See Figure 6-1
+             Supply current standby mode (TCAN3414)              TXD = STB = VCC, RL = 50 Ω, CL = open,                                     10              16        µA
+                                                                 TJ <= 125 °C, See Figure 6-1
+                                                                 TXD = STB = VCC, RL = 50 Ω, CL = open,                                     10              17
+                                                                 TJ <= 150 °C, See Figure 6-1
+                                                                 TXD = 0 V, STB = 0 V
+                                             Dominant            RL = 60 Ω, CL = open                                                      125            300
+             I/O supply current normal                           RXD floating
+             mode                                                TXD = VIO, STB = 0 V
+                                             recessive           RL = 60 Ω, CL = open                                                       19              48
+                                                                 RXD floating
+ IIO (only                                                       TXD = V    , STB = V
+ for                                                                       IO          IO
+ TCAN34                                                          RL = 60 Ω, CL = open                                                        9              13        µA
+ 13)                                                             RXD floating, TJ <= 85 °C
+                                                                 TXD = VIO, STB = VIO
+             I/O supply current standby mode                     RL = 60 Ω, CL = open                                                        9              14
+                                                                 RXD floating, TJ <= 125 °C
+                                                                 TXD = VIO, STB = VIO
+                                                                 RL = 60 Ω, CL = open                                                        9              15
+                                                                 RXD floating, TJ <= 150 °C
+                                                                 SHDN = VCC, RXD floating, TXD =                                                             2
+ I           Supply current (VCC pin current), shutdown          VCC, TJ <= 85 °C                                                                                     µA
+  CC         mode (TCAN3414)                                     SHDN = V      , RXD floating, TXD =
+                                                                             CC                                                                              5
+                                                                 VCC, TJ <= 150 °C
+ UVCC(R)     Undervoltage detection VCC rising                   Ramp up                                                                  2.75             2.9
+ UV          Undervoltage detection on V       falling           Ramp down                                                 2.5            2.65                        V
+     CC(F)                                  CC
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                                     Submit Document Feedback                  5
+                                                            Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                                               www.ti.com
+5.6 Supply Characteristics (continued)
+parameters valid over recommended operating conditions with -40℃ ≤ TJ ≤ 150℃ (Typical values are at VCC = 3.3 V; VIO =
+3.3 V for TCAN3413, Device ambient maintained at 27℃) unless otherwise noted
+              PARAMETER                                          TEST CONDITIONS                                       MIN            TYP            MAX        UNIT
+ VHYS        Hysteresis voltage on UVCC                                                                                                120                       mV
+ (UVCC)
+ UVIO(R)     Undervoltage detection VIO rising (TCAN3413)      Ramp up                                                                  1.6           1.65
+             Undervoltage detection on VIO                                                                                                                        V
+ UVIO(F)     falling  (TCAN3413)                               Ramp down                                                1.4             1.5
+
+ VHYS(UVI    Hysteresis voltage on UVIO                                                                                                 50                       mV
+ O)
+
+5.7 Dissipation Ratings
+
+                          PARAMETER                                              TEST CONDITIONS                              MIN          TYP         MAX       UNIT
+                                                                  VCC = 3.3 V, TJ = 27°C, RL = 60Ω, CL_RXD = 15
+                                                                  pF                                                                         50                   mW
+                                                                  TXD input = 250 kHz 50% duty cycle square
+              Average power dissipation                           wave
+ PD           Normal mode                                         V    = 3.6 V, T  = 150°C, R   = 50Ω, C        = 15
+                                                                    CC           J             L          L_RXD
+                                                                  pF                                                                         60                   mW
+                                                                  TXD input = 2.5 MHz 50% duty cycle square
+                                                                  wave
+ TTSD         Thermal shutdown temperature                                                                                                 192                    °C
+ TTSD_HYS     Thermal shutdown hysteresis                                                                                                    10
+
+
+5.8 Electrical Characteristics
+parameters valid over recommended operating conditions with -40℃ ≤ TJ ≤ 150℃ (Typical values are at VCC = 3.3 V, VIO =
+3.3 V for TCAN3413, Device ambient maintained at 27℃) unless otherwise noted
+                           PARAMETER                                             TEST CONDITIONS                              MIN             TYP           MAX     UNIT
+ Driver Electrical Characteristics
+                 Dominant output voltage        CANH                  TXD = 0 V, STB, SHDN = 0 V                              2.25                            VCC     V
+ VO(DOM)         normal mode                                          50 Ω ≤ RL ≤ 65 Ω, CL = open
+                                                CANL                  See Figure 6-2 and Figure 7-3                            0.5                           1.25     V
+
+                 Recessive output voltage                             TXD = VIO or VCC, STB, SHDN = 0 V
+ VO(REC)         normal mode                    CANH and CANL         RL = open (no load), CL = open                           1.5             1.9           2.25     V
+                                                                      See Figure 6-2 and Figure 7-3
+                 Driver symmetry                                      TXD = 250 kHz, 1 MHz, 2.5 MHz, STB,
+ V               {(V         + V       )/(V             +             SHDN = 0 V                                               0.9                            1.1   V/V
+   SYM              O(CANH)     O(CANL)    O(REC_CANH)                RL = 60, CSPLIT = 4.7 nF, CL = open
+                 VO(REC_CANL)}                                        See Figure 6-2 and Figure 8-2
+
+                 DC output symmetry                                   STB, SHDN = 0 V
+ VSYM_DC         (CANH       + CANL       - CANH       - CANL      )  RL = 60 Ω, CL = open                                   –400                             400    mV
+                        REC          REC          DOM         DOM     See Figure 6-2 and Figure 7-3
+
+                                                                      TXD = 0 V, STB. SHDN = 0 V
+                                                                      50 Ω ≤ RL ≤ 65 Ω, CL = open                              1.5                              3     V
+                                                                      See Figure 6-2 and Figure 7-3
+                 Differential output voltage    CANH - CANL           TXD = 0 V, STB, SHDN = 0 V
+
+ VOD(DOM)        normal mode                                          45 Ω ≤ RL ≤ 70 Ω, CL = open                              1.4                              3     V
+                 Dominant                                             See Figure 6-2 and Figure 7-3
+                                                                      TXD = 0 V, STB, SHDN = 0 V
+                                                CANH - CANL           RL = 2240 Ω, CL = open                                   1.5                            3.4     V
+                                                                      See Figure 6-2 and Figure 7-3
+                                                                      TXD = VIO or VCC, STB, SHDN = 0 V
+                                                CANH - CANL           RL = 60 Ω, CL = open                                   –120                              12    mV
+                 Differential output voltage                          See Figure 6-2 and Figure 7-3
+ VOD(REC)        normal mode
+                 Recessive                                            TXD = VIO or VCC, STB, SHDN = 0 V
+                                                CANH - CANL           RL = open, CL = open                                     –50                             50    mV
+                                                                      See Figure 6-2 and Figure 7-3
+
+
+
+
+6       Submit Document Feedback                                                                                       Copyright © 2023 Texas Instruments Incorporated
+                                                          Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                                                     TCAN3413, TCAN3414
+www.ti.com                                                                                                          SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+5.8 Electrical Characteristics (continued)
+parameters valid over recommended operating conditions with -40℃ ≤ TJ ≤ 150℃ (Typical values are at VCC = 3.3 V, VIO =
+3.3 V for TCAN3413, Device ambient maintained at 27℃) unless otherwise noted
+                             PARAMETER                                                 TEST CONDITIONS                                 MIN              TYP            MAX     UNIT
+                                                   CANH                    TXD = STB = VIO or VCC,                                     -0.1                               0.1    V
+ V                Bus output voltage standby       CANL                    R   = open , C   = open                                     -0.1                               0.1    V
+   O(STB)         mode                                                      L             L
+                                                   CANH - CANL             See Figure 6-2 and Figure 7-3                               -0.2                               0.2    V
+
+                                                                           See Figure 6-7 and Figure 7-3, V(CANH) =                   –115                               115    mA
+                  Short-circuit bus output current, dominant,              -15 V to 40 V, CANL = open, TXD = 0 V
+ IOS(DOM)         normal mode                                              See Figure 6-7 and Figure 7-3 , V             =
+                                                                                                                 (CAN_L)              –115                               115    mA
+                                                                           -15 V to 40 V, CANH = open, TXD = 0 V
+                                                                           See Figure 6-7 and Figure 7-3 , V(CANH) =
+                                                                           -27 V to 32 V, CANL = open, STB=0, TXD                        –7                                 7   mA
+ I                Short-circuit steady-state output current,               = VIO or VCC,
+  OS(REC)         recessive, normal mode                                   See Figure 6-7 and Figure 7-3 , V            =
+                                                                                                                 (CANL)
+                                                                           -27 V to 32 V, CANH = open, STB = 0,                          –7                                 7   mA
+                                                                           TXD = VIO or VCC,
+ Receiver Electrical Characteristics
+ V                Input threshold voltage normal mode                      See Figure 6-3 and Table 7-6                                 500                              900    mV
+   IT                                                                       -30 V ≤ VCM ≤ 30 V, STB, SHDN= 0 V
+
+                                                                           See Figure 6-3 and Table 7-6
+                  Input threshold standby mode, TCAN3414                    -30 V ≤ VCM ≤ 30 V, SHDN= 0 V,                              400                             1150    mV
+                                                                           STB= VCC
+                                                                           See Figure 6-3 and Table 7-6
+ VIT(STB)                                                                  VIO = 3 V to 3.6 V, -30 V ≤ VCM ≤ 30 V,                      400                             1150    mV
+                  Input threshold standby mode, TCAN3413                   STB= VIO
+                                                                           See Figure 6-3 and Table 7-6
+                                                                           VIO = 1.7 V to 1.9 V, 2.25 V to 2.75 V, -12                  400                             1150    mV
+                                                                           V ≤ VCM ≤ 12 V, STB= VIO
+ VDOM             Normal mode dominant state differential input            See Figure 6-3 and Table 7-6                                 0.9                                 9    V
+                  voltage range                                             -30 V ≤ VCM ≤ 30 V, STB, SHDN= 0 V
+ V                Normal mode recessive state differential input           See Figure 6-3 and Table 7-6                                   -4                              0.5    V
+   REC            voltage range                                            -30 V ≤ VCM ≤ 30 V, STB, SHDN= 0 V
+
+                  Standby mode dominant state differential input           See Figure 6-3 and Table 7-6
+ VDOM(STB)        voltage range                                            SHDN= 0 V, STB = VIO, -30 V ≤ VCM ≤ 30                      1.15                                 9    V
+                                                                           V
+                  Standby mode recessive state differential input          See Figure 6-3 and Table 7-6
+ VREC(STB)        voltage range                                            SHDN = 0 V, STB = VIO, -30 V ≤ VCM ≤ 30                        -4                              0.4    V
+                                                                           V
+ V                Hysteresis voltage for input threshold normal            See Figure 6-3 and Table 7-6                                                   50                    mV
+   HYS            mode                                                      -30 V ≤ VCM ≤ 30 V, STB, SHDN= 0 V
+
+ V                Common mode range normal and standby                     See Figure 6-3 and Table 7-6                                 –30                               30     V
+   CM             modes
+
+ ILKG(IOFF)       Unpowered bus input leakage current                      CANH = CANL = 5 V,  VCC = VIO = GND                                                              5    µA
+ CI               Input capacitance to ground (CANH or CANL)                                                                                                              40     pF
+ C                Differential input capacitance                           TXD = VIO,                                                                                     20     pF
+   ID
+ RID              Differential input resistance                                                                                          25                               50     kΩ
+                  Single ended input resistance                            TXD = VIO, STB = 0 V -30 V ≤ VCM ≤ 30 V
+ RIN              (CANH or CANL)                                                                                                         13                               25     kΩ
+
+ RIN(M)           Input resistance matching                                V(CAN_H) = V(CAN_L) = 5 V                                     –3                                 3    %
+                  [1 – (RIN(CANH) / RIN(CANL))] × 100 %
+ TXD Terminal (CAN Transmit Data Input)
+ VIH              High-level input voltage                                 TCAN3414                                                0.7 VCC                                       V
+ VIH              High-level input voltage                                 TCAN3413                                                 0.7 VIO                                      V
+ VIL              Low-level input voltage                                  TCAN3414                                                                                 0.3 VCC      V
+ VIL              Low-level input voltage                                  TCAN3413                                                                                  0.3 VIO     V
+ IIH              High-level input leakage current                         TXD = VCC = VIO = 3.6 V                                     –2.5                0                1    µA
+ IIL              Low-level input leakage current                          TXD = 0 V, VCC = VIO = 3.6 V                               –200             -100              –20     µA
+ ILKG(OFF)        Unpowered leakage current                                TXD = 3.6 V, VCC = VIO = 0 V                                  –1                0                1    µA
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                                          Submit Document Feedback                     7
+                                                              Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                                                     www.ti.com
+5.8 Electrical Characteristics (continued)
+parameters valid over recommended operating conditions with -40℃ ≤ TJ ≤ 150℃ (Typical values are at VCC = 3.3 V, VIO =
+3.3 V for TCAN3413, Device ambient maintained at 27℃) unless otherwise noted
+                            PARAMETER                                                TEST CONDITIONS                               MIN             TYP             MAX    UNIT
+ CI              Input capacitance                                                                                                                     4                   pF
+ RXD Terminal (CAN Receive Data Output)
+ V               High-level output voltage                              TCAN3414                                               0.8 V                                        V
+   OH                                                                   See Figure 6-3 , IO = –2 mA                                  CC
+
+ VOH             High-level output voltage                              See Figure 6-3 , IO = –1.5 mA, TCAN3413                 0.8 VIO                                     V
+ V               Low-level output voltage                               TCAN3414                                                                                0.2 V       V
+   OL                                                                   See Figure 6-3 , IO = 2 mA                                                                   CC
+
+ V               Low-level output voltage                               TCAN3413                                                                                0.2 V       V
+   OL                                                                   See Figure 6-3 , IO = 1.5 mA                                                                  IO
+
+ ILKG(OFF)       Unpowered leakage current                              RXD = 3.6 V, VCC = VIO = 0 V                                 –1                0               1   µA
+  STB Terminal (Standby Mode Input)
+ VIH             High-level input voltage                               TCAN3414                                               0.7 VCC                                      V
+ VIH             High-level input voltage                               TCAN3413                                                0.7 VIO                                     V
+ VIL             Low-level input voltage                                TCAN3414                                                                                0.3 VCC     V
+ VIL             Low-level input voltage                                TCAN3413                                                                                0.3 VIO     V
+ IIH             High-level input leakage current                       VCC = VIO = STB = 3.6 V                                      –2                                2   µA
+ IIL             Low-level input leakage current                        VCC = VIO = 3.6 V, STB = 0 V                                –20                              –2    µA
+ ILKG(OFF)       Unpowered leakage current                              STB = 3.6V, VCC= VIO = 0 V                                   –1                0               1   µA
+ SHDN Terminal (Shutdown mode input)
+ VIH             High-level input voltage                               TCAN3414                                               0.7 VCC                                      V
+ VIL             Low-level input voltage                                TCAN3414                                                                                0.3 VCC     V
+ IIH             High-level input leakage current                       VCC = VIO = SHDN = 3.6 V                                      2                              5.5   µA
+ IIL             Low-level input leakage current                        VCC = VIO = 3.6 V, SHDN = 0 V                                –2                                2   µA
+ ILKG(OFF)       Unpowered leakage current                              SHDN = 3.6 V, VCC= VIO = 0 V                                 –1                0               1   µA
+
+5.9 Switching Characteristics
+parameters valid over recommended operating conditions with -40℃ ≤ TJ ≤ 150℃ (Typical values are at VCC = 3.3 V, VIO =
+3.3 V for TCAN3413, Device ambient maintained at 27℃) unless otherwise noted
+                                  PARAMETER                                                    TEST CONDITIONS                          MIN         TYP        MAX      UNIT
+ Device Switching Characteristics
+                                                                                    See Figure 6-4, normal mode, VCC = VIO
+                                                                                    = 3 V to 3.6 V, RL = 60 Ω, CL = 100 pF,                           95        180       ns
+                                                                                    CL(RXD) = 15 pF
+                                                                                    TCAN3414, TCAN3413
+                                                                                    See Figure 6-4  , normal mode, VCC = 3
+ tPROP(LOOP1)            Total loop delay, driver input (TXD) to receiver           to 3.6 V, VIO = 2.25 V to 2.75 V, RL = 60                        102        190       ns
+                         output (RXD), recessive to dominant                        Ω, CL = 100 pF, CL(RXD) = 15 pF
+                                                                                    TCAN3413
+                                                                                    See Figure 6-4 , normal mode, VCC = 3
+                                                                                    to 3.6 V, VIO = 1.71 V to 1.89 V, RL = 60                        115        210       ns
+                                                                                    Ω, CL = 100 pF, CL(RXD) = 15 pF
+                                                                                    TCAN3413
+                                                                                    See Figure 6-4 , normal mode, VCC = VIO
+                                                                                    = 3 V to 3.6 V, RL = 60 Ω, CL = 100 pF,                          120        180       ns
+                                                                                    CL(RXD) = 15 pF
+                                                                                    TCAN3414, TCAN3413
+                                                                                    See Figure 6-4 , normal mode, VCC = 3
+ tPROP(LOOP2)            Total loop delay, driver input (TXD) to receiver           to 3.6 V, VIO = 2.25 V to 2.75 V, RL = 60                        125        190       ns
+                         output (RXD), dominant to recessive                        Ω, CL = 100 pF, CL(RXD) = 15 pF
+                                                                                    TCAN3413
+                                                                                    See Figure 6-4 , normal mode, VCC = 3
+                                                                                    to 3.6 V, VIO = 1.71 V to 1.89 V, RL = 60                        140        210       ns
+                                                                                    Ω, CL = 100 pF, CL(RXD) = 15 pF
+                                                                                    TCAN3413
+
+
+8       Submit Document Feedback                                                                                           Copyright © 2023 Texas Instruments Incorporated
+                                                             Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                                                      TCAN3413, TCAN3414
+www.ti.com                                                                                                            SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+5.9 Switching Characteristics (continued)
+parameters valid over recommended operating conditions with -40℃ ≤ TJ ≤ 150℃ (Typical values are at VCC = 3.3 V, VIO =
+3.3 V for TCAN3413, Device ambient maintained at 27℃) unless otherwise noted
+                                   PARAMETER                                                       TEST CONDITIONS                            MIN         TYP         MAX      UNIT
+ tMODE                    Mode change time, from normal to standby or from             See Figure 6-5                                                                    30      µs
+                          standby to normal
+                          Mode change time from normal mode to shutdown                With TXD = High, Time from SHDN pin
+ tSHDN1                   mode                                                         (low to high edge 50%) to CANH going                                              40      µs
+                                                                                       from recessive level Vo(rec) to 0.5V
+                          Mode change time from shutdown mode to normal                With TXD high, time from SHDN pin
+ tSHDN2                   mode                                                         (high to low edge 50%) to CANH going                                            200       µs
+                                                                                       from 0.5V to Vo(rec)
+ tWK_FILTER               Filter time for a valid wake-up pattern                      See Figure 7-5                                          0.5                      1.8      µs
+ tWK_TIMEOUT              Bus wake-up timeout value                                                                                            0.8                        6      ms
+ Tstartup                 Time duration after VCC or VIO hass cleared UV+,                                                                                              1.5      ms
+                          and device can resume normal operation
+ Tfilter(STB)             Filter on STB pin to filter out any glitches                                                                         0.5            1           2      µs
+ Tfilter(SHDN)            Filter on SHDN pin to filter out any glitches                                                                        0.5            1           2      µs
+ Driver Switching Characteristics
+                                                                                       See Figure 6-2 , STB, SHDN = 0 V, RL =
+                                                                                       60 Ω, CL = 100 pF, VCC = VIO = 3 V to 3.6                            65         100       ns
+                                                                                       V
+                                                                                       TCAN3414, TCAN3413
+                                                                                       See Figure 6-2 ,STB, SHDN = 0 V, RL =
+ t                        Propagation delay time, low-to-high TXD edge to              60 Ω, CL = 100 pF, VCC = 3 to 3.6 V, VIO                             67         110       ns
+  prop(TxD-busrec)        driver recessive (dominant to recessive)                     = 2.25 V to 2.75 V
+                                                                                       TCAN3413
+                                                                                       See Figure 6-2 ,STB, SHDN = 0 V, RL =
+                                                                                       60 Ω, CL = 100 pF, VCC = 3 to 3.6 V, VIO                             71         110       ns
+                                                                                       = 1.71 V to 1.89 V
+                                                                                       TCAN3413
+                                                                                       See Figure 6-2 , STB, SHDN = 0 V, RL =
+                                                                                       60 Ω, CL = 100 pF, VCC = VIO = 3 V to 3.6                            46         100       ns
+                                                                                       V
+                                                                                       TCAN3414, TCAN3413
+                                                                                       See Figure 6-2 ,STB, SHDN = 0 V, RL =
+ t                        Propagation delay time, high-to-low TXD edge to              60 Ω, CL = 100 pF, VCC = 3 to 3.6 V, VIO                             48         110       ns
+  prop(TxD-busdom)        driver dominant (recessive to dominant)                      = 2.25 V to 2.75 V
+                                                                                       TCAN3413
+                                                                                       See Figure 6-2 ,STB, SHDN = 0 V, RL =
+                                                                                       60 Ω, CL = 100 pF, VCC = 3 to 3.6 V, VIO                             53         110       ns
+                                                                                       = 1.71 V to 1.89 V
+                                                                                       TCAN3413
+ t                        Pulse skew (|t                  - t               |)         , STB, SHDN = 0 V, RL = 60 Ω, CL = 100                               18           28      ns
+  sk(p)                                   prop(TxD-busrec)  prop(TxD-busdom)           pF, See Figure 6-2
+
+ tR                       Differential output signal rise time                         See Figure 6-2 , STB, SHDN = 0 V, RL =                               32           57      ns
+ tF                       Differential output signal fall time                         60 Ω, CL = 100 pF                                                    30           50      ns
+
+ t                        Dominant timeout                                             See Figure 6-6 , STB, SHDN = 0 V, RL =                  1.2                      4.0      ms
+  TXD_DTO                                                                              60 Ω, CL = 100 pF
+
+ Receiver Switching Characteristics
+                                                                                       See Figure 6-3 , STB, SHDN = 0 V,
+                                                                                       CL(RXD) = 15 pF, VCC = VIO = 3 V to 3.6 V                            55           90      ns
+                                                                                       TCAN3414, TCAN3413
+                                                                                       See Figure 6-3 , STB, SHDN = 0 V,
+                          Propagation delay time, bus recessive input to RXD           CL(RXD) = 15 pF, VCC = 3 to 3.6 V, VIO                               60           90      ns
+ tprop(busrec-RXD)        high output (dominant to recessive)                          = 2.25 V to 2.75 V
+                                                                                       TCAN3413
+                                                                                       See Figure 6-3 , STB, SHDN = 0 V,
+                                                                                       CL(RXD) = 15 pF, VCC = 3 to 3.6 V, VIO                               70         102       ns
+                                                                                       = 1.71 V to 1.89 V
+                                                                                       TCAN3413
+
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                                            Submit Document Feedback                     9
+                                                               Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                                                         www.ti.com
+5.9 Switching Characteristics (continued)
+parameters valid over recommended operating conditions with -40℃ ≤ TJ ≤ 150℃ (Typical values are at VCC = 3.3 V, VIO =
+3.3 V for TCAN3413, Device ambient maintained at 27℃) unless otherwise noted
+                                   PARAMETER                                                     TEST CONDITIONS                           MIN         TYP        MAX       UNIT
+                                                                                     See Figure 6-3 , STB, SHDN = 0 V,
+                                                                                     CL(RXD) = 15 pF, VCC = VIO = 3 V to 3.6 V                           45          90      ns
+                                                                                     TCAN3414, TCAN3413
+                                                                                     See Figure 6-3 , STB, SHDN = 0 V,
+                         Propagation delay time, bus dominant input to RXD           CL(RXD) = 15 pF, VCC = 3 to 3.6 V, VIO                              51          90      ns
+ tprop(busdom-RXD)       low output (recessive to dominant)                          = 2.25 V to 2.75 V
+                                                                                     TCAN3413
+                                                                                     See Figure 6-3 , STB, SHDN = 0 V,
+                                                                                     CL(RXD) = 15 pF, VCC = 3 to 3.6 V, VIO                              60         100      ns
+                                                                                     = 1.71 V to 1.89 V
+                                                                                     TCAN3413
+ tR                      RXD output signal rise time                                 See Figure 6-3 , STB, SHDN = 0 V                                    10          25      ns
+ tF                      RXD output signal fall time                                 CL(RXD) = 15 pF                                                     10          28      ns
+
+ FD Timing Characteristics
+                         Bit time on CAN bus output pins with tBIT(TXD) = 500                                                               450                     525      ns
+                         ns
+ t                       Bit time on CAN bus output pins with tBIT(TXD) = 200        See Figure 6-4 , STB, SHDN = 0 V, RL =                 160                     205      ns
+  BIT(BUS)               ns                                                          60 Ω, CL = 100 pF, CL(RXD) = 15 pF
+
+                         Bit time on CAN bus output pins with tBIT(TXD) = 125                                                                85                     130      ns
+                         ns(1)
+
+                         Bit time on RXD output pins with tBIT(TXD) = 500 ns                                                                410                     540      ns
+ t                       Bit time on RXD output pins with t             = 200 ns     See Figure 6-4 , STB, SHDN = 0 V, RL =                 130                     210      ns
+  BIT(RXD)                                                     BIT(TXD)              60 Ω, CL = 100 pF, CL(RXD) = 15 pF
+                         Bit time on RXD output pins with tBIT(TXD) = 125 ns(1)                                                              75                     135      ns
+
+                         Receiver timing symmetry with tBIT(TXD) = 500 ns            See Figure 6-4 , STB, SHDN = 0 V, R         =          -50                      20      ns
+                                                                                                                               L
+ ΔtREC                   Receiver timing symmetry with tBIT(TXD) = 200 ns            60 Ω, CL = 100 pF, CL(RXD) = 15 pF                     -40                      10      ns
+                         Receiver timing symmetry with t              = 125 ns(1)    ΔtREC = tBIT(RXD) - tBIT(BUS)                          -40                      10      ns
+                                                             BIT(TXD)
+
+(1)     Min/Max limits based on characterization.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10       Submit Document Feedback                                                                                             Copyright © 2023 Texas Instruments Incorporated
+                                                              Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                                       TCAN3413, TCAN3414
+www.ti.com                                                                                                SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+5.10 Typical Characteristics
+
+
+         2.02                                                                               2.25
+         2.01                                                                                2.2
+            2                                                                               2.15
+         1.99                                                                                2.1
+         1.98                                                                               2.05
+         1.97                                                                                  2
+         1.96                                                                               1.95
+         1.95                                                                                1.9
+         1.94                                                                               1.85
+         1.93                                                                                1.8
+         1.92                                                                               1.75
+         1.91                                                                                1.7
+             -40    -20     0     20     40     60    80     100    120   140                   3         3.1       3.2       3.3        3.4       3.5        3.6
+                                    Temeprature (°C)                                                                Supply Voltage VCC   (V)
+             STB = GND                VCC = 3.3 V               RL = 60 Ω                    Temp = 25°C                STB = GND                   RL = 60 Ω
+                   Figure 5-1. VOD(DOM) vs Temperature                                                     Figure 5-2. VOD(DOM) vs VCC
+
+        10.4                                                                                8.4
+        10.2                                                                               8.35
+                                                                                            8.3
+          10                                                                               8.25
+          9.8                                                                               8.2
+                                                                                           8.15
+          9.6                                                                               8.1
+          9.4                                                                              8.05
+          9.2                                                                                 8
+                                                                                           7.95
+            9                                                                               7.9
+          8.8                                                                              7.85
+                                                                                            7.8
+          8.6                                                                              7.75
+            -40    -20    0     20    40    60    80    100   120    140   160                 -40   -20    0     20    40     60    80    100   120   140   160
+                                    Temeprature (°C)                                                                   Temeprature (C)
+             VCC = 3.3 V              STB = VCC                TCAN3414                        VCC = 3.3 V               VIO = 3.3 V            STB = VIO for
+                 Figure 5-3. ICC Standby vs Temperature                                                                                          TCAN3413
+                                                                                                    Figure 5-4. IIO Standby vs Temperature
+
+         135                                                                               28.5
+         130        tPROP(loop2)
+                    tPROP(loop1)                                                             28
+         125
+         120                                                                               27.5
+
+         115                                                                                 27
+         110                                                                               26.5
+         105
+         100                                                                                 26
+          95                                                                               25.5
+          90
+          85                                                                                 25
+
+          80                                                                               24.5
+            -40    -20     0     20     40     60     80     100    120    140                 0    500   1000  1500   2000  2500  3000   3500  4000  4500   5000
+                                    Temeprature (C)                                                                   Data rate (kbps)
+         VCC = VIO = 3.3 V           CL = 100 pF                RL = 60 Ω                      VCC = 3.3 V            TXD toggling for            RL = 60 Ω
+              Figure 5-5. Total Loop Delay vs Temperature                                                                TCAN3414
+                                                                                                           Figure 5-6. ICC vs Data Rate
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                              Submit Document Feedback               11
+                                                         Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                                   www.ti.com
+
+5.10 Typical Characteristics (continued)
+
+
+         75                                                                            64
+                   Rec to dom                                                          62        Rec to Dom
+         70        Dom to rec                                                                    Dom to Rec
+                                                                                       60
+         65                                                                            58
+                                                                                       56
+         60                                                                            54
+
+         55                                                                            52
+                                                                                       50
+         50                                                                            48
+
+         45                                                                            46
+                                                                                       44
+         40                                                                            42
+           -40   -20     0     20     40    60     80    100    120   140                -40    -20     0     20    40     60     80    100   120    140
+                                  Temeprature (C)                                                              Temperature (C)
+         VCC = VIO = 3.3 V          CL = 100 pF              RL = 60 Ω                 VCC = VIO = 3.3 V          CL = 100 pF              RL = 60 Ω
+        Figure 5-7. Driver Propagation Delay vs Temperature                          Figure 5-8. Receiver Propagation Delay vs Temperature
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12     Submit Document Feedback                                                                               Copyright © 2023 Texas Instruments Incorporated
+                                                      Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                 TCAN3413, TCAN3414
+www.ti.com                                                                              SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+6 Parameter Measurement Information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    Figure 6-1. ICC Test Circuit
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      Figure 6-2. Driver Test Circuit and Measurement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Figure 6-3. Receiver Test Circuit and Measurement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                         Submit Document Feedback        13
+                                               Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                      www.ti.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     Figure 6-4. Transmitter and Receiver Timing Test Circuit and Measurement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        Figure 6-5. tMODE Test Circuit and Measurement
+
+
+
+
+
+
+
+
+
+
+
+14     Submit Document Feedback                                                                    Copyright © 2023 Texas Instruments Incorporated
+                                                 Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                    TCAN3413, TCAN3414
+www.ti.com                                                                                 SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           Figure 6-6. TXD Dominant Timeout Test Circuit and Measurement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             Figure 6-7. Driver Short-Circuit Current Test and Measurement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                            Submit Document Feedback         15
+                                                Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                              www.ti.com
+
+7 Detailed Description
+7.1 Overview
+The TCAN341x devices are 3.3 V CAN FD transceivers with robust EMC performance. The devices are data
+rate agnostic making them backward compatible for supporting classical CAN applications while also supporting
+CAN FD networks up to 8 Mbps. The devices have standby mode support which puts the transceiver in
+low current consumption mode. Upon receiving valid wake-up pattern on CAN bus, the device signals to the
+micro-controller through the RXD pin. The MCU can then place the device in normal mode using STB pin.
+TCAN3414 supports ultra-low power shutdown mode where most of the internal blocks are disabled. This
+feature is optimized for battery-powered applications. TCAN3413 supports VIO pin for low voltage logic level
+interface. It can be interfaced to 1.8 V, 2.5 V or 3.3 V micro controllers.
+7.2 Functional Block Diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                   Figure 7-1. Block Diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16    Submit Document Feedback                                                               Copyright © 2023 Texas Instruments Incorporated
+                                              Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                 TCAN3413, TCAN3414
+www.ti.com                                                                              SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+7.3 Feature Description
+7.3.1 Pin Descripton
+
+7.3.1.1 TXD
+The TXD input is a logic-level signal from a CAN controller to the transceiver. The signal is referenced to VCC for
+the TCAN3414, or to VIO for the TCAN3413.
+7.3.1.2 GND
+GND is the ground pin of the transceiver. The pin must be connected to the PCB ground.
+7.3.1.3 VCC
+VCC provides the 3.3 V power supply to the CAN transceiver.
+7.3.1.4 RXD
+The RXD output is a logic-level signal from the CAN transceiver to the CAN controller. The signal is referenced
+to VCC for TCAN3414 and VIO for TCAN3413. For TCAN3413, the pin is only driven once VIO is present.
+When a CAN bus wake-up event takes place, RXD is driven low.
+7.3.1.5 VIO (TCAN3413 only)
+The VIO pin provides the digital I/O voltage to match the CAN controller voltage thus avoiding the requirement for
+a level shifter. It supports voltages from 1.7 V to 3.6 V providing a wide range of controller support.
+7.3.1.6 CANH and CANL
+The CANH and CANL pins are the CAN high and CAN low differential bus pins. These pins are internally
+connected to the CAN transmitter, receiver and the low-power wake-up receiver.
+7.3.1.7 STB (Standby)
+The STB pin is an input pin used for mode control of the transceiver. The STB pin can be supplied from either
+the system processor or from a static system voltage source. STB pin has default pull-up resistor on-chip. So if
+the pin is left floating or pulled high externally, device is in standby mode. If normal mode is the only intended
+mode of operation, the STB pin can be tied directly to GND.
+7.3.1.8 SHDN (Shutdown)
+The SHDN pin is only applicable to TCAN3414 and is used to put the device in ultra-low power mode. SHDN pin
+has an internal pull-down resistor on-chip, so if the pin is left floating, the device is in normal mode or standby
+mode depending on the state of STB pin. Pulling SHDN pin high externally puts the device in shutdown. All
+blocks (including low power wakeup receiver) are disabled in this mode. SHDN pin has higher priority compared
+to STB pin.
+7.3.2 CAN Bus States
+The CAN bus has two logical states during operation: recessive and dominant. See Figure 7-2 and Figure 7-3.
+A dominant bus state occurs when the bus is driven differentially and corresponds to a logic low on the TXD and
+RXD pins. A recessive bus state occurs when the bus is biased to roughly VCC/2 via the high-resistance internal
+input resistors (RIN) of the receiver and corresponds to a logic high on the TXD and RXD pins.
+A dominant state overwrites the recessive state during arbitration. Multiple CAN nodes may be transmitting a
+dominant bit at the same time during arbitration, and in this case the differential voltage of the bus is greater than
+the differential voltage of a single driver.
+The TCAN341x transceivers implement a low-power standby (STB) mode which enables a third bus state where
+the bus pins are weakly biased to ground via the high resistance internal resistors of the receiver. See Figure 7-2
+and Figure 7-3.
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                         Submit Document Feedback         17
+                                               Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                 www.ti.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                      Figure 7-2. Bus States
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     A - Normal Mode B - Standby Mode
+                      Figure 7-3. Simplified Recessive Common Mode Bias Unit and Receiver
+
+7.3.3 TXD Dominant Timeout (DTO)
+During normal mode, the only mode where the CAN driver is active, the TXD DTO circuit prevents the local
+node from blocking network communication in the event of a hardware or software failure where TXD is held
+dominant longer than the timeout period tTXD_DTO. The TXD DTO circuit is triggered by a falling edge on TXD.
+If no rising edge is seen before the timeout period of the circuit, tTXD_DTO, the CAN driver is disabled. This frees
+the bus for communication between other nodes on the network. The CAN driver is reactivated when a recessive
+signal is seen on the TXD pin, thus clearing the dominant time out. The receiver remains active and biased to
+approximately 1.9 V and the RXD output reflects the activity on the CAN bus during the TXD DTO fault.
+The minimum dominant TXD time allowed by the TXD DTO circuit limits the minimum possible transmitted data
+rate of the device. The CAN protocol allows a maximum of eleven successive dominant bits (on TXD) for the
+worst case, where five successive dominant bits are followed immediately by an error frame. The minimum
+transmitted data rate may be calculated using Equation 1 .
+
+     Minimum Data Rate = 11 bits / tTXD_DTO = 11 bits / 1.2 ms = 9.2 kbps                                                         (1)
+
+
+
+
+
+
+
+
+
+
+
+18    Submit Document Feedback                                                                  Copyright © 2023 Texas Instruments Incorporated
+                                               Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                 TCAN3413, TCAN3414
+www.ti.com                                                                              SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            Figure 7-4. Example Timing Diagram for TXD Dominant Timeout
+
+7.3.4 CAN Bus short-circuit current limiting
+The devices have several protection features that limit the short-circuit current when a CAN bus line is shorted.
+These include CAN driver current limiting in the dominant and recessive states, and TXD dominant state timeout
+which prevents permanently having the higher short-circuit current of a dominant state in case of a system fault.
+During CAN communication the bus switches between the dominant and recessive states, thus the short-circuit
+current may be viewed as either the current during each bus state or as a DC average current. When selecting
+termination resistors or a common-mode choke for the CAN design the average power rating, IOS(AVG), should
+be used. The percentage dominant is limited by the TXD DTO and the CAN protocol which has forced state
+changes and recessive bits due to bit stuffing, control fields, and interframe space. This makes sure there is a
+minimum amount of recessive time on the bus even if the data field contains a high percentage of dominant bits.
+The average short-circuit current of the bus depends on the ratio of recessive to dominant bits and their
+respective short-circuit currents. The average short-circuit current may be calculated using Equation 2.
+
+     IOS(AVG) = % Transmit x [(% REC_Bits x IOS(SS)_REC) + (% DOM_Bits x IOS(SS)_DOM)] + [% Receive x IOS(SS)_REC]                 (2)
+
+Where:
+•   IOS(AVG) is the average short-circuit current
+•   % Transmit is the percentage the node is transmitting CAN messages
+•   % Receive is the percentage the node is receiving CAN messages
+•   % REC_Bits is the percentage of recessive bits in the transmitted CAN messages
+•   % DOM_Bits is the percentage of dominant bits in the transmitted CAN messages
+•   IOS(SS)_REC is the recessive steady state short-circuit current
+•   IOS(SS)_DOM is the dominant steady state short-circuit current
+The short circuit current and the possible fault cases of the network should be taken into consideration when
+sizing the power supply used to generate the transceivers VCC supply.
+7.3.5 Thermal Shutdown (TSD)
+If the junction temperature of the devices exceed the thermal shutdown threshold, TTSD, the device turns off the
+CAN driver circuitry and blocks the TXD to bus transmission path. The shutdown condition is cleared when the
+junction temperature of the device drops below TTSD. The CAN bus pins are biased to ~ 1.9 V during a TSD
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                         Submit Document Feedback         19
+                                               Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                    www.ti.com
+
+fault and the receiver to RXD path remains operational. The TCAN341x TSD circuit includes hysteresis which
+prevents the CAN driver output from oscillating during a TSD fault.
+7.3.6 Undervoltage Lockout
+The supply pins, VCC and VIO, have undervoltage detection that places the device into a protected state. This
+protects the bus during an undervoltage event on either supply pin.
+                                         Table 7-1. Undervoltage Lockout - TCAN3414
+                VCC                          DEVICE STATE                             BUS                              RXD PIN
+              > UV                   Normal if STB = GND and SHDN                   Per TXD                           Mirrors bus
+                   VCC                            = GND
+
+              > UVVCC                Standby mode if STB = High and           Weak biased to GND              VCC, Remote wake request
+                                              SHDN = GND                                                      See Remote Wake Request
+                                                                                                            via Wake-Up Pattern (WUP) in
+                                                                                                                    Standby Mode
+              > UVVCC                Shutdown mode if SHDN = High             Weak biased to GND                          VCC
+              < UVVCC                           Protected                       High impedance                     High impedance
+
+                                         Table 7-2. Undervoltage Lockout - TCAN3413
+        VCC                VIO                  DEVICE STATE                          BUS                            RXD PIN
+     > UVVCC             > UVVIO                     Normal                         Per TXD                         Mirrors bus
+     < UVVCC             > UVVIO           STB = High: Standby Mode           Weak biased to GND             VIO: Remote wake request
+                                                                                                          See Remote Wake Request via
+                                                                                                        Wake-Up Pattern (WUP) in Standby
+                                                                                                                       Mode
+                                           STB =Low: Protected Mode             High impedance                       Recessive
+     > UVVCC             < UVVIO                    Protected                   High impedance                    High impedance
+     < UVVCC             < UVVIO                    Protected                   High impedance                    High impedance
+
+Once the undervoltage condition is cleared and tMODE or tSHDN2 has expired, the TCAN341x transitions to normal
+mode. The host controller again sends and receives CAN traffic.
+7.3.7 Unpowered Device
+For unpowered conditions, the            TCAN341x is designed to be a passive or no load to the CAN bus. This is
+because the bus pins were designed to have low leakage currents to not load the bus. This design consideration
+is critical if some nodes of the network are unpowered while the rest of the network remains operational.
+For unpowered scenario, the logic pins also have low leakage currents so they do not load other circuits which
+may remain powered.
+7.3.8 Floating pins
+The   TCAN341x devices have internal pull-up/pull-down resistors on critical pins which place the device into
+known states if the pin floats. This internal bias should not be relied upon by design though, especially in noisy
+environments, but instead should be considered a failsafe protection feature.
+When a CAN controller supporting open-drain outputs is used, an adequate external pull-up resistor must be
+chosen. This makes sure the TXD output of the CAN controller maintains acceptable bit time to the input of the
+CAN transceiver. See Table 7-3 for details on pin bias conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+20     Submit Document Feedback                                                                   Copyright © 2023 Texas Instruments Incorporated
+                                                Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                  TCAN3413, TCAN3414
+www.ti.com                                                                               SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+                                                          Table 7-3. Pin Bias
+           Pin             Pull-up or Pull-down                                           Comment
+           TXD                     Pull-up          Weakly biases TXD towards recessive to prevent bus blockage or TXD DTO triggering
+           STB                     Pull-up          Weakly biases STB towards low-power standby mode to prevent excessive system
+                                                    power
+          SHDN                   Pull-down          Weakly biases SHDN towards normal mode to allow normal communication. SHDN pin
+                                                    has higher priority than STB for TCAN3414.
+
+7.4 Device Functional Modes
+
+7.4.1 Operating Modes
+The   TCAN341x has two main operating modes; normal mode and standby mode. Operating mode selection
+is made by applying a high or low level to the STB pin.                    TCAN3414 has a third mode: shutdown activated
+through SHDN pin. Pulling SHDN pin high disables most internal blocks and puts the device in lowest power
+consumption mode.
+                                            Table 7-4. Operating Modes for STB pin
+       STB                  Device Mode                   Driver                   Receiver                           RXD Pin
+                                                                                                          High (recessive) until valid WUP
+                    Low current standby mode with                        Low-power receiver and bus                  is received
+       High                  bus wake-up                 Disabled               monitor enable              See Remote Wake Request
+                                                                                                           via Wake-Up Pattern (WUP) in
+                                                                                                                   Standby Mode
+       Low                  Normal Mode                  Enabled                   Enabled                        Mirrors bus state
+
+7.4.2 Normal Mode
+This is the normal operating mode of the TCAN341x. The CAN driver and receiver are fully operational and CAN
+communication is bi-directional. The driver is translating a digital input on the TXD input to a differential output
+on the CANH and CANL bus pins. The receiver is translating the differential signal from CANH and CANL to a
+digital output on the RXD output.
+7.4.3 Standby Mode
+This is the low-power mode of the              TCAN341x. The CAN driver and main receiver are switched off and bi-
+directional CAN communication is not possible. The low-power receiver and bus monitor circuits are enabled to
+allow for RXD wake-up requests via the CAN bus. A wake-up request is output to RXD as shown in Remote
+Wake Request via Wake-Up Pattern (WUP) in Standby Mode. The local CAN protocol controller should monitor
+RXD for transitions (high-to-low) and reactivate the device to normal mode by pulling the STB pin low. The CAN
+bus pins are weakly pulled to GND in this mode; see See Figure 7-2 and Figure 7-3.
+For TCAN3413 in standby mode, only the VIO supply is required; therefore, the VCC may be switched off for
+additional system level current savings.
+7.4.3.1 Remote Wake Request via Wake-Up Pattern (WUP) in Standby Mode
+The TCAN341x devices support a remote wake-up request that is used to indicate to the host controller that the
+bus is active and the node should return to normal operation.
+The device uses the multiple filtered dominant wake-up pattern (WUP) from the ISO 11898-2:2016 standard to
+qualify bus activity. Once a valid WUP has been received, the wake request is indicated to the controller by a
+falling edge and low period corresponding to a filtered dominant on the RXD output of the device.
+The WUP consists of a filtered dominant pulse, followed by a filtered recessive pulse, and finally by a second
+filtered dominant pulse. The first filtered dominant initiates the WUP, and the bus monitor then waits on a filtered
+recessive; other bus traffic does not reset the bus monitor. Once a filtered recessive is received the bus monitor
+is waiting for a filtered dominant and again, other bus traffic does not reset the bus monitor. Immediately upon
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                          Submit Document Feedback         21
+                                                Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                  www.ti.com
+
+reception of the second filtered dominant the bus monitor recognizes the WUP and drives the RXD output low
+every time an additional filtered dominant signal is received from the bus.
+For  a  dominant  or  recessive  to  be  considered  filtered,  the  bus  must  be  in  that  state  for  more  than  the
+tWK_FILTER time. Due to variability in tWK_FILTER the following scenarios are applicable. Bus state times less than
+tWK_FILTER(MIN) are never detected as part of a WUP and thus no wake request is generated. Bus state times
+between tWK_FILTER(MIN) and tWK_FILTER(MAX) may be detected as part of a WUP and a wake-up request may be
+generated. Bus state times greater than tWK_FILTER(MAX) are always detected as part of a WUP; therefore, a wake
+request is always generated. See Figure 7-5 for the timing diagram of the wake-up pattern.
+The pattern and tWK_FILTER time used for the WUP prevents noise and bus stuck dominant faults from causing
+false wake-up requests while allowing any valid message to initiate a wake-up request.
+The ISO 11898-2:2016 standard has defined times for a short and long wake-up filter time. The tWK_FILTER timing
+for the device has been picked to be within the minimum and maximum values of both filter ranges. This timing
+has been chosen such that a single bit time at 500 kbps, or two back-to-back bit times at 1 Mbps triggers the
+filter in either bus state. Any CAN frame at 500 kbps or less would contain a valid WUP.
+For an additional layer of robustness and to prevent false wake-ups, the device implements a wake-up timeout
+feature. For a remote wake-up event to successfully occur, the entire WUP must be received within the timeout
+value t ≤ tWK_TIMEOUT. If not, the internal logic is reset and the transceiver remains in its current state without
+waking up. The full pattern must then be transmitted again, conforming to the constraints mentioned in this
+section. See Figure 7-5 for the timing diagram of the wake-up pattern with wake timeout feature.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Figure 7-5. Wake-Up Pattern (WUP) with tWK_TIMEOUT
+
+7.4.4 Shutdown Mode
+This is the lowest power state of TCAN3414. All internal blocks including CAN driver, main receiver and low
+power wake-up receiver are switched off and bi-directional CAN communication is not possible. Wakeup over
+CAN bus is also not possible in this mode. CAN bus pins are weakly biased towards GND and RXD is high in
+this state,
+
+
+
+
+
+
+
+
+
+
+
+
+
+22    Submit Document Feedback                                                                   Copyright © 2023 Texas Instruments Incorporated
+                                               Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                          TCAN3413, TCAN3414
+www.ti.com                                                                                      SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+7.4.5 Driver and Receiver Function
+The TCAN341x logic I/O supports CMOS levels with respect to either VCC for 3.3-V systems (TCAN3414) or VIO
+(TCAN3413) for compatibility with MCUs that support 1.8-V, 2.5-V, or 3.3-V systems.
+                                                     Table 7-5. Driver Function Table
+
+                                           (1)                                     Bus Outputs                                                  (2)
+   Device Mode                  TXD Input                             CANH                            CANL                   Driven Bus State
+
+      Normal                         Low                               High                            Low                         Dominant
+                                High or open                     High impedance                  High impedance                Biased recessive
+      Standby                         X                          High impedance                  High impedance                Biased to ground
+     Shutdown                         X                          High impedance                  High impedance                Biased to ground
+
+(1)    X = irrelevant
+(2)    For bus state and bias See Figure 7-2 andFigure 7-3 .
+                               Table 7-6. Receiver Function Table Normal and Standby Mode
+        Device Mode                 CAN Differential Inputs VID = VCANH – VCANL                 Bus State                      RXD Pin
+                                                      VID ≥ 0.9 V                               Dominant                         Low
+           Normal                                 0.5 V < VID < 0.9 V                           Undefined                     Undefined
+                                                      VID ≤ 0.5 V                               Recessive                        High
+                                                      VID ≥ 1.15 V                              Dominant                         High
+           Standby                               0.4 V < VID < 1.15 V                           Undefined            Low if a remote wake event
+                                                      V    ≤ 0.4 V                              Recessive             occurred See Figure 7-5
+                                                        ID
+             Any                                   Open (VID ≈ 0 V)                                Open                          High
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                                  Submit Document Feedback           23
+                                                   Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                   www.ti.com
+
+8 Application and Implementation
+
+                                                                   Note
+       Information  in  the  following  applications  sections  is  not  part  of  the  TI  component  specification,
+       and  TI  does  not  warrant  its  accuracy  or  completeness.  TI’s  customers  are  responsible  for
+       determining suitability of components for their purposes, as well as validating and testing their design
+       implementation to confirm system functionality.
+
+8.1 Application Information
+The TCAN341x transceivers can be used in applications with a host controller or FPGA that includes the link
+layer portion of the CAN protocol. Figure 8-1 shows a typical configuration for 3.3-V controller applications. The
+bus termination is shown for illustrative purposes.
+8.2 Typical Application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            Figure 8-1. Transceiver Application Using 3.3-V I/O Connections
+
+8.2.1 Design Requirements
+8.2.1.1 CAN Termination
+Termination may be a single 120-Ω resistor at each end of the bus, either on the cable or in a terminating node.
+If filtering and stabilization of the common-mode voltage of the bus is desired then split termination may be used,
+see   Figure 8-2. Split termination improves the electromagnetic emissions behavior of the network by filtering
+higher-frequency common-mode noise that may be present on the differential signal lines.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24     Submit Document Feedback                                                                  Copyright © 2023 Texas Instruments Incorporated
+                                                Product Folder Links: TCAN3413 TCAN3414
+                                                                                                              TCAN3413, TCAN3414
+www.ti.com                                                                            SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        Figure 8-2. CAN Bus Termination Concepts
+
+8.2.2 Detailed Design Procedures
+8.2.2.1 Bus Loading, Length and Number of Nodes
+A typical CAN application may have a maximum bus length of 40 meters and maximum stub length of 0.3 m.
+However, with careful design, users can have longer cables, longer stub lengths, and many more nodes to a
+bus. A high number of nodes requires a transceiver with high input impedance such as the TCAN341x.
+Many CAN organizations and standards have scaled the use of CAN for applications outside the original ISO
+11898-2 standard. The organizations made system level trade off decisions for data rate, cable length, and
+parasitic loading of the bus. Examples of these CAN systems level specifications are ARINC 825, CANopen,
+DeviceNet, SAE J2284, SAE J1939, and NMEA 2000.
+A  CAN  network  system  design  is  a  series  of  tradeoffs.  In  the  ISO  11898-2:2016  specification  the  driver
+differential output is specified with a bus load that can range from 50 Ω to 65 Ω where the differential output must
+be greater than 1.5 V. The TCAN341x family is specified to meet the 1.5-V requirement down to 50 Ω and is
+specified to meet 1.4-V differential output at 45-Ω bus load. The differential input resistance of the TCAN341x
+is a minimum of 22 kΩ. If 55 TCAN341x transceivers are in parallel on a bus, this is equivalent to a 400-Ω
+differential load in parallel with the nominal 60-Ω bus termination which gives a total bus load of approximately
+52 Ω. Therefore, the TCAN341x family theoretically supports over 50 transceivers on a single bus segment.
+However, for a CAN network design margin must be given for signal loss across the system and cabling,
+parasitic loadings, timing, network imbalances, ground offsets, and signal integrity thus a practical maximum
+number of nodes is often lower. Bus length may also be extended beyond 40 meters by careful system design
+and data rate tradeoffs. For example, CANopen network design guidelines allow the network to be up to 1 km
+with changes in the termination resistance, cabling, less than 64 nodes and significantly lowered data rate.
+This flexibility in CAN network design is one of the key strengths of the various extensions and additional
+standards that have been built on the original ISO 11898-2 CAN standard. However, when using this flexibility,
+the CAN network system designer must take the responsibility of good network design to for robust network
+operation.
+See the application report         SLLA270: Controller Area Network Physical layer requirements. This document
+discusses in detail all system design physical layer parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                       Submit Document Feedback        25
+                                              Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                 www.ti.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  Figure 8-3. Typical CAN Bus
+
+8.2.3 Application Curves
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           VCC = 3.3 V         VIO = 3.3 V           RL = 60 Ω                 VCC = 3.3 V          VIO = 3.3 V          RL = 60 Ω
+  Figure 8-4. TXD_CANH_CANL_RXD waveforms for                         Figure 8-5. TXD_CANH_CANL_Vod waveforms for
+               60ohm load at 5Mbps toggling                                        60ohm load at 5Mbps toggling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      VCC = 3.3 V                                 VIO = 3.3 V                                 RL = 60 Ω
+                      Figure 8-6. TXD_Vod_RXD waveforms for 60ohm load at 5Mbps toggling
+
+
+
+
+
+
+
+
+
+26    Submit Document Feedback                                                                 Copyright © 2023 Texas Instruments Incorporated
+                                               Product Folder Links: TCAN3413 TCAN3414
+                                                                                                               TCAN3413, TCAN3414
+www.ti.com                                                                             SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+8.3 System Examples
+The TCAN341x CAN transceiver is typically used in applications with a host controller or FPGA that includes the
+link layer portion of the CAN protocol. A 1.8-V or 2.5-V application is shown in Figure 8-7. The bus termination is
+shown for illustrative purposes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Figure 8-7. Typical Transceiver Application Using 1.8-V, 2.5-V I/O Connections
+
+8.3.1 ISO 11898-2 Compatibility of TCAN341x Family of 3.3-V CAN Transceivers
+8.3.1.1 Introduction
+Many users value the low power consumption of operating their CAN transceivers from a 3.3-V supply. However,
+some are concerned about the interoperability with 5 V supplied transceivers on the same bus. This section tries
+to address those concerns.
+8.3.1.2 Differential Signal
+CAN is a differential bus where complementary signals are sent over two wires and the voltage difference
+between the two wires defines the logical state of the bus. The differential CAN receiver monitors this voltage
+difference and outputs the bus state with a single ended logic level output signal.
+The CAN driver creates the differential voltage between CANH and CANL in the dominant state. The dominant
+differential output of the     TCAN341x is greater than 1.5 V and less than 3 V across a 60-Ω load as defined
+by the ISO 11898-2 standard. These are the same limiting values for 5 V supplied CAN transceivers. The bus
+termination resistors drive the recessive bus state and not the CAN driver.
+A CAN receiver is required to output a recessive state when less than 500 mV of differential voltage exists on the
+bus, and a dominant state when more than 900 mV of differential voltage exists on the bus. The CAN receiver
+must do this with common-mode input voltages from –12 V to 12 V. The TCAN341x device receivers meet and
+exceed these receiver input specifications.
+8.3.1.3 Common-Mode Signal
+A common-mode signal is an average voltage of the two signal wires that the differential receiver rejects. The
+common-mode signal comes from the CAN driver, ground noise, and coupled bus noise. The TCAN341x family
+has the recessive bias voltage set to 1.9V. This is intentional to match the common mode of recessive output
+with the common mode of dominant output signal from TCAN341x. Furthermore, TCAN341x has special design
+techniques for optimum EMC performance in a heterogeneous bus consisting of                             TCAN341x and 5 V CAN
+transceivers.
+
+
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                       Submit Document Feedback        27
+                                              Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                               www.ti.com
+
+8.3.1.4 Interoperability of 3.3-V CAN in 5-V CAN Systems
+The 3.3-V supplied TCAN341x family of CAN transceivers are fully compatible with 5-V CAN transceivers. The
+minimum differential output voltage is the same, and the receivers have the same input threshold specifications.
+The only difference is in the recessive common mode output voltage which is little lower for 3.3-V CAN
+transceiver than 5-V supplied transceiver. But this does not impact regular functionality. Furthermore, special
+design techniques in       TCAN341x provide optimum EMC performance in heterogeneous network consisting of
+TCAN341x and 5 V supplied CAN transceivers on same CAN bus.
+8.4 Power Supply Recommendations
+The TCAN3414 transceiver is designed to operate with a main VCC input voltage supply range between 3 V and
+3.6 V.
+The TCAN3413 implements an I/O level shifting supply input, VIO, designed for a range between 1.8 V and
+3.6 V.
+Both the VCC and VIO inputs must be well regulated. In addition to the power supply filtering a decoupling
+capacitance, typically 100 nF, should be placed near the CAN transceiver main VCC and VIO supply pins.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28    Submit Document Feedback                                                                Copyright © 2023 Texas Instruments Incorporated
+                                              Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                  TCAN3413, TCAN3414
+www.ti.com                                                                                SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023
+
+8.5 Layout
+Robust and reliable CAN node designs may require special layout techniques depending on the application
+and design requirements. Since transient disturbances have high frequency content and a wide bandwidth,
+high-frequency layout techniques should be applied during PCB design.
+8.5.1 Layout Guidelines
+•   Place the protection and filtering circuitry close to the bus connector, J1, to prevent transients, ESD, and
+    noise from propagating onto the board. This layout example shows an optional transient voltage suppression
+    (TVS) diode, D1, which may be implemented if the system-level requirements exceed the specified rating of
+    the transceiver. This example also shows optional bus filter capacitors C4 and C5.
+•   Design the bus protection components in the direction of the signal path. Do not force the transient current to
+    divert from the signal path to reach the protection device.
+•   Decoupling capacitors should be placed as close as possible to the supply pins VCC and VIO of transceiver.
+•   Use at least two vias for supply and ground connections of bypass capacitors and protection devices to
+    minimize trace and via inductance.
+
+                                                                     Note
+           High-frequency current follows the path of least impedance and not the path of least resistance.
+•   This layout example shows how split termination could be implemented on the CAN node. The termination
+    is split into two resistors, R2 and R3, with the center or split tap of the termination connected to ground via
+    capacitor C3. Split termination provides common mode filtering for the bus. See Section 8.2.1.1, and Section
+    7.3.4 for information on termination concepts and power ratings needed for the termination resistor(s).
+8.5.2 Layout Example
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    Figure 8-8. Layout Example
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023 Texas Instruments Incorporated                                                           Submit Document Feedback         29
+                                                Product Folder Links: TCAN3413 TCAN3414
+TCAN3413, TCAN3414
+SLLSFS8A – MARCH 2023 – REVISED NOVEMBER 2023                                                                                     www.ti.com
+
+9 Device and Documentation Support
+9.1 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on                                ti.com. Click on
+Notifications to register and receive a weekly digest of any product information that has changed. For change
+details, review the revision history included in any revised document.
+9.2 Support Resources
+TI E2E™ support forums are an engineer's go-to source for fast, verified answers and design help — straight
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do
+not necessarily reflect TI's views; see TI's Terms of Use.
+9.3 Trademarks
+TI E2E™ is a trademark of Texas Instruments.
+All trademarks are the property of their respective owners.
+9.4 Electrostatic Discharge Caution
+                   This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled
+                   with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+                   ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may
+                   be more susceptible to damage because very small parametric changes could cause the device not to meet its published
+                   specifications.
+
+9.5 Glossary
+ TI Glossary           This glossary lists and explains terms, acronyms, and definitions.
+
+10 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+
+Changes from Revision * (March 2023) to Revision A (November 2023)                                                                     Page
+•   Changed the document status from: Advanced Information to: Production data...............................................                1
+
+
+11 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most
+current data available for the designated devices. This data is subject to change without notice and revision of
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30     Submit Document Feedback                                                                    Copyright © 2023 Texas Instruments Incorporated
+                                                 Product Folder Links: TCAN3413 TCAN3414
+                                                                                                                                                                                       PACKAGE OPTION ADDENDUM
+
+
+
+    www.ti.com                                                                                                                                                                                                                                 8-Jan-2026
+
+
+
+PACKAGING INFORMATION
+
+    Orderable part number              Status      Material type         Package | Pins          Package qty | Carrier           RoHS               Lead finish/                MSL rating/                Op temp (°C)                  Part marking
+                                          (1)             (2)                                                                       (3)             Ball material               Peak reflow                                                     (6)
+                                                                                                                                                           (4)                        (5)
+        TCAN3413DDFR                    Active       Production      SOT-23-THIN (DDF) | 8         3000 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       2THF
+       TCAN3413DDFR.A                   Active       Production      SOT-23-THIN (DDF) | 8         3000 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       2THF
+          TCAN3413DR                    Active       Production            SOIC (D) | 8            2500 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       34X3
+        TCAN3413DR.A                    Active       Production            SOIC (D) | 8            2500 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       34X3
+        TCAN3413DRBR                    Active       Production           SON (DRB) | 8            3000 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       3413
+       TCAN3413DRBR.A                   Active       Production           SON (DRB) | 8            3000 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       3413
+        TCAN3414DDFR                    Active       Production      SOT-23-THIN (DDF) | 8         3000 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       2TIF
+       TCAN3414DDFR.A                   Active       Production      SOT-23-THIN (DDF) | 8         3000 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       2TIF
+          TCAN3414DR                    Active       Production            SOIC (D) | 8            2500 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       34X4
+        TCAN3414DR.A                    Active       Production            SOIC (D) | 8            2500 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       34X4
+        TCAN3414DRBR                    Active       Production           SON (DRB) | 8            3000 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       3414
+       TCAN3414DRBR.A                   Active       Production           SON (DRB) | 8            3000 | LARGE T&R                Yes                 NIPDAU              Level-1-260C-UNLIM                -40 to 125                       3414
+
+(1) Status:  For more details on status, see our product life cycle.
+
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+
+
+
+                                                                                                                     Addendum-Page 1
+                                                                                                                                                                                                PACKAGE OPTION ADDENDUM
+
+
+
+    www.ti.com                                                                                                                                                                                                                                             8-Jan-2026
+
+
+
+
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                           Addendum-Page 2
+                                                                        PACKAGE MATERIALS INFORMATION
+
+
+
+
+
+
+www.ti.com                                                                                                                              16-Apr-2026
+
+TAPE AND REEL INFORMATION
+
+
+       REEL DIMENSIONS                                                           TAPE DIMENSIONS
+                                                                              K0      P1
+
+
+
+                                                                                                          B0   W
+
+                                        Reel
+                                      Diameter
+                                                                           Cavity         A0
+
+                                                         A0   Dimension designed to accommodate the component width
+                                                         B0   Dimension designed to accommodate the component length
+                                                         K0   Dimension designed to accommodate the component thickness
+                                                         W    Overall width of the carrier tape
+                                                         P1   Pitch between successive cavity centers
+
+
+                                       Reel Width (W1)
+                             QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+
+                                                                                           Sprocket Holes
+
+
+                                                Q1    Q2        Q1    Q2
+
+                                                Q3    Q4        Q3    Q4               User Direction of Feed
+
+
+
+                                                        Pocket Quadrants
+
+
+*All dimensions are nominal
+          Device            Package    Package    Pins    SPQ        Reel       Reel      A0      B0      K0       P1      W        Pin1
+                              Type     Drawing                    Diameter     Width     (mm)    (mm)    (mm)    (mm)     (mm)   Quadrant
+                                                                     (mm)    W1 (mm)
+     TCAN3413DDFR           SOT-23-      DDF        8     3000       180.0       8.4      3.2     3.2     1.4      4.0     8.0       Q3
+                              THIN
+      TCAN3413DR              SOIC         D        8     2500       330.0      12.5      6.4     5.2     2.1      8.0    12.0       Q1
+     TCAN3413DRBR             SON        DRB        8     3000       330.0      12.4      3.3     3.3     1.1      8.0    12.0       Q1
+     TCAN3414DDFR           SOT-23-      DDF        8     3000       180.0       8.4      3.2     3.2     1.4      4.0     8.0       Q3
+                              THIN
+      TCAN3414DR              SOIC         D        8     2500       330.0      12.5      6.4     5.2     2.1      8.0    12.0       Q1
+     TCAN3414DRBR             SON        DRB        8     3000       330.0      12.4      3.3     3.3     1.1      8.0    12.0       Q1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                               Pack Materials-Page 1
+                                                                   PACKAGE MATERIALS INFORMATION
+
+
+
+
+
+
+www.ti.com                                                                                                                    16-Apr-2026
+
+
+TAPE AND REEL BOX DIMENSIONS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                   Width (mm)  H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 W                                             L
+
+
+
+
+
+
+
+*All dimensions are nominal
+         Device              Package Type     Package Drawing     Pins     SPQ       Length (mm)    Width (mm)     Height (mm)
+     TCAN3413DDFR            SOT-23-THIN             DDF            8      3000         210.0           185.0          35.0
+      TCAN3413DR                 SOIC                 D             8      2500         353.0           353.0          32.0
+     TCAN3413DRBR                SON                 DRB            8      3000         356.0           356.0          36.0
+     TCAN3414DDFR            SOT-23-THIN             DDF            8      3000         210.0           185.0          35.0
+      TCAN3414DR                 SOIC                 D             8      2500         353.0           353.0          32.0
+     TCAN3414DRBR                SON                 DRB            8      3000         356.0           356.0          36.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                           Pack Materials-Page 2
+
+                                                                                                                                                                                                                               PACKAGE OUTLINE
+ DRB0008B                                                                                                                                                                                                                   VSON - 1 mm max height
+
+
+
+
+
+
+                                                                                                                                                           SCALE  4.000
+                                                                                                                                                                                                                                 PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+                                                                           A                                                                                                                                                                                                                                                                             3.1B
+                                                                                                                              2.9
+
+
+
+
+
+
+                               PIN 1 INDEX AREA
+                                                                                                                                                                                    3.1
+                                                                                                                                                                                    2.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                       C
+                                                       1 MAX
+
+                                                                                                                                                                                                                SEATING PLANE
+                                                            0.05                                                                                                                                             0.08               C
+                                                            0.00
+
+
+
+
+                                                         EXPOSED                                                     1.65          0.05                                                                                                                                      (0.2) TYP
+                                              THERMAL PAD
+
+
+                                                                                    4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               5
+
+
+
+                                                               2X
+                                                              1.95                                                                                                                    2.4        0.05
+
+
+
+
+                                                                                    1                                                                                      8
+
+                                                  6X           0.65
+                                                                                                                                                                                            8X 0.350.25
+                                                                      PIN 1 ID                                                                                                                         0.1             C               A               B
+                                                            (OPTIONAL)                                                                8X 0.50.3                                                        0.05               C
+
+
+
+
+                                                                                                                                                                                                                                                                              4218876/A   12/2017
+NOTES:
+
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. The package thermal pad must be soldered to the printed circuit board for thermal and mechanical performance.
+
+
+
+
+
+
+
+                                                                                                                                                          www.ti.com
+                                                                                      EXAMPLE BOARD LAYOUT
+DRB0008B                                                                                            VSON - 1 mm max height
+
+                                                                                                      PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+
+
+                                                                    (1.65)
+
+                              8X (0.6)                             SYMM
+
+                                         1
+                                                                                                    8
+
+
+                          8X (0.3)
+
+
+                                                                                                               (2.4)
+
+
+                                                                                                       (0.95)
+                            6X (0.65)
+                                         4
+                                                                                                   5
+                       (R0.05) TYP
+                                                                        (0.575)
+                               (  0.2) VIA                          (2.8)
+                               TYP
+
+                                                     LAND PATTERN EXAMPLE
+                                                                 SCALE:20X
+
+
+
+
+
+
+
+                                           0.07 MAX                                                     0.07 MIN
+                                           ALL AROUND                                                   ALL AROUND
+
+
+
+
+
+
+                 SOLDER MASK                       METAL                      METAL UNDER                       SOLDER MASK
+                 OPENING                                                      SOLDER MASK                       OPENING
+                                 NON SOLDER MASK                                                 SOLDER MASK
+                                       DEFINED                                                      DEFINED
+                                    (PREFERRED)
+                                                          SOLDER MASK DETAILS
+
+
+
+
+                                                                                                                           4218876/A   12/2017
+
+NOTES: (continued)
+
+4. This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature
+    number SLUA271 (www.ti.com/lit/slua271).
+5. Vias are optional depending on application, refer to device data sheet. If any vias are implemented, refer to their locations shown
+    on this view. It is recommended that vias under paste be filled, plugged or tented.
+
+
+
+
+
+
+
+
+
+                                                                      www.ti.com
+                                                                                                                                                                                                           EXAMPLE STENCIL DESIGN
+ DRB0008B                                                                                                                                                                                                                                       VSON - 1 mm max height
+
+                                                                                                                                                                                                                                                     PLASTIC SMALL OUTLINE - NO LEAD
+
+
+
+
+
+
+
+
+
+
+
+
+                                                               8X (0.6)                                                                                                 SYMM                                              METAL
+                                                                                                                                                                                                                          TYP
+                                                                                       1
+
+                                                                8X (0.3)                                                                                                                                                                                            8
+
+
+
+
+                                                                                                                                                                                                                                                                              (0.63)
+                                                                    SYMM
+
+
+
+
+
+                                                          6X (0.65)                                                                                                                                                                                                                   (1.06)
+
+
+                                                                                       4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      5
+
+                                              (R0.05) TYP
+                                                                                                                                                                        (1.47)
+
+                                                                                                                                                                          (2.8)
+
+
+                                                                                                                                       SOLDER PASTE EXAMPLE
+                                                                                                                                  BASED ON 0.125 mm THICK STENCIL
+
+                                                                                                                                                               EXPOSED PAD
+                                                                                                                        81% PRINTED SOLDER COVERAGE BY AREA
+                                                                                                                                                                    SCALE:25X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                      4218876/A   12/2017
+
+NOTES: (continued)
+
+6. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                        www.ti.com
+                                                                                                                                                                                                                            PACKAGE OUTLINE
+ DDF0008A                                                                                                                                                                                SOT-23-THIN - 1.1 mm max height
+
+
+
+
+
+
+
+
+
+                                                                                                                                               SCALE  4.000
+                                                                                                                                                                                                                                                         PLASTIC SMALL OUTLINE
+
+
+
+
+                                                                                                                                                                                                                                                                       C
+                                                                                   2.95                                                                                                                              SEATING PLANE
+                                                                                   2.65 TYP
+                        A                                                                           PIN 1 ID                                                                                                                                               0.1               C
+                                                                                                    AREA
+
+
+                                                                                                                                                                    6X           0.65
+                                      1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   8
+
+
+
+
+                     2.95                                                                                                                                              2X
+                     2.85                                                                                                                                            1.95
+                 NOTE 3
+
+
+
+
+
+                                      4                                                                                                                                                                           4X 0         -15
+                                                                                                                                           5
+                                                                                                                                                               8X 0.380.22
+                                                   B                                                                                                                                                                                                   1.650.1C               A               B
+                                                                                        1.55                                                                                                                                                                       1.1
+                                                                                                                                                                                                                                                                 MAX
+
+
+                                                                                                                                           4X 4        -15
+
+
+
+                                                                                                                                                                   0.20
+                                                                                                                                                                   0.08 TYP
+
+
+
+
+                                                                                             SEE DETAIL A
+
+                                                                                                                                                                                   0.25
+                                                                                                                                                            GAGE PLANE
+
+
+
+                                                                                                                                                                                                0     - 8                                                                                               0.1
+                                                                                                                                                                                                                                         0.6                                                            0.0
+                                                                                                                                                                                                                                         0.3
+                                                                                                                                                                                                                                                             DETAIL A
+                                                                                                                                                                                                                                                                 TYPICAL
+
+                                                                                                                                                                                                                                                                           4222047/E   07/2024
+
+NOTES:
+
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side.
+
+
+
+
+
+
+
+                                                                                                                                                         www.ti.com
+                                                                                                                                                 EXAMPLE BOARD LAYOUT
+DDF0008A                                                                                                                                       SOT-23-THIN - 1.1 mm max height
+
+                                                                                                                                                                                                 PLASTIC SMALL OUTLINE
+
+
+
+
+
+
+
+
+
+
+
+                                                                 8X (1.05)                                             SYMM
+
+                                                                                    1
+
+                                                                                                                                                                    8
+
+                                                          8X (0.45)
+                                                                                                                                                                           SYMM
+
+
+
+                                                                6X (0.65)
+
+                                                                                    4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   5
+
+                                                               (R0.05)
+                                                               TYP                                                       (2.6)
+
+                                                                                                LAND PATTERN EXAMPLE
+                                                                                                      EXPOSED METAL SHOWN
+                                                                                                                    SCALE:15X
+
+
+
+
+
+
+
+
+
+
+                                 SOLDER MASK                                        METAL                                            METAL UNDER                                            SOLDER MASK
+                                 OPENING                                                                                             SOLDER MASK                                            OPENING
+
+
+
+
+                                    0.05 MAX                                         EXPOSED                                                0.05 MIN                                     EXPOSED
+                             ALL AROUND                                              METAL                                         ALL AROUND                                            METAL
+
+
+                                                      NON SOLDER MASK                                                                                             SOLDER MASK
+                                                                DEFINED                                                                                                DEFINED
+
+                                                                                             SOLDER MASK DETAILS
+
+
+
+                                                                                                                                                                                                               4222047/E   07/2024
+NOTES: (continued)
+
+4. Publication IPC-7351 may have alternate designs.
+5. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                      www.ti.com
+                                                                                                                                                                       EXAMPLE STENCIL DESIGN
+DDF0008A                                                                                                                                                                SOT-23-THIN - 1.1 mm max height
+
+                                                                                                                                                                                                                                  PLASTIC SMALL OUTLINE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                           8X (1.05)                                                        SYMM
+                                                                                                  1                                                                                                         (R0.05) TYP
+
+                                                                                                                                                                                                8
+
+                                                                     8X (0.45)
+                                                                                                                                                                                                        SYMM
+
+
+
+                                                                           6X (0.65)
+
+                                                                                                  4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   5
+
+                                                                                                                                              (2.6)
+
+                                                                                                                        SOLDER PASTE EXAMPLE
+                                                                                                             BASED ON 0.125 mm THICK STENCIL
+                                                                                                                                        SCALE:15X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                  4222047/E   07/2024
+NOTES: (continued)
+
+6. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.
+7. Board assembly site may have different recommendations for stencil design.
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                          www.ti.com
+                                                                                                                                                                                                           PACKAGE OUTLINE
+D0008A                                                                                                                                                                                           SOIC - 1.75 mm max height
+
+
+
+
+                                                                                                                                          SCALE  2.800
+                                                                                                                                                                                                       SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+                                                                                                                                                                                                                                                            C
+
+                                                                                                                                                                                                                    SEATING PLANE
+                                                                          .228-.244                 TYP
+                                                                          [5.80-6.19]                                                                                                                                              .004 [0.1]               C
+                    A                                                                         PIN 1 ID AREA
+                                                                                                                                                                 6X           .050
+                                                                                                                                                                         [1.27]
+                                     1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           8
+
+
+
+
+           .189-.197                                                                                                                                              2X
+           [4.81-5.00]                                                                                                                                         .150
+              NOTE 3                                                                                                                                           [3.81]
+
+
+                                                                                                                                                                                                         4X (0        -15      )
+                                     4
+                                                                                                                                              5
+                                                                                                                                                              8X .012-.020
+                                            B                                                                                                                                                                                                           .150-.157     [0.31-0.51].069 MAX
+                                                                                [3.81-3.98]                                                                  .010 [0.25]                    C               A               B                       [1.75]
+                                                                                  NOTE 4
+
+
+
+
+
+
+                                                                                                                                                                 .005-.010                 TYP
+                                                                                                                                                                 [0.13-0.25]
+
+
+                                                                                 4X (0        -15      )
+
+                                         SEE DETAIL A
+                                                                                                                                                        .010
+                                                                                                                                                        [0.25]
+
+
+
+
+                                                                                                                                                  0    - 8                                                                                                 .004-.010
+                                                                                                                                                                                                                                                           [0.11-0.25]
+                                                                                                                                                             .016-.050
+                                                                                                                                                             [0.41-1.27]                                                         DETAIL A
+                                                                                                                                                                                                 (.041)                             TYPICAL
+                                                                                                                                                                                                  [1.04]
+
+                                                                                                                                                                                                                                                      4214825/C   02/2019
+
+NOTES:
+
+1. Linear dimensions are in inches [millimeters]. Dimensions in parenthesis are for reference only. Controlling dimensions are in inches.
+    Dimensioning and tolerancing per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed .006 [0.15] per side.
+4. This dimension does not include interlead flash.
+5. Reference JEDEC registration MS-012, variation AA.
+
+
+
+
+
+                                                                                                                                            www.ti.com
+                                                                                                                                                   EXAMPLE BOARD LAYOUT
+D0008A                                                                                                                                                               SOIC - 1.75 mm max height
+
+                                                                                                                                                                          SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+
+
+
+                                                            8X (.061                )
+                                                                   [1.55]                                             SYMM                                               SEE
+                                                                                 1                                                                                       DETAILS
+
+                                                                                                                                                                    8
+
+                                                       8X (.024)
+                                                              [0.6]                                                                                                         SYMM
+
+
+
+
+                                                                                                                                                                                (R.002                ) TYP
+                                                                                                                                                                                    [0.05]
+                                              6X (.050                )          4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            5
+                                                      [1.27]                                                          (.213)
+                                                                                                                        [5.4]
+
+                                                                                             LAND PATTERN EXAMPLE
+                                                                                                   EXPOSED METAL SHOWN
+                                                                                                                  SCALE:8X
+
+
+
+
+
+
+
+
+
+                                       METAL                                           SOLDER MASK                                   SOLDER MASK                                                        METAL UNDER
+                                                                                       OPENING                                                 OPENING                                                  SOLDER MASK
+
+
+
+                      EXPOSED                                                                                                     EXPOSED
+                            METAL                                                                                                       METAL
+                                                                 .0028 MAX                                                                                                      .0028 MIN
+                                                                 [0.07]                                                                                                         [0.07]
+                                                                 ALL AROUND                                                                                                     ALL AROUND
+
+                                                   NON SOLDER MASK                                                                                                      SOLDER MASK
+                                                              DEFINED                                                                                                         DEFINED
+
+                                                                                                     SOLDER MASK DETAILS
+
+
+
+
+
+                                                                                                                                                                                                                  4214825/C   02/2019
+
+NOTES: (continued)
+
+6. Publication IPC-7351 may have alternate designs.
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+
+
+
+
+
+
+
+
+
+
+                                                                                                                        www.ti.com
+                                                                                                                                                                         EXAMPLE STENCIL DESIGN
+D0008A                                                                                                                                                                                           SOIC - 1.75 mm max height
+
+                                                                                                                                                                                                       SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+
+
+
+
+
+
+                                                                             8X (.061                )
+                                                                                     [1.55]                                                       SYMM
+
+                                                                                                       1
+                                                                                                                                                                                                        8
+
+                                                                       8X (.024)[0.6]
+                                                                                                                                                                                                                 SYMM
+
+
+
+
+                                                                                                                                                                                                                     (R.002                ) TYP
+                                                                                                                                                                                                                          [0.05]
+                                                               6X (.050                )               4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           5
+                                                                        [1.27]
+                                                                                                                                                  (.213)
+                                                                                                                                                    [5.4]
+
+                                                                                                                     SOLDER PASTE EXAMPLE
+                                                                                                    BASED ON .005 INCH [0.125 MM] THICK STENCILSCALE:8X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                     4214825/C   02/2019
+
+NOTES: (continued)
+
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.
+9. Board assembly site may have different recommendations for stencil design.
+
+
+
+
+
+
+
+
+
+                                                                                                                                            www.ti.com
+                                            IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS”
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale,                      TI’s General Quality Guidelines, or other applicable terms available either on
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+
+
+                                                    Copyright © 2026, Texas Instruments Incorporated
+                                                                    Last updated 10/2025

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "revision": "A1-Drawing",
+  "reviewed_utc": "2026-09-16T05:26:54.448434+00:00",
+  "pdf_sha256": "f124bee46b73a233a7221c3680a0d56fb6fa66c944e64c649c3499c4cce41d10",
+  "pages": 12,
+  "method": "All twelve Poppler page renders visually inspected. Final pages 3,6,8,10,11,12 re-inspected after field corrections; other six final renders pixel-identical to reviewed pages. Native hierarchy opened successfully in KiCad 9.0.4.",
+  "checks": [
+    "Local power, analog and interface paths drawn with wires and junctions",
+    "Grouped components and explicit feedback/bias/termination loops",
+    "Reference and value spacing, DNP markings and title-block clearance",
+    "Distinct Kelvin force/sense and local capacitor returns",
+    "Navigable overview and sheet numbering",
+    "Full physical connectivity and BOM separately validated against frozen A0"
+  ],
+  "render_sha256": {
+    "1": "739034b5308ac8229358312926283fc69697fc5480663f5bb5f3e6d4636a51e0",
+    "2": "448a20a84399ac06eee00bdc07f9ffa12bc7b6acfe806f4e20ddc3c738e369aa",
+    "3": "7f2d730d76aae577b399c00d5fdbd1c4f49289b1346f4cd63aae1644eab1268d",
+    "4": "5b3e92c8b918102991e6c12305e93e4aab6af1a41e2ad2e6b85f52222a0f6ad1",
+    "5": "a6309a739958a7afad739e4377818fca1a81a992bd6c1ec1d36d152f5e210c98",
+    "6": "1ce2f82d25dd2a51220f40be16b96e48594c3bede23587776192859b9f68116b",
+    "7": "0abd9ecc172aab992926fdfc9f184a3807ac251a5d01ba896eab90ad3436bf09",
+    "8": "57d8e6b4c1f91b6c0db089aec0d2360461191fe54ee6497d114a66b8cceaf3ac",
+    "9": "f40e294e4bfebb34f476c3daf5183e82e01c0d763c40c422c86142d48aba6a2c",
+    "10": "b8980068b4f8689d9c96d39cac485e1c2700b62abb1b442bcbbd11b9d6c29529",
+    "11": "d353dbcd23a1694fc3abfd5e5f55cc74c3693b23a782bd284642072022a035e5",
+    "12": "2be578d75be62f9a3d58934ab55f776b6b2652ffd06929996450499ec2a810ae"
+  }
+}

@@ -1,0 +1,21 @@
+* Auto-generated testbench for RC filter: R711/C711
+* Type: low-pass, expected fc = 15915.5 Hz
+* Model: ideal passives (exact for RC)
+
+
+R711 NTC_A_RAW NTC_PHASE_A 1k
+
+C711 NTC_PHASE_A 0 10n
+
+* AC stimulus
+VAC NTC_A_RAW 0 DC 0 AC 1
+
+.control
+ac dec 100 159.2 1.592Meg
+meas ac fc_sim when vdb(NTC_PHASE_A)=-3
+meas ac phase_fc find vp(NTC_PHASE_A) at=fc_sim
+echo "fc_sim=$&fc_sim phase_fc=$&phase_fc has_parasitics=0" > ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/spice_work/rc-filter_R711_C711.out
+quit
+.endc
+
+.end

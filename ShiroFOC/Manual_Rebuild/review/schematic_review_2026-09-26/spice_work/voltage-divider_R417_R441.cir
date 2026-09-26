@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R417/R441
+* Expected Vout = 3.3 * 0.982456 = 3.2421 V
+* Model: ideal passives (exact, unloaded)
+
+VIN __unnamed_12 0 DC 3.3
+R417 __unnamed_12 OPP_U1 1k
+R441 OPP_U1 0 56k
+
+.control
+op 
+let vout_sim = v(OPP_U1)
+let error_pct = abs(vout_sim - 3.2421048) / 3.2421048 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=3.2421048" > ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/spice_work/voltage-divider_R417_R441.out
+quit
+.endc
+
+.end

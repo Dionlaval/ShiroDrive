@@ -1,0 +1,3485 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b9488642-7f4f-4798-ab4b-17cee946a267")
+	(paper "A4")
+	(title_block
+		(title "CAN / CAN-FD interface")
+		(date "2026-09-16")
+		(rev "A1-Drawing")
+		(company "ShiroFOC")
+		(comment 1 "Same A0 circuit; connected functional drawing"))
+	(lib_symbols
+		(symbol "Manual:COMP_C801"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C801"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C801_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_C802"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C802"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C802_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_D801"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_D801"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_D801_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin passive line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "CANH_IN"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 5.08 10.16 270)
+					(length 5.08)
+					(name "CANL_IN"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_J801"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_J801"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_J801_1_1"
+				(rectangle
+					(start -8.89 15.24)
+					(end 8.89 -15.24)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin passive line
+					(at -13.97 11.43 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -13.97 3.81 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -13.97 -3.81 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -13.97 -11.43 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_J802"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_J802"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_J802_1_1"
+				(rectangle
+					(start -8.89 15.24)
+					(end 8.89 -15.24)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin passive line
+					(at -13.97 11.43 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -13.97 3.81 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -13.97 -3.81 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at -13.97 -11.43 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_JP801"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_JP801"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_JP801_1_1"
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 1.27))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 1.27)
+						(xy -1.905 -1.27))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -1.27)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_R801"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R801"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R801_1_1"
+				(polyline
+					(pts
+						(xy -0.8255 1.905)
+						(xy -0.8255 -1.905)
+						(xy 0.8255 -1.905)
+						(xy 0.8255 1.905)
+						(xy -0.8255 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -1.905)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_R802"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R802"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R802_1_1"
+				(polyline
+					(pts
+						(xy -0.8255 1.905)
+						(xy -0.8255 -1.905)
+						(xy 0.8255 -1.905)
+						(xy 0.8255 1.905)
+						(xy -0.8255 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -1.905)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_R803"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R803"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R803_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -1.905 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -1.905 0.8255)
+						(xy 1.905 0.8255)
+						(xy 1.905 -0.8255)
+						(xy -1.905 -0.8255)
+						(xy -1.905 0.8255))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.905 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_R804"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R804"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R804_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -1.905 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -1.905 0.8255)
+						(xy 1.905 0.8255)
+						(xy 1.905 -0.8255)
+						(xy -1.905 -0.8255)
+						(xy -1.905 0.8255))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.905 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_R805"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R805"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R805_1_1"
+				(polyline
+					(pts
+						(xy -0.8255 1.905)
+						(xy -0.8255 -1.905)
+						(xy 0.8255 -1.905)
+						(xy 0.8255 1.905)
+						(xy -0.8255 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -1.905)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_TP1013"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1013"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1013_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_TP1014"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1014"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1014_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_TP1022"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1022"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1022_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:COMP_U801"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_U801"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_U801_1_1"
+				(rectangle
+					(start -17.78 25.4)
+					(end 17.78 -25.4)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin input line
+					(at -22.86 20.32 0)
+					(length 5.08)
+					(name "STB"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "8"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -22.86 7.62 0)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at -22.86 -5.08 0)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at -5.08 30.48 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at 0 -30.48 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at 5.08 30.48 270)
+					(length 5.08)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "5"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin bidirectional line
+					(at 22.86 10.16 180)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "7"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin bidirectional line
+					(at 22.86 -20.32 180)
+					(length 5.08)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "6"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:PWR_3V3"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "3V3"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "PWR_3V3_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27)
+						(xy 0 2.54)
+						(xy 1.27 1.27))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "Manual:PWR_GND"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.635)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "GND"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "PWR_GND_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27))
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no)))
+	(text "Both headers: 1 GND | 2 CANL | 3 CANH | 4 shield/drain. Pin 4 carries no supply."
+		(exclude_from_sim no)
+		(at 15.24 171.45 0)
+		(effects
+			(font
+				(size 1.143 1.143))
+			(justify left top))
+		(uuid "2a815e40-12b3-520d-9739-e0991beaf721"))
+	(text "R802 fitted on every board.\nClose JP801 only at a bus end.\nDefault: solder jumper OPEN."
+		(exclude_from_sim no)
+		(at 190.5 62.23 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "578bbeb5-461a-5f45-87a5-f9471f8a3c22"))
+	(text "CAN: controller -> transceiver -> protected daisy-chain bus"
+		(exclude_from_sim no)
+		(at 15.24 21.59 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left top))
+		(uuid "c06f5cef-84fa-56b4-b934-a4a002fd57cf"))
+	(text "Reset state: STB high -> standby; TX high -> recessive.\nConfigure FDCAN before taking STB low.\nPlace D801 next to the connectors; route CANH/CANL together."
+		(exclude_from_sim no)
+		(at 15.24 140.97 0)
+		(effects
+			(font
+				(size 1.143 1.143))
+			(justify left top))
+		(uuid "da77e4ef-3bc8-5844-b388-e9b74e2b75a6"))
+	(junction
+		(at 71.12 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d5b10c-9939-5aa9-8c6a-e44a8e59a397"))
+	(junction
+		(at 127 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0918c4ea-0639-5eff-ae94-7b57d2fe4faf"))
+	(junction
+		(at 184.15 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16522e20-0744-56eb-abed-6d2100614ee9"))
+	(junction
+		(at 194.31 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aa16dce-229f-5b5c-99f1-83050b3dfbf6"))
+	(junction
+		(at 218.44 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d8ffa64-1381-50ce-b06e-572c59432e92"))
+	(junction
+		(at 99.06 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40769b19-fc0c-5008-b9d4-abf2a5e0670e"))
+	(junction
+		(at 71.12 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fc7ebb7-98ee-5abf-babc-8369693660d4"))
+	(junction
+		(at 55.88 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78280ab9-5571-5bb1-86be-f1b2287c085a"))
+	(junction
+		(at 241.3 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "821349f8-d11a-51ef-aef3-5566d5adf8c6"))
+	(junction
+		(at 233.68 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d0ed0ab-da23-5754-a0b1-1a01afec2a4c"))
+	(junction
+		(at 109.22 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7b8c812-e67b-574a-97ea-8d8a4b34d50f"))
+	(junction
+		(at 218.44 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe0b389f-ba15-5174-97d2-603481fb188f"))
+	(wire
+		(pts
+			(xy 71.12 35.56)
+			(xy 86.36 35.56))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "00b1db60-7d77-5d5c-b536-8f15ca2725bc"))
+	(wire
+		(pts
+			(xy 25.4 95.25)
+			(xy 71.12 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "087697e5-89a4-5cb1-b3ed-c7112c2d8b9f"))
+	(wire
+		(pts
+			(xy 71.12 59.69)
+			(xy 71.12 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0b1f584b-f64a-5b3c-bd56-a05f984ee1f5"))
+	(wire
+		(pts
+			(xy 248.92 102.87)
+			(xy 248.92 158.75))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0b41fc15-d72a-5899-8fb8-cef4dc75a7ae"))
+	(wire
+		(pts
+			(xy 218.44 80.01)
+			(xy 218.44 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0bf84528-1816-51b2-b014-9704b3442c18"))
+	(wire
+		(pts
+			(xy 157.48 110.49)
+			(xy 194.31 110.49))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0d0c5079-c795-5a2c-88a2-72fb8baf7fd0"))
+	(wire
+		(pts
+			(xy 55.88 69.85)
+			(xy 81.28 69.85))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2912f2c4-beb6-509b-a2dd-9b437db001fd"))
+	(wire
+		(pts
+			(xy 233.68 135.89)
+			(xy 252.73 135.89))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "29f4dd19-823c-5892-94a2-a769fa38ec5a"))
+	(wire
+		(pts
+			(xy 218.44 110.49)
+			(xy 241.3 110.49))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2cb78ce2-5f32-5fb4-b404-45dc996a3370"))
+	(wire
+		(pts
+			(xy 127 110.49)
+			(xy 147.32 110.49))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2e05e9fb-4d38-5a93-b534-00c405328c7c"))
+	(wire
+		(pts
+			(xy 248.92 102.87)
+			(xy 252.73 102.87))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2e40eba6-1913-558f-ba0b-492c9ab06068"))
+	(wire
+		(pts
+			(xy 218.44 107.95)
+			(xy 218.44 110.49))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "36beaf4b-c0f9-5004-a4d6-507f6b072d4a"))
+	(wire
+		(pts
+			(xy 71.12 82.55)
+			(xy 81.28 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3fa6dba2-a40a-5a8a-96d4-d416cc39112b"))
+	(wire
+		(pts
+			(xy 246.38 95.25)
+			(xy 246.38 100.33))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4b03b140-221b-5da0-a805-1e41d79509de"))
+	(wire
+		(pts
+			(xy 109.22 35.56)
+			(xy 127 35.56))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4d166faf-f5b7-5468-bccf-dbca7c7d15f4"))
+	(wire
+		(pts
+			(xy 55.88 35.56)
+			(xy 55.88 44.45))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4d47ed0e-3bc5-5fed-b731-03653259a120"))
+	(wire
+		(pts
+			(xy 233.68 80.01)
+			(xy 252.73 80.01))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4da1df98-e3d9-5868-bc93-730df45a7a39"))
+	(wire
+		(pts
+			(xy 50.8 69.85)
+			(xy 55.88 69.85))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4e309fee-d6ac-52a3-bcf6-002fdacb53bc"))
+	(wire
+		(pts
+			(xy 189.23 149.86)
+			(xy 189.23 154.94))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4fcdfb60-1566-587f-a9cc-fac2ca5be1ba"))
+	(wire
+		(pts
+			(xy 25.4 82.55)
+			(xy 60.96 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5ca31154-2863-594b-b8b9-302d69e895f3"))
+	(wire
+		(pts
+			(xy 241.3 87.63)
+			(xy 252.73 87.63))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5dcfaadb-e8c6-5318-85c7-d07c0081d718"))
+	(wire
+		(pts
+			(xy 194.31 110.49)
+			(xy 194.31 129.54))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "652401ed-5a39-5487-b5cf-0ee608781da0"))
+	(wire
+		(pts
+			(xy 142.24 35.56)
+			(xy 142.24 40.64))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6c5ac2a5-36fc-5ccf-96ae-3a75fe4b3188"))
+	(wire
+		(pts
+			(xy 246.38 151.13)
+			(xy 252.73 151.13))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6d09d2e3-9434-5742-a52b-527c4e7a2034"))
+	(wire
+		(pts
+			(xy 55.88 35.56)
+			(xy 71.12 35.56))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "737c132a-c34e-566d-8baf-f76b67b9ad73"))
+	(wire
+		(pts
+			(xy 246.38 151.13)
+			(xy 246.38 156.21))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "76aa18d7-ee70-59b0-bf76-091e911220c9"))
+	(wire
+		(pts
+			(xy 71.12 35.56)
+			(xy 71.12 49.53))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7c5260bd-5ec1-55bc-a32d-49a0904e6904"))
+	(wire
+		(pts
+			(xy 99.06 35.56)
+			(xy 99.06 59.69))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7cd1c473-0ccf-5532-be2a-da79c2351b1e"))
+	(wire
+		(pts
+			(xy 109.22 35.56)
+			(xy 109.22 59.69))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7e32df81-6b7f-5cea-9381-e6f8071203d0"))
+	(wire
+		(pts
+			(xy 60.96 82.55)
+			(xy 71.12 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7f4a2de4-a70f-5e70-a4a8-4f739127ca8c"))
+	(wire
+		(pts
+			(xy 127 35.56)
+			(xy 142.24 35.56))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "84f244cf-fa56-5413-b4d7-e439b674f833"))
+	(wire
+		(pts
+			(xy 99.06 35.56)
+			(xy 109.22 35.56))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "8ce5a7f8-1df2-5621-a08d-a0a8ecac1073"))
+	(wire
+		(pts
+			(xy 142.24 50.8)
+			(xy 142.24 55.88))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "8d863cac-7b70-5240-936a-58998bf4ae7c"))
+	(wire
+		(pts
+			(xy 71.12 95.25)
+			(xy 81.28 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9895b4a5-f570-5333-a375-de1ef6dfb6b1"))
+	(wire
+		(pts
+			(xy 55.88 54.61)
+			(xy 55.88 69.85))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a37cafbb-f1cc-53eb-b81e-617c8446f585"))
+	(wire
+		(pts
+			(xy 241.3 87.63)
+			(xy 241.3 110.49))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a7bfddb1-57c7-58e2-828a-2ceb25ed7683"))
+	(wire
+		(pts
+			(xy 104.14 120.65)
+			(xy 104.14 127))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b63a254a-3312-5469-91d7-ddad3ea61823"))
+	(wire
+		(pts
+			(xy 127 50.8)
+			(xy 127 55.88))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b91979f0-157e-55a5-9abc-e1e698ac8a52"))
+	(wire
+		(pts
+			(xy 194.31 110.49)
+			(xy 218.44 110.49))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "bc5768d1-249e-5099-919f-be798f70bb2c"))
+	(wire
+		(pts
+			(xy 248.92 158.75)
+			(xy 252.73 158.75))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c03e5242-8260-5bea-8e27-b30822ea0ea0"))
+	(wire
+		(pts
+			(xy 241.3 110.49)
+			(xy 241.3 143.51))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c549ac1f-6c66-591e-b5de-9e1ea9e71fbf"))
+	(wire
+		(pts
+			(xy 184.15 80.01)
+			(xy 218.44 80.01))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "caa5bb12-b070-5fa3-a3a7-31a395e9808d"))
+	(wire
+		(pts
+			(xy 25.4 69.85)
+			(xy 50.8 69.85))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cc1cfcd0-2d63-5086-b334-a60d14157de8"))
+	(wire
+		(pts
+			(xy 127 80.01)
+			(xy 147.32 80.01))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d18455b7-6439-57f5-86dc-e8481ed9ead1"))
+	(wire
+		(pts
+			(xy 246.38 95.25)
+			(xy 252.73 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d1c5cd96-9c9e-5f19-bd0d-fcf7cfb52ffe"))
+	(wire
+		(pts
+			(xy 157.48 80.01)
+			(xy 184.15 80.01))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e2bb940b-fd86-5eec-9426-bca0f3d348f0"))
+	(wire
+		(pts
+			(xy 86.36 35.56)
+			(xy 99.06 35.56))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e73c267f-4918-586f-b24e-cb125b129adc"))
+	(wire
+		(pts
+			(xy 218.44 92.71)
+			(xy 218.44 97.79))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ef28fe33-8071-5026-a2fd-7fc4e3de866d"))
+	(wire
+		(pts
+			(xy 218.44 80.01)
+			(xy 233.68 80.01))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f134f42d-e204-53bf-be29-7391df039175"))
+	(wire
+		(pts
+			(xy 241.3 143.51)
+			(xy 252.73 143.51))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f2707d0b-40cc-5a70-a6d8-969609789db2"))
+	(wire
+		(pts
+			(xy 127 35.56)
+			(xy 127 40.64))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f450f04b-2ff2-5b7c-960e-9db86dbd33bf"))
+	(wire
+		(pts
+			(xy 184.15 80.01)
+			(xy 184.15 129.54))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f687cf6d-6603-5c49-82e9-889ad7f0a3c3"))
+	(wire
+		(pts
+			(xy 233.68 80.01)
+			(xy 233.68 135.89))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fe538598-3d25-57ff-8f21-145dd41edacb"))
+	(label "CANL_BUS"
+		(at 162.56 110.49 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "50c1ea44-ad7b-5af5-8de2-55ba23ecbd4a"))
+	(label "CANH_BUS"
+		(at 162.56 80.01 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "71da87a0-e56f-5069-893b-c88c7932380f"))
+	(label "CANH_INT"
+		(at 129.54 80.01 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "c60b218b-11b0-510a-97f4-e5b552340a16"))
+	(label "CAN_TERM_MID"
+		(at 218.44 95.25 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "c9075202-7b48-5b2d-b5b0-a3df9b891c1e"))
+	(label "CAN_SHIELD"
+		(at 248.92 120.65 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "d3b6e1b5-a1a2-530b-b0e0-f2d51e7ba859"))
+	(label "CANL_INT"
+		(at 129.54 110.49 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "dbf8b272-fda3-5ce6-99d1-eadad2ab9e8b"))
+	(global_label "CAN_STB"
+		(shape bidirectional)
+		(at 25.4 69.85 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "d84ac8b6-083c-5d32-b1ca-f1e488b990a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "FDCAN1_RX"
+		(shape bidirectional)
+		(at 25.4 95.25 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "d8f76936-bb84-57bd-a6fc-e416cdd5cac0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "FDCAN1_TX"
+		(shape bidirectional)
+		(at 25.4 82.55 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "fe318071-f927-5e23-bbc6-fc37079e4436")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(symbol
+		(lib_id "Manual:COMP_JP801")
+		(at 218.44 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "13efe125-e689-5178-abb6-c69c83530ffc")
+		(property "Reference" "JP801"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "TERM ENABLE"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify right)))
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "DNP"
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: TERM ENABLE; SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "e6dd3e27-7686-44b6-a84d-e568a654de82"))
+		(pin "2"
+			(uuid "877ecbf5-dffc-483f-822f-9ad91e8f0f56"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "JP801")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_TP1013")
+		(at 60.96 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f175f63-c35b-56cf-96c4-57cacb3e2ca3")
+		(property "Reference" "TP1013"
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "FDCAN1_TX"
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1 1))
+				(justify left)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" "Test point: FDCAN1_TX"
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "PCB test pad"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "370afb8b-5f2f-4f57-8fba-ce5ad542fff9"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "TP1013")
+					(unit 1))))
+		(property "Test_Net" "FDCAN1_TX"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 246.38 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "23bb74be-0add-5562-b234-a3c1610278c9")
+		(property "Reference" "#PWR08CAN5"
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 246.38 104.14 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 246.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "70e116d7-ed00-4920-bc50-bd30c5661302"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWR08CAN5")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_R801")
+		(at 55.88 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25988c76-5eb7-539e-a458-26754c824a01")
+		(property "Reference" "R801"
+			(at 59.69 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "10k"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 55.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 10k; R_0603_1608Metric"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "ce98cda8-1236-444a-9756-5d8f33ccfdb4"))
+		(pin "2"
+			(uuid "713d9ca9-c3b3-46a7-8491-4174a75b323a"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "R801")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 104.14 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "3ee1bf89-d3de-55c1-9809-84a4f2b35426")
+		(property "Reference" "#PWR08CAN3"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "eb8d9c2f-dec0-4f09-8224-96359cd29a02"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWR08CAN3")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_R803")
+		(at 152.4 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d5a2a81-7ba2-5ece-9f4d-e5fe1cca01e5")
+		(property "Reference" "R803"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "0R CANH link"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Procurement" "Select to specification: 0R CANH link; R_0603_1608Metric"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "1"
+			(uuid "d5bf3e7b-dde5-4ca3-8817-df60f3a5fee1"))
+		(pin "2"
+			(uuid "c428c11f-bc27-49af-886d-45799d278e81"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "R803")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_R804")
+		(at 152.4 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5989d5b2-2053-5091-9e4e-35b9efaa3797")
+		(property "Reference" "R804"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "0R CANL link"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 152.4 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Procurement" "Select to specification: 0R CANL link; R_0603_1608Metric"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 152.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "1"
+			(uuid "f12d1910-684c-49a7-ab51-06896d87bc9b"))
+		(pin "2"
+			(uuid "6659ad44-a7e5-46d0-a830-3f97983dac91"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "R804")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 246.38 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "608929d7-129e-547c-945c-2939af5be7b1")
+		(property "Reference" "#PWR08CAN6"
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 246.38 160.02 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 246.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "46eff096-cf13-4719-9c50-2394adfff311"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWR08CAN6")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_R802")
+		(at 218.44 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c526ded-4017-50f4-ab9a-8584979520c9")
+		(property "Reference" "R802"
+			(at 222.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "120R 1%"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 218.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 120R 1%; R_0603_1608Metric"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "11259efc-680d-4482-9ce4-22af7a4fc5fe"))
+		(pin "2"
+			(uuid "50a49a6e-8684-459c-ae4a-b69de92ad8f4"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "R802")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_J801")
+		(at 266.7 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8465d49b-a510-51d8-80fc-4bc92b8fcf80")
+		(property "Reference" "J801"
+			(at 257.81 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "CAN 1"
+			(at 257.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+			(at 266.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 266.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" "BM04B-GHS-TBT"
+			(at 266.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 266.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 266.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "4"
+			(uuid "155e474a-751d-45eb-bb0d-e1f873a60692"))
+		(pin "3"
+			(uuid "f486a4be-0242-4f34-bfc2-16919a5e585f"))
+		(pin "2"
+			(uuid "8e2220f9-0dcc-4570-95d6-ab5ad466c533"))
+		(pin "1"
+			(uuid "66c3fd79-8dfe-4a70-9ec7-3df1ab2a6683"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "J801")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_TP1022")
+		(at 50.8 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "908e9cf7-5406-5b6a-958d-4aa9886ce534")
+		(property "Reference" "TP1022"
+			(at 53.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "CAN_STB"
+			(at 53.34 67.31 0)
+			(effects
+				(font
+					(size 1 1))
+				(justify left)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" "Test point: CAN_STB"
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "PCB test pad"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "a38c14d5-89a8-4f2a-a4ad-0cd3f5c8c030"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "TP1022")
+					(unit 1))))
+		(property "Test_Net" "CAN_STB"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes))))
+	(symbol
+		(lib_id "Manual:COMP_TP1014")
+		(at 71.12 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c470004-b548-5a6c-a979-474a7a63cf99")
+		(property "Reference" "TP1014"
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "FDCAN1_RX"
+			(at 73.66 92.71000000000001 0)
+			(effects
+				(font
+					(size 1 1))
+				(justify left)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" "Test point: FDCAN1_RX"
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "PCB test pad"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "3538b455-7769-44be-bb2b-c499366e3277"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "TP1014")
+					(unit 1))))
+		(property "Test_Net" "FDCAN1_RX"
+			(at 73.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes))))
+	(symbol
+		(lib_id "Manual:COMP_D801")
+		(at 189.23 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a330ac3b-0b92-5bca-816d-73d2a8911232")
+		(property "Reference" "D801"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify right)))
+		(property "Value" "PESD2CANFD24V-T"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify right)))
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 189.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" "PESD2CANFD24V-T"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 189.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "1"
+			(uuid "26a3509c-1fc4-447a-bd99-f25bae479774"))
+		(pin "3"
+			(uuid "dab1e4da-df63-4aad-8357-02aa4bbd36a8"))
+		(pin "2"
+			(uuid "a6971f9b-544f-455e-af18-7d7da2765886"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "D801")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C801")
+		(at 127 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a394810e-db58-54ae-9f39-d1d3aae6dd1d")
+		(property "Reference" "C801"
+			(at 130.81 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "100nF"
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 127 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 130.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "374bffe4-72d9-484f-9cbc-cf25737c67c9"))
+		(pin "2"
+			(uuid "0b73b033-45fe-4216-8a17-754187113b40"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "C801")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_R805")
+		(at 71.12 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a66210c6-9ea1-57c4-a93d-ee4bd735c8fe")
+		(property "Reference" "R805"
+			(at 74.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "10k"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 10k; R_0603_1608Metric"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "03480c27-d841-44fd-bc22-ee3c65e15f0e"))
+		(pin "2"
+			(uuid "bc331625-ef02-418f-9e83-02a51dc8cbe4"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "R805")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 142.24 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "bd7bc3ec-dff8-50be-85da-333efa886368")
+		(property "Reference" "#PWR08CAN2"
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 142.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "35b0d262-b1ce-4159-b9bb-9f5ed60d2180"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWR08CAN2")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_3V3")
+		(at 86.36 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "c60dc13f-4f61-5cbd-ba0c-23f42337ac3d")
+		(property "Reference" "#PWR08CAN0"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "3V3"
+			(at 86.36 31.75 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "9698ec01-cba3-436e-b422-d07e860b9774"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWR08CAN0")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_C802")
+		(at 142.24 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9ffbf31-0bdb-58e9-831b-8530c1ce3dd7")
+		(property "Reference" "C802"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "1uF"
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 142.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 1uF; C_0603_1608Metric"
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 146.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "6ae879e7-bfd8-4253-a27f-ebc1a865bf90"))
+		(pin "2"
+			(uuid "6784fdb6-8d01-498a-9e7e-51c7b177915d"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "C802")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_J802")
+		(at 266.7 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ceacdacb-4532-5861-9884-09fb247e1c67")
+		(property "Reference" "J802"
+			(at 257.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "CAN 2"
+			(at 257.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 266.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" "BM04B-GHS-TBT"
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "3"
+			(uuid "df8711b7-8a58-40ce-801c-d66924304841"))
+		(pin "2"
+			(uuid "62b26b15-2555-468a-bf0d-094278043bc1"))
+		(pin "1"
+			(uuid "4fc9c75b-c5cc-44af-9d99-2dae05dc7a37"))
+		(pin "4"
+			(uuid "8c16706b-2e5e-4242-9d9d-c0f645731424"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "J802")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 127 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "d937512f-8ce6-5000-91cb-026e98437ef7")
+		(property "Reference" "#PWR08CAN1"
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 127 59.69 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "9092ccb6-c24e-45fa-b9e2-6ee43626b341"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWR08CAN1")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:COMP_U801")
+		(at 104.14 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d982d3f7-80d8-51c3-aa73-d55ef8b50f57")
+		(property "Reference" "U801"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "TCAN3413DR"
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3413.pdf"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" "TCAN3413DR"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "FIT"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "8"
+			(uuid "dbbe1b9d-95c8-46bf-a64f-e8d7d6be3711"))
+		(pin "1"
+			(uuid "d9a9fa07-1c0b-4934-b983-d44c38d57a1d"))
+		(pin "4"
+			(uuid "47c48ff3-8722-454e-bf5b-9169e8839532"))
+		(pin "3"
+			(uuid "1e5f1083-4f33-46ac-aa96-01a533b7764e"))
+		(pin "2"
+			(uuid "3e11c571-6790-4ac7-b545-212cc370391f"))
+		(pin "5"
+			(uuid "51b8f926-e090-4f6b-8c00-5633ac754042"))
+		(pin "7"
+			(uuid "29fb0275-85b6-4921-ab34-db44306b6750"))
+		(pin "6"
+			(uuid "037fff48-7a80-47ed-bc92-4fb421a5b989"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "U801")
+					(unit 1)))))
+	(symbol
+		(lib_id "Manual:PWR_GND")
+		(at 189.23 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "f0a7a563-1114-542d-b529-8f661667e9d9")
+		(property "Reference" "#PWR08CAN4"
+			(at 189.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 189.23 158.75 0)
+			(effects
+				(font
+					(size 1.016 1.016))))
+		(property "Footprint" ""
+			(at 189.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 189.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 189.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "9da21148-b9fb-4d7c-940e-e3c316170653"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWR08CAN4")
+					(unit 1))))))

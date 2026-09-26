@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R208/R209
+* Expected Vout = 5.0 * 0.337748 = 1.6887 V
+* Model: ideal passives (exact, unloaded)
+
+VIN n5V_USB 0 DC 5.0
+R208 n5V_USB __unnamed_10 10k
+R209 __unnamed_10 0 5.1k
+
+.op 
+
+.end

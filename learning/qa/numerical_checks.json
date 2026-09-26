@@ -1,0 +1,26 @@
+{
+  "three_phase_mean_current_error_fraction": 7.423106420011616e-05,
+  "phase_current_sum_max_A": 5.684341886080802e-14,
+  "half_bridge_mean_current_error_A": 0.0,
+  "current_sense_V_per_A": 0.014,
+  "bus_filter_tau_s": 0.0002671428571428571,
+  "bus_filter_fc_Hz": 595.7671666541537,
+  "capacitor_energy_2040uF_42V_J": 1.7992800000000002,
+  "charge_formula_20A_D05_20kHz_100uF_pp_V": 2.5,
+  "resolution_check": {
+    "40 ceramics": {
+      "pp_512": 8.13318772977333,
+      "pp_1024": 8.193453339987173,
+      "relative_pp_difference": 0.007355336963929985,
+      "charge_balance_max_mean_A": 2.4424906541753446e-16,
+      "KCL_residual_max_A": 7.105427357601002e-15
+    },
+    "Existing bulk + local": {
+      "pp_512": 6.8975655274324446,
+      "pp_1024": 6.974093873187137,
+      "relative_pp_difference": 0.010973231382633935,
+      "charge_balance_max_mean_A": 2.0539125955565397e-16,
+      "KCL_residual_max_A": 3.552713678800501e-15
+    }
+  }
+}

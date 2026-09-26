@@ -1,0 +1,23 @@
+{
+  "latest_trial": {
+    "source": "ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/phase_references.kicad_pcb",
+    "pcb_sha256": "02d4e2c11144c096e496f5a94fbfb846fe88c1273ba005297d1fd0415e6decbe",
+    "unconnected": 152,
+    "error_violations": 0,
+    "warnings": 66
+  },
+  "best_baseline": {
+    "source": "ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/finish4_raw.kicad_pcb",
+    "pcb_sha256": "809c1a730f60f76104f01ee0f4655fc498805cf73f68adf43a21e6e9bde23f15",
+    "unconnected": 91,
+    "error_violations": 0,
+    "warnings": 78
+  },
+  "gate_loop_comparison": {
+    "source": "ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/gates_first.kicad_pcb",
+    "pcb_sha256": "32e788653e85a7a867bd8b07b56eb86193a4609ee8c0ad327f899bf6e8280d01",
+    "unconnected": 149,
+    "error_violations": 0,
+    "warnings": 49
+  }
+}

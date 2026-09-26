@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R312/R311
+* Expected Vout = 3.3 * 0.909091 = 3.0000 V
+* Model: ideal passives (exact, unloaded)
+
+VIN __unnamed_25 0 DC 3.3
+R312 __unnamed_25 __unnamed_28 1k
+R311 __unnamed_28 0 10k
+
+.control
+op 
+let vout_sim = v(__unnamed_28)
+let error_pct = abs(vout_sim - 3.0000003) / 3.0000003 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=3.0000003" > /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/spice_ngspice_work/voltage-divider_R312_R311.out
+quit
+.endc
+
+.end

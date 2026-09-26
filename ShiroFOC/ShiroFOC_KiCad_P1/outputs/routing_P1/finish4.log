@@ -1,0 +1,14 @@
+2026-09-20 19:37:08.651 INFO   Freerouting v2.4.1 (build-date: 2026-09-03)
+2026-09-20 19:37:10.235 INFO   [539876\937E9E] Loading board file 'finish4.dsn'...
+2026-09-20 19:37:10.418 INFO   Layer 'In1.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-20 19:37:10.418 INFO   Layer 'In2.Cu' has been automatically configured as a dedicated power plane because it contains a large conduction area covering >50% of the board.
+2026-09-20 19:37:10.419 WARN   DSN file 'finish4.dsn' was loaded with 39 warning(s).
+2026-09-20 19:37:10.455 INFO   [539876\937E9E] Job '539876\937E9E' started at 2026-09-20T18:37:10.455077Z.
+2026-09-20 19:37:10.755 INFO   [539876\937E9E] Auto-routing stage started on board 'cd42ba20ac5c50eafeac189ddd416ad1' for 252 unrouted items.
+2026-09-20 19:38:29.089 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net 'IMU_INT1' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-09-20 19:38:43.631 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net '/Brake chopper/BRAKE_PWM_DRV' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-09-20 19:38:50.694 INFO   [539876\937E9E] Auto-routing pass #1 on board 'cd42ba20ac5c50eafeac189ddd416ad1' was completed in 98.46 seconds with score 114.62 (187 unrouted and 2000 violations), using 98.23 CPU seconds and the job allocated 1039.99 GB of memory so far.
+2026-09-20 19:38:52.259 INFO   [539876\937E9E] Auto-routing stage completed: started with 252 unrouted nets, completed in 100.98 seconds, final score: 114.62 (187 unrouted and 2000 violations), using 100.23 total CPU seconds, 1059.39 GB total allocated, and 660.3 MB peak heap usage.
+2026-09-20 19:38:52.304 INFO   [539876\937E9E] Job '539876\937E9E' finished with state: COMPLETED (elapsed: 1 minute 41.85 seconds, finished at UTC: 2026-09-20T18:38:52.303782Z).
+2026-09-20 19:38:52.654 INFO   Saving output file '/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/finish4.ses' (SES)...
+2026-09-20 19:38:52.660 INFO   Successfully saved output file '/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/ShiroFOC_KiCad_P1/outputs/routing_P1/finish4.ses' (280683 bytes).

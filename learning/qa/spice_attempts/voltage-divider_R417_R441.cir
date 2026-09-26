@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R417/R441
+* Expected Vout = 3.3 * 0.982456 = 3.2421 V
+* Model: ideal passives (exact, unloaded)
+
+VIN SHUNT_U_SENSE_P 0 DC 3.3
+R417 SHUNT_U_SENSE_P OPP_U1 1k
+R441 OPP_U1 0 56k
+
+.op 
+
+.end

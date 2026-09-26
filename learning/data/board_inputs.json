@@ -1,0 +1,344 @@
+{
+  "snapshot": "2026-09-19",
+  "scope": "Educational model of P1 schematic / P0 unrouted placement",
+  "components": {
+    "C101": {
+      "value": "680uF 63V",
+      "mpn": "EEVFK1J681M",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VM",
+        "2": "GND"
+      }
+    },
+    "C102": {
+      "value": "680uF 63V",
+      "mpn": "EEVFK1J681M",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VM",
+        "2": "GND"
+      }
+    },
+    "C103": {
+      "value": "680uF 63V",
+      "mpn": "EEVFK1J681M",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VM",
+        "2": "GND"
+      }
+    },
+    "C104": {
+      "value": "4.7uF 100V X7R",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VM",
+        "2": "GND"
+      }
+    },
+    "C105": {
+      "value": "100nF 100V X7R",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VM",
+        "2": "GND"
+      }
+    },
+    "C106": {
+      "value": "10nF 100V C0G",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VM",
+        "2": "GND"
+      }
+    },
+    "R103": {
+      "value": "270k 0.1% 100V",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VM",
+        "2": "__unnamed_1"
+      }
+    },
+    "R104": {
+      "value": "270k 0.1% 100V",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "__unnamed_1",
+        "2": "__unnamed_2"
+      }
+    },
+    "R106": {
+      "value": "1k",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "__unnamed_2",
+        "2": "VBUS_MUX_IN"
+      }
+    },
+    "R105": {
+      "value": "27k 0.1%",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "__unnamed_2"
+      }
+    },
+    "C108": {
+      "value": "10nF",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "VBUS_SENSE"
+      }
+    },
+    "U301": {
+      "value": "STSPIN32G4",
+      "mpn": "STSPIN32G4",
+      "dnp": false,
+      "pin_nets": {
+        "23": "OPP_W1",
+        "25": "OPN_W1",
+        "24": "OPO_W1"
+      }
+    },
+    "C301": {
+      "value": "100nF",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "3V3"
+      }
+    },
+    "C302": {
+      "value": "10uF 10V",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "3V3"
+      }
+    },
+    "C307": {
+      "value": "100nF",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "3V3"
+      }
+    },
+    "C303": {
+      "value": "100nF",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "VDDA"
+      }
+    },
+    "C304": {
+      "value": "1uF",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "VDDA"
+      }
+    },
+    "C305": {
+      "value": "100nF",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "VREF+"
+      }
+    },
+    "C306": {
+      "value": "1uF",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "VREF+"
+      }
+    },
+    "C312": {
+      "value": "10uF 25V X7R",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "VCC"
+      }
+    },
+    "C313": {
+      "value": "100nF 25V",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "VCC"
+      }
+    },
+    "C412": {
+      "value": "1uF 100V X7R",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VM",
+        "2": "GND"
+      }
+    },
+    "C415": {
+      "value": "10nF 100V X7S",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VM",
+        "2": "SHUNT_U_FORCE_P"
+      }
+    },
+    "R411": {
+      "value": "4.7R",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "GHS1",
+        "2": "__unnamed_29"
+      }
+    },
+    "R412": {
+      "value": "0R",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "GLS1",
+        "2": "__unnamed_30"
+      }
+    },
+    "C411": {
+      "value": "100nF 25V",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "BOOT1",
+        "2": "OUT1"
+      }
+    },
+    "R416": {
+      "value": "BVR-Z-R0005 0.5mR",
+      "mpn": "BVR-Z-R0005-1.0",
+      "dnp": false,
+      "pin_nets": {
+        "4": "GND",
+        "1": "SHUNT_U_FORCE_P",
+        "2": "SHUNT_U_SENSE_P",
+        "3": "SHUNT_U_SENSE_N"
+      }
+    },
+    "R417": {
+      "value": "1k 0.1%",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "SHUNT_U_SENSE_P",
+        "2": "OPP_U1"
+      }
+    },
+    "R418": {
+      "value": "1k 0.1%",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "SHUNT_U_SENSE_N",
+        "2": "OPN_U1"
+      }
+    },
+    "R410": {
+      "value": "56k 0.1%",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "1": "VREF+",
+        "2": "OPP_U1"
+      }
+    },
+    "R441": {
+      "value": "56k 0.1%",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "GND",
+        "1": "OPP_U1"
+      }
+    },
+    "R419": {
+      "value": "28k 0.1%",
+      "mpn": "",
+      "dnp": false,
+      "pin_nets": {
+        "2": "OPN_U1",
+        "1": "OPO_U1"
+      }
+    },
+    "C414": {
+      "value": "47pF C0G",
+      "mpn": "",
+      "dnp": true,
+      "pin_nets": {
+        "2": "OPN_U1",
+        "1": "OPO_U1"
+      }
+    }
+  },
+  "design_targets": {
+    "bus_V": [
+      18,
+      42
+    ],
+    "phase_continuous_Arms": [
+      25,
+      40
+    ],
+    "short_peak_A": 80,
+    "initial_PWM_Hz": 20000,
+    "current_gain": 28,
+    "shunt_ohm": 0.0005,
+    "ADC_reference_V": 3.3,
+    "initial_deadtime_s": 5e-07,
+    "brake_firmware_start_V": 43,
+    "brake_nominal_hardware_rise_V": 45.9194
+  },
+  "assumptions": {
+    "example_bus_V": 36,
+    "motor_R_ohm": 0.1,
+    "motor_L_H": 0.0001,
+    "supply_loop_R_ohm": 0.05,
+    "supply_loop_L_H": 1e-06,
+    "ceramic_retention_fraction": 0.5,
+    "ceramic_ESR_per_part_ohm": 0.02,
+    "ceramic_ESL_per_part_H": 1e-09,
+    "shared_bank_connection_L_H": 3e-09,
+    "shared_bank_connection_R_ohm": 0.001,
+    "electrolytic_ESR_per_680uF_ohm": 0.03,
+    "current_edge_filter_tau_s": 8e-08,
+    "three_phase_modulation_index": 0.8,
+    "three_phase_displacement_deg": 30,
+    "electrical_frequency_Hz": 250
+  },
+  "source_sha256": "bdeca8dd80db46110dc3622fcaaff7522bf1f98c753e98461f893002781ab3d9",
+  "source": "ShiroFOC/ShiroFOC_KiCad/outputs/revision_P1/netlist.xml",
+  "warning": "ESR/ESL, motor, cable and ceramic retention are assumed; no extracted routed parasitics or measured curves."
+}

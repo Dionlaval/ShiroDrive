@@ -1,0 +1,16 @@
+* Scoped DC resistor-network checks, not a switching-regulator model.
+Vout out 0 DC 4.978585516178737
+Rtop out fb 34k
+Rbottom fb 0 6.49k
+V10 v10 0 DC 10.009009
+RenHi v10 en 100k
+RenLo en 0 100k
+RenInternal en 0 870k
+* Conservative added enable input-current load, on top of the internal pull-down.
+Ien en 0 DC 2.8u
+.control
+op
+print v(fb) v(en)
+quit
+.endc
+.end

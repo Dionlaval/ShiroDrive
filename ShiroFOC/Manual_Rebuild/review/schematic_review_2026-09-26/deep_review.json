@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "produced_for_run_id": "schematic_review_2026-09-26",
+  "produced_at": "2026-09-26T21:40:33.339693+01:00",
+  "findings": [
+    {
+      "detector": "deep_review",
+      "category": "cad",
+      "severity": "error",
+      "confidence": "high",
+      "summary": "Dual-MOSFET symbol pins cannot map to the assigned footprint",
+      "description": "Native symbol pin set versus assigned footprint pad set; inventory in cad_inventory.json.",
+      "recommendation": "Repair mappings against TI DMM drawing without replacing the downloaded geometry.",
+      "evidence": {
+        "components": [
+          "U1",
+          "U2",
+          "U3"
+        ],
+        "computation": {
+          "description": "Native symbol pin set versus assigned footprint pad set; inventory in cad_inventory.json.",
+          "script": "review/schematic_review_2026-09-26/calculate.py",
+          "result": "Literal [3-11]/[12-20] do not equal individual pad numbers; auxiliary pads also lack mappings."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U1",
+        "U2",
+        "U3"
+      ],
+      "finding_id": "deep_review:1a48781bca30"
+    },
+    {
+      "detector": "deep_review",
+      "category": "cad",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Three components remain without footprints",
+      "description": "Inventory of Footprint properties from native netlist.",
+      "recommendation": "Choose motor termination/selector mechanics; assign installed U603 VSSOP-8.",
+      "evidence": {
+        "components": [
+          "J1",
+          "JP601",
+          "U603"
+        ],
+        "computation": {
+          "description": "Inventory of Footprint properties from native netlist.",
+          "script": "review/schematic_review_2026-09-26/calculate.py",
+          "result": "253 components;250 assigned;J1/JP601/U603 blank."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "J1",
+        "JP601",
+        "U603"
+      ],
+      "finding_id": "deep_review:c250d2aa0ff7"
+    },
+    {
+      "detector": "deep_review",
+      "category": "documentation",
+      "severity": "info",
+      "confidence": "high",
+      "summary": "Testpoint TP201 is mislabeled",
+      "description": "Native pin-to-net versus Value property.",
+      "recommendation": "Rename during next schematic edit; relocation itself is intentional.",
+      "evidence": {
+        "components": [
+          "TP201",
+          "U203"
+        ],
+        "computation": {
+          "description": "Native pin-to-net versus Value property.",
+          "script": "review/schematic_review_2026-09-26/calculate.py",
+          "result": "TP201 Value5V_BAT, connected PWR_SOURCE_STATUS."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "TP201",
+        "U203"
+      ],
+      "finding_id": "deep_review:42341a8b156b"
+    },
+    {
+      "detector": "deep_review",
+      "category": "power",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "TPS2121 overvoltage tolerances can reject a healthy 5 V input",
+      "description": "Vtrip=Vref*(1+Rtop/Rbot) +/- Ipin*Rtop; datasheet Vref1.01..1.10V, Ipin +/-0.1uA, resistors1%. Sources linked in README R2.",
+      "recommendation": "Decide coarse OV versus precise downstream protection; change divider or protection accordingly.",
+      "evidence": {
+        "components": [
+          "U203",
+          "R210",
+          "R211",
+          "R212",
+          "R213"
+        ],
+        "computation": {
+          "description": "Vtrip=Vref*(1+Rtop/Rbot) +/- Ipin*Rtop; datasheet Vref1.01..1.10V, Ipin +/-0.1uA, resistors1%. Sources linked in README R2.",
+          "script": "review/schematic_review_2026-09-26/calculate.py",
+          "result": "Existing cutoff 5.084..5.723V;22k candidate 5.278..5.943V."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U203",
+        "R210",
+        "R211",
+        "R212",
+        "R213"
+      ],
+      "finding_id": "deep_review:cce904a07173"
+    },
+    {
+      "detector": "deep_review",
+      "category": "protection",
+      "severity": "warning",
+      "confidence": "high",
+      "summary": "Internal fast current trip needs an explicit accuracy budget",
+      "description": "OPP node conductance sum from actual resistor network; comparator and DAC error scale documented in README R3.",
+      "recommendation": "Keep ADC sensing; settle acceptable earliest/latest emergency trip and validate complete trip path before routing freeze.",
+      "evidence": {
+        "components": [
+          "U4",
+          "R417",
+          "R410",
+          "R441"
+        ],
+        "computation": {
+          "description": "OPP node conductance sum from actual resistor network; comparator and DAC error scale documented in README R3.",
+          "script": "review/schematic_review_2026-09-26/calculate.py",
+          "result": "OPP=56.90mV+0.48276mV/A;9mV is18.6A equivalent."
+        }
+      },
+      "evidence_checked": "full",
+      "components": [
+        "U4",
+        "R417",
+        "R410",
+        "R441"
+      ],
+      "finding_id": "deep_review:8a3434bfeee9"
+    }
+  ],
+  "quarantined": []
+}

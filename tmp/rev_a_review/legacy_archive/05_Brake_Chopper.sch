@@ -1,0 +1,235 @@
+EESchema Schematic File Version 4
+LIBS:ShiroFOC_KiCad-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "05 - Brake Chopper"
+Date "2026-09-14"
+Rev "A"
+Comp "ShiroFOC"
+Comment1 "Rev A first-build schematic"
+Comment2 "6S-10S LiPo / 24-42 V nominal operating range"
+Comment3 "Prototype: validate switching, transient, and thermal behavior"
+Comment4 "GND and PGND are one electrical net; route returns deliberately"
+$EndDescr
+$Comp
+L ShiroFOC_KiCad:UCC27517ADBVR U501
+U 1 1 10000001
+P 4600 3500
+F 0 "U501" H 4600 2920 50  0000 C CNN
+F 1 "UCC27517ADBVR" H 4600 4080 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4600 3500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ucc27517a.pdf" H 4600 3500 50  0001 C CNN
+F 4 "UCC27517ADBVR" H 4600 3500 50  0001 C CNN "MPN"
+	1    4600 3500
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R501
+U 1 1 10000002
+P 2200 2700
+F 0 "R501" H 2200 2420 50  0000 C CNN
+F 1 "10k" H 2200 2980 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2200 2700 50  0001 C CNN
+F 3 "" H 2200 2700 50  0001 C CNN
+F 4 "" H 2200 2700 50  0001 C CNN "MPN"
+F 5 "FIT" H 2200 2700 50  0001 C CNN "Assembly"
+	1    2200 2700
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R502
+U 1 1 10000003
+P 3300 2700
+F 0 "R502" H 3300 2420 50  0000 C CNN
+F 1 "33R" H 3300 2980 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 2700 50  0001 C CNN
+F 3 "" H 3300 2700 50  0001 C CNN
+F 4 "" H 3300 2700 50  0001 C CNN "MPN"
+F 5 "FIT" H 3300 2700 50  0001 C CNN "Assembly"
+	1    3300 2700
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C501
+U 1 1 10000004
+P 6700 2700
+F 0 "C501" H 6700 2420 50  0000 C CNN
+F 1 "1uF 25V" H 6700 2980 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6700 2700 50  0001 C CNN
+F 3 "" H 6700 2700 50  0001 C CNN
+F 4 "" H 6700 2700 50  0001 C CNN "MPN"
+F 5 "FIT" H 6700 2700 50  0001 C CNN "Assembly"
+	1    6700 2700
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CAPACITOR C502
+U 1 1 10000005
+P 6700 3350
+F 0 "C502" H 6700 3070 50  0000 C CNN
+F 1 "100nF 25V" H 6700 3630 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6700 3350 50  0001 C CNN
+F 3 "" H 6700 3350 50  0001 C CNN
+F 4 "" H 6700 3350 50  0001 C CNN "MPN"
+F 5 "FIT" H 6700 3350 50  0001 C CNN "Assembly"
+	1    6700 3350
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R503
+U 1 1 10000006
+P 6700 4300
+F 0 "R503" H 6700 4020 50  0000 C CNN
+F 1 "4.7R" H 6700 4580 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6700 4300 50  0001 C CNN
+F 3 "" H 6700 4300 50  0001 C CNN
+F 4 "" H 6700 4300 50  0001 C CNN "MPN"
+F 5 "FIT" H 6700 4300 50  0001 C CNN "Assembly"
+	1    6700 4300
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CSD19531Q5A Q501
+U 1 1 10000007
+P 9400 4300
+F 0 "Q501" H 9400 3320 50  0000 C CNN
+F 1 "CSD19531Q5A 100V" H 9400 5280 50  0000 C CNN
+F 2 "ShiroFOC_Footprints:CSD19531Q5A_Q5A_DQJ0008A" H 9400 4300 50  0001 C CNN
+F 3 "../DataSheets/CSD19531Q5A.pdf" H 9400 4300 50  0001 C CNN
+F 4 "CSD19531Q5A" H 9400 4300 50  0001 C CNN "MPN"
+	1    9400 4300
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:RESISTOR R504
+U 1 1 10000008
+P 8000 5400
+F 0 "R504" H 8000 5120 50  0000 C CNN
+F 1 "10k" H 8000 5680 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8000 5400 50  0001 C CNN
+F 3 "" H 8000 5400 50  0001 C CNN
+F 4 "" H 8000 5400 50  0001 C CNN "MPN"
+F 5 "FIT" H 8000 5400 50  0001 C CNN "Assembly"
+	1    8000 5400
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:DIODE D501
+U 1 1 10000009
+P 9500 5800
+F 0 "D501" H 9500 5520 50  0000 C CNN
+F 1 "BZT52C12 12V" H 9500 6080 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 9500 5800 50  0001 C CNN
+F 3 "" H 9500 5800 50  0001 C CNN
+F 4 "BZT52C12" H 9500 5800 50  0001 C CNN "MPN"
+F 5 "FIT" H 9500 5800 50  0001 C CNN "Assembly"
+	1    9500 5800
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:CONN_2 J501
+U 1 1 1000000A
+P 12800 4300
+F 0 "J501" H 12800 3820 50  0000 C CNN
+F 1 "BRAKE RESISTOR" H 12800 4780 50  0000 C CNN
+F 2 "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm" H 12800 4300 50  0001 C CNN
+F 3 "" H 12800 4300 50  0001 C CNN
+	1    12800 4300
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:TESTPOINT TP501
+U 1 1 1000000B
+P 7000 7000
+F 0 "TP501" H 7000 6720 50  0000 C CNN
+F 1 "BRAKE_GATE" H 7000 7280 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7000 7000 50  0001 C CNN
+F 3 "" H 7000 7000 50  0001 C CNN
+	1    7000 7000
+	1 0 0 -1
+$EndComp
+$Comp
+L ShiroFOC_KiCad:TESTPOINT TP502
+U 1 1 1000000C
+P 11500 7000
+F 0 "TP502" H 11500 6720 50  0000 C CNN
+F 1 "BRK_SW" H 11500 7280 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 11500 7000 50  0001 C CNN
+F 3 "" H 11500 7000 50  0001 C CNN
+	1    11500 7000
+	1 0 0 -1
+$EndComp
+Text Notes 650 500 0    90    ~ 12
+LOW-SIDE BRAKE CHOPPER - EXTERNAL RESISTOR
+Text GLabel 5550 3600 2    45   BiDi ~ 0
+VCC
+Text GLabel 3650 3700 0    45   BiDi ~ 0
+GND
+Text GLabel 3650 3300 0    45   BiDi ~ 0
+BRAKE_PWM_DRV
+Text GLabel 3650 3500 0    45   BiDi ~ 0
+GND
+Text GLabel 5550 3400 2    45   BiDi ~ 0
+BRAKE_GATE_DRV
+Text GLabel 1850 2700 0    45   BiDi ~ 0
+BRAKE_PWM
+Text GLabel 2550 2700 2    45   BiDi ~ 0
+GND
+Text GLabel 2950 2700 0    45   BiDi ~ 0
+BRAKE_PWM
+Text GLabel 3650 2700 2    45   BiDi ~ 0
+BRAKE_PWM_DRV
+Text GLabel 6350 2700 0    45   BiDi ~ 0
+VCC
+Text GLabel 7050 2700 2    45   BiDi ~ 0
+GND
+Text GLabel 6350 3350 0    45   BiDi ~ 0
+VCC
+Text GLabel 7050 3350 2    45   BiDi ~ 0
+GND
+Text GLabel 6350 4300 0    45   BiDi ~ 0
+BRAKE_GATE_DRV
+Text GLabel 7050 4300 2    45   BiDi ~ 0
+BRAKE_GATE
+Text GLabel 8500 4300 0    45   BiDi ~ 0
+BRAKE_GATE
+Text GLabel 10300 3700 2    45   BiDi ~ 0
+BRK_SW
+Text GLabel 10300 3900 2    45   BiDi ~ 0
+BRK_SW
+Text GLabel 10300 4100 2    45   BiDi ~ 0
+BRK_SW
+Text GLabel 10300 4300 2    45   BiDi ~ 0
+BRK_SW
+Text GLabel 10300 4500 2    45   BiDi ~ 0
+GND
+Text GLabel 10300 4700 2    45   BiDi ~ 0
+GND
+Text GLabel 10300 4900 2    45   BiDi ~ 0
+GND
+Text GLabel 7650 5400 0    45   BiDi ~ 0
+BRAKE_GATE
+Text GLabel 8350 5400 2    45   BiDi ~ 0
+GND
+Text GLabel 9150 5800 0    45   BiDi ~ 0
+BRAKE_GATE
+Text GLabel 9850 5800 2    45   BiDi ~ 0
+GND
+Text GLabel 12200 4200 0    45   BiDi ~ 0
+VM
+Text GLabel 12200 4400 0    45   BiDi ~ 0
+BRK_SW
+Text GLabel 6700 7000 0    45   BiDi ~ 0
+BRAKE_GATE
+Text GLabel 11200 7000 0    45   BiDi ~ 0
+BRK_SW
+Text Notes 650 8400 0    60    ~ 0
+CSD19531Q5A: 100 V, 5.3 mR typ. / 6.4 mR max. at 10 V, 37 nC typ. Qg. The external resistor value and pulse-energy rating are application-specific.
+Text Notes 650 8800 0    60    ~ 0
+Default off is hardware-enforced by R501 and R504. Firmware enables PWM only with valid VM/VCC and uses VBUS hysteresis.
+Text Notes 650 9200 0    60    ~ 0
+Connector pin 1 is raw VM. Both brake-resistor wires carry hazardous bus voltage. Place driver decoupling at U501 and use a short Kelvin source return.
+$EndSCHEMATC

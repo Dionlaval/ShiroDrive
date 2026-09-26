@@ -1,0 +1,17 @@
+* Auto-generated testbench for voltage divider: R106/R105
+* Expected Vout = 5.0 * 0.964286 = 4.8214 V
+* Model: ideal passives (exact, unloaded)
+
+VIN VBUS_MUX_IN 0 DC 5.0
+R106 VBUS_MUX_IN __unnamed_23 1k
+R105 __unnamed_23 0 27k
+
+.control
+op 
+let vout_sim = v(__unnamed_23)
+let error_pct = abs(vout_sim - 4.821429999999999) / 4.821429999999999 * 100
+echo "vout_sim=$&vout_sim error_pct=$&error_pct expected=4.821429999999999" > ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/spice_work/voltage-divider_R106_R105.out
+quit
+.endc
+
+.end

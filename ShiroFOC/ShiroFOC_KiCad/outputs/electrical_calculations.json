@@ -1,0 +1,68 @@
+{
+  "current": {
+    "gain": 28,
+    "shunt_ohm": 0.0005,
+    "V_per_A": 0.014,
+    "output_V_by_A": {
+      "-80": 0.5299999999999998,
+      "-60": 0.8099999999999999,
+      "0": 1.65,
+      "60": 2.4899999999999998,
+      "80": 2.77
+    },
+    "zero_offset_V_resistor_tolerance_only": [
+      1.6435832511845327,
+      1.6564419089115339
+    ],
+    "shunt_W_at_40Arms": 0.8,
+    "shunt_instantaneous_W_at_80A": 3.2,
+    "COMP_input_V_at_60A": 0.08586206896551724,
+    "COMP_DAC_12bit_code_nominal_60A": 107,
+    "note": "Calibrate amplifier and comparator offsets, DAC error and shunt temperature. One-sided comparator threshold is not a guaranteed bidirectional 60A limit."
+  },
+  "bus": {
+    "divider_ratio": 0.047619047619047616,
+    "ADC_V_at_42V": 2.0,
+    "ADC_V_at_60V": 2.857142857142857,
+    "RC_tau_s": 0.0002671428571428571,
+    "settle_wait_s": 0.002,
+    "bulk_capacitance_uF": 2040,
+    "energy_J_at_42V": 1.7992800000000002,
+    "bulk_ripple_sum_A_at_100kHz_rating": 5.07
+  },
+  "brake": {
+    "nominal_rise_V": 45.91942322834646,
+    "nominal_fall_V": 44.21312480314962,
+    "rise_corner_V": [
+      44.18579903548814,
+      47.509230812229546
+    ],
+    "fall_corner_V": [
+      42.577939249297955,
+      45.958002574306605
+    ],
+    "resistor_ohm_example": 10,
+    "current_A_at_48V": 4.8,
+    "power_W_at_48V": 230.4,
+    "mechanical_example_inertia_kg_m2": 0.01,
+    "mechanical_example_rpm": 2000,
+    "mechanical_example_energy_J": 219.32454224643016,
+    "resistor_minimum_continuous_W_with_specified_heatsink": 250,
+    "resistor_required_pulse_J_over_5s_example": 500,
+    "note": "Corner estimate, not transient simulation. External energy and bus spikes must be tested. No gate drive if VCC is absent."
+  },
+  "logic_budget_mA": {
+    "MCU_driver_logic_allowance": 100,
+    "encoder_allowance": 25,
+    "IMU_allowance": 10,
+    "CAN_dominant_max": 61,
+    "CP2102N_allowance": 20,
+    "external_feedback_max": 25,
+    "LED_mux_bias_misc": 9,
+    "total_allowance": 250,
+    "CAN_fault_total_allowance": 320,
+    "LDO_dissipation_W_5_25V_250mA": 0.4875,
+    "LDO_dissipation_W_5_25V_320mA": 0.624,
+    "note": "Planning allowances; measure rail current and LDO junction rise. USB-only requires a source permitting >=500mA; pre-enumeration/suspend compliance is not implemented."
+  }
+}

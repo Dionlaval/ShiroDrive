@@ -1,0 +1,505 @@
+[
+  {
+    "net": "/SPI sensors/AS5047_MISO_RAW",
+    "nodes": [
+      {
+        "ref": "R611",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U601",
+        "pin": "3",
+        "pinfunction": "MISO",
+        "pintype": "tri_state"
+      }
+    ]
+  },
+  {
+    "net": "/SPI sensors/BMI323_MISO_RAW",
+    "nodes": [
+      {
+        "ref": "R714",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U701",
+        "pin": "1",
+        "pinfunction": "SDO",
+        "pintype": "tri_state"
+      }
+    ]
+  },
+  {
+    "net": "/SPI sensors/ENC_ON_A",
+    "nodes": [
+      {
+        "ref": "R601",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U601",
+        "pin": "7",
+        "pinfunction": "A",
+        "pintype": "output"
+      }
+    ]
+  },
+  {
+    "net": "/SPI sensors/ENC_ON_B",
+    "nodes": [
+      {
+        "ref": "R602",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U601",
+        "pin": "6",
+        "pinfunction": "B",
+        "pintype": "output"
+      }
+    ]
+  },
+  {
+    "net": "/SPI sensors/ENC_ON_I",
+    "nodes": [
+      {
+        "ref": "R603",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U601",
+        "pin": "14",
+        "pinfunction": "I/PWM",
+        "pintype": "output"
+      }
+    ]
+  },
+  {
+    "net": "/SPI sensors/SPI3_MOSI",
+    "nodes": [
+      {
+        "ref": "R314",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "TP1012",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U601",
+        "pin": "4",
+        "pinfunction": "MOSI",
+        "pintype": "input"
+      },
+      {
+        "ref": "U701",
+        "pin": "14",
+        "pinfunction": "SDI",
+        "pintype": "input"
+      }
+    ]
+  },
+  {
+    "net": "/SPI sensors/SPI3_SCK",
+    "nodes": [
+      {
+        "ref": "R313",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "TP1010",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U601",
+        "pin": "2",
+        "pinfunction": "CLK",
+        "pintype": "input"
+      },
+      {
+        "ref": "U701",
+        "pin": "13",
+        "pinfunction": "SCK",
+        "pintype": "input"
+      }
+    ]
+  },
+  {
+    "net": "3V3",
+    "nodes": [
+      {
+        "ref": "C601",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "C602",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "C701",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "C702",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "R308",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "R309",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U601",
+        "pin": "11",
+        "pinfunction": "VDD",
+        "pintype": "power_in"
+      },
+      {
+        "ref": "U601",
+        "pin": "12",
+        "pinfunction": "VDD3V3",
+        "pintype": "power_in"
+      },
+      {
+        "ref": "U701",
+        "pin": "5",
+        "pinfunction": "VDDIO",
+        "pintype": "power_in"
+      },
+      {
+        "ref": "U701",
+        "pin": "8",
+        "pinfunction": "VDD",
+        "pintype": "power_in"
+      }
+    ]
+  },
+  {
+    "net": "AS5047P_CS_N",
+    "nodes": [
+      {
+        "ref": "R309",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U4",
+        "pin": "51",
+        "pinfunction": "PA15",
+        "pintype": "output"
+      },
+      {
+        "ref": "U601",
+        "pin": "1",
+        "pinfunction": "CSn",
+        "pintype": "input"
+      }
+    ]
+  },
+  {
+    "net": "GND",
+    "nodes": [
+      {
+        "ref": "C601",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "C602",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "C701",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "C702",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U601",
+        "pin": "13",
+        "pinfunction": "GND",
+        "pintype": "power_in"
+      },
+      {
+        "ref": "U601",
+        "pin": "5",
+        "pinfunction": "TEST",
+        "pintype": "input"
+      },
+      {
+        "ref": "U701",
+        "pin": "6",
+        "pinfunction": "GNDIO",
+        "pintype": "power_in"
+      },
+      {
+        "ref": "U701",
+        "pin": "7",
+        "pinfunction": "GND",
+        "pintype": "power_in"
+      }
+    ]
+  },
+  {
+    "net": "IMU_CS_N",
+    "nodes": [
+      {
+        "ref": "R308",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U4",
+        "pin": "21",
+        "pinfunction": "PC4",
+        "pintype": "output"
+      },
+      {
+        "ref": "U701",
+        "pin": "12",
+        "pinfunction": "CSB",
+        "pintype": "input"
+      }
+    ]
+  },
+  {
+    "net": "IMU_INT1",
+    "nodes": [
+      {
+        "ref": "U4",
+        "pin": "17",
+        "pinfunction": "PA4",
+        "pintype": "input"
+      },
+      {
+        "ref": "U701",
+        "pin": "4",
+        "pinfunction": "INT1",
+        "pintype": "output"
+      }
+    ]
+  },
+  {
+    "net": "IMU_INT2",
+    "nodes": [
+      {
+        "ref": "U4",
+        "pin": "18",
+        "pinfunction": "PA5",
+        "pintype": "input"
+      },
+      {
+        "ref": "U701",
+        "pin": "9",
+        "pinfunction": "INT2",
+        "pintype": "output"
+      }
+    ]
+  },
+  {
+    "net": "MUX_ON_A",
+    "nodes": [
+      {
+        "ref": "R601",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U602",
+        "pin": "2",
+        "pinfunction": "S1A",
+        "pintype": "passive"
+      }
+    ]
+  },
+  {
+    "net": "MUX_ON_B",
+    "nodes": [
+      {
+        "ref": "R602",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U602",
+        "pin": "5",
+        "pinfunction": "S2A",
+        "pintype": "passive"
+      }
+    ]
+  },
+  {
+    "net": "MUX_ON_I",
+    "nodes": [
+      {
+        "ref": "R603",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U602",
+        "pin": "11",
+        "pinfunction": "S3A",
+        "pintype": "passive"
+      }
+    ]
+  },
+  {
+    "net": "SPI3_MISO",
+    "nodes": [
+      {
+        "ref": "R611",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "R714",
+        "pin": "2",
+        "pintype": "passive"
+      },
+      {
+        "ref": "TP1011",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U4",
+        "pin": "55",
+        "pinfunction": "PB4",
+        "pintype": "input"
+      }
+    ]
+  },
+  {
+    "net": "SPI3_MOSI_MCU",
+    "nodes": [
+      {
+        "ref": "R314",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U4",
+        "pin": "56",
+        "pinfunction": "PB5",
+        "pintype": "output"
+      }
+    ]
+  },
+  {
+    "net": "SPI3_SCK_MCU",
+    "nodes": [
+      {
+        "ref": "R313",
+        "pin": "1",
+        "pintype": "passive"
+      },
+      {
+        "ref": "U4",
+        "pin": "54",
+        "pinfunction": "PB3",
+        "pintype": "output"
+      }
+    ]
+  },
+  {
+    "net": "unconnected-(U601-U-Pad10)",
+    "nodes": [
+      {
+        "ref": "U601",
+        "pin": "10",
+        "pinfunction": "U",
+        "pintype": "output+no_connect"
+      }
+    ]
+  },
+  {
+    "net": "unconnected-(U601-V-Pad9)",
+    "nodes": [
+      {
+        "ref": "U601",
+        "pin": "9",
+        "pinfunction": "V",
+        "pintype": "output+no_connect"
+      }
+    ]
+  },
+  {
+    "net": "unconnected-(U601-W/PWM-Pad8)",
+    "nodes": [
+      {
+        "ref": "U601",
+        "pin": "8",
+        "pinfunction": "W/PWM",
+        "pintype": "output+no_connect"
+      }
+    ]
+  },
+  {
+    "net": "unconnected-(U701-NC-Pad2)",
+    "nodes": [
+      {
+        "ref": "U701",
+        "pin": "2",
+        "pinfunction": "NC",
+        "pintype": "no_connect"
+      }
+    ]
+  },
+  {
+    "net": "unconnected-(U701-NC-Pad3)",
+    "nodes": [
+      {
+        "ref": "U701",
+        "pin": "3",
+        "pinfunction": "NC",
+        "pintype": "no_connect"
+      }
+    ]
+  },
+  {
+    "net": "unconnected-(U701-NC-Pad10)",
+    "nodes": [
+      {
+        "ref": "U701",
+        "pin": "10",
+        "pinfunction": "NC",
+        "pintype": "no_connect"
+      }
+    ]
+  },
+  {
+    "net": "unconnected-(U701-NC-Pad11)",
+    "nodes": [
+      {
+        "ref": "U701",
+        "pin": "11",
+        "pinfunction": "NC",
+        "pintype": "no_connect"
+      }
+    ]
+  }
+]

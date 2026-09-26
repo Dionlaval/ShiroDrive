@@ -1,0 +1,36 @@
+{
+  "topology_preserved_except_intended_pin_expansion_and_removed_testpoints": true,
+  "downloaded_fet_geometry_preserved": true,
+  "all_existing_3d_files_unchanged": true,
+  "all_footprints_resolve": true,
+  "components": 251,
+  "unique_footprints": 49,
+  "no_duplicate_testpoint_nets": true,
+  "documented_pad_exceptions": {
+    "U205": {
+      "missing": [
+        "19",
+        "20"
+      ],
+      "extra": []
+    },
+    "J601": {
+      "missing": [],
+      "extra": [
+        "MP"
+      ]
+    },
+    "J801": {
+      "missing": [],
+      "extra": [
+        "MP"
+      ]
+    },
+    "J802": {
+      "missing": [],
+      "extra": [
+        "MP"
+      ]
+    }
+  }
+}

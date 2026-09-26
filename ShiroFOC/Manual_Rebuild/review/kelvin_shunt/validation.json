@@ -1,0 +1,15 @@
+{
+  "erc_violations": 0,
+  "fixture_drc_violations": 0,
+  "fixture_unconnected_items": 0,
+  "negative_control_violations": 12,
+  "connectivity_groups_unchanged": true,
+  "automatic_net_renames": {
+    "Net-(R1-Pad1)": "Net-(R1-POWER+)",
+    "Net-(R3-Pad1)": "Net-(R3-POWER+)",
+    "Net-(R5-Pad1)": "Net-(R5-POWER+)"
+  },
+  "other_sheets_and_pcb_unchanged": true,
+  "component_count": 254,
+  "scope": "New footprint, front/back isolated fixtures, library symbol and schematic associations only; no full PCB review."
+}
