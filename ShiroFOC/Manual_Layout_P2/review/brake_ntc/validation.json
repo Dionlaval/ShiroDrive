@@ -1,0 +1,36 @@
+{
+  "footprints": 260,
+  "existing_placements_preserved": 255,
+  "existing_connectivity_unchanged_except_PC2_PC15_LED_remap": true,
+  "new_DRC_findings": 0,
+  "remaining_preexisting_DRC": 27,
+  "remaining_preexisting_parity": 2,
+  "board_routing_unchanged": true,
+  "project_design_rules_unchanged": true,
+  "new_component_positions": {
+    "R512": [
+      "136.5",
+      "143.8"
+    ],
+    "J502": [
+      "103.5",
+      "149",
+      "90"
+    ],
+    "D505": [
+      "141.5",
+      "146.5"
+    ],
+    "C505": [
+      "137.5",
+      "145.5"
+    ],
+    "R511": [
+      "109",
+      "150"
+    ]
+  },
+  "DC_V_at_10k_3V3": 1.65,
+  "RC_time_constant_25C_ms": 0.97,
+  "RC_time_constant_open_ms": 1.47
+}

@@ -1,0 +1,49 @@
+{
+  "schematic_count": 2,
+  "pcb_count": 2,
+  "changed": {
+    "C308": {
+      "old": "Capacitor_SMD:C_0603_1608Metric",
+      "value": "10pF C0G",
+      "sheet": "MCUclockSWD.kicad_sch"
+    },
+    "C309": {
+      "old": "Capacitor_SMD:C_0603_1608Metric",
+      "value": "10pF C0G",
+      "sheet": "MCUclockSWD.kicad_sch"
+    }
+  },
+  "exceptions": [
+    "#PWR01",
+    "#PWR02",
+    "#PWR03",
+    "#PWR04",
+    "#PWR05",
+    "#PWR06",
+    "#PWR07",
+    "#PWR08",
+    "#PWR09",
+    "C1",
+    "C10",
+    "C11",
+    "C2",
+    "C3",
+    "C5",
+    "C6",
+    "C7",
+    "C9",
+    "J1",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "U1",
+    "U2",
+    "U3"
+  ],
+  "connection_extensions": [],
+  "previous_package_part_metadata": {},
+  "verification": "Existing tracks, vias, zones, non-target footprints, placement, orientation and pad nets preserved."
+}

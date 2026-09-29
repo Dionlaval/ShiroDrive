@@ -5,7 +5,7 @@ This is an unrouted placement handoff, not a fabrication release. The native rep
 ## Passed
 
 - Native schematic ERC: 0 violations.
-- All 255 schematic components have their assigned footprints in the PCB.
+- All 260 schematic components have their assigned footprints in the PCB.
 - Every represented electrical pad matches the exported schematic net; no unexpected missing components.
 - Original P1 board and checked Manual_Rebuild source files remain unchanged (SHA-256 comparison).
 - No component courtyard overlaps reported. No board tracks, vias or copper zones have been added. Footprint-integrated holes and keepouts remain.
@@ -29,3 +29,7 @@ No component-stock or fabricator-capability validation was performed. Prior firm
 ## File notes
 
 The scripts in this folder record the migration, not a production build system. They depend on the original projects and the local `/tmp/cascade_work/edit.py` helper and should not be rerun on a manually edited PCB. Work in the native project files instead. `placement_manifest.json` records the initial placement; C1 and C5 were subsequently moved 0.15 mm left to meet the saved power clearance.
+
+The optional brake NTC addition is documented in [brake_ntc/README.md](brake_ntc/README.md); it adds no new DRC findings. The current reports include this addition.
+
+Latest update: [bootstrap return correction](bootstrap_return/README.md). Current DRC has 34 findings from the latest user placement, with no additions from the return-net correction; the NTC annotation issue is repaired.

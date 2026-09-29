@@ -25,10 +25,10 @@ Hide the guide layers when they obstruct routing. Nothing on them is electrical 
 
 ## Placement and routing checklist
 
-1. **Mechanics first:** retain the encoder centre on the back at (140,140) mm. The magnet is outside that face; no top-side central magnet void is required. The MCU is offset at (142,149) mm. Check connector mating clearance and corner screw/washer envelopes; the circles show an 8 mm hardware envelope.
+1. **Mechanics first:** retain the encoder centre on the back at (140,140) mm. The magnet is outside that face; no top-side central magnet void is required. Keep the MCU offset from the encoder to preserve space for underside decoupling. Check connector mating clearance and corner screw/washer envelopes; the circles show an 8 mm hardware envelope.
 2. **Three repeated phase cells:** U1/U2/U3 line up with J1's U/V/W holes. Keep each VM ceramic → MOSFET pair → low-side shunt → ceramic ground loop short and broad. Respect the actual schematic: the three sets of local VM bypass capacitors return to GND. Do not copy older notes that put a capacitor above the shunt.
 3. **Shunts:** active phase U/V/W shunts are R3/R1/R5 respectively, on the back near the power cells. Pads1/4 carry current; pads2/3 are the Kelvin pickup stubs. Route from the stubs as a close pair, away from phase/gate/brake switching nodes. Keep power pours from swallowing the stubs. Short direct force paths and multiple correctly sized vias are needed for backside shunts; there is no fixed amps-per-via guarantee.
-4. **Gate drive:** finish placement around the actual U4 gate-driver pins before routing. Put R2/R4/R6 near the relevant GH gate pads. Pair the high-side drive with its source/phase return and low-side drive with its driver return. Bootstrap capacitors C4/C8/C12 need short connections to the appropriate driver bootstrap/output references; rough placement can be moved.
+4. **Gate drive:** finish placement around the actual U4 gate-driver pins before routing. Put R2/R4/R6 near the relevant GH gate pads. Pair the high-side drive with its source/phase return and low-side drive with its driver return. Bootstrap capacitors C4/C8/C12 are shown on the gate-driver sheet, between BOOTSTRAP1/2/3 and HS_RETURN_U/V/W. Place them at the driver pins. Route HS_RETURN directly to the corresponding MOSFET SH pad alongside the high-side gate trace; PHASE_U/V/W are separate high-current routes to the motor.
 5. **Quiet measurement:** R417/R418/R419 and corresponding V/W networks, bias resistors and optional feedback capacitors belong close to their U4 amplifier pins. Use the underside of the MCU where useful, keeping clear of the encoder and hot power copper. Place VREF/VDDA filters and bypass capacitors close to their pins. Do not run main DC or brake return current through this area.
 6. **Ground:** create substantially continuous GND planes on In1.Cu and In2.Cu. They provide signal return paths, not the sole motor-current conductor. Use broad outer-layer VM/GND paths for power. Stitch local decoupling grounds and signal layer transitions to the planes. Check both inner layers for accidental slots caused by via fields. A VM thermal via must not touch GND; likewise the source above each shunt is not GND.
 7. **Brake:** keep the external resistor connector and chopper loop at the edge, away from the encoder. Finish Q501/U501 placement and gate loop before signal routing. Keep BRK_SW copper compact and sense the bus from a quieter pickup.
@@ -51,3 +51,18 @@ See `review/` for the native ERC, unrouted-board DRC, footprint/pad-net validati
 ## Known starting-state flags
 
 See [open items](review/OPEN_ITEMS.md): U204's imported land pattern has 0.10 mm copper gaps, U901 has 0.15 mm thermal-via hole webs, and U205 has two NC/test symbol pins without footprint pads. These are recorded rather than hidden by relaxed rules. The board is ready for manual placement/routing work, not fabrication.
+
+
+## Optional brake NTC — 27 September 2026
+
+J502 is the new **bottom-side, left-edge** JST GH two-pin connector: **1 = NTC, 2 = GND**. Use an electrically insulated 10 kΩ-at-25°C probe on the external brake resistor; configure its actual temperature curve and rating. R511 is the 10 kΩ pull-up. R512/C505/D505 form the series filter and rail clamps beside U4 on the back. Keep the unfiltered probe net away from switching copper; route its dedicated ground back to the quiet ground plane, not through the brake-current return. No new routing has been added.
+
+PC2 / U4 pad 11 is now `NTC_BRAKE` / ADC12_IN8. The status LED moved to PC15 / pad 5 with R304 = 2.2 kΩ; TP1021 is now labelled `STATUS_LED_N`. Existing footprint placement is preserved. Use the updated [firmware requirements](../requirements/FIRMWARE_REQUIREMENTS.md); old firmware that drives PC2 as an LED output is incompatible.
+
+See [addition notes and checks](review/brake_ntc/README.md). `review/brake_ntc/before.zip` preserves the project files from before this addition. The older Manual_Rebuild project remains unchanged.
+
+## Bootstrap return correction — 27 September 2026
+
+The latest saved user placement is retained. C4/C8/C12 now appear on the gate-driver schematic sheet, connected between each BOOTSTRAP pin and its OUTx/SH return. `HS_RETURN_U/V/W` belong to the Gate class; `PHASE_U/V/W` belong to the Power class. Keep these PCB routes separate: they join inside the dual-MOSFET package. Capacitor values and footprints are unchanged.
+
+The five NTC components also have corrected hierarchy paths and restored references J502/R511/R512/C505/D505. See [current verification](review/bootstrap_return/README.md).

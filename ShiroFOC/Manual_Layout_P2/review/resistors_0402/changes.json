@@ -1,0 +1,630 @@
+{
+  "schematic_count": 89,
+  "pcb_count": 89,
+  "changed": {
+    "R509": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "12.7k 0.1%",
+      "sheet": "07_Brake_Chopper.kicad_sch"
+    },
+    "R501": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "07_Brake_Chopper.kicad_sch"
+    },
+    "R510": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1M 0.1%",
+      "sheet": "07_Brake_Chopper.kicad_sch"
+    },
+    "R505": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "07_Brake_Chopper.kicad_sch"
+    },
+    "R502": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "33R",
+      "sheet": "07_Brake_Chopper.kicad_sch"
+    },
+    "R511": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k 1%",
+      "sheet": "07_Brake_Chopper.kicad_sch"
+    },
+    "R512": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "4.7k 1%",
+      "sheet": "07_Brake_Chopper.kicad_sch"
+    },
+    "R504": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "07_Brake_Chopper.kicad_sch"
+    },
+    "R503": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "4.7R",
+      "sheet": "07_Brake_Chopper.kicad_sch"
+    },
+    "R801": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "10_CAN.kicad_sch"
+    },
+    "R803": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "0R CANH link",
+      "sheet": "10_CAN.kicad_sch"
+    },
+    "R804": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "0R CANL link",
+      "sheet": "10_CAN.kicad_sch"
+    },
+    "R805": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "10_CAN.kicad_sch"
+    },
+    "R106": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k",
+      "sheet": "01_DC_Link.kicad_sch"
+    },
+    "R105": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "27k 0.1%",
+      "sheet": "01_DC_Link.kicad_sch"
+    },
+    "R201": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R210": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "22.0k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R212": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "22.0k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R208": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10.0k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R207": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "5.10k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R217": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "6.49k 0.1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R216": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "34.0k 0.1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R215": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R213": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "5.10k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R209": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "5.10k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R211": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "5.10k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R206": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "15.0k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R219": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100k",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R214": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "80.6k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R218": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100k",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R202": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "11.1k 1%",
+      "sheet": "02_Auxiliary_Power.kicad_sch"
+    },
+    "R304": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "2.2k",
+      "sheet": "MCUclockSWD.kicad_sch"
+    },
+    "R303": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100k",
+      "sheet": "MCUclockSWD.kicad_sch"
+    },
+    "R302": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "0R",
+      "sheet": "MCUclockSWD.kicad_sch"
+    },
+    "R301": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "0R",
+      "sheet": "MCUclockSWD.kicad_sch"
+    },
+    "R309": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "08_SPI_Sensors.kicad_sch"
+    },
+    "R313": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "22R",
+      "sheet": "08_SPI_Sensors.kicad_sch"
+    },
+    "R308": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "2.2k",
+      "sheet": "08_SPI_Sensors.kicad_sch"
+    },
+    "R715": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "2.2k",
+      "sheet": "08_SPI_Sensors.kicad_sch"
+    },
+    "R611": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "33R",
+      "sheet": "08_SPI_Sensors.kicad_sch"
+    },
+    "R314": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "22R",
+      "sheet": "08_SPI_Sensors.kicad_sch"
+    },
+    "R310": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100k",
+      "sheet": "04_Gate_Driver.kicad_sch"
+    },
+    "R311": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "04_Gate_Driver.kicad_sch"
+    },
+    "R312": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k",
+      "sheet": "04_Gate_Driver.kicad_sch"
+    },
+    "R307": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R609": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "4.7k DNP",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R606": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100R",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R608": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "4.7k DNP",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R306": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R616": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100k",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R617": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100k",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R605": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100R",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R615": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100k",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R604": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R305": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "10k",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R607": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100R",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R610": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "4.7k DNP",
+      "sheet": "09_Feedback_Selection.kicad_sch"
+    },
+    "R902": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100R",
+      "sheet": "11_USB_Service.kicad_sch"
+    },
+    "R204": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "5.1k",
+      "sheet": "11_USB_Service.kicad_sch"
+    },
+    "R904": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "22.1k 1%",
+      "sheet": "11_USB_Service.kicad_sch"
+    },
+    "R905": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "47.5k 1%",
+      "sheet": "11_USB_Service.kicad_sch"
+    },
+    "R903": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "100R",
+      "sheet": "11_USB_Service.kicad_sch"
+    },
+    "R203": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "5.1k",
+      "sheet": "11_USB_Service.kicad_sch"
+    },
+    "R901": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k",
+      "sheet": "11_USB_Service.kicad_sch"
+    },
+    "R205": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "0R",
+      "sheet": "11_USB_Service.kicad_sch"
+    },
+    "R6": {
+      "old": "Resistor_SMD:R_0805_2012Metric",
+      "value": "4R7",
+      "sheet": "Three-phase bridge.kicad_sch"
+    },
+    "R4": {
+      "old": "Resistor_SMD:R_0805_2012Metric",
+      "value": "4R7",
+      "sheet": "Three-phase bridge.kicad_sch"
+    },
+    "R2": {
+      "old": "Resistor_SMD:R_0805_2012Metric",
+      "value": "4R7",
+      "sheet": "Three-phase bridge.kicad_sch"
+    },
+    "R430": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "56k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R438": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R419": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "28k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R441": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "56k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R712": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R417": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R713": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R429": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "28k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R427": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R418": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R428": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R437": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R420": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "56k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R439": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "28k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R443": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "56k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R711": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "1k",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R701": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "4.7k 1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R702": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "4.7k 1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R703": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "4.7k 1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R410": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "56k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    },
+    "R442": {
+      "old": "Resistor_SMD:R_0603_1608Metric",
+      "value": "56k 0.1%",
+      "sheet": "06_Current_Temperature.kicad_sch"
+    }
+  },
+  "exceptions": [
+    "R1",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R3",
+    "R5",
+    "R506",
+    "R507",
+    "R508",
+    "R7",
+    "R802"
+  ],
+  "connection_extensions": [
+    [
+      "R6",
+      "1",
+      121.298506,
+      135.609691
+    ],
+    [
+      "R6",
+      "1",
+      121.298506,
+      136.086988
+    ],
+    [
+      "R6",
+      "2",
+      120.008036,
+      137.377458
+    ],
+    [
+      "R4",
+      "1",
+      131.198001,
+      125.710196
+    ],
+    [
+      "R4",
+      "1",
+      131.198001,
+      126.187493
+    ],
+    [
+      "R4",
+      "2",
+      129.907531,
+      127.477963
+    ],
+    [
+      "R2",
+      "1",
+      141.062141,
+      115.775346
+    ],
+    [
+      "R2",
+      "1",
+      141.062141,
+      116.323354
+    ],
+    [
+      "R2",
+      "2",
+      139.771671,
+      117.613823
+    ]
+  ],
+  "previous_package_part_metadata": {
+    "R509": {
+      "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+      "MPN": "RT0603BRD0712K7L"
+    },
+    "R501": {
+      "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "MPN": "RC0603FR-0710KL"
+    },
+    "R510": {
+      "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L",
+      "MPN": "RT0603BRD071ML"
+    },
+    "R505": {
+      "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "MPN": "RC0603FR-0710KL"
+    },
+    "R502": {
+      "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "MPN": "RC0603FR-0733RL"
+    },
+    "R504": {
+      "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "MPN": "RC0603FR-0710KL"
+    },
+    "R503": {
+      "Datasheet": "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+      "MPN": "RC0603FR-074R7L"
+    },
+    "R210": {
+      "MPN": "RC0603FR-0722KL"
+    },
+    "R212": {
+      "MPN": "RC0603FR-0722KL"
+    },
+    "R6": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074R7L",
+      "MPN": "RC0805FR-074R7L"
+    },
+    "R4": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074R7L",
+      "MPN": "RC0805FR-074R7L"
+    },
+    "R2": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0805FR-074R7L",
+      "MPN": "RC0805FR-074R7L"
+    },
+    "R430": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0756KL",
+      "MPN": "RT0603BRD0756KL"
+    },
+    "R438": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL",
+      "MPN": "RT0603BRD071KL"
+    },
+    "R419": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0728KL",
+      "MPN": "RT0603BRD0728KL"
+    },
+    "R441": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0756KL",
+      "MPN": "RT0603BRD0756KL"
+    },
+    "R417": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL",
+      "MPN": "RT0603BRD071KL"
+    },
+    "R429": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0728KL",
+      "MPN": "RT0603BRD0728KL"
+    },
+    "R427": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL",
+      "MPN": "RT0603BRD071KL"
+    },
+    "R418": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL",
+      "MPN": "RT0603BRD071KL"
+    },
+    "R428": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL",
+      "MPN": "RT0603BRD071KL"
+    },
+    "R437": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD071KL",
+      "MPN": "RT0603BRD071KL"
+    },
+    "R420": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0756KL",
+      "MPN": "RT0603BRD0756KL"
+    },
+    "R439": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0728KL",
+      "MPN": "RT0603BRD0728KL"
+    },
+    "R443": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0756KL",
+      "MPN": "RT0603BRD0756KL"
+    },
+    "R410": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0756KL",
+      "MPN": "RT0603BRD0756KL"
+    },
+    "R442": {
+      "Datasheet": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0756KL",
+      "MPN": "RT0603BRD0756KL"
+    }
+  },
+  "verification": "Existing tracks, vias, zones, non-target footprints, placement, orientation and pad nets preserved."
+}

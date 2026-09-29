@@ -3404,6 +3404,14 @@
 				(size 1.8 1.8))
 			(justify left top))
 		(uuid "3f8235f6-1a9f-50d5-ab34-75776f68cbfc"))
+	(text "STATUS LED: PC15, active low / open drain.\nR304 limits LED sink current; keep LSE disabled.\nPC2 is now ADC12_IN8 for the external brake NTC."
+		(exclude_from_sim no)
+		(at 279.4 109.22 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left top))
+		(uuid "4d52a75f-9329-42fc-b92a-3018e4bbc430"))
 	(text "MCU / ANALOG SUPPLIES"
 		(exclude_from_sim no)
 		(at 15.24 187.96 0)
@@ -3860,6 +3868,14 @@
 		(uuid "52658054-5493-5e62-83a5-fff03f4fe905"))
 	(wire
 		(pts
+			(xy 283.21 99.06)
+			(xy 292.1 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "528ae49d-b32a-471b-8dee-2b9af00ce27e"))
+	(wire
+		(pts
 			(xy 220.98 234.95)
 			(xy 220.98 243.84))
 		(stroke
@@ -4212,6 +4228,14 @@
 		(uuid "be72bbc7-2d25-5a33-a4ca-d7b3729b23c7"))
 	(wire
 		(pts
+			(xy 163.83 99.06)
+			(xy 179.07 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c45a208c-c87c-48ec-b62d-7c37e651a511"))
+	(wire
+		(pts
 			(xy 265.43 95.25)
 			(xy 265.43 107.95))
 		(stroke
@@ -4457,6 +4481,13 @@
 			(justify left bottom))
 		(uuid "a86919e8-aaa4-54f7-a46f-98364e85a57b"))
 	(label "STATUS_LED_N"
+		(at 283.21 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "f61b4ffc-fa7d-4493-85fd-711dedf9ceb8"))
+	(label "STATUS_LED_N"
 		(at 88.9 132.08 0)
 		(effects
 			(font
@@ -4613,6 +4644,20 @@
 		(uuid "4e87de76-70f0-5954-992c-1631baa9ef6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
+	(global_label "EXT_SENSOR_FAULT_N"
+		(shape bidirectional)
+		(at 88.9 121.92 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify right))
+		(uuid "5bfbc8f7-39ee-4aab-b84d-1accb57823fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27))
@@ -4799,6 +4844,20 @@
 				(font
 					(size 1.27 1.27))
 				(hide yes))))
+	(global_label "NTC_BRAKE"
+		(shape bidirectional)
+		(at 179.07 99.06 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left))
+		(uuid "f15fe570-ade3-4e15-a7f9-4afa256e2cf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes))))
 	(global_label "CAN_STB"
 		(shape bidirectional)
 		(at 86.36 48.26 180)
@@ -4832,7 +4891,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 102.87 0)
 			(effects
 				(font
@@ -4861,7 +4920,7 @@
 				(font
 					(size 1.27 1.27))
 				(hide yes)))
-		(property "Procurement" "2.2k 1%, 0603; low-current active-low status LED"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 323.85 102.87 0)
 			(effects
 				(font
@@ -4945,7 +5004,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 269.24 82.55 0)
 			(effects
 				(font
@@ -4978,7 +5037,7 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(property "Procurement" "Select to specification: 100k; R_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 269.24 82.55 0)
 			(effects
 				(font
@@ -5059,7 +5118,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Value" "SPARE_GPIO_1"
+		(property "Value" "STATUS_LED_N"
 			(at 88.9 129.54 0)
 			(effects
 				(font
@@ -5106,20 +5165,20 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(pin "1"
-			(uuid "9811c723-6d6e-44b9-bbce-7ad4b7491bb6"))
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
-					(reference "TP1021")
-					(unit 1))))
 		(property "Test_Net" "/MCU / clock / SWD/SPARE_GPIO_1"
 			(at 88.9 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27))
 				(justify left)
-				(hide yes))))
+				(hide yes)))
+		(pin "1"
+			(uuid "9811c723-6d6e-44b9-bbce-7ad4b7491bb6"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1021")
+					(unit 1)))))
 	(symbol
 		(lib_id "Manual:STSPIN32G4_Functional")
 		(at 119.38 228.6 0)
@@ -5370,7 +5429,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.16 214.63 0)
 			(effects
 				(font
@@ -5399,7 +5458,7 @@
 				(font
 					(size 1.27 1.27))
 				(hide yes)))
-		(property "Procurement" "Select to specification: 0R; R_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 264.16 214.63 0)
 			(effects
 				(font
@@ -5524,20 +5583,20 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(pin "1"
-			(uuid "5f5390d3-8b65-4482-8021-f38206e0eac0"))
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
-					(reference "TP1024")
-					(unit 1))))
 		(property "Test_Net" "I2C2_SDA"
 			(at 88.9 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27))
 				(justify left)
-				(hide yes))))
+				(hide yes)))
+		(pin "1"
+			(uuid "5f5390d3-8b65-4482-8021-f38206e0eac0"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1024")
+					(unit 1)))))
 	(symbol
 		(lib_id "Manual:PWR_GND")
 		(at 48.26 240.03 0)
@@ -5635,6 +5694,18 @@
 				(font
 					(size 1.27 1.27))
 				(hide yes)))
+		(property "Manufacturer" "Kyocera"
+			(at 281.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "BOM Comments" "Manufacturer 2026 drawing matches installed standard 3225-4 land pattern; pads1/3 crystal,2/4GND. C308/C30910pF assume ~2pF effective stray. Verify startup, frequency, drive on prototype. Generic STEP installed; exact STEP optional."
+			(at 281.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
 		(pin "1"
 			(uuid "73822f2e-48b5-46c8-9fba-542911d65961"))
 		(pin "2"
@@ -5647,19 +5718,7 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
 					(reference "Y301")
-					(unit 1))))
-		(property "Manufacturer" "Kyocera"
-			(at 281.94 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27))
-				(hide yes)))
-		(property "BOM Comments" "Manufacturer 2026 drawing matches installed standard 3225-4 land pattern; pads1/3 crystal,2/4GND. C308/C30910pF assume ~2pF effective stray. Verify startup, frequency, drive on prototype. Generic STEP installed; exact STEP optional."
-			(at 281.94 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27))
-				(hide yes))))
+					(unit 1)))))
 	(symbol
 		(lib_id "Manual:COMP_TP1023")
 		(at 86.36 121.92 0)
@@ -5676,7 +5735,7 @@
 					(size 1.27 1.27))
 				(justify left)))
 		(property "Value" "EXT_SENSOR_FAULT_N"
-			(at 88.9 119.38000000000001 0)
+			(at 88.9 119.38 0)
 			(effects
 				(font
 					(size 1 1))
@@ -5722,20 +5781,20 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(pin "1"
-			(uuid "ce267b91-9270-4738-8388-d47d87a963eb"))
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
-					(reference "TP1023")
-					(unit 1))))
 		(property "Test_Net" "EXT_SENSOR_FAULT_N"
 			(at 88.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27))
 				(justify left)
-				(hide yes))))
+				(hide yes)))
+		(pin "1"
+			(uuid "ce267b91-9270-4738-8388-d47d87a963eb"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1023")
+					(unit 1)))))
 	(symbol
 		(lib_id "Manual:PWR_3V3")
 		(at 328.93 92.71 0)
@@ -6002,7 +6061,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.66 228.6 0)
 			(effects
 				(font
@@ -6035,7 +6094,7 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 73.66 228.6 0)
 			(effects
 				(font
@@ -6121,7 +6180,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 269.24 114.3 0)
 			(effects
 				(font
@@ -6154,7 +6213,7 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 269.24 114.3 0)
 			(effects
 				(font
@@ -6239,20 +6298,20 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(pin "1"
-			(uuid "751dc34b-0180-4794-904a-115425239be4"))
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
-					(reference "TP1009")
-					(unit 1))))
 		(property "Test_Net" "Net-(U4A-PA14/SWCLK)"
 			(at 179.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27))
 				(justify left)
-				(hide yes))))
+				(hide yes)))
+		(pin "1"
+			(uuid "751dc34b-0180-4794-904a-115425239be4"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1009")
+					(unit 1)))))
 	(symbol
 		(lib_id "Manual:PWR_GND")
 		(at 69.85 240.03 0)
@@ -6316,7 +6375,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 248.92 62.23 0)
 			(effects
 				(font
@@ -6349,7 +6408,7 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(property "Procurement" "Select to specification: 10pF C0G; C_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 248.92 62.23 0)
 			(effects
 				(font
@@ -6588,7 +6647,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.48 228.6 0)
 			(effects
 				(font
@@ -6621,7 +6680,7 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 30.48 228.6 0)
 			(effects
 				(font
@@ -6665,7 +6724,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 304.8 231.14 0)
 			(effects
 				(font
@@ -6698,7 +6757,7 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 304.8 231.14 0)
 			(effects
 				(font
@@ -6864,7 +6923,7 @@
 					(size 1.27 1.27))
 				(justify left)))
 		(property "Value" "SWDIO"
-			(at 194.31 114.30000000000001 0)
+			(at 194.31 114.3 0)
 			(effects
 				(font
 					(size 1 1))
@@ -6910,20 +6969,20 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(pin "1"
-			(uuid "0f476d14-447f-4110-927e-766e0a1bb135"))
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
-					(reference "TP1008")
-					(unit 1))))
 		(property "Test_Net" "Net-(U4A-PA13/SWDIO)"
 			(at 194.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27))
 				(justify left)
-				(hide yes))))
+				(hide yes)))
+		(pin "1"
+			(uuid "0f476d14-447f-4110-927e-766e0a1bb135"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP1008")
+					(unit 1)))))
 	(symbol
 		(lib_id "Manual:STSPIN32G4_Functional")
 		(at 139.7 86.36 0)
@@ -7260,7 +7319,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 199.39 231.14 0)
 			(effects
 				(font
@@ -7293,7 +7352,7 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(property "Procurement" "Select to specification: 100nF; C_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 199.39 231.14 0)
 			(effects
 				(font
@@ -7420,20 +7479,20 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(pin "1"
-			(uuid "a2ee0dce-18f3-4cad-adfa-8dde40ffb04a"))
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
-					(reference "TP303")
-					(unit 1))))
 		(property "Test_Net" "/MCU / clock / SWD/NRST"
 			(at 233.68 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27))
 				(justify left)
-				(hide yes))))
+				(hide yes)))
+		(pin "1"
+			(uuid "a2ee0dce-18f3-4cad-adfa-8dde40ffb04a"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
+					(reference "TP303")
+					(unit 1)))))
 	(symbol
 		(lib_id "Manual:COMP_J1001")
 		(at 237.49 149.86 0)
@@ -7601,7 +7660,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.18 214.63 0)
 			(effects
 				(font
@@ -7630,7 +7689,7 @@
 				(font
 					(size 1.27 1.27))
 				(hide yes)))
-		(property "Procurement" "Select to specification: 0R; R_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 170.18 214.63 0)
 			(effects
 				(font
@@ -7672,7 +7731,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 323.85 62.23 0)
 			(effects
 				(font
@@ -7705,7 +7764,7 @@
 					(size 1.27 1.27))
 				(justify left)
 				(hide yes)))
-		(property "Procurement" "Select to specification: 10pF C0G; C_0603_1608Metric"
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
 			(at 323.85 62.23 0)
 			(effects
 				(font
@@ -8007,56 +8066,4 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/72c68966-ddbf-45d8-a1a7-ab83562ae772"
 					(reference "#PWR03Controller0")
-					(unit 1)))))
-	(global_label "EXT_SENSOR_FAULT_N"
-		(shape bidirectional)
-		(at 88.9 121.92 180)
-		(effects
-			(font
-				(size 1.016 1.016))
-			(justify right))
-		(uuid "5bfbc8f7-39ee-4aab-b84d-1accb57823fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27))
-				(hide yes))))
-	(wire
-		(pts
-			(xy 283.21 99.06)
-			(xy 292.1 99.06))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "528ae49d-b32a-471b-8dee-2b9af00ce27e"))
-	(label "STATUS_LED_N"
-		(at 283.21 99.06 0)
-		(effects
-			(font
-				(size 1.016 1.016))
-			(justify left bottom))
-		(uuid "f61b4ffc-fa7d-4493-85fd-711dedf9ceb8"))
-	(wire
-		(pts
-			(xy 163.83 99.06)
-			(xy 179.07 99.06))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "c45a208c-c87c-48ec-b62d-7c37e651a511"))
-	(global_label "NTC_BRAKE"
-		(shape bidirectional)
-		(at 179.07 99.06 0)
-		(effects
-			(font
-				(size 1.016 1.016))
-			(justify left))
-		(uuid "f15fe570-ade3-4e15-a7f9-4afa256e2cf6"))
-	(text "STATUS LED: PC15, active low / open drain.\nR304 limits LED sink current; keep LSE disabled.\nPC2 is now ADC12_IN8 for the external brake NTC."
-		(at 279.4 109.22 0)
-		(effects
-			(font
-				(size 1.016 1.016))
-			(justify left top))
-		(uuid "4d52a75f-9329-42fc-b92a-3018e4bbc430")))
+					(unit 1))))))

@@ -1,0 +1,23 @@
+{
+  "erc_violations": 0,
+  "drc_before": 87,
+  "drc_after": 81,
+  "new_drc_violations": 0,
+  "unconnected_before": 424,
+  "unconnected_after": 427,
+  "other_connectivity_preserved": true,
+  "existing_placements_preserved": true,
+  "all_tracks_and_vias_preserved": true,
+  "SW301_position_mm": [
+    162,
+    80
+  ],
+  "J1001_pin_map": {
+    "1": "3V3",
+    "2": "/MCU / clock / SWD/SWDIO",
+    "3": "/MCU / clock / SWD/NRST",
+    "4": "/MCU / clock / SWD/SWCLK",
+    "5": "GND",
+    "6": "unconnected-(J1001-SWO-Pad6)"
+  }
+}
