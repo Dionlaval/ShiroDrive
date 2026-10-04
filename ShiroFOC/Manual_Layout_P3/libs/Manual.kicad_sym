@@ -18345,7 +18345,7 @@
 				(fill
 					(type background)))
 			(pin passive line
-				(at -16.51 6.35 0)
+				(at -16.51 -6.35 0)
 				(length 5.08)
 				(name "IO2"
 					(effects
@@ -18356,7 +18356,7 @@
 						(font
 							(size 0.889 0.889)))))
 			(pin passive line
-				(at -16.51 -6.35 0)
+				(at -16.51 6.35 0)
 				(length 5.08)
 				(name "IO1"
 					(effects
@@ -18367,7 +18367,7 @@
 						(font
 							(size 0.889 0.889)))))
 			(pin passive line
-				(at 16.51 6.35 180)
+				(at 16.51 -6.35 180)
 				(length 5.08)
 				(name "IO2"
 					(effects
@@ -18378,7 +18378,7 @@
 						(font
 							(size 0.889 0.889)))))
 			(pin passive line
-				(at 16.51 -6.35 180)
+				(at 16.51 6.35 180)
 				(length 5.08)
 				(name "IO1"
 					(effects
