@@ -3099,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 119.38) (xy 167.64 119.38)
+			(xy 162.56 119.38) (xy 185.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 119.38) (xy 227.33 119.38)
+			(xy 195.58 119.38) (xy 227.33 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3186,16 +3186,6 @@
 			(type default)
 		)
 		(uuid "631e4206-5ce4-5694-9e78-e63440520946")
-	)
-	(wire
-		(pts
-			(xy 177.8 119.38) (xy 203.2 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "656a3fdd-978c-5822-a00a-9987ec5119cc")
 	)
 	(wire
 		(pts
@@ -4150,6 +4140,11 @@
 				)
 			)
 		)
+
+		(property "Selection Note" "ADC filter after U602 isolation. With 560k/28k divider and R106=1k: nominal tau 277us, fc about 575Hz, neglecting switch resistance and ADC loading. Firmware must allow settling after mux enable."
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 	)
 	(symbol
 		(lib_id "Manual:COMP_R101")
@@ -4371,7 +4366,7 @@
 	)
 	(symbol
 		(lib_id "Manual:COMP_R103")
-		(at 172.72 119.38 0)
+		(at 190.5 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4379,23 +4374,23 @@
 		(dnp no)
 		(uuid "4cf81a66-6f0b-59c7-b71f-054baff83074")
 		(property "Reference" "R103"
-			(at 172.72 115.57 0)
+			(at 190.5 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "270k 0.1% 100V"
-			(at 172.72 123.19 0)
+		(property "Value" "560k 0.1% 75V"
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 172.72 123.19 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,8 +4398,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.72 123.19 0)
+		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD07560KL"
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,15 +4408,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 119.38 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 172.72 123.19 0)
+		(property "MPN" "RT0603BRD07560KL"
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4425,7 @@
 			)
 		)
 		(property "Assembly" "FIT"
-			(at 172.72 123.19 0)
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,8 +4433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Procurement" "Select to specification: 270k 0.1% 100V; R_1206_3216Metric"
-			(at 172.72 123.19 0)
+		(property "Procurement" "RT0603BRD07560KL; 560k 0.1%; 0603; 75V continuous rating"
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,8 +4442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
-			(at 172.72 123.19 0)
+		(property "Rating" "0.1%; 25ppm/K; 0.1W; 75V continuous"
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,6 +4464,21 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+
+		(property "LCSC" "C719312"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+
+		(property "Selection Note" "Single upper resistor replaces R103/R104. Paired with R105=28k: VM/21, nominal 2.00V at 42V bus. About 40V and 2.86mW across R103 at 42V. Retain 0.1% for bus measurement accuracy used by firmware braking."
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 	)
 	(symbol
@@ -6031,108 +6041,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R104")
-		(at 208.28 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ded57737-d355-5b91-8042-3c5c51b23508")
-		(property "Reference" "R104"
-			(at 208.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270k 0.1% 100V"
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "FIT"
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Procurement" "Select to specification: 270k 0.1% 100V; R_1206_3216Metric"
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
-			(at 208.28 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3114f0a-eeca-4828-a5cf-30b2385bff30")
-		)
-		(pin "2"
-			(uuid "ba6bbf7a-827f-4e72-83ac-f92aac740075")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
-					(reference "R104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Manual:COMP_R105")
 		(at 227.33 140.97 0)
 		(unit 1)
@@ -6150,7 +6058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27k 0.1%"
+		(property "Value" "28k 0.1%"
 			(at 231.14 142.24 0)
 			(effects
 				(font
@@ -6169,7 +6077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
 			(at 231.14 142.24 0)
 			(effects
 				(font
@@ -6187,7 +6095,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RT0402BRD0728KL"
 			(at 231.14 142.24 0)
 			(effects
 				(font
@@ -6207,7 +6115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
+		(property "Procurement" "RT0402BRD0728KL; 28k 0.1%; 0402"
 			(at 231.14 142.24 0)
 			(effects
 				(font
@@ -6217,7 +6125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+		(property "Rating" "0.1%; 25ppm/K; 0.0625W; 50V"
 			(at 231.14 142.24 0)
 			(effects
 				(font
@@ -6240,6 +6148,21 @@
 					(unit 1)
 				)
 			)
+		)
+
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+
+		(property "LCSC" "C852686"
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+
+		(property "Selection Note" "Lower leg for R103=560k; preserves exact nominal division by 21. Resistor-tolerance-only bus error about +/-0.08V at 42V; ADC, reference, leakage and temperature errors add."
+			(at 0 0 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 	)
 	(symbol

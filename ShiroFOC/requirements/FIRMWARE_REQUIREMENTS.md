@@ -1,7 +1,8 @@
-# ShiroFOC firmware requirements — P2 layout revision
+# ShiroFOC firmware requirements — P2 baseline with P3 divider updates
 
 **Baseline:** 27 September 2026, `Manual_Layout_P2/ShiroFOC_Manual.kicad_sch`.
 **Revision change:** optional external brake NTC on PC2; status LED moved from PC2 to PC15. The archived Manual_Rebuild project retains the previous pin assignment.
+**P3 divider update (4 October 2026):** `Manual_Layout_P3` uses 560 kΩ / 28 kΩ for bus sensing (the nominal ×21 firmware scale is unchanged), and the hardware OV divider now trips nominally at 45.8 V / releases at 44.1 V. P2 files retain their original divider components. The rows and filter timing below describe the revised P3 dividers; other requirements retain the P2 baseline pending revision-specific verification.
 **Status:** implementation contract, not implemented or safety-qualified firmware.
 
 This is the current firmware requirements document. It supersedes conflicting instructions in the older A0 bring-up contract, pinout plan and design constraints. **MUST** means required; **PROVISIONAL** means a bring-up starting point that requires measurement before release. An unresolved safety parameter must prevent normal arming, rather than silently receiving a guessed default.
@@ -16,12 +17,12 @@ This is the current firmware requirements document. It supersedes conflicting in
 | Gate supply | External approximately 10 V: VM → LMR36510 → VCC; SW tied to VM |
 | Logic supplies | VCC → MPM3620A → 5V_BAT; USB/battery mux → 5V_SYS → 3V3 LDO |
 | Current sensing | Three 0.5 mΩ shunts; external op-amp feedback gain 28; nominal 14 mV/A about VREF/2 |
-| Bus measurement | 270 kΩ + 270 kΩ over 27 kΩ: nominal division by 21; R106 = 1 kΩ, C108 = 10 nF |
+| Bus measurement | P3: R103 = 560 kΩ (0603, 75 V), R105 = 28 kΩ (0402), both 0.1%; nominal division by 21; R104 removed; R106 = 1 kΩ, C108 = 10 nF |
 | Angle | AS5047P absolute-angle SPI3, dedicated bus |
 | IMU | BMI323 on I2C2, address 0x68; configuration and data over I²C |
 | External feedback | Three buffered 3–5 V single-ended Hall or ABI inputs, selected through TMUX1574 |
 | Brake | PB9/TIM17 request ORed with independent hardware overvoltage command |
-| Hardware OV backup | Nominal 45.9 V on / 44.2 V off; tolerance and transient overshoot remain to be measured |
+| Hardware OV backup | P3: nominal 45.8 V on / 44.1 V off using 470 kΩ / 13.3 kΩ and 1 MΩ feedback, all 1%; tolerance and transient overshoot remain to be measured |
 | External brake resistor | Provisional 10 Ω, Vishay RH25010R00FE01; thermal rating depends on mounting |
 | Brake temperature | Optional 10 kΩ-at-25°C external NTC on J502; PC2/ADC12_IN8; configure actual probe curve |
 
@@ -131,7 +132,7 @@ ST's HAL names for the first two settings are `OB_BOOT0_FROM_OB` and `OB_nBOOT0_
 
 **FW-BRAKE-03:** Choose thresholds so a fresh valid pack does not continuously discharge into the resistor, while the worst-case software regulation/overshoot remains below the earliest hardware trip and the qualified board limit. Use the comparator's tolerance bounds, not just its nominal 45.9 V. Do not raise the backup target to 60 V. The hardware threshold cannot be changed by firmware.
 
-**FW-BRAKE-04:** Schedule VM acquisition and brake control independently of host traffic. Apply bounded duty, hysteresis or a stable control law with anti-windup; avoid rapid chatter and duty jumps. The divider/1 kΩ/10 nF network has an approximate **267 µs** time constant before ADC and software delays. Initial VM sampling at least 1 kHz is a scheduling starting point, not proof of sufficient response. Derive and measure the total reaction budget using worst-case net regenerative current and effective bus capacitance: `dV/dt ≈ I_net / C_bus`. Include filtering, conversion, scheduling, gate-drive and resistor response. Increase sampling/control rate or restrict braking energy as required by that budget.
+**FW-BRAKE-04:** Schedule VM acquisition and brake control independently of host traffic. Apply bounded duty, hysteresis or a stable control law with anti-windup; avoid rapid chatter and duty jumps. The divider/1 kΩ/10 nF network has an approximate **277 µs** time constant in P3 (560 kΩ ∥ 28 kΩ, plus 1 kΩ, with 10 nF; neglecting mux resistance and ADC loading) before ADC and software delays. Initial VM sampling at least 1 kHz is a scheduling starting point, not proof of sufficient response. Derive and measure the total reaction budget using worst-case net regenerative current and effective bus capacitance: `dV/dt ≈ I_net / C_bus`. Include filtering, conversion, scheduling, gate-drive and resistor response. Increase sampling/control rate or restrict braking energy as required by that budget.
 
 **FW-BRAKE-05:** For the provisional 10 Ω resistor, use `I_on = Vbus/R`, `P_average ≈ duty × Vbus²/R` and `E = integral(P dt)` in duty/energy limits. Full-on examples: 42 V → 4.2 A / 176 W; 46 V → 4.6 A / 212 W. Its “250 W” rating requires specified heatsinking; the documented free-air rating is 100 W at 25°C. Account for tolerance, ambient, cooling, pulse duration and repeated stops. P2 has an **optional brake-resistor NTC input**, but still no brake-current or power-resistor continuity sensor. A connected NTC does not prove that the power resistor is connected. Treat calculated energy as an estimate and require an installation/commissioning record; do not claim software detects an open resistor.
 
