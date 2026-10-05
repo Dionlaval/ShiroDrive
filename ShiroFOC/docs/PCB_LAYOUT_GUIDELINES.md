@@ -1,3 +1,5 @@
+> **Active P3 revision (2026-10-04):** use `Manual_Layout_P3/ShiroFOC_Manual.kicad_pro` and the [ceramic / six-layer revision](PCB_CERAMIC_SIX_LAYER_2026-10-04.md). It supersedes older capacitor, layer and placement coordinates below. The PCB is partially routed.
+
 > **P1 update (2026-09-17):** follow [PCB_REVISION_LIST_P1.md](PCB_REVISION_LIST_P1.md) for the reclaimed top-side centre, four M3 corner mounts, parallel bridge/output rows and capacitor proposal.
 
 > **Current placement (2026-09-19):** use [ShiroFOC_KiCad_P1](../ShiroFOC_KiCad_P1/ShiroFOC_KiCad.kicad_pro). [P1 notes](PCB_PLACEMENT_P1.md) supersede older placement coordinates and capacitor-replacement proposals. The original P0 project is retained.
@@ -12,10 +14,10 @@ Status: placement and routing plan, not a routed-board or fabrication approval.
 
 Use this document alongside the [existing layout handoff](PCB_LAYOUT_HANDOFF.md), [design review](DESIGN_REVIEW_REV_A.md), [pin allocation](MCU_PINOUT_AND_INTERFACE_PLAN.md), and [firmware contract](FIRMWARE_BRINGUP_CONTRACT.md). The schematic/netlist defines connectivity; layout must not silently merge or change nets. Sheet-local aliases are recorded in `ShiroFOC_KiCad/outputs/net_name_aliases.json`.
 
-- Four layers, **2 oz finished outer copper / 0.5 oz inner copper**, double-sided assembly.
+- Six layers, **2 oz finished outer copper / 0.5 oz inner copper**, double-sided assembly.
 - Scope: proceed with the existing part selections and supplied manufacturing limits. **Skip part-availability validation and external fabricator/assembler validation** in this layout workflow. Retain internal electrical, mechanical and DRC checks.
 - Outline: compact **rounded square, no larger than 150 × 150 mm**. U601 is centred on the back; U301 and the MOSFETs are on top, with U301 offset from U601 to reserve space beneath U301 for decoupling and ADC parts.
-- Default stack: **signal/power – GND – GND – signal/power**. Use broad outer-layer copper for motor power and local rails.
+- Default stack: **signal/power – GND – signal – power – GND – signal/power**. Use broad outer-layer copper for motor power and local rails.
 - Put compact analog networks and suitable decoupling on the underside near U301's corresponding pins. Bottom-side shunts are an option subject to the loop, thermal and assembly checks below.
 - Prioritise: mechanical encoder alignment and cooling; bridge commutation loops; shunt sensing; gate drive; converter loops; analog references; interfaces; remaining signals.
 - The 18–42 V operating range and 25/40 Arms objectives remain design targets. Trace width, copper weight and clean DRC alone do not establish a continuous-current rating.
@@ -27,22 +29,24 @@ Use this document alongside the [existing layout handoff](PCB_LAYOUT_HANDOFF.md)
 |---|---|---|
 | L1 / F.Cu | Main power stage, components, local power pours, signals | 2 oz finished copper; compact switch nodes; L2 provides signal reference. |
 | L2 / In1.Cu | Continuous GND, 0.5 oz | Preserve under logic, analog and top-side interfaces. No general signal routing or power islands. |
-| L3 / In2.Cu | Continuous GND, 0.5 oz | Preserve under bottom-side analog and signals. Stitch to L2 and outer GND locally. |
-| L4 / B.Cu | ADC networks, decoupling, optional shunts, power reinforcement and signals | 2 oz finished copper; reserve quiet MCU region before allocating power copper. |
+| L3 / In2.Cu | Signals, 0.5 oz | Close reference to L2; keep sensitive routes clear of the power cells. |
+| L4 / In3.Cu | Power distribution, 0.5 oz | Close to L5; supplement with broad outer copper for motor current. |
+| L5 / In4.Cu | Continuous GND, 0.5 oz | Bottom-side signal reference. Stitch to L2 and outer ground. |
+| L6 / B.Cu | Encoder, analog, decoupling, ceramic banks and signals | 2 oz; keep the motor-current return outside the encoder/analog region. |
 
 ### Stackup selection
 
-- Copper weights are fixed: **2 / 0.5 / 0.5 / 2 oz** from top to bottom. The inner planes provide reference/return continuity; do not assume they have the current capacity of the outer copper. No copper-weight or availability validation task is required.
-- Prefer thin L1–L2 and L3–L4 dielectrics with the thicker core between the two ground planes. This improves local return coupling on both sides.
+- Copper weights are fixed: **2 / 0.5 / 0.5 / 0.5 / 0.5 / 2 oz** from top to bottom. The inner planes provide reference/return continuity; do not assume they have the current capacity of the outer copper. No copper-weight or availability validation task is required.
+- Prefer thin L1–L2 and L5–L6 dielectrics, close L2–L3 and L4–L5 spacing, and the thicker central dielectric between L3 and L4. This improves local return coupling on both sides.
 - Record the selected stackup identifier, board thickness, finished copper, dielectric thicknesses and impedance calculation in the PCB design notes before routing USB.
-- Keep L3 as GND unless a placement/routing review demonstrates a real need for a power plane. Several unrelated voltage islands would fragment the bottom-side reference. If L3 changes, re-evaluate every bottom-side signal return; never route a sensitive signal across a reference-plane boundary.
+- Keep L2 and L5 as continuous GND. L3 references L2 and L6 references L5; do not route sensitive signals across ground cutouts. L4 supply islands do not replace either ground plane.
 - Use the self-contained DRC baseline in section 19, transcribed from the supplied screenshots where available. Additional project choices are labelled separately. Do not import 1 oz routing minima or require a fabricator-validation step.
 
 ### Ground and return paths
 
 - Keep one electrically continuous GND system. Separate noisy and quiet circuits by placement and short return loops, rather than cutting an analog/digital ground moat.
 - Establish a broad power-return corridor between bridge shunts, local capacitors, brake stage and DC input. Keep the MCU/ADC area outside that corridor. Ground-plane current distributes according to impedance; naming a region “quiet” does not keep power current out of it.
-- Stitch L2/L3 together near signal layer transitions, IC decouplers, connector protection and local power returns. Put a ground-return via beside a signal transition where practical; never substitute a switch-node via for a ground-return via.
+- Stitch L2/L5 together near signal layer transitions, IC decouplers, connector protection and local power returns. Put a ground-return via beside a signal transition where practical; never substitute a switch-node via for a ground-return via.
 - Avoid rows of antipads forming slots across a signal return corridor. Inspect filled copper on each layer, especially around shunt and MOSFET via arrays.
 - Keep continuous reference copper beneath SPI, USB, CAN logic and analog routes. Consider only **small, deliberate local plane clearances** beneath high-dv/dt switch islands where the device guidance or EMI assessment justifies them. No signal may cross those clearances. Do not blanket-remove ground beneath entire power-stage or converter regions.
 - VM thermal vias must clear both GND planes. Source-above-shunt vias must also clear GND. A thermal via is electrically part of its pad net.
@@ -64,19 +68,19 @@ Use this document alongside the [existing layout handoff](PCB_LAYOUT_HANDOFF.md)
 
 ## 4. DC input, bulk capacitors and bus measurement
 
-P1 proposal: replace the large three-can row with local ceramic banks and edge-mounted bulk, after electrical sizing. See [P1 revision list](PCB_REVISION_LIST_P1.md); do not remove C101-C103 solely on nominal capacitance or appearance.
+P3 approved revision: C101-C103 are now part of a 48-fitted / 6-DNP Samsung CL32Y106KCVZNWE ceramic bank. See [ceramic / six-layer revision](PCB_CERAMIC_SIX_LAYER_2026-10-04.md) for reference groups, DC-bias limitations and the external-bulk attachment option.
 
 **J101, C101–C106, D101, R102/C107, VM divider and C108.**
 
 - Route J101 to a broad VM/GND distribution with the bulk bank adjacent to the inverter. Keep outgoing and returning high-current paths close to reduce loop area; avoid long separated rails.
-- Connect C101–C103 with comparable, low-resistance paths so one capacitor does not take most of the ripple. Keep their bodies away from MOSFET/shunt heat and provide pressure-vent clearance.
+- Distribute ceramic-bank VM/GND connections with comparable low-inductance paths. Allow for the selected 2.5 mm body height, reflow access, board flex and hot copper; validate ripple-current sharing and temperature.
 - Place small bus ceramics where current commutates, not merely beside the input connector. Bulk capacitors do not replace package-local ceramics.
 - Keep DNP clamp and damping positions electrically short enough to be useful. A long branch to an optional TVS or RC network adds inductance. Preserve access for an external low-inductance capacitor bank.
 - Connect voltage-divider pickup to the intended DC bus, away from phase and brake switching islands. Put the high-voltage resistor chain toward the bus and keep the divided, high-impedance node short and shielded by quiet ground.
 - Preserve resistor-to-resistor voltage spacing and distance to nearby low-voltage copper; account for working voltage, transient envelope and contamination when setting clearance rules.
 - Place the final ADC capacitor C108 near PA0/U301; route through the existing TMUX channel as drawn. Do not bypass the power-off isolation provided by the mux.
 - Input polarity marking must be unambiguous: J101 pin 1 GND, pin 2 VM. Reserve strain relief and soldering access. Existing external fuse/precharge requirements remain in the design review.
-- Verify bulk ripple and temperature in hardware: the present bank's nameplate total ripple rating is a possible operating-current limit, independent of PCB copper capacity.
+- Verify bulk ripple and temperature in hardware: the ceramic bank has no validated aggregate ripple-current rating and may limit operating current, independent of PCB copper capacity.
 
 ## 5. Three half bridges and high-current copper
 
@@ -352,13 +356,13 @@ Global minima are manufacturing floors; net classes below express intended routi
 
 ### 19.4 Mechanical and connectivity checks
 
-- Four enabled copper layers with **2 / 0.5 / 0.5 / 2 oz**; both inner layers assigned GND.
+- Six enabled copper layers with **2 / 0.5 / 0.5 / 0.5 / 0.5 / 2 oz**; L2/L5 assigned GND, L3 signals and L4 power.
 - Edge.Cuts forms one closed, non-self-intersecting rounded square with equal width/height and maximum **150 × 150** bounding dimensions. Corner radius is chosen with the final mechanics; 5 is the starting preference.
 - U601 is on B.Cu with its sensing centre at the outline centre; U301 and Q401–Q403 are on F.Cu. Treat these as explicit placement checks, not capabilities of generic electrical DRC.
 - MCU underside component courtyards must not overlap the encoder/magnet envelope. Courtyard checks work per side; separately check through-board height, magnet and heatsink envelopes in the mechanical view.
 - Enable shorts, clearance, minimum width, annular ring, drill spacing, edge clearance, courtyard overlap, unconnected items and schematic/PCB parity checks. Review rather than globally suppress footprint-library differences for deliberate local custom footprints.
 - Refill zones before every final DRC run. Resolve every error and triage warnings individually; save a report with any narrowly justified exceptions.
-- Inspect source-side force vias on all four layers: **no GND connection before the shunt**. Check that sense pads use their dedicated traces and never join force pours. These are mandatory manual checks even if the netlist/DRC is clean.
+- Inspect source-side force vias on all six layers: **no GND connection before the shunt**. Check that sense pads use their dedicated traces and never join force pours. These are mandatory manual checks even if the netlist/DRC is clean.
 - This stage does not run sourcing checks or request fabrication/assembly sign-off. It still checks the design's own dimensions, connectivity, current paths and exported artwork.
 
 ## 20. Source and interpretation notes

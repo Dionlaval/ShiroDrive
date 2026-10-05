@@ -268,6 +268,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Manual:COMP_TP101"
+			(pin_names
+				(offset 0.635)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "COMP_TP101"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "COMP_TP101_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Manual:CSD88599Q5DC"
 			(pin_names
 				(offset 0.254)
@@ -1397,9 +1495,31 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PHASE V / OPTIONAL RC"
+		(exclude_from_sim no)
+		(at 114.3 95.25 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left top)
+		)
+		(uuid "2f1c54d6-899d-50ed-b1eb-0d0c4f9675f0")
+	)
+	(text "PHASE U / OPTIONAL RC"
+		(exclude_from_sim no)
+		(at 33.02 95.25 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left top)
+		)
+		(uuid "49e8908d-74c1-5957-808a-5dc84758fa65")
+	)
 	(text "SH: dedicated high-side gate return, paired with GH routing.\nPHASE_U/V/W: high-current motor connections.\nKeep the PCB routes separate; they join inside each MOSFET package."
 		(exclude_from_sim no)
-		(at 20.32 160.02 0)
+		(at 20.32 82.55 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1407,6 +1527,28 @@
 			(justify left top)
 		)
 		(uuid "75c0ff8d-3c4a-4f9d-b7a0-cccad2aff31b")
+	)
+	(text "PHASE W / OPTIONAL RC"
+		(exclude_from_sim no)
+		(at 182.88 95.25 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left top)
+		)
+		(uuid "baddf9f8-1991-5842-b667-d123cec26789")
+	)
+	(text "RC snubbers: all DNP. Tune from measured ringing; verify resistor pulse/average power.\nReturn each RC to the local MOSFET PGND power pad BEFORE the shunt.\nGL/SOURCE pads measure low-side Vgs; PHASE is a switching node."
+		(exclude_from_sim no)
+		(at 20.32 177.8 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+			(justify left top)
+		)
+		(uuid "f73eb2d1-478d-51bc-b08c-7d96f3617bfa")
 	)
 	(junction
 		(at 128.27 25.4)
@@ -1500,6 +1642,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 115.57) (xy 45.72 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0002df24-0966-565b-ae4d-10a1114f106c")
+	)
+	(wire
+		(pts
 			(xy 118.11 50.8) (xy 123.19 50.8)
 		)
 		(stroke
@@ -1527,6 +1679,16 @@
 			(type default)
 		)
 		(uuid "0e8209f3-a045-43c9-8b2e-436a5e5c3b26")
+	)
+	(wire
+		(pts
+			(xy 33.02 147.32) (xy 33.02 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebe659b-78b3-5a8a-82da-bbb96b3bf95a")
 	)
 	(wire
 		(pts
@@ -1597,6 +1759,16 @@
 			(type default)
 		)
 		(uuid "1512c228-498a-4c16-980f-5430504a86c6")
+	)
+	(wire
+		(pts
+			(xy 45.72 104.14) (xy 45.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b24541-3fd9-5cfb-898b-6785b731cd15")
 	)
 	(wire
 		(pts
@@ -1730,6 +1902,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 147.32) (xy 218.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435e9ad7-6a3a-5721-9c7a-2b9ca254fdf8")
+	)
+	(wire
+		(pts
 			(xy 217.17 26.67) (xy 217.17 25.4)
 		)
 		(stroke
@@ -1747,6 +1929,16 @@
 			(type default)
 		)
 		(uuid "44fb4a3d-19e0-4172-a8f4-9a7581a71b19")
+	)
+	(wire
+		(pts
+			(xy 50.8 147.32) (xy 50.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45195b90-c27e-50c9-9d7f-5a94cb354424")
 	)
 	(wire
 		(pts
@@ -1840,6 +2032,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 147.32) (xy 182.88 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afb972c-38cc-59c2-9795-0f1417c9a28f")
+	)
+	(wire
+		(pts
 			(xy 128.27 69.85) (xy 123.19 69.85)
 		)
 		(stroke
@@ -1890,6 +2092,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 147.32) (xy 68.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6569870d-80af-58e4-b202-91c33f9964d4")
+	)
+	(wire
+		(pts
 			(xy 209.55 62.23) (xy 209.55 55.88)
 		)
 		(stroke
@@ -1907,6 +2119,16 @@
 			(type default)
 		)
 		(uuid "6e267b17-c22b-4de1-961e-c906dd3b9521")
+	)
+	(wire
+		(pts
+			(xy 195.58 130.81) (xy 195.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee58baa-806a-57b9-9e68-a532d3f706ee")
 	)
 	(wire
 		(pts
@@ -1950,6 +2172,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 104.14) (xy 195.58 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774061ad-20ce-5d44-9d84-5409a2e375ee")
+	)
+	(wire
+		(pts
 			(xy 34.29 76.2) (xy 34.29 72.39)
 		)
 		(stroke
@@ -1990,6 +2222,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 130.81) (xy 127 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96125da4-a3ac-526f-8f49-8fdc6cfb5852")
+	)
+	(wire
+		(pts
 			(xy 62.23 35.56) (xy 62.23 36.83)
 		)
 		(stroke
@@ -2027,6 +2269,16 @@
 			(type default)
 		)
 		(uuid "a01a9a85-b9dc-459b-8d62-0dc703bee086")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bd9cb8-5da7-54b7-bcfb-7dc286e24efb")
 	)
 	(wire
 		(pts
@@ -2097,6 +2349,16 @@
 			(type default)
 		)
 		(uuid "c135b1a1-9332-48f3-91c8-0befe604f09a")
+	)
+	(wire
+		(pts
+			(xy 200.66 147.32) (xy 200.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ace7f3-dd51-5a27-9ce0-957fc83c0225")
 	)
 	(wire
 		(pts
@@ -2210,6 +2472,46 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 147.32) (xy 132.08 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9821656-e6f2-581c-88e5-b4302ca9b34e")
+	)
+	(wire
+		(pts
+			(xy 45.72 130.81) (xy 45.72 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a0e1af-a54e-50e0-9251-6a3e25ef43d4")
+	)
+	(wire
+		(pts
+			(xy 149.86 147.32) (xy 149.86 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da906a3b-c869-5eef-a26d-b56d09422366")
+	)
+	(wire
+		(pts
+			(xy 114.3 147.32) (xy 114.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabebb52-589d-5528-b359-21b4c97d1709")
+	)
+	(wire
+		(pts
 			(xy 76.2 45.72) (xy 86.36 45.72)
 		)
 		(stroke
@@ -2217,6 +2519,16 @@
 			(type default)
 		)
 		(uuid "db4a17af-5b50-4216-8ba3-7da07354ef6e")
+	)
+	(wire
+		(pts
+			(xy 195.58 115.57) (xy 195.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbba298c-fa38-5043-a878-74f40e192d67")
 	)
 	(wire
 		(pts
@@ -2237,6 +2549,16 @@
 			(type default)
 		)
 		(uuid "e4a67fb5-c9b7-4898-b2e9-53ce77835df9")
+	)
+	(wire
+		(pts
+			(xy 127 115.57) (xy 127 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e3ae2f-4629-5c42-acbd-656f09030f34")
 	)
 	(wire
 		(pts
@@ -2278,6 +2600,96 @@
 		)
 		(uuid "ff8aed0d-f6d0-4a3d-9e2b-fcac910d68f3")
 	)
+	(label "LS_SOURCE_W"
+		(at 195.58 134.62 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "1b33e64d-fc48-5737-bfbb-7764110be8aa")
+	)
+	(label "LS_SOURCE_W"
+		(at 209.55 55.88 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "2032b772-0fb4-55d6-a415-bef2119620f4")
+	)
+	(label "LS_SOURCE_V"
+		(at 127 134.62 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "3feee357-8d95-59df-a9e7-560b430b68f8")
+	)
+	(label "LS_SOURCE_V"
+		(at 120.65 55.88 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "5ccb2ff8-63c1-5cb6-93af-5c98eb2899e2")
+	)
+	(label "LS_SOURCE_U"
+		(at 34.29 55.88 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "6627d869-f7db-5ee0-987e-b3acb5d00dce")
+	)
+	(label "LS_SOURCE_U"
+		(at 50.8 152.4 270)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "9036c264-a0a0-5c26-9b69-537a596017cf")
+	)
+	(label "LS_SOURCE_V"
+		(at 132.08 152.4 270)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "aabc3ebf-06de-55a0-8cdc-d06c00ff9665")
+	)
+	(label "LS_SOURCE_U"
+		(at 45.72 134.62 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "b9efab51-a9f3-5abf-9f86-37f63efdfd4f")
+	)
+	(label "LS_SOURCE_W"
+		(at 200.66 152.4 270)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "f5a81e7c-e68e-530a-8a58-3d5006bde4cd")
+	)
 	(global_label "GHS1"
 		(shape input)
 		(at 86.36 45.72 0)
@@ -2296,6 +2708,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GLS1"
+		(shape bidirectional)
+		(at 33.02 152.4 270)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "0e90a9c6-c47f-5c5e-9a52-abbf78abc4db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_W"
+		(shape bidirectional)
+		(at 195.58 104.14 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "26fef97a-740b-5fc1-a3cc-bfbdf41d6d1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_V"
+		(shape bidirectional)
+		(at 149.86 152.4 270)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "2f3270f3-2f97-5f17-97c9-b07fa871ef4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2586,6 +3058,26 @@
 			)
 		)
 	)
+	(global_label "PHASE_V"
+		(shape bidirectional)
+		(at 127 104.14 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "89881845-e4c3-5ca2-803c-a6797b45e00c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SHUNT_V_SENSE_P"
 		(shape input)
 		(at 128.27 64.77 0)
@@ -2604,6 +3096,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_U"
+		(shape bidirectional)
+		(at 68.58 152.4 270)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "a9386f29-91d2-5ec1-b29f-e481399ee24b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_W"
+		(shape bidirectional)
+		(at 218.44 152.4 270)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "aafcfb5f-7bf1-596f-87b0-97d66c18ef26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2630,6 +3162,26 @@
 			)
 		)
 	)
+	(global_label "GLS2"
+		(shape bidirectional)
+		(at 114.3 152.4 270)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "b0442c11-fdc4-59c3-8646-b3eac4041808")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PHASE_U"
 		(shape input)
 		(at 86.36 55.88 0)
@@ -2648,6 +3200,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PHASE_U"
+		(shape bidirectional)
+		(at 45.72 104.14 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "bfe3381b-2cd2-5a75-b41a-f059796844c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2696,6 +3268,26 @@
 			)
 		)
 	)
+	(global_label "GLS3"
+		(shape bidirectional)
+		(at 182.88 152.4 270)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "d206c14a-7f0c-5cea-8aad-0973cf384521")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SHUNT_W_SENSE_P"
 		(shape input)
 		(at 217.17 64.77 0)
@@ -2737,6 +3329,266 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "020a54a9-8904-5544-bbbc-d3f7b841a0b9")
+		(property "Reference" "R425"
+			(at 129.54 110.49 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TUNE DNP"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "DNP"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "Select after measured switch-node ringing; keep DNP until tuned"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating" "Pulse-rated resistor, >=100 V working-voltage class; verify dissipation"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Series RC from PHASE_V to low-side source, before shunt. Minimize loop area."
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "218ed451-fe62-503e-841f-d7d27758d4ef")
+		)
+		(pin "2"
+			(uuid "43458d5b-dfd9-56b2-876c-11573d401917")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "R425")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 45.72 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "02a424ae-96f0-5bf3-9b76-28a878b4b82c")
+		(property "Reference" "C413"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TUNE DNP"
+			(at 48.26 128.27 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "DNP"
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "Select after measured switch-node ringing; keep DNP until tuned"
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating" "C0G/NP0, >=100 V; value selected from measured ringing"
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Series RC from PHASE_U to low-side source, before shunt. Minimize loop area."
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9ddac85-0ab1-539f-b842-d73f9911b267")
+		)
+		(pin "2"
+			(uuid "323a7fd7-50b8-57af-ba31-0e42e6a6997f")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "C413")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3035,6 +3887,220 @@
 		)
 	)
 	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 200.66 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bc8e854-3997-545f-8a50-965ff1df9636")
+		(property "Reference" "TP432"
+			(at 203.2 146.05 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SOURCE"
+			(at 203.2 148.59 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "LS_SOURCE_W"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b71ac4d4-f535-54d0-9850-57b7b5af3532")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "TP432")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 218.44 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bdea12b-2536-522a-984d-577659e013c1")
+		(property "Reference" "TP433"
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PHASE"
+			(at 220.98 148.59 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "PHASE_W"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a76fa1ba-9373-5fcd-93c2-73d110c29b05")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "TP433")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 209.55 24.13 0)
 		(unit 1)
@@ -3101,6 +4167,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 45.72 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "1d5246b7-ad46-5f2b-8d6d-bddff4b7f166")
+		(property "Reference" "R415"
+			(at 48.26 110.49 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TUNE DNP"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "DNP"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "Select after measured switch-node ringing; keep DNP until tuned"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating" "Pulse-rated resistor, >=100 V working-voltage class; verify dissipation"
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Series RC from PHASE_U to low-side source, before shunt. Minimize loop area."
+			(at 45.72 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea7826b-232f-5e74-b713-3d55197ccbba")
+		)
+		(pin "2"
+			(uuid "be1d2f49-0ad1-5727-8894-ac3aecfa017a")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "R415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 36.83 0)
 		(unit 1)
@@ -3161,6 +4357,113 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 149.86 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "31b8e3f7-e502-5ffb-a6cb-976628857a12")
+		(property "Reference" "TP423"
+			(at 152.4 146.05 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PHASE"
+			(at 152.4 148.59 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "PHASE_V"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04d192c0-ece8-51a8-a7bc-446972a6895b")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "TP423")
 					(unit 1)
 				)
 			)
@@ -3969,6 +5272,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 132.08 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5efc19a5-8b91-5380-b666-fd6e411edd03")
+		(property "Reference" "TP422"
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SOURCE"
+			(at 134.62 148.59 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "LS_SOURCE_V"
+			(at 132.08 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "337585bf-e280-5618-a594-8892101331e1")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "TP422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 76.2 0)
 		(unit 1)
@@ -4029,6 +5439,113 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 68.58 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "66c839e3-32a0-5350-85a9-9eeca2af22a1")
+		(property "Reference" "TP413"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PHASE"
+			(at 71.12 148.59 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "PHASE_U"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39cd97f3-6b65-5d96-b9a8-4e72418d1aba")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "TP413")
 					(unit 1)
 				)
 			)
@@ -4141,6 +5658,243 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 114.3 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6febc62e-8950-56ed-bad8-4197d4757c1a")
+		(property "Reference" "TP421"
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GL"
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "GLS2"
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2194716c-a556-55fd-86dd-4d292d16c50e")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "TP421")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7307bd87-fa50-521e-9a32-7a8dcab4f391")
+		(property "Reference" "R435"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TUNE DNP"
+			(at 198.12 113.03 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "DNP"
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "Select after measured switch-node ringing; keep DNP until tuned"
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating" "Pulse-rated resistor, >=100 V working-voltage class; verify dissipation"
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Series RC from PHASE_W to low-side source, before shunt. Minimize loop area."
+			(at 195.58 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fbf0b25-4159-573d-8874-aff72b3c097f")
+		)
+		(pin "2"
+			(uuid "06c2997c-7da8-5836-beb4-d2119b950a2c")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "R435")
 					(unit 1)
 				)
 			)
@@ -4655,6 +6409,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 195.58 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8156c6aa-c76e-5a0a-aa32-f076c562f04c")
+		(property "Reference" "C433"
+			(at 198.12 125.73 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TUNE DNP"
+			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "DNP"
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "Select after measured switch-node ringing; keep DNP until tuned"
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating" "C0G/NP0, >=100 V; value selected from measured ringing"
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Series RC from PHASE_W to low-side source, before shunt. Minimize loop area."
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "668ae316-ec97-5cf4-b61f-da7f35f04492")
+		)
+		(pin "2"
+			(uuid "76a69b4d-0319-577a-b695-1b3ca3f22ba6")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "C433")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 34.29 24.13 0)
 		(unit 1)
@@ -4781,6 +6665,113 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 182.88 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a261345b-62c4-540d-a68b-27fa2b1c3dd9")
+		(property "Reference" "TP431"
+			(at 185.42 146.05 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GL"
+			(at 185.42 148.59 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "GLS3"
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "882fe82d-5bad-5e7c-b973-4d06ca21d3e8")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "TP431")
 					(unit 1)
 				)
 			)
@@ -5634,7 +7625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-6sqmm_1x03_P14mm_D3.5mm_OD7mm"
+		(property "Footprint" "Connector_AMASS:AMASS_MR30PW-M_1x03_P3.50mm_Horizontal"
 			(at 280.924 100.33 0)
 			(effects
 				(font
@@ -5824,6 +7815,350 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 33.02 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dac52d9a-de8e-5712-9bad-b2ff6eb18a9f")
+		(property "Reference" "TP411"
+			(at 35.56 146.05 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GL"
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "GLS1"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "895dbc90-c57e-589a-a21d-d8885026a1a2")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "TP411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 50.8 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "edcb6d3f-7ba2-5a56-a6f9-b75562538590")
+		(property "Reference" "TP412"
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SOURCE"
+			(at 53.34 148.59 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 50.8 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 50.8 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 50.8 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 50.8 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "LS_SOURCE_U"
+			(at 50.8 147.32 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd7ddf47-50c2-5d6e-b080-aea1924cc8f9")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "TP412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ef9ce297-7e3f-5562-ab4b-0fa57fc75805")
+		(property "Reference" "C423"
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TUNE DNP"
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "DNP"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Procurement" "Select after measured switch-node ringing; keep DNP until tuned"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating" "C0G/NP0, >=100 V; value selected from measured ringing"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Series RC from PHASE_V to low-side source, before shunt. Minimize loop area."
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7541de53-c559-5237-8848-aa502ef58be7")
+		)
+		(pin "2"
+			(uuid "ef8b3f02-c11f-5348-a348-7a50cbecd44d")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/155a09fd-a132-4a64-8435-ff994cbe5747"
+					(reference "C423")
 					(unit 1)
 				)
 			)

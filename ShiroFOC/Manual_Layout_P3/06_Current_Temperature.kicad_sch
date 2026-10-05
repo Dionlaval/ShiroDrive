@@ -3924,6 +3924,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Manual:COMP_TP101"
+			(pin_names
+				(offset 0.635)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "COMP_TP101"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "COMP_TP101_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Manual:COMP_TP1018"
 			(pin_names
 				(offset 0.635)
@@ -9238,6 +9336,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 130.81) (xy 118.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d6bff0-b26f-5fad-89d3-823357c5a2fc")
+	)
+	(wire
+		(pts
 			(xy 101.6 241.3) (xy 101.6 246.38)
 		)
 		(stroke
@@ -9435,6 +9543,16 @@
 			(type default)
 		)
 		(uuid "59450978-5e06-57fb-b5b6-76f7902bb18d")
+	)
+	(wire
+		(pts
+			(xy 379.73 130.81) (xy 379.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc4f85b-7051-578c-bdd9-1262715fb4da")
 	)
 	(wire
 		(pts
@@ -9675,6 +9793,16 @@
 			(type default)
 		)
 		(uuid "9d277c2f-94a6-594f-bce6-3303fa041f5e")
+	)
+	(wire
+		(pts
+			(xy 248.92 130.81) (xy 248.92 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc9ec5b-554a-5c1b-afd8-61b49627b5ab")
 	)
 	(wire
 		(pts
@@ -10136,6 +10264,26 @@
 		)
 		(uuid "caac201c-c7f7-5ed9-816f-404f72ab2ade")
 	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 118.11 135.89 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "3ac353e5-0eaa-5ea0-a829-daaddf1a940d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SHUNT_V_SENSE_N"
 		(shape bidirectional)
 		(at 165.1 97.79 180)
@@ -10228,6 +10376,26 @@
 		(uuid "994177f7-2fa1-5485-8548-4e33313a5a1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 295.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 379.73 135.89 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "a36419e0-51c2-5aa8-9fb8-0c14a07bc089")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 379.73 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10368,6 +10536,26 @@
 		(uuid "f737ecb3-7fae-554a-b082-a22841fa0b50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 248.92 135.89 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "ff90f518-7884-59d2-9782-48beddae089e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,6 +11030,113 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/73a3ad8a-8b99-485f-a068-1c059917a31b"
 					(reference "TP1020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 248.92 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fb26cd4-dc96-520e-9e9a-0831a8fc56cd")
+		(property "Reference" "TP424"
+			(at 251.46 129.54 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCOPE GND"
+			(at 251.46 132.08 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 248.92 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 248.92 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 248.92 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 248.92 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "GND"
+			(at 248.92 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d15febed-2248-5927-b4d5-b5f61a25bcde")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/73a3ad8a-8b99-485f-a068-1c059917a31b"
+					(reference "TP424")
 					(unit 1)
 				)
 			)
@@ -13198,6 +13493,113 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/73a3ad8a-8b99-485f-a068-1c059917a31b"
 					(reference "R418")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 118.11 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "705ca604-14d8-5de2-a4aa-280cac6073b1")
+		(property "Reference" "TP414"
+			(at 120.65 129.54 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCOPE GND"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "GND"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7e99fc6-18c5-59cd-aa2e-58c6c8485bb9")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/73a3ad8a-8b99-485f-a068-1c059917a31b"
+					(reference "TP414")
 					(unit 1)
 				)
 			)
@@ -16204,6 +16606,113 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/73a3ad8a-8b99-485f-a068-1c059917a31b"
 					(reference "R442")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Manual:COMP_TP101")
+		(at 379.73 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "eec57ba9-1d3d-5920-bd59-3e6aaa35cd22")
+		(property "Reference" "TP434"
+			(at 382.27 129.54 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCOPE GND"
+			(at 382.27 132.08 0)
+			(effects
+				(font
+					(size 0.95 0.95)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 379.73 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 379.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PCB feature"
+			(at 379.73 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "PCB"
+			(at 379.73 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "PCB"
+			(at 379.73 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Test_Net" "GND"
+			(at 379.73 130.81 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c000d316-8bc2-5022-a286-aaaef389b5fc")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/73a3ad8a-8b99-485f-a068-1c059917a31b"
+					(reference "TP434")
 					(unit 1)
 				)
 			)

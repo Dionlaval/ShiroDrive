@@ -1,3 +1,5 @@
+> **Active P3 revision (2026-10-04):** continue `Manual_Layout_P3/ShiroFOC_Manual.kicad_pro`. The [ceramic / six-layer revision](PCB_CERAMIC_SIX_LAYER_2026-10-04.md) supersedes historical P0/P1 capacitor and layer details in this handoff.
+
 # ShiroFOC A1-Drawing / A0 electrical PCB layout handoff
 
 > **Current placement (2026-09-19):** use [ShiroFOC_KiCad_P1](../ShiroFOC_KiCad_P1/ShiroFOC_KiCad.kicad_pro). [P1 notes](PCB_PLACEMENT_P1.md) supersede older placement coordinates and capacitor-replacement proposals. The original P0 project is retained.
@@ -6,7 +8,7 @@
 
 **PCB placement update (2026-09-17):** an 80 × 80 mm, four-layer P0 board now contains all 260 footprints. Continue from the existing PCB rather than importing into a new blank board. Read the [P0 placement checkpoint](PCB_PLACEMENT_P0.md) for checks, footprint corrections, remaining warnings and mechanical assumptions. It is not routed.
 
-Read the [detailed PCB layout plan and subsection guidelines](PCB_LAYOUT_GUIDELINES.md) before placement. It defines the four-layer, 2 oz outer-copper approach, double-sided placement, Kelvin routing and routing/review sequence.
+Read the [detailed PCB layout plan and subsection guidelines](PCB_LAYOUT_GUIDELINES.md) before placement. It defines the six-layer, 2 oz outer-copper approach, double-sided placement, Kelvin routing and routing/review sequence.
 
 Start from `ShiroFOC_KiCad/ShiroFOC_KiCad.kicad_pro` in KiCad 9. Use **Update PCB from Schematic** to import the native hierarchy. There is no routed PCB or fabrication package in this schematic release. Use the checked-in local footprints, not package-name look-alikes. Read [release review](DESIGN_REVIEW_REV_A.md) for operating limits and [firmware contract](FIRMWARE_BRINGUP_CONTRACT.md) for the pin requirements.
 
@@ -47,7 +49,7 @@ The connected redraw preserves the entire A0 electrical circuit. U301A-F are uni
 | TH701/702/703 | Map to U/V/W half-bridges respectively (NTC_PHASE_A/B/C). Thermal contact near representative MOSFET copper, electrically isolated from switching islands. |
 | U601, U701 | Encoder magnetic/mechanical alignment first. IMU away from mounting stress, heat and inductors; no vias under its package; mark axes and orientation. |
 
-Use four layers: signal/power–GND–GND–signal/power, with fixed 2 oz outer / 0.5 oz inner copper. Apply the detailed plan section 19 DRC baseline; external fabricator and part-availability validation are excluded from this workflow. Do not interpret generic KiCad default trace width/clearance as an approved 40 A routing rule. Use a dedicated current/thermal review for the pours, neck-downs, vias and connector solder joints; account for fine-pitch package clearances locally. No 40 Arms continuous claim follows from copper weight alone.
+Use six layers: signal/power–GND–signal–power–GND–signal/power, with 2 oz outer / 0.5 oz inner copper. Apply the detailed plan section 19 DRC baseline; external fabricator and part-availability validation are excluded from this workflow. Do not interpret generic KiCad default trace width/clearance as an approved 40 A routing rule. Use a dedicated current/thermal review for the pours, neck-downs, vias and connector solder joints; account for fine-pitch package clearances locally. No 40 Arms continuous claim follows from copper weight alone.
 
 ## Custom package controls
 
@@ -72,7 +74,7 @@ Use four layers: signal/power–GND–GND–signal/power, with fixed 2 oz outer 
 
 ## Population and procurement
 
-All functional paths are fitted. 18 DNP positions remain on-board:
+The historical A0 population list below is supplemented by six optional MLCC positions in P3. Use the active P3 schematic DNP flags for assembly:
 
 - D101, R102/C107: measured VM clamp/cable damping options.
 - R415/C413, R425/C423, R435/C433: phase RC snubbers.
@@ -85,7 +87,7 @@ The BOM records exact MPNs for package-specific active/power parts and sensors. 
 
 - Current-sense/bias resistors: 0.1%, matched technology, ≤25 ppm/°C recommended; no casual E24 substitution of 28 kΩ/56 kΩ ratios.
 - VM-connected resistors: ≥100 V working voltage and the stated power/package (R101 0.25 W); snubber resistor pulse capability selected after measurement.
-- VM capacitors: stated 100 V rating; bulk 63 V. Review **effective capacitance at DC bias**, temperature and ripple rather than nominal capacitance alone.
+- VM capacitors: stated 100 V rating; the P3 bank is 48 fitted 10 uF / 100 V X7S ceramics plus six DNP positions. Review **effective capacitance at DC bias**, temperature and ripple rather than nominal capacitance alone.
 - Converter/LDO output capacitors: comply with each datasheet's effective capacitance and ESR range at operating voltage. Increase nominal capacitance within the same footprint if needed; recheck regulator stability when substituting.
 - Crystal load and optional feedback caps: C0G/NP0. Do not substitute X7R for the oscillator load capacitors.
 - Select switch variants that fit the specified TL3305A land pattern. Solder-wire pads and solder jumpers are PCB features; verify wire and mating-connector mechanics.

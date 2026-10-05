@@ -12,146 +12,6 @@
 		(comment 1 "Same A0 circuit; connected functional drawing")
 	)
 	(lib_symbols
-		(symbol "Manual:COMP_C207"
-			(pin_names
-				(offset 0.635)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "COMP_C207"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "COMP_C207_1_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Manual:COMP_C208"
 			(pin_names
 				(offset 0.635)
@@ -1406,134 +1266,6 @@
 				)
 			)
 			(symbol "COMP_R204_1_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.8255) (xy 1.905 0.8255) (xy 1.905 -0.8255) (xy -1.905 -0.8255) (xy -1.905 0.8255)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Manual:COMP_R205"
-			(pin_names
-				(offset 0.635)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "COMP_R205"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "COMP_R205_1_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -1.905 0)
@@ -3597,17 +3329,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Shield capacitor C207 is DNP.\nPlace USBLC6 at the connector."
-		(exclude_from_sim no)
-		(at 91.44 144.78 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left top)
-		)
-		(uuid "1dd09a47-dbf0-5c11-a9d6-b83528f432ea")
-	)
 	(text "USB service: connector, protection and bridge in one circuit"
 		(exclude_from_sim no)
 		(at 15.24 21.59 0)
@@ -3710,6 +3431,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d5b39cb-710e-5799-aab2-657155b1dac4")
+	)
+	(junction
+		(at 68.58 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5207dcb9-d661-4f72-8c65-568e5c83f6ad")
 	)
 	(junction
 		(at 88.9 62.23)
@@ -3903,6 +3630,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 140.97) (xy 76.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2434bc15-a823-4cac-8d15-94c777c2e712")
+	)
+	(wire
+		(pts
 			(xy 53.34 133.35) (xy 53.34 140.97)
 		)
 		(stroke
@@ -3913,7 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 62.23) (xy 114.3 62.23)
+			(xy 88.9 62.23) (xy 167.64 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4040,6 +3777,16 @@
 			(type default)
 		)
 		(uuid "44b227dd-0bab-477d-abfd-568889c3cd2f")
+	)
+	(wire
+		(pts
+			(xy 76.2 133.35) (xy 76.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493d2342-05e6-4484-85a7-f1549aed501c")
 	)
 	(wire
 		(pts
@@ -4353,16 +4100,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 157.48) (xy 76.2 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2f7620b-6451-56d7-b79e-30af77ad2ecc")
-	)
-	(wire
-		(pts
 			(xy 292.1 43.18) (xy 292.1 73.66)
 		)
 		(stroke
@@ -4473,16 +4210,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 133.35) (xy 76.2 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de7267ff-bc30-5d1c-b3e5-0a5bf4a56734")
-	)
-	(wire
-		(pts
 			(xy 218.44 60.96) (xy 218.44 66.04)
 		)
 		(stroke
@@ -4500,16 +4227,6 @@
 			(type default)
 		)
 		(uuid "e0c41c19-5e09-5f9f-a4d1-245b92a1cdbe")
-	)
-	(wire
-		(pts
-			(xy 124.46 62.23) (xy 167.64 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42eca7b-e8b1-588a-80b9-44572fdeda13")
 	)
 	(wire
 		(pts
@@ -4690,16 +4407,6 @@
 			(justify left bottom)
 		)
 		(uuid "b8c05cfa-1845-5af2-9233-d32ada757635")
-	)
-	(label "USB_SHIELD"
-		(at 76.2 139.7 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "cee95f8b-9862-5966-a7e9-d9ec607b817f")
 	)
 	(label "USB_DM_CONN"
 		(at 97.79 96.52 0)
@@ -6341,116 +6048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_C207")
-		(at 76.2 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "7a764b80-673e-54a3-9ffc-0389a5df9638")
-		(property "Reference" "C207"
-			(at 80.01 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7nF 2kV"
-			(at 80.01 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 80.01 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 80.01 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "DNP"
-			(at 80.01 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Procurement" "Select to specification: 4.7nF 2kV; C_1206_3216Metric"
-			(at 80.01 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
-			(at 80.01 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0b03932-7350-4842-be28-1ea9f1c601e7")
-		)
-		(pin "2"
-			(uuid "355ad1b1-492e-4598-84fe-42d552c6f3ea")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/125ed450-03d7-4cd4-8a9e-840ff4ab4934"
-					(reference "C207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Manual:PWR_GND")
 		(at 246.38 63.5 0)
 		(unit 1)
@@ -7505,68 +7102,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
-		(at 76.2 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "edf4abf6-e736-5bd7-9eda-b468c1d81340")
-		(property "Reference" "#PWR09USBService6"
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 166.37 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da01cb3f-378f-49ed-981a-be4831c037db")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/125ed450-03d7-4cd4-8a9e-840ff4ab4934"
-					(reference "#PWR09USBService6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Manual:COMP_R901")
 		(at 234.95 129.54 0)
 		(unit 1)
@@ -7889,108 +7424,6 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/125ed450-03d7-4cd4-8a9e-840ff4ab4934"
 					(reference "C902")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Manual:COMP_R205")
-		(at 119.38 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffd00781-2c9d-5426-9b3b-b07a402f7f49")
-		(property "Reference" "R205"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "FIT"
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
-			(at 119.38 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a611bf41-573c-4455-8759-a29e68c5088f")
-		)
-		(pin "2"
-			(uuid "cd25a8fa-401e-4abe-a3cc-bf836ab1a524")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/125ed450-03d7-4cd4-8a9e-840ff4ab4934"
-					(reference "R205")
 					(unit 1)
 				)
 			)

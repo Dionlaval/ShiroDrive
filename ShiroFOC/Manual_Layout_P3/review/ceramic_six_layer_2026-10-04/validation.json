@@ -1,0 +1,337 @@
+{
+  "status": "pass",
+  "scope": "Revision invariants only; PCB remains partially routed and is not ready for fabrication.",
+  "checks": [
+    {
+      "check": "All original schematic components and pin connectivity preserved",
+      "passed": true,
+      "evidence": {
+        "original_components": 255,
+        "original_pins": 778,
+        "changed_original_net_partitions": 0,
+        "net_renames": {
+          "Net-(R1-POWER+)": "/Three-phase bridge/LS_SOURCE_V",
+          "Net-(R3-POWER+)": "/Three-phase bridge/LS_SOURCE_U",
+          "Net-(R5-POWER+)": "/Three-phase bridge/LS_SOURCE_W"
+        }
+      }
+    },
+    {
+      "check": "Only intended existing footprints changed",
+      "passed": true,
+      "evidence": [
+        "C101",
+        "C102",
+        "C103",
+        "C3",
+        "C7",
+        "JP601"
+      ]
+    },
+    {
+      "check": "U4 complete footprint preserved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "U601 complete footprint preserved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "R102 complete footprint preserved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "C107 complete footprint preserved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "Encoder locked on bottom at origin",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "Outline, mounting guides and all board graphics preserved",
+      "passed": true,
+      "evidence": {
+        "board_graphics": 133,
+        "comparison_rectangles": 4
+      }
+    },
+    {
+      "check": "R102 battery damping symbol and DNP state preserved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "C107 battery damping symbol and DNP state preserved",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "48 fitted and 6 DNP 100 V ceramic capacitors",
+      "passed": true,
+      "evidence": {
+        "fitted": [
+          "C101",
+          "C110",
+          "C111",
+          "C112",
+          "C113",
+          "C114",
+          "C115",
+          "C116",
+          "C117",
+          "C118",
+          "C119",
+          "C120",
+          "C121",
+          "C122",
+          "C123",
+          "C124",
+          "C102",
+          "C127",
+          "C128",
+          "C129",
+          "C130",
+          "C131",
+          "C132",
+          "C133",
+          "C134",
+          "C135",
+          "C136",
+          "C137",
+          "C138",
+          "C139",
+          "C140",
+          "C141",
+          "C103",
+          "C144",
+          "C145",
+          "C146",
+          "C147",
+          "C148",
+          "C149",
+          "C150",
+          "C151",
+          "C152",
+          "C153",
+          "C154",
+          "C155",
+          "C156",
+          "C157",
+          "C158"
+        ],
+        "DNP": [
+          "C125",
+          "C126",
+          "C142",
+          "C143",
+          "C159",
+          "C160"
+        ],
+        "errors": [],
+        "placement_sides": {
+          "B.Cu": 22,
+          "F.Cu": 32
+        }
+      }
+    },
+    {
+      "check": "Every added/replaced/restored PCB pad matches the schematic netlist",
+      "passed": true,
+      "evidence": {
+        "footprints_checked": 82,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Phase U series RC is DNP and returns before shunt",
+      "passed": true,
+      "evidence": {
+        "return": "/Three-phase bridge/LS_SOURCE_U",
+        "midpoint": "Net-(C413-Pad1)"
+      }
+    },
+    {
+      "check": "Phase V series RC is DNP and returns before shunt",
+      "passed": true,
+      "evidence": {
+        "return": "/Three-phase bridge/LS_SOURCE_V",
+        "midpoint": "Net-(C423-Pad1)"
+      }
+    },
+    {
+      "check": "Phase W series RC is DNP and returns before shunt",
+      "passed": true,
+      "evidence": {
+        "return": "/Three-phase bridge/LS_SOURCE_W",
+        "midpoint": "Net-(C433-Pad1)"
+      }
+    },
+    {
+      "check": "Original copper preserved apart from obsolete can links and three signal-layer moves",
+      "passed": true,
+      "evidence": {
+        "removed_obsolete_GND_segments": [
+          "aa20e6f2-a48d-459a-ab5c-523c183aa7c6",
+          "d20060e9-1ca7-49fb-a2e9-3720f5cab397"
+        ],
+        "L2_to_L3_segments": [
+          "5ab27b89-a254-400e-bc49-baa36a3743cf",
+          "5b0817ae-ab34-4f42-94ec-8e630cd2de71",
+          "d5567c15-9376-417e-8cf6-d86ef0bf8011"
+        ],
+        "unexpected_changes": [],
+        "segments_after": 250,
+        "vias_after": 73
+      }
+    },
+    {
+      "check": "Three repositioned passives had no original routed copper touching their pads",
+      "passed": true,
+      "evidence": {
+        "C7": {
+          "pads": [
+            {
+              "number": "1",
+              "xy": [
+                27.364689,
+                19.563669
+              ],
+              "net": "VM"
+            },
+            {
+              "number": "2",
+              "xy": [
+                24.414687,
+                19.563669
+              ],
+              "net": "GND"
+            }
+          ],
+          "nearby_original_copper": []
+        },
+        "C3": {
+          "pads": [
+            {
+              "number": "1",
+              "xy": [
+                27.364689,
+                5.563669
+              ],
+              "net": "VM"
+            },
+            {
+              "number": "2",
+              "xy": [
+                24.414687,
+                5.563669
+              ],
+              "net": "GND"
+            }
+          ],
+          "nearby_original_copper": []
+        },
+        "JP601": {
+          "pads": [
+            {
+              "number": "1",
+              "xy": [
+                16.2,
+                25.599999
+              ],
+              "net": "3V3"
+            },
+            {
+              "number": "2",
+              "xy": [
+                17.5,
+                25.599999
+              ],
+              "net": "/External feedback/EXT_SUPPLY_SELECTED"
+            },
+            {
+              "number": "3",
+              "xy": [
+                18.8,
+                25.599999
+              ],
+              "net": "5V_SYS"
+            }
+          ],
+          "nearby_original_copper": []
+        }
+      }
+    },
+    {
+      "check": "Six layers and requested nominal copper weights recorded",
+      "passed": true,
+      "evidence": {
+        "copper_mm": [
+          0.07,
+          0.0175,
+          0.0175,
+          0.0175,
+          0.0175,
+          0.07
+        ],
+        "nominal_total_mm_including_mask": 1.6,
+        "status": "geometry target, not a fabricator-approved stackup"
+      }
+    },
+    {
+      "check": "Filled GND reference zones on L2 and L5",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "check": "No newly introduced native PCB DRC violations",
+      "passed": true,
+      "evidence": {
+        "before_violations": 127,
+        "after_violations": 117,
+        "before_unconnected": 412,
+        "after_unconnected": 499,
+        "remaining_by_type": {
+          "via_dangling": 27,
+          "track_dangling": 20,
+          "clearance": 11,
+          "lib_footprint_mismatch": 17,
+          "silk_over_copper": 5,
+          "silk_overlap": 37
+        },
+        "new": []
+      }
+    },
+    {
+      "check": "ERC retains baseline warnings with no errors or new findings",
+      "passed": true,
+      "evidence": {
+        "before": 9,
+        "after": 9,
+        "severity": {
+          "warning": 9
+        }
+      }
+    }
+  ],
+  "checked_sha256": {
+    "01_DC_Link.kicad_sch": "7a344d174f287606d4914d90bdd76b8cbaa27e4edb8b29202f22f8cffe5ef67c",
+    "02_Auxiliary_Power.kicad_sch": "2670c5f7271c4fc35d8f46b8e16f77527d28f04b42c42b06b5e904aceffd61e4",
+    "04_Gate_Driver.kicad_sch": "4f53d6ab34513f3e9e1170def4841361a8d5ab54ffeef9e6c8a0dfeaaf352a3b",
+    "06_Current_Temperature.kicad_sch": "b261c1b82870aa6c48ba7ec3c2af838d1038ce184d66238b8de5656812924acf",
+    "07_Brake_Chopper.kicad_sch": "9565f7f2802eba57a92dbdadb40742fc88f0020eca48a25828add1b891046fe6",
+    "08_SPI_Sensors.kicad_sch": "6b91dcd9629486de6f9c1d441aa3ff41c228aeacdda1609d433589286aabd953",
+    "09_Feedback_Selection.kicad_sch": "4595567b8303b216c8b9d22ec4a3448f9a448b06d43a7359eaffc53491344cf1",
+    "10_CAN.kicad_sch": "aaaf437519b5c1cea32b605efbea34d18f45854c3151f07fda1e4eec070dc039",
+    "11_USB_Service.kicad_sch": "b0377ada4697ae526b687d96a0217a87fca26b9fe79af5ec27faec040d286fb2",
+    "MCUclockSWD.kicad_sch": "197cc77329a167bae9629b2b48cd4f73cbeade7367d704c5f49cfa5ddf8432b8",
+    "ShiroFOC_Manual.kicad_pcb": "be69dbc0025e361249a466a5a191c9e2100c73cff23136f2ed71bd3251e140e0",
+    "ShiroFOC_Manual.kicad_sch": "ee8bac0314d278ea12f6077931d03829f00789234484f8a5b9799bca1b5334ed",
+    "Three-phase bridge.kicad_sch": "26a5b6aa14476ad797522bd3ae9a735d30bbfe3962c29bb2324f524f519c7171"
+  }
+}

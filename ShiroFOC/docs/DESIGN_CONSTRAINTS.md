@@ -74,7 +74,7 @@ Each module closes its own current, velocity, and position loops. A motherboard 
 ### Power entry, long cables, and inrush
 
 - Expect the DC cable inductance and local low-ESR input capacitance to form an LC resonant circuit. Hot-plugging, abrupt current changes, a released short, or regenerative current can excite it and produce a local VM peak much higher than the battery/PSU voltage.
-- Rev A does not include an onboard active precharge/inrush MOSFET. Characterize connector arcing and capacitor-charging current with the final 2040 uF DC-link bank; add a system-level anti-spark/precharge solution where the application requires frequent hot-plugging.
+- Rev A does not include an onboard active precharge/inrush MOSFET. Characterize connector arcing and capacitor-charging current with the final populated DC-link bank (P3: 48 × 10 uF / 100 V ceramics; substantial DC-bias derating); add a system-level anti-spark/precharge solution where the application requires frequent hot-plugging.
 - Provide footprints near the power connector for an input damping branch consisting of a series R-C network across VM and PGND. Final values depend on cable inductance, installed bus capacitance, and measured hot-plug response; do not populate arbitrary values before characterization.
 - Include some intentional damping through a suitable bulk capacitor/ESR strategy. Do not add a series input inductor or ferrite merely to reduce noise: without damping it can worsen the resonance.
 - A TVS is a short-transient clamp, not an inrush limiter or regenerative-energy dump. Select its working and clamping voltages against the 42 V maximum pack, 60 V MOSFET limit, pulse current, and temperature.
@@ -220,8 +220,8 @@ The STSPIN32G4 architecture is not intrinsically limited to 40 A because it driv
 
 ## PCB and mechanical constraints
 
-- Four copper layers minimum.
-- Starting stack-up target: 2 oz outer copper and at least 1 oz inner copper; revise from fabrication capability and thermal analysis.
+- P3 uses six copper layers; see [ceramic / six-layer revision](PCB_CERAMIC_SIX_LAYER_2026-10-04.md).
+- Approved P3 copper: 2 oz top/bottom, 0.5 oz on all four inner layers. L2/L5 GND, L3 signals, L4 power. The nominal dielectric geometry needs a matching fabrication build before impedance signoff.
 - Separate power-stage, control/sensing, and connector zones while maintaining deliberate return-current paths.
 - No high-current path through thermal-relief spokes.
 - Use planes, pours, via arrays, and exposed copper/heatsink interfaces sized from current-density and thermal calculations.
@@ -256,4 +256,4 @@ The Rev A schematic fixes the electrical architecture and the first-build compon
 
 ## A0 release operating constraints
 
-USB-only service requires a 5 V source that permits at least 500 mA; USB pre-enumeration/suspend load shedding is not implemented. External feedback power is limited to 25 mA and signals to 0–3.3 V. The 2040 uF bulk bank has only 5.07 Arms summed nameplate ripple capacity at 100 kHz; derating and ripple measurements can limit the phase-current target or require additional capacitance. The fitted hardware brake backup is approximately 45.9 V rising / 44.2 V falling and requires an installed, adequately rated external resistor. See the release review for the defined 219 J example and first-power-up restrictions.
+USB-only service requires a 5 V source that permits at least 500 mA; USB pre-enumeration/suspend load shedding is not implemented. External feedback power is limited to 25 mA and signals to 0–3.3 V. Historical A0 used 2040 uF electrolytic bulk. P3 replaces it with 48 fitted CL32Y106KCVZNWE ceramics (480 uF nominal; approximately 160 uF typical at 42 V before temperature/tolerance/aging) plus six DNP positions and external-bulk pads. The new bank is not capacitance- or ripple-rating-equivalent; measure bus ripple, ringing and capacitor heating before extending the current envelope. The fitted hardware brake backup is approximately 45.9 V rising / 44.2 V falling and requires an installed, adequately rated external resistor. See the release review for the defined 219 J example and first-power-up restrictions.
