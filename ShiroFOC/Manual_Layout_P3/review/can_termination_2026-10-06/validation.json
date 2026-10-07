@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-06",
+  "changed_files": [
+    "10_CAN.kicad_sch",
+    "MCUclockSWD.kicad_sch",
+    "libs/Manual.kicad_sym"
+  ],
+  "added_components": [
+    "Q301",
+    "Q801",
+    "Q802",
+    "R315",
+    "R803",
+    "R804",
+    "R806"
+  ],
+  "removed_components": [
+    "JP801"
+  ],
+  "gpio": "PC15 / U4 pin 5",
+  "sensor_fault_preserved": true,
+  "pcb_and_footprints_unchanged": true,
+  "unrelated_net_connectivity_unchanged": true,
+  "erc": {
+    "new_violations": 0,
+    "existing_errors": 1,
+    "existing_warnings": 10
+  },
+  "states": {
+    "low_or_reset_hi_z": "Termination enabled / purple once 10 V is available",
+    "high": "Termination disabled / blue",
+    "USB_only_without_10V": "Blue / termination unavailable"
+  },
+  "footprints_pending": [
+    "Q801 exact YJC0003A",
+    "Q802 exact DLV0006A with exposed drain lands 6 and 3"
+  ],
+  "sources": [
+    "https://www.ti.com/lit/ug/tiducf3/tiducf3.pdf",
+    "https://www.ti.com/lit/ds/symlink/csd17483f4.pdf",
+    "https://www.ti.com/lit/ds/symlink/csd87502q2.pdf",
+    "https://assets.nexperia.com/documents/data-sheet/BSS138AKM-Q.pdf",
+    "https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf"
+  ],
+  "verified_nets": {
+    "CAN_TERM_DISABLE": [
+      [
+        "R803",
+        "1"
+      ],
+      [
+        "TP1021",
+        "1"
+      ],
+      [
+        "U4",
+        "5"
+      ]
+    ],
+    "CAN_TERM_GATE": [
+      [
+        "Q301",
+        "1"
+      ],
+      [
+        "Q801",
+        "3"
+      ],
+      [
+        "Q802",
+        "2"
+      ],
+      [
+        "Q802",
+        "5"
+      ],
+      [
+        "R806",
+        "2"
+      ]
+    ],
+    "Net-(Q802A-S1)": [
+      [
+        "Q802",
+        "1"
+      ],
+      [
+        "Q802",
+        "4"
+      ]
+    ],
+    "Net-(Q802A-D1)": [
+      [
+        "Q802",
+        "6"
+      ],
+      [
+        "R802",
+        "2"
+      ]
+    ],
+    "Net-(Q801-G)": [
+      [
+        "Q801",
+        "1"
+      ],
+      [
+        "R803",
+        "2"
+      ],
+      [
+        "R804",
+        "1"
+      ]
+    ],
+    "Net-(D301-RK)": [
+      [
+        "D301",
+        "1"
+      ],
+      [
+        "R304",
+        "2"
+      ]
+    ],
+    "Net-(D301-BK)": [
+      [
+        "D301",
+        "3"
+      ],
+      [
+        "R315",
+        "1"
+      ]
+    ],
+    "Net-(Q301-D)": [
+      [
+        "Q301",
+        "3"
+      ],
+      [
+        "R304",
+        "1"
+      ]
+    ],
+    "unconnected-(D301-GK-Pad2)": [
+      [
+        "D301",
+        "2"
+      ]
+    ]
+  },
+  "limitations": [
+    "Discrete switch is intended for CAN bus 0..5 V relative to local ground; it does not retain the transceiver full common-mode/fault tolerance.",
+    "Indicator follows gate voltage, not a measurement of termination resistance.",
+    "All nodes default to termination enabled at reset with 10 V present; firmware must configure endpoint selection before releasing CAN_STB.",
+    "PC15 is no longer available for heartbeat blinking; keep LSE disabled.",
+    "LED resistors are starting values; balance red/blue brightness on prototype."
+  ]
+}

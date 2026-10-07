@@ -1,4 +1,4 @@
-26680300590343459
+26687465874808558
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70552,139 +70552,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Manual
-AS5047P_TSSOP14
-TSSOP, 14 Pin (JEDEC MO-153 variation AB-1, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSSOP SO
-0
-14
-14
-Manual
-BMI323_LGA14
-LGA-14 Bosch https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000-07.pdf
-lga land grid array
-0
-14
-14
-Manual
-CSD19531Q5A_Q5A_DQJ0008A
-TI CSD19531Q5A Q5A/DQJ0008A SON 5x6 mm; TI recommended copper and stencil patterns
-
-0
-21
-8
-Manual
-DMM0022A
-
-CSD88599Q5DC 
-0
-42
-27
-Manual
-FTSH_105_01_L_DV_K
-
-FTSH-105-01-L-DV-K 
-0
-10
-10
-Manual
-IC18_MPM3620AGQV-Z_MNP
-
-MPM3620AGQV-Z 
-0
-20
-18
-Manual
-LMR36510_DDA
-8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm body, exposed pad, thermal vias, http://www.ti.com/lit/ds/symlink/drv8870.pdf
-HTSOP 1.27
-0
-18
-9
-Manual
-Panasonic_EEVFK_K16_18x16.5
-Panasonic FK K16 standard; 18mm diameter, L16.5+/-0.5mm; pads per FK 2026-02-10 p2: gap6.0 length7.9 width2.5; conservative inherited outline; model is approximate 18x17.5mm envelope
-capacitor electrolytic
-0
-2
-2
-Manual
-QFN_IN32G4_STM
-
-STSPIN32G4 
-0
-65
-65
-Manual
-R_Shunt_LR2512D_0m5_3W_Kelvin
-Milliohm LR2512D 0.5mOhm 3W; datasheet a=4.0 b=2.57 L=2.11mm; two-terminal part with PCB Kelvin stubs. 1/4 power, 2/3 sense. Net ties 1-2 and 4-3 only.
-shunt Kelvin 2512 net tie
-0
-4
-4
-Manual
-TLV75533_DYD_GND
-
-TLV75533PDYDR 
-0
-9
-5
-Manual
-TMUX1574_PW16
-TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
-TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800
-0
-16
-16
-Manual
-TPD3E001_DRL5
-R-PDSO-N5, DRL, JEDEC MO-293B Var UAAD-1, https://www.ti.com/lit/ml/mpds158d/mpds158d.pdf
-SOT R-PDSO-N5 DRL
-0
-5
-5
-Manual
-TPS2121_RUX
-Texas  VQFN-HR, 12 Pin, http://www.ti.com/lit/ml/mpqf508/mpqf508.pdf
-RUX0012A Texas VQFN-HR NoLead
-0
-16
-12
-Manual
-Texas_DYD0005A_SOT23-5
-Texas DYD0005A thermally enhanced SOT-23-5; TI drawing 4228946/A
-
-0
-8
-5
-Manual
-UCC27517A_DBV5
-SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-5
-5
-Manual
-USBLC6_SOT23_6
-SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-6
-6
-Manual
-WE_LHMI_7050_74437349220
-Wurth 74437349220; official 2024-12-27 land pattern; no vias or traces in central 2.5mm strip
-
-0
-2
-2
-Manual
-WE_LHMI_7050_74437349470
-Wurth 74437349470; official 2024-12-27 land pattern; no vias or traces in central 2.5mm strip
-
-0
-2
-2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -97789,6 +97656,167 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+ShiroFOCLib
+AS5047P_TSSOP14
+TSSOP, 14 Pin (JEDEC MO-153 variation AB-1, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+14
+14
+ShiroFOCLib
+BMI323_LGA14
+LGA-14 Bosch https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000-07.pdf
+lga land grid array
+0
+14
+14
+ShiroFOCLib
+CSD17483F4_YJC0003A
+CSD17483F4, YJC0003A 1.0x0.6 mm PicoStar; supplied Ultra Librarian nominal land pattern. Pins 1=G, 2=S, 3=D. Source nominal copper/paste dimensions retained.
+CSD17483F4 
+0
+3
+3
+ShiroFOCLib
+CSD19531Q5A_Q5A_DQJ0008A
+TI CSD19531Q5A Q5A/DQJ0008A SON 5x6 mm; TI recommended copper and stencil patterns
+
+0
+21
+8
+ShiroFOCLib
+CSD87502Q2_DLV0006A
+CSD87502Q2 / CSD87502Q2T, DLV0006A 2x2 mm WSON; supplied Ultra Librarian footprint corrected to TI SLPS560 p9 land/stencil pattern. Exposed D1=6, D2=3.
+CSD87502Q2T 
+0
+10
+6
+ShiroFOCLib
+DMM0022A
+
+CSD88599Q5DC 
+0
+42
+27
+ShiroFOCLib
+FTSH_105_01_L_DV_K
+
+FTSH-105-01-L-DV-K 
+0
+10
+10
+ShiroFOCLib
+IC18_MPM3620AGQV-Z_MNP
+
+MPM3620AGQV-Z 
+0
+20
+18
+ShiroFOCLib
+LMR36510_DDA
+8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm body, exposed pad, thermal vias, http://www.ti.com/lit/ds/symlink/drv8870.pdf
+HTSOP 1.27
+0
+18
+9
+ShiroFOCLib
+Panasonic_EEVFK_K16_18x16.5
+Panasonic FK K16 standard; 18mm diameter, L16.5+/-0.5mm; pads per FK 2026-02-10 p2: gap6.0 length7.9 width2.5; conservative inherited outline; model is approximate 18x17.5mm envelope
+capacitor electrolytic
+0
+2
+2
+ShiroFOCLib
+QFN_IN32G4_STM
+
+STSPIN32G4 
+0
+65
+65
+ShiroFOCLib
+R_Shunt_LR2512D_0m5_3W_Kelvin
+Milliohm LR2512D 0.5mOhm 3W; datasheet a=4.0 b=2.57 L=2.11mm; two-terminal part with PCB Kelvin stubs. 1/4 power, 2/3 sense. Net ties 1-2 and 4-3 only.
+shunt Kelvin 2512 net tie
+0
+4
+4
+ShiroFOCLib
+TCAN3413_DRB8
+VSON, 8 Pin (https://www.ti.com/lit/ds/symlink/tlv767-q1.pdf#page=31), generated with kicad-footprint-generator ipc_noLead_generator.py
+VSON NoLead
+0
+11
+9
+ShiroFOCLib
+TLV75533_DYD_GND
+
+TLV75533PDYDR 
+0
+9
+5
+ShiroFOCLib
+TMUX1574_PW16
+TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800
+0
+16
+16
+ShiroFOCLib
+TPD3E001_DRL5
+R-PDSO-N5, DRL, JEDEC MO-293B Var UAAD-1, https://www.ti.com/lit/ml/mpds158d/mpds158d.pdf
+SOT R-PDSO-N5 DRL
+0
+5
+5
+ShiroFOCLib
+TPD3E001_DRY6
+USON, 6 Pin (https://www.ti.com/lit/ds/symlink/sn74auc1g04.pdf#page=24), Solder Mask Defined
+USON NoLead DRY0006A
+0
+6
+6
+ShiroFOCLib
+TPS2121_RUX
+Texas  VQFN-HR, 12 Pin, http://www.ti.com/lit/ml/mpqf508/mpqf508.pdf
+RUX0012A Texas VQFN-HR NoLead
+0
+16
+12
+ShiroFOCLib
+Texas_DYD0005A_SOT23-5
+Texas DYD0005A thermally enhanced SOT-23-5; TI drawing 4228946/A
+
+0
+8
+5
+ShiroFOCLib
+UCC27517A_DBV5
+SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
+ShiroFOCLib
+USBLC6_SOT23_6
+SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+6
+6
+ShiroFOCLib
+WE_LHMI_7050_74437349220
+Wurth 74437349220; official 2024-12-27 land pattern; no vias or traces in central 2.5mm strip
+
+0
+2
+2
+ShiroFOCLib
+WE_LHMI_7050_74437349470
+Wurth 74437349470; official 2024-12-27 land pattern; no vias or traces in central 2.5mm strip
+
+0
+2
+2
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)

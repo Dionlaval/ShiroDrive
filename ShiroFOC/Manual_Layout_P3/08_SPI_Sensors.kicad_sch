@@ -12,7 +12,7 @@
 		(comment 1 "Dedicated sensor buses; interface revision")
 	)
 	(lib_symbols
-		(symbol "Manual:COMP_C601"
+		(symbol "ShiroFOCLib:COMP_C601"
 			(pin_names
 				(offset 0.635)
 			)
@@ -152,7 +152,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_C602"
+		(symbol "ShiroFOCLib:COMP_C602"
 			(pin_names
 				(offset 0.635)
 			)
@@ -292,7 +292,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_C701"
+		(symbol "ShiroFOCLib:COMP_C701"
 			(pin_names
 				(offset 0.635)
 			)
@@ -432,7 +432,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_C702"
+		(symbol "ShiroFOCLib:COMP_C702"
 			(pin_names
 				(offset 0.635)
 			)
@@ -572,7 +572,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R308"
+		(symbol "ShiroFOCLib:COMP_R308"
 			(pin_names
 				(offset 0.635)
 			)
@@ -700,7 +700,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R309"
+		(symbol "ShiroFOCLib:COMP_R309"
 			(pin_names
 				(offset 0.635)
 			)
@@ -828,7 +828,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R313"
+		(symbol "ShiroFOCLib:COMP_R313"
 			(pin_names
 				(offset 0.635)
 			)
@@ -956,7 +956,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R314"
+		(symbol "ShiroFOCLib:COMP_R314"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1084,7 +1084,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R601"
+		(symbol "ShiroFOCLib:COMP_R601"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1212,7 +1212,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R602"
+		(symbol "ShiroFOCLib:COMP_R602"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1340,7 +1340,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R603"
+		(symbol "ShiroFOCLib:COMP_R603"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1468,7 +1468,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R611"
+		(symbol "ShiroFOCLib:COMP_R611"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1596,7 +1596,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R714"
+		(symbol "ShiroFOCLib:COMP_R714"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1724,7 +1724,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_TP1010"
+		(symbol "ShiroFOCLib:COMP_TP1010"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1822,7 +1822,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_TP1011"
+		(symbol "ShiroFOCLib:COMP_TP1011"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1920,7 +1920,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_TP1012"
+		(symbol "ShiroFOCLib:COMP_TP1012"
 			(pin_names
 				(offset 0.635)
 			)
@@ -2018,7 +2018,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_U601"
+		(symbol "ShiroFOCLib:COMP_U601"
 			(pin_names
 				(offset 0.635)
 			)
@@ -2337,7 +2337,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_U701_I2C"
+		(symbol "ShiroFOCLib:COMP_U701_I2C"
 			(pin_names
 				(offset 0.635)
 			)
@@ -2656,7 +2656,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:PWR_3V3"
+		(symbol "ShiroFOCLib:PWR_3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2759,7 +2759,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:PWR_GND"
+		(symbol "ShiroFOCLib:PWR_GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -3546,7 +3546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_C702")
+		(lib_id "ShiroFOCLib:COMP_C702")
 		(at 195.58 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3656,7 +3656,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP1012")
+		(lib_id "ShiroFOCLib:COMP_TP1012")
 		(at 120.65 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3764,7 +3764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP1011")
+		(lib_id "ShiroFOCLib:COMP_TP1011")
 		(at 109.22 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3872,7 +3872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 154.94 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3934,7 +3934,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 180.34 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3996,7 +3996,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 96.52 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4058,7 +4058,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 180.34 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4120,7 +4120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_U601")
+		(lib_id "ShiroFOCLib:COMP_U601")
 		(at 175.26 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4146,7 +4146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Manual:AS5047P_TSSOP14"
+		(property "Footprint" "ShiroFOCLib:AS5047P_TSSOP14"
 			(at 175.26 129.54 0)
 			(effects
 				(font
@@ -4251,7 +4251,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R309")
+		(lib_id "ShiroFOCLib:COMP_R309")
 		(at 223.52 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4361,7 +4361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 170.18 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4423,7 +4423,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R313")
+		(lib_id "ShiroFOCLib:COMP_R313")
 		(at 101.6 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4525,7 +4525,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_C601")
+		(lib_id "ShiroFOCLib:COMP_C601")
 		(at 154.94 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4635,7 +4635,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 180.34 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4697,7 +4697,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 170.18 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4759,7 +4759,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_C602")
+		(lib_id "ShiroFOCLib:COMP_C602")
 		(at 195.58 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4869,7 +4869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 223.52 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4931,7 +4931,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 170.18 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4993,7 +4993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_C701")
+		(lib_id "ShiroFOCLib:COMP_C701")
 		(at 154.94 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5103,7 +5103,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R308")
+		(lib_id "ShiroFOCLib:COMP_R308")
 		(at 96.52 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5213,7 +5213,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 148.59 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5275,7 +5275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 154.94 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5337,7 +5337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 195.58 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5399,7 +5399,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R308")
+		(lib_id "ShiroFOCLib:COMP_R308")
 		(at 121.92 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5509,7 +5509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 195.58 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5571,7 +5571,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R611")
+		(lib_id "ShiroFOCLib:COMP_R611")
 		(at 130.81 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5673,7 +5673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 121.92 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5735,7 +5735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 180.34 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5797,7 +5797,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP1010")
+		(lib_id "ShiroFOCLib:COMP_TP1010")
 		(at 120.65 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5905,7 +5905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 154.94 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5967,7 +5967,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 223.52 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6029,7 +6029,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 195.58 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6091,7 +6091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 170.18 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6153,7 +6153,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_U701_I2C")
+		(lib_id "ShiroFOCLib:COMP_U701_I2C")
 		(at 175.26 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6179,7 +6179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Manual:BMI323_LGA14"
+		(property "Footprint" "ShiroFOCLib:BMI323_LGA14"
 			(at 175.26 238.76 0)
 			(effects
 				(font
@@ -6285,7 +6285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 195.58 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6347,7 +6347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 154.94 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6409,7 +6409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R314")
+		(lib_id "ShiroFOCLib:COMP_R314")
 		(at 101.6 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)

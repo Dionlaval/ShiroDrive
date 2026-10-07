@@ -3,16 +3,16 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "b9488642-7f4f-4798-ab4b-17cee946a267")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "CAN / CAN-FD interface")
-		(date "2026-09-16")
-		(rev "A1-Drawing")
+		(date "2026-10-06")
+		(rev "A3-CAN-Term")
 		(company "ShiroFOC")
-		(comment 1 "Same A0 circuit; connected functional drawing")
+		(comment 1 "MOSFET termination on PC15; purple ON, blue OFF")
 	)
 	(lib_symbols
-		(symbol "Manual:COMP_C801"
+		(symbol "ShiroFOCLib:COMP_C801"
 			(pin_names
 				(offset 0.635)
 			)
@@ -152,7 +152,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_C802"
+		(symbol "ShiroFOCLib:COMP_C802"
 			(pin_names
 				(offset 0.635)
 			)
@@ -292,15 +292,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_D801"
+		(symbol "ShiroFOCLib:COMP_D801"
 			(pin_names
 				(offset 0.635)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 -5.08 0)
+			(property "Reference" "D801"
+				(at -13.97 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "PESD2CANFD24V-T"
+				(at -13.97 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -308,26 +326,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "COMP_D801"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -337,6 +337,32 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PESD2CANFD24V-T"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Assembly" "FIT"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -359,7 +385,7 @@
 				(pin passive line
 					(at -5.08 10.16 270)
 					(length 5.08)
-					(name "CANH_IN"
+					(name "CANL_IN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -395,7 +421,7 @@
 				(pin passive line
 					(at 5.08 10.16 270)
 					(length 5.08)
-					(name "CANL_IN"
+					(name "CANH_IN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -413,7 +439,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_J801"
+		(symbol "ShiroFOCLib:COMP_J801"
 			(pin_names
 				(offset 0.635)
 			)
@@ -552,7 +578,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_J802"
+		(symbol "ShiroFOCLib:COMP_J802"
 			(pin_names
 				(offset 0.635)
 			)
@@ -691,135 +717,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_JP801"
-			(pin_names
-				(offset 0.635)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "COMP_JP801"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "COMP_JP801_1_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.905 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Manual:COMP_R801"
+		(symbol "ShiroFOCLib:COMP_R801"
 			(pin_names
 				(offset 0.635)
 			)
@@ -947,7 +845,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R802"
+		(symbol "ShiroFOCLib:COMP_R802"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1075,263 +973,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_R803"
-			(pin_names
-				(offset 0.635)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "COMP_R803"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "COMP_R803_1_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.8255) (xy 1.905 0.8255) (xy 1.905 -0.8255) (xy -1.905 -0.8255) (xy -1.905 0.8255)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Manual:COMP_R804"
-			(pin_names
-				(offset 0.635)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "COMP_R804"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "COMP_R804_1_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.8255) (xy 1.905 0.8255) (xy 1.905 -0.8255) (xy -1.905 -0.8255) (xy -1.905 0.8255)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Manual:COMP_R805"
+		(symbol "ShiroFOCLib:COMP_R805"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1459,7 +1101,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_TP1013"
+		(symbol "ShiroFOCLib:COMP_TP1013"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1557,7 +1199,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_TP1014"
+		(symbol "ShiroFOCLib:COMP_TP1014"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1655,7 +1297,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_TP1022"
+		(symbol "ShiroFOCLib:COMP_TP1022"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1753,7 +1395,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_U801"
+		(symbol "ShiroFOCLib:COMP_U801"
 			(pin_names
 				(offset 0.635)
 			)
@@ -1769,7 +1411,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "COMP_U801"
+			(property "Value" "TCAN3413DRBR"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1778,7 +1420,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ShiroFOCLib:TCAN3413_DRB8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1787,7 +1429,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3413.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1797,6 +1439,24 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TCAN3413DRBR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1925,6 +1585,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 5.08 -30.48 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 22.86 10.16 180)
 					(length 5.08)
@@ -1964,7 +1642,864 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:PWR_3V3"
+		(symbol "ShiroFOCLib:CSD17483F4"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CSD17483F4"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ShiroFOCLib:CSD17483F4_YJC0003A"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd17483f4.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30 V N-MOSFET; pin 1 G, 2 S, 3 D; GPIO gate pull-down for CAN termination."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CSD17483F4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "YJC0003A, 1.0 x 0.6 mm, 3-pin PicoStar"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NMOS N-MOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CSD17483F4_1_0"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CSD17483F4_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ShiroFOCLib:CSD87502Q2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CSD87502Q2"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ShiroFOCLib:CSD87502Q2_DLV0006A"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd87502q2.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual 30 V N-MOSFET. D1=6, S1=1, G1=2; D2=3, S2=4, G2=5. Exposed drain lands duplicate pins 6 and 3."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CSD87502Q2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Package" "DLV0006A, 2 x 2 mm SON, 6 terminals + 2 drain lands"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NMOS N-MOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CSD87502Q2_1_0"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CSD87502Q2_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CSD87502Q2_2_0"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -1.905) (xy 0.254 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.286) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 -0.381) (xy 2.032 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CSD87502Q2_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ShiroFOCLib:PWR_3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2067,7 +2602,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:PWR_GND"
+		(symbol "ShiroFOCLib:PWR_GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2170,6 +2705,109 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ShiroFOCLib:PWR_VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.635)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_VCC_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Both headers: 1 GND | 2 CANL | 3 CANH | 4 shield/drain. Pin 4 carries no supply."
 		(exclude_from_sim no)
@@ -2182,7 +2820,18 @@
 		)
 		(uuid "2a815e40-12b3-520d-9739-e0991beaf721")
 	)
-	(text "R802 fitted on every board.\nClose JP801 only at a bus end.\nDefault: solder jumper OPEN."
+	(text "10 V gate pull-up provides full enhancement at normal\nCAN levels. Intended bus range: 0 to 5 V vs local GND.\n30 V MOSFETs: this branch does not retain the\ntransceiver's full bus-fault / common-mode tolerance.\n\nQ802 exposed drain lands: D1 = pin 6, D2 = pin 3.\nProject footprints assigned; drain pads numbered 6 and 3."
+		(exclude_from_sim no)
+		(at 223.52 245.11 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "38281d47-bca6-5cb6-8854-e44a92d54f0b")
+	)
+	(text "Software-controlled termination below.\nEnable only at the two bus ends."
 		(exclude_from_sim no)
 		(at 190.5 62.23 0)
 		(effects
@@ -2192,6 +2841,28 @@
 			(justify left top)
 		)
 		(uuid "578bbeb5-461a-5f45-87a5-f9471f8a3c22")
+	)
+	(text "SOFTWARE-CONTROLLED 120 OHM TERMINATION"
+		(exclude_from_sim no)
+		(at 20.32 193.04 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left top)
+		)
+		(uuid "67669748-b1b6-52f8-9d58-3efee37cc7c3")
+	)
+	(text "CONTROL (PC15, former status LED GPIO)\nHIGH: termination OFF; RGB indicator BLUE.\nLOW / reset Hi-Z: termination ON; indicator PURPLE.\nON requires the 10 V VCC rail.\n\nSet PC15 before releasing CAN_STB. Allow 1 ms\nfor gate settling; change only while CAN is idle.\nEnable only at the two physical bus ends.\nDo not blink this GPIO as a general status LED."
+		(exclude_from_sim no)
+		(at 223.52 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "99fb5924-684b-5e12-b722-2f3d94b236d2")
 	)
 	(text "CAN: controller -> transceiver -> protected daisy-chain bus"
 		(exclude_from_sim no)
@@ -2203,6 +2874,17 @@
 			(justify left top)
 		)
 		(uuid "c06f5cef-84fa-56b4-b934-a4a002fd57cf")
+	)
+	(text "Sources joined; floating node"
+		(exclude_from_sim no)
+		(at 184.15 240.03 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "d68a00e7-ca56-56a4-ab7a-626a20cdfb8c")
 	)
 	(text "Reset state: STB high -> standby; TX high -> recessive.\nConfigure FDCAN before taking STB low.\nPlace D801 next to the connectors; route CANH/CANL together."
 		(exclude_from_sim no)
@@ -2228,22 +2910,22 @@
 		(uuid "0918c4ea-0639-5eff-ae94-7b57d2fe4faf")
 	)
 	(junction
-		(at 184.15 80.01)
+		(at 165.1 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16522e20-0744-56eb-abed-6d2100614ee9")
+		(uuid "1998e78d-cbd2-591c-8a3e-80d515e3d09b")
 	)
 	(junction
-		(at 194.31 110.49)
+		(at 114.3 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2aa16dce-229f-5b5c-99f1-83050b3dfbf6")
+		(uuid "1de586a7-de90-513e-8c5a-212879aaf9c6")
 	)
 	(junction
-		(at 218.44 110.49)
+		(at 194.31 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d8ffa64-1381-50ce-b06e-572c59432e92")
+		(uuid "366ac695-f7f3-4dc0-ad92-334b5d561c94")
 	)
 	(junction
 		(at 99.06 35.56)
@@ -2258,22 +2940,34 @@
 		(uuid "4fc7ebb7-98ee-5abf-babc-8369693660d4")
 	)
 	(junction
+		(at 134.62 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ea5449f-239b-5bd1-8085-f18719075576")
+	)
+	(junction
 		(at 55.88 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78280ab9-5571-5bb1-86be-f1b2287c085a")
 	)
 	(junction
-		(at 241.3 110.49)
+		(at 134.62 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "821349f8-d11a-51ef-aef3-5566d5adf8c6")
+		(uuid "7902f0fc-164a-5e65-ba03-af756827d30f")
 	)
 	(junction
-		(at 233.68 80.01)
+		(at 71.12 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d0ed0ab-da23-5754-a0b1-1a01afec2a4c")
+		(uuid "815cc4ee-f0dd-4d5b-8d25-eaf5babcbaca")
+	)
+	(junction
+		(at 142.24 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a93b8c4-f60c-59a9-a5fd-a39ecb9ebae5")
 	)
 	(junction
 		(at 109.22 35.56)
@@ -2282,10 +2976,28 @@
 		(uuid "d7b8c812-e67b-574a-97ea-8d8a4b34d50f")
 	)
 	(junction
-		(at 218.44 80.01)
+		(at 241.3 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fe0b389f-ba15-5174-97d2-603481fb188f")
+		(uuid "e86b1864-4a67-4b06-af83-3ccfd5b05f01")
+	)
+	(junction
+		(at 104.14 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7823767-c4ab-43de-8dd4-73b900154c8b")
+	)
+	(junction
+		(at 233.68 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd4e8bc9-f81f-4cd5-b0f2-73b40a2135b1")
+	)
+	(junction
+		(at 184.15 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feb2811a-32dd-4bcb-8785-95afb3a2f5e6")
 	)
 	(wire
 		(pts
@@ -2296,6 +3008,26 @@
 			(type default)
 		)
 		(uuid "00b1db60-7d77-5d5c-b536-8f15ca2725bc")
+	)
+	(wire
+		(pts
+			(xy 233.68 87.63) (xy 233.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01fbda4b-f04f-42a9-9e5e-1f19c2c76f91")
+	)
+	(wire
+		(pts
+			(xy 241.3 135.89) (xy 252.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a829d1-8197-4850-8a6a-64749c137f3c")
 	)
 	(wire
 		(pts
@@ -2329,23 +3061,33 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 80.01) (xy 218.44 82.55)
+			(xy 194.31 80.01) (xy 194.31 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0bf84528-1816-51b2-b014-9704b3442c18")
+		(uuid "0bee8cea-9839-4f21-827c-4f877a36b000")
 	)
 	(wire
 		(pts
-			(xy 157.48 110.49) (xy 194.31 110.49)
+			(xy 165.1 233.68) (xy 170.18 233.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d0c5079-c795-5a2c-88a2-72fb8baf7fd0")
+		(uuid "1624c584-88b4-51cd-aec7-25ef09227266")
+	)
+	(wire
+		(pts
+			(xy 134.62 246.38) (xy 134.62 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f374c84-06f6-5ce6-9fb0-603ef2c9280e")
 	)
 	(wire
 		(pts
@@ -2359,33 +3101,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 135.89) (xy 252.73 135.89)
+			(xy 184.15 110.49) (xy 184.15 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29f4dd19-823c-5892-94a2-a769fa38ec5a")
-	)
-	(wire
-		(pts
-			(xy 218.44 110.49) (xy 241.3 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb78ce2-5f32-5fb4-b404-45dc996a3370")
-	)
-	(wire
-		(pts
-			(xy 127 110.49) (xy 147.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e05e9fb-4d38-5a93-b534-00c405328c7c")
+		(uuid "2be8bd8e-3e1a-4ca9-a4c4-e7043805cae4")
 	)
 	(wire
 		(pts
@@ -2399,13 +3121,33 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 107.95) (xy 218.44 110.49)
+			(xy 165.1 233.68) (xy 165.1 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36beaf4b-c0f9-5004-a4d6-507f6b072d4a")
+		(uuid "358cc4b6-6048-56ee-8e52-07a61c612441")
+	)
+	(wire
+		(pts
+			(xy 177.8 254) (xy 177.8 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360c848d-1de6-5076-bed4-604143a13793")
+	)
+	(wire
+		(pts
+			(xy 177.8 264.16) (xy 190.5 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddaf35d-083e-5ffb-9d26-3b4baeec420f")
 	)
 	(wire
 		(pts
@@ -2449,16 +3191,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 80.01) (xy 252.73 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da1df98-e3d9-5868-bc93-730df45a7a39")
-	)
-	(wire
-		(pts
 			(xy 50.8 69.85) (xy 55.88 69.85)
 		)
 		(stroke
@@ -2489,23 +3221,23 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 87.63) (xy 252.73 87.63)
+			(xy 241.3 80.01) (xy 252.73 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dcfaadb-e8c6-5318-85c7-d07c0081d718")
+		(uuid "603626c7-f8c7-449a-ba27-161500becb46")
 	)
 	(wire
 		(pts
-			(xy 194.31 110.49) (xy 194.31 129.54)
+			(xy 177.8 223.52) (xy 177.8 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "652401ed-5a39-5487-b5cf-0ee608781da0")
+		(uuid "6120a294-df01-51c6-9a94-0cc188180afb")
 	)
 	(wire
 		(pts
@@ -2526,6 +3258,16 @@
 			(type default)
 		)
 		(uuid "6d09d2e3-9434-5742-a52b-527c4e7a2034")
+	)
+	(wire
+		(pts
+			(xy 194.31 80.01) (xy 233.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70385902-1d6d-4eb3-8e61-2fa059f39fb2")
 	)
 	(wire
 		(pts
@@ -2589,6 +3331,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 241.3) (xy 93.98 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809ff80b-14ec-5ac3-b47a-614559321203")
+	)
+	(wire
+		(pts
 			(xy 127 35.56) (xy 142.24 35.56)
 		)
 		(stroke
@@ -2596,6 +3348,16 @@
 			(type default)
 		)
 		(uuid "84f244cf-fa56-5413-b4d7-e439b674f833")
+	)
+	(wire
+		(pts
+			(xy 134.62 233.68) (xy 142.24 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cde07ec-0401-5c6a-b9fc-1c2593d716e0")
 	)
 	(wire
 		(pts
@@ -2619,6 +3381,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 80.01) (xy 241.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e2dd68-c053-426d-8862-71d1c8fd9bc4")
+	)
+	(wire
+		(pts
+			(xy 165.1 248.92) (xy 170.18 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941477b9-053b-5c2a-b7d3-8125e83cbad4")
+	)
+	(wire
+		(pts
 			(xy 71.12 95.25) (xy 81.28 95.25)
 		)
 		(stroke
@@ -2626,6 +3408,16 @@
 			(type default)
 		)
 		(uuid "9895b4a5-f570-5333-a375-de1ef6dfb6b1")
+	)
+	(wire
+		(pts
+			(xy 134.62 210.82) (xy 134.62 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e50cd4-c80d-5068-a9b7-019253a0f4cb")
 	)
 	(wire
 		(pts
@@ -2639,13 +3431,23 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 87.63) (xy 241.3 110.49)
+			(xy 114.3 241.3) (xy 127 241.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7bfddb1-57c7-58e2-828a-2ceb25ed7683")
+		(uuid "ab1bfeba-a50c-5c8d-9a7e-b50e6ae47969")
+	)
+	(wire
+		(pts
+			(xy 114.3 257.81) (xy 114.3 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab663385-c1f6-5c11-be6f-b78ee6280c09")
 	)
 	(wire
 		(pts
@@ -2669,13 +3471,33 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 110.49) (xy 218.44 110.49)
+			(xy 184.15 110.49) (xy 241.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0bb0a7-38bb-4329-a762-cd040988b952")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 184.15 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc5768d1-249e-5099-919f-be798f70bb2c")
+	)
+	(wire
+		(pts
+			(xy 241.3 110.49) (xy 241.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1795ec-7d6d-4f91-b601-11bdd8507294")
 	)
 	(wire
 		(pts
@@ -2689,17 +3511,17 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 110.49) (xy 241.3 143.51)
+			(xy 177.8 205.74) (xy 177.8 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c549ac1f-6c66-591e-b5de-9e1ea9e71fbf")
+		(uuid "c1a04639-7ae7-5803-945f-737c2f880d1c")
 	)
 	(wire
 		(pts
-			(xy 184.15 80.01) (xy 218.44 80.01)
+			(xy 127 80.01) (xy 194.31 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2719,13 +3541,43 @@
 	)
 	(wire
 		(pts
-			(xy 127 80.01) (xy 147.32 80.01)
+			(xy 142.24 233.68) (xy 165.1 233.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d18455b7-6439-57f5-86dc-e8481ed9ead1")
+		(uuid "cc91337c-59b0-5b7d-af29-482a0989ec1f")
+	)
+	(wire
+		(pts
+			(xy 177.8 238.76) (xy 177.8 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd44cbc8-a7bc-593b-8833-d7391d788514")
+	)
+	(wire
+		(pts
+			(xy 142.24 233.68) (xy 142.24 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11aecf6-3e69-5d01-a7f0-d01cf2fe80dd")
+	)
+	(wire
+		(pts
+			(xy 134.62 228.6) (xy 134.62 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13465fd-1885-5881-8e67-766757d62d4a")
 	)
 	(wire
 		(pts
@@ -2739,13 +3591,33 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 80.01) (xy 184.15 80.01)
+			(xy 114.3 241.3) (xy 114.3 247.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2bb940b-fd86-5eec-9426-bca0f3d348f0")
+		(uuid "d8da8b12-65ec-5218-98ef-aef93ba9c867")
+	)
+	(wire
+		(pts
+			(xy 233.68 143.51) (xy 252.73 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9258d1a-07be-481d-8db3-669a6244d91e")
+	)
+	(wire
+		(pts
+			(xy 104.14 241.3) (xy 114.3 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6acaae-d723-5415-880c-46f74ffa4a41")
 	)
 	(wire
 		(pts
@@ -2759,33 +3631,13 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 92.71) (xy 218.44 97.79)
+			(xy 104.14 120.65) (xy 109.22 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef28fe33-8071-5026-a2fd-7fc4e3de866d")
-	)
-	(wire
-		(pts
-			(xy 218.44 80.01) (xy 233.68 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f134f42d-e204-53bf-be29-7391df039175")
-	)
-	(wire
-		(pts
-			(xy 241.3 143.51) (xy 252.73 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2707d0b-40cc-5a70-a6d8-969609789db2")
+		(uuid "ee6e8f91-a1a9-48fc-a931-31a68d45f11c")
 	)
 	(wire
 		(pts
@@ -2799,23 +3651,63 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 80.01) (xy 184.15 129.54)
+			(xy 114.3 264.16) (xy 134.62 264.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f687cf6d-6603-5c49-82e9-889ad7f0a3c3")
+		(uuid "f8052b57-6e12-5634-9c5d-1717f42c9ca4")
 	)
 	(wire
 		(pts
-			(xy 233.68 80.01) (xy 233.68 135.89)
+			(xy 233.68 80.01) (xy 233.68 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe538598-3d25-57ff-8f21-145dd41edacb")
+	)
+	(wire
+		(pts
+			(xy 233.68 87.63) (xy 252.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb3dc2d-4a55-4f74-b7dc-d2f281f3e793")
+	)
+	(wire
+		(pts
+			(xy 134.62 233.68) (xy 134.62 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9e2b07-8896-5337-bf6c-63349c95a3e7")
+	)
+	(label "CANH_BUS"
+		(at 177.8 205.74 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "34df0579-9809-5fbb-83a6-1a7fa56cf962")
+	)
+	(label "CANL_BUS"
+		(at 190.5 264.16 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "49b6a8ad-0528-58cb-8c85-33ae8ff71b6a")
 	)
 	(label "CANL_BUS"
 		(at 162.56 110.49 0)
@@ -2837,26 +3729,6 @@
 		)
 		(uuid "71da87a0-e56f-5069-893b-c88c7932380f")
 	)
-	(label "CANH_INT"
-		(at 129.54 80.01 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "c60b218b-11b0-510a-97f4-e5b552340a16")
-	)
-	(label "CAN_TERM_MID"
-		(at 218.44 95.25 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9075202-7b48-5b2d-b5b0-a3df9b891c1e")
-	)
 	(label "CAN_SHIELD"
 		(at 248.92 120.65 0)
 		(effects
@@ -2867,15 +3739,25 @@
 		)
 		(uuid "d3b6e1b5-a1a2-530b-b0e0-f2d51e7ba859")
 	)
-	(label "CANL_INT"
-		(at 129.54 110.49 0)
+	(global_label "CAN_TERM_DISABLE"
+		(shape input)
+		(at 80.01 241.3 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "dbf8b272-fda3-5ce6-99d1-eadad2ab9e8b")
+		(uuid "3bcac24a-9324-5d56-b50b-f26646b60fdc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CAN_STB"
 		(shape bidirectional)
@@ -2937,17 +3819,37 @@
 			)
 		)
 	)
+	(global_label "CAN_TERM_GATE"
+		(shape output)
+		(at 142.24 228.6 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "fee19910-07cd-59ff-9326-73126a9c5ee0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
-		(lib_id "Manual:COMP_JP801")
-		(at 218.44 102.87 0)
-		(unit 1)
+		(lib_id "ShiroFOCLib:CSD87502Q2")
+		(at 175.26 248.92 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "13efe125-e689-5178-abb6-c69c83530ffc")
-		(property "Reference" "JP801"
-			(at 222.25 101.6 0)
+		(dnp no)
+		(uuid "014d0308-c0da-566f-b24a-b4e4d2b4566f")
+		(property "Reference" "Q802"
+			(at 181.61 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,17 +3857,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TERM ENABLE"
-			(at 215.9 104.14 0)
+		(property "Value" "CSD87502Q2"
+			(at 181.61 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 222.25 104.14 0)
+		(property "Footprint" "ShiroFOCLib:CSD87502Q2_DLV0006A"
+			(at 175.26 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,8 +3876,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 222.25 104.14 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd87502q2.pdf"
+			(at 175.26 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,25 +3887,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 102.87 0)
+			(at 175.26 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 222.25 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "DNP"
-			(at 222.25 104.14 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,8 +3904,8 @@
 				(hide yes)
 			)
 		)
-		(property "Procurement" "Select to specification: TERM ENABLE; SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 222.25 104.14 0)
+		(property "Assembly" "FIT"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,8 +3914,180 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
-			(at 222.25 104.14 0)
+		(property "Footprint status" "Assigned to project Manual library; corrected to TI DLV land/stencil pattern; exposed drain lands numbered 6 and 3."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSD87502Q2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "DLV0006A, 2 x 2 mm SON, 6 terminals + 2 drain lands"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Dual 30 V N-MOSFET. D1=6, S1=1, G1=2; D2=3, S2=4, G2=5. Exposed drain lands duplicate pins 6 and 3."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "00eec820-3644-5d32-8d15-f1fd850cf110")
+		)
+		(pin "4"
+			(uuid "7e3be06d-815d-567c-bacf-adf3896b60f9")
+		)
+		(pin "5"
+			(uuid "8bcb4778-60f1-551b-bab7-31bf9cd96915")
+		)
+		(pin "2"
+			(uuid "474e2e02-239c-4621-b746-861b514a93bf")
+		)
+		(pin "6"
+			(uuid "84d045fd-5a10-4d85-ac52-5676dffd04f5")
+		)
+		(pin "1"
+			(uuid "b515c043-4efb-4de2-bf06-3e97758a6169")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "Q802")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShiroFOCLib:CSD87502Q2")
+		(at 175.26 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ebcec94-f227-5fe8-b9f3-c10f64d612d8")
+		(property "Reference" "Q802"
+			(at 181.61 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD87502Q2"
+			(at 181.61 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ShiroFOCLib:CSD87502Q2_DLV0006A"
+			(at 175.26 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd87502q2.pdf"
+			(at 175.26 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "FIT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint status" "Assigned to project Manual library; corrected to TI DLV land/stencil pattern; exposed drain lands numbered 6 and 3."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSD87502Q2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "DLV0006A, 2 x 2 mm SON, 6 terminals + 2 drain lands"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Dual 30 V N-MOSFET. D1=6, S1=1, G1=2; D2=3, S2=4, G2=5. Exposed drain lands duplicate pins 6 and 3."
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,22 +4097,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6dd3e27-7686-44b6-a84d-e568a654de82")
+			(uuid "4d2bf71e-fcaa-59be-a0f8-d297af66f963")
 		)
 		(pin "2"
-			(uuid "877ecbf5-dffc-483f-822f-9ad91e8f0f56")
+			(uuid "b665a4cc-15db-5756-aad8-ddaa445280f6")
+		)
+		(pin "6"
+			(uuid "24082100-690a-5a33-82aa-acb83f719930")
+		)
+		(pin "5"
+			(uuid "ed577b1b-cb69-4b8c-b8f1-98e5ec2a207f")
+		)
+		(pin "4"
+			(uuid "4057b533-9d4a-4546-8c8d-34b427accca3")
+		)
+		(pin "3"
+			(uuid "676214e1-3609-47be-b8f1-04adecbf8767")
 		)
 		(instances
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
-					(reference "JP801")
+					(reference "Q802")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP1013")
+		(lib_id "ShiroFOCLib:COMP_TP1013")
 		(at 60.96 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3156,7 +4232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 246.38 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3218,7 +4294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R801")
+		(lib_id "ShiroFOCLib:COMP_R801")
 		(at 55.88 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3328,7 +4404,69 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_VCC")
+		(at 134.62 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "2e731657-e8a2-5149-8da4-3e4901da0407")
+		(property "Reference" "#PWRTERM10V"
+			(at 134.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 134.62 207.01 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8efe5b02-113c-5d88-b3dd-42818393d7eb")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWRTERM10V")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 104.14 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3390,211 +4528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R803")
-		(at 152.4 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d5a2a81-7ba2-5ece-9f4d-e5fe1cca01e5")
-		(property "Reference" "R803"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R CANH link"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "FIT"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5bf3e7b-dde5-4ca3-8817-df60f3a5fee1")
-		)
-		(pin "2"
-			(uuid "c428c11f-bc27-49af-886d-45799d278e81")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
-					(reference "R803")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Manual:COMP_R804")
-		(at 152.4 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5989d5b2-2053-5091-9e4e-35b9efaa3797")
-		(property "Reference" "R804"
-			(at 152.4 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R CANL link"
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "FIT"
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
-			(at 152.4 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f12d1910-684c-49a7-ab51-06896d87bc9b")
-		)
-		(pin "2"
-			(uuid "6659ad44-a7e5-46d0-a830-3f97983dac91")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
-					(reference "R804")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 246.38 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3656,8 +4590,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R802")
-		(at 218.44 87.63 0)
+		(lib_id "ShiroFOCLib:COMP_R802")
+		(at 177.8 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3665,7 +4599,7 @@
 		(dnp no)
 		(uuid "7c526ded-4017-50f4-ab9a-8584979520c9")
 		(property "Reference" "R802"
-			(at 222.25 86.36 0)
+			(at 181.61 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +4608,7 @@
 			)
 		)
 		(property "Value" "120R 1%"
-			(at 222.25 88.9 0)
+			(at 181.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +4617,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 222.25 88.9 0)
+			(at 181.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +4627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 88.9 0)
+			(at 181.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +4637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 87.63 0)
+			(at 177.8 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +4645,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 222.25 88.9 0)
+			(at 181.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +4655,7 @@
 			)
 		)
 		(property "Assembly" "FIT"
-			(at 222.25 88.9 0)
+			(at 181.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +4665,7 @@
 			)
 		)
 		(property "Procurement" "Select to specification: 120R 1%; R_0603_1608Metric"
-			(at 222.25 88.9 0)
+			(at 181.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +4675,7 @@
 			)
 		)
 		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
-			(at 222.25 88.9 0)
+			(at 181.61 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +4700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_J801")
+		(lib_id "ShiroFOCLib:COMP_J801")
 		(at 266.7 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3867,7 +4801,107 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP1022")
+		(lib_id "ShiroFOCLib:COMP_R802")
+		(at 114.3 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a425266-8c77-5fe5-98d9-71bb03ff24e9")
+		(property "Reference" "R804"
+			(at 118.11 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 118.11 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 114.3 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "FIT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating" "1%, >= 0.063 W, >= 25 V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Holds Q801 off at reset; termination defaults ON when 10 V VCC is present."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b42e6f7-8f7a-547c-afa1-d8d987f0d878")
+		)
+		(pin "2"
+			(uuid "61411ac6-eae8-591c-bfa9-50f266e94037")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "R804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShiroFOCLib:COMP_TP1022")
 		(at 50.8 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3975,7 +5009,240 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP1014")
+		(lib_id "ShiroFOCLib:COMP_R802")
+		(at 99.06 241.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92e24871-22f4-5272-9dfd-252ce0bcd72c")
+		(property "Reference" "R803"
+			(at 95.25 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 95.25 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.06 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "FIT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating" "1%, >= 0.063 W, >= 25 V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Limits PC15 gate-charging current to < 0.8 mA at 3.6 V; static configuration control."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c03f3d-1fc1-5e3f-9a2c-76cf1b63200e")
+		)
+		(pin "2"
+			(uuid "09e7f7d3-fc1f-5966-9e7a-8164e54e1c8c")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "R803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShiroFOCLib:CSD17483F4")
+		(at 132.08 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9675e15f-d21b-51cf-ac3f-f700c200c3dc")
+		(property "Reference" "Q801"
+			(at 138.43 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSD17483F4"
+			(at 138.43 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ShiroFOCLib:CSD17483F4_YJC0003A"
+			(at 132.08 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd17483f4.pdf"
+			(at 132.08 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Assembly" "FIT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint status" "Assigned to project Manual library; supplied nominal footprint; pin mapping checked against TI."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSD17483F4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "YJC0003A, 1.0 x 0.6 mm, 3-pin PicoStar"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "30 V N-MOSFET; pin 1 G, 2 S, 3 D; GPIO gate pull-down for CAN termination."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e5374f-793a-522c-a742-6142e06ae04c")
+		)
+		(pin "2"
+			(uuid "cf4c2a5d-c1ee-57ac-81d6-c8cd3aa18dfa")
+		)
+		(pin "3"
+			(uuid "3de08804-caa7-5606-864c-df1a097f0ae6")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "Q801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShiroFOCLib:COMP_TP1014")
 		(at 71.12 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4083,7 +5350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_D801")
+		(lib_id "ShiroFOCLib:COMP_D801")
 		(at 189.23 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4181,7 +5448,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_C801")
+		(lib_id "ShiroFOCLib:COMP_C801")
 		(at 127 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4291,7 +5558,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_R805")
+		(lib_id "ShiroFOCLib:COMP_R805")
 		(at 71.12 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4401,7 +5668,69 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
+		(at 134.62 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "b0fa4adb-aafc-528e-a731-b68c219f2348")
+		(property "Reference" "#PWRTERMGND"
+			(at 134.62 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 267.97 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f14e9e1b-9355-5ed2-b038-66becd50b35d")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWRTERMGND")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 142.24 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4463,7 +5792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_3V3")
+		(lib_id "ShiroFOCLib:PWR_3V3")
 		(at 86.36 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4525,7 +5854,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_C802")
+		(lib_id "ShiroFOCLib:COMP_C802")
 		(at 142.24 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4635,7 +5964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_J802")
+		(lib_id "ShiroFOCLib:COMP_J802")
 		(at 266.7 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4736,7 +6065,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 127 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4798,7 +6127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_U801")
+		(lib_id "ShiroFOCLib:COMP_U801")
 		(at 104.14 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4815,7 +6144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TCAN3413DR"
+		(property "Value" "TCAN3413DRBR"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -4824,7 +6153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "ShiroFOCLib:TCAN3413_DRB8"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -4850,7 +6179,7 @@
 				)
 			)
 		)
-		(property "MPN" "TCAN3413DR"
+		(property "MPN" "TCAN3413DRBR"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -4869,6 +6198,15 @@
 			)
 		)
 		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -4901,6 +6239,9 @@
 		(pin "6"
 			(uuid "037fff48-7a80-47ed-bc92-4fb421a5b989")
 		)
+		(pin "9"
+			(uuid "4bb8db6e-6387-4458-ad40-a7508e511ae8")
+		)
 		(instances
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
@@ -4911,7 +6252,107 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:PWR_GND")
+		(lib_id "ShiroFOCLib:COMP_R802")
+		(at 134.62 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e843e533-d57e-5d9a-8ab5-6d570b0414a9")
+		(property "Reference" "R806"
+			(at 138.43 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "FIT"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Rating" "1%, >= 0.063 W, >= 25 V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "BOM Comments" "Pulls both Q802 gates to existing 10 V VCC; about 1 mA when termination is disabled."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd907c7-0130-5084-93f0-8e2c9ed7898b")
+		)
+		(pin "2"
+			(uuid "2c22fd3f-cb90-5def-bd3b-5ac3c0a295c1")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "R806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShiroFOCLib:PWR_GND")
 		(at 189.23 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)

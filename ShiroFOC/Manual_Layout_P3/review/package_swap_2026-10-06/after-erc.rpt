@@ -1,0 +1,62 @@
+ERC report (2026-10-06T21:15:17+0100, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'STSPIN32G4_Functional' doesn't match copy in library 'Manual'
+    ; warning
+    @(210.82 mm, 153.67 mm): Symbol U4 [STSPIN32G4_Functional]
+[lib_symbol_mismatch]: Symbol 'STSPIN32G4_Functional' doesn't match copy in library 'Manual'
+    ; warning
+    @(139.70 mm, 86.36 mm): Symbol U4 [STSPIN32G4_Functional]
+[lib_symbol_mismatch]: Symbol 'STSPIN32G4_Functional' doesn't match copy in library 'Manual'
+    ; warning
+    @(119.38 mm, 228.60 mm): Symbol U4 [STSPIN32G4_Functional]
+[lib_symbol_mismatch]: Symbol 'COMP_U202' doesn't match copy in library 'Manual'
+    ; warning
+    @(154.94 mm, 90.17 mm): Symbol U202 [COMP_U202]
+[lib_symbol_mismatch]: Symbol 'STSPIN32G4_Functional' doesn't match copy in library 'Manual'
+    ; warning
+    @(91.44 mm, 104.14 mm): Symbol U4 [STSPIN32G4_Functional]
+[lib_symbol_mismatch]: Symbol 'STSPIN32G4_Functional' doesn't match copy in library 'Manual'
+    ; warning
+    @(222.25 mm, 104.14 mm): Symbol U4 [STSPIN32G4_Functional]
+[lib_symbol_mismatch]: Symbol 'STSPIN32G4_Functional' doesn't match copy in library 'Manual'
+    ; warning
+    @(353.06 mm, 104.14 mm): Symbol U4 [STSPIN32G4_Functional]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(269.24 mm, 48.26 mm): Vertical Wire, length 10.16 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(269.24 mm, 68.58 mm): Vertical Wire, length 10.16 mm
+
+***** Sheet /DC link / input/
+
+***** Sheet /5 V / 3.3 V power/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(48.26 mm, 281.94 mm): Symbol #FLG11 Hidden pin 1 [pwr, Power output, Line]
+    @(77.47 mm, 281.94 mm): Symbol #FLG12 Hidden pin 1 [pwr, Power output, Line]
+
+***** Sheet /MCU / clock / SWD/
+
+***** Sheet /Gate driver / VCC/
+
+***** Sheet /Three-phase bridge/
+
+***** Sheet /Current / temperature/
+
+***** Sheet /Brake chopper/
+
+***** Sheet /Encoder / IMU/
+
+***** Sheet /External feedback/
+
+***** Sheet /CAN interface/
+
+***** Sheet /USB service/
+[multiple_net_names]: Both 5V_USB and 5V_USB_RAW are attached to the same items; 5V_USB will be used in the netlist
+    ; warning
+    @(204.47 mm, 62.23 mm): Global Label '5V_USB'
+    @(218.44 mm, 43.18 mm): Symbol #PWR09USBService12 Pin 1 [5V_USB_RAW, Power input, Line]
+
+ ** ERC messages: 11  Errors 1  Warnings 10

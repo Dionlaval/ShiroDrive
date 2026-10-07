@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-06",
+  "assignments": {
+    "Q801": "Manual:CSD17483F4_YJC0003A",
+    "Q802": "Manual:CSD87502Q2_DLV0006A"
+  },
+  "verified_with": [
+    "KiCad pcbnew native footprint loading",
+    "KiCad native schematic netlist export",
+    "KiCad ERC before/after comparison",
+    "KiCad STEP export and 3D rendering"
+  ],
+  "connectivity_unchanged": true,
+  "erc_unchanged": true,
+  "existing_erc_errors": 1,
+  "existing_erc_warnings": 10,
+  "modified_existing_files": [
+    "10_CAN.kicad_sch",
+    "libs/Manual.kicad_sym"
+  ],
+  "pcb_unchanged": true,
+  "pcb_sha256": "405770b3b1fde1bca4c179b97d7c0b08f3694ef19af5db0c0b417c259ecd9cfe",
+  "Q802_correction": {
+    "source": "TI CSD87502Q2 SLPS560 page 9",
+    "peripheral_pads_mm": [
+      0.45,
+      0.3
+    ],
+    "exposed_pads_mm": [
+      0.9,
+      0.625
+    ],
+    "exposed_pad_y_mm": [
+      -0.488,
+      0.488
+    ],
+    "paste_apertures_mm": [
+      0.85,
+      0.59
+    ],
+    "D1_exposed_pad_number": 6,
+    "D2_exposed_pad_number": 3
+  },
+  "models": {
+    "Q801": "libs/3dmodels/YJC0003A_TEX.step",
+    "Q802": "libs/3dmodels/DLV0006A.stp"
+  },
+  "ui_reloaded": true
+}

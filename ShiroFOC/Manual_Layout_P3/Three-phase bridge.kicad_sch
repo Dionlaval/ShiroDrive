@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:COMP_TP101"
+		(symbol "ShiroFOCLib:COMP_TP101"
 			(pin_names
 				(offset 0.635)
 			)
@@ -366,7 +366,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:CSD88599Q5DC"
+		(symbol "ShiroFOCLib:CSD88599Q5DC"
 			(pin_names
 				(offset 0.254)
 			)
@@ -389,7 +389,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Manual:DMM0022A"
+			(property "Footprint" "ShiroFOCLib:DMM0022A"
 				(at -3.81 -24.13 0)
 				(effects
 					(font
@@ -968,7 +968,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:LR2512D_Kelvin"
+		(symbol "ShiroFOCLib:LR2512D_Kelvin"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -992,7 +992,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Manual:R_Shunt_LR2512D_0m5_3W_Kelvin"
+			(property "Footprint" "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1150,7 +1150,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Manual:Motor_Phase_Terminals_3"
+		(symbol "ShiroFOCLib:Motor_Phase_Terminals_3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3593,7 +3593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:LR2512D_Kelvin")
+		(lib_id "ShiroFOCLib:LR2512D_Kelvin")
 		(at 34.29 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3620,7 +3620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Manual:R_Shunt_LR2512D_0m5_3W_Kelvin"
+		(property "Footprint" "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
 			(at 32.512 67.31 90)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:CSD88599Q5DC")
+		(lib_id "ShiroFOCLib:CSD88599Q5DC")
 		(at 227.33 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3730,7 +3730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Manual:DMM0022A"
+		(property "Footprint" "ShiroFOCLib:DMM0022A"
 			(at 223.52 74.93 0)
 			(effects
 				(font
@@ -3887,7 +3887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP101")
+		(lib_id "ShiroFOCLib:COMP_TP101")
 		(at 200.66 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3994,7 +3994,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP101")
+		(lib_id "ShiroFOCLib:COMP_TP101")
 		(at 218.44 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4363,7 +4363,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP101")
+		(lib_id "ShiroFOCLib:COMP_TP101")
 		(at 149.86 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4536,7 +4536,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:LR2512D_Kelvin")
+		(lib_id "ShiroFOCLib:LR2512D_Kelvin")
 		(at 120.65 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4563,7 +4563,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Manual:R_Shunt_LR2512D_0m5_3W_Kelvin"
+		(property "Footprint" "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
 			(at 118.872 67.31 90)
 			(effects
 				(font
@@ -4846,7 +4846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:LR2512D_Kelvin")
+		(lib_id "ShiroFOCLib:LR2512D_Kelvin")
 		(at 209.55 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4873,7 +4873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Manual:R_Shunt_LR2512D_0m5_3W_Kelvin"
+		(property "Footprint" "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
 			(at 207.772 67.31 90)
 			(effects
 				(font
@@ -5090,7 +5090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:CSD88599Q5DC")
+		(lib_id "ShiroFOCLib:CSD88599Q5DC")
 		(at 52.07 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5115,7 +5115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Manual:DMM0022A"
+		(property "Footprint" "ShiroFOCLib:DMM0022A"
 			(at 48.26 74.93 0)
 			(effects
 				(font
@@ -5272,7 +5272,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP101")
+		(lib_id "ShiroFOCLib:COMP_TP101")
 		(at 132.08 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5445,7 +5445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP101")
+		(lib_id "ShiroFOCLib:COMP_TP101")
 		(at 68.58 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5664,7 +5664,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP101")
+		(lib_id "ShiroFOCLib:COMP_TP101")
 		(at 114.3 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6671,7 +6671,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP101")
+		(lib_id "ShiroFOCLib:COMP_TP101")
 		(at 182.88 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7418,7 +7418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:CSD88599Q5DC")
+		(lib_id "ShiroFOCLib:CSD88599Q5DC")
 		(at 138.43 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7443,7 +7443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Manual:DMM0022A"
+		(property "Footprint" "ShiroFOCLib:DMM0022A"
 			(at 134.62 74.93 0)
 			(effects
 				(font
@@ -7600,7 +7600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:Motor_Phase_Terminals_3")
+		(lib_id "ShiroFOCLib:Motor_Phase_Terminals_3")
 		(at 257.81 123.19 0)
 		(mirror y)
 		(unit 1)
@@ -7821,7 +7821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP101")
+		(lib_id "ShiroFOCLib:COMP_TP101")
 		(at 33.02 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7928,7 +7928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Manual:COMP_TP101")
+		(lib_id "ShiroFOCLib:COMP_TP101")
 		(at 50.8 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
