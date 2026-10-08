@@ -268,6 +268,151 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ShiroFOCLib:AMASS_MR60PW_M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -11.43 -1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MR60PW-M"
+				(at -11.43 1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "ShiroFOCLib:AMASS_MR60PW-M_1x03_P5.50mm_Horizontal"
+				(at -23.114 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.china-amass.com/public/upload/20240530/b96cfb0ffabb422135a2a15093576222.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "AMASS MR60PW-M horizontal male 3-pole motor connector; project pin assignment 1=U, 2=V, 3=W"
+				(at 0 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "AMASS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MR60PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "Horizontal through-hole, 3 contacts, 5.50 mm pitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMASS_MR60PW_M_1_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ShiroFOCLib:COMP_TP101"
 			(pin_names
 				(offset 0.635)
@@ -7600,12 +7745,12 @@
 		)
 	)
 	(symbol
-		(lib_id "ShiroFOCLib:Motor_Phase_Terminals_3")
+		(lib_id "ShiroFOCLib:AMASS_MR60PW_M")
 		(at 257.81 123.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b3b725-1525-4bb1-ad21-698fe6f415d6")
@@ -7617,7 +7762,7 @@
 				)
 			)
 		)
-		(property "Value" "MOTOR U/V/W"
+		(property "Value" "MR60PW-M"
 			(at 257.81 110.49 0)
 			(effects
 				(font
@@ -7625,7 +7770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_MR30PW-M_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "ShiroFOCLib:AMASS_MR60PW-M_1x03_P5.50mm_Horizontal"
 			(at 280.924 100.33 0)
 			(effects
 				(font
@@ -7634,7 +7779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.china-amass.com/public/upload/20240530/b96cfb0ffabb422135a2a15093576222.pdf"
 			(at 257.81 123.19 0)
 			(effects
 				(font
@@ -7643,7 +7788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Three plated motor-wire solder terminals"
+		(property "Description" "AMASS MR60PW-M horizontal male 3-pole motor connector; project pin assignment 1=U, 2=V, 3=W"
 			(at 257.81 135.128 0)
 			(effects
 				(font
@@ -7652,7 +7797,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PCB feature"
+		(property "MPN" "MR60PW-M"
 			(at 280.924 100.33 0)
 			(effects
 				(font
@@ -7661,8 +7806,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "PCB"
+		(property "Manufacturer" "AMASS"
 			(at 280.924 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Horizontal through-hole, 3 contacts, 5.50 mm pitch"
+			(at 257.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

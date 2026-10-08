@@ -544,7 +544,7 @@
 		)
 		(uuid "17257c1f-3822-54b9-b649-b9a2c5715185")
 	)
-	(text "4 x M3 / 3.2 mm NPTH"
+	(text "4 x M2 / 2.2 mm PTH + vias"
 		(exclude_from_sim no)
 		(at 104.14 135.89 0)
 		(effects
@@ -940,7 +940,7 @@
 		)
 		(uuid "d4a6d833-0850-5a87-9f86-a79b8de95c4e")
 	)
-	(text "Review each page before PCB update. Downloads/checklist: downloads/FOOTPRINT_CAD_CHECKLIST.md\nH1-H4: M3 clearance holes. Existing manual PCB has not been synchronized with this schematic."
+	(text "Review each page before PCB update. Downloads/checklist: downloads/FOOTPRINT_CAD_CHECKLIST.md\nH1-H4: M2 plated clearance holes with perimeter vias. Existing manual PCB has not been synchronized with this schematic."
 		(exclude_from_sim no)
 		(at 15.24 281.94 0)
 		(effects
@@ -1168,7 +1168,7 @@
 				)
 			)
 		)
-		(property "Value" "M3 NPTH"
+		(property "Value" "M2 PTH"
 			(at 111.76 167.64 0)
 			(effects
 				(font
@@ -1176,7 +1176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 111.76 163.83 0)
 			(effects
 				(font
@@ -1227,7 +1227,7 @@
 				)
 			)
 		)
-		(property "Value" "M3 NPTH"
+		(property "Value" "M2 PTH"
 			(at 147.32 151.13 0)
 			(effects
 				(font
@@ -1235,7 +1235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 147.32 147.32 0)
 			(effects
 				(font
@@ -1286,7 +1286,7 @@
 				)
 			)
 		)
-		(property "Value" "M3 NPTH"
+		(property "Value" "M2 PTH"
 			(at 147.32 167.64 0)
 			(effects
 				(font
@@ -1294,7 +1294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 147.32 163.83 0)
 			(effects
 				(font
@@ -1345,7 +1345,7 @@
 				)
 			)
 		)
-		(property "Value" "M3 NPTH"
+		(property "Value" "M2 PTH"
 			(at 111.76 151.13 0)
 			(effects
 				(font
@@ -1353,7 +1353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 111.76 147.32 0)
 			(effects
 				(font

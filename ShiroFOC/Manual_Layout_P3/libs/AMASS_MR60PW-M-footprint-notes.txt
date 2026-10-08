@@ -1,0 +1,33 @@
+AMASS MR60PW-M footprint
+=======================
+
+Footprint: ShiroFOCLib:AMASS_MR60PW-M_1x03_P5.50mm_Horizontal
+Source: AMASS product specification 2023V2, PCB LAYOUT drawing.
+https://www.china-amass.com/public/upload/20240530/b96cfb0ffabb422135a2a15093576222.pdf
+
+Manufacturer-dimensioned features, in mm:
+  Contact pitch: 5.50 +/-0.05
+  Finished contact holes: diameter 2.90 +0.10/-0.00
+  Two soldered mounting tabs: plated slots 0.80 x 1.90, both +0.10/-0.00
+  Mounting slot center spacing: 17.10 +/-0.05
+  Mounting slot row offset from contact row: 6.00 +/-0.05
+  Body: 19.20 wide x 19.50 deep x 8.20 high
+
+Footprint conventions:
+  Contact 1 is the origin; contacts 2 and 3 are at X=5.50 and X=11.00.
+  Mating direction is negative Y on the front of the PCB.
+  Slot centers: (-3.05, -6.00), (14.05, -6.00).
+  Mounting tabs are unnumbered plated pads and carry no phase net.
+  Contact copper diameter/width is 4.20; mounting copper is 1.80 x 2.90.
+  Body rear edge is at Y=2.10, inferred from the outline drawing and an
+  existing community footprint; that offset is not explicitly dimensioned
+  by AMASS. The drilled hole/slot pattern uses the explicit AMASS dimensions.
+  Courtyard surrounds the connector body and pads with at least 0.50 clearance.
+  The mating plug and cable access envelope is not part of the courtyard.
+  No 3D model is assigned.
+
+Project electrical assignment: J1 pin 1 = PHASE_U, 2 = PHASE_V, 3 = PHASE_W.
+AMASS does not number the three contacts in the cited drawing. The project
+assignment must also be used for the mating motor harness.
+
+This is a project-local footprint, not a bundled KiCad library footprint.
