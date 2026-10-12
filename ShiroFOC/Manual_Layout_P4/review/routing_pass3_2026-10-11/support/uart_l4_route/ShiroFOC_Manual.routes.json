@@ -1,0 +1,28 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/uart_l4_open/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    8
+  ],
+  "connections": [
+    {
+      "net": "USB_UART_RX",
+      "source": "5dc4b52b-94f5-45a2-82e9-8eaa7dcebe5a",
+      "target": "7cb4188c-5eee-4186-8e3e-637c49196648",
+      "source_ref": "U4",
+      "source_pin": "46",
+      "target_ref": "R902",
+      "target_pin": "2",
+      "distance_mm": 22.94495383443026,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 0.8557569980621338
+    }
+  ]
+}

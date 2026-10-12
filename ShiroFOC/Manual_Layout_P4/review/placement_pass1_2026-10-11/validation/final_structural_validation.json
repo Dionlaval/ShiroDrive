@@ -1,0 +1,4166 @@
+{
+  "status": "PASS",
+  "scope": "Structural placement validation only; not routing/fabrication readiness",
+  "inputs": {
+    "before": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/placement_pass1_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+    "after": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/placement_pass1_2026-10-11/final/ShiroFOC_Manual.kicad_pcb",
+    "before_sha256": "12419a7748ec6f1cc863f25df0eae1732436d9e87ba4d1f0c2648f9615ea1751",
+    "after_sha256": "fba207d4fc2c73df36f0851bced566ba3b39e7fdf050cce382e5cd80ab6fbb3c",
+    "netlist": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/schematic_netlist.xml"
+  },
+  "failures": [],
+  "warnings": [
+    "No courtyard polygons on U1, U2, U3; native body/pad envelopes checked instead."
+  ],
+  "footprints": {
+    "before": 277,
+    "after": 278,
+    "added": [
+      "R618"
+    ],
+    "removed": [],
+    "moved_count": 40,
+    "moved": [
+      "C101",
+      "C102",
+      "C103",
+      "C11",
+      "C110",
+      "C203",
+      "C3",
+      "C603",
+      "C605",
+      "C607",
+      "C7",
+      "C701",
+      "C702",
+      "D505",
+      "Q301",
+      "R303",
+      "R304",
+      "R305",
+      "R306",
+      "R307",
+      "R308",
+      "R309",
+      "R313",
+      "R314",
+      "R503",
+      "R511",
+      "R512",
+      "R611",
+      "R701",
+      "R702",
+      "R703",
+      "R711",
+      "R712",
+      "R713",
+      "R715",
+      "TH701",
+      "TH702",
+      "TH703",
+      "U602",
+      "U701"
+    ],
+    "existing_uuid_changes": [],
+    "schematic_path_changes": [],
+    "pad_identity_net_changes": [],
+    "allowed_unnumbered_wire_mechanical_pad_removals": []
+  },
+  "fixed_footprints": {
+    "U4": {
+      "unchanged": true,
+      "before": {
+        "uuid": "79bc9f54-09d8-4fea-95a6-a8841cbef8ca",
+        "reference": "U4",
+        "value": "STSPIN32G4",
+        "footprint": "ShiroFOCLib:QFN_IN32G4_STM",
+        "position": [
+          -5.1,
+          7.2
+        ],
+        "angle": 0.0,
+        "side": "F",
+        "schematic_path": "/72c68966-ddbf-45d8-a1a7-ab83562ae772/c43119a5-6ca4-40fc-beb4-28dd8f17bd5f"
+      },
+      "after": {
+        "uuid": "79bc9f54-09d8-4fea-95a6-a8841cbef8ca",
+        "reference": "U4",
+        "value": "STSPIN32G4",
+        "footprint": "ShiroFOCLib:QFN_IN32G4_STM",
+        "position": [
+          -5.1,
+          7.2
+        ],
+        "angle": 0.0,
+        "side": "F",
+        "schematic_path": "/72c68966-ddbf-45d8-a1a7-ab83562ae772/c43119a5-6ca4-40fc-beb4-28dd8f17bd5f"
+      }
+    },
+    "U601": {
+      "unchanged": true,
+      "before": {
+        "uuid": "0da6bc8d-9a71-4757-a2c4-2588462f9aef",
+        "reference": "U601",
+        "value": "AS5047P-ATSM",
+        "footprint": "ShiroFOCLib:AS5047P_TSSOP14",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "angle": 180.0,
+        "side": "B",
+        "schematic_path": "/fa38cb73-7f02-40fb-8ef4-f35ba7d105ca/2647c5e2-def1-5b25-9b29-c44c8d6422ce"
+      },
+      "after": {
+        "uuid": "0da6bc8d-9a71-4757-a2c4-2588462f9aef",
+        "reference": "U601",
+        "value": "AS5047P-ATSM",
+        "footprint": "ShiroFOCLib:AS5047P_TSSOP14",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "angle": 180.0,
+        "side": "B",
+        "schematic_path": "/fa38cb73-7f02-40fb-8ef4-f35ba7d105ca/2647c5e2-def1-5b25-9b29-c44c8d6422ce"
+      }
+    }
+  },
+  "integrated_circuit_envelopes": [
+    {
+      "reference": "U1",
+      "value": "CSD88599Q5DC",
+      "source": "native_body_pad_bounds_fallback",
+      "full_envelope_inside": true,
+      "position": [
+        12.849999,
+        1.2
+      ],
+      "side": "F",
+      "outside_samples": []
+    },
+    {
+      "reference": "U2",
+      "value": "CSD88599Q5DC",
+      "source": "native_body_pad_bounds_fallback",
+      "full_envelope_inside": true,
+      "position": [
+        12.849999,
+        8.7
+      ],
+      "side": "F",
+      "outside_samples": []
+    },
+    {
+      "reference": "U201",
+      "value": "LMR36510FADDAR",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        2.270005,
+        -17.6625
+      ],
+      "side": "F",
+      "outside_samples": []
+    },
+    {
+      "reference": "U202",
+      "value": "USBLC6-2SC6",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -14.76,
+        -7.22
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U203",
+      "value": "TPS2121RUXR",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -14.019015,
+        -18.688056
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U204",
+      "value": "TLV75533PDYDR",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -17.75,
+        -14.810001
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U205",
+      "value": "MPM3620AGQV-Z",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -7.617495,
+        -11.312499
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U3",
+      "value": "CSD88599Q5DC",
+      "source": "native_body_pad_bounds_fallback",
+      "full_envelope_inside": true,
+      "position": [
+        12.849999,
+        16.2
+      ],
+      "side": "F",
+      "outside_samples": []
+    },
+    {
+      "reference": "U4",
+      "value": "STSPIN32G4",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -5.1,
+        7.2
+      ],
+      "side": "F",
+      "outside_samples": []
+    },
+    {
+      "reference": "U501",
+      "value": "UCC27517ADBVR",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        10.69,
+        -12.8675
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U502",
+      "value": "TLV3012BIDCKR",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        6.69,
+        -12.480001
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U601",
+      "value": "AS5047P-ATSM",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U602",
+      "value": "TMUX1574PW",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -6.1675,
+        18.85
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U603",
+      "value": "74LVC3G17",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -12.35,
+        20.119999
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U604",
+      "value": "TPS2553DBVR",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -11.33,
+        -10.5225
+      ],
+      "side": "F",
+      "outside_samples": []
+    },
+    {
+      "reference": "U701",
+      "value": "BMI323",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -5.0,
+        -3.6
+      ],
+      "side": "F",
+      "outside_samples": []
+    },
+    {
+      "reference": "U801",
+      "value": "TCAN3413DRBR",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -19.847502,
+        11.2825
+      ],
+      "side": "B",
+      "outside_samples": []
+    },
+    {
+      "reference": "U901",
+      "value": "CP2102N-A02-GQFN20",
+      "source": "courtyard",
+      "full_envelope_inside": true,
+      "position": [
+        -19.97,
+        -8.15
+      ],
+      "side": "B",
+      "outside_samples": []
+    }
+  ],
+  "board_outline": {
+    "unchanged": true,
+    "edge_object_counts": {
+      "before": 8,
+      "after": 8
+    },
+    "polygon_count": 1
+  },
+  "mounting_holes": {
+    "H1": {
+      "unchanged": true,
+      "pad_count": 9
+    },
+    "H2": {
+      "unchanged": true,
+      "pad_count": 9
+    },
+    "H3": {
+      "unchanged": true,
+      "pad_count": 9
+    },
+    "H4": {
+      "unchanged": true,
+      "pad_count": 9
+    }
+  },
+  "rule_area_keepouts": {
+    "before_count": 0,
+    "after_count": 0,
+    "unchanged": true
+  },
+  "standalone_vias": {
+    "count": 125,
+    "diameter_drill_counts": {
+      "0.5/0.3": 125
+    },
+    "nonstandard": []
+  },
+  "R618": {
+    "matches_schematic": true,
+    "expected": {
+      "value": "49.9k 1%",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "path": "/924ea1ce-eeef-4d2a-928e-6e88c4a8e14a/a44e9ce3-cfb7-42e4-a12a-b55b03f408b8",
+      "pad_nets": {
+        "2": "GND",
+        "1": "Net-(U604-ILIM)"
+      }
+    },
+    "actual": {
+      "value": "49.9k 1%",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "path": "/924ea1ce-eeef-4d2a-928e-6e88c4a8e14a/a44e9ce3-cfb7-42e4-a12a-b55b03f408b8",
+      "pad_nets": {
+        "1": "Net-(U604-ILIM)",
+        "2": "GND"
+      }
+    }
+  },
+  "placement_inventory": {
+    "before_origins_on_board": 179,
+    "after_origins_on_board": 212,
+    "counts_by_location_fit_status": {
+      "on_board | fitted/default": 212,
+      "staged | fitted/default": 50,
+      "staged | DNP": 15,
+      "staged | PCB feature": 1
+    },
+    "staged_categories": {
+      "VM input ceramic support": {
+        "count": 3,
+        "references": [
+          "C104",
+          "C105",
+          "C106"
+        ],
+        "fit_counts": {
+          "fitted/default": 3
+        }
+      },
+      "optional bus damping/TVS": {
+        "count": 3,
+        "references": [
+          "C107",
+          "D101",
+          "R102"
+        ],
+        "fit_counts": {
+          "DNP": 3
+        }
+      },
+      "DC-link ceramic bank": {
+        "count": 50,
+        "references": [
+          "C111",
+          "C112",
+          "C113",
+          "C114",
+          "C115",
+          "C116",
+          "C117",
+          "C118",
+          "C119",
+          "C120",
+          "C121",
+          "C122",
+          "C123",
+          "C124",
+          "C125",
+          "C126",
+          "C127",
+          "C128",
+          "C129",
+          "C130",
+          "C131",
+          "C132",
+          "C133",
+          "C134",
+          "C135",
+          "C136",
+          "C137",
+          "C138",
+          "C139",
+          "C140",
+          "C141",
+          "C142",
+          "C143",
+          "C144",
+          "C145",
+          "C146",
+          "C147",
+          "C148",
+          "C149",
+          "C150",
+          "C151",
+          "C152",
+          "C153",
+          "C154",
+          "C155",
+          "C156",
+          "C157",
+          "C158",
+          "C159",
+          "C160"
+        ],
+        "fit_counts": {
+          "fitted/default": 44,
+          "DNP": 6
+        }
+      },
+      "phase RC snubbers": {
+        "count": 6,
+        "references": [
+          "C413",
+          "C423",
+          "C433",
+          "R415",
+          "R425",
+          "R435"
+        ],
+        "fit_counts": {
+          "DNP": 6
+        }
+      },
+      "SWD programming footprint": {
+        "count": 1,
+        "references": [
+          "J1001"
+        ],
+        "fit_counts": {
+          "PCB feature": 1
+        }
+      },
+      "brake NTC connector": {
+        "count": 1,
+        "references": [
+          "J502"
+        ],
+        "fit_counts": {
+          "fitted/default": 1
+        }
+      },
+      "VM bleeder": {
+        "count": 1,
+        "references": [
+          "R101"
+        ],
+        "fit_counts": {
+          "fitted/default": 1
+        }
+      },
+      "reset switch": {
+        "count": 1,
+        "references": [
+          "SW301"
+        ],
+        "fit_counts": {
+          "fitted/default": 1
+        }
+      }
+    },
+    "parts": [
+      {
+        "reference": "C1",
+        "value": "10nF",
+        "position": [
+          9.56,
+          -2.29
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C10",
+        "value": "1uF",
+        "position": [
+          6.24,
+          12.24
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C101",
+        "value": "10uF",
+        "position": [
+          12.85,
+          -4.4
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C102",
+        "value": "10uF",
+        "position": [
+          8.55,
+          -3.5
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C103",
+        "value": "10uF",
+        "position": [
+          8.55,
+          5.85
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C104",
+        "value": "4.7uF 100V X7R",
+        "position": [
+          67.91,
+          1.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "VM input ceramic support",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C105",
+        "value": "100nF 100V X7R",
+        "position": [
+          71.57,
+          24.91
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "VM input ceramic support",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C106",
+        "value": "10nF 100V C0G",
+        "position": [
+          71.57,
+          26.88
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "VM input ceramic support",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C107",
+        "value": "RC DAMP C - TUNE",
+        "position": [
+          -57.525,
+          -43.625
+        ],
+        "side": "B",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "optional bus damping/TVS",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C108",
+        "value": "10nF",
+        "position": [
+          -10.775,
+          7.93
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/DC link / input/",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C11",
+        "value": "4.7uF",
+        "position": [
+          8.55,
+          17.5
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C110",
+        "value": "10uF",
+        "position": [
+          8.55,
+          13.35
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C111",
+        "value": "10uF",
+        "position": [
+          67.91,
+          9.99
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C112",
+        "value": "10uF",
+        "position": [
+          67.91,
+          14.24
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C113",
+        "value": "10uF",
+        "position": [
+          67.91,
+          18.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C114",
+        "value": "10uF",
+        "position": [
+          73.56,
+          -11.26
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C115",
+        "value": "10uF",
+        "position": [
+          73.56,
+          -7.01
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C116",
+        "value": "10uF",
+        "position": [
+          73.56,
+          -2.76
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C117",
+        "value": "10uF",
+        "position": [
+          73.56,
+          1.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C118",
+        "value": "10uF",
+        "position": [
+          73.56,
+          5.74
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C119",
+        "value": "10uF",
+        "position": [
+          73.56,
+          9.99
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C12",
+        "value": "220nF",
+        "position": [
+          -0.600001,
+          9.699997
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "C120",
+        "value": "10uF",
+        "position": [
+          73.56,
+          14.24
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C121",
+        "value": "10uF",
+        "position": [
+          73.56,
+          18.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C122",
+        "value": "10uF",
+        "position": [
+          79.21,
+          -11.26
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C123",
+        "value": "10uF",
+        "position": [
+          79.21,
+          -7.01
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C124",
+        "value": "10uF",
+        "position": [
+          79.21,
+          -2.76
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C125",
+        "value": "10uF DNP",
+        "position": [
+          79.21,
+          1.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C126",
+        "value": "10uF DNP",
+        "position": [
+          79.21,
+          5.74
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C127",
+        "value": "10uF",
+        "position": [
+          79.21,
+          9.99
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C128",
+        "value": "10uF",
+        "position": [
+          79.21,
+          14.24
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C129",
+        "value": "10uF",
+        "position": [
+          79.21,
+          18.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C130",
+        "value": "10uF",
+        "position": [
+          84.86,
+          -11.26
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C131",
+        "value": "10uF",
+        "position": [
+          84.86,
+          -7.01
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C132",
+        "value": "10uF",
+        "position": [
+          84.86,
+          -2.76
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C133",
+        "value": "10uF",
+        "position": [
+          84.86,
+          1.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C134",
+        "value": "10uF",
+        "position": [
+          84.86,
+          5.74
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C135",
+        "value": "10uF",
+        "position": [
+          84.86,
+          9.99
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C136",
+        "value": "10uF",
+        "position": [
+          84.86,
+          14.24
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C137",
+        "value": "10uF",
+        "position": [
+          84.86,
+          18.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C138",
+        "value": "10uF",
+        "position": [
+          90.51,
+          -11.26
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C139",
+        "value": "10uF",
+        "position": [
+          90.51,
+          -7.01
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C140",
+        "value": "10uF",
+        "position": [
+          90.51,
+          -2.76
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C141",
+        "value": "10uF",
+        "position": [
+          90.51,
+          1.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C142",
+        "value": "10uF DNP",
+        "position": [
+          90.51,
+          5.74
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C143",
+        "value": "10uF DNP",
+        "position": [
+          90.51,
+          9.99
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C144",
+        "value": "10uF",
+        "position": [
+          90.51,
+          14.24
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C145",
+        "value": "10uF",
+        "position": [
+          90.51,
+          18.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C146",
+        "value": "10uF",
+        "position": [
+          96.16,
+          -11.26
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C147",
+        "value": "10uF",
+        "position": [
+          96.16,
+          -7.01
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C148",
+        "value": "10uF",
+        "position": [
+          96.16,
+          -2.76
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C149",
+        "value": "10uF",
+        "position": [
+          96.16,
+          1.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C150",
+        "value": "10uF",
+        "position": [
+          96.16,
+          5.74
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C151",
+        "value": "10uF",
+        "position": [
+          96.16,
+          9.99
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C152",
+        "value": "10uF",
+        "position": [
+          96.16,
+          14.24
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C153",
+        "value": "10uF",
+        "position": [
+          96.16,
+          18.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C154",
+        "value": "10uF",
+        "position": [
+          101.81,
+          -11.26
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C155",
+        "value": "10uF",
+        "position": [
+          101.81,
+          -7.01
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C156",
+        "value": "10uF",
+        "position": [
+          101.81,
+          -2.76
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C157",
+        "value": "10uF",
+        "position": [
+          101.81,
+          1.49
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C158",
+        "value": "10uF",
+        "position": [
+          101.81,
+          5.74
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C159",
+        "value": "10uF DNP",
+        "position": [
+          101.81,
+          9.99
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C160",
+        "value": "10uF DNP",
+        "position": [
+          101.81,
+          14.24
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "DC-link ceramic bank",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "C2",
+        "value": "1uF",
+        "position": [
+          6.295,
+          -2.75
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C201",
+        "value": "2.2uF 100V X7R",
+        "position": [
+          2.570005,
+          -9.792499
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C202",
+        "value": "220nF 100V X7R",
+        "position": [
+          1.965006,
+          -12.427499
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C203",
+        "value": "100nF",
+        "position": [
+          0.995,
+          -20.5375
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C204",
+        "value": "1uF",
+        "position": [
+          2.905,
+          -19.7625
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C205",
+        "value": "22uF 25V X7R",
+        "position": [
+          -2.094994,
+          -11.8075
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C206",
+        "value": "22uF 25V X7R",
+        "position": [
+          -2.094995,
+          -8.552499
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C208",
+        "value": "1uF 10V",
+        "position": [
+          -16.249015,
+          -18.258055
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "C209",
+        "value": "100nF",
+        "position": [
+          -14.564013,
+          -16.468054
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C210",
+        "value": "22uF 10V X7R",
+        "position": [
+          -16.395001,
+          -14.48
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C211",
+        "value": "100nF",
+        "position": [
+          -12.054017,
+          -17.898056
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C212",
+        "value": "2.2uF 10V X7R",
+        "position": [
+          -20.65,
+          -14.92
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C213",
+        "value": "2.2uF 10V X7R",
+        "position": [
+          -14.82,
+          -14.41
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C214",
+        "value": "22uF 25V X7R",
+        "position": [
+          -2.097495,
+          -11.802499
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C215",
+        "value": "22uF 25V X7R",
+        "position": [
+          -2.100001,
+          -8.5525
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C218",
+        "value": "22uF 16V X7R",
+        "position": [
+          -7.384999,
+          -18.31
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C219",
+        "value": "22uF 16V X7R",
+        "position": [
+          -7.384999,
+          -15.06
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "C3",
+        "value": "4.7uF",
+        "position": [
+          8.55,
+          2.5
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C301",
+        "value": "100nF",
+        "position": [
+          -9.08,
+          3.72
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C302",
+        "value": "10uF 10V",
+        "position": [
+          -9.08,
+          1.28
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C303",
+        "value": "100nF",
+        "position": [
+          -3.605,
+          13.37
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C304",
+        "value": "1uF",
+        "position": [
+          -2.585,
+          14.09
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C305",
+        "value": "100nF",
+        "position": [
+          -4.345,
+          10.5
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C306",
+        "value": "1uF",
+        "position": [
+          -1.595,
+          12.58
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C307",
+        "value": "100nF",
+        "position": [
+          -9.08,
+          2.77
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C308",
+        "value": "10pF C0G",
+        "position": [
+          -11.46,
+          4.77
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C309",
+        "value": "10pF C0G",
+        "position": [
+          -13.51,
+          4.77
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C310",
+        "value": "100nF",
+        "position": [
+          -11.745,
+          7.93
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "C311",
+        "value": "220nF 100V",
+        "position": [
+          -6.6,
+          1.02
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "C312",
+        "value": "10uF 25V X7R",
+        "position": [
+          -10.92,
+          0.01
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "C313",
+        "value": "100nF 25V",
+        "position": [
+          -8.81,
+          1.09
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "C314",
+        "value": "10nF",
+        "position": [
+          -3.33,
+          3.55
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "C4",
+        "value": "220nF",
+        "position": [
+          -0.600001,
+          6.699999
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "C413",
+        "value": "TUNE DNP",
+        "position": [
+          50.2875,
+          -10.45
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "phase RC snubbers",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C423",
+        "value": "TUNE DNP",
+        "position": [
+          47.960311,
+          6.28633
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "phase RC snubbers",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C433",
+        "value": "TUNE DNP",
+        "position": [
+          48.4,
+          34.5
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "phase RC snubbers",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C5",
+        "value": "10nF",
+        "position": [
+          9.53,
+          5.19
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C501",
+        "value": "1uF 25V",
+        "position": [
+          11.17,
+          -10.49
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "C502",
+        "value": "100nF 50V",
+        "position": [
+          11.17,
+          -11.7275
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "C503",
+        "value": "100nF 50V",
+        "position": [
+          7.620001,
+          -12.892501
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "C504",
+        "value": "1nF C0G",
+        "position": [
+          6.225,
+          -11.53
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "C505",
+        "value": "100nF 16V",
+        "position": [
+          -8.085,
+          7.24
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "C6",
+        "value": "1uF",
+        "position": [
+          6.265,
+          4.75
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C601",
+        "value": "100nF",
+        "position": [
+          -4.360312,
+          -1.126331
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "C602",
+        "value": "1uF",
+        "position": [
+          -4.630312,
+          1.308669
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "C603",
+        "value": "100nF",
+        "position": [
+          -0.6,
+          20.6
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "C604",
+        "value": "100nF 50V",
+        "position": [
+          -15.75,
+          15.96
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "C605",
+        "value": "100nF",
+        "position": [
+          -11.6,
+          18.1
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "C606",
+        "value": "4.7uF 16V X7R",
+        "position": [
+          -11.339997,
+          -13.3525
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "C607",
+        "value": "100nF 16V X7R",
+        "position": [
+          -10.1,
+          -7.3
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "C7",
+        "value": "4.7uF",
+        "position": [
+          8.55,
+          10.0
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C701",
+        "value": "100nF",
+        "position": [
+          -7.1,
+          -2.4
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "C702",
+        "value": "100nF",
+        "position": [
+          -7.1,
+          -4.25
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "C711",
+        "value": "10nF",
+        "position": [
+          -8.085,
+          9.18
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "C712",
+        "value": "10nF",
+        "position": [
+          -8.085,
+          8.21
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "C713",
+        "value": "10nF",
+        "position": [
+          -8.085,
+          10.15
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "C8",
+        "value": "220nF",
+        "position": [
+          -0.600001,
+          8.199999
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "C801",
+        "value": "100nF",
+        "position": [
+          -19.857503,
+          13.922499
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "C802",
+        "value": "1uF",
+        "position": [
+          -19.857501,
+          15.1625
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "C9",
+        "value": "10nF",
+        "position": [
+          9.56,
+          12.93
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "C901",
+        "value": "4.7uF 10V",
+        "position": [
+          -17.14,
+          -3.639999
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "C902",
+        "value": "100nF",
+        "position": [
+          -18.84,
+          -5.380001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "C903",
+        "value": "4.7uF 10V",
+        "position": [
+          -21.460001,
+          -3.639999
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "C904",
+        "value": "100nF",
+        "position": [
+          -17.14,
+          -6.059998
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "D101",
+        "value": "VM TVS - SELECT AFTER TEST",
+        "position": [
+          -66.3575,
+          -35.0025
+        ],
+        "side": "B",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "optional bus damping/TVS",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "D201",
+        "value": "LTST-C19HE1WT",
+        "position": [
+          -11.964015,
+          -15.518057
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "D301",
+        "value": "LTST-C19HE1WT",
+        "position": [
+          -14.790001,
+          12.085001
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "D501",
+        "value": "BZT52C12 12V",
+        "position": [
+          10.71,
+          -13.39
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "D502",
+        "value": "BAT54CM",
+        "position": [
+          8.65,
+          -11.080001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "D505",
+        "value": "BAT54SW",
+        "position": [
+          -13.0,
+          2.5
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "D601",
+        "value": "TPD3E001DRYR",
+        "position": [
+          -15.75,
+          15.96
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "D801",
+        "value": "PESD2CANFD24V-T",
+        "position": [
+          -17.812501,
+          2.785
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "H1",
+        "value": "M2 PTH",
+        "position": [
+          -19.5,
+          -19.5
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/",
+        "sheet": "/"
+      },
+      {
+        "reference": "H2",
+        "value": "M2 PTH",
+        "position": [
+          19.5,
+          -19.5
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/",
+        "sheet": "/"
+      },
+      {
+        "reference": "H3",
+        "value": "M2 PTH",
+        "position": [
+          19.5,
+          19.5
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/",
+        "sheet": "/"
+      },
+      {
+        "reference": "H4",
+        "value": "M2 PTH",
+        "position": [
+          -19.5,
+          19.5
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/",
+        "sheet": "/"
+      },
+      {
+        "reference": "J1",
+        "value": "MR60PW-M",
+        "position": [
+          19.36,
+          2.71
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "J1001",
+        "value": "TC2030-NL SWD",
+        "position": [
+          64.795,
+          -34.8
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "PCB feature",
+        "category": "SWD programming footprint",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "J101",
+        "value": "AMASS XT60PW-M",
+        "position": [
+          19.23,
+          -13.84
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/DC link / input/",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "J201",
+        "value": "USB-C service",
+        "position": [
+          -18.33,
+          -7.47
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "J501",
+        "value": "BRAKE RESISTOR",
+        "position": [
+          10.32,
+          -20.7
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "J502",
+        "value": "BRAKE NTC",
+        "position": [
+          -89.38,
+          10.845
+        ],
+        "side": "B",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "brake NTC connector",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "J601",
+        "value": "EXT ENCODER / HALL",
+        "position": [
+          -11.065,
+          19.19
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "J801",
+        "value": "CAN 1",
+        "position": [
+          -19.18,
+          2.765
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "J802",
+        "value": "CAN 2",
+        "position": [
+          -19.2,
+          12.3
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "L201",
+        "value": "47uH / 1.9A",
+        "position": [
+          -4.215,
+          -17.9175
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "Q201",
+        "value": "CSD17483F4",
+        "position": [
+          -12.414014,
+          -16.118257
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "Q301",
+        "value": "CSD17483F4",
+        "position": [
+          -14.4,
+          8.1
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "Q501",
+        "value": "ISZ080N10NM6 100V",
+        "position": [
+          10.325,
+          -16.72
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "Q801",
+        "value": "CSD17483F4",
+        "position": [
+          -15.240001,
+          8.3552
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "Q802",
+        "value": "CSD87502Q2",
+        "position": [
+          -17.610002,
+          6.245
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "R1",
+        "value": "0.5m 1%",
+        "position": [
+          5.849998,
+          8.2
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "R101",
+        "value": "470k 0.25W",
+        "position": [
+          72.94,
+          22.27
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "VM bleeder",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "R102",
+        "value": "RC DAMP R - TUNE",
+        "position": [
+          -55.3575,
+          -29.0025
+        ],
+        "side": "B",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "optional bus damping/TVS",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "R103",
+        "value": "560k 0.1% 75V",
+        "position": [
+          0.34,
+          20.39
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/DC link / input/",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "R105",
+        "value": "28k 0.1%",
+        "position": [
+          -0.22,
+          19.14
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/DC link / input/",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "R106",
+        "value": "1k",
+        "position": [
+          -1.67,
+          19.86
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/DC link / input/",
+        "sheet": "/DC link / input/"
+      },
+      {
+        "reference": "R2",
+        "value": "4R7",
+        "position": [
+          15.947698,
+          4.339117
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "R201",
+        "value": "100k 1%",
+        "position": [
+          4.684999,
+          -20.7575
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R202",
+        "value": "11.1k 1%",
+        "position": [
+          4.175,
+          -19.307501
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R203",
+        "value": "5.1k",
+        "position": [
+          -13.580001,
+          -11.81
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "R204",
+        "value": "5.1k",
+        "position": [
+          -13.580001,
+          -3.12
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "R206",
+        "value": "15.0k 1%",
+        "position": [
+          -12.040005,
+          -20.35
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R207",
+        "value": "5.10k 1%",
+        "position": [
+          -12.040003,
+          -21.370001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R208",
+        "value": "10.0k 1%",
+        "position": [
+          -15.000002,
+          -20.35
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R209",
+        "value": "5.10k 1%",
+        "position": [
+          -15.0,
+          -21.370001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R210",
+        "value": "22.0k 1%",
+        "position": [
+          -13.020003,
+          -20.350001
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R211",
+        "value": "5.10k 1%",
+        "position": [
+          -13.020002,
+          -21.370001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R212",
+        "value": "22.0k 1%",
+        "position": [
+          -14.010006,
+          -20.349998
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R213",
+        "value": "5.10k 1%",
+        "position": [
+          -14.010003,
+          -21.369998
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R214",
+        "value": "80.6k 1%",
+        "position": [
+          -14.55,
+          -16.86
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R215",
+        "value": "10k",
+        "position": [
+          -12.479015,
+          -17.558056
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R216",
+        "value": "34.0k 0.1%",
+        "position": [
+          -4.957495,
+          -8.222499
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R217",
+        "value": "6.49k 0.1%",
+        "position": [
+          -6.417495,
+          -8.682499
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R218",
+        "value": "100k",
+        "position": [
+          4.692504,
+          -14.592499
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R219",
+        "value": "100k",
+        "position": [
+          4.182505,
+          -16.042499
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R220",
+        "value": "10k",
+        "position": [
+          -13.564014,
+          -15.048057
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R221",
+        "value": "33k",
+        "position": [
+          -11.884016,
+          -14.788057
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "R3",
+        "value": "0.5m 1%",
+        "position": [
+          5.849998,
+          0.7
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "R301",
+        "value": "0R",
+        "position": [
+          -3.125,
+          15.35
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "R302",
+        "value": "0R",
+        "position": [
+          -3.595,
+          12.38
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "R303",
+        "value": "2k2",
+        "position": [
+          -12.75,
+          11.05
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "R304",
+        "value": "15k",
+        "position": [
+          -13.25,
+          9.1
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "R305",
+        "value": "10k",
+        "position": [
+          -1.2,
+          18.2
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R306",
+        "value": "10k",
+        "position": [
+          -0.6,
+          19.4
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R307",
+        "value": "10k",
+        "position": [
+          -1.2,
+          16.9
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R308",
+        "value": "2.2k",
+        "position": [
+          -2.2,
+          -2.95
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "R309",
+        "value": "10k",
+        "position": [
+          4.9,
+          -2.4
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "R310",
+        "value": "100k",
+        "position": [
+          -2.38,
+          -0.36
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "R311",
+        "value": "10k",
+        "position": [
+          -1.86,
+          1.08
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "R312",
+        "value": "1k",
+        "position": [
+          -2.84,
+          1.08
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Gate driver / VCC/",
+        "sheet": "/Gate driver / VCC/"
+      },
+      {
+        "reference": "R313",
+        "value": "22R",
+        "position": [
+          -7.2,
+          3.3
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "R314",
+        "value": "22R",
+        "position": [
+          -6.15,
+          3.15
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "R315",
+        "value": "10k",
+        "position": [
+          -14.910002,
+          14.015
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "R4",
+        "value": "4R7",
+        "position": [
+          15.9477,
+          11.839116
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "R410",
+        "value": "56k 0.1%",
+        "position": [
+          -11.81,
+          9.030001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R415",
+        "value": "TUNE DNP",
+        "position": [
+          55.0375,
+          -10.45
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "phase RC snubbers",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "R417",
+        "value": "1k 0.1%",
+        "position": [
+          -11.285,
+          10.48
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R418",
+        "value": "1k 0.1%",
+        "position": [
+          -11.295,
+          11.57
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R419",
+        "value": "28k 0.1%",
+        "position": [
+          -10.785,
+          11.06
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R420",
+        "value": "56k 0.1%",
+        "position": [
+          -9.525,
+          12.4
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R425",
+        "value": "TUNE DNP",
+        "position": [
+          52.710311,
+          6.03633
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "phase RC snubbers",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "R427",
+        "value": "1k 0.1%",
+        "position": [
+          -7.565,
+          12.4
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R428",
+        "value": "1k 0.1%",
+        "position": [
+          -6.595,
+          13.39
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R429",
+        "value": "28k 0.1%",
+        "position": [
+          -7.095,
+          12.88
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R430",
+        "value": "56k 0.1%",
+        "position": [
+          -5.565,
+          14.29
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R435",
+        "value": "TUNE DNP",
+        "position": [
+          53.15,
+          34.5
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "DNP",
+        "category": "phase RC snubbers",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "R437",
+        "value": "1k 0.1%",
+        "position": [
+          -5.565,
+          12.38
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R438",
+        "value": "1k 0.1%",
+        "position": [
+          -4.585,
+          12.38
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R439",
+        "value": "28k 0.1%",
+        "position": [
+          -5.095,
+          12.88
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R441",
+        "value": "56k 0.1%",
+        "position": [
+          -10.82,
+          9.03
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R442",
+        "value": "56k 0.1%",
+        "position": [
+          -8.545,
+          12.4
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R443",
+        "value": "56k 0.1%",
+        "position": [
+          -4.585,
+          14.29
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R5",
+        "value": "0.5m 1%",
+        "position": [
+          5.849998,
+          15.7
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "R501",
+        "value": "10k",
+        "position": [
+          8.22,
+          -8.88
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R502",
+        "value": "33R",
+        "position": [
+          8.22,
+          -9.87
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R503",
+        "value": "4.7R",
+        "position": [
+          12.71,
+          -14.890001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R504",
+        "value": "10k",
+        "position": [
+          12.91,
+          -12.99
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R505",
+        "value": "10k",
+        "position": [
+          10.13,
+          -10.3
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R506",
+        "value": "470k 1% 75V",
+        "position": [
+          4.88,
+          -9.11
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R509",
+        "value": "13.3k 1%",
+        "position": [
+          6.220001,
+          -12.482501
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R510",
+        "value": "1M 1%",
+        "position": [
+          6.219999,
+          -10.360001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R511",
+        "value": "10k 1%",
+        "position": [
+          -13.25,
+          6.75
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R512",
+        "value": "4.7k 1%",
+        "position": [
+          -10.75,
+          6.75
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "R6",
+        "value": "4R7",
+        "position": [
+          15.9477,
+          19.31892
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "R604",
+        "value": "10k",
+        "position": [
+          -9.06,
+          4.7
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R605",
+        "value": "100R",
+        "position": [
+          -15.61,
+          20.83
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R606",
+        "value": "100R",
+        "position": [
+          -15.61,
+          18.87
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R607",
+        "value": "100R",
+        "position": [
+          -15.61,
+          17.88
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R611",
+        "value": "33R",
+        "position": [
+          4.9,
+          -0.65
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "R615",
+        "value": "100k",
+        "position": [
+          -15.61,
+          21.82
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R616",
+        "value": "100k",
+        "position": [
+          -15.61,
+          19.85
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R617",
+        "value": "100k",
+        "position": [
+          -14.16,
+          17.37
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "R618",
+        "value": "49.9k 1%",
+        "position": [
+          -12.5,
+          -7.3
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "R",
+        "sheet": ""
+      },
+      {
+        "reference": "R701",
+        "value": "4.7k 1%",
+        "position": [
+          -13.0,
+          9.5
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R702",
+        "value": "4.7k 1%",
+        "position": [
+          -13.25,
+          7.75
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R703",
+        "value": "4.7k 1%",
+        "position": [
+          -13.25,
+          11.0
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R711",
+        "value": "1k",
+        "position": [
+          -9.5,
+          10.25
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R712",
+        "value": "1k",
+        "position": [
+          -9.75,
+          8.25
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R713",
+        "value": "1k",
+        "position": [
+          -6.5,
+          10.0
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "R715",
+        "value": "2.2k",
+        "position": [
+          -2.2,
+          -4.25
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "R801",
+        "value": "10k",
+        "position": [
+          -17.580002,
+          10.185
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "R802",
+        "value": "120R 1%",
+        "position": [
+          -17.365001,
+          8.275
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "R803",
+        "value": "4.7k",
+        "position": [
+          -14.11,
+          9.215
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "R804",
+        "value": "100k",
+        "position": [
+          -15.570002,
+          9.675
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "R805",
+        "value": "10k",
+        "position": [
+          -17.579999,
+          12.094999
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "R806",
+        "value": "10k",
+        "position": [
+          -15.180003,
+          7.034999
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "R901",
+        "value": "1k",
+        "position": [
+          -18.86,
+          -4.4
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "R902",
+        "value": "100R",
+        "position": [
+          -17.18875,
+          -10.95
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "R903",
+        "value": "100R",
+        "position": [
+          -2.02,
+          4.95
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "R904",
+        "value": "22.1k 1%",
+        "position": [
+          -20.77,
+          -11.82
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "R905",
+        "value": "47.5k 1%",
+        "position": [
+          -21.740001,
+          -11.410001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "SW301",
+        "value": "RESET",
+        "position": [
+          57.48,
+          -36.08
+        ],
+        "side": "F",
+        "origin_on_board": false,
+        "fit_status": "fitted/default",
+        "category": "reset switch",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "TH701",
+        "value": "10k NTC B3380",
+        "position": [
+          15.85,
+          1.2
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "TH702",
+        "value": "10k NTC B3380",
+        "position": [
+          15.85,
+          8.7
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "TH703",
+        "value": "10k NTC B3380",
+        "position": [
+          15.85,
+          16.2
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Current / temperature/",
+        "sheet": "/Current / temperature/"
+      },
+      {
+        "reference": "U1",
+        "value": "CSD88599Q5DC",
+        "position": [
+          12.849999,
+          1.2
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "U2",
+        "value": "CSD88599Q5DC",
+        "position": [
+          12.849999,
+          8.7
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "U201",
+        "value": "LMR36510FADDAR",
+        "position": [
+          2.270005,
+          -17.6625
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "U202",
+        "value": "USBLC6-2SC6",
+        "position": [
+          -14.76,
+          -7.22
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "U203",
+        "value": "TPS2121RUXR",
+        "position": [
+          -14.019015,
+          -18.688056
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "U204",
+        "value": "TLV75533PDYDR",
+        "position": [
+          -17.75,
+          -14.810001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "U205",
+        "value": "MPM3620AGQV-Z",
+        "position": [
+          -7.617495,
+          -11.312499
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/5 V / 3.3 V power/",
+        "sheet": "/5 V / 3.3 V power/"
+      },
+      {
+        "reference": "U3",
+        "value": "CSD88599Q5DC",
+        "position": [
+          12.849999,
+          16.2
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Three-phase bridge/",
+        "sheet": "/Three-phase bridge/"
+      },
+      {
+        "reference": "U4",
+        "value": "STSPIN32G4",
+        "position": [
+          -5.1,
+          7.2
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      },
+      {
+        "reference": "U501",
+        "value": "UCC27517ADBVR",
+        "position": [
+          10.69,
+          -12.8675
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "U502",
+        "value": "TLV3012BIDCKR",
+        "position": [
+          6.69,
+          -12.480001
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Brake chopper/",
+        "sheet": "/Brake chopper/"
+      },
+      {
+        "reference": "U601",
+        "value": "AS5047P-ATSM",
+        "position": [
+          0.0,
+          0.0
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "U602",
+        "value": "TMUX1574PW",
+        "position": [
+          -6.1675,
+          18.85
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "U603",
+        "value": "74LVC3G17",
+        "position": [
+          -12.35,
+          20.119999
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "U604",
+        "value": "TPS2553DBVR",
+        "position": [
+          -11.33,
+          -10.5225
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/External feedback/",
+        "sheet": "/External feedback/"
+      },
+      {
+        "reference": "U701",
+        "value": "BMI323",
+        "position": [
+          -5.0,
+          -3.6
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/Encoder / IMU/",
+        "sheet": "/Encoder / IMU/"
+      },
+      {
+        "reference": "U801",
+        "value": "TCAN3413DRBR",
+        "position": [
+          -19.847502,
+          11.2825
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/CAN interface/",
+        "sheet": "/CAN interface/"
+      },
+      {
+        "reference": "U901",
+        "value": "CP2102N-A02-GQFN20",
+        "position": [
+          -19.97,
+          -8.15
+        ],
+        "side": "B",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/USB service/",
+        "sheet": "/USB service/"
+      },
+      {
+        "reference": "Y301",
+        "value": "24MHz 7pF",
+        "position": [
+          -12.41,
+          4.77
+        ],
+        "side": "F",
+        "origin_on_board": true,
+        "fit_status": "fitted/default",
+        "category": "/MCU / clock / SWD/",
+        "sheet": "/MCU / clock / SWD/"
+      }
+    ]
+  }
+}

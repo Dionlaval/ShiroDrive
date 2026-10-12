@@ -1,0 +1,35 @@
+{
+  "removed_group": [
+    {
+      "group_id": "signal_return_87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "EXT_FEEDBACK_SELECT",
+      "signal_via_uuid": "87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+      "signal_position_mm": [
+        -1.674999,
+        19.4
+      ],
+      "end_mm": [
+        -1.85,
+        20.35
+      ],
+      "distance_to_signal_mm": 0.965984,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "37c21766-29f7-43d1-8123-254033747452"
+      ],
+      "new_items": [
+        "37c21766-29f7-43d1-8123-254033747452"
+      ],
+      "added_via_uuid": "37c21766-29f7-43d1-8123-254033747452",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    }
+  ],
+  "reason": "This GND via cut the L4 3V3 feed to C603.1 after zone refill; remove the entire return group to preserve all49 supply-pad connections."
+}

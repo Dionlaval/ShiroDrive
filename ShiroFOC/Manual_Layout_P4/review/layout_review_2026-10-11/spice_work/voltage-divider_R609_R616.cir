@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R609/R616
+* Expected Vout = 3.3 * 0.955110 = 3.1519 V
+* Model: ideal passives (exact, unloaded)
+
+VIN EXT_VCC 0 DC 3.3
+R609 EXT_VCC __unnamed_74 4.7k
+R616 __unnamed_74 0 100k
+
+.op 
+
+.end

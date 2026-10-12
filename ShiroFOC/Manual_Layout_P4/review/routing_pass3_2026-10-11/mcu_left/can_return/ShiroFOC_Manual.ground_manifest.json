@@ -1,0 +1,104 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/can_final/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "13b175c3da2bb074348ae93911c3917aa23109e8b302f0742759a1a2badc2a6d",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/can_return/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "signal_return_da79680e-5c76-4364-b5a4-15c432286956",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "CAN_TERM_DISABLE",
+      "signal_via_uuid": "da79680e-5c76-4364-b5a4-15c432286956",
+      "signal_position_mm": [
+        5.075,
+        3.075
+      ],
+      "end_mm": [
+        5.65,
+        2.5
+      ],
+      "distance_to_signal_mm": 0.813173,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "cd5bdd3c-761e-44fd-b9f1-5c4c5ad03aaf"
+      ],
+      "new_items": [
+        "cd5bdd3c-761e-44fd-b9f1-5c4c5ad03aaf"
+      ],
+      "added_via_uuid": "cd5bdd3c-761e-44fd-b9f1-5c4c5ad03aaf",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    }
+  ],
+  "skipped": [],
+  "signal_returns": {
+    "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/can_final/ShiroFOC_Manual.kicad_pcb",
+    "baseline_sha256": "13b175c3da2bb074348ae93911c3917aa23109e8b302f0742759a1a2badc2a6d",
+    "new_signal_vias": 0,
+    "reused_signal_vias": 1,
+    "audited_signal_vias": 1,
+    "required_ground_planes": [
+      "GND L2",
+      "GND L5"
+    ],
+    "before": [
+      {
+        "signal_via_uuid": "da79680e-5c76-4364-b5a4-15c432286956",
+        "net": "CAN_TERM_DISABLE",
+        "position_mm": [
+          5.075,
+          3.075
+        ],
+        "nearest_ground_mm": 3.352052,
+        "transition": {
+          "new_via": false,
+          "forced": true,
+          "previous_signal_layers": [
+            "Signals L3",
+            "Power L4"
+          ],
+          "current_signal_layers": [
+            "Signals L3",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "signal_via_uuid": "da79680e-5c76-4364-b5a4-15c432286956",
+        "net": "CAN_TERM_DISABLE",
+        "position_mm": [
+          5.075,
+          3.075
+        ],
+        "nearest_ground_via_uuid": "cd5bdd3c-761e-44fd-b9f1-5c4c5ad03aaf",
+        "nearest_ground_mm": 0.813173,
+        "covered_within_1_5mm": true
+      }
+    ],
+    "uncovered": []
+  },
+  "added_counts": {
+    "PCB_VIA": 1
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 1.5,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "project": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P3",
+  "changed_files": [
+    "07_Brake_Chopper.kicad_sch",
+    "09_Feedback_Selection.kicad_sch",
+    "MCUclockSWD.kicad_sch",
+    "libs/ShiroFOCLib.kicad_sym"
+  ],
+  "buffer": "74AHCT1G125W5-7 / C842287",
+  "shared_limiter": "U604 TPS2553DBVR; R618 49.9k 1%; 520mA typical",
+  "fan_pinout": {
+    "1": "GND",
+    "2": "EXT_VCC protected 5V",
+    "3": "TACH unused",
+    "4": "FAN_PWM_5V",
+    "MP": "GND"
+  },
+  "checks": {
+    "native_netlist": "pass",
+    "unrelated_connectivity_preserved": true,
+    "unrelated_components_preserved": true,
+    "footprint_pin_mapping": {
+      "U503": {
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "pads": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "J502": {
+        "footprint": "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal",
+        "pads": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "MP",
+          "MP"
+        ]
+      }
+    },
+    "rendered_pages_inspected": [
+      4,
+      8,
+      10
+    ],
+    "erc_added": 0,
+    "erc_removed": 0,
+    "erc_existing_counts": {
+      "warning": 16,
+      "error": 1
+    },
+    "live_source_hash_guard": "pass",
+    "whitespace_cleanup_preserves_parsed_source": true
+  },
+  "limitations": [
+    "PCB layout not updated.",
+    "Firmware must keep PWM LOW until motor VM is present.",
+    "Prototype verification of fan startup current and PWM levels/edges remains required.",
+    "The existing ERC error is a #FLG11/#FLG12 power-output conflict."
+  ],
+  "source_hashes": {
+    "07_Brake_Chopper.kicad_sch": "f6f64b0a7d7c2c65f5f0457aa3ef2220004b0ed79c73f23478a22f2560252d17",
+    "09_Feedback_Selection.kicad_sch": "c1667e9d2801a66a072975112d7a3f9f6daae2e23873d9346c44177e64134dae",
+    "MCUclockSWD.kicad_sch": "283cf8ad6987433c050d69cdf157ef068498373f7ca8ce8ebfe115c1096ccd67",
+    "libs/ShiroFOCLib.kicad_sym": "8d021eea60bc45d75fe9dbd24caf761ab8e0c84654f348595d90a84fb7dc94ad"
+  }
+}

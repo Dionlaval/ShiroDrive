@@ -1,0 +1,82 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/ntc_r712_prepare/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "NTC_PHASE_B",
+      "source": "9555ff87-84f1-402b-b95d-6a3b7c0772d5",
+      "target": "7d8f11af-2c64-45c7-b8c3-94de47b6f59a",
+      "source_ref": "U4",
+      "source_pin": "11",
+      "target_ref": "R712",
+      "target_pin": "2",
+      "distance_mm": 9.554954923976616,
+      "length_mm": 10.660102807365224,
+      "vias": 1,
+      "path_points": 370,
+      "rejected": false,
+      "new_items": [
+        "c0a2da8f-ba1e-40bc-8d78-1c45ee192f0e",
+        "e8eb20ed-9e4a-4e1c-9505-5ca81bb65f27",
+        "9b765313-744a-4c37-bca2-4bc240dfda44",
+        "49a00251-1bb3-4afb-8eca-3218d79a4568",
+        "1dac08c2-b8a0-485e-a5be-5c281c85cd4f",
+        "b4ffd589-dac3-4355-8f5d-c1d133e5421a",
+        "e4899bdd-6417-448b-a8d9-2c2f4e1d743b"
+      ],
+      "elapsed_seconds": 2.535048007965088
+    },
+    {
+      "net": "NTC_PHASE_A",
+      "source": "a1b849be-b457-44c8-bb22-9f40b5577ccd",
+      "target": "09d8ad12-2147-49c3-9969-96ffed48601b",
+      "source_ref": "U4",
+      "source_pin": "12",
+      "target_ref": "R711",
+      "target_pin": "2",
+      "distance_mm": 11.217053365054523,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 2.544991970062256
+    },
+    {
+      "net": "IMU_INT1",
+      "source": "98663364-9795-4857-90d7-330ef6a2fa67",
+      "target": "5f23be41-8754-4dff-95c8-f8f894b63b5e",
+      "source_ref": "U701",
+      "source_pin": "4",
+      "target_ref": "U4",
+      "target_pin": "17",
+      "distance_mm": 16.796232200795064,
+      "length_mm": 9.357285348059996,
+      "vias": 1,
+      "path_points": 327,
+      "rejected": false,
+      "new_items": [
+        "5a08b3ae-fddc-49a1-a42c-89744f767257",
+        "9ada7055-9dee-4f00-951b-f8e4ba3bb984",
+        "3c88e865-832f-4d25-ad49-915e66219f68",
+        "e2c505cd-2590-49e8-a3f8-4ab9b9b70762",
+        "730e0d7c-700e-4675-9c59-806b031802d0",
+        "2c0f6392-a56b-4806-b197-4b85784533db",
+        "49f55e6d-dbcd-4802-adff-af10ffdae0e8",
+        "1af5db7d-6c44-476e-b79a-b1770b39bf13",
+        "e7ada236-8d7e-4ac2-9d84-974bda7b0443",
+        "e0636c8c-706c-4b4b-aaf4-e08af63b304a",
+        "2c4bc605-df47-44d6-9710-3bbfcf55069b"
+      ],
+      "elapsed_seconds": 2.5481088161468506
+    }
+  ]
+}

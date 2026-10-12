@@ -1,0 +1,66 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/brake/r313_open/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "BRAKE_PWM",
+      "source": "78ff7d13-0581-420f-877d-88407af32004",
+      "target": "bbf0e96b-4754-4656-a28b-b5491173ee49",
+      "source_ref": "U4",
+      "source_pin": "60",
+      "target_ref": "R501",
+      "target_pin": "1",
+      "distance_mm": 18.63812480469438,
+      "length_mm": 27.937362902255355,
+      "vias": 3,
+      "path_points": 1008,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 21.979153871536255
+    },
+    {
+      "net": "SPI3_SCK_MCU",
+      "source": "46b74c79-820f-4c2d-83ea-b77253a47321",
+      "target": "0174a6a5-e6c8-435f-95b3-661fd08b1142",
+      "source_ref": "U4",
+      "source_pin": "54",
+      "target_ref": "R313",
+      "target_pin": "1",
+      "distance_mm": 3.3810701854923098,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -4,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 21.057293176651
+    },
+    {
+      "net": "Net-(U601-CLK)",
+      "source": "62dc6c53-ed4a-4334-aa56-a2a3ed380b6c",
+      "target": "1aa3008f-dc25-4065-b918-76a8f83d0856",
+      "source_ref": "U601",
+      "source_pin": "2",
+      "target_ref": "R313",
+      "target_pin": "2",
+      "distance_mm": 10.650540185830952,
+      "length_mm": 0.6371320343559644,
+      "vias": 0,
+      "path_points": 24,
+      "rejected": false,
+      "new_items": [
+        "4514634a-99aa-4715-91df-857eec07cbd0",
+        "f2f89fcd-be16-4196-b2f8-15b7a8b6145b"
+      ],
+      "elapsed_seconds": 22.471829175949097
+    }
+  ]
+}

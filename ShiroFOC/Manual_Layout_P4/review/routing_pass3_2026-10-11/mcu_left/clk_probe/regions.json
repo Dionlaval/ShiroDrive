@@ -1,0 +1,41 @@
+[
+  {
+    "net": "Net-(U601-CLK)",
+    "components": [
+      {
+        "ref": "U601",
+        "pin": "2",
+        "cluster_ids": [
+          "62dc6c53-ed4a-4334-aa56-a2a3ed380b6c"
+        ],
+        "reaches": [
+          {
+            "layer": 2,
+            "area_mm2": 582.049375,
+            "via_sites": 390691,
+            "nearest_via": [
+              1.7750000000000021,
+              -1.4249999999999972,
+              1.082243041095668
+            ]
+          }
+        ]
+      },
+      {
+        "ref": "R313",
+        "pin": "2",
+        "cluster_ids": [
+          "1aa3008f-dc25-4065-b918-76a8f83d0856"
+        ],
+        "reaches": [
+          {
+            "layer": 2,
+            "area_mm2": 2.626875,
+            "via_sites": 0,
+            "nearest_via": []
+          }
+        ]
+      }
+    ]
+  }
+]

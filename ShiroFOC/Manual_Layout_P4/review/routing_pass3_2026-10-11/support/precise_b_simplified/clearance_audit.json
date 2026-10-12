@@ -1,0 +1,221 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/precise_b_simplified/ShiroFOC_Manual.kicad_pcb",
+  "new_trace_length_mm": 43.81901417665659,
+  "new_vias": [
+    {
+      "uuid": "e15b0d8a-1c79-4815-bf2a-9c30e4c5c7c0",
+      "net": "NTC_PHASE_B",
+      "position_mm": [
+        -15.7375,
+        1.425
+      ],
+      "kind": "PCB_VIA"
+    },
+    {
+      "uuid": "f3f8f12a-da90-4c20-a62b-2dff22ad2c63",
+      "net": "NTC_PHASE_B",
+      "position_mm": [
+        -12.7625,
+        0.9
+      ],
+      "kind": "PCB_VIA"
+    }
+  ],
+  "same_layer_copper_edge_closest": {
+    "gate/bootstrap": {
+      "distance_mm": 4.321204,
+      "layer": "Signals L3",
+      "ntcb": {
+        "uuid": "0ad179ce-ce0c-4ad9-9c96-932022a02713",
+        "net": "NTC_PHASE_B",
+        "position_mm": [
+          -3.962499,
+          16.75
+        ],
+        "kind": "PCB_TRACK"
+      },
+      "hazard": {
+        "uuid": "f75f070e-7b02-4075-92e5-d1a67629d866",
+        "net": "GLS3",
+        "position_mm": [
+          -0.610707,
+          13.530707
+        ],
+        "kind": "PCB_VIA"
+      }
+    },
+    "switch": {
+      "distance_mm": 9.348216,
+      "layer": "B.Cu",
+      "ntcb": {
+        "uuid": "71b5ceb4-44df-4163-a1f8-df6bed5d9490",
+        "net": "NTC_PHASE_B",
+        "position_mm": [
+          -12.1625,
+          -0.075001
+        ],
+        "kind": "PCB_TRACK"
+      },
+      "hazard": {
+        "uuid": "86c924ee-0001-4b29-8629-d029a5e3e063",
+        "net": "/5 V / 3.3 V power/U205_SW",
+        "position_mm": [
+          -9.717481,
+          -10.062499
+        ],
+        "kind": "PAD"
+      }
+    },
+    "VM": {
+      "distance_mm": 4.462501,
+      "layer": "F.Cu",
+      "ntcb": {
+        "uuid": "f3f8f12a-da90-4c20-a62b-2dff22ad2c63",
+        "net": "NTC_PHASE_B",
+        "position_mm": [
+          -12.7625,
+          0.9
+        ],
+        "kind": "PCB_VIA"
+      },
+      "hazard": {
+        "uuid": "5b8ca833-dd68-44a8-89e7-4321da8c5e61",
+        "net": "VM",
+        "position_mm": [
+          -7.55,
+          1.02
+        ],
+        "kind": "PAD"
+      }
+    },
+    "phase": {
+      "distance_mm": 21.343591,
+      "layer": "Signals L3",
+      "ntcb": {
+        "uuid": "0ad179ce-ce0c-4ad9-9c96-932022a02713",
+        "net": "NTC_PHASE_B",
+        "position_mm": [
+          -3.962499,
+          16.75
+        ],
+        "kind": "PCB_TRACK"
+      },
+      "hazard": {
+        "uuid": "a62a41b4-ccb0-4e99-b6aa-cabd31cd93e9",
+        "net": "PHASE_W",
+        "position_mm": [
+          19.36,
+          13.71
+        ],
+        "kind": "PAD"
+      }
+    }
+  },
+  "projected_any_layer_closest": {
+    "gate/bootstrap": {
+      "distance_mm": 2.997368,
+      "ntcb_layer": "Signals L3",
+      "hazard_layer": "F.Cu",
+      "ntcb": {
+        "uuid": "92f6816c-01ba-45cc-a439-b933f3486869",
+        "net": "NTC_PHASE_B",
+        "position_mm": [
+          -6.05,
+          14.575
+        ],
+        "kind": "PCB_TRACK"
+      },
+      "hazard": {
+        "uuid": "0f64cc50-0167-49d9-872b-d1be39aed8bf",
+        "net": "GLS1",
+        "position_mm": [
+          -2.849433,
+          11.645
+        ],
+        "kind": "PAD"
+      }
+    },
+    "switch": {
+      "distance_mm": 9.348216,
+      "ntcb_layer": "B.Cu",
+      "hazard_layer": "B.Cu",
+      "ntcb": {
+        "uuid": "71b5ceb4-44df-4163-a1f8-df6bed5d9490",
+        "net": "NTC_PHASE_B",
+        "position_mm": [
+          -12.1625,
+          -0.075001
+        ],
+        "kind": "PCB_TRACK"
+      },
+      "hazard": {
+        "uuid": "86c924ee-0001-4b29-8629-d029a5e3e063",
+        "net": "/5 V / 3.3 V power/U205_SW",
+        "position_mm": [
+          -9.717481,
+          -10.062499
+        ],
+        "kind": "PAD"
+      }
+    },
+    "VM": {
+      "distance_mm": 4.039612,
+      "ntcb_layer": "B.Cu",
+      "hazard_layer": "F.Cu",
+      "ntcb": {
+        "uuid": "6ab4be89-b5b7-403c-a18d-977d3ab74d00",
+        "net": "NTC_PHASE_B",
+        "position_mm": [
+          -12.1625,
+          0.375
+        ],
+        "kind": "PCB_TRACK"
+      },
+      "hazard": {
+        "uuid": "5b8ca833-dd68-44a8-89e7-4321da8c5e61",
+        "net": "VM",
+        "position_mm": [
+          -7.55,
+          1.02
+        ],
+        "kind": "PAD"
+      }
+    },
+    "phase": {
+      "distance_mm": 18.6863,
+      "ntcb_layer": "Signals L3",
+      "hazard_layer": "F.Cu",
+      "ntcb": {
+        "uuid": "0ad179ce-ce0c-4ad9-9c96-932022a02713",
+        "net": "NTC_PHASE_B",
+        "position_mm": [
+          -3.962499,
+          16.75
+        ],
+        "kind": "PCB_TRACK"
+      },
+      "hazard": {
+        "uuid": "8e345aba-d826-4b11-a5a4-efe745c2d505",
+        "net": "PHASE_W",
+        "position_mm": [
+          15.2,
+          15.7
+        ],
+        "kind": "PAD"
+      }
+    }
+  },
+  "ground_planes": [
+    {
+      "net": "GND",
+      "layer": "GND L2",
+      "regions": 1
+    },
+    {
+      "net": "GND",
+      "layer": "GND L5",
+      "regions": 1
+    }
+  ],
+  "note": "Projected overlap across layers is not a copper clearance violation; reference planes are assessed separately."
+}

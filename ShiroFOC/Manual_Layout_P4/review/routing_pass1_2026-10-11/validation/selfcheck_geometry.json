@@ -1,0 +1,12 @@
+{
+  "invalid_width_detected": true,
+  "outside_detected": true,
+  "same_net_via_pad_overlap_detected": true,
+  "whole_group_pruning_passed": true,
+  "failures": [
+    "New tracks have widths other than 6 or 10 mil",
+    "New copper extends outside the board outline",
+    "New vias overlap footprint copper pads (same net included)"
+  ],
+  "pruned_status": "PASS"
+}

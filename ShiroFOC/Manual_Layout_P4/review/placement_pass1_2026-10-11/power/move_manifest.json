@@ -1,0 +1,880 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "12419a7748ec6f1cc863f25df0eae1732436d9e87ba4d1f0c2648f9615ea1751",
+  "source_sha256_at_build": "12419a7748ec6f1cc863f25df0eae1732436d9e87ba4d1f0c2648f9615ea1751",
+  "moved_footprints": {
+    "C3": {
+      "from": {
+        "xy": [
+          38.760311,
+          4.59633
+        ],
+        "angle": 0.0,
+        "side": "F",
+        "uuid": "66ac9b17-4b15-444e-b6c8-18b9990ca8fe",
+        "reference_field": {
+          "xy": [
+            41.685311,
+            4.59633
+          ],
+          "angle": 270.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          8.55,
+          2.5
+        ],
+        "angle": 180.0,
+        "side": "B",
+        "uuid": "66ac9b17-4b15-444e-b6c8-18b9990ca8fe",
+        "reference_field": {
+          "xy": [
+            5.625,
+            2.5
+          ],
+          "angle": 90.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      }
+    },
+    "C7": {
+      "from": {
+        "xy": [
+          38.060311,
+          17.921331
+        ],
+        "angle": 0.0,
+        "side": "F",
+        "uuid": "14d5d012-301b-4aad-a48c-38331de2264a",
+        "reference_field": {
+          "xy": [
+            40.985311,
+            17.921331
+          ],
+          "angle": 270.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          8.55,
+          10.0
+        ],
+        "angle": 180.0,
+        "side": "B",
+        "uuid": "14d5d012-301b-4aad-a48c-38331de2264a",
+        "reference_field": {
+          "xy": [
+            5.625,
+            10.0
+          ],
+          "angle": 90.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      }
+    },
+    "C11": {
+      "from": {
+        "xy": [
+          49.574999,
+          31.074999
+        ],
+        "angle": 180.0,
+        "side": "F",
+        "uuid": "3d2d24cb-64d0-4dc4-a66e-e3340f4c74d7",
+        "reference_field": {
+          "xy": [
+            46.649999,
+            31.074999
+          ],
+          "angle": 90.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          8.55,
+          17.5
+        ],
+        "angle": 180.0,
+        "side": "B",
+        "uuid": "3d2d24cb-64d0-4dc4-a66e-e3340f4c74d7",
+        "reference_field": {
+          "xy": [
+            5.625,
+            17.5
+          ],
+          "angle": 270.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      }
+    },
+    "TH701": {
+      "from": {
+        "xy": [
+          42.985,
+          -9.965
+        ],
+        "angle": -90.0,
+        "side": "F",
+        "uuid": "73500f85-c2a8-4652-a71b-c59e78b29c07",
+        "reference_field": {
+          "xy": [
+            42.985,
+            -7.86
+          ],
+          "angle": 0.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          15.85,
+          1.2
+        ],
+        "angle": 90.0,
+        "side": "B",
+        "uuid": "73500f85-c2a8-4652-a71b-c59e78b29c07",
+        "reference_field": {
+          "xy": [
+            15.85,
+            -0.905
+          ],
+          "angle": 180.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      }
+    },
+    "TH702": {
+      "from": {
+        "xy": [
+          34.975,
+          3.225
+        ],
+        "angle": -90.0,
+        "side": "F",
+        "uuid": "38f07633-b20d-4958-b8a1-5c8a69cd729c",
+        "reference_field": {
+          "xy": [
+            34.975,
+            5.33
+          ],
+          "angle": 0.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          15.85,
+          8.7
+        ],
+        "angle": 90.0,
+        "side": "B",
+        "uuid": "38f07633-b20d-4958-b8a1-5c8a69cd729c",
+        "reference_field": {
+          "xy": [
+            15.85,
+            6.595
+          ],
+          "angle": 180.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      }
+    },
+    "TH703": {
+      "from": {
+        "xy": [
+          34.975,
+          17.225
+        ],
+        "angle": -90.0,
+        "side": "F",
+        "uuid": "d8f881b6-b870-4a95-b0c7-3504e6417f1d",
+        "reference_field": {
+          "xy": [
+            34.975,
+            19.33
+          ],
+          "angle": 0.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          15.85,
+          16.2
+        ],
+        "angle": 90.0,
+        "side": "B",
+        "uuid": "d8f881b6-b870-4a95-b0c7-3504e6417f1d",
+        "reference_field": {
+          "xy": [
+            15.85,
+            14.095
+          ],
+          "angle": 180.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      }
+    },
+    "C101": {
+      "from": {
+        "xy": [
+          67.91,
+          -11.26
+        ],
+        "angle": 0.0,
+        "side": "F",
+        "uuid": "06b6e53f-50a0-4e3e-a204-40651e2638f5",
+        "reference_field": {
+          "xy": [
+            67.91,
+            -13.56
+          ],
+          "angle": 0.0,
+          "size": [
+            1.0,
+            1.0
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          12.85,
+          -4.4
+        ],
+        "angle": 180.0,
+        "side": "F",
+        "uuid": "06b6e53f-50a0-4e3e-a204-40651e2638f5",
+        "reference_field": {
+          "xy": [
+            9.8,
+            -4.4
+          ],
+          "angle": 90.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      }
+    },
+    "C102": {
+      "from": {
+        "xy": [
+          67.91,
+          -7.01
+        ],
+        "angle": 0.0,
+        "side": "F",
+        "uuid": "270b7fb1-7a46-473a-a529-36bb74aaf7a3",
+        "reference_field": {
+          "xy": [
+            67.91,
+            -9.31
+          ],
+          "angle": 0.0,
+          "size": [
+            1.0,
+            1.0
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          8.55,
+          -3.5
+        ],
+        "angle": 180.0,
+        "side": "B",
+        "uuid": "270b7fb1-7a46-473a-a529-36bb74aaf7a3",
+        "reference_field": {
+          "xy": [
+            8.55,
+            -5.8
+          ],
+          "angle": 0.0,
+          "size": [
+            1.0,
+            1.0
+          ],
+          "visible": true
+        }
+      }
+    },
+    "C103": {
+      "from": {
+        "xy": [
+          67.91,
+          -2.76
+        ],
+        "angle": 0.0,
+        "side": "F",
+        "uuid": "170a6eaa-ca6d-4142-88cc-da5216d59c6c",
+        "reference_field": {
+          "xy": [
+            67.91,
+            -5.06
+          ],
+          "angle": 0.0,
+          "size": [
+            1.0,
+            1.0
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          8.55,
+          5.85
+        ],
+        "angle": 180.0,
+        "side": "B",
+        "uuid": "170a6eaa-ca6d-4142-88cc-da5216d59c6c",
+        "reference_field": {
+          "xy": [
+            5.6,
+            5.85
+          ],
+          "angle": 90.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      }
+    },
+    "C110": {
+      "from": {
+        "xy": [
+          67.91,
+          5.74
+        ],
+        "angle": 0.0,
+        "side": "F",
+        "uuid": "dfc5c25e-abd2-45c3-9957-f4c64053e0d4",
+        "reference_field": {
+          "xy": [
+            67.91,
+            3.44
+          ],
+          "angle": 0.0,
+          "size": [
+            1.0,
+            1.0
+          ],
+          "visible": true
+        }
+      },
+      "to": {
+        "xy": [
+          8.55,
+          13.35
+        ],
+        "angle": 180.0,
+        "side": "B",
+        "uuid": "dfc5c25e-abd2-45c3-9957-f4c64053e0d4",
+        "reference_field": {
+          "xy": [
+            5.6,
+            13.35
+          ],
+          "angle": 90.0,
+          "size": [
+            0.8,
+            0.8
+          ],
+          "visible": true
+        }
+      }
+    }
+  },
+  "removed_copper": [
+    {
+      "uuid": "04a9d1e7-ed4f-4e41-bf21-bde3b9ecb4ad",
+      "net": "GHS1",
+      "start": [
+        1.574057,
+        5.349117
+      ],
+      "end": [
+        15.947698,
+        5.349117
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.254,
+      "description": "Track [GHS1] on B.Cu, length 14.3736 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 1.574057,
+        "y": 5.349117
+      }
+    },
+    {
+      "uuid": "5eb07150-383a-4bb1-aee8-1f007c82d6ad",
+      "net": "GHS2",
+      "start": [
+        9.3,
+        10.6
+      ],
+      "end": [
+        11.049116,
+        12.349116
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.254,
+      "description": "Track [GHS2] on B.Cu, length 2.4736 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 9.3,
+        "y": 10.6
+      }
+    },
+    {
+      "uuid": "b79c9292-8b1b-4727-abb7-66e4aadf40c1",
+      "net": "GHS2",
+      "start": [
+        2.79,
+        10.6
+      ],
+      "end": [
+        9.3,
+        10.6
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.254,
+      "description": "Track [GHS2] on B.Cu, length 6.5100 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 2.79,
+        "y": 10.6
+      }
+    },
+    {
+      "uuid": "0d48ea90-b9e6-48ee-8548-4355568c9f58",
+      "net": "GHS3",
+      "start": [
+        9.671362,
+        18.112
+      ],
+      "end": [
+        11.388282,
+        19.82892
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.254,
+      "description": "Track [GHS3] on B.Cu, length 2.4281 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 9.671362,
+        "y": 18.112
+      }
+    },
+    {
+      "uuid": "ce4d1d55-337a-4f68-aadb-62eedddbf97b",
+      "net": "GLS1",
+      "start": [
+        6.32,
+        3.7
+      ],
+      "end": [
+        6.32,
+        3.7
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "description": "Via [GLS1] on F.Cu - B.Cu",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 6.32,
+        "y": 3.7
+      }
+    },
+    {
+      "uuid": "66244f0c-6329-4ea2-9c3f-4a1148205e02",
+      "net": "GLS2",
+      "start": [
+        9.115,
+        11.231
+      ],
+      "end": [
+        9.115,
+        11.231
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "description": "Via [GLS2] on F.Cu - B.Cu",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 9.115,
+        "y": 11.231
+      }
+    },
+    {
+      "uuid": "5982758f-2e2f-41c5-b066-eb1f4b13b7d6",
+      "net": "GLS2",
+      "start": [
+        9.115,
+        11.231
+      ],
+      "end": [
+        1.779,
+        11.231
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.254,
+      "description": "Track [GLS2] on B.Cu, length 7.3360 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 9.115,
+        "y": 11.231
+      }
+    },
+    {
+      "uuid": "40807861-0da2-4e36-b9f3-86f1d9d6f86a",
+      "net": "GLS3",
+      "start": [
+        6.32,
+        18.69
+      ],
+      "end": [
+        6.32,
+        18.69
+      ],
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "description": "Via [GLS3] on F.Cu - B.Cu",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 6.32,
+        "y": 18.69
+      }
+    },
+    {
+      "uuid": "2e0ddf27-436d-40eb-aede-5a69bd4c0e2a",
+      "net": "HS_RETURN_U",
+      "start": [
+        6.579298,
+        4.326
+      ],
+      "end": [
+        15.316,
+        4.326
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "description": "Track [HS_RETURN_U] on B.Cu, length 8.7367 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 6.579298,
+        "y": 4.326
+      }
+    },
+    {
+      "uuid": "f6bff3bf-19e6-4b8c-9f6a-b6a59ff3473e",
+      "net": "HS_RETURN_U",
+      "start": [
+        1.284,
+        4.826
+      ],
+      "end": [
+        6.579298,
+        4.826
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "description": "Track [HS_RETURN_U] on B.Cu, length 5.2953 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 1.284,
+        "y": 4.826
+      }
+    },
+    {
+      "uuid": "79ff6112-8dba-40d7-a0ce-799d973a2e4a",
+      "net": "HS_RETURN_V",
+      "start": [
+        3.151588,
+        10.147
+      ],
+      "end": [
+        9.487,
+        10.147
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "description": "Track [HS_RETURN_V] on B.Cu, length 6.3354 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 3.151588,
+        "y": 10.147
+      }
+    },
+    {
+      "uuid": "e0c53f8a-1421-4a17-a48e-b4185d89c29f",
+      "net": "HS_RETURN_V",
+      "start": [
+        9.487,
+        10.147
+      ],
+      "end": [
+        11.085245,
+        11.745245
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "description": "Track [HS_RETURN_V] on B.Cu, length 2.2603 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 9.487,
+        "y": 10.147
+      }
+    },
+    {
+      "uuid": "074bce84-5f8c-4747-9c9b-9b00f0e478c8",
+      "net": "HS_RETURN_W",
+      "start": [
+        9.682947,
+        17.482947
+      ],
+      "end": [
+        11.439813,
+        19.239813
+      ],
+      "layer": "B.Cu",
+      "width_mm": 0.25,
+      "description": "Track [HS_RETURN_W] on B.Cu, length 2.4846 mm",
+      "reason": "Preliminary gate/return guide intersects newly placed local power-capacitor pad",
+      "position": {
+        "x": 9.682947,
+        "y": 17.482947
+      }
+    }
+  ],
+  "added_copper": [],
+  "unchanged_core": [
+    "U1",
+    "U2",
+    "U3",
+    "R3",
+    "R1",
+    "R5",
+    "R2",
+    "R4",
+    "R6",
+    "C1",
+    "C2",
+    "C5",
+    "C6",
+    "C9",
+    "C10",
+    "C4",
+    "C8",
+    "C12"
+  ],
+  "deferred": [
+    "R415",
+    "C413",
+    "R425",
+    "C423",
+    "R435",
+    "C433",
+    "C120",
+    "C130",
+    "C140",
+    "C150",
+    "C160"
+  ],
+  "filter_resistors_parent_owned": [
+    "R701",
+    "R702",
+    "R703",
+    "R711",
+    "R712",
+    "R713"
+  ],
+  "geometry_conflicts": [],
+  "capacitor_pad_geometry": {
+    "C3": [
+      {
+        "number": "1",
+        "xy": [
+          10.025,
+          2.5
+        ],
+        "net": "VM"
+      },
+      {
+        "number": "2",
+        "xy": [
+          7.075,
+          2.5
+        ],
+        "net": "GND"
+      }
+    ],
+    "C7": [
+      {
+        "number": "1",
+        "xy": [
+          10.025,
+          10.0
+        ],
+        "net": "VM"
+      },
+      {
+        "number": "2",
+        "xy": [
+          7.075,
+          10.0
+        ],
+        "net": "GND"
+      }
+    ],
+    "C11": [
+      {
+        "number": "1",
+        "xy": [
+          10.025,
+          17.5
+        ],
+        "net": "VM"
+      },
+      {
+        "number": "2",
+        "xy": [
+          7.075,
+          17.5
+        ],
+        "net": "GND"
+      }
+    ],
+    "C101": [
+      {
+        "number": "1",
+        "xy": [
+          14.325,
+          -4.4
+        ],
+        "net": "VM"
+      },
+      {
+        "number": "2",
+        "xy": [
+          11.375,
+          -4.4
+        ],
+        "net": "GND"
+      }
+    ],
+    "C102": [
+      {
+        "number": "1",
+        "xy": [
+          10.025,
+          -3.5
+        ],
+        "net": "VM"
+      },
+      {
+        "number": "2",
+        "xy": [
+          7.075,
+          -3.5
+        ],
+        "net": "GND"
+      }
+    ],
+    "C103": [
+      {
+        "number": "1",
+        "xy": [
+          10.025,
+          5.85
+        ],
+        "net": "VM"
+      },
+      {
+        "number": "2",
+        "xy": [
+          7.075,
+          5.85
+        ],
+        "net": "GND"
+      }
+    ],
+    "C110": [
+      {
+        "number": "1",
+        "xy": [
+          10.025,
+          13.35
+        ],
+        "net": "VM"
+      },
+      {
+        "number": "2",
+        "xy": [
+          7.075,
+          13.35
+        ],
+        "net": "GND"
+      }
+    ]
+  }
+}

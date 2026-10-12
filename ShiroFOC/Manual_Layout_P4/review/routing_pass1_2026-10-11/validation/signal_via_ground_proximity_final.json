@@ -1,0 +1,422 @@
+[
+  {
+    "uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+    "net": "I2C2_SCL",
+    "position_mm": [
+      -3.299999,
+      4.65
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 4.003,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "66d9fb2f-cdc1-4e57-a7e0-35450d46da35",
+    "net": "INPUT_MUX_ENABLE_N",
+    "position_mm": [
+      -2.099999,
+      21.35
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 3.084,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+    "net": "SPI3_MOSI_MCU",
+    "position_mm": [
+      -4.449999,
+      4.35
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 2.885,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+    "net": "Net-(U601-MOSI)",
+    "position_mm": [
+      -4.8,
+      3.65
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 2.752,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "1b16397d-a7db-46f8-a12e-5ea12b4663a1",
+    "net": "USB_UART_RX",
+    "position_mm": [
+      -10.899999,
+      2.55
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 2.58,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "95b5cd3f-f021-475d-b98d-b338ece1f527",
+    "net": "EXT_FEEDBACK_SELECT",
+    "position_mm": [
+      -1.699999,
+      19.4
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 2.305,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "553b183e-1da5-499f-a180-13c910091a5d",
+    "net": "3V3",
+    "position_mm": [
+      -1.099999,
+      -0.349999
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 2.108,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "b93268c2-6589-4d32-ada2-02cb3f04a629",
+    "net": "IMU_INT2",
+    "position_mm": [
+      -8.35,
+      10.95
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 2.012,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "129e0ff8-a950-499d-85d2-81a9bce699df",
+    "net": "Net-(U601-MOSI)",
+    "position_mm": [
+      -0.75,
+      2.65
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.992,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "63999344-2fb0-4119-a058-eb36d42fee7a",
+    "net": "SPI3_SCK_MCU",
+    "position_mm": [
+      -5.349999,
+      -0.199999
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.968,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "cc45d318-8def-4b11-b57d-774ac1bf1666",
+    "net": "NTC_BRAKE",
+    "position_mm": [
+      -8.649999,
+      6.05
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.84,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "1df38be0-0160-42d3-9d14-64dea830578b",
+    "net": "SPI3_MISO",
+    "position_mm": [
+      5.45,
+      -1.449999
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.521,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+    "net": "IMU_INT2",
+    "position_mm": [
+      -7.85,
+      6.1
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.412,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "d018fdd1-e66b-4145-948f-d8cee7bf752b",
+    "net": "CAN_STB",
+    "position_mm": [
+      -13.549999,
+      12.899999
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.4,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "914a5787-4b20-4843-9eea-10719a5b7040",
+    "net": "EXT_SENSOR_FAULT_N",
+    "position_mm": [
+      -10.1,
+      0.05
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.29,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "65a31c8b-e2ea-4f83-b52a-130344cf459b",
+    "net": "EXT_SENSOR_FAULT_N",
+    "position_mm": [
+      -11.95,
+      -8.45
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.226,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "689195ce-e4c4-4ac8-8708-a43be55d9d1e",
+    "net": "NTC_PHASE_C",
+    "position_mm": [
+      -13.5,
+      1.15
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.167,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "d94deb99-8201-444a-9f62-c1c60ce57008",
+    "net": "/Current / temperature/NTC_A_RAW",
+    "position_mm": [
+      16.375,
+      1.4
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.133,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "8c78eca4-49bd-4f4c-a40c-4996eda225b6",
+    "net": "Net-(U601-MISO)",
+    "position_mm": [
+      1.75,
+      -0.524999
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 1.096,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "92171863-ef33-4ed5-b513-32b8a29f67e3",
+    "net": "IMU_INT1",
+    "position_mm": [
+      -13.0,
+      12.3
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.971,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "d04e1ded-c943-4c81-aa4f-c115969ee95d",
+    "net": "IMU_INT1",
+    "position_mm": [
+      -12.299999,
+      4.8
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.953,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "d515e896-e1d1-481f-888c-e34dcafe5e24",
+    "net": "/Current / temperature/NTC_A_RAW",
+    "position_mm": [
+      -14.275,
+      -2.149999
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.825,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "81f1d055-4e1f-427e-bc62-088fbbffd1c2",
+    "net": "Net-(U601-MISO)",
+    "position_mm": [
+      6.0,
+      -0.899999
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.814,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "285ce6dd-1661-4be5-97a0-248a4d90858f",
+    "net": "INPUT_MUX_ENABLE_N",
+    "position_mm": [
+      -0.199999,
+      18.6
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.808,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "91b509c1-f368-462b-bc89-e771f43ab18b",
+    "net": "EXT_FEEDBACK_SELECT",
+    "position_mm": [
+      -5.0,
+      21.1
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.8,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "9d39e173-5374-4efe-a02d-0926674ce32e",
+    "net": "NTC_PHASE_A",
+    "position_mm": [
+      -12.6,
+      7.05
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.8,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "8869cc94-55e5-4ef3-9d62-b11cde838e3c",
+    "net": "Net-(U203-CP2)",
+    "position_mm": [
+      -15.6,
+      -20.85
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.8,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "30ae4289-88a9-436f-9643-8895f4493832",
+    "net": "Net-(U203-PR1)",
+    "position_mm": [
+      -11.399999,
+      -20.85
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.8,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "01bc5121-3145-4e97-9a1c-7ec2303817ea",
+    "net": "USB_UART_RX",
+    "position_mm": [
+      -12.95,
+      -6.05
+    ],
+    "track_layers": [
+      "B.Cu",
+      "Signals L3"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.8,
+    "nearest_ground_interconnect_type": "via"
+  },
+  {
+    "uuid": "1c624b02-9281-41e9-900b-d1bc5ef3e932",
+    "net": "I2C2_SCL",
+    "position_mm": [
+      -6.85,
+      10.25
+    ],
+    "track_layers": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "nearest_ground_through_interconnect_mm": 0.757,
+    "nearest_ground_interconnect_type": "via"
+  }
+]

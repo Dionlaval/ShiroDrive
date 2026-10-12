@@ -1,0 +1,214 @@
+{
+  "removed_count": 4,
+  "added_count": 0,
+  "changed_count": 3,
+  "removed": [
+    {
+      "uuid": "ba88e9fc-136c-4cc3-867e-b91c0becca15",
+      "net": "GLS3",
+      "layer": "F.Cu",
+      "type": "PCB_TRACK",
+      "start": [
+        46.564688,
+        49.58867
+      ],
+      "end": [
+        45.564687,
+        49.588669
+      ],
+      "width": 0.25
+    },
+    {
+      "uuid": "9cba2091-eefc-49c7-9a63-b22fc706a4be",
+      "net": "GND",
+      "layer": "F.Cu",
+      "type": "PCB_TRACK",
+      "start": [
+        -4.205,
+        51.775
+      ],
+      "end": [
+        -4.205,
+        52.6
+      ],
+      "width": 0.1524
+    },
+    {
+      "uuid": "565bc481-5ccb-47b8-94c6-3e98ca3ef01a",
+      "net": "GLS3",
+      "layer": "F.Cu",
+      "type": "PCB_VIA",
+      "start": [
+        45.564687,
+        49.588669
+      ],
+      "end": [
+        45.564687,
+        49.588669
+      ],
+      "width": 0.5,
+      "drill": 0.3
+    },
+    {
+      "uuid": "4c4ab658-d3ce-46f0-8f67-fe207b0c29a8",
+      "net": "GLS3",
+      "layer": "B.Cu",
+      "type": "PCB_TRACK",
+      "start": [
+        40.214881,
+        49.588669
+      ],
+      "end": [
+        45.564687,
+        49.588669
+      ],
+      "width": 0.25
+    }
+  ],
+  "added": [],
+  "changed": [
+    {
+      "before": {
+        "uuid": "18ff63e2-7daf-4616-934d-d753322ca6e7",
+        "net": "HS_RETURN_W",
+        "layer": "B.Cu",
+        "type": "PCB_TRACK",
+        "start": [
+          1.487735,
+          16.763629
+        ],
+        "end": [
+          2.207053,
+          17.482947
+        ],
+        "width": 0.25
+      },
+      "after": {
+        "uuid": "18ff63e2-7daf-4616-934d-d753322ca6e7",
+        "net": "GND",
+        "layer": "B.Cu",
+        "type": "PCB_TRACK",
+        "start": [
+          1.487735,
+          16.763629
+        ],
+        "end": [
+          2.207053,
+          17.482947
+        ],
+        "width": 0.25
+      }
+    },
+    {
+      "before": {
+        "uuid": "3cdf0cd6-13a2-4d3f-96e9-2a5bf21c73de",
+        "net": "GLS3",
+        "layer": "B.Cu",
+        "type": "PCB_TRACK",
+        "start": [
+          0.579735,
+          17.139735
+        ],
+        "end": [
+          2.13,
+          18.69
+        ],
+        "width": 0.254
+      },
+      "after": {
+        "uuid": "3cdf0cd6-13a2-4d3f-96e9-2a5bf21c73de",
+        "net": "VBUS_MUX_IN",
+        "layer": "B.Cu",
+        "type": "PCB_TRACK",
+        "start": [
+          0.579735,
+          17.139735
+        ],
+        "end": [
+          2.13,
+          18.69
+        ],
+        "width": 0.254
+      }
+    },
+    {
+      "before": {
+        "uuid": "a1fd5174-15d9-4ab9-b27c-6934df88d367",
+        "net": "GHS3",
+        "layer": "B.Cu",
+        "type": "PCB_TRACK",
+        "start": [
+          1.034735,
+          16.951267
+        ],
+        "end": [
+          2.195468,
+          18.112
+        ],
+        "width": 0.254
+      },
+      "after": {
+        "uuid": "a1fd5174-15d9-4ab9-b27c-6934df88d367",
+        "net": "GND",
+        "layer": "B.Cu",
+        "type": "PCB_TRACK",
+        "start": [
+          1.034735,
+          16.951267
+        ],
+        "end": [
+          2.195468,
+          18.112
+        ],
+        "width": 0.254
+      }
+    }
+  ],
+  "vbus_tracks": [
+    {
+      "uuid": "3cdf0cd6-13a2-4d3f-96e9-2a5bf21c73de",
+      "net": "VBUS_MUX_IN",
+      "layer": "B.Cu",
+      "type": "PCB_TRACK",
+      "start": [
+        0.579735,
+        17.139735
+      ],
+      "end": [
+        2.13,
+        18.69
+      ],
+      "width": 0.254
+    },
+    {
+      "uuid": "6205f489-ba5e-4f90-a91d-907772520fd9",
+      "net": "VBUS_SENSE",
+      "layer": "F.Cu",
+      "type": "PCB_TRACK",
+      "start": [
+        -10.775,
+        7.45
+      ],
+      "end": [
+        -9.545063,
+        7.45
+      ],
+      "width": 0.1524
+    },
+    {
+      "uuid": "a71ca3cc-bbe1-4273-bab7-df5fcf14a478",
+      "net": "VBUS_SENSE",
+      "layer": "F.Cu",
+      "type": "PCB_TRACK",
+      "start": [
+        -9.545063,
+        7.45
+      ],
+      "end": [
+        -9.545,
+        7.450063
+      ],
+      "width": 0.1524
+    }
+  ]
+}

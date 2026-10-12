@@ -575,6 +575,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "MOUNT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -707,6 +725,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "MOUNT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -3111,6 +3147,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 111.76) (xy 266.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de45ccc-3bb3-4e09-b93f-cd9eb02870be")
+	)
+	(wire
+		(pts
 			(xy 248.92 102.87) (xy 252.73 102.87)
 		)
 		(stroke
@@ -3348,6 +3394,16 @@
 			(type default)
 		)
 		(uuid "84f244cf-fa56-5413-b4d7-e439b674f833")
+	)
+	(wire
+		(pts
+			(xy 266.7 167.64) (xy 266.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a635b8f-8faa-463d-96c9-1619bcb258cd")
 	)
 	(wire
 		(pts
@@ -4412,7 +4468,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "2e731657-e8a2-5149-8da4-3e4901da0407")
-		(property "Reference" "#PWRTERM10V"
+		(property "Reference" "#PWRTERM10V0101"
 			(at 134.62 210.82 0)
 			(effects
 				(font
@@ -4459,7 +4515,7 @@
 		(instances
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
-					(reference "#PWRTERM10V")
+					(reference "#PWRTERM10V0101")
 					(unit 1)
 				)
 			)
@@ -4790,6 +4846,9 @@
 		)
 		(pin "1"
 			(uuid "66c3fd79-8dfe-4a70-9ec7-3df1ab2a6683")
+		)
+		(pin "MP"
+			(uuid "94996a8c-be72-4fec-9bc7-b2253c7664a7")
 		)
 		(instances
 			(project "ShiroFOC_Manual"
@@ -5676,7 +5735,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "b0fa4adb-aafc-528e-a731-b68c219f2348")
-		(property "Reference" "#PWRTERMGND"
+		(property "Reference" "#PWRTERMGND0101"
 			(at 134.62 264.16 0)
 			(effects
 				(font
@@ -5723,7 +5782,7 @@
 		(instances
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
-					(reference "#PWRTERMGND")
+					(reference "#PWRTERMGND0101")
 					(unit 1)
 				)
 			)
@@ -5848,6 +5907,68 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
 					(reference "#PWR08CAN0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShiroFOCLib:PWR_GND")
+		(at 266.7 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "c6184db9-f5f2-4c48-a3bc-e468b0ed7eba")
+		(property "Reference" "#PWR_MOUNT_J802"
+			(at 266.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 175.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f475f049-aab1-4f20-9b51-e40ef7304d9f")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWR_MOUNT_J802")
 					(unit 1)
 				)
 			)
@@ -6055,10 +6176,75 @@
 		(pin "4"
 			(uuid "8c16706b-2e5e-4242-9d9d-c0f645731424")
 		)
+		(pin "MP"
+			(uuid "03fc0ef2-4acc-4313-b5ba-92c845f24b98")
+		)
 		(instances
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
 					(reference "J802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShiroFOCLib:PWR_GND")
+		(at 266.7 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "d21474ac-4795-4731-8dd2-a0da46a04096")
+		(property "Reference" "#PWR_MOUNT_J801"
+			(at 266.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8110f81f-21b9-455f-b79f-9453c0444f53")
+		)
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/cdd56f0e-8dc5-44d0-8480-47c65cc22907"
+					(reference "#PWR_MOUNT_J801")
 					(unit 1)
 				)
 			)

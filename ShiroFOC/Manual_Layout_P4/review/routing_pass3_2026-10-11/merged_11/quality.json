@@ -1,0 +1,8650 @@
+{
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_11/ShiroFOC_Manual.kicad_pcb",
+  "sha256": "797c2d7edabe48968bc5a42dfd3103c37068ecb19214ee9dbfd8785607686d0f",
+  "method": "Native filled GND polygon centerline containment sampled every <= 0.05 mm; adjacent layer only. Includes local antipad gaps. Geometric review only; no rise-time, field-solver, or impedance claim.",
+  "stackup": [
+    "F.Cu",
+    "GND L2",
+    "Signals L3",
+    "Power L4",
+    "GND L5",
+    "B.Cu"
+  ],
+  "ground_plane_regions": {
+    "GND L2": [
+      1
+    ],
+    "GND L5": [
+      1
+    ]
+  },
+  "connections": [],
+  "new_routes_by_net": {
+    "/CAN interface/CANL_BUS": {
+      "length_mm": 0.77644,
+      "unsupported_length_mm": 0.33681,
+      "max_single_segment_gap_mm": 0.195392,
+      "layers": [
+        "B.Cu"
+      ],
+      "coverage_percent": 56.62
+    },
+    "Net-(D301-RK)": {
+      "length_mm": 2.76561,
+      "unsupported_length_mm": 0.60784,
+      "max_single_segment_gap_mm": 0.3,
+      "layers": [
+        "F.Cu"
+      ],
+      "coverage_percent": 78.02
+    },
+    "/Current / temperature/NTC_B_RAW": {
+      "length_mm": 23.40093,
+      "unsupported_length_mm": 2.60161,
+      "max_single_segment_gap_mm": 0.549048,
+      "layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "coverage_percent": 88.88
+    },
+    "/MCU / clock / SWD/NRST": {
+      "length_mm": 6.48211,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "coverage_percent": 100.0
+    },
+    "3V3": {
+      "length_mm": 4.13272,
+      "unsupported_length_mm": 0.75819,
+      "max_single_segment_gap_mm": 0.377124,
+      "layers": [
+        "B.Cu"
+      ],
+      "coverage_percent": 81.65
+    },
+    "AS5047P_CS_N": {
+      "length_mm": 8.64542,
+      "unsupported_length_mm": 2.48411,
+      "max_single_segment_gap_mm": 0.549047,
+      "layers": [
+        "B.Cu",
+        "F.Cu",
+        "Signals L3"
+      ],
+      "coverage_percent": 71.27
+    },
+    "BRAKE_PWM": {
+      "length_mm": 29.37482,
+      "unsupported_length_mm": 5.17121,
+      "max_single_segment_gap_mm": 0.732361,
+      "layers": [
+        "B.Cu",
+        "F.Cu",
+        "Power L4",
+        "Signals L3"
+      ],
+      "coverage_percent": 82.4
+    },
+    "EXT_SENSOR_FAULT_N": {
+      "length_mm": 2.25646,
+      "unsupported_length_mm": 1.24027,
+      "max_single_segment_gap_mm": 0.360001,
+      "layers": [
+        "B.Cu",
+        "F.Cu",
+        "Signals L3"
+      ],
+      "coverage_percent": 45.03
+    },
+    "FEEDBACK_B_H2": {
+      "length_mm": 9.32843,
+      "unsupported_length_mm": 0.23423,
+      "max_single_segment_gap_mm": 0.149358,
+      "layers": [
+        "Power L4"
+      ],
+      "coverage_percent": 97.49
+    },
+    "FEEDBACK_I_H3": {
+      "length_mm": 17.24399,
+      "unsupported_length_mm": 0.46921,
+      "max_single_segment_gap_mm": 0.294628,
+      "layers": [
+        "Power L4"
+      ],
+      "coverage_percent": 97.28
+    },
+    "GND": {
+      "length_mm": 44.75728,
+      "unsupported_length_mm": 0.51458,
+      "max_single_segment_gap_mm": 0.184936,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "coverage_percent": 98.85
+    },
+    "I2C2_SCL": {
+      "length_mm": 4.95741,
+      "unsupported_length_mm": 0.4,
+      "max_single_segment_gap_mm": 0.3,
+      "layers": [
+        "Signals L3"
+      ],
+      "coverage_percent": 91.93
+    },
+    "IMU_INT1": {
+      "length_mm": 16.82602,
+      "unsupported_length_mm": 3.51177,
+      "max_single_segment_gap_mm": 0.565685,
+      "layers": [
+        "B.Cu",
+        "Power L4",
+        "Signals L3"
+      ],
+      "coverage_percent": 79.13
+    },
+    "IMU_INT2": {
+      "length_mm": 10.24025,
+      "unsupported_length_mm": 0.47527,
+      "max_single_segment_gap_mm": 0.15,
+      "layers": [
+        "Power L4",
+        "Signals L3"
+      ],
+      "coverage_percent": 95.36
+    },
+    "INPUT_MUX_ENABLE_N": {
+      "length_mm": 33.72916,
+      "unsupported_length_mm": 2.53512,
+      "max_single_segment_gap_mm": 0.55,
+      "layers": [
+        "B.Cu",
+        "F.Cu",
+        "Power L4",
+        "Signals L3"
+      ],
+      "coverage_percent": 92.48
+    },
+    "NTC_PHASE_A": {
+      "length_mm": 14.57571,
+      "unsupported_length_mm": 1.39995,
+      "max_single_segment_gap_mm": 0.565685,
+      "layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "coverage_percent": 90.4
+    },
+    "NTC_PHASE_B": {
+      "length_mm": 43.82634,
+      "unsupported_length_mm": 6.95908,
+      "max_single_segment_gap_mm": 0.549545,
+      "layers": [
+        "B.Cu",
+        "Power L4",
+        "Signals L3"
+      ],
+      "coverage_percent": 84.12
+    },
+    "NTC_PHASE_C": {
+      "length_mm": 11.96409,
+      "unsupported_length_mm": 1.61293,
+      "max_single_segment_gap_mm": 0.546284,
+      "layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "coverage_percent": 86.52
+    },
+    "Net-(D501-K)": {
+      "length_mm": 2.19683,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "B.Cu"
+      ],
+      "coverage_percent": 100.0
+    },
+    "Net-(D502-A1)": {
+      "length_mm": 0.91725,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "B.Cu"
+      ],
+      "coverage_percent": 100.0
+    },
+    "Net-(R310-Pad2)": {
+      "length_mm": 1.9401,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "coverage_percent": 100.0
+    },
+    "Net-(U203-CP2)": {
+      "length_mm": 3.31923,
+      "unsupported_length_mm": 1.06066,
+      "max_single_segment_gap_mm": 0.53033,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "coverage_percent": 68.04
+    },
+    "Net-(U203-OV1)": {
+      "length_mm": 3.20301,
+      "unsupported_length_mm": 1.07837,
+      "max_single_segment_gap_mm": 0.5445,
+      "layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "coverage_percent": 66.33
+    },
+    "Net-(U203-OV2)": {
+      "length_mm": 0.95833,
+      "unsupported_length_mm": 0.86705,
+      "max_single_segment_gap_mm": 0.318198,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "coverage_percent": 9.52
+    },
+    "Net-(U601-CLK)": {
+      "length_mm": 0.70518,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "B.Cu"
+      ],
+      "coverage_percent": 100.0
+    },
+    "SHUNT_W_SENSE_N": {
+      "length_mm": 2.4664,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "Signals L3"
+      ],
+      "coverage_percent": 100.0
+    },
+    "SHUNT_W_SENSE_P": {
+      "length_mm": 2.4564,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "Signals L3"
+      ],
+      "coverage_percent": 100.0
+    },
+    "SPI3_SCK_MCU": {
+      "length_mm": 8.33442,
+      "unsupported_length_mm": 2.28518,
+      "max_single_segment_gap_mm": 0.440581,
+      "layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "coverage_percent": 72.58
+    },
+    "USB_UART_RX": {
+      "length_mm": 6.83995,
+      "unsupported_length_mm": 0.59498,
+      "max_single_segment_gap_mm": 0.494975,
+      "layers": [
+        "B.Cu"
+      ],
+      "coverage_percent": 91.3
+    },
+    "VBUS_SENSE": {
+      "length_mm": 19.53064,
+      "unsupported_length_mm": 2.18892,
+      "max_single_segment_gap_mm": 0.565685,
+      "layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "coverage_percent": 88.79
+    },
+    "VCC": {
+      "length_mm": 2.01021,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "coverage_percent": 100.0
+    },
+    "NTC_BRAKE": {
+      "length_mm": 3.25522,
+      "unsupported_length_mm": 0.47385,
+      "max_single_segment_gap_mm": 0.420001,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "coverage_percent": 85.44
+    },
+    "CAN_TERM_GATE": {
+      "length_mm": 5.36035,
+      "unsupported_length_mm": 2.01972,
+      "max_single_segment_gap_mm": 0.549657,
+      "layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "coverage_percent": 62.32
+    },
+    "Net-(Q301-D)": {
+      "length_mm": 1.21554,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "F.Cu"
+      ],
+      "coverage_percent": 100.0
+    },
+    "CAN_TERM_DISABLE": {
+      "length_mm": 19.5999,
+      "unsupported_length_mm": 3.81107,
+      "max_single_segment_gap_mm": 0.55,
+      "layers": [
+        "B.Cu",
+        "F.Cu",
+        "Power L4"
+      ],
+      "coverage_percent": 80.56
+    }
+  },
+  "segments_with_reference_void_at_least_0p75mm": [],
+  "all_new_segment_reference_samples": [
+    {
+      "uuid": "1944048d-b1df-4217-887c-70b745cc8021",
+      "net": "/CAN interface/CANL_BUS",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.141421,
+      "start_mm": [
+        -17.95,
+        5.6
+      ],
+      "end_mm": [
+        -17.85,
+        5.7
+      ],
+      "unsupported_length_mm": 0.141421,
+      "longest_gap_mm": 0.141421,
+      "gaps": [
+        {
+          "from_mm": [
+            -17.933333,
+            5.616667
+          ],
+          "to_mm": [
+            -17.85,
+            5.7
+          ],
+          "length_mm": 0.1414
+        }
+      ]
+    },
+    {
+      "uuid": "e001bc9d-6b2d-4e28-86b1-cf29bdadef8c",
+      "net": "/CAN interface/CANL_BUS",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.635023,
+      "start_mm": [
+        -18.585003,
+        5.595
+      ],
+      "end_mm": [
+        -17.95,
+        5.6
+      ],
+      "unsupported_length_mm": 0.195392,
+      "longest_gap_mm": 0.195392,
+      "gaps": [
+        {
+          "from_mm": [
+            -18.120962,
+            5.598654
+          ],
+          "to_mm": [
+            -17.95,
+            5.6
+          ],
+          "length_mm": 0.1954
+        }
+      ]
+    },
+    {
+      "uuid": "34c34872-12c9-4ccf-9717-765b2ee51fa1",
+      "net": "Net-(D301-RK)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.6,
+      "start_mm": [
+        -14.475,
+        10.274999
+      ],
+      "end_mm": [
+        -13.875,
+        10.274999
+      ],
+      "unsupported_length_mm": 0.3,
+      "longest_gap_mm": 0.3,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.15,
+            10.274999
+          ],
+          "to_mm": [
+            -13.875,
+            10.274999
+          ],
+          "length_mm": 0.3
+        }
+      ]
+    },
+    {
+      "uuid": "5b908728-f048-4af3-ade6-433906ac8e51",
+      "net": "Net-(D301-RK)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.141421,
+      "start_mm": [
+        -13.875,
+        10.274999
+      ],
+      "end_mm": [
+        -13.775,
+        10.175
+      ],
+      "unsupported_length_mm": 0.141421,
+      "longest_gap_mm": 0.141421,
+      "gaps": [
+        {
+          "from_mm": [
+            -13.858333,
+            10.258332
+          ],
+          "to_mm": [
+            -13.775,
+            10.175
+          ],
+          "length_mm": 0.1414
+        }
+      ]
+    },
+    {
+      "uuid": "80464ffd-f8db-4d7c-816a-dab2289256b2",
+      "net": "Net-(D301-RK)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.671752,
+      "start_mm": [
+        -14.95,
+        10.75
+      ],
+      "end_mm": [
+        -14.475,
+        10.274999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "975d06a8-6090-4902-84f0-ff681496e766",
+      "net": "Net-(D301-RK)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.53033,
+      "start_mm": [
+        -15.325,
+        11.149999
+      ],
+      "end_mm": [
+        -14.95,
+        10.774999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "c21db010-1935-445a-9fb9-bb0a14525c8c",
+      "net": "Net-(D301-RK)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.024999,
+      "start_mm": [
+        -14.95,
+        10.774999
+      ],
+      "end_mm": [
+        -14.95,
+        10.75
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "cacc925c-b809-4b34-b549-cde9eb522cfd",
+      "net": "Net-(D301-RK)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.025,
+      "start_mm": [
+        -13.775,
+        10.175
+      ],
+      "end_mm": [
+        -13.75,
+        10.175
+      ],
+      "unsupported_length_mm": 0.025,
+      "longest_gap_mm": 0.025,
+      "gaps": [
+        {
+          "from_mm": [
+            -13.7625,
+            10.175
+          ],
+          "to_mm": [
+            -13.75,
+            10.175
+          ],
+          "length_mm": 0.025
+        }
+      ]
+    },
+    {
+      "uuid": "dd8e6f54-a2c8-4ecd-b6b7-f8a3833fe4b9",
+      "net": "Net-(D301-RK)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.065001,
+      "start_mm": [
+        -13.25,
+        9.675
+      ],
+      "end_mm": [
+        -13.25,
+        9.609999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "eeaef741-ab98-48ef-b563-f47c23c0be5c",
+      "net": "Net-(D301-RK)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.707107,
+      "start_mm": [
+        -13.75,
+        10.175
+      ],
+      "end_mm": [
+        -13.25,
+        9.675
+      ],
+      "unsupported_length_mm": 0.141421,
+      "longest_gap_mm": 0.141421,
+      "gaps": [
+        {
+          "from_mm": [
+            -13.733333,
+            10.158333
+          ],
+          "to_mm": [
+            -13.633333,
+            10.058333
+          ],
+          "length_mm": 0.1414
+        }
+      ]
+    },
+    {
+      "uuid": "7f6c78b8-a605-4980-a11e-69b13055e4ba",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.212131,
+      "start_mm": [
+        -8.75,
+        -2.899999
+      ],
+      "end_mm": [
+        -8.6,
+        -2.75
+      ],
+      "unsupported_length_mm": 0.212131,
+      "longest_gap_mm": 0.212131,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.735,
+            -2.884999
+          ],
+          "to_mm": [
+            -8.6,
+            -2.75
+          ],
+          "length_mm": 0.2121
+        }
+      ]
+    },
+    {
+      "uuid": "b288c709-e616-4b43-9d7c-b3ffb9d5e985",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 8.925,
+      "start_mm": [
+        -8.6,
+        -2.75
+      ],
+      "end_mm": [
+        0.325,
+        -2.75
+      ],
+      "unsupported_length_mm": 1.146788,
+      "longest_gap_mm": 0.548464,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.57507,
+            -2.75
+          ],
+          "to_mm": [
+            -8.126327,
+            -2.75
+          ],
+          "length_mm": 0.4487
+        },
+        {
+          "from_mm": [
+            -7.926885,
+            -2.75
+          ],
+          "to_mm": [
+            -7.777304,
+            -2.75
+          ],
+          "length_mm": 0.1496
+        },
+        {
+          "from_mm": [
+            -0.198534,
+            -2.75
+          ],
+          "to_mm": [
+            0.325,
+            -2.75
+          ],
+          "length_mm": 0.5485
+        }
+      ]
+    },
+    {
+      "uuid": "3108ba5c-a291-477b-98c7-52cf363eb182",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.944544,
+      "start_mm": [
+        4.05,
+        4.025
+      ],
+      "end_mm": [
+        5.425,
+        5.4
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "506d01dd-2ebc-4c94-b991-1af1c67b5c3c",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 2.1,
+      "start_mm": [
+        4.525,
+        1.45
+      ],
+      "end_mm": [
+        4.525,
+        3.55
+      ],
+      "unsupported_length_mm": 0.15,
+      "longest_gap_mm": 0.15,
+      "gaps": [
+        {
+          "from_mm": [
+            4.525,
+            3.125
+          ],
+          "to_mm": [
+            4.525,
+            3.275
+          ],
+          "length_mm": 0.15
+        }
+      ]
+    },
+    {
+      "uuid": "808b762d-61e0-41b0-b795-579cac733e5e",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.671751,
+      "start_mm": [
+        4.525,
+        3.55
+      ],
+      "end_mm": [
+        4.05,
+        4.025
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8788d3c4-dc1f-41cf-ac49-b2b3fbdfbdab",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 5.939697,
+      "start_mm": [
+        0.325,
+        -2.75
+      ],
+      "end_mm": [
+        4.525,
+        1.45
+      ],
+      "unsupported_length_mm": 0.549048,
+      "longest_gap_mm": 0.549048,
+      "gaps": [
+        {
+          "from_mm": [
+            0.342647,
+            -2.732353
+          ],
+          "to_mm": [
+            0.730882,
+            -2.344118
+          ],
+          "length_mm": 0.549
+        }
+      ]
+    },
+    {
+      "uuid": "f9db5243-a107-47dc-86b8-ce7b3e4ce359",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 3.607804,
+      "start_mm": [
+        -11.375,
+        -0.424999
+      ],
+      "end_mm": [
+        -8.75,
+        -2.899999
+      ],
+      "unsupported_length_mm": 0.543642,
+      "longest_gap_mm": 0.543642,
+      "gaps": [
+        {
+          "from_mm": [
+            -9.127568,
+            -2.544006
+          ],
+          "to_mm": [
+            -8.75,
+            -2.899999
+          ],
+          "length_mm": 0.5436
+        }
+      ]
+    },
+    {
+      "uuid": "02d7fe9b-8607-42d9-a56d-05c0abc1f2db",
+      "net": "/MCU / clock / SWD/NRST",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.735391,
+      "start_mm": [
+        -12.5,
+        8.85
+      ],
+      "end_mm": [
+        -11.98,
+        9.37
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "28856bef-e51b-4ed5-89f1-85802ef7c919",
+      "net": "/MCU / clock / SWD/NRST",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.294005,
+      "start_mm": [
+        -11.835,
+        9.37
+      ],
+      "end_mm": [
+        -12.75,
+        10.285
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "54063423-a95e-43ab-a0cb-9054831df4e3",
+      "net": "/MCU / clock / SWD/NRST",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.528163,
+      "start_mm": [
+        -9.602137,
+        6.8928
+      ],
+      "end_mm": [
+        -11.1303,
+        6.8928
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "855e9986-0151-4750-af8e-43ea4803e42c",
+      "net": "/MCU / clock / SWD/NRST",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.587501,
+      "start_mm": [
+        -12.5,
+        8.262499
+      ],
+      "end_mm": [
+        -12.5,
+        8.85
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ca2765ef-50bc-47e8-954c-412958ee9c8a",
+      "net": "/MCU / clock / SWD/NRST",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.255,
+      "start_mm": [
+        -12.75,
+        10.285
+      ],
+      "end_mm": [
+        -12.75,
+        10.54
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "e49b93bf-cd4c-4a81-8d05-205ab5139b0a",
+      "net": "/MCU / clock / SWD/NRST",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.937048,
+      "start_mm": [
+        -11.1303,
+        6.8928
+      ],
+      "end_mm": [
+        -12.5,
+        8.262499
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ed959ab3-846a-49a3-8cea-c11fb404e156",
+      "net": "/MCU / clock / SWD/NRST",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.145,
+      "start_mm": [
+        -11.98,
+        9.37
+      ],
+      "end_mm": [
+        -11.835,
+        9.37
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "13c81ee9-6347-4bd0-a70a-54d88d304777",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.954595,
+      "start_mm": [
+        -1.199999,
+        20.575
+      ],
+      "end_mm": [
+        -1.875,
+        19.9
+      ],
+      "unsupported_length_mm": 0.04773,
+      "longest_gap_mm": 0.04773,
+      "gaps": [
+        {
+          "from_mm": [
+            -1.858125,
+            19.916875
+          ],
+          "to_mm": [
+            -1.875,
+            19.9
+          ],
+          "length_mm": 0.0477
+        }
+      ]
+    },
+    {
+      "uuid": "603f04e4-fdb9-422a-beec-f9dedd3c3f65",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.388909,
+      "start_mm": [
+        -1.949999,
+        19.9
+      ],
+      "end_mm": [
+        -2.224999,
+        19.625
+      ],
+      "unsupported_length_mm": 0.145841,
+      "longest_gap_mm": 0.145841,
+      "gaps": [
+        {
+          "from_mm": [
+            -2.035936,
+            19.814062
+          ],
+          "to_mm": [
+            -2.139062,
+            19.710938
+          ],
+          "length_mm": 0.1458
+        }
+      ]
+    },
+    {
+      "uuid": "64c6293d-df8b-45c3-803f-92330ba42b9c",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.85,
+      "start_mm": [
+        -2.224999,
+        19.625
+      ],
+      "end_mm": [
+        -2.224999,
+        18.775
+      ],
+      "unsupported_length_mm": 0.15,
+      "longest_gap_mm": 0.15,
+      "gaps": [
+        {
+          "from_mm": [
+            -2.224999,
+            19.45
+          ],
+          "to_mm": [
+            -2.224999,
+            19.3
+          ],
+          "length_mm": 0.15
+        }
+      ]
+    },
+    {
+      "uuid": "ae481252-b5ba-4105-bbdb-cec5c6fc8dbb",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.707107,
+      "start_mm": [
+        -2.224999,
+        18.775
+      ],
+      "end_mm": [
+        -1.724999,
+        18.275
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "bece0db5-14c9-43f5-bd2a-352681c65f68",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.707107,
+      "start_mm": [
+        -9.569999,
+        3.729999
+      ],
+      "end_mm": [
+        -10.069999,
+        4.229999
+      ],
+      "unsupported_length_mm": 0.377124,
+      "longest_gap_mm": 0.377124,
+      "gaps": [
+        {
+          "from_mm": [
+            -9.586666,
+            3.746666
+          ],
+          "to_mm": [
+            -9.853332,
+            4.013332
+          ],
+          "length_mm": 0.3771
+        }
+      ]
+    },
+    {
+      "uuid": "cfc366d5-62a5-4900-a583-1d0bf173a83a",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.450001,
+      "start_mm": [
+        -10.069999,
+        4.229999
+      ],
+      "end_mm": [
+        -10.069999,
+        4.68
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "dc249a63-f009-4700-9bf1-b0cf0767d5e9",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.074999,
+      "start_mm": [
+        -1.875,
+        19.9
+      ],
+      "end_mm": [
+        -1.949999,
+        19.9
+      ],
+      "unsupported_length_mm": 0.037499,
+      "longest_gap_mm": 0.037499,
+      "gaps": [
+        {
+          "from_mm": [
+            -1.89375,
+            19.9
+          ],
+          "to_mm": [
+            -1.931249,
+            19.9
+          ],
+          "length_mm": 0.0375
+        }
+      ]
+    },
+    {
+      "uuid": "7d092800-bfc5-4dd2-b817-33af94689d8e",
+      "net": "AS5047P_CS_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.848527,
+      "start_mm": [
+        -2.224999,
+        1.9
+      ],
+      "end_mm": [
+        -1.625,
+        1.3
+      ],
+      "unsupported_length_mm": 0.549047,
+      "longest_gap_mm": 0.549047,
+      "gaps": [
+        {
+          "from_mm": [
+            -1.995588,
+            1.670588
+          ],
+          "to_mm": [
+            -1.625,
+            1.3
+          ],
+          "length_mm": 0.549
+        }
+      ]
+    },
+    {
+      "uuid": "b54d0277-5a57-43a7-b25d-7f5bc921d30c",
+      "net": "AS5047P_CS_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.179868,
+      "start_mm": [
+        -2.349307,
+        2.755
+      ],
+      "end_mm": [
+        -2.224999,
+        2.625
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "e418a4a3-1834-4679-9417-f642c1fbb235",
+      "net": "AS5047P_CS_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.725,
+      "start_mm": [
+        -2.224999,
+        2.625
+      ],
+      "end_mm": [
+        -2.224999,
+        1.9
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "60a59bef-b3b8-4890-8fe3-0446720a9a4e",
+      "net": "AS5047P_CS_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.95,
+      "start_mm": [
+        0.775,
+        -1.849999
+      ],
+      "end_mm": [
+        2.725,
+        -1.849999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "6561e90e-b591-4f40-9633-f58377a3a93b",
+      "net": "AS5047P_CS_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.3,
+      "start_mm": [
+        0.25,
+        -1.625
+      ],
+      "end_mm": [
+        0.55,
+        -1.625
+      ],
+      "unsupported_length_mm": 0.3,
+      "longest_gap_mm": 0.3,
+      "gaps": [
+        {
+          "from_mm": [
+            0.275,
+            -1.625
+          ],
+          "to_mm": [
+            0.55,
+            -1.625
+          ],
+          "length_mm": 0.3
+        }
+      ]
+    },
+    {
+      "uuid": "915a4efc-49d5-4a5d-ab5d-1ab41dbf249c",
+      "net": "AS5047P_CS_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.106066,
+      "start_mm": [
+        2.725,
+        -1.849999
+      ],
+      "end_mm": [
+        2.8,
+        -1.924999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "df308054-dc48-4cd5-bd6b-fad9a84ade12",
+      "net": "AS5047P_CS_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.318197,
+      "start_mm": [
+        0.55,
+        -1.625
+      ],
+      "end_mm": [
+        0.775,
+        -1.849999
+      ],
+      "unsupported_length_mm": 0.318197,
+      "longest_gap_mm": 0.318197,
+      "gaps": [
+        {
+          "from_mm": [
+            0.566071,
+            -1.641071
+          ],
+          "to_mm": [
+            0.775,
+            -1.849999
+          ],
+          "length_mm": 0.3182
+        }
+      ]
+    },
+    {
+      "uuid": "2b759c49-0d7f-43ff-93f8-aed588603d11",
+      "net": "AS5047P_CS_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.237437,
+      "start_mm": [
+        -1.625,
+        1.3
+      ],
+      "end_mm": [
+        -0.75,
+        0.425
+      ],
+      "unsupported_length_mm": 0.544472,
+      "longest_gap_mm": 0.544472,
+      "gaps": [
+        {
+          "from_mm": [
+            -1.6075,
+            1.2825
+          ],
+          "to_mm": [
+            -1.2225,
+            0.8975
+          ],
+          "length_mm": 0.5445
+        }
+      ]
+    },
+    {
+      "uuid": "4b737200-73b9-49c1-acf1-470f7cd491e7",
+      "net": "AS5047P_CS_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.099999,
+      "start_mm": [
+        0.325,
+        0.125
+      ],
+      "end_mm": [
+        0.325,
+        -0.974999
+      ],
+      "unsupported_length_mm": 0.1,
+      "longest_gap_mm": 0.1,
+      "gaps": [
+        {
+          "from_mm": [
+            0.325,
+            -0.1
+          ],
+          "to_mm": [
+            0.325,
+            -0.2
+          ],
+          "length_mm": 0.1
+        }
+      ]
+    },
+    {
+      "uuid": "5f75f3fb-b8a0-4648-9c3d-43c6fd91f606",
+      "net": "AS5047P_CS_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.575001,
+      "start_mm": [
+        0.25,
+        -1.049999
+      ],
+      "end_mm": [
+        0.25,
+        -1.625
+      ],
+      "unsupported_length_mm": 0.527084,
+      "longest_gap_mm": 0.527084,
+      "gaps": [
+        {
+          "from_mm": [
+            0.25,
+            -1.121874
+          ],
+          "to_mm": [
+            0.25,
+            -1.625
+          ],
+          "length_mm": 0.5271
+        }
+      ]
+    },
+    {
+      "uuid": "61d69771-2381-4956-9fbe-8f677c25568c",
+      "net": "AS5047P_CS_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.775,
+      "start_mm": [
+        -0.75,
+        0.425
+      ],
+      "end_mm": [
+        0.025,
+        0.425
+      ],
+      "unsupported_length_mm": 0.145313,
+      "longest_gap_mm": 0.145313,
+      "gaps": [
+        {
+          "from_mm": [
+            -0.289844,
+            0.425
+          ],
+          "to_mm": [
+            -0.144531,
+            0.425
+          ],
+          "length_mm": 0.1453
+        }
+      ]
+    },
+    {
+      "uuid": "9c531daa-3711-4a8d-afde-59d2ae2373d7",
+      "net": "AS5047P_CS_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.106066,
+      "start_mm": [
+        0.325,
+        -0.974999
+      ],
+      "end_mm": [
+        0.25,
+        -1.049999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b04e3b5b-57c1-41c3-91f5-06e79bd5803e",
+      "net": "AS5047P_CS_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.424264,
+      "start_mm": [
+        0.025,
+        0.425
+      ],
+      "end_mm": [
+        0.325,
+        0.125
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "eed74c52-7976-4455-92c1-f8d3a2083e5c",
+      "net": "BRAKE_PWM",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.295,
+      "start_mm": [
+        -6.850441,
+        2.755
+      ],
+      "end_mm": [
+        -6.85,
+        4.05
+      ],
+      "unsupported_length_mm": 0.398462,
+      "longest_gap_mm": 0.398462,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.850127,
+            3.676442
+          ],
+          "to_mm": [
+            -6.85,
+            4.05
+          ],
+          "length_mm": 0.3985
+        }
+      ]
+    },
+    {
+      "uuid": "465fdfcf-9112-46f6-9ef3-801a1bde6f6d",
+      "net": "BRAKE_PWM",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.07071,
+      "start_mm": [
+        7.6,
+        -8.725
+      ],
+      "end_mm": [
+        7.65,
+        -8.774999
+      ],
+      "unsupported_length_mm": 0.07071,
+      "longest_gap_mm": 0.07071,
+      "gaps": [
+        {
+          "from_mm": [
+            7.6125,
+            -8.7375
+          ],
+          "to_mm": [
+            7.65,
+            -8.774999
+          ],
+          "length_mm": 0.0707
+        }
+      ]
+    },
+    {
+      "uuid": "496724d3-84e0-4ecd-8ab1-269306148b3c",
+      "net": "BRAKE_PWM",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.450001,
+      "start_mm": [
+        7.6,
+        -8.274999
+      ],
+      "end_mm": [
+        7.6,
+        -8.725
+      ],
+      "unsupported_length_mm": 0.450001,
+      "longest_gap_mm": 0.450001,
+      "gaps": [
+        {
+          "from_mm": [
+            7.6,
+            -8.297499
+          ],
+          "to_mm": [
+            7.6,
+            -8.725
+          ],
+          "length_mm": 0.45
+        }
+      ]
+    },
+    {
+      "uuid": "305edb6e-d8af-4a5d-8a1a-3a439995af4d",
+      "net": "BRAKE_PWM",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.5,
+      "start_mm": [
+        5.875,
+        2.575
+      ],
+      "end_mm": [
+        5.875,
+        2.075
+      ],
+      "unsupported_length_mm": 0.5,
+      "longest_gap_mm": 0.5,
+      "gaps": [
+        {
+          "from_mm": [
+            5.875,
+            2.55
+          ],
+          "to_mm": [
+            5.875,
+            2.075
+          ],
+          "length_mm": 0.5
+        }
+      ]
+    },
+    {
+      "uuid": "9c35015d-7015-4b77-82a6-0556d18a4f2a",
+      "net": "BRAKE_PWM",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 3.146625,
+      "start_mm": [
+        3.65,
+        4.8
+      ],
+      "end_mm": [
+        5.875,
+        2.575
+      ],
+      "unsupported_length_mm": 0.599357,
+      "longest_gap_mm": 0.549411,
+      "gaps": [
+        {
+          "from_mm": [
+            3.667659,
+            4.782341
+          ],
+          "to_mm": [
+            4.056151,
+            4.393849
+          ],
+          "length_mm": 0.5494
+        },
+        {
+          "from_mm": [
+            5.857341,
+            2.592659
+          ],
+          "to_mm": [
+            5.875,
+            2.575
+          ],
+          "length_mm": 0.0499
+        }
+      ]
+    },
+    {
+      "uuid": "15d988d6-aa35-48ce-a38b-796ef36c5119",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.425,
+      "start_mm": [
+        1.3,
+        2.7
+      ],
+      "end_mm": [
+        2.725,
+        2.7
+      ],
+      "unsupported_length_mm": 0.147414,
+      "longest_gap_mm": 0.147414,
+      "gaps": [
+        {
+          "from_mm": [
+            1.471983,
+            2.7
+          ],
+          "to_mm": [
+            1.619397,
+            2.7
+          ],
+          "length_mm": 0.1474
+        }
+      ]
+    },
+    {
+      "uuid": "16f08bb6-a5b8-4d79-b8d0-1827f5c2b3dd",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.308148,
+      "start_mm": [
+        2.725,
+        2.7
+      ],
+      "end_mm": [
+        3.65,
+        3.625
+      ],
+      "unsupported_length_mm": 0.339149,
+      "longest_gap_mm": 0.1938,
+      "gaps": [
+        {
+          "from_mm": [
+            3.050463,
+            3.025463
+          ],
+          "to_mm": [
+            3.153241,
+            3.128241
+          ],
+          "length_mm": 0.1453
+        },
+        {
+          "from_mm": [
+            3.530093,
+            3.505093
+          ],
+          "to_mm": [
+            3.65,
+            3.625
+          ],
+          "length_mm": 0.1938
+        }
+      ]
+    },
+    {
+      "uuid": "2979b171-277e-462f-8230-d54e0d278263",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.249999,
+      "start_mm": [
+        -0.674999,
+        3.425
+      ],
+      "end_mm": [
+        0.575,
+        3.425
+      ],
+      "unsupported_length_mm": 0.15,
+      "longest_gap_mm": 0.15,
+      "gaps": [
+        {
+          "from_mm": [
+            0.3,
+            3.425
+          ],
+          "to_mm": [
+            0.45,
+            3.425
+          ],
+          "length_mm": 0.15
+        }
+      ]
+    },
+    {
+      "uuid": "4a3534cc-3a8d-4f0a-a6e7-27ce5cbe11e3",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.848528,
+      "start_mm": [
+        -1.274999,
+        2.825
+      ],
+      "end_mm": [
+        -0.674999,
+        3.425
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "4bcde50d-8bef-4dad-87aa-fad039e84a1b",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.025305,
+      "start_mm": [
+        0.575,
+        3.425
+      ],
+      "end_mm": [
+        1.3,
+        2.7
+      ],
+      "unsupported_length_mm": 0.732361,
+      "longest_gap_mm": 0.732361,
+      "gaps": [
+        {
+          "from_mm": [
+            0.695833,
+            3.304167
+          ],
+          "to_mm": [
+            1.21369,
+            2.78631
+          ],
+          "length_mm": 0.7324
+        }
+      ]
+    },
+    {
+      "uuid": "764cd080-0923-48b9-998f-90507ae90a40",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 8.624999,
+      "start_mm": [
+        7.6,
+        0.35
+      ],
+      "end_mm": [
+        7.6,
+        -8.274999
+      ],
+      "unsupported_length_mm": 0.54841,
+      "longest_gap_mm": 0.54841,
+      "gaps": [
+        {
+          "from_mm": [
+            7.6,
+            -7.751516
+          ],
+          "to_mm": [
+            7.6,
+            -8.274999
+          ],
+          "length_mm": 0.5484
+        }
+      ]
+    },
+    {
+      "uuid": "89e61345-c869-4fb2-b492-d633e4160c6b",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.175,
+      "start_mm": [
+        3.65,
+        3.625
+      ],
+      "end_mm": [
+        3.65,
+        4.8
+      ],
+      "unsupported_length_mm": 0.538542,
+      "longest_gap_mm": 0.538542,
+      "gaps": [
+        {
+          "from_mm": [
+            3.65,
+            4.285938
+          ],
+          "to_mm": [
+            3.65,
+            4.8
+          ],
+          "length_mm": 0.5385
+        }
+      ]
+    },
+    {
+      "uuid": "ca5af98b-2dfb-40ef-a40d-b0aa13cd6ab2",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 4.225001,
+      "start_mm": [
+        -5.5,
+        2.825
+      ],
+      "end_mm": [
+        -1.274999,
+        2.825
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "cb31255b-e961-4aa6-9dad-f456a167efb1",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 2.439518,
+      "start_mm": [
+        5.875,
+        2.075
+      ],
+      "end_mm": [
+        7.6,
+        0.35
+      ],
+      "unsupported_length_mm": 0.547647,
+      "longest_gap_mm": 0.547647,
+      "gaps": [
+        {
+          "from_mm": [
+            5.892602,
+            2.057398
+          ],
+          "to_mm": [
+            6.279847,
+            1.670153
+          ],
+          "length_mm": 0.5476
+        }
+      ]
+    },
+    {
+      "uuid": "f48fe0d1-6d6a-4bc3-a159-99059775ebe7",
+      "net": "BRAKE_PWM",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.59099,
+      "start_mm": [
+        -6.625,
+        3.95
+      ],
+      "end_mm": [
+        -5.5,
+        2.825
+      ],
+      "unsupported_length_mm": 0.149155,
+      "longest_gap_mm": 0.149155,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.607422,
+            3.932422
+          ],
+          "to_mm": [
+            -6.501953,
+            3.826953
+          ],
+          "length_mm": 0.1492
+        }
+      ]
+    },
+    {
+      "uuid": "43f9e7bd-03cd-42db-a879-e383870c6965",
+      "net": "EXT_SENSOR_FAULT_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.022193,
+      "start_mm": [
+        -8.440693,
+        4.449307
+      ],
+      "end_mm": [
+        -8.425,
+        4.465
+      ],
+      "unsupported_length_mm": 0.022193,
+      "longest_gap_mm": 0.022193,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.432846,
+            4.457154
+          ],
+          "to_mm": [
+            -8.425,
+            4.465
+          ],
+          "length_mm": 0.0222
+        }
+      ]
+    },
+    {
+      "uuid": "d6465c5c-f5d1-487d-8675-14d323484017",
+      "net": "EXT_SENSOR_FAULT_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.360001,
+      "start_mm": [
+        -8.800694,
+        4.449307
+      ],
+      "end_mm": [
+        -8.440693,
+        4.449307
+      ],
+      "unsupported_length_mm": 0.360001,
+      "longest_gap_mm": 0.360001,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.778194,
+            4.449307
+          ],
+          "to_mm": [
+            -8.440693,
+            4.449307
+          ],
+          "length_mm": 0.36
+        }
+      ]
+    },
+    {
+      "uuid": "0a818ab7-68c6-4c5d-9dab-7f999cf2da0a",
+      "net": "EXT_SENSOR_FAULT_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.304056,
+      "start_mm": [
+        -8.64,
+        4.68
+      ],
+      "end_mm": [
+        -8.425,
+        4.465
+      ],
+      "unsupported_length_mm": 0.304056,
+      "longest_gap_mm": 0.304056,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.624643,
+            4.664643
+          ],
+          "to_mm": [
+            -8.425,
+            4.465
+          ],
+          "length_mm": 0.3041
+        }
+      ]
+    },
+    {
+      "uuid": "7d1f178a-9d3f-4124-aa8f-9abd091d49f0",
+      "net": "EXT_SENSOR_FAULT_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.410001,
+      "start_mm": [
+        -9.050001,
+        4.68
+      ],
+      "end_mm": [
+        -8.64,
+        4.68
+      ],
+      "unsupported_length_mm": 0.136667,
+      "longest_gap_mm": 0.136667,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.753889,
+            4.68
+          ],
+          "to_mm": [
+            -8.64,
+            4.68
+          ],
+          "length_mm": 0.1367
+        }
+      ]
+    },
+    {
+      "uuid": "0f1d8ff7-1307-4a87-80dd-845e57ba97b9",
+      "net": "EXT_SENSOR_FAULT_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.039999,
+      "start_mm": [
+        -9.549999,
+        4.55
+      ],
+      "end_mm": [
+        -8.51,
+        4.55
+      ],
+      "unsupported_length_mm": 0.297143,
+      "longest_gap_mm": 0.297143,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.782381,
+            4.55
+          ],
+          "to_mm": [
+            -8.51,
+            4.55
+          ],
+          "length_mm": 0.2971
+        }
+      ]
+    },
+    {
+      "uuid": "18cf990f-4706-42f8-9440-93d45213bb0b",
+      "net": "EXT_SENSOR_FAULT_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.120208,
+      "start_mm": [
+        -8.51,
+        4.55
+      ],
+      "end_mm": [
+        -8.425,
+        4.465
+      ],
+      "unsupported_length_mm": 0.120208,
+      "longest_gap_mm": 0.120208,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.495833,
+            4.535833
+          ],
+          "to_mm": [
+            -8.425,
+            4.465
+          ],
+          "length_mm": 0.1202
+        }
+      ]
+    },
+    {
+      "uuid": "3b46d46b-37bc-4c12-9a91-dd5a9942186d",
+      "net": "FEEDBACK_B_H2",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 3.924999,
+      "start_mm": [
+        -7.625,
+        6.725
+      ],
+      "end_mm": [
+        -7.625,
+        10.649999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "6ca0df11-78c2-414a-8716-b1d909331ba7",
+      "net": "FEEDBACK_B_H2",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 2.575,
+      "start_mm": [
+        -7.85,
+        10.875
+      ],
+      "end_mm": [
+        -7.85,
+        13.45
+      ],
+      "unsupported_length_mm": 0.049519,
+      "longest_gap_mm": 0.049519,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.85,
+            13.42524
+          ],
+          "to_mm": [
+            -7.85,
+            13.45
+          ],
+          "length_mm": 0.0495
+        }
+      ]
+    },
+    {
+      "uuid": "7feacb80-e282-4fe5-9066-c529c8519b49",
+      "net": "FEEDBACK_B_H2",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.07071,
+      "start_mm": [
+        -7.85,
+        13.45
+      ],
+      "end_mm": [
+        -7.899999,
+        13.5
+      ],
+      "unsupported_length_mm": 0.035355,
+      "longest_gap_mm": 0.035355,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.8625,
+            13.4625
+          ],
+          "to_mm": [
+            -7.887499,
+            13.4875
+          ],
+          "length_mm": 0.0354
+        }
+      ]
+    },
+    {
+      "uuid": "88ef356d-4a43-4ddc-a938-f7d0e81d4e59",
+      "net": "FEEDBACK_B_H2",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 2.439519,
+      "start_mm": [
+        -5.899999,
+        5.0
+      ],
+      "end_mm": [
+        -7.625,
+        6.725
+      ],
+      "unsupported_length_mm": 0.149358,
+      "longest_gap_mm": 0.149358,
+      "gaps": [
+        {
+          "from_mm": [
+            -5.917601,
+            5.017602
+          ],
+          "to_mm": [
+            -6.023213,
+            5.123214
+          ],
+          "length_mm": 0.1494
+        }
+      ]
+    },
+    {
+      "uuid": "c9c94da4-ece1-449b-b356-6604b2fcd558",
+      "net": "FEEDBACK_B_H2",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.318199,
+      "start_mm": [
+        -7.625,
+        10.649999
+      ],
+      "end_mm": [
+        -7.85,
+        10.875
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "1171a799-a032-4350-9515-c0e3bf5a0295",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 7.974999,
+      "start_mm": [
+        -3.8,
+        3.925
+      ],
+      "end_mm": [
+        -3.8,
+        11.899999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "278e772a-4829-46d3-99ec-9192528e6a4a",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.767768,
+      "start_mm": [
+        -3.049999,
+        15.575
+      ],
+      "end_mm": [
+        -4.3,
+        16.825
+      ],
+      "unsupported_length_mm": 0.294628,
+      "longest_gap_mm": 0.294628,
+      "gaps": [
+        {
+          "from_mm": [
+            -4.109028,
+            16.634028
+          ],
+          "to_mm": [
+            -4.3,
+            16.825
+          ],
+          "length_mm": 0.2946
+        }
+      ]
+    },
+    {
+      "uuid": "34961e17-372d-4331-b1e6-1ef705c3f611",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.944544,
+      "start_mm": [
+        -6.399999,
+        4.525
+      ],
+      "end_mm": [
+        -5.024999,
+        3.15
+      ],
+      "unsupported_length_mm": 0.14958,
+      "longest_gap_mm": 0.14958,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.382371,
+            4.507372
+          ],
+          "to_mm": [
+            -6.276602,
+            4.401603
+          ],
+          "length_mm": 0.1496
+        }
+      ]
+    },
+    {
+      "uuid": "57500fc7-c68f-4723-ac6b-1bcba16058f2",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.025,
+      "start_mm": [
+        -6.399999,
+        4.55
+      ],
+      "end_mm": [
+        -6.399999,
+        4.525
+      ],
+      "unsupported_length_mm": 0.025,
+      "longest_gap_mm": 0.025,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.399999,
+            4.5375
+          ],
+          "to_mm": [
+            -6.399999,
+            4.525
+          ],
+          "length_mm": 0.025
+        }
+      ]
+    },
+    {
+      "uuid": "5f214877-707f-4d90-8789-6b3e31c7b8b5",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.060661,
+      "start_mm": [
+        -3.8,
+        11.899999
+      ],
+      "end_mm": [
+        -3.049999,
+        12.649999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b7d4fca6-81e3-47ec-8903-2d3d7d4ea84e",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.096015,
+      "start_mm": [
+        -4.574999,
+        3.15
+      ],
+      "end_mm": [
+        -3.8,
+        3.925
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "babde7f7-619d-4c8b-84fd-cfdd7a3d85c0",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.45,
+      "start_mm": [
+        -5.024999,
+        3.15
+      ],
+      "end_mm": [
+        -4.574999,
+        3.15
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "bf23a6b5-4ab9-456e-9e20-a8261048b018",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 2.925001,
+      "start_mm": [
+        -3.049999,
+        12.649999
+      ],
+      "end_mm": [
+        -3.049999,
+        15.575
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "013655c6-277b-46dc-a05c-be30c99bd5dd",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.988559,
+      "start_mm": [
+        -13.564014,
+        -14.051517
+      ],
+      "end_mm": [
+        -12.864997,
+        -13.3525
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "258f5e50-9a49-4995-98b9-cb61048be567",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.005,
+      "start_mm": [
+        -9.19,
+        17.24
+      ],
+      "end_mm": [
+        -9.19,
+        16.235
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "784449dd-2a90-411d-96a5-008501f2bc7f",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.6,
+      "start_mm": [
+        -17.25,
+        14.175
+      ],
+      "end_mm": [
+        -17.25,
+        14.775
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "79a6e2f1-de8d-4f46-ade8-365385af68b5",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.549999,
+      "start_mm": [
+        -0.86,
+        1.589999
+      ],
+      "end_mm": [
+        0.689999,
+        1.589999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "7d83a571-4c5c-4ea1-8879-8b00d0e1e7ed",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.707107,
+      "start_mm": [
+        -17.63,
+        4.64
+      ],
+      "end_mm": [
+        -18.13,
+        4.14
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "867e6d63-beb8-4dc6-b8a8-88be2fe33455",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.074802,
+      "start_mm": [
+        -16.49,
+        14.015
+      ],
+      "end_mm": [
+        -17.25,
+        14.775
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8c601830-f2e2-4a60-b20c-681e3cfb9961",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.353553,
+      "start_mm": [
+        -12.5,
+        -8.11
+      ],
+      "end_mm": [
+        -12.75,
+        -8.36
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8f67b6f5-a69b-47a8-890c-e73380fbe0d2",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.4,
+      "start_mm": [
+        -17.23,
+        4.64
+      ],
+      "end_mm": [
+        -17.63,
+        4.64
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b5b0997d-d42d-49cd-b7cb-215f43d0abde",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.069999,
+      "start_mm": [
+        -15.420001,
+        14.015
+      ],
+      "end_mm": [
+        -16.49,
+        14.015
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ba3b1f7a-eb95-4025-ad9b-5f4aeca76cac",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.056569,
+      "start_mm": [
+        6.73,
+        -11.570002
+      ],
+      "end_mm": [
+        6.69,
+        -11.530002
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "bd48411f-c5f9-40e5-98c6-4b9d6ed776d1",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.4,
+      "start_mm": [
+        -14.19,
+        17.24
+      ],
+      "end_mm": [
+        -14.19,
+        18.64
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "c5251fd7-a1d7-45c7-85d2-4f625187b4bc",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.486541,
+      "start_mm": [
+        -13.564014,
+        -14.538058
+      ],
+      "end_mm": [
+        -13.564014,
+        -14.051517
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "c9951bba-afd3-41f8-b500-34707ddd9457",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.226274,
+      "start_mm": [
+        -9.19,
+        16.235
+      ],
+      "end_mm": [
+        -9.03,
+        16.075
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ce640360-f53f-46d7-95d4-a8d2465ca019",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.3,
+      "start_mm": [
+        -12.5,
+        -7.81
+      ],
+      "end_mm": [
+        -12.5,
+        -8.11
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "d329d306-5588-43c2-95c5-36e357f85b48",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.65054,
+      "start_mm": [
+        0.689999,
+        1.589999
+      ],
+      "end_mm": [
+        1.15,
+        2.05
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "e45e4f35-b90b-4812-a9e0-f9f0b7e46c74",
+      "net": "GND",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.912499,
+      "start_mm": [
+        6.73,
+        -12.482501
+      ],
+      "end_mm": [
+        6.73,
+        -11.570002
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "057723a5-c168-4ae3-93d7-024c18f18d0a",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.774999,
+      "start_mm": [
+        -0.649999,
+        16.95
+      ],
+      "end_mm": [
+        0.125,
+        16.95
+      ],
+      "unsupported_length_mm": 0.145312,
+      "longest_gap_mm": 0.145312,
+      "gaps": [
+        {
+          "from_mm": [
+            -0.141406,
+            16.95
+          ],
+          "to_mm": [
+            0.003906,
+            16.95
+          ],
+          "length_mm": 0.1453
+        }
+      ]
+    },
+    {
+      "uuid": "09903290-e461-4b89-818f-8df99cdc2689",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.175,
+      "start_mm": [
+        -2.974999,
+        -1.399999
+      ],
+      "end_mm": [
+        -4.149999,
+        -1.399999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "140a4ace-cb06-4b80-b09e-673e020269a2",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.525,
+      "start_mm": [
+        0.55,
+        17.375
+      ],
+      "end_mm": [
+        0.55,
+        18.9
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "1496a68f-fbf4-451d-9914-34d9085c6f4c",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.33,
+      "start_mm": [
+        -7.605,
+        9.18
+      ],
+      "end_mm": [
+        -7.275,
+        9.18
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "19c93679-49e1-4b8c-a32b-878b9defd237",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.144999,
+      "start_mm": [
+        -3.305,
+        17.875
+      ],
+      "end_mm": [
+        -4.449999,
+        17.875
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "2ca0b7d4-e5ba-445c-a5d6-c5d9e744462a",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.070711,
+      "start_mm": [
+        -19.85,
+        -14.810001
+      ],
+      "end_mm": [
+        -19.9,
+        -14.860001
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "2ddca686-f342-4eef-97a5-606509a6eca5",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.064032,
+      "start_mm": [
+        -0.69,
+        16.9
+      ],
+      "end_mm": [
+        -0.649999,
+        16.95
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "2eb404f4-0263-4acf-8091-d406e32afb89",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.150519,
+      "start_mm": [
+        -2.8625,
+        -1.3
+      ],
+      "end_mm": [
+        -2.974999,
+        -1.399999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "3a0fc561-d227-40bc-832c-6bf791fd9311",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.5125,
+      "start_mm": [
+        2.8625,
+        0.65
+      ],
+      "end_mm": [
+        4.375,
+        0.65
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "3f82e6ab-30a7-4970-8469-71195f2619e4",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.425,
+      "start_mm": [
+        -5.25,
+        17.075
+      ],
+      "end_mm": [
+        -5.25,
+        16.65
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "4d964219-f070-4541-8f6a-efcf9d6bd1bb",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.6,
+      "start_mm": [
+        -0.12,
+        20.6
+      ],
+      "end_mm": [
+        -0.12,
+        21.2
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "5122bc4c-6a4a-409b-8494-831768152572",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 2.380006,
+      "start_mm": [
+        -14.010003,
+        -21.879997
+      ],
+      "end_mm": [
+        -11.629997,
+        -21.879997
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "5692d667-e7a3-4b47-97e4-35f8c75bcd81",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.601041,
+      "start_mm": [
+        0.125,
+        16.95
+      ],
+      "end_mm": [
+        0.55,
+        17.375
+      ],
+      "unsupported_length_mm": 0.184936,
+      "longest_gap_mm": 0.184936,
+      "gaps": [
+        {
+          "from_mm": [
+            0.239423,
+            17.064423
+          ],
+          "to_mm": [
+            0.370192,
+            17.195192
+          ],
+          "length_mm": 0.1849
+        }
+      ]
+    },
+    {
+      "uuid": "58a0afba-2db3-4573-bde7-618a8a3feae2",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.070712,
+      "start_mm": [
+        10.639999,
+        -11.677499
+      ],
+      "end_mm": [
+        10.69,
+        -11.7275
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "58dd2c2c-567c-48a4-9c18-7955b7b3ee24",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.777817,
+      "start_mm": [
+        -6.549999,
+        -1.649999
+      ],
+      "end_mm": [
+        -7.1,
+        -1.1
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "5acad917-8caa-416a-b84e-a373e1526e9b",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.55,
+      "start_mm": [
+        8.729999,
+        -8.88
+      ],
+      "end_mm": [
+        9.279999,
+        -8.88
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "5e34d2fb-144a-4dcd-a005-020346cdd716",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.14,
+      "start_mm": [
+        -0.09,
+        19.4
+      ],
+      "end_mm": [
+        0.05,
+        19.4
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "658ee945-8401-4df4-aec2-7608b72afd2c",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.075,
+      "start_mm": [
+        5.225,
+        1.5
+      ],
+      "end_mm": [
+        5.3,
+        1.5
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "68d8343e-cb27-49d8-9682-70805dc35b6b",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.070711,
+      "start_mm": [
+        -17.67,
+        -8.4
+      ],
+      "end_mm": [
+        -17.62,
+        -8.45
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "6dea5494-22fa-401f-a636-258f768543dd",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.377499,
+      "start_mm": [
+        10.639999,
+        -10.3
+      ],
+      "end_mm": [
+        10.639999,
+        -11.677499
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "7322db49-b2b8-4506-b3d1-18ad572481c6",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.85,
+      "start_mm": [
+        -13.580001,
+        -3.629999
+      ],
+      "end_mm": [
+        -12.730001,
+        -3.629999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "82f8dd41-8142-423d-92fb-403ee653bfa1",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.294626,
+      "start_mm": [
+        -4.149999,
+        -1.399999
+      ],
+      "end_mm": [
+        -4.360312,
+        -1.606331
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "84749eea-4205-4af1-b3b2-888b47643294",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.202082,
+      "start_mm": [
+        4.375,
+        0.65
+      ],
+      "end_mm": [
+        5.225,
+        1.5
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8ccf19e9-f52d-4bf3-8864-d2f175dd8dbd",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.353553,
+      "start_mm": [
+        -17.44,
+        -6.539998
+      ],
+      "end_mm": [
+        -17.69,
+        -6.789998
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "98f1d40a-312e-4c4a-8053-748d6a153dd3",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.75,
+      "start_mm": [
+        15.85,
+        15.375
+      ],
+      "end_mm": [
+        16.6,
+        15.375
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "99badc0e-f19b-4b13-b476-f3323a30ce17",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.035355,
+      "start_mm": [
+        16.775,
+        0.375
+      ],
+      "end_mm": [
+        16.8,
+        0.35
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "9a19e8f2-e575-40d6-bd11-3a54371dda1a",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.55,
+      "start_mm": [
+        3.429999,
+        20.9
+      ],
+      "end_mm": [
+        3.979999,
+        20.9
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "9cda6556-f9db-4da7-8db8-d65af678608d",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.202082,
+      "start_mm": [
+        -13.580001,
+        -11.300001
+      ],
+      "end_mm": [
+        -12.730001,
+        -10.450001
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "9f86e0ce-a856-4c80-8180-ac09fcc005ce",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.06066,
+      "start_mm": [
+        -16.119999,
+        21.82
+      ],
+      "end_mm": [
+        -16.869999,
+        21.07
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "a06ae7ac-aa19-4fa8-8172-1a776224f28b",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.65,
+      "start_mm": [
+        -4.899999,
+        -1.649999
+      ],
+      "end_mm": [
+        -6.549999,
+        -1.649999
+      ],
+      "unsupported_length_mm": 0.1,
+      "longest_gap_mm": 0.1,
+      "gaps": [
+        {
+          "from_mm": [
+            -5.024999,
+            -1.649999
+          ],
+          "to_mm": [
+            -5.124999,
+            -1.649999
+          ],
+          "length_mm": 0.1
+        }
+      ]
+    },
+    {
+      "uuid": "ab0c1de6-84ba-421a-b05b-05fa88c2d169",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.707107,
+      "start_mm": [
+        0.05,
+        19.4
+      ],
+      "end_mm": [
+        0.55,
+        18.9
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ae261e10-f4e0-4c21-a0ce-97c02ea885d2",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.131372,
+      "start_mm": [
+        -4.449999,
+        17.875
+      ],
+      "end_mm": [
+        -5.25,
+        17.075
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "aff2b8be-d5b7-4fe9-8fe9-3e53eb430dea",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.439997,
+      "start_mm": [
+        -15.45,
+        -21.88
+      ],
+      "end_mm": [
+        -14.010003,
+        -21.879997
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b7e25cfb-2a0e-491e-aed2-a8c01fe4a26a",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.925,
+      "start_mm": [
+        15.85,
+        0.375
+      ],
+      "end_mm": [
+        16.775,
+        0.375
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "bd16f7ca-fe53-47db-882a-f26e43ccab12",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.251047,
+      "start_mm": [
+        -21.52,
+        -7.399999
+      ],
+      "end_mm": [
+        -21.7,
+        -7.225
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "c766aa93-09c3-47e6-a879-5705dc6d32a2",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.3,
+      "start_mm": [
+        -17.14,
+        -6.539998
+      ],
+      "end_mm": [
+        -17.44,
+        -6.539998
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ce2557c0-e11e-445c-be8f-f39d6f7761d7",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.489728,
+      "start_mm": [
+        -4.360312,
+        -1.606331
+      ],
+      "end_mm": [
+        -4.849999,
+        -1.599999
+      ],
+      "unsupported_length_mm": 0.048973,
+      "longest_gap_mm": 0.048973,
+      "gaps": [
+        {
+          "from_mm": [
+            -4.825515,
+            -1.600316
+          ],
+          "to_mm": [
+            -4.849999,
+            -1.599999
+          ],
+          "length_mm": 0.049
+        }
+      ]
+    },
+    {
+      "uuid": "ce467d80-a0a0-45bd-907a-07cd42e91fd8",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.325265,
+      "start_mm": [
+        -11.629997,
+        -21.879997
+      ],
+      "end_mm": [
+        -11.4,
+        -21.65
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "d34338f7-c89f-47ec-bfba-6319163a3bfb",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.75,
+      "start_mm": [
+        -18.42,
+        -8.4
+      ],
+      "end_mm": [
+        -17.67,
+        -8.4
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "dc97d4b6-ef7a-472e-a0b2-c5d8a5db21d6",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.452548,
+      "start_mm": [
+        -7.275,
+        9.18
+      ],
+      "end_mm": [
+        -6.955,
+        9.5
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "e08f3cd4-01ed-42fa-8229-a16f851c32cf",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.848528,
+      "start_mm": [
+        15.85,
+        7.875
+      ],
+      "end_mm": [
+        16.45,
+        7.275
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "e5161985-5f50-404e-a76d-226cc4a3ab3f",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.400001,
+      "start_mm": [
+        -21.7,
+        -7.225
+      ],
+      "end_mm": [
+        -21.7,
+        -5.824999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "eea15fa5-2627-4c93-a5a3-951b32f2c2b0",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.55,
+      "start_mm": [
+        12.91,
+        -12.480001
+      ],
+      "end_mm": [
+        12.91,
+        -11.930001
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ef4e6311-8918-43ac-af4c-54174ff2215d",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.410003,
+      "start_mm": [
+        -12.040003,
+        -21.88
+      ],
+      "end_mm": [
+        -11.63,
+        -21.88
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f07adafa-c4d0-4d92-a52d-54e741d68528",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.070711,
+      "start_mm": [
+        -4.849999,
+        -1.599999
+      ],
+      "end_mm": [
+        -4.899999,
+        -1.649999
+      ],
+      "unsupported_length_mm": 0.035355,
+      "longest_gap_mm": 0.035355,
+      "gaps": [
+        {
+          "from_mm": [
+            -4.862499,
+            -1.612499
+          ],
+          "to_mm": [
+            -4.887499,
+            -1.637499
+          ],
+          "length_mm": 0.0354
+        }
+      ]
+    },
+    {
+      "uuid": "f37ff81b-696a-4b6f-8d31-9df3e1d25bfd",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.035355,
+      "start_mm": [
+        -21.7,
+        -5.824999
+      ],
+      "end_mm": [
+        -21.725,
+        -5.8
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f7ef4f39-d578-42ba-9230-c2c13e8f6529",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.8,
+      "start_mm": [
+        -19.05,
+        -14.810001
+      ],
+      "end_mm": [
+        -19.85,
+        -14.810001
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "fdce48d4-f7b6-4f61-8026-1443287dcf46",
+      "net": "GND",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.325269,
+      "start_mm": [
+        -11.63,
+        -21.88
+      ],
+      "end_mm": [
+        -11.4,
+        -21.65
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "176c17bf-4045-401f-a263-b38be380f5f9",
+      "net": "I2C2_SCL",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.777817,
+      "start_mm": [
+        -2.174999,
+        1.55
+      ],
+      "end_mm": [
+        -1.625,
+        2.1
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "1c5acc0f-5ad2-4ba2-9d81-0aa06874136b",
+      "net": "I2C2_SCL",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.175001,
+      "start_mm": [
+        -1.625,
+        2.1
+      ],
+      "end_mm": [
+        -0.449999,
+        2.1
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "487360e0-1a37-443e-8a1f-7ba84576d2b6",
+      "net": "I2C2_SCL",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.353553,
+      "start_mm": [
+        -0.449999,
+        2.1
+      ],
+      "end_mm": [
+        -0.199999,
+        2.35
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "632a57b3-fd2e-473c-bee6-4f1937d1b2d6",
+      "net": "I2C2_SCL",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.5,
+      "start_mm": [
+        -2.174999,
+        1.05
+      ],
+      "end_mm": [
+        -2.174999,
+        1.55
+      ],
+      "unsupported_length_mm": 0.1,
+      "longest_gap_mm": 0.1,
+      "gaps": [
+        {
+          "from_mm": [
+            -2.174999,
+            1.275
+          ],
+          "to_mm": [
+            -2.174999,
+            1.375
+          ],
+          "length_mm": 0.1
+        }
+      ]
+    },
+    {
+      "uuid": "8ed3e52a-381c-4569-8f15-718fd7f71343",
+      "net": "I2C2_SCL",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.60104,
+      "start_mm": [
+        -1.75,
+        0.625
+      ],
+      "end_mm": [
+        -2.174999,
+        1.05
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8fccceed-3508-4d39-97dc-9a6944b07ffc",
+      "net": "I2C2_SCL",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.549999,
+      "start_mm": [
+        -1.75,
+        -0.924999
+      ],
+      "end_mm": [
+        -1.75,
+        0.625
+      ],
+      "unsupported_length_mm": 0.3,
+      "longest_gap_mm": 0.3,
+      "gaps": [
+        {
+          "from_mm": [
+            -1.75,
+            -0.899999
+          ],
+          "to_mm": [
+            -1.75,
+            -0.599999
+          ],
+          "length_mm": 0.3
+        }
+      ]
+    },
+    {
+      "uuid": "1eea08d0-2574-4f07-94ad-e9c5c2d553ea",
+      "net": "IMU_INT1",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.55,
+      "start_mm": [
+        -14.125,
+        5.05
+      ],
+      "end_mm": [
+        -14.125,
+        5.6
+      ],
+      "unsupported_length_mm": 0.4,
+      "longest_gap_mm": 0.4,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.125,
+            5.125
+          ],
+          "to_mm": [
+            -14.125,
+            5.525
+          ],
+          "length_mm": 0.4
+        }
+      ]
+    },
+    {
+      "uuid": "438aa9f1-08b6-427d-8dcd-ed528e17eaa3",
+      "net": "IMU_INT1",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.707107,
+      "start_mm": [
+        -14.625,
+        4.55
+      ],
+      "end_mm": [
+        -14.125,
+        5.05
+      ],
+      "unsupported_length_mm": 0.565685,
+      "longest_gap_mm": 0.565685,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.608333,
+            4.566667
+          ],
+          "to_mm": [
+            -14.208333,
+            4.966667
+          ],
+          "length_mm": 0.5657
+        }
+      ]
+    },
+    {
+      "uuid": "6db8ef99-025b-40ee-a80e-c92e7035e597",
+      "net": "IMU_INT1",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.3,
+      "start_mm": [
+        -12.625,
+        7.025
+      ],
+      "end_mm": [
+        -12.625,
+        7.325
+      ],
+      "unsupported_length_mm": 0.1,
+      "longest_gap_mm": 0.1,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.625,
+            7.05
+          ],
+          "to_mm": [
+            -12.625,
+            7.15
+          ],
+          "length_mm": 0.1
+        }
+      ]
+    },
+    {
+      "uuid": "8848d6d7-4330-4228-a6fa-93034453b2a5",
+      "net": "IMU_INT1",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.075,
+      "start_mm": [
+        -13.2,
+        6.525
+      ],
+      "end_mm": [
+        -13.125,
+        6.525
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8ac69926-c9ed-4d52-9fde-7a3257af57c2",
+      "net": "IMU_INT1",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.707107,
+      "start_mm": [
+        -13.125,
+        6.525
+      ],
+      "end_mm": [
+        -12.625,
+        7.025
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8f3cea53-4c02-4d65-99d3-2c75be0fb1a0",
+      "net": "IMU_INT1",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.636397,
+      "start_mm": [
+        -12.625,
+        7.325
+      ],
+      "end_mm": [
+        -12.174999,
+        7.775
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "a35249df-4f95-4b74-9bf3-616689ca3c0b",
+      "net": "IMU_INT1",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.308148,
+      "start_mm": [
+        -14.125,
+        5.6
+      ],
+      "end_mm": [
+        -13.2,
+        6.525
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "2d416327-04df-43ea-a711-31cb3de26daf",
+      "net": "IMU_INT1",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.096016,
+      "start_mm": [
+        -8.324999,
+        -2.524999
+      ],
+      "end_mm": [
+        -9.1,
+        -1.75
+      ],
+      "unsupported_length_mm": 0.747283,
+      "longest_gap_mm": 0.548008,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.342613,
+            -2.507385
+          ],
+          "to_mm": [
+            -8.483522,
+            -2.366476
+          ],
+          "length_mm": 0.1993
+        },
+        {
+          "from_mm": [
+            -8.730113,
+            -2.119886
+          ],
+          "to_mm": [
+            -9.1,
+            -1.75
+          ],
+          "length_mm": 0.548
+        }
+      ]
+    },
+    {
+      "uuid": "82654700-abfa-4c93-9055-8f38a710b866",
+      "net": "IMU_INT1",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.024999,
+      "start_mm": [
+        -8.25,
+        -2.649999
+      ],
+      "end_mm": [
+        -8.25,
+        -2.625
+      ],
+      "unsupported_length_mm": 0.024999,
+      "longest_gap_mm": 0.024999,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.25,
+            -2.6375
+          ],
+          "to_mm": [
+            -8.25,
+            -2.625
+          ],
+          "length_mm": 0.025
+        }
+      ]
+    },
+    {
+      "uuid": "d2faa0db-abb2-4ae5-98b1-a869408a9e03",
+      "net": "IMU_INT1",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.025,
+      "start_mm": [
+        -8.299999,
+        -2.574999
+      ],
+      "end_mm": [
+        -8.299999,
+        -2.549999
+      ],
+      "unsupported_length_mm": 0.025,
+      "longest_gap_mm": 0.025,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.299999,
+            -2.562499
+          ],
+          "to_mm": [
+            -8.299999,
+            -2.549999
+          ],
+          "length_mm": 0.025
+        }
+      ]
+    },
+    {
+      "uuid": "d9d3d237-5094-46bb-a930-470de449b190",
+      "net": "IMU_INT1",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.025,
+      "start_mm": [
+        -8.324999,
+        -2.549999
+      ],
+      "end_mm": [
+        -8.324999,
+        -2.524999
+      ],
+      "unsupported_length_mm": 0.025,
+      "longest_gap_mm": 0.025,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.324999,
+            -2.537499
+          ],
+          "to_mm": [
+            -8.324999,
+            -2.524999
+          ],
+          "length_mm": 0.025
+        }
+      ]
+    },
+    {
+      "uuid": "db1f4566-ac75-4efc-a8c3-9d04315806f7",
+      "net": "IMU_INT1",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 2.687007,
+      "start_mm": [
+        -6.349999,
+        -4.55
+      ],
+      "end_mm": [
+        -8.25,
+        -2.649999
+      ],
+      "unsupported_length_mm": 0.447835,
+      "longest_gap_mm": 0.298556,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.367592,
+            -4.532407
+          ],
+          "to_mm": [
+            -6.578703,
+            -4.321296
+          ],
+          "length_mm": 0.2986
+        },
+        {
+          "from_mm": [
+            -8.162037,
+            -2.737962
+          ],
+          "to_mm": [
+            -8.25,
+            -2.649999
+          ],
+          "length_mm": 0.1493
+        }
+      ]
+    },
+    {
+      "uuid": "eb5b0320-efa1-44a9-a1d6-cffd1a731dfb",
+      "net": "IMU_INT1",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.070711,
+      "start_mm": [
+        -8.25,
+        -2.625
+      ],
+      "end_mm": [
+        -8.299999,
+        -2.574999
+      ],
+      "unsupported_length_mm": 0.070711,
+      "longest_gap_mm": 0.070711,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.2625,
+            -2.6125
+          ],
+          "to_mm": [
+            -8.299999,
+            -2.574999
+          ],
+          "length_mm": 0.0707
+        }
+      ]
+    },
+    {
+      "uuid": "f9ee571d-ea38-4743-86df-66a21d58fa0b",
+      "net": "IMU_INT1",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.025,
+      "start_mm": [
+        -8.299999,
+        -2.549999
+      ],
+      "end_mm": [
+        -8.324999,
+        -2.549999
+      ],
+      "unsupported_length_mm": 0.025,
+      "longest_gap_mm": 0.025,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.312499,
+            -2.549999
+          ],
+          "to_mm": [
+            -8.324999,
+            -2.549999
+          ],
+          "length_mm": 0.025
+        }
+      ]
+    },
+    {
+      "uuid": "bf7da90c-b117-4c75-9f49-3cfbb42a168a",
+      "net": "IMU_INT1",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.775,
+      "start_mm": [
+        -14.625,
+        3.775
+      ],
+      "end_mm": [
+        -14.625,
+        4.55
+      ],
+      "unsupported_length_mm": 0.532813,
+      "longest_gap_mm": 0.532813,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.625,
+            4.041406
+          ],
+          "to_mm": [
+            -14.625,
+            4.55
+          ],
+          "length_mm": 0.5328
+        }
+      ]
+    },
+    {
+      "uuid": "e28e8dd6-2706-4c0f-919b-e2c4097b0bcf",
+      "net": "IMU_INT1",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 7.81353,
+      "start_mm": [
+        -9.1,
+        -1.75
+      ],
+      "end_mm": [
+        -14.625,
+        3.775
+      ],
+      "unsupported_length_mm": 0.547445,
+      "longest_gap_mm": 0.547445,
+      "gaps": [
+        {
+          "from_mm": [
+            -9.117596,
+            -1.732404
+          ],
+          "to_mm": [
+            -9.504697,
+            -1.345303
+          ],
+          "length_mm": 0.5474
+        }
+      ]
+    },
+    {
+      "uuid": "19fff62e-c1f9-43b4-b2d7-171fc0c23eef",
+      "net": "IMU_INT2",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.742461,
+      "start_mm": [
+        -7.275,
+        5.3
+      ],
+      "end_mm": [
+        -7.799999,
+        5.824999
+      ],
+      "unsupported_length_mm": 0.148492,
+      "longest_gap_mm": 0.148492,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.712499,
+            5.737499
+          ],
+          "to_mm": [
+            -7.799999,
+            5.824999
+          ],
+          "length_mm": 0.1485
+        }
+      ]
+    },
+    {
+      "uuid": "53d430f6-1443-40bc-9c9e-ff5c3b895ad2",
+      "net": "IMU_INT2",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.4,
+      "start_mm": [
+        -7.35,
+        3.75
+      ],
+      "end_mm": [
+        -7.35,
+        4.15
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "6c73d3c6-b6cd-4bcb-ac10-033e89dceb62",
+      "net": "IMU_INT2",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.106066,
+      "start_mm": [
+        -7.35,
+        4.475
+      ],
+      "end_mm": [
+        -7.275,
+        4.55
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "6d6905b4-bf34-49d3-bb24-968c571da974",
+      "net": "IMU_INT2",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.325,
+      "start_mm": [
+        -7.35,
+        4.15
+      ],
+      "end_mm": [
+        -7.35,
+        4.475
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "7911d68f-e715-4030-bbf5-e6ae68d783e3",
+      "net": "IMU_INT2",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.035355,
+      "start_mm": [
+        -7.799999,
+        5.825
+      ],
+      "end_mm": [
+        -7.824999,
+        5.85
+      ],
+      "unsupported_length_mm": 0.035355,
+      "longest_gap_mm": 0.035355,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.812499,
+            5.8375
+          ],
+          "to_mm": [
+            -7.824999,
+            5.85
+          ],
+          "length_mm": 0.0354
+        }
+      ]
+    },
+    {
+      "uuid": "8090d76b-c066-4586-862a-a521f4b8928e",
+      "net": "IMU_INT2",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.707107,
+      "start_mm": [
+        -7.85,
+        3.25
+      ],
+      "end_mm": [
+        -7.35,
+        3.75
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "beb08202-a119-4c02-8954-4d3cbb0caf48",
+      "net": "IMU_INT2",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.75,
+      "start_mm": [
+        -7.275,
+        4.55
+      ],
+      "end_mm": [
+        -7.275,
+        5.3
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "e018b9c3-452c-4ada-a973-384789a422eb",
+      "net": "IMU_INT2",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 2.65,
+      "start_mm": [
+        -7.85,
+        0.6
+      ],
+      "end_mm": [
+        -7.85,
+        3.25
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "4bcd826f-f2a1-4a33-819f-04dcdf3200b7",
+      "net": "IMU_INT2",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.424265,
+      "start_mm": [
+        -7.949999,
+        10.425
+      ],
+      "end_mm": [
+        -8.25,
+        10.725
+      ],
+      "unsupported_length_mm": 0.141422,
+      "longest_gap_mm": 0.141422,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.166666,
+            10.641667
+          ],
+          "to_mm": [
+            -8.25,
+            10.725
+          ],
+          "length_mm": 0.1414
+        }
+      ]
+    },
+    {
+      "uuid": "cadfecec-8d4c-4623-a406-b37d6f8479ee",
+      "net": "IMU_INT2",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 4.1,
+      "start_mm": [
+        -7.949999,
+        6.325
+      ],
+      "end_mm": [
+        -7.949999,
+        10.425
+      ],
+      "unsupported_length_mm": 0.15,
+      "longest_gap_mm": 0.15,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.949999,
+            6.35
+          ],
+          "to_mm": [
+            -7.949999,
+            6.5
+          ],
+          "length_mm": 0.15
+        }
+      ]
+    },
+    {
+      "uuid": "704ce673-3a50-40f0-8f67-3e34964db523",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.375,
+      "start_mm": [
+        -9.024999,
+        4.9
+      ],
+      "end_mm": [
+        -8.649999,
+        4.9
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "87e30e85-8f36-4e5d-9eca-d8a044aeb021",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.07071,
+      "start_mm": [
+        -8.649999,
+        4.9
+      ],
+      "end_mm": [
+        -8.6,
+        4.95
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8af22714-37fe-4d58-938b-864fb7b4ac71",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.070711,
+      "start_mm": [
+        -9.075,
+        4.95
+      ],
+      "end_mm": [
+        -9.024999,
+        4.9
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "987011ff-26cf-47cc-8fe0-c02edff1956e",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.75,
+      "start_mm": [
+        -8.6,
+        4.95
+      ],
+      "end_mm": [
+        -7.85,
+        4.95
+      ],
+      "unsupported_length_mm": 0.35,
+      "longest_gap_mm": 0.35,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.175,
+            4.95
+          ],
+          "to_mm": [
+            -7.85,
+            4.95
+          ],
+          "length_mm": 0.35
+        }
+      ]
+    },
+    {
+      "uuid": "d534d872-db9f-4bfe-b9b4-9211c6adcb3d",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.070711,
+      "start_mm": [
+        -7.85,
+        4.95
+      ],
+      "end_mm": [
+        -7.799999,
+        4.9
+      ],
+      "unsupported_length_mm": 0.070711,
+      "longest_gap_mm": 0.070711,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.8375,
+            4.9375
+          ],
+          "to_mm": [
+            -7.799999,
+            4.9
+          ],
+          "length_mm": 0.0707
+        }
+      ]
+    },
+    {
+      "uuid": "e85ac4cc-534e-4af3-982f-f322c961e88a",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.47,
+      "start_mm": [
+        -9.545,
+        4.949433
+      ],
+      "end_mm": [
+        -9.075,
+        4.95
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "0daa806b-b6ce-404d-8c82-093c90dda28d",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.2,
+      "start_mm": [
+        -1.199999,
+        5.525
+      ],
+      "end_mm": [
+        -2.399999,
+        5.525
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "18a65eeb-66fe-468b-a620-9366cf70b8a4",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.95,
+      "start_mm": [
+        -3.474999,
+        4.1
+      ],
+      "end_mm": [
+        -2.524999,
+        4.1
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "2e8b0118-8c85-4b17-b890-0b64d470b24c",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.353553,
+      "start_mm": [
+        -7.574999,
+        5.0
+      ],
+      "end_mm": [
+        -7.324999,
+        5.25
+      ],
+      "unsupported_length_mm": 0.176777,
+      "longest_gap_mm": 0.176777,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.559374,
+            5.015625
+          ],
+          "to_mm": [
+            -7.434374,
+            5.140625
+          ],
+          "length_mm": 0.1768
+        }
+      ]
+    },
+    {
+      "uuid": "32b01476-9cad-4ee9-b677-0ea51d8ea703",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.388909,
+      "start_mm": [
+        -2.049999,
+        3.425
+      ],
+      "end_mm": [
+        -1.774999,
+        3.15
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "494d5318-96cf-4600-9d76-382828239216",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.2,
+      "start_mm": [
+        -2.049999,
+        3.625
+      ],
+      "end_mm": [
+        -2.049999,
+        3.425
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "6bb9c2dc-348c-4fa9-904b-a25d51ab9d72",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.343504,
+      "start_mm": [
+        -2.75,
+        9.725
+      ],
+      "end_mm": [
+        -1.799999,
+        10.675
+      ],
+      "unsupported_length_mm": 0.398075,
+      "longest_gap_mm": 0.398075,
+      "gaps": [
+        {
+          "from_mm": [
+            -2.063888,
+            10.411111
+          ],
+          "to_mm": [
+            -1.799999,
+            10.675
+          ],
+          "length_mm": 0.3981
+        }
+      ]
+    },
+    {
+      "uuid": "8adb54f5-6fd0-4df6-bcfc-249efc1b3c0f",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.671751,
+      "start_mm": [
+        -2.524999,
+        4.1
+      ],
+      "end_mm": [
+        -2.049999,
+        3.625
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "9feaa4bc-c4aa-40d1-a839-03e81a5e94ac",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.45,
+      "start_mm": [
+        -1.774999,
+        3.15
+      ],
+      "end_mm": [
+        -1.324999,
+        3.15
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "abcc3ab5-70f7-48ff-be6a-d4730c8c6afa",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 3.85,
+      "start_mm": [
+        -2.75,
+        5.875
+      ],
+      "end_mm": [
+        -2.75,
+        9.725
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b2169060-d362-459e-9309-61339aca5e6c",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.626346,
+      "start_mm": [
+        -4.625,
+        5.25
+      ],
+      "end_mm": [
+        -3.474999,
+        4.1
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b961832a-fc85-4c9e-952d-56c40c36491c",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.85,
+      "start_mm": [
+        -1.0,
+        3.475
+      ],
+      "end_mm": [
+        -1.0,
+        5.325
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "dc82fe12-2431-4fd0-ada2-4de43f32b38c",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.282842,
+      "start_mm": [
+        -1.0,
+        5.325
+      ],
+      "end_mm": [
+        -1.199999,
+        5.525
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f5de2209-a69c-4d27-b4f4-eac6486ebaf0",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.459619,
+      "start_mm": [
+        -1.324999,
+        3.15
+      ],
+      "end_mm": [
+        -1.0,
+        3.475
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f6314e47-4496-4a2e-9c1f-8cbfcc18bcb6",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.494975,
+      "start_mm": [
+        -2.399999,
+        5.525
+      ],
+      "end_mm": [
+        -2.75,
+        5.875
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ff788764-f065-46a9-84cd-7dc570413870",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 2.699999,
+      "start_mm": [
+        -7.324999,
+        5.25
+      ],
+      "end_mm": [
+        -4.625,
+        5.25
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "61595c1d-8da6-4c67-8903-c652613b9265",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 3.25,
+      "start_mm": [
+        3.125,
+        19.45
+      ],
+      "end_mm": [
+        -0.125,
+        19.45
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "a7f4cb97-3d0b-4b41-986b-23ae0132e284",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.767767,
+      "start_mm": [
+        4.375,
+        18.2
+      ],
+      "end_mm": [
+        3.125,
+        19.45
+      ],
+      "unsupported_length_mm": 0.540151,
+      "longest_gap_mm": 0.540151,
+      "gaps": [
+        {
+          "from_mm": [
+            4.357639,
+            18.217361
+          ],
+          "to_mm": [
+            3.975694,
+            18.599306
+          ],
+          "length_mm": 0.5402
+        }
+      ]
+    },
+    {
+      "uuid": "4ca999f6-d4ad-490a-a97c-8ee3f2330d46",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.15,
+      "start_mm": [
+        -1.799999,
+        10.675
+      ],
+      "end_mm": [
+        -1.799999,
+        10.825
+      ],
+      "unsupported_length_mm": 0.15,
+      "longest_gap_mm": 0.15,
+      "gaps": [
+        {
+          "from_mm": [
+            -1.799999,
+            10.7
+          ],
+          "to_mm": [
+            -1.799999,
+            10.825
+          ],
+          "length_mm": 0.15
+        }
+      ]
+    },
+    {
+      "uuid": "ce0fbc2a-ae0f-435b-94a7-2aefc7aa085d",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.2,
+      "start_mm": [
+        4.375,
+        17.0
+      ],
+      "end_mm": [
+        4.375,
+        18.2
+      ],
+      "unsupported_length_mm": 0.55,
+      "longest_gap_mm": 0.55,
+      "gaps": [
+        {
+          "from_mm": [
+            4.375,
+            17.675
+          ],
+          "to_mm": [
+            4.375,
+            18.2
+          ],
+          "length_mm": 0.55
+        }
+      ]
+    },
+    {
+      "uuid": "d9fdb3e9-fae5-447a-9e3f-98ed5369c136",
+      "net": "INPUT_MUX_ENABLE_N",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 8.732768,
+      "start_mm": [
+        -1.799999,
+        10.825
+      ],
+      "end_mm": [
+        4.375,
+        17.0
+      ],
+      "unsupported_length_mm": 0.299409,
+      "longest_gap_mm": 0.299409,
+      "gaps": [
+        {
+          "from_mm": [
+            -1.782356,
+            10.842643
+          ],
+          "to_mm": [
+            -1.570642,
+            11.054357
+          ],
+          "length_mm": 0.2994
+        }
+      ]
+    },
+    {
+      "uuid": "00e708ed-65db-410f-bfad-441acefca43c",
+      "net": "NTC_PHASE_A",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.115,
+      "start_mm": [
+        -13.375,
+        -1.549999
+      ],
+      "end_mm": [
+        -13.49,
+        -1.55
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "dd09c392-01e7-4dc6-99ea-859ad0584eff",
+      "net": "NTC_PHASE_A",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.565685,
+      "start_mm": [
+        -12.975,
+        -1.149999
+      ],
+      "end_mm": [
+        -13.375,
+        -1.549999
+      ],
+      "unsupported_length_mm": 0.565685,
+      "longest_gap_mm": 0.565685,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.991667,
+            -1.166666
+          ],
+          "to_mm": [
+            -13.375,
+            -1.549999
+          ],
+          "length_mm": 0.5657
+        }
+      ]
+    },
+    {
+      "uuid": "182a97b0-4dc4-4e95-9816-00f821147849",
+      "net": "NTC_PHASE_A",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.555634,
+      "start_mm": [
+        -12.95,
+        2.5
+      ],
+      "end_mm": [
+        -14.049999,
+        1.4
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "194e1248-8c4e-4d48-9a02-d51e10efbf25",
+      "net": "NTC_PHASE_A",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.3,
+      "start_mm": [
+        -9.274999,
+        8.325
+      ],
+      "end_mm": [
+        -9.274999,
+        7.025
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "3729e7da-45a3-43e1-8f5c-df5ffb942a5e",
+      "net": "NTC_PHASE_A",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.343503,
+      "start_mm": [
+        -12.0,
+        6.2
+      ],
+      "end_mm": [
+        -12.95,
+        5.25
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "7063da64-f33e-4a35-8340-cfec3ca32461",
+      "net": "NTC_PHASE_A",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 2.75,
+      "start_mm": [
+        -12.95,
+        5.25
+      ],
+      "end_mm": [
+        -12.95,
+        2.5
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "780e3d25-e8ef-44a3-89f8-abb1c9819848",
+      "net": "NTC_PHASE_A",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.166727,
+      "start_mm": [
+        -9.274999,
+        7.025
+      ],
+      "end_mm": [
+        -10.1,
+        6.2
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ae6a326c-1501-442f-84ae-ac9005736228",
+      "net": "NTC_PHASE_A",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.474999,
+      "start_mm": [
+        -14.049999,
+        1.4
+      ],
+      "end_mm": [
+        -14.049999,
+        -0.074999
+      ],
+      "unsupported_length_mm": 0.1475,
+      "longest_gap_mm": 0.1475,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.049999,
+            1.17875
+          ],
+          "to_mm": [
+            -14.049999,
+            1.03125
+          ],
+          "length_mm": 0.1475
+        }
+      ]
+    },
+    {
+      "uuid": "aee59a64-df67-47ea-9b8c-88d15fc02f9c",
+      "net": "NTC_PHASE_A",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.883883,
+      "start_mm": [
+        -8.649999,
+        8.95
+      ],
+      "end_mm": [
+        -9.274999,
+        8.325
+      ],
+      "unsupported_length_mm": 0.147314,
+      "longest_gap_mm": 0.147314,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.66736,
+            8.932639
+          ],
+          "to_mm": [
+            -8.771527,
+            8.828472
+          ],
+          "length_mm": 0.1473
+        }
+      ]
+    },
+    {
+      "uuid": "b7bbbd10-a3e5-4c25-b3e2-8754a8b507ec",
+      "net": "NTC_PHASE_A",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.520279,
+      "start_mm": [
+        -14.049999,
+        -0.074999
+      ],
+      "end_mm": [
+        -12.975,
+        -1.149999
+      ],
+      "unsupported_length_mm": 0.539454,
+      "longest_gap_mm": 0.539454,
+      "gaps": [
+        {
+          "from_mm": [
+            -13.339113,
+            -0.785886
+          ],
+          "to_mm": [
+            -12.975,
+            -1.149999
+          ],
+          "length_mm": 0.5395
+        }
+      ]
+    },
+    {
+      "uuid": "d664ee26-a8f3-47be-ae81-962b36193190",
+      "net": "NTC_PHASE_A",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.9,
+      "start_mm": [
+        -10.1,
+        6.2
+      ],
+      "end_mm": [
+        -12.0,
+        6.2
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "068e67c2-19b7-4d97-ad7a-6b232cb7897b",
+      "net": "NTC_PHASE_B",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.4375,
+      "start_mm": [
+        -12.1625,
+        0.375
+      ],
+      "end_mm": [
+        -12.1625,
+        -0.0625
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "34572a22-eada-4266-b667-b22cc840fcf2",
+      "net": "NTC_PHASE_B",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.353553,
+      "start_mm": [
+        -12.7625,
+        0.9
+      ],
+      "end_mm": [
+        -12.5125,
+        0.65
+      ],
+      "unsupported_length_mm": 0.353553,
+      "longest_gap_mm": 0.353553,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.746875,
+            0.884375
+          ],
+          "to_mm": [
+            -12.5125,
+            0.65
+          ],
+          "length_mm": 0.3536
+        }
+      ]
+    },
+    {
+      "uuid": "4bb2c1ad-b2ac-4a8f-b43c-d077daaa9070",
+      "net": "NTC_PHASE_B",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.141421,
+      "start_mm": [
+        -12.1625,
+        -0.0625
+      ],
+      "end_mm": [
+        -12.2625,
+        -0.162499
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "74d38c05-2c21-4b06-b01f-c720f296744d",
+      "net": "NTC_PHASE_B",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.0125,
+      "start_mm": [
+        -12.2625,
+        -0.162499
+      ],
+      "end_mm": [
+        -12.2625,
+        -0.174999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "7650e857-39ae-454f-b268-d352ae4df314",
+      "net": "NTC_PHASE_B",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.388909,
+      "start_mm": [
+        -12.4375,
+        0.65
+      ],
+      "end_mm": [
+        -12.1625,
+        0.375
+      ],
+      "unsupported_length_mm": 0.145841,
+      "longest_gap_mm": 0.145841,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.420312,
+            0.632812
+          ],
+          "to_mm": [
+            -12.317188,
+            0.529688
+          ],
+          "length_mm": 0.1458
+        }
+      ]
+    },
+    {
+      "uuid": "bff499f8-2328-470c-bdfb-0130807384c9",
+      "net": "NTC_PHASE_B",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.902501,
+      "start_mm": [
+        -12.587499,
+        -0.5
+      ],
+      "end_mm": [
+        -13.49,
+        -0.5
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "d171657e-7fb8-481b-9b41-6a65dd14e966",
+      "net": "NTC_PHASE_B",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.459619,
+      "start_mm": [
+        -12.2625,
+        -0.174999
+      ],
+      "end_mm": [
+        -12.587499,
+        -0.5
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f717df8a-6ec0-4936-b05a-ebdf944f25fa",
+      "net": "NTC_PHASE_B",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.075,
+      "start_mm": [
+        -12.5125,
+        0.65
+      ],
+      "end_mm": [
+        -12.4375,
+        0.65
+      ],
+      "unsupported_length_mm": 0.075,
+      "longest_gap_mm": 0.075,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.49375,
+            0.65
+          ],
+          "to_mm": [
+            -12.4375,
+            0.65
+          ],
+          "length_mm": 0.075
+        }
+      ]
+    },
+    {
+      "uuid": "05c30aa1-acd8-4cda-a177-10ffd101487a",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.035356,
+      "start_mm": [
+        -7.125,
+        10.649999
+      ],
+      "end_mm": [
+        -7.1,
+        10.675
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "1f41cad7-bdc1-4bff-930d-26408d5727a0",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.412501,
+      "start_mm": [
+        -4.6875,
+        16.4375
+      ],
+      "end_mm": [
+        -4.274999,
+        16.4375
+      ],
+      "unsupported_length_mm": 0.275001,
+      "longest_gap_mm": 0.275001,
+      "gaps": [
+        {
+          "from_mm": [
+            -4.61875,
+            16.4375
+          ],
+          "to_mm": [
+            -4.343749,
+            16.4375
+          ],
+          "length_mm": 0.275
+        }
+      ]
+    },
+    {
+      "uuid": "346e77b4-a3d6-4f73-b0aa-5d7e74d773d5",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.75,
+      "start_mm": [
+        -7.424999,
+        9.625
+      ],
+      "end_mm": [
+        -7.424999,
+        10.375
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "392d78c4-8270-4ff7-bd8d-598983ae4ff1",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.414213,
+      "start_mm": [
+        -7.049999,
+        10.7
+      ],
+      "end_mm": [
+        -6.05,
+        11.7
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "3adae0cd-ef7b-49ba-b8cc-200a56721a57",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.07071,
+      "start_mm": [
+        -6.05,
+        14.575
+      ],
+      "end_mm": [
+        -6.099999,
+        14.625
+      ],
+      "unsupported_length_mm": 0.035355,
+      "longest_gap_mm": 0.035355,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.0625,
+            14.5875
+          ],
+          "to_mm": [
+            -6.087499,
+            14.6125
+          ],
+          "length_mm": 0.0354
+        }
+      ]
+    },
+    {
+      "uuid": "3c39d706-5fff-4a21-a591-ed47b3192818",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.406586,
+      "start_mm": [
+        -15.4875,
+        8.5375
+      ],
+      "end_mm": [
+        -15.774999,
+        8.25
+      ],
+      "unsupported_length_mm": 0.271057,
+      "longest_gap_mm": 0.271057,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.535416,
+            8.489583
+          ],
+          "to_mm": [
+            -15.727082,
+            8.297917
+          ],
+          "length_mm": 0.2711
+        }
+      ]
+    },
+    {
+      "uuid": "40758404-ad7e-4b37-af19-a7dddfda91d2",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.2875,
+      "start_mm": [
+        -11.149999,
+        17.3
+      ],
+      "end_mm": [
+        -11.149999,
+        17.0125
+      ],
+      "unsupported_length_mm": 0.191667,
+      "longest_gap_mm": 0.191667,
+      "gaps": [
+        {
+          "from_mm": [
+            -11.149999,
+            17.276042
+          ],
+          "to_mm": [
+            -11.149999,
+            17.084375
+          ],
+          "length_mm": 0.1917
+        }
+      ]
+    },
+    {
+      "uuid": "42e10304-ca28-4771-a6fb-aed3c93fc0b5",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 4.1125,
+      "start_mm": [
+        -5.425,
+        18.9125
+      ],
+      "end_mm": [
+        -9.5375,
+        18.9125
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "430223e3-8ecb-4390-bace-e24e4b953530",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.025304,
+      "start_mm": [
+        -14.675,
+        9.2625
+      ],
+      "end_mm": [
+        -15.399999,
+        8.5375
+      ],
+      "unsupported_length_mm": 0.048824,
+      "longest_gap_mm": 0.048824,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.382737,
+            8.554762
+          ],
+          "to_mm": [
+            -15.399999,
+            8.5375
+          ],
+          "length_mm": 0.0488
+        }
+      ]
+    },
+    {
+      "uuid": "4d132a8c-f7aa-4ef4-9641-d351474f1dac",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 2.875,
+      "start_mm": [
+        -6.05,
+        11.7
+      ],
+      "end_mm": [
+        -6.05,
+        14.575
+      ],
+      "unsupported_length_mm": 0.446121,
+      "longest_gap_mm": 0.247845,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.05,
+            12.765733
+          ],
+          "to_mm": [
+            -6.05,
+            13.013578
+          ],
+          "length_mm": 0.2478
+        },
+        {
+          "from_mm": [
+            -6.05,
+            13.85625
+          ],
+          "to_mm": [
+            -6.05,
+            14.004957
+          ],
+          "length_mm": 0.1487
+        },
+        {
+          "from_mm": [
+            -6.05,
+            14.550216
+          ],
+          "to_mm": [
+            -6.05,
+            14.575
+          ],
+          "length_mm": 0.0496
+        }
+      ]
+    },
+    {
+      "uuid": "550458a5-bfd8-48be-bd66-4d10835faaf3",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.467247,
+      "start_mm": [
+        -8.462499,
+        8.5875
+      ],
+      "end_mm": [
+        -7.424999,
+        9.625
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "626a4aac-2e2f-4d2e-bdd1-37c4014d7425",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.441942,
+      "start_mm": [
+        -4.274999,
+        16.4375
+      ],
+      "end_mm": [
+        -3.962499,
+        16.75
+      ],
+      "unsupported_length_mm": 0.245523,
+      "longest_gap_mm": 0.245523,
+      "gaps": [
+        {
+          "from_mm": [
+            -4.188193,
+            16.524306
+          ],
+          "to_mm": [
+            -4.014582,
+            16.697917
+          ],
+          "length_mm": 0.2455
+        }
+      ]
+    },
+    {
+      "uuid": "6b7abd81-c7ea-4e08-becb-410d4ccbb5f2",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.024999,
+      "start_mm": [
+        -7.149999,
+        10.649999
+      ],
+      "end_mm": [
+        -7.125,
+        10.649999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "6d2cb971-6a90-41b9-b079-6a0c04badb27",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.087501,
+      "start_mm": [
+        -15.399999,
+        8.5375
+      ],
+      "end_mm": [
+        -15.4875,
+        8.5375
+      ],
+      "unsupported_length_mm": 0.04375,
+      "longest_gap_mm": 0.04375,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.421874,
+            8.5375
+          ],
+          "to_mm": [
+            -15.465625,
+            8.5375
+          ],
+          "length_mm": 0.0438
+        }
+      ]
+    },
+    {
+      "uuid": "7319c199-2782-4d64-91fb-9d7a9ac527fe",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 3.500179,
+      "start_mm": [
+        -12.2,
+        16.1625
+      ],
+      "end_mm": [
+        -14.675,
+        13.6875
+      ],
+      "unsupported_length_mm": 0.246491,
+      "longest_gap_mm": 0.246491,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.287148,
+            16.075352
+          ],
+          "to_mm": [
+            -12.461444,
+            15.901056
+          ],
+          "length_mm": 0.2465
+        }
+      ]
+    },
+    {
+      "uuid": "77f70eb3-2026-43b5-9f1e-a03db9d6af60",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.997577,
+      "start_mm": [
+        -6.099999,
+        15.024999
+      ],
+      "end_mm": [
+        -4.6875,
+        16.4375
+      ],
+      "unsupported_length_mm": 0.249697,
+      "longest_gap_mm": 0.249697,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.011718,
+            15.11328
+          ],
+          "to_mm": [
+            -5.835155,
+            15.289843
+          ],
+          "length_mm": 0.2497
+        }
+      ]
+    },
+    {
+      "uuid": "8515c9cd-67cf-45bd-8041-f063bb5e1bad",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.7,
+      "start_mm": [
+        -3.962499,
+        16.75
+      ],
+      "end_mm": [
+        -3.962499,
+        17.45
+      ],
+      "unsupported_length_mm": 0.4,
+      "longest_gap_mm": 0.4,
+      "gaps": [
+        {
+          "from_mm": [
+            -3.962499,
+            16.875
+          ],
+          "to_mm": [
+            -3.962499,
+            17.275
+          ],
+          "length_mm": 0.4
+        }
+      ]
+    },
+    {
+      "uuid": "967a3459-5e2e-4d30-b0bb-fb40c16f1c75",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.012501,
+      "start_mm": [
+        -7.0625,
+        10.7
+      ],
+      "end_mm": [
+        -7.049999,
+        10.7
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "97a8d7b4-6158-41b1-af40-096194d52e68",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.399999,
+      "start_mm": [
+        -6.099999,
+        14.625
+      ],
+      "end_mm": [
+        -6.099999,
+        15.024999
+      ],
+      "unsupported_length_mm": 0.249999,
+      "longest_gap_mm": 0.249999,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.099999,
+            14.7
+          ],
+          "to_mm": [
+            -6.099999,
+            14.949999
+          ],
+          "length_mm": 0.25
+        }
+      ]
+    },
+    {
+      "uuid": "97e7f7a4-8c21-48f0-9d45-3a4a7b52e99b",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.202082,
+      "start_mm": [
+        -11.149999,
+        17.0125
+      ],
+      "end_mm": [
+        -12.0,
+        16.1625
+      ],
+      "unsupported_length_mm": 0.240416,
+      "longest_gap_mm": 0.240416,
+      "gaps": [
+        {
+          "from_mm": [
+            -11.234999,
+            16.9275
+          ],
+          "to_mm": [
+            -11.404999,
+            16.7575
+          ],
+          "length_mm": 0.2404
+        }
+      ]
+    },
+    {
+      "uuid": "9c328585-92ac-463c-bbba-1ffd32be1725",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.388908,
+      "start_mm": [
+        -7.424999,
+        10.375
+      ],
+      "end_mm": [
+        -7.149999,
+        10.649999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "bcdaaa7b-46ba-42c3-b254-913cac2daf9c",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.035355,
+      "start_mm": [
+        -7.087499,
+        10.675
+      ],
+      "end_mm": [
+        -7.0625,
+        10.7
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "be6367f8-2e51-468e-ab48-4416c1152ba5",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 2.068288,
+      "start_mm": [
+        -3.962499,
+        17.45
+      ],
+      "end_mm": [
+        -5.425,
+        18.9125
+      ],
+      "unsupported_length_mm": 0.49245,
+      "longest_gap_mm": 0.49245,
+      "gaps": [
+        {
+          "from_mm": [
+            -4.989732,
+            18.477232
+          ],
+          "to_mm": [
+            -5.337946,
+            18.825446
+          ],
+          "length_mm": 0.4924
+        }
+      ]
+    },
+    {
+      "uuid": "c1e28d5f-2a9a-47b8-8b49-02c32d20b367",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.053032,
+      "start_mm": [
+        -15.774999,
+        1.4625
+      ],
+      "end_mm": [
+        -15.7375,
+        1.425
+      ],
+      "unsupported_length_mm": 0.053032,
+      "longest_gap_mm": 0.053032,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.765624,
+            1.453125
+          ],
+          "to_mm": [
+            -15.7375,
+            1.425
+          ],
+          "length_mm": 0.053
+        }
+      ]
+    },
+    {
+      "uuid": "c715b303-25ee-400d-9b90-8e0059c24b4e",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 2.280419,
+      "start_mm": [
+        -9.5375,
+        18.9125
+      ],
+      "end_mm": [
+        -11.149999,
+        17.3
+      ],
+      "unsupported_length_mm": 0.247872,
+      "longest_gap_mm": 0.198297,
+      "gaps": [
+        {
+          "from_mm": [
+            -10.781929,
+            17.668071
+          ],
+          "to_mm": [
+            -10.922146,
+            17.527853
+          ],
+          "length_mm": 0.1983
+        },
+        {
+          "from_mm": [
+            -11.132472,
+            17.317527
+          ],
+          "to_mm": [
+            -11.149999,
+            17.3
+          ],
+          "length_mm": 0.0496
+        }
+      ]
+    },
+    {
+      "uuid": "c9d684e5-2a23-4a32-83b8-a2a2ed2d21c0",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.2,
+      "start_mm": [
+        -12.0,
+        16.1625
+      ],
+      "end_mm": [
+        -12.2,
+        16.1625
+      ],
+      "unsupported_length_mm": 0.1,
+      "longest_gap_mm": 0.1,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.025,
+            16.1625
+          ],
+          "to_mm": [
+            -12.125,
+            16.1625
+          ],
+          "length_mm": 0.1
+        }
+      ]
+    },
+    {
+      "uuid": "d520821c-8a68-4318-88cd-23eeb15c3b28",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.15,
+      "start_mm": [
+        -8.462499,
+        8.4375
+      ],
+      "end_mm": [
+        -8.462499,
+        8.5875
+      ],
+      "unsupported_length_mm": 0.15,
+      "longest_gap_mm": 0.15,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.462499,
+            8.4625
+          ],
+          "to_mm": [
+            -8.462499,
+            8.5875
+          ],
+          "length_mm": 0.15
+        }
+      ]
+    },
+    {
+      "uuid": "d80a187b-36ee-4eea-a423-e43207069fa5",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.012501,
+      "start_mm": [
+        -7.1,
+        10.675
+      ],
+      "end_mm": [
+        -7.087499,
+        10.675
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f3d833f5-d6c9-4ece-9729-0fc8c157dc9b",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 6.7875,
+      "start_mm": [
+        -15.774999,
+        8.25
+      ],
+      "end_mm": [
+        -15.774999,
+        1.4625
+      ],
+      "unsupported_length_mm": 0.748621,
+      "longest_gap_mm": 0.499081,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.774999,
+            8.12523
+          ],
+          "to_mm": [
+            -15.774999,
+            7.875689
+          ],
+          "length_mm": 0.2495
+        },
+        {
+          "from_mm": [
+            -15.774999,
+            1.936627
+          ],
+          "to_mm": [
+            -15.774999,
+            1.4625
+          ],
+          "length_mm": 0.4991
+        }
+      ]
+    },
+    {
+      "uuid": "fb191424-7074-47fd-9223-b33f49d25086",
+      "net": "NTC_PHASE_B",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 4.425,
+      "start_mm": [
+        -14.675,
+        13.6875
+      ],
+      "end_mm": [
+        -14.675,
+        9.2625
+      ],
+      "unsupported_length_mm": 0.248596,
+      "longest_gap_mm": 0.248596,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.675,
+            12.916854
+          ],
+          "to_mm": [
+            -14.675,
+            12.668258
+          ],
+          "length_mm": 0.2486
+        }
+      ]
+    },
+    {
+      "uuid": "2a17e7b9-1f65-4543-b70d-ba75892b0112",
+      "net": "NTC_PHASE_B",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.406586,
+      "start_mm": [
+        -13.049999,
+        0.6125
+      ],
+      "end_mm": [
+        -12.7625,
+        0.9
+      ],
+      "unsupported_length_mm": 0.406586,
+      "longest_gap_mm": 0.406586,
+      "gaps": [
+        {
+          "from_mm": [
+            -13.034027,
+            0.628472
+          ],
+          "to_mm": [
+            -12.7625,
+            0.9
+          ],
+          "length_mm": 0.4066
+        }
+      ]
+    },
+    {
+      "uuid": "48165268-8602-452d-a258-ce6242a67128",
+      "net": "NTC_PHASE_B",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.149049,
+      "start_mm": [
+        -15.7375,
+        1.425
+      ],
+      "end_mm": [
+        -14.925,
+        0.6125
+      ],
+      "unsupported_length_mm": 0.549545,
+      "longest_gap_mm": 0.549545,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.719837,
+            1.407337
+          ],
+          "to_mm": [
+            -15.33125,
+            1.01875
+          ],
+          "length_mm": 0.5495
+        }
+      ]
+    },
+    {
+      "uuid": "d4732673-4fdd-4b1b-b541-2e91df840079",
+      "net": "NTC_PHASE_B",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.875001,
+      "start_mm": [
+        -14.925,
+        0.6125
+      ],
+      "end_mm": [
+        -13.049999,
+        0.6125
+      ],
+      "unsupported_length_mm": 0.444079,
+      "longest_gap_mm": 0.246711,
+      "gaps": [
+        {
+          "from_mm": [
+            -13.617434,
+            0.6125
+          ],
+          "to_mm": [
+            -13.370723,
+            0.6125
+          ],
+          "length_mm": 0.2467
+        },
+        {
+          "from_mm": [
+            -13.222696,
+            0.6125
+          ],
+          "to_mm": [
+            -13.049999,
+            0.6125
+          ],
+          "length_mm": 0.1974
+        }
+      ]
+    },
+    {
+      "uuid": "418d8b94-92ed-4239-97ae-a655a0271bb7",
+      "net": "NTC_PHASE_C",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 3.675,
+      "start_mm": [
+        -12.075,
+        7.05
+      ],
+      "end_mm": [
+        -12.075,
+        3.375
+      ],
+      "unsupported_length_mm": 0.546284,
+      "longest_gap_mm": 0.546284,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.075,
+            7.025169
+          ],
+          "to_mm": [
+            -12.075,
+            6.478885
+          ],
+          "length_mm": 0.5463
+        }
+      ]
+    },
+    {
+      "uuid": "431f78a0-baf7-452d-ab78-8c5f99dd3ccb",
+      "net": "NTC_PHASE_C",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.803122,
+      "start_mm": [
+        -12.075,
+        3.375
+      ],
+      "end_mm": [
+        -13.35,
+        2.1
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "9e3057dd-65e3-453c-b46e-068ff66dcc8b",
+      "net": "NTC_PHASE_C",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.070711,
+      "start_mm": [
+        -13.35,
+        1.425
+      ],
+      "end_mm": [
+        -13.4,
+        1.375
+      ],
+      "unsupported_length_mm": 0.070711,
+      "longest_gap_mm": 0.070711,
+      "gaps": [
+        {
+          "from_mm": [
+            -13.3625,
+            1.4125
+          ],
+          "to_mm": [
+            -13.4,
+            1.375
+          ],
+          "length_mm": 0.0707
+        }
+      ]
+    },
+    {
+      "uuid": "ce0261a2-3c21-4fce-a259-8566fac72b0d",
+      "net": "NTC_PHASE_C",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.675,
+      "start_mm": [
+        -13.35,
+        2.1
+      ],
+      "end_mm": [
+        -13.35,
+        1.425
+      ],
+      "unsupported_length_mm": 0.241071,
+      "longest_gap_mm": 0.241071,
+      "gaps": [
+        {
+          "from_mm": [
+            -13.35,
+            1.641964
+          ],
+          "to_mm": [
+            -13.35,
+            1.425
+          ],
+          "length_mm": 0.2411
+        }
+      ]
+    },
+    {
+      "uuid": "27aca830-b5bf-48d0-b934-27d0a560330e",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.75,
+      "start_mm": [
+        -9.649999,
+        8.95
+      ],
+      "end_mm": [
+        -9.649999,
+        7.2
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "30aabd6a-82bf-4519-a2fb-fee2b3b4d54d",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.212133,
+      "start_mm": [
+        -11.924999,
+        6.9
+      ],
+      "end_mm": [
+        -12.075,
+        7.05
+      ],
+      "unsupported_length_mm": 0.212133,
+      "longest_gap_mm": 0.212133,
+      "gaps": [
+        {
+          "from_mm": [
+            -11.939999,
+            6.915
+          ],
+          "to_mm": [
+            -12.075,
+            7.05
+          ],
+          "length_mm": 0.2121
+        }
+      ]
+    },
+    {
+      "uuid": "74c44b15-0c91-47a6-8a0e-456745595fa2",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.974999,
+      "start_mm": [
+        -9.95,
+        6.9
+      ],
+      "end_mm": [
+        -11.924999,
+        6.9
+      ],
+      "unsupported_length_mm": 0.395,
+      "longest_gap_mm": 0.395,
+      "gaps": [
+        {
+          "from_mm": [
+            -11.554687,
+            6.9
+          ],
+          "to_mm": [
+            -11.924999,
+            6.9
+          ],
+          "length_mm": 0.395
+        }
+      ]
+    },
+    {
+      "uuid": "b3823720-ee90-4149-a428-9b4a2d0761fd",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.424265,
+      "start_mm": [
+        -9.649999,
+        7.2
+      ],
+      "end_mm": [
+        -9.95,
+        6.9
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f52f2618-f9a0-4bbe-9faa-03f9c2b0ee58",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.378858,
+      "start_mm": [
+        -8.674999,
+        9.925
+      ],
+      "end_mm": [
+        -9.649999,
+        8.95
+      ],
+      "unsupported_length_mm": 0.147735,
+      "longest_gap_mm": 0.147735,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.69241,
+            9.907589
+          ],
+          "to_mm": [
+            -8.796874,
+            9.803125
+          ],
+          "length_mm": 0.1477
+        }
+      ]
+    },
+    {
+      "uuid": "3ab1fc6f-6994-497d-ba17-919d6ac2c6b3",
+      "net": "Net-(D501-K)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.594012,
+      "start_mm": [
+        13.325,
+        -13.924999
+      ],
+      "end_mm": [
+        12.91,
+        -13.499999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "49982376-8142-4543-ae3e-4062e2614507",
+      "net": "Net-(D501-K)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.777818,
+      "start_mm": [
+        12.774999,
+        -15.3
+      ],
+      "end_mm": [
+        13.325,
+        -14.75
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "88497d13-8634-4acc-a313-657d4b2e9a7d",
+      "net": "Net-(D501-K)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.825001,
+      "start_mm": [
+        13.325,
+        -14.75
+      ],
+      "end_mm": [
+        13.325,
+        -13.924999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "317493af-8a42-47d5-8b1e-16730ab5f7e2",
+      "net": "Net-(D502-A1)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.21225,
+      "start_mm": [
+        8.729999,
+        -9.87
+      ],
+      "end_mm": [
+        8.875,
+        -10.024999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8a63b015-b5b9-4fba-9ca8-988679c31cc7",
+      "net": "Net-(D502-A1)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.705003,
+      "start_mm": [
+        8.875,
+        -10.024999
+      ],
+      "end_mm": [
+        8.875,
+        -10.730002
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "92295fdb-818b-4cd3-8326-ae62b48bb01b",
+      "net": "Net-(R310-Pad2)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.940102,
+      "start_mm": [
+        -0.86,
+        0.570001
+      ],
+      "end_mm": [
+        -2.799999,
+        0.55
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8b9a6080-a954-4556-99c5-e9c8d0aa1421",
+      "net": "Net-(U203-CP2)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.06066,
+      "start_mm": [
+        -15.475,
+        -20.85
+      ],
+      "end_mm": [
+        -16.225,
+        -20.1
+      ],
+      "unsupported_length_mm": 0.53033,
+      "longest_gap_mm": 0.53033,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.867045,
+            -20.457955
+          ],
+          "to_mm": [
+            -16.225,
+            -20.1
+          ],
+          "length_mm": 0.5303
+        }
+      ]
+    },
+    {
+      "uuid": "dffaf74b-3b82-4c0e-95f3-8cbb918f4929",
+      "net": "Net-(U203-CP2)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.026924,
+      "start_mm": [
+        -15.450002,
+        -20.859999
+      ],
+      "end_mm": [
+        -15.475,
+        -20.85
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "65169bf3-4bb3-4bfc-96d5-fc9d13a033bb",
+      "net": "Net-(U203-CP2)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.144056,
+      "start_mm": [
+        -15.575,
+        -20.65
+      ],
+      "end_mm": [
+        -14.769015,
+        -19.838056
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8e79aedb-510c-4b6c-9a14-f73f33229889",
+      "net": "Net-(U203-CP2)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.026927,
+      "start_mm": [
+        -15.475,
+        -20.85
+      ],
+      "end_mm": [
+        -15.45,
+        -20.860002
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "90f11a10-8b05-44b8-899c-ed431c123b67",
+      "net": "Net-(U203-CP2)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.06066,
+      "start_mm": [
+        -16.225,
+        -20.1
+      ],
+      "end_mm": [
+        -15.475,
+        -20.85
+      ],
+      "unsupported_length_mm": 0.53033,
+      "longest_gap_mm": 0.53033,
+      "gaps": [
+        {
+          "from_mm": [
+            -16.207955,
+            -20.117045
+          ],
+          "to_mm": [
+            -15.832955,
+            -20.492045
+          ],
+          "length_mm": 0.5303
+        }
+      ]
+    },
+    {
+      "uuid": "85815f0a-043c-4fdf-890b-448dcbf651ad",
+      "net": "Net-(U203-OV1)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 2.475,
+      "start_mm": [
+        -13.799999,
+        -21.6
+      ],
+      "end_mm": [
+        -16.274999,
+        -21.6
+      ],
+      "unsupported_length_mm": 0.5445,
+      "longest_gap_mm": 0.5445,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.755249,
+            -21.6
+          ],
+          "to_mm": [
+            -16.274999,
+            -21.6
+          ],
+          "length_mm": 0.5445
+        }
+      ]
+    },
+    {
+      "uuid": "d4421f2f-39e7-418c-8665-f4b8a258e309",
+      "net": "Net-(U203-OV1)",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.72801,
+      "start_mm": [
+        -16.274999,
+        -21.6
+      ],
+      "end_mm": [
+        -15.575,
+        -21.4
+      ],
+      "unsupported_length_mm": 0.533874,
+      "longest_gap_mm": 0.533874,
+      "gaps": [
+        {
+          "from_mm": [
+            -16.251666,
+            -21.593333
+          ],
+          "to_mm": [
+            -15.738333,
+            -21.446667
+          ],
+          "length_mm": 0.5339
+        }
+      ]
+    },
+    {
+      "uuid": "630e5493-adb2-423b-8d9d-aef179b9dc18",
+      "net": "Net-(U203-OV2)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.318198,
+      "start_mm": [
+        -14.375,
+        -20.85
+      ],
+      "end_mm": [
+        -14.6,
+        -20.625
+      ],
+      "unsupported_length_mm": 0.318198,
+      "longest_gap_mm": 0.318198,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.391071,
+            -20.833929
+          ],
+          "to_mm": [
+            -14.6,
+            -20.625
+          ],
+          "length_mm": 0.3182
+        }
+      ]
+    },
+    {
+      "uuid": "eae93ab0-a863-458f-b2c8-d7bee499659c",
+      "net": "Net-(U203-OV2)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.365131,
+      "start_mm": [
+        -14.010006,
+        -20.859997
+      ],
+      "end_mm": [
+        -14.375,
+        -20.85
+      ],
+      "unsupported_length_mm": 0.273848,
+      "longest_gap_mm": 0.273848,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.124067,
+            -20.856873
+          ],
+          "to_mm": [
+            -14.375,
+            -20.85
+          ],
+          "length_mm": 0.2738
+        }
+      ]
+    },
+    {
+      "uuid": "02602c09-2829-455c-90b9-f7939dae0f3a",
+      "net": "Net-(U203-OV2)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.275,
+      "start_mm": [
+        -14.6,
+        -20.625
+      ],
+      "end_mm": [
+        -14.325,
+        -20.625
+      ],
+      "unsupported_length_mm": 0.275,
+      "longest_gap_mm": 0.275,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.577083,
+            -20.625
+          ],
+          "to_mm": [
+            -14.325,
+            -20.625
+          ],
+          "length_mm": 0.275
+        }
+      ]
+    },
+    {
+      "uuid": "4514634a-99aa-4715-91df-857eec07cbd0",
+      "net": "Net-(U601-CLK)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.5,
+      "start_mm": [
+        -6.549999,
+        2.049999
+      ],
+      "end_mm": [
+        -7.049999,
+        2.05
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f2f89fcd-be16-4196-b2f8-15b7a8b6145b",
+      "net": "Net-(U601-CLK)",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.205184,
+      "start_mm": [
+        -7.049999,
+        2.05
+      ],
+      "end_mm": [
+        -7.2,
+        2.19
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "17badaa2-e2dc-4d2f-996e-3c45b8dc233f",
+      "net": "SHUNT_W_SENSE_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.318198,
+      "start_mm": [
+        -1.1,
+        11.525
+      ],
+      "end_mm": [
+        -0.875,
+        11.3
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "1e7e411d-33ce-41e4-8f44-5a606534dee9",
+      "net": "SHUNT_W_SENSE_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.15,
+      "start_mm": [
+        -2.25,
+        11.525
+      ],
+      "end_mm": [
+        -1.1,
+        11.525
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "cf705313-8d3c-46e2-bff6-0b86f72b48f3",
+      "net": "SHUNT_W_SENSE_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.655,
+      "start_mm": [
+        -3.13,
+        11.3
+      ],
+      "end_mm": [
+        -2.475,
+        11.3
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "d3eb11f8-1e80-43c2-b255-8606dcea9b9c",
+      "net": "SHUNT_W_SENSE_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.318198,
+      "start_mm": [
+        -2.475,
+        11.3
+      ],
+      "end_mm": [
+        -2.25,
+        11.525
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ffbaef5c-1f44-4f6b-ba80-fc1e7770be0e",
+      "net": "SHUNT_W_SENSE_N",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.025,
+      "start_mm": [
+        -0.875,
+        11.3
+      ],
+      "end_mm": [
+        -0.85,
+        11.3
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "126d20f3-5f4a-4d86-91b0-43eeb7fd8c9a",
+      "net": "SHUNT_W_SENSE_P",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.318199,
+      "start_mm": [
+        -1.25,
+        11.1716
+      ],
+      "end_mm": [
+        -1.024999,
+        10.9466
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8940746e-ee7d-49f4-882e-016c5e86dc59",
+      "net": "SHUNT_W_SENSE_P",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.318198,
+      "start_mm": [
+        -2.325,
+        10.9466
+      ],
+      "end_mm": [
+        -2.1,
+        11.1716
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "984bad94-cb1d-4889-a835-8da4a74fe918",
+      "net": "SHUNT_W_SENSE_P",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.85,
+      "start_mm": [
+        -2.1,
+        11.1716
+      ],
+      "end_mm": [
+        -1.25,
+        11.1716
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "9e5009ac-c8b4-4f31-b30c-6f9fb6854e57",
+      "net": "SHUNT_W_SENSE_P",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.321383,
+      "start_mm": [
+        -1.024999,
+        10.9466
+      ],
+      "end_mm": [
+        -0.703616,
+        10.9466
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "eab9aef9-ae8a-498b-9731-31b1c7d5b655",
+      "net": "SHUNT_W_SENSE_P",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.648616,
+      "start_mm": [
+        -2.973616,
+        10.9466
+      ],
+      "end_mm": [
+        -2.325,
+        10.9466
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "158560bd-dc26-45a6-b9cc-33eb3ec33466",
+      "net": "SPI3_SCK_MCU",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.475001,
+      "start_mm": [
+        -6.149999,
+        0.55
+      ],
+      "end_mm": [
+        -6.625,
+        0.55
+      ],
+      "unsupported_length_mm": 0.1425,
+      "longest_gap_mm": 0.1425,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.363749,
+            0.55
+          ],
+          "to_mm": [
+            -6.50625,
+            0.55
+          ],
+          "length_mm": 0.1425
+        }
+      ]
+    },
+    {
+      "uuid": "2c7176da-6223-4427-8139-af3bb9279fba",
+      "net": "SPI3_SCK_MCU",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.09,
+      "start_mm": [
+        -7.2,
+        3.3
+      ],
+      "end_mm": [
+        -7.2,
+        3.21
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "77d8d2bb-7664-4cbb-884c-6ea6a84a7cd6",
+      "net": "SPI3_SCK_MCU",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.272791,
+      "start_mm": [
+        -6.625,
+        0.55
+      ],
+      "end_mm": [
+        -7.524999,
+        -0.349999
+      ],
+      "unsupported_length_mm": 0.587442,
+      "longest_gap_mm": 0.440581,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.746154,
+            0.428846
+          ],
+          "to_mm": [
+            -6.85,
+            0.325
+          ],
+          "length_mm": 0.1469
+        },
+        {
+          "from_mm": [
+            -7.230769,
+            -0.055769
+          ],
+          "to_mm": [
+            -7.524999,
+            -0.349999
+          ],
+          "length_mm": 0.4406
+        }
+      ]
+    },
+    {
+      "uuid": "aab8bab2-f520-4791-813e-2d235c99ca61",
+      "net": "SPI3_SCK_MCU",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.125,
+      "start_mm": [
+        -7.524999,
+        -0.349999
+      ],
+      "end_mm": [
+        -7.524999,
+        -0.474999
+      ],
+      "unsupported_length_mm": 0.125,
+      "longest_gap_mm": 0.125,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.524999,
+            -0.370832
+          ],
+          "to_mm": [
+            -7.524999,
+            -0.474999
+          ],
+          "length_mm": 0.125
+        }
+      ]
+    },
+    {
+      "uuid": "c4782ab6-08b4-4497-8039-cde32e143bb0",
+      "net": "SPI3_SCK_MCU",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.919239,
+      "start_mm": [
+        -7.85,
+        3.95
+      ],
+      "end_mm": [
+        -7.2,
+        3.3
+      ],
+      "unsupported_length_mm": 0.387048,
+      "longest_gap_mm": 0.387048,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.832895,
+            3.932895
+          ],
+          "to_mm": [
+            -7.559211,
+            3.659211
+          ],
+          "length_mm": 0.387
+        }
+      ]
+    },
+    {
+      "uuid": "f7cc5c6e-eabb-4e57-b07b-58dcd465f25f",
+      "net": "SPI3_SCK_MCU",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.848527,
+      "start_mm": [
+        -5.55,
+        -0.049999
+      ],
+      "end_mm": [
+        -6.149999,
+        0.55
+      ],
+      "unsupported_length_mm": 0.29948,
+      "longest_gap_mm": 0.29948,
+      "gaps": [
+        {
+          "from_mm": [
+            -5.567647,
+            -0.032352
+          ],
+          "to_mm": [
+            -5.779411,
+            0.179412
+          ],
+          "length_mm": 0.2995
+        }
+      ]
+    },
+    {
+      "uuid": "1d5c6c57-059c-4678-9e89-a40514e21f11",
+      "net": "SPI3_SCK_MCU",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.224999,
+      "start_mm": [
+        -7.524999,
+        -0.474999
+      ],
+      "end_mm": [
+        -7.524999,
+        -0.25
+      ],
+      "unsupported_length_mm": 0.224999,
+      "longest_gap_mm": 0.224999,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.524999,
+            -0.452499
+          ],
+          "to_mm": [
+            -7.524999,
+            -0.25
+          ],
+          "length_mm": 0.225
+        }
+      ]
+    },
+    {
+      "uuid": "377dae5b-1804-478c-bc8c-58305932f31d",
+      "net": "SPI3_SCK_MCU",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.388909,
+      "start_mm": [
+        -8.225,
+        3.375
+      ],
+      "end_mm": [
+        -7.949999,
+        3.65
+      ],
+      "unsupported_length_mm": 0.097227,
+      "longest_gap_mm": 0.097227,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.001562,
+            3.598438
+          ],
+          "to_mm": [
+            -7.949999,
+            3.65
+          ],
+          "length_mm": 0.0972
+        }
+      ]
+    },
+    {
+      "uuid": "6006cccd-7cdd-4064-be60-f3f6ac101560",
+      "net": "SPI3_SCK_MCU",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.075,
+      "start_mm": [
+        -7.949999,
+        3.65
+      ],
+      "end_mm": [
+        -7.949999,
+        3.725
+      ],
+      "unsupported_length_mm": 0.075,
+      "longest_gap_mm": 0.075,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.949999,
+            3.66875
+          ],
+          "to_mm": [
+            -7.949999,
+            3.725
+          ],
+          "length_mm": 0.075
+        }
+      ]
+    },
+    {
+      "uuid": "c322dfaa-a2db-459e-a7e2-85c6925859ea",
+      "net": "SPI3_SCK_MCU",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 2.925,
+      "start_mm": [
+        -8.225,
+        0.45
+      ],
+      "end_mm": [
+        -8.225,
+        3.375
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "d572220d-fa2e-4483-aae7-064e3cb5d13f",
+      "net": "SPI3_SCK_MCU",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.98995,
+      "start_mm": [
+        -7.524999,
+        -0.25
+      ],
+      "end_mm": [
+        -8.225,
+        0.45
+      ],
+      "unsupported_length_mm": 0.346483,
+      "longest_gap_mm": 0.346483,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.542499,
+            -0.2325
+          ],
+          "to_mm": [
+            -7.787499,
+            0.0125
+          ],
+          "length_mm": 0.3465
+        }
+      ]
+    },
+    {
+      "uuid": "2d1ec5b9-d093-43f7-aa4e-00a341184cfe",
+      "net": "USB_UART_RX",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.494975,
+      "start_mm": [
+        -11.25,
+        2.2
+      ],
+      "end_mm": [
+        -10.899999,
+        2.55
+      ],
+      "unsupported_length_mm": 0.494975,
+      "longest_gap_mm": 0.494975,
+      "gaps": [
+        {
+          "from_mm": [
+            -11.2325,
+            2.2175
+          ],
+          "to_mm": [
+            -10.899999,
+            2.55
+          ],
+          "length_mm": 0.495
+        }
+      ]
+    },
+    {
+      "uuid": "54ae4ba3-a90e-45fa-9832-e389eba9fbcc",
+      "net": "USB_UART_RX",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 2.05,
+      "start_mm": [
+        -11.25,
+        0.15
+      ],
+      "end_mm": [
+        -11.25,
+        2.2
+      ],
+      "unsupported_length_mm": 0.1,
+      "longest_gap_mm": 0.1,
+      "gaps": [
+        {
+          "from_mm": [
+            -11.25,
+            2.125
+          ],
+          "to_mm": [
+            -11.25,
+            2.2
+          ],
+          "length_mm": 0.1
+        }
+      ]
+    },
+    {
+      "uuid": "724199d0-ec75-4a96-b3ed-8d60e13faa2b",
+      "net": "USB_UART_RX",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.494975,
+      "start_mm": [
+        -10.899999,
+        -0.2
+      ],
+      "end_mm": [
+        -11.25,
+        0.15
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "fce6f4d5-0cba-4bb5-a5be-b5b2d324d913",
+      "net": "USB_UART_RX",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 3.8,
+      "start_mm": [
+        -10.899999,
+        -4.0
+      ],
+      "end_mm": [
+        -10.899999,
+        -0.2
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "7f223314-8300-45b2-a0db-1de3001b99d8",
+      "net": "VBUS_SENSE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.53033,
+      "start_mm": [
+        -5.425,
+        18.15
+      ],
+      "end_mm": [
+        -5.05,
+        18.525
+      ],
+      "unsupported_length_mm": 0.53033,
+      "longest_gap_mm": 0.53033,
+      "gaps": [
+        {
+          "from_mm": [
+            -5.407955,
+            18.167045
+          ],
+          "to_mm": [
+            -5.05,
+            18.525
+          ],
+          "length_mm": 0.5303
+        }
+      ]
+    },
+    {
+      "uuid": "da8717bf-78fe-4581-bd7c-0ad78c8f86de",
+      "net": "VBUS_SENSE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.745,
+      "start_mm": [
+        -5.05,
+        18.525
+      ],
+      "end_mm": [
+        -3.305,
+        18.525
+      ],
+      "unsupported_length_mm": 0.049857,
+      "longest_gap_mm": 0.049857,
+      "gaps": [
+        {
+          "from_mm": [
+            -5.025071,
+            18.525
+          ],
+          "to_mm": [
+            -4.975214,
+            18.525
+          ],
+          "length_mm": 0.0499
+        }
+      ]
+    },
+    {
+      "uuid": "36cb4ac6-c6ea-4591-9768-cf8637c0d4ce",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.09,
+      "start_mm": [
+        -10.21,
+        7.45
+      ],
+      "end_mm": [
+        -11.3,
+        7.45
+      ],
+      "unsupported_length_mm": 0.396364,
+      "longest_gap_mm": 0.396364,
+      "gaps": [
+        {
+          "from_mm": [
+            -10.234773,
+            7.45
+          ],
+          "to_mm": [
+            -10.631136,
+            7.45
+          ],
+          "length_mm": 0.3964
+        }
+      ]
+    },
+    {
+      "uuid": "898c22fc-077c-4ef6-a02e-d851c72b61f3",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.919239,
+      "start_mm": [
+        -11.7,
+        9.575
+      ],
+      "end_mm": [
+        -12.35,
+        10.225
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "96c7fb5e-9bd6-46c4-ac1f-d43e5d1db948",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.725,
+      "start_mm": [
+        -11.7,
+        7.85
+      ],
+      "end_mm": [
+        -11.7,
+        9.575
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "9b39cf72-f2a7-4c18-90d8-cb454d95d003",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.565685,
+      "start_mm": [
+        -11.3,
+        7.45
+      ],
+      "end_mm": [
+        -11.7,
+        7.85
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b6d118d1-1fe8-4b8a-9517-4c6a0c852a84",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 5.939698,
+      "start_mm": [
+        -12.35,
+        14.35
+      ],
+      "end_mm": [
+        -8.149999,
+        18.55
+      ],
+      "unsupported_length_mm": 0.299481,
+      "longest_gap_mm": 0.299481,
+      "gaps": [
+        {
+          "from_mm": [
+            -10.779411,
+            15.920588
+          ],
+          "to_mm": [
+            -10.567647,
+            16.132353
+          ],
+          "length_mm": 0.2995
+        }
+      ]
+    },
+    {
+      "uuid": "c33dd5f1-b952-41e4-8a72-7bc8ca31d8ec",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 4.125,
+      "start_mm": [
+        -12.35,
+        10.225
+      ],
+      "end_mm": [
+        -12.35,
+        14.35
+      ],
+      "unsupported_length_mm": 0.198795,
+      "longest_gap_mm": 0.198795,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.35,
+            11.492319
+          ],
+          "to_mm": [
+            -12.35,
+            11.691114
+          ],
+          "length_mm": 0.1988
+        }
+      ]
+    },
+    {
+      "uuid": "c8dffbf0-b442-4e66-984c-1c98baa39019",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 2.325,
+      "start_mm": [
+        -8.149999,
+        18.55
+      ],
+      "end_mm": [
+        -5.824999,
+        18.55
+      ],
+      "unsupported_length_mm": 0.148404,
+      "longest_gap_mm": 0.148404,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.44335,
+            18.55
+          ],
+          "to_mm": [
+            -6.294946,
+            18.55
+          ],
+          "length_mm": 0.1484
+        }
+      ]
+    },
+    {
+      "uuid": "f5a82516-c83f-414b-bf1e-57133edad1fc",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.565685,
+      "start_mm": [
+        -5.824999,
+        18.55
+      ],
+      "end_mm": [
+        -5.425,
+        18.15
+      ],
+      "unsupported_length_mm": 0.565685,
+      "longest_gap_mm": 0.565685,
+      "gaps": [
+        {
+          "from_mm": [
+            -5.808332,
+            18.533333
+          ],
+          "to_mm": [
+            -5.425,
+            18.15
+          ],
+          "length_mm": 0.5657
+        }
+      ]
+    },
+    {
+      "uuid": "b569279e-cfc5-4c5e-ac51-d5a06015ab70",
+      "net": "VCC",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.060207,
+      "start_mm": [
+        -10.875,
+        1.525
+      ],
+      "end_mm": [
+        -10.92,
+        1.485001
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b600361c-8584-4c56-aa85-8cd85a58b5aa",
+      "net": "VCC",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.950001,
+      "start_mm": [
+        -8.924999,
+        1.525
+      ],
+      "end_mm": [
+        -10.875,
+        1.525
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8d825f14-d932-4fbf-a530-d387f7161135",
+      "net": "NTC_BRAKE",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.053851,
+      "start_mm": [
+        -8.6,
+        6.1
+      ],
+      "end_mm": [
+        -8.649999,
+        6.12
+      ],
+      "unsupported_length_mm": 0.053851,
+      "longest_gap_mm": 0.053851,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.6125,
+            6.105
+          ],
+          "to_mm": [
+            -8.649999,
+            6.12
+          ],
+          "length_mm": 0.0539
+        }
+      ]
+    },
+    {
+      "uuid": "0601cfcc-ea65-4cc7-952d-5a125e075ab6",
+      "net": "NTC_BRAKE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.700001,
+      "start_mm": [
+        -8.649999,
+        6.12
+      ],
+      "end_mm": [
+        -9.35,
+        6.12
+      ],
+      "unsupported_length_mm": 0.420001,
+      "longest_gap_mm": 0.420001,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.673332,
+            6.12
+          ],
+          "to_mm": [
+            -9.093333,
+            6.12
+          ],
+          "length_mm": 0.42
+        }
+      ]
+    },
+    {
+      "uuid": "1407d9cb-9e32-473d-8728-eb4176687583",
+      "net": "NTC_BRAKE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.45,
+      "start_mm": [
+        -9.949999,
+        5.3
+      ],
+      "end_mm": [
+        -10.399999,
+        5.3
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "14fec917-1a6c-4f1a-b053-c625cfbe3735",
+      "net": "NTC_BRAKE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.070711,
+      "start_mm": [
+        -9.899999,
+        5.35
+      ],
+      "end_mm": [
+        -9.949999,
+        5.3
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "42e58b9a-1c9e-41a3-a766-cd34608d6440",
+      "net": "NTC_BRAKE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.424264,
+      "start_mm": [
+        -9.35,
+        6.12
+      ],
+      "end_mm": [
+        -9.65,
+        5.82
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "5a09425b-dbc0-4412-b621-54b0871f603a",
+      "net": "NTC_BRAKE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.47,
+      "start_mm": [
+        -9.65,
+        5.82
+      ],
+      "end_mm": [
+        -9.65,
+        5.35
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8533e2fd-9573-44a1-8ba0-ec1734f8ad23",
+      "net": "NTC_BRAKE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.035355,
+      "start_mm": [
+        -10.825,
+        4.425
+      ],
+      "end_mm": [
+        -10.85,
+        4.4
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b8a1f641-0ab1-4a17-8bad-784dc14e31e8",
+      "net": "NTC_BRAKE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.45,
+      "start_mm": [
+        -10.825,
+        4.875
+      ],
+      "end_mm": [
+        -10.825,
+        4.425
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "d57d261d-24d6-42aa-8130-df92603a4c2c",
+      "net": "NTC_BRAKE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.601041,
+      "start_mm": [
+        -10.399999,
+        5.3
+      ],
+      "end_mm": [
+        -10.825,
+        4.875
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "06e0c741-83b9-46be-930a-de1f2d6ba627",
+      "net": "CAN_TERM_GATE",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.439828,
+      "start_mm": [
+        -14.222599,
+        7.7698
+      ],
+      "end_mm": [
+        -14.2176,
+        7.33
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ae160e7f-e30f-4987-9df6-700d87542f25",
+      "net": "CAN_TERM_GATE",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.69,
+      "start_mm": [
+        -14.67,
+        6.02
+      ],
+      "end_mm": [
+        -14.67,
+        5.33
+      ],
+      "unsupported_length_mm": 0.542143,
+      "longest_gap_mm": 0.542143,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.67,
+            5.8475
+          ],
+          "to_mm": [
+            -14.67,
+            5.33
+          ],
+          "length_mm": 0.5421
+        }
+      ]
+    },
+    {
+      "uuid": "c2766f18-f57c-4106-b98e-0985a93b214e",
+      "net": "CAN_TERM_GATE",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.749533,
+      "start_mm": [
+        -14.14,
+        6.55
+      ],
+      "end_mm": [
+        -14.67,
+        6.02
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "ce304513-0ebc-4eb1-94d6-dbe3753b6b61",
+      "net": "CAN_TERM_GATE",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.7,
+      "start_mm": [
+        -14.14,
+        7.25
+      ],
+      "end_mm": [
+        -14.14,
+        6.55
+      ],
+      "unsupported_length_mm": 0.3,
+      "longest_gap_mm": 0.3,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.14,
+            7.175
+          ],
+          "to_mm": [
+            -14.14,
+            6.875
+          ],
+          "length_mm": 0.3
+        }
+      ]
+    },
+    {
+      "uuid": "de568514-bc5e-4128-9996-76cd17e0054c",
+      "net": "CAN_TERM_GATE",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.111453,
+      "start_mm": [
+        -14.2176,
+        7.33
+      ],
+      "end_mm": [
+        -14.14,
+        7.25
+      ],
+      "unsupported_length_mm": 0.037151,
+      "longest_gap_mm": 0.037151,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.204667,
+            7.316667
+          ],
+          "to_mm": [
+            -14.1788,
+            7.29
+          ],
+          "length_mm": 0.0372
+        }
+      ]
+    },
+    {
+      "uuid": "17865185-e0f9-4905-8a13-bf9bb18be374",
+      "net": "CAN_TERM_GATE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.920001,
+      "start_mm": [
+        -15.2,
+        5.859999
+      ],
+      "end_mm": [
+        -15.2,
+        7.78
+      ],
+      "unsupported_length_mm": 0.59077,
+      "longest_gap_mm": 0.295385,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.2,
+            6.918461
+          ],
+          "to_mm": [
+            -15.2,
+            7.213846
+          ],
+          "length_mm": 0.2954
+        },
+        {
+          "from_mm": [
+            -15.2,
+            7.509231
+          ],
+          "to_mm": [
+            -15.2,
+            7.78
+          ],
+          "length_mm": 0.2954
+        }
+      ]
+    },
+    {
+      "uuid": "e6205aa8-a44f-48ad-b656-c170d12ba3f2",
+      "net": "CAN_TERM_GATE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.749532,
+      "start_mm": [
+        -14.67,
+        5.33
+      ],
+      "end_mm": [
+        -15.2,
+        5.859999
+      ],
+      "unsupported_length_mm": 0.549657,
+      "longest_gap_mm": 0.549657,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.687667,
+            5.347667
+          ],
+          "to_mm": [
+            -15.076333,
+            5.736333
+          ],
+          "length_mm": 0.5497
+        }
+      ]
+    },
+    {
+      "uuid": "b5108f51-a686-426f-bb17-a636a86c4ba3",
+      "net": "Net-(Q301-D)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.975015,
+      "start_mm": [
+        -14.4,
+        8.4302
+      ],
+      "end_mm": [
+        -13.424999,
+        8.425
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f9f3d493-c0da-4c39-85c6-1253aa4888dc",
+      "net": "Net-(Q301-D)",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.24052,
+      "start_mm": [
+        -13.424999,
+        8.425
+      ],
+      "end_mm": [
+        -13.25,
+        8.590001
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "20c4d97f-78cc-4960-b204-77fd0724cb01",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.070087,
+      "start_mm": [
+        -8.924559,
+        5.449559
+      ],
+      "end_mm": [
+        -8.875,
+        5.4
+      ],
+      "unsupported_length_mm": 0.070087,
+      "longest_gap_mm": 0.070087,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.912169,
+            5.437169
+          ],
+          "to_mm": [
+            -8.875,
+            5.4
+          ],
+          "length_mm": 0.0701
+        }
+      ]
+    },
+    {
+      "uuid": "218d591d-fb1a-42c8-a97f-35fce554cc4b",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.620441,
+      "start_mm": [
+        -9.545,
+        5.449559
+      ],
+      "end_mm": [
+        -8.924559,
+        5.449559
+      ],
+      "unsupported_length_mm": 0.334084,
+      "longest_gap_mm": 0.334084,
+      "gaps": [
+        {
+          "from_mm": [
+            -9.23478,
+            5.449559
+          ],
+          "to_mm": [
+            -8.924559,
+            5.449559
+          ],
+          "length_mm": 0.3341
+        }
+      ]
+    },
+    {
+      "uuid": "98ce0166-eeb0-4f6b-b537-df118d0253d8",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.65,
+      "start_mm": [
+        -10.325,
+        15.625
+      ],
+      "end_mm": [
+        -11.975,
+        15.625
+      ],
+      "unsupported_length_mm": 1.1,
+      "longest_gap_mm": 0.55,
+      "gaps": [
+        {
+          "from_mm": [
+            -10.35,
+            15.625
+          ],
+          "to_mm": [
+            -10.9,
+            15.625
+          ],
+          "length_mm": 0.55
+        },
+        {
+          "from_mm": [
+            -11.45,
+            15.625
+          ],
+          "to_mm": [
+            -11.975,
+            15.625
+          ],
+          "length_mm": 0.55
+        }
+      ]
+    },
+    {
+      "uuid": "01087b5c-45d3-4cca-98b6-48ae3e4d3dda",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.247487,
+      "start_mm": [
+        -10.5,
+        15.45
+      ],
+      "end_mm": [
+        -10.325,
+        15.625
+      ],
+      "unsupported_length_mm": 0.247487,
+      "longest_gap_mm": 0.247487,
+      "gaps": [
+        {
+          "from_mm": [
+            -10.4825,
+            15.4675
+          ],
+          "to_mm": [
+            -10.325,
+            15.625
+          ],
+          "length_mm": 0.2475
+        }
+      ]
+    },
+    {
+      "uuid": "0418ee5e-9277-46da-a89f-c03e6e6d2157",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 3.175,
+      "start_mm": [
+        -14.1,
+        13.125
+      ],
+      "end_mm": [
+        -14.1,
+        9.95
+      ],
+      "unsupported_length_mm": 0.644922,
+      "longest_gap_mm": 0.347266,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.1,
+            12.951367
+          ],
+          "to_mm": [
+            -14.1,
+            12.802539
+          ],
+          "length_mm": 0.1488
+        },
+        {
+          "from_mm": [
+            -14.1,
+            10.768555
+          ],
+          "to_mm": [
+            -14.1,
+            10.619727
+          ],
+          "length_mm": 0.1488
+        },
+        {
+          "from_mm": [
+            -14.1,
+            10.272461
+          ],
+          "to_mm": [
+            -14.1,
+            9.95
+          ],
+          "length_mm": 0.3473
+        }
+      ]
+    },
+    {
+      "uuid": "2997d659-18bf-40fc-9637-e011e8f1c4f7",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 2.35,
+      "start_mm": [
+        -10.5,
+        13.1
+      ],
+      "end_mm": [
+        -10.5,
+        15.45
+      ],
+      "unsupported_length_mm": 0.55,
+      "longest_gap_mm": 0.35,
+      "gaps": [
+        {
+          "from_mm": [
+            -10.5,
+            14.075
+          ],
+          "to_mm": [
+            -10.5,
+            14.275
+          ],
+          "length_mm": 0.2
+        },
+        {
+          "from_mm": [
+            -10.5,
+            15.125
+          ],
+          "to_mm": [
+            -10.5,
+            15.45
+          ],
+          "length_mm": 0.35
+        }
+      ]
+    },
+    {
+      "uuid": "54a96760-41ec-4100-a573-e3cd1d3ca8cf",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.375,
+      "start_mm": [
+        -11.975,
+        15.625
+      ],
+      "end_mm": [
+        -11.975,
+        15.25
+      ],
+      "unsupported_length_mm": 0.375,
+      "longest_gap_mm": 0.375,
+      "gaps": [
+        {
+          "from_mm": [
+            -11.975,
+            15.601562
+          ],
+          "to_mm": [
+            -11.975,
+            15.25
+          ],
+          "length_mm": 0.375
+        }
+      ]
+    },
+    {
+      "uuid": "5d56ee46-ed2b-4c2f-b732-fd6d599e49cb",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 5.95,
+      "start_mm": [
+        -9.725,
+        6.375
+      ],
+      "end_mm": [
+        -9.725,
+        12.325
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "731c1db2-342e-4786-a38f-9df6caf4271f",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.06066,
+      "start_mm": [
+        -8.975,
+        5.625
+      ],
+      "end_mm": [
+        -9.725,
+        6.375
+      ],
+      "unsupported_length_mm": 0.144635,
+      "longest_gap_mm": 0.144635,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.992045,
+            5.642045
+          ],
+          "to_mm": [
+            -9.094318,
+            5.744318
+          ],
+          "length_mm": 0.1446
+        }
+      ]
+    },
+    {
+      "uuid": "b9abf73c-3e25-4d64-bf88-8b1304119d5a",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 3.005204,
+      "start_mm": [
+        -11.975,
+        15.25
+      ],
+      "end_mm": [
+        -14.1,
+        13.125
+      ],
+      "unsupported_length_mm": 0.344859,
+      "longest_gap_mm": 0.197063,
+      "gaps": [
+        {
+          "from_mm": [
+            -11.992418,
+            15.232582
+          ],
+          "to_mm": [
+            -12.131762,
+            15.093238
+          ],
+          "length_mm": 0.1971
+        },
+        {
+          "from_mm": [
+            -13.908402,
+            13.316598
+          ],
+          "to_mm": [
+            -14.01291,
+            13.21209
+          ],
+          "length_mm": 0.1478
+        }
+      ]
+    },
+    {
+      "uuid": "fe91d152-733a-4a6f-a54d-7ec6caa0f603",
+      "net": "CAN_TERM_DISABLE",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.096016,
+      "start_mm": [
+        -9.725,
+        12.325
+      ],
+      "end_mm": [
+        -10.5,
+        13.1
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    }
+  ]
+}

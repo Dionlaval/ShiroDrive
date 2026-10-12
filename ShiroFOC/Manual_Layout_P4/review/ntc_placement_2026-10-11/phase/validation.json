@@ -1,0 +1,227 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/ntc_placement_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "b80f4e53a6b2d0f2141c7621ccca13b152eb86d52738a354707efabf63daf02e",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/ntc_placement_2026-10-11/phase/ShiroFOC_Manual.kicad_pcb",
+  "candidate_sha256": "62de3befb5c0526d70e8a35c4d0f6070b61b1e4ab005fcc709358bc91263ceba",
+  "result": "PASS",
+  "checks": {
+    "source_hash_matches_manifest": true,
+    "same_footprint_reference_set": true,
+    "only_six_authorized_footprints_changed": true,
+    "all_existing_uuids_pad_nets_and_schematic_paths_preserved": true,
+    "all_copper_zones_outline_and_board_drawings_unchanged": true,
+    "no_courtyard_body_through_hole_or_edge_conflicts_in_placement_check": true,
+    "zero_new_drc_errors": true,
+    "unconnected_count_unchanged": true
+  },
+  "changed_footprints": [
+    "R701",
+    "R702",
+    "R703",
+    "R711",
+    "R712",
+    "R713"
+  ],
+  "identity_mismatches": [],
+  "board_elements": {
+    "segment": {
+      "before_count": 537,
+      "after_count": 537,
+      "unchanged": true
+    },
+    "arc": {
+      "before_count": 0,
+      "after_count": 0,
+      "unchanged": true
+    },
+    "via": {
+      "before_count": 124,
+      "after_count": 124,
+      "unchanged": true
+    },
+    "zone": {
+      "before_count": 2,
+      "after_count": 2,
+      "unchanged": true
+    },
+    "gr_line": {
+      "before_count": 106,
+      "after_count": 106,
+      "unchanged": true
+    },
+    "gr_arc": {
+      "before_count": 16,
+      "after_count": 16,
+      "unchanged": true
+    },
+    "gr_circle": {
+      "before_count": 4,
+      "after_count": 4,
+      "unchanged": true
+    },
+    "gr_rect": {
+      "before_count": 3,
+      "after_count": 3,
+      "unchanged": true
+    },
+    "gr_poly": {
+      "before_count": 0,
+      "after_count": 0,
+      "unchanged": true
+    },
+    "gr_curve": {
+      "before_count": 0,
+      "after_count": 0,
+      "unchanged": true
+    },
+    "gr_text": {
+      "before_count": 29,
+      "after_count": 29,
+      "unchanged": true
+    },
+    "dimension": {
+      "before_count": 0,
+      "after_count": 0,
+      "unchanged": true
+    },
+    "net": {
+      "before_count": 195,
+      "after_count": 195,
+      "unchanged": true
+    }
+  },
+  "drc": {
+    "before": {
+      "warning": 398,
+      "error": 33
+    },
+    "candidate": {
+      "warning": 396,
+      "error": 33
+    },
+    "unconnected_before": 433,
+    "unconnected_candidate": 433,
+    "introduced_violations": [
+      {
+        "description": "Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.0000 mm)",
+        "items": [
+          {
+            "description": "Polygon of D801 on B.Silkscreen",
+            "pos": {
+              "x": -16.650001,
+              "y": 1.275
+            },
+            "uuid": "62553ff1-0427-49f2-b815-a6552bc30a50"
+          },
+          {
+            "description": "Segment of R703 on B.Silkscreen",
+            "pos": {
+              "x": -16.55364,
+              "y": 0.93
+            },
+            "uuid": "bbe41196-48c8-49c9-b671-1fc56c57dcaa"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_overlap"
+      },
+      {
+        "description": "Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.1700 mm)",
+        "items": [
+          {
+            "description": "Segment of R702 on B.Silkscreen",
+            "pos": {
+              "x": -16.55364,
+              "y": -0.12
+            },
+            "uuid": "57cbc9ee-39ae-4223-8a73-66bd9638214b"
+          },
+          {
+            "description": "Segment of R703 on B.Silkscreen",
+            "pos": {
+              "x": -16.55364,
+              "y": 0.17
+            },
+            "uuid": "9141451b-d1ef-49a8-bfd1-14b6f1a92b19"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_overlap"
+      },
+      {
+        "description": "Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.1700 mm)",
+        "items": [
+          {
+            "description": "Segment of R713 on B.Silkscreen",
+            "pos": {
+              "x": -14.153641,
+              "y": 0.17
+            },
+            "uuid": "0b33f70d-22b7-47c0-baf4-ab8f208c19f6"
+          },
+          {
+            "description": "Segment of R712 on B.Silkscreen",
+            "pos": {
+              "x": -14.153641,
+              "y": -0.12
+            },
+            "uuid": "4a17623b-15f7-435c-8be6-30d2606c9a26"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_overlap"
+      },
+      {
+        "description": "Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.1700 mm)",
+        "items": [
+          {
+            "description": "Segment of R711 on B.Silkscreen",
+            "pos": {
+              "x": -14.153641,
+              "y": -1.17
+            },
+            "uuid": "976df294-9468-469d-b693-b89f7f36b733"
+          },
+          {
+            "description": "Segment of R712 on B.Silkscreen",
+            "pos": {
+              "x": -14.153641,
+              "y": -0.88
+            },
+            "uuid": "9908e69b-08c3-46ce-aaa6-fc87681143df"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_overlap"
+      },
+      {
+        "description": "Silkscreen overlap (board setup constraints silk clearance 0.2000 mm; actual 0.1700 mm)",
+        "items": [
+          {
+            "description": "Segment of R702 on B.Silkscreen",
+            "pos": {
+              "x": -16.55364,
+              "y": -0.88
+            },
+            "uuid": "624bc0a9-2c70-47c7-bf0f-c331c114ba38"
+          },
+          {
+            "description": "Segment of R701 on B.Silkscreen",
+            "pos": {
+              "x": -16.55364,
+              "y": -1.17
+            },
+            "uuid": "b94dc8e5-5722-4ac6-b27b-3b5cc8a621d9"
+          }
+        ],
+        "severity": "warning",
+        "type": "silk_overlap"
+      }
+    ]
+  },
+  "limitations": [
+    "Placement only; the NTC paths still require routing.",
+    "Five new silkscreen-only overlap warnings remain: four 0.17 mm row gaps and R703/D801 symbol overlap.",
+    "ADC capacitors C711/C712/C713 and phase thermistors TH701/TH702/TH703 remain unchanged."
+  ]
+}

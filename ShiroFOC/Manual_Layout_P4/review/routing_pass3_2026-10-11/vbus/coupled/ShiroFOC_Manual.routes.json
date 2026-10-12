@@ -1,0 +1,66 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/vbus/phasec_open/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "VBUS_SENSE",
+      "source": "0053dd7e-d0aa-4c6a-94bc-9733e61a78cd",
+      "target": "57c7a55f-14de-4341-a901-4a2020f773c1",
+      "source_ref": "U4",
+      "source_pin": "9",
+      "target_ref": "U602",
+      "target_pin": "12",
+      "distance_mm": 12.711877499172537,
+      "length_mm": 16.796372644585997,
+      "vias": 1,
+      "path_points": 579,
+      "rejected": false,
+      "new_items": [
+        "a95d5197-67aa-48ea-bfaf-f25ae80c6cb0",
+        "a7a6c9b2-78ef-40ce-bc94-7dc942ef2a5d",
+        "8b420033-8f7f-4de0-a7bf-e54f63d2642d",
+        "7f00bd0f-4c96-4339-bb73-25a08edc5f35",
+        "6d56332f-02ee-4df8-8961-f3943183521f",
+        "17cca6fe-d747-46d4-8044-f9a5dacd82fb",
+        "2bbca2c3-4924-4564-b2e6-10845b2b23eb",
+        "7d9d1960-a742-4cb4-a14b-308436066edf",
+        "75e3f302-020f-4745-a2b4-009ab147aaa1",
+        "32082098-cbe9-4273-a035-512fd8601929",
+        "f9679d77-315a-4947-ae51-3735cdff2857",
+        "b0cc561f-5812-4143-ac0a-419c75fb973b",
+        "51d8fdf1-8e03-4429-a7e2-e7b60b322096",
+        "f92a8d84-326a-4241-a3ea-7a84e6348c5a",
+        "6ab77fbf-68f4-4e3f-a2c3-33082fe7c346",
+        "693b323e-74eb-4f15-8984-ed44bdcf4be2",
+        "4eeeab6c-a99f-440a-8fe5-541322d94142",
+        "91aef953-cf6f-4fbc-bed5-e6c476543b19"
+      ],
+      "elapsed_seconds": 5.571181058883667
+    },
+    {
+      "net": "NTC_PHASE_C",
+      "source": "8620edfb-5c81-4041-aedc-f5d5d06266e2",
+      "target": "3f199580-9e60-4891-a464-c51186b23659",
+      "source_ref": "U4",
+      "source_pin": "13",
+      "target_ref": "R713",
+      "target_pin": "2",
+      "distance_mm": 9.735662171700959,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 5.744688987731934
+    }
+  ]
+}

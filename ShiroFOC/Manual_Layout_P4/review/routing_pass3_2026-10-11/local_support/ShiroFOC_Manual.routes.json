@@ -1,0 +1,133 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "/CAN interface/CANL_BUS",
+      "source": "9937adfc-7e90-454f-880f-26606fb0d57b",
+      "target": "b3250b10-a91d-4102-93da-08506cc59e03",
+      "source_ref": "Q802",
+      "source_pin": "3",
+      "target_ref": "Q802",
+      "target_pin": "3",
+      "distance_mm": 0.9883678212087847,
+      "length_mm": 0.7664213562373099,
+      "vias": 0,
+      "path_points": 30,
+      "rejected": false,
+      "new_items": [
+        "e001bc9d-6b2d-4e28-86b1-cf29bdadef8c",
+        "1944048d-b1df-4217-887c-70b745cc8021"
+      ],
+      "elapsed_seconds": 5.2983558177948
+    },
+    {
+      "net": "CAN_TERM_GATE",
+      "source": "70c95f98-0f62-474b-b9e0-b0ac0c025842",
+      "target": "725d3194-5dc7-4405-bdc9-1efa74a044f0",
+      "source_ref": "Q301",
+      "source_pin": "1",
+      "target_ref": "Q801",
+      "target_pin": "3",
+      "distance_mm": 1.0465926141550972,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 5.382279872894287
+    },
+    {
+      "net": "Net-(D301-RK)",
+      "source": "164c501e-58ec-412d-bd28-b555452ebb44",
+      "target": "cd0e9f3a-c99f-4b05-bcc3-8c735cd92ee5",
+      "source_ref": "D301",
+      "source_pin": "1",
+      "target_ref": "R304",
+      "target_pin": "2",
+      "distance_mm": 2.631299285525119,
+      "length_mm": 2.775609665440984,
+      "vias": 0,
+      "path_points": 88,
+      "rejected": false,
+      "new_items": [
+        "975d06a8-6090-4902-84f0-ff681496e766",
+        "c21db010-1935-445a-9fb9-bb0a14525c8c",
+        "80464ffd-f8db-4d7c-816a-dab2289256b2",
+        "34c34872-12c9-4ccf-9717-765b2ee51fa1",
+        "5b908728-f048-4af3-ade6-433906ac8e51",
+        "cacc925c-b809-4b34-b549-cde9eb522cfd",
+        "eeaef741-ab98-48ef-b563-f47c23c0be5c",
+        "dd8e6f54-a2c8-4ecd-b6b7-f8a3833fe4b9"
+      ],
+      "elapsed_seconds": 5.572385787963867
+    },
+    {
+      "net": "Net-(D501-K)",
+      "source": "697bd153-3ac2-4b9d-b77b-a871617f3a15",
+      "target": "a38b7174-06c0-449c-aaed-0628be35f853",
+      "source_ref": "D501",
+      "source_pin": "1",
+      "target_ref": "R504",
+      "target_pin": "1",
+      "distance_mm": 0.5608919503799283,
+      "length_mm": 2.2038582233137647,
+      "vias": 0,
+      "path_points": 73,
+      "rejected": false,
+      "new_items": [
+        "49982376-8142-4543-ae3e-4062e2614507",
+        "88497d13-8634-4acc-a313-657d4b2e9a7d",
+        "3ab1fc6f-6994-497d-ba17-919d6ac2c6b3"
+      ],
+      "elapsed_seconds": 5.508543968200684
+    },
+    {
+      "net": "Net-(D502-A1)",
+      "source": "6e3188f6-fd70-4866-b843-d4c34df90750",
+      "target": "ca646f13-47f5-4656-a73e-7c0d5a41dc3f",
+      "source_ref": "R502",
+      "source_pin": "2",
+      "target_ref": "D502",
+      "target_pin": "1",
+      "distance_mm": 0.8721403155484787,
+      "length_mm": 0.9121320343559649,
+      "vias": 0,
+      "path_points": 35,
+      "rejected": false,
+      "new_items": [
+        "317493af-8a42-47d5-8b1e-16730ab5f7e2",
+        "8a63b015-b5b9-4fba-9ca8-988679c31cc7"
+      ],
+      "elapsed_seconds": 5.71843409538269
+    },
+    {
+      "net": "Net-(Q301-D)",
+      "source": "854350ef-a86e-4f09-8ad6-28677058ee8d",
+      "target": "9a749acb-3495-4c6c-bc76-6ba7c5bb6b62",
+      "source_ref": "Q301",
+      "source_pin": "3",
+      "target_ref": "R304",
+      "target_pin": "1",
+      "distance_mm": 1.1610496800744576,
+      "length_mm": 1.2224873734152917,
+      "vias": 0,
+      "path_points": 47,
+      "rejected": false,
+      "new_items": [
+        "b5108f51-a686-426f-bb17-a636a86c4ba3",
+        "f9f3d493-c0da-4c39-85c6-1253aa4888dc"
+      ],
+      "elapsed_seconds": 6.182977914810181
+    }
+  ]
+}

@@ -1,0 +1,3962 @@
+{
+  "analyzer_type": "emc",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/schematic.json",
+      "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/pcb_refilled.json"
+    ],
+    "source_hashes": {
+      "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/schematic.json": "2bef82c7ff906597f19cf06e624b12b44693c043c858b37db1988b0e08b55705",
+      "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/pcb_refilled.json": "a91dbfbb074ffc71d296e3609a989d750db75479d2c71404babcc4a4b3cd729b"
+    },
+    "run_id": "20261011T144309Z-9d96cd",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/schematic.json",
+        "sha256": "2bef82c7ff906597f19cf06e624b12b44693c043c858b37db1988b0e08b55705",
+        "schema_version": "1.4.0",
+        "run_id": "20261011T144309Z-9d96cd"
+      },
+      "pcb": {
+        "path": "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/pcb_refilled.json",
+        "sha256": "a91dbfbb074ffc71d296e3609a989d750db75479d2c71404babcc4a4b3cd729b",
+        "schema_version": "1.4.0",
+        "run_id": "20261011T144309Z-9d96cd"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "summary": {
+    "total_findings": 86,
+    "categories_checked": 11,
+    "active": 86,
+    "suppressed": 0,
+    "by_severity": {
+      "error": 19,
+      "warning": 50,
+      "info": 17
+    },
+    "emc_risk_score": 0
+  },
+  "target_standard": "fcc-class-b",
+  "findings": [
+    {
+      "category": "ground_plane",
+      "severity": "warning",
+      "rule_id": "GP-001",
+      "confidence": "heuristic",
+      "title": "Signal has partial reference plane gap",
+      "description": "Net GLS3 has 83% reference plane coverage over 18.8mm of routing. Return current must detour around the gap, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "GLS3"
+      ],
+      "recommendation": "Route this signal to avoid ground plane gaps, or fill the void. If a split is intentional, add a bridge capacitor across the gap.",
+      "detector": "emc_ground_plane",
+      "summary": "Signal has partial reference plane gap",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Ground Plane",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "signal_net": "GLS3",
+      "coverage_pct": 83.3,
+      "trace_mm": 18.8,
+      "is_high_speed_or_clock": false,
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:GP-001:gls3"
+    },
+    {
+      "category": "ground_plane",
+      "severity": "warning",
+      "rule_id": "GP-004",
+      "confidence": "deterministic",
+      "title": "Low ground plane fill ratio",
+      "description": "Ground zone on In1.Cu has 26% fill ratio. Excessive routing or thermal relief patterns may be reducing ground plane effectiveness.",
+      "components": [],
+      "nets": [
+        "GND"
+      ],
+      "recommendation": "Reduce routing density on this layer or move signals to other layers.",
+      "detector": "emc_ground_plane",
+      "summary": "Low ground plane fill ratio",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Ground Plane",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "layer": "In1.Cu",
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:GP-004:gnd"
+    },
+    {
+      "category": "ground_plane",
+      "severity": "warning",
+      "rule_id": "GP-004",
+      "confidence": "deterministic",
+      "title": "Low ground plane fill ratio",
+      "description": "Ground zone on In4.Cu has 26% fill ratio. Excessive routing or thermal relief patterns may be reducing ground plane effectiveness.",
+      "components": [],
+      "nets": [
+        "GND"
+      ],
+      "recommendation": "Reduce routing density on this layer or move signals to other layers.",
+      "detector": "emc_ground_plane",
+      "summary": "Low ground plane fill ratio",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Ground Plane",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "layer": "In4.Cu",
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:GP-004:gnd#1"
+    },
+    {
+      "category": "ground_plane",
+      "severity": "warning",
+      "rule_id": "GP-005",
+      "confidence": "deterministic",
+      "title": "2 ground domains detected",
+      "description": "Board has 2 separate ground domains: ?, ?. Multiple ground domains require careful single-point connection to avoid ground loops and EMI.",
+      "components": [],
+      "nets": [
+        "?",
+        "?"
+      ],
+      "recommendation": "Verify ground domains connect at a single, intentional point (typically near the ADC for analog/digital split). Ensure no signal traces cross the domain boundary.",
+      "detector": "emc_ground_plane",
+      "summary": "2 ground domains detected",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Ground Plane",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:GP-005:x"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-001",
+      "confidence": "deterministic",
+      "title": "Decoupling cap moderately far from U603",
+      "description": "Nearest decoupling cap to U603 (74LVC3G17) is 6.8mm away. Recommended: <3mm for best high-frequency performance. Shared net: 3V3.",
+      "components": [
+        "U603",
+        "C802",
+        "C801"
+      ],
+      "nets": [],
+      "recommendation": "Move decoupling cap closer to U603 power pins if layout permits.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap moderately far from U603",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-001:u603"
+    },
+    {
+      "category": "decoupling",
+      "severity": "error",
+      "rule_id": "DC-001",
+      "confidence": "deterministic",
+      "title": "Decoupling cap too far from U602",
+      "description": "Nearest decoupling cap to U602 (TMUX1574PW) is 9.0mm away. Each mm of trace adds 0.3-0.8 nH of loop inductance, reducing decoupling effectiveness at high frequencies. Shared net: VBUS_SENSE.",
+      "components": [
+        "U602",
+        "C108"
+      ],
+      "nets": [],
+      "recommendation": "Move decoupling cap within 2-3mm of U602 power pins.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap too far from U602",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-001:u602"
+    },
+    {
+      "category": "decoupling",
+      "severity": "error",
+      "rule_id": "DC-001",
+      "confidence": "deterministic",
+      "title": "Decoupling cap too far from U202",
+      "description": "Nearest decoupling cap to U202 (USBLC6-2SC6) is 9.2mm away. Each mm of trace adds 0.3-0.8 nH of loop inductance, reducing decoupling effectiveness at high frequencies. Shared net: 5V_USB.",
+      "components": [
+        "U202",
+        "C208"
+      ],
+      "nets": [],
+      "recommendation": "Move decoupling cap within 2-3mm of U202 power pins.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap too far from U202",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-001:u202"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C701 far from via",
+      "description": "C701 is 56.1mm from the nearest via (~39.3nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C701",
+        "U701"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C701 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C701 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c701"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C702 far from via",
+      "description": "C702 is 55.4mm from the nearest via (~38.8nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C702",
+        "U701"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C702 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C702 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c702"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C311 far from via",
+      "description": "C311 is 3.4mm from the nearest via (~2.4nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C311",
+        "U4"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C311 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C311 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c311"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C312 far from via",
+      "description": "C312 is 3.1mm from the nearest via (~2.2nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C312",
+        "U4"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C312 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C312 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c312"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C601 far from via",
+      "description": "C601 is 4.9mm from the nearest via (~3.4nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C601",
+        "U4"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C601 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C601 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c601"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C10 far from via",
+      "description": "C10 is 3.0mm from the nearest via (~2.1nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C10",
+        "U4"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C10 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C10 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c10"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C5 far from via",
+      "description": "C5 is 3.5mm from the nearest via (~2.5nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C5",
+        "U2"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C5 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C5 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c5"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C10 far from via",
+      "description": "C10 is 3.0mm from the nearest via (~2.1nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C10",
+        "U2"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C10 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C10 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c10#1"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C10 far from via",
+      "description": "C10 is 3.0mm from the nearest via (~2.1nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C10",
+        "U3"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C10 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C10 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c10#2"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C202 far from via",
+      "description": "C202 is 3.1mm from the nearest via (~2.2nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C202",
+        "U201"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C202 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C202 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c202"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C201 far from via",
+      "description": "C201 is 3.6mm from the nearest via (~2.5nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C201",
+        "U201"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C201 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C201 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c201"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C1 far from via",
+      "description": "C1 is 4.3mm from the nearest via (~3.0nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C1",
+        "U1"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C1 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C1 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c1"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C5 far from via",
+      "description": "C5 is 3.5mm from the nearest via (~2.5nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C5",
+        "U1"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C5 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C5 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c5#1"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C2 far from via",
+      "description": "C2 is 3.5mm from the nearest via (~2.4nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C2",
+        "U1"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C2 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C2 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c2"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C601 far from via",
+      "description": "C601 is 4.9mm from the nearest via (~3.4nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C601",
+        "U601"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C601 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C601 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c601#1"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C219 far from via",
+      "description": "C219 is 5.0mm from the nearest via (~3.5nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C219",
+        "U205"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C219 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C219 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c219"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C218 far from via",
+      "description": "C218 is 4.7mm from the nearest via (~3.3nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C218",
+        "U205"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C218 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C218 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c218"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C312 far from via",
+      "description": "C312 is 3.1mm from the nearest via (~2.2nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C312",
+        "U205"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C312 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C312 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c312#1"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C218 far from via",
+      "description": "C218 is 4.7mm from the nearest via (~3.3nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C218",
+        "U203"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C218 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C218 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c218#1"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C219 far from via",
+      "description": "C219 is 5.0mm from the nearest via (~3.5nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C219",
+        "U203"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C219 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C219 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c219#1"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C502 far from via",
+      "description": "C502 is 4.5mm from the nearest via (~3.1nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C502",
+        "U501"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C502 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C502 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c502"
+    },
+    {
+      "category": "decoupling",
+      "severity": "warning",
+      "rule_id": "DC-003",
+      "confidence": "deterministic",
+      "title": "Decoupling cap C501 far from via",
+      "description": "C501 is 4.6mm from the nearest via (~3.2nH connection inductance). Long traces between cap and via degrade high-frequency decoupling effectiveness.",
+      "components": [
+        "C501",
+        "U501"
+      ],
+      "nets": [],
+      "recommendation": "Place a via directly adjacent to C501 pads. Use fat, short traces from cap pads to via.",
+      "detector": "emc_decoupling",
+      "summary": "Decoupling cap C501 far from via",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Decoupling",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DC-003:c501"
+    },
+    {
+      "category": "io_filtering",
+      "severity": "info",
+      "rule_id": "IO-001",
+      "confidence": "heuristic",
+      "title": "No EMC filtering near J1",
+      "description": "Connector J1 (MR60PW-M) has no ferrite bead, CM choke, or ESD protection within 25mm. Unfiltered I/O cables are the dominant source of radiated emissions \u2014 common-mode current as low as 5 \u00b5A can exceed FCC Class B.",
+      "components": [
+        "J1"
+      ],
+      "nets": [],
+      "recommendation": "Add a ferrite bead (e.g., BLM18AG601SN1D, 600\u03a9@100MHz) on signal lines near J1. Add ESD/TVS protection for external interfaces.",
+      "detector": "emc_io_filtering",
+      "summary": "No EMC filtering near J1",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Io Filtering",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "ferrite_bead"
+          }
+        ],
+        "basis": "EMI filter on external I/O"
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:IO-001:j1"
+    },
+    {
+      "category": "io_filtering",
+      "severity": "info",
+      "rule_id": "IO-001",
+      "confidence": "heuristic",
+      "title": "No EMC filtering near J501",
+      "description": "Connector J501 (BRAKE RESISTOR) has no ferrite bead, CM choke, or ESD protection within 25mm. Unfiltered I/O cables are the dominant source of radiated emissions \u2014 common-mode current as low as 5 \u00b5A can exceed FCC Class B.",
+      "components": [
+        "J501"
+      ],
+      "nets": [],
+      "recommendation": "Add a ferrite bead (e.g., BLM18AG601SN1D, 600\u03a9@100MHz) on signal lines near J501. Add ESD/TVS protection for external interfaces.",
+      "detector": "emc_io_filtering",
+      "summary": "No EMC filtering near J501",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Io Filtering",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "ferrite_bead"
+          }
+        ],
+        "basis": "EMI filter on external I/O"
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:IO-001:j501"
+    },
+    {
+      "category": "io_filtering",
+      "severity": "info",
+      "rule_id": "IO-001",
+      "confidence": "heuristic",
+      "title": "No EMC filtering near J1001",
+      "description": "Connector J1001 (TC2030-NL SWD) has no ferrite bead, CM choke, or ESD protection within 25mm. Unfiltered I/O cables are the dominant source of radiated emissions \u2014 common-mode current as low as 5 \u00b5A can exceed FCC Class B.",
+      "components": [
+        "J1001"
+      ],
+      "nets": [],
+      "recommendation": "Add a ferrite bead (e.g., BLM18AG601SN1D, 600\u03a9@100MHz) on signal lines near J1001. Add ESD/TVS protection for external interfaces.",
+      "detector": "emc_io_filtering",
+      "summary": "No EMC filtering near J1001",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Io Filtering",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "ferrite_bead"
+          }
+        ],
+        "basis": "EMI filter on external I/O"
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:IO-001:j1001"
+    },
+    {
+      "category": "io_filtering",
+      "severity": "info",
+      "rule_id": "IO-001",
+      "confidence": "heuristic",
+      "title": "No EMC filtering near J101",
+      "description": "Connector J101 (AMASS XT60PW-M) has no ferrite bead, CM choke, or ESD protection within 25mm. Unfiltered I/O cables are the dominant source of radiated emissions \u2014 common-mode current as low as 5 \u00b5A can exceed FCC Class B.",
+      "components": [
+        "J101"
+      ],
+      "nets": [],
+      "recommendation": "J101 appears to be a power-only connector (all pins are power/ground rails). A board-level ferrite bead would saturate at typical power-supply currents. If radiated EMI is a concern on the cable, add a system-level common-mode choke or use shielded cable with chassis termination.",
+      "detector": "emc_io_filtering",
+      "summary": "No EMC filtering near J101",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Io Filtering",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "ferrite_bead"
+          }
+        ],
+        "basis": "EMI filter on external I/O"
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:IO-001:j101"
+    },
+    {
+      "category": "io_filtering",
+      "severity": "info",
+      "rule_id": "IO-001",
+      "confidence": "heuristic",
+      "title": "No EMC filtering near J502",
+      "description": "Connector J502 (BRAKE NTC) has no ferrite bead, CM choke, or ESD protection within 25mm. Unfiltered I/O cables are the dominant source of radiated emissions \u2014 common-mode current as low as 5 \u00b5A can exceed FCC Class B.",
+      "components": [
+        "J502"
+      ],
+      "nets": [],
+      "recommendation": "Add a ferrite bead (e.g., BLM18AG601SN1D, 600\u03a9@100MHz) on signal lines near J502. Add ESD/TVS protection for external interfaces.",
+      "detector": "emc_io_filtering",
+      "summary": "No EMC filtering near J502",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Io Filtering",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "fix_params": {
+        "type": "add_component",
+        "components": [
+          {
+            "type": "ferrite_bead"
+          }
+        ],
+        "basis": "EMI filter on external I/O"
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:IO-001:j502"
+    },
+    {
+      "category": "io_filtering",
+      "severity": "info",
+      "rule_id": "IO-002",
+      "confidence": "heuristic",
+      "title": "Insufficient ground pins on J1",
+      "description": "J1 (MR60PW-M) has 0 ground pin(s) for 3 signal pins. Recommended: at least 2 ground pins for adequate return current path and cable shielding.",
+      "components": [
+        "J1"
+      ],
+      "nets": [],
+      "recommendation": "Ensure J1 has sufficient ground pins. For high-speed interfaces, ground pins should be distributed among signal pins, not grouped at one end.",
+      "detector": "emc_io_filtering",
+      "summary": "Insufficient ground pins on J1",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Io Filtering",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:IO-002:j1"
+    },
+    {
+      "category": "io_filtering",
+      "severity": "info",
+      "rule_id": "IO-002",
+      "confidence": "heuristic",
+      "title": "Insufficient ground pins on J1001",
+      "description": "J1001 (TC2030-NL SWD) has 1 ground pin(s) for 4 signal pins. Recommended: at least 2 ground pins for adequate return current path and cable shielding.",
+      "components": [
+        "J1001"
+      ],
+      "nets": [],
+      "recommendation": "Ensure J1001 has sufficient ground pins. For high-speed interfaces, ground pins should be distributed among signal pins, not grouped at one end.",
+      "detector": "emc_io_filtering",
+      "summary": "Insufficient ground pins on J1001",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Io Filtering",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:IO-002:j1001"
+    },
+    {
+      "category": "io_filtering",
+      "severity": "warning",
+      "rule_id": "IO-002",
+      "confidence": "heuristic",
+      "title": "Insufficient ground pins on U202",
+      "description": "U202 (USBLC6-2SC6) has 1 ground pin(s) for 4 signal pins. Recommended: at least 2 ground pins for adequate return current path and cable shielding.",
+      "components": [
+        "U202"
+      ],
+      "nets": [],
+      "recommendation": "Ensure U202 has sufficient ground pins. For high-speed interfaces, ground pins should be distributed among signal pins, not grouped at one end.",
+      "detector": "emc_io_filtering",
+      "summary": "Insufficient ground pins on U202",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Io Filtering",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:IO-002:u202"
+    },
+    {
+      "category": "clock_routing",
+      "severity": "warning",
+      "rule_id": "CK-001",
+      "confidence": "deterministic",
+      "title": "Clock /MCU / clock / SWD/NRST on outer layer",
+      "description": "Clock net /MCU / clock / SWD/NRST is 100% routed on outer layers (microstrip). Inner stripline layers provide better shielding from radiation.",
+      "components": [],
+      "nets": [
+        "/MCU / clock / SWD/NRST"
+      ],
+      "recommendation": "Route clock signals on inner layers (stripline) when possible.",
+      "detector": "emc_clock_routing",
+      "summary": "Clock /MCU / clock / SWD/NRST on outer layer",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Clock Routing",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:CK-001:/mcu-/-clock-/-swd/nrst"
+    },
+    {
+      "category": "clock_routing",
+      "severity": "warning",
+      "rule_id": "CK-003",
+      "confidence": "deterministic",
+      "title": "Clock /MCU / clock / SWD/NRST routed near connector J801",
+      "description": "Clock net /MCU / clock / SWD/NRST passes within 9.7mm of connector J801. Clock harmonics can couple to attached cables via proximity, increasing radiated emissions.",
+      "components": [
+        "J801"
+      ],
+      "nets": [
+        "/MCU / clock / SWD/NRST"
+      ],
+      "recommendation": "Route /MCU / clock / SWD/NRST away from J801, or add ground guard traces between the clock and connector.",
+      "detector": "emc_clock_routing",
+      "summary": "Clock /MCU / clock / SWD/NRST routed near connector J801",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Clock Routing",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:CK-003:j801"
+    },
+    {
+      "category": "clock_routing",
+      "severity": "warning",
+      "rule_id": "CK-003",
+      "confidence": "deterministic",
+      "title": "Clock /MCU / clock / SWD/NRST routed near connector J802",
+      "description": "Clock net /MCU / clock / SWD/NRST passes within 9.3mm of connector J802. Clock harmonics can couple to attached cables via proximity, increasing radiated emissions.",
+      "components": [
+        "J802"
+      ],
+      "nets": [
+        "/MCU / clock / SWD/NRST"
+      ],
+      "recommendation": "Route /MCU / clock / SWD/NRST away from J802, or add ground guard traces between the clock and connector.",
+      "detector": "emc_clock_routing",
+      "summary": "Clock /MCU / clock / SWD/NRST routed near connector J802",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Clock Routing",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:CK-003:j802"
+    },
+    {
+      "category": "stackup",
+      "severity": "error",
+      "rule_id": "SU-001",
+      "confidence": "deterministic",
+      "title": "Adjacent signal layers: F.Cu, In1.Cu",
+      "description": "Signal layers F.Cu and In1.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+      "components": [],
+      "nets": [],
+      "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+      "detector": "emc_stackup",
+      "summary": "Adjacent signal layers: F.Cu, In1.Cu",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Stackup",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "emc:SU-001:e2cd8b639afb"
+    },
+    {
+      "category": "stackup",
+      "severity": "error",
+      "rule_id": "SU-001",
+      "confidence": "deterministic",
+      "title": "Adjacent signal layers: In1.Cu, In2.Cu",
+      "description": "Signal layers In1.Cu and In2.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+      "components": [],
+      "nets": [],
+      "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+      "detector": "emc_stackup",
+      "summary": "Adjacent signal layers: In1.Cu, In2.Cu",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Stackup",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "emc:SU-001:43b5f55aee53"
+    },
+    {
+      "category": "stackup",
+      "severity": "error",
+      "rule_id": "SU-001",
+      "confidence": "deterministic",
+      "title": "Adjacent signal layers: In2.Cu, In3.Cu",
+      "description": "Signal layers In2.Cu and In3.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+      "components": [],
+      "nets": [],
+      "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+      "detector": "emc_stackup",
+      "summary": "Adjacent signal layers: In2.Cu, In3.Cu",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Stackup",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "emc:SU-001:87af4d287939"
+    },
+    {
+      "category": "stackup",
+      "severity": "error",
+      "rule_id": "SU-001",
+      "confidence": "deterministic",
+      "title": "Adjacent signal layers: In3.Cu, In4.Cu",
+      "description": "Signal layers In3.Cu and In4.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+      "components": [],
+      "nets": [],
+      "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+      "detector": "emc_stackup",
+      "summary": "Adjacent signal layers: In3.Cu, In4.Cu",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Stackup",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "emc:SU-001:213a093701a8"
+    },
+    {
+      "category": "stackup",
+      "severity": "error",
+      "rule_id": "SU-001",
+      "confidence": "deterministic",
+      "title": "Adjacent signal layers: In4.Cu, B.Cu",
+      "description": "Signal layers In4.Cu and B.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+      "components": [],
+      "nets": [],
+      "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+      "detector": "emc_stackup",
+      "summary": "Adjacent signal layers: In4.Cu, B.Cu",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Stackup",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "emc:SU-001:e4cee3922cfb"
+    },
+    {
+      "category": "emission_estimate",
+      "severity": "info",
+      "rule_id": "EE-001",
+      "confidence": "heuristic",
+      "title": "Board cavity resonance frequencies",
+      "description": "Board (45\u00d745mm, \u03b5r=4.3) cavity resonances: (0,1) at 1606 MHz; (1,0) at 1606 MHz; (1,1) at 2272 MHz. PDN impedance spikes at these frequencies. Ensure adequate decoupling at and around these frequencies.",
+      "components": [],
+      "nets": [],
+      "recommendation": "Add decoupling capacitors with SRF near these frequencies.",
+      "detector": "emc_emission_estimate",
+      "summary": "Board cavity resonance frequencies",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Emission Estimate",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "emc:EE-001:14ba23cdf0dc"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: /CAN interface/CANL_BUS",
+      "description": "Net /CAN interface/CANL_BUS has 3 layer transition(s) across B.Cu, F.Cu. 3 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "/CAN interface/CANL_BUS"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: /CAN interface/CANL_BUS",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:/can-interface/canl_bus"
+    },
+    {
+      "category": "return_path",
+      "severity": "info",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: GLS3",
+      "description": "Net GLS3 has 3 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "GLS3"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: GLS3",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:gls3"
+    },
+    {
+      "category": "return_path",
+      "severity": "error",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: /USB service/CP2102_VBUS_SENSE",
+      "description": "Net /USB service/CP2102_VBUS_SENSE has 2 layer transition(s) across B.Cu, F.Cu. 1 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "/USB service/CP2102_VBUS_SENSE"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: /USB service/CP2102_VBUS_SENSE",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:/usb-service/cp2102_vbus_sense"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: GHS1",
+      "description": "Net GHS1 has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "GHS1"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: GHS1",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:ghs1"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: GHS2",
+      "description": "Net GHS2 has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "GHS2"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: GHS2",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:ghs2"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: GHS3",
+      "description": "Net GHS3 has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "GHS3"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: GHS3",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:ghs3"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: GLS1",
+      "description": "Net GLS1 has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "GLS1"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: GLS1",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:gls1"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: GLS2",
+      "description": "Net GLS2 has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "GLS2"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: GLS2",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:gls2"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: Net-(D601-IO2)",
+      "description": "Net Net-(D601-IO2) has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "Net-(D601-IO2)"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: Net-(D601-IO2)",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:net--d601-io2"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: Net-(D601-IO3)",
+      "description": "Net Net-(D601-IO3) has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "Net-(D601-IO3)"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: Net-(D601-IO3)",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:net--d601-io3"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: HS_RETURN_U",
+      "description": "Net HS_RETURN_U has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "HS_RETURN_U"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: HS_RETURN_U",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:hs_return_u"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: HS_RETURN_V",
+      "description": "Net HS_RETURN_V has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "HS_RETURN_V"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: HS_RETURN_V",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:hs_return_v"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: HS_RETURN_W",
+      "description": "Net HS_RETURN_W has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "HS_RETURN_W"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: HS_RETURN_W",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:hs_return_w"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: Net-(U602A-S3B)",
+      "description": "Net Net-(U602A-S3B) has 2 layer transition(s) across B.Cu, F.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "Net-(U602A-S3B)"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: Net-(U602A-S3B)",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:net--u602a-s3b"
+    },
+    {
+      "category": "return_path",
+      "severity": "error",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: SHUNT_U_SENSE_P",
+      "description": "Net SHUNT_U_SENSE_P has 2 layer transition(s) across B.Cu, In2.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "SHUNT_U_SENSE_P"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: SHUNT_U_SENSE_P",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:shunt_u_sense_p"
+    },
+    {
+      "category": "return_path",
+      "severity": "error",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: SHUNT_V_SENSE_P",
+      "description": "Net SHUNT_V_SENSE_P has 2 layer transition(s) across B.Cu, In2.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "SHUNT_V_SENSE_P"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: SHUNT_V_SENSE_P",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:shunt_v_sense_p"
+    },
+    {
+      "category": "return_path",
+      "severity": "error",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: SHUNT_W_SENSE_N",
+      "description": "Net SHUNT_W_SENSE_N has 2 layer transition(s) across B.Cu, In2.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "SHUNT_W_SENSE_N"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: SHUNT_W_SENSE_N",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:shunt_w_sense_n"
+    },
+    {
+      "category": "return_path",
+      "severity": "error",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: SHUNT_W_SENSE_P",
+      "description": "Net SHUNT_W_SENSE_P has 2 layer transition(s) across B.Cu, In2.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "SHUNT_W_SENSE_P"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: SHUNT_W_SENSE_P",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:shunt_w_sense_p"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: /CAN interface/CANH_BUS",
+      "description": "Net /CAN interface/CANH_BUS has 1 layer transition(s) across B.Cu, F.Cu. 1 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "/CAN interface/CANH_BUS"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: /CAN interface/CANH_BUS",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:/can-interface/canh_bus"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: /Current / temperature/OPP_U1",
+      "description": "Net /Current / temperature/OPP_U1 has 1 layer transition(s) across B.Cu, F.Cu. 1 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "/Current / temperature/OPP_U1"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: /Current / temperature/OPP_U1",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:/current-/-temperature/opp_u1"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "Missing stitching via at layer transition: /Current / temperature/OPP_V1",
+      "description": "Net /Current / temperature/OPP_V1 has 1 layer transition(s) across B.Cu, F.Cu. 1 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+      "components": [],
+      "nets": [
+        "/Current / temperature/OPP_V1"
+      ],
+      "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+      "detector": "emc_return_path",
+      "summary": "Missing stitching via at layer transition: /Current / temperature/OPP_V1",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:/current-/-temperature/opp_v1"
+    },
+    {
+      "category": "return_path",
+      "severity": "warning",
+      "rule_id": "RP-001",
+      "confidence": "deterministic",
+      "title": "21+ nets missing stitching vias (truncated)",
+      "description": "More than 20 nets have layer transitions without nearby ground stitching vias. Review via placement board-wide.",
+      "components": [],
+      "nets": [],
+      "recommendation": "Add ground stitching vias at all signal layer transitions.",
+      "detector": "emc_return_path",
+      "summary": "21+ nets missing stitching vias (truncated)",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Return Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:RP-001:8e25f4ed4075"
+    },
+    {
+      "category": "esd_path",
+      "severity": "info",
+      "rule_id": "ES-002",
+      "confidence": "heuristic",
+      "title": "Single ground via near ESD device D601",
+      "description": "D601 (esd_ic) has 1 ground via within 3mm. Multiple parallel vias reduce ground inductance. Two vias halve the inductance (~0.5nH \u2192 ~0.25nH).",
+      "components": [
+        "D601"
+      ],
+      "nets": [],
+      "recommendation": "Add a second ground via near D601 for lower inductance.",
+      "detector": "emc_esd_path",
+      "summary": "Single ground via near ESD device D601",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Esd Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:ES-002:d601"
+    },
+    {
+      "category": "esd_path",
+      "severity": "error",
+      "rule_id": "ES-002",
+      "confidence": "heuristic",
+      "title": "No ground via near ESD device D801",
+      "description": "D801 (esd_ic) has no ground stitching via within 3mm. The TVS ground pad inductance is the most critical parasitic in ESD protection \u2014 each nH adds ~37.5V overshoot during an 8kV strike.",
+      "components": [
+        "D801"
+      ],
+      "nets": [],
+      "recommendation": "Add multiple ground vias directly adjacent to D801 ground pad. Use fat, short traces to ground plane.",
+      "detector": "emc_esd_path",
+      "summary": "No ground via near ESD device D801",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Esd Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:ES-002:d801"
+    },
+    {
+      "category": "esd_path",
+      "severity": "error",
+      "rule_id": "ES-002",
+      "confidence": "heuristic",
+      "title": "No ground via near ESD device U202",
+      "description": "U202 (esd_ic) has no ground stitching via within 3mm. The TVS ground pad inductance is the most critical parasitic in ESD protection \u2014 each nH adds ~37.5V overshoot during an 8kV strike.",
+      "components": [
+        "U202"
+      ],
+      "nets": [],
+      "recommendation": "Add multiple ground vias directly adjacent to U202 ground pad. Use fat, short traces to ground plane.",
+      "detector": "emc_esd_path",
+      "summary": "No ground via near ESD device U202",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Esd Path",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "emc:ES-002:u202"
+    },
+    {
+      "category": "switching_emc",
+      "severity": "warning",
+      "rule_id": "SW-001",
+      "confidence": "heuristic",
+      "title": "U201 harmonics in 30-88 MHz band",
+      "description": "U201 (LMR36510FADDAR) switching at 0.5 MHz has 117 harmonics in the 30-88 MHz band (harmonics 60-176). Envelope rolloff at 32 MHz (-40 dB/decade above).",
+      "components": [
+        "U201"
+      ],
+      "nets": [],
+      "recommendation": "Minimize switching loop area for U201. Place input cap as close as possible. Consider spread-spectrum modulation if available.",
+      "detector": "emc_switching_emc",
+      "summary": "U201 harmonics in 30-88 MHz band",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Switching Emc",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:SW-001:u201"
+    },
+    {
+      "category": "switching_emc",
+      "severity": "info",
+      "rule_id": "SW-001",
+      "confidence": "heuristic",
+      "title": "U201 harmonics in 88-216 MHz band",
+      "description": "U201 (LMR36510FADDAR) switching at 0.5 MHz has 257 harmonics in the 88-216 MHz band (harmonics 176-432). Envelope rolloff at 32 MHz (-40 dB/decade above).",
+      "components": [
+        "U201"
+      ],
+      "nets": [],
+      "recommendation": "Minimize switching loop area for U201. Place input cap as close as possible. Consider spread-spectrum modulation if available.",
+      "detector": "emc_switching_emc",
+      "summary": "U201 harmonics in 88-216 MHz band",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Switching Emc",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:SW-001:u201#1"
+    },
+    {
+      "category": "switching_emc",
+      "severity": "info",
+      "rule_id": "SW-001",
+      "confidence": "heuristic",
+      "title": "U201 harmonics in 216-960 MHz band",
+      "description": "U201 (LMR36510FADDAR) switching at 0.5 MHz has 1489 harmonics in the 216-960 MHz band (harmonics 432-1920). Envelope rolloff at 32 MHz (-40 dB/decade above).",
+      "components": [
+        "U201"
+      ],
+      "nets": [],
+      "recommendation": "Minimize switching loop area for U201. Place input cap as close as possible. Consider spread-spectrum modulation if available.",
+      "detector": "emc_switching_emc",
+      "summary": "U201 harmonics in 216-960 MHz band",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Switching Emc",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:SW-001:u201#2"
+    },
+    {
+      "category": "switching_emc",
+      "severity": "warning",
+      "rule_id": "SW-001",
+      "confidence": "heuristic",
+      "title": "U205 harmonics in 30-88 MHz band",
+      "description": "U205 (MPM3620AGQV-Z) switching at 0.5 MHz has 117 harmonics in the 30-88 MHz band (harmonics 60-176). Envelope rolloff at 32 MHz (-40 dB/decade above).",
+      "components": [
+        "U205"
+      ],
+      "nets": [],
+      "recommendation": "Minimize switching loop area for U205. Place input cap as close as possible. Consider spread-spectrum modulation if available.",
+      "detector": "emc_switching_emc",
+      "summary": "U205 harmonics in 30-88 MHz band",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Switching Emc",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:SW-001:u205"
+    },
+    {
+      "category": "switching_emc",
+      "severity": "info",
+      "rule_id": "SW-001",
+      "confidence": "heuristic",
+      "title": "U205 harmonics in 88-216 MHz band",
+      "description": "U205 (MPM3620AGQV-Z) switching at 0.5 MHz has 257 harmonics in the 88-216 MHz band (harmonics 176-432). Envelope rolloff at 32 MHz (-40 dB/decade above).",
+      "components": [
+        "U205"
+      ],
+      "nets": [],
+      "recommendation": "Minimize switching loop area for U205. Place input cap as close as possible. Consider spread-spectrum modulation if available.",
+      "detector": "emc_switching_emc",
+      "summary": "U205 harmonics in 88-216 MHz band",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Switching Emc",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:SW-001:u205#1"
+    },
+    {
+      "category": "switching_emc",
+      "severity": "info",
+      "rule_id": "SW-001",
+      "confidence": "heuristic",
+      "title": "U205 harmonics in 216-960 MHz band",
+      "description": "U205 (MPM3620AGQV-Z) switching at 0.5 MHz has 1489 harmonics in the 216-960 MHz band (harmonics 432-1920). Envelope rolloff at 32 MHz (-40 dB/decade above).",
+      "components": [
+        "U205"
+      ],
+      "nets": [],
+      "recommendation": "Minimize switching loop area for U205. Place input cap as close as possible. Consider spread-spectrum modulation if available.",
+      "detector": "emc_switching_emc",
+      "summary": "U205 harmonics in 216-960 MHz band",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Switching Emc",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:SW-001:u205#2"
+    },
+    {
+      "category": "emission_estimate",
+      "severity": "info",
+      "rule_id": "EE-002",
+      "confidence": "heuristic",
+      "title": "U201 harmonic envelope",
+      "description": "U201 (LMR36510FADDAR) switching at 0.50 MHz, duty \u224850%. Harmonic envelope: flat to 0.3 MHz, -20 dB/dec to 32 MHz, -40 dB/dec above. Harmonics extend into FCC test range starting at 60th harmonic.",
+      "components": [
+        "U201"
+      ],
+      "nets": [],
+      "recommendation": "Minimize the hot loop area (input cap \u2192 high-side switch \u2192 inductor \u2192 low-side switch \u2192 input cap). Every halving of loop area reduces emissions by 6 dB.",
+      "detector": "emc_emission_estimate",
+      "summary": "U201 harmonic envelope",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Emission Estimate",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "emc:EE-002:u201"
+    },
+    {
+      "category": "emission_estimate",
+      "severity": "info",
+      "rule_id": "EE-002",
+      "confidence": "heuristic",
+      "title": "U205 harmonic envelope",
+      "description": "U205 (MPM3620AGQV-Z) switching at 0.50 MHz, duty \u224850%. Harmonic envelope: flat to 0.3 MHz, -20 dB/dec to 32 MHz, -40 dB/dec above. Harmonics extend into FCC test range starting at 60th harmonic.",
+      "components": [
+        "U205"
+      ],
+      "nets": [],
+      "recommendation": "Minimize the hot loop area (input cap \u2192 high-side switch \u2192 inductor \u2192 low-side switch \u2192 input cap). Every halving of loop area reduces emissions by 6 dB.",
+      "detector": "emc_emission_estimate",
+      "summary": "U205 harmonic envelope",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Emission Estimate",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "emc:EE-002:u205"
+    },
+    {
+      "category": "diff_pair",
+      "severity": "error",
+      "rule_id": "DP-001",
+      "confidence": "deterministic",
+      "title": "differential diff pair skew exceeds limit",
+      "description": "Differential pair SHUNT_W_SENSE_P/SHUNT_W_SENSE_N has 12.2mm length mismatch (66.2 ps skew). Exceeds differential limit of 50 ps by 32%.",
+      "components": [
+        "R5"
+      ],
+      "nets": [
+        "SHUNT_W_SENSE_P",
+        "SHUNT_W_SENSE_N"
+      ],
+      "recommendation": "Match trace lengths to within 25 ps (4.6mm). Use length-matched serpentine routing.",
+      "detector": "emc_diff_pair",
+      "summary": "differential diff pair skew exceeds limit",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Diff Pair",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DP-001:r5"
+    },
+    {
+      "category": "diff_pair",
+      "severity": "error",
+      "rule_id": "DP-003",
+      "confidence": "deterministic",
+      "title": "differential diff pair changes layers",
+      "description": "Net SHUNT_U_SENSE_P (part of differential diff pair) transitions across 2 layers (B.Cu, In2.Cu) with 2 via(s). Each layer transition is a potential DM-to-CM conversion point. Ensure stitching vias or decoupling caps at each transition.",
+      "components": [
+        "R3"
+      ],
+      "nets": [
+        "SHUNT_U_SENSE_P"
+      ],
+      "recommendation": "Add ground stitching vias within 2\u00d7 dielectric height of each signal via. Preferably route diff pairs on a single layer to avoid layer transitions entirely.",
+      "detector": "emc_diff_pair",
+      "summary": "differential diff pair changes layers",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Diff Pair",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DP-003:r3"
+    },
+    {
+      "category": "diff_pair",
+      "severity": "error",
+      "rule_id": "DP-003",
+      "confidence": "deterministic",
+      "title": "differential diff pair changes layers",
+      "description": "Net SHUNT_V_SENSE_P (part of differential diff pair) transitions across 2 layers (B.Cu, In2.Cu) with 2 via(s). Each layer transition is a potential DM-to-CM conversion point. Ensure stitching vias or decoupling caps at each transition.",
+      "components": [
+        "R1"
+      ],
+      "nets": [
+        "SHUNT_V_SENSE_P"
+      ],
+      "recommendation": "Add ground stitching vias within 2\u00d7 dielectric height of each signal via. Preferably route diff pairs on a single layer to avoid layer transitions entirely.",
+      "detector": "emc_diff_pair",
+      "summary": "differential diff pair changes layers",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Diff Pair",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DP-003:r1"
+    },
+    {
+      "category": "diff_pair",
+      "severity": "error",
+      "rule_id": "DP-003",
+      "confidence": "deterministic",
+      "title": "differential diff pair changes layers",
+      "description": "Net SHUNT_W_SENSE_P (part of differential diff pair) transitions across 2 layers (B.Cu, In2.Cu) with 2 via(s). Each layer transition is a potential DM-to-CM conversion point. Ensure stitching vias or decoupling caps at each transition.",
+      "components": [
+        "R5"
+      ],
+      "nets": [
+        "SHUNT_W_SENSE_P"
+      ],
+      "recommendation": "Add ground stitching vias within 2\u00d7 dielectric height of each signal via. Preferably route diff pairs on a single layer to avoid layer transitions entirely.",
+      "detector": "emc_diff_pair",
+      "summary": "differential diff pair changes layers",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Diff Pair",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DP-003:r5"
+    },
+    {
+      "category": "diff_pair",
+      "severity": "error",
+      "rule_id": "DP-003",
+      "confidence": "deterministic",
+      "title": "differential diff pair changes layers",
+      "description": "Net SHUNT_W_SENSE_N (part of differential diff pair) transitions across 2 layers (B.Cu, In2.Cu) with 2 via(s). Each layer transition is a potential DM-to-CM conversion point. Ensure stitching vias or decoupling caps at each transition.",
+      "components": [
+        "R5"
+      ],
+      "nets": [
+        "SHUNT_W_SENSE_N"
+      ],
+      "recommendation": "Add ground stitching vias within 2\u00d7 dielectric height of each signal via. Preferably route diff pairs on a single layer to avoid layer transitions entirely.",
+      "detector": "emc_diff_pair",
+      "summary": "differential diff pair changes layers",
+      "pins": [],
+      "evidence_source": "topology",
+      "report_context": {
+        "section": "Diff Pair",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:DP-003:r5#1"
+    },
+    {
+      "category": "pdn",
+      "severity": "info",
+      "rule_id": "PD-001",
+      "confidence": "heuristic",
+      "title": "5V_BAT PDN anti-resonance peaks above relevant band",
+      "description": "U205 (MPM3620AGQV-Z) 5V_BAT rail (analytical): target impedance 0.374\u03a9 (Vout=3.743V, 5% ripple, 0.5A transient). Peak(s) exceed target only above 200 MHz, outside the range board-level decoupling addresses: 208.9 MHz (0.42\u03a9). Decoupling: 2 caps (C219 22\u00b5F, C218 22\u00b5F).",
+      "components": [
+        "U205"
+      ],
+      "nets": [
+        "5V_BAT"
+      ],
+      "recommendation": "No decoupling action needed for these peaks.",
+      "detector": "emc_pdn",
+      "summary": "5V_BAT PDN anti-resonance peaks above relevant band",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Pdn",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "spice_verified": false,
+      "rail": "5V_BAT",
+      "target_impedance_ohm": 0.3743,
+      "vout_v": 3.743,
+      "transient_a": 0.5,
+      "transient_source": "default",
+      "method": "analytical",
+      "decoupling_cap_count": 2,
+      "out_of_band_peaks": [
+        {
+          "freq_mhz": 208.9296130854041,
+          "impedance_ohm": 0.4249
+        }
+      ],
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "emc:PD-001:u205"
+    },
+    {
+      "category": "switching_emc",
+      "severity": "warning",
+      "rule_id": "SW-003",
+      "confidence": "heuristic",
+      "title": "Large hot loop for U201",
+      "description": "U201 (LMR36510FADDAR) hot loop area \u2248 64mm\u00b2 (triangle: C150 \u2192 U201 \u2192 L201). Recommended: <25mm\u00b2 for low EMI.",
+      "components": [
+        "U201",
+        "L201",
+        "C150"
+      ],
+      "nets": [],
+      "recommendation": "Place C150, U201, and L201 in a tight triangle. Minimize trace length between them. Input cap should be adjacent to the IC with the inductor on the opposite side.",
+      "detector": "emc_switching_emc",
+      "summary": "Large hot loop for U201",
+      "pins": [],
+      "evidence_source": "heuristic_rule",
+      "report_context": {
+        "section": "Switching Emc",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "suppressed": false,
+      "suppression_reason": "",
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "emc:SW-003:u201"
+    }
+  ],
+  "assessments": [],
+  "per_net_scores": [
+    {
+      "net": "SHUNT_W_SENSE_N",
+      "score": 64.0,
+      "finding_count": 3,
+      "rules": [
+        "DP-001",
+        "DP-003",
+        "RP-001"
+      ]
+    },
+    {
+      "net": "SHUNT_W_SENSE_P",
+      "score": 64.0,
+      "finding_count": 3,
+      "rules": [
+        "DP-001",
+        "DP-003",
+        "RP-001"
+      ]
+    },
+    {
+      "net": "SHUNT_U_SENSE_P",
+      "score": 76.0,
+      "finding_count": 2,
+      "rules": [
+        "DP-003",
+        "RP-001"
+      ]
+    },
+    {
+      "net": "SHUNT_V_SENSE_P",
+      "score": 76.0,
+      "finding_count": 2,
+      "rules": [
+        "DP-003",
+        "RP-001"
+      ]
+    },
+    {
+      "net": "/USB service/CP2102_VBUS_SENSE",
+      "score": 88.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "/MCU / clock / SWD/NRST",
+      "score": 91.0,
+      "finding_count": 3,
+      "rules": [
+        "CK-001",
+        "CK-003"
+      ]
+    },
+    {
+      "net": "GND",
+      "score": 94.0,
+      "finding_count": 2,
+      "rules": [
+        "GP-004"
+      ]
+    },
+    {
+      "net": "?",
+      "score": 94.0,
+      "finding_count": 2,
+      "rules": [
+        "GP-005"
+      ]
+    },
+    {
+      "net": "/CAN interface/CANL_BUS",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "GHS1",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "GHS2",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "GHS3",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "GLS1",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "GLS2",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "Net-(D601-IO2)",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "Net-(D601-IO3)",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "HS_RETURN_U",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "HS_RETURN_V",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "HS_RETURN_W",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "Net-(U602A-S3B)",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "/CAN interface/CANH_BUS",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "/Current / temperature/OPP_U1",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "/Current / temperature/OPP_V1",
+      "score": 97.0,
+      "finding_count": 1,
+      "rules": [
+        "RP-001"
+      ]
+    },
+    {
+      "net": "GLS3",
+      "score": 98.5,
+      "finding_count": 2,
+      "rules": [
+        "GP-001",
+        "RP-001"
+      ]
+    },
+    {
+      "net": "5V_BAT",
+      "score": 100,
+      "finding_count": 1,
+      "rules": [
+        "PD-001"
+      ]
+    }
+  ],
+  "test_plan": {
+    "frequency_bands": [
+      {
+        "band": "30-88 MHz",
+        "freq_min_hz": 30000000.0,
+        "freq_max_hz": 88000000.0,
+        "risk_level": "medium",
+        "source_count": 4,
+        "sources": [
+          "U201 (LMR36510FADDAR) harmonics 60-176",
+          "U205 (MPM3620AGQV-Z) harmonics 60-176",
+          "Y301 24.0MHz harmonic 2 (48.0MHz)",
+          "Y301 24.0MHz harmonic 3 (72.0MHz)"
+        ]
+      },
+      {
+        "band": "88-216 MHz",
+        "freq_min_hz": 88000000.0,
+        "freq_max_hz": 216000000.0,
+        "risk_level": "medium",
+        "source_count": 4,
+        "sources": [
+          "U201 (LMR36510FADDAR) harmonics 176-432",
+          "U205 (MPM3620AGQV-Z) harmonics 176-432",
+          "Y301 24.0MHz harmonic 4 (96.0MHz)",
+          "Y301 24.0MHz harmonic 5 (120.0MHz)"
+        ]
+      },
+      {
+        "band": "216-960 MHz",
+        "freq_min_hz": 216000000.0,
+        "freq_max_hz": 960000000.0,
+        "risk_level": "medium",
+        "source_count": 2,
+        "sources": [
+          "U201 (LMR36510FADDAR) harmonics 432-1920",
+          "U205 (MPM3620AGQV-Z) harmonics 432-1920"
+        ]
+      },
+      {
+        "band": "960-40000 MHz",
+        "freq_min_hz": 960000000.0,
+        "freq_max_hz": 40000000000.0,
+        "risk_level": "medium",
+        "source_count": 2,
+        "sources": [
+          "U201 (LMR36510FADDAR) harmonics 1920-80000",
+          "U205 (MPM3620AGQV-Z) harmonics 1920-80000"
+        ]
+      }
+    ],
+    "interface_risks": [
+      {
+        "connector": "J1",
+        "value": "MR60PW-M",
+        "protocol": "unknown",
+        "risk_score": 5,
+        "reasons": [
+          "No EMC filtering detected"
+        ]
+      },
+      {
+        "connector": "J501",
+        "value": "BRAKE RESISTOR",
+        "protocol": "unknown",
+        "risk_score": 5,
+        "reasons": [
+          "No EMC filtering detected"
+        ]
+      },
+      {
+        "connector": "J1001",
+        "value": "TC2030-NL SWD",
+        "protocol": "unknown",
+        "risk_score": 5,
+        "reasons": [
+          "No EMC filtering detected"
+        ]
+      },
+      {
+        "connector": "J101",
+        "value": "AMASS XT60PW-M",
+        "protocol": "unknown",
+        "risk_score": 5,
+        "reasons": [
+          "No EMC filtering detected"
+        ]
+      },
+      {
+        "connector": "J502",
+        "value": "BRAKE NTC",
+        "protocol": "unknown",
+        "risk_score": 5,
+        "reasons": [
+          "No EMC filtering detected"
+        ]
+      },
+      {
+        "connector": "J801",
+        "value": "CAN 1",
+        "protocol": "unknown",
+        "risk_score": 3,
+        "reasons": [
+          "General I/O"
+        ]
+      },
+      {
+        "connector": "J201",
+        "value": "USB-C service",
+        "protocol": "unknown",
+        "risk_score": 3,
+        "reasons": [
+          "General I/O"
+        ]
+      },
+      {
+        "connector": "J601",
+        "value": "EXT ENCODER / HALL",
+        "protocol": "unknown",
+        "risk_score": 3,
+        "reasons": [
+          "General I/O"
+        ]
+      },
+      {
+        "connector": "J802",
+        "value": "CAN 2",
+        "protocol": "unknown",
+        "risk_score": 3,
+        "reasons": [
+          "General I/O"
+        ]
+      },
+      {
+        "connector": "U202",
+        "value": "USBLC6-2SC6",
+        "protocol": "unknown",
+        "risk_score": 3,
+        "reasons": [
+          "General I/O"
+        ]
+      }
+    ],
+    "probe_points": [
+      {
+        "x": -4.2,
+        "y": -17.9,
+        "type": "inductor",
+        "ref": "L201",
+        "reason": "Switching inductor \u2014 highest dI/dt source"
+      },
+      {
+        "x": -12.4,
+        "y": 4.8,
+        "type": "crystal",
+        "ref": "Y301",
+        "reason": "Crystal/oscillator \u2014 clock harmonics source"
+      },
+      {
+        "x": 19.4,
+        "y": 2.7,
+        "type": "unfiltered_connector",
+        "ref": "J1",
+        "reason": "Unfiltered I/O \u2014 cable radiation risk"
+      },
+      {
+        "x": 10.3,
+        "y": -20.7,
+        "type": "unfiltered_connector",
+        "ref": "J501",
+        "reason": "Unfiltered I/O \u2014 cable radiation risk"
+      },
+      {
+        "x": 64.8,
+        "y": -34.8,
+        "type": "unfiltered_connector",
+        "ref": "J1001",
+        "reason": "Unfiltered I/O \u2014 cable radiation risk"
+      },
+      {
+        "x": 19.2,
+        "y": -13.8,
+        "type": "unfiltered_connector",
+        "ref": "J101",
+        "reason": "Unfiltered I/O \u2014 cable radiation risk"
+      },
+      {
+        "x": -89.4,
+        "y": 10.8,
+        "type": "unfiltered_connector",
+        "ref": "J502",
+        "reason": "Unfiltered I/O \u2014 cable radiation risk"
+      }
+    ]
+  },
+  "regulatory_coverage": {
+    "market": "us",
+    "applicable_standards": [
+      "FCC Part 15 Class B",
+      "FCC Part 15 Class B"
+    ],
+    "coverage_matrix": [
+      {
+        "standard": "FCC Part 15 Class B",
+        "test_type": "radiated",
+        "coverage": "partial",
+        "checked_rules": [
+          "GP-001",
+          "GP-004",
+          "GP-005",
+          "DC-001",
+          "SW-001",
+          "CK-001",
+          "SU-001",
+          "IO-001",
+          "DP-001",
+          "DP-003",
+          "EE-001",
+          "EE-002"
+        ],
+        "total_applicable_rules": 23,
+        "note": "Design rule checks identify common radiation sources. Cannot predict absolute emission levels."
+      },
+      {
+        "standard": "FCC Part 15 Class B",
+        "test_type": "conducted",
+        "coverage": "partial",
+        "checked_rules": [
+          "SW-001",
+          "DC-001",
+          "EE-002"
+        ],
+        "total_applicable_rules": 4,
+        "note": "Switching harmonic analysis and decoupling checks. EMI filter verification not yet implemented."
+      }
+    ]
+  },
+  "category_summary": {
+    "ground_plane": {
+      "count": 4,
+      "max_severity": "warning",
+      "severities": {
+        "error": 0,
+        "warning": 4,
+        "info": 0
+      },
+      "suppressed_count": 0
+    },
+    "decoupling": {
+      "count": 25,
+      "max_severity": "error",
+      "severities": {
+        "error": 2,
+        "warning": 23,
+        "info": 0
+      },
+      "suppressed_count": 0
+    },
+    "io_filtering": {
+      "count": 8,
+      "max_severity": "warning",
+      "severities": {
+        "error": 0,
+        "warning": 1,
+        "info": 7
+      },
+      "suppressed_count": 0
+    },
+    "clock_routing": {
+      "count": 3,
+      "max_severity": "warning",
+      "severities": {
+        "error": 0,
+        "warning": 3,
+        "info": 0
+      },
+      "suppressed_count": 0
+    },
+    "stackup": {
+      "count": 5,
+      "max_severity": "error",
+      "severities": {
+        "error": 5,
+        "warning": 0,
+        "info": 0
+      },
+      "suppressed_count": 0
+    },
+    "emission_estimate": {
+      "count": 3,
+      "max_severity": "info",
+      "severities": {
+        "error": 0,
+        "warning": 0,
+        "info": 3
+      },
+      "suppressed_count": 0
+    },
+    "return_path": {
+      "count": 22,
+      "max_severity": "error",
+      "severities": {
+        "error": 5,
+        "warning": 16,
+        "info": 1
+      },
+      "suppressed_count": 0
+    },
+    "esd_path": {
+      "count": 3,
+      "max_severity": "error",
+      "severities": {
+        "error": 2,
+        "warning": 0,
+        "info": 1
+      },
+      "suppressed_count": 0
+    },
+    "switching_emc": {
+      "count": 7,
+      "max_severity": "warning",
+      "severities": {
+        "error": 0,
+        "warning": 3,
+        "info": 4
+      },
+      "suppressed_count": 0
+    },
+    "diff_pair": {
+      "count": 5,
+      "max_severity": "error",
+      "severities": {
+        "error": 5,
+        "warning": 0,
+        "info": 0
+      },
+      "suppressed_count": 0
+    },
+    "pdn": {
+      "count": 1,
+      "max_severity": "info",
+      "severities": {
+        "error": 0,
+        "warning": 0,
+        "info": 1
+      },
+      "suppressed_count": 0
+    }
+  },
+  "board_info": {
+    "board_width_mm": 45.0,
+    "board_height_mm": 45.0,
+    "layer_count": 6,
+    "footprint_count": 277,
+    "via_count": 123,
+    "has_stackup": true,
+    "board_thickness_mm": 1.6,
+    "total_components": 331,
+    "total_nets": 199,
+    "highest_frequency_hz": 24000000.0,
+    "crystal_frequencies_hz": [
+      24000000.0
+    ]
+  },
+  "elapsed_s": 0.01,
+  "audience_summary": {
+    "designer": {
+      "total_findings": 86,
+      "by_severity": {
+        "error": 19,
+        "warning": 50,
+        "info": 17
+      },
+      "by_category": {
+        "ground_plane": 4,
+        "decoupling": 25,
+        "io_filtering": 8,
+        "clock_routing": 3,
+        "stackup": 5,
+        "emission_estimate": 3,
+        "return_path": 22,
+        "esd_path": 3,
+        "switching_emc": 7,
+        "diff_pair": 5,
+        "pdn": 1
+      },
+      "top_issues": [
+        {
+          "category": "decoupling",
+          "severity": "error",
+          "rule_id": "DC-001",
+          "confidence": "deterministic",
+          "title": "Decoupling cap too far from U602",
+          "description": "Nearest decoupling cap to U602 (TMUX1574PW) is 9.0mm away. Each mm of trace adds 0.3-0.8 nH of loop inductance, reducing decoupling effectiveness at high frequencies. Shared net: VBUS_SENSE.",
+          "components": [
+            "U602",
+            "C108"
+          ],
+          "nets": [],
+          "recommendation": "Move decoupling cap within 2-3mm of U602 power pins.",
+          "detector": "emc_decoupling",
+          "summary": "Decoupling cap too far from U602",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Decoupling",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "layout"
+          ],
+          "finding_id": "emc:DC-001:u602"
+        },
+        {
+          "category": "decoupling",
+          "severity": "error",
+          "rule_id": "DC-001",
+          "confidence": "deterministic",
+          "title": "Decoupling cap too far from U202",
+          "description": "Nearest decoupling cap to U202 (USBLC6-2SC6) is 9.2mm away. Each mm of trace adds 0.3-0.8 nH of loop inductance, reducing decoupling effectiveness at high frequencies. Shared net: 5V_USB.",
+          "components": [
+            "U202",
+            "C208"
+          ],
+          "nets": [],
+          "recommendation": "Move decoupling cap within 2-3mm of U202 power pins.",
+          "detector": "emc_decoupling",
+          "summary": "Decoupling cap too far from U202",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Decoupling",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "layout"
+          ],
+          "finding_id": "emc:DC-001:u202"
+        },
+        {
+          "category": "stackup",
+          "severity": "error",
+          "rule_id": "SU-001",
+          "confidence": "deterministic",
+          "title": "Adjacent signal layers: F.Cu, In1.Cu",
+          "description": "Signal layers F.Cu and In1.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+          "components": [],
+          "nets": [],
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "detector": "emc_stackup",
+          "summary": "Adjacent signal layers: F.Cu, In1.Cu",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Stackup",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "schematic"
+          ],
+          "finding_id": "emc:SU-001:e2cd8b639afb"
+        },
+        {
+          "category": "stackup",
+          "severity": "error",
+          "rule_id": "SU-001",
+          "confidence": "deterministic",
+          "title": "Adjacent signal layers: In1.Cu, In2.Cu",
+          "description": "Signal layers In1.Cu and In2.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+          "components": [],
+          "nets": [],
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "detector": "emc_stackup",
+          "summary": "Adjacent signal layers: In1.Cu, In2.Cu",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Stackup",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "schematic"
+          ],
+          "finding_id": "emc:SU-001:43b5f55aee53"
+        },
+        {
+          "category": "stackup",
+          "severity": "error",
+          "rule_id": "SU-001",
+          "confidence": "deterministic",
+          "title": "Adjacent signal layers: In2.Cu, In3.Cu",
+          "description": "Signal layers In2.Cu and In3.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+          "components": [],
+          "nets": [],
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "detector": "emc_stackup",
+          "summary": "Adjacent signal layers: In2.Cu, In3.Cu",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Stackup",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "schematic"
+          ],
+          "finding_id": "emc:SU-001:87af4d287939"
+        },
+        {
+          "category": "stackup",
+          "severity": "error",
+          "rule_id": "SU-001",
+          "confidence": "deterministic",
+          "title": "Adjacent signal layers: In3.Cu, In4.Cu",
+          "description": "Signal layers In3.Cu and In4.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+          "components": [],
+          "nets": [],
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "detector": "emc_stackup",
+          "summary": "Adjacent signal layers: In3.Cu, In4.Cu",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Stackup",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "schematic"
+          ],
+          "finding_id": "emc:SU-001:213a093701a8"
+        },
+        {
+          "category": "stackup",
+          "severity": "error",
+          "rule_id": "SU-001",
+          "confidence": "deterministic",
+          "title": "Adjacent signal layers: In4.Cu, B.Cu",
+          "description": "Signal layers In4.Cu and B.Cu are adjacent without a reference plane between them. This causes high crosstalk and poor return path control for signals on both layers.",
+          "components": [],
+          "nets": [],
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "detector": "emc_stackup",
+          "summary": "Adjacent signal layers: In4.Cu, B.Cu",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Stackup",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "schematic"
+          ],
+          "finding_id": "emc:SU-001:e4cee3922cfb"
+        },
+        {
+          "category": "return_path",
+          "severity": "error",
+          "rule_id": "RP-001",
+          "confidence": "deterministic",
+          "title": "Missing stitching via at layer transition: /USB service/CP2102_VBUS_SENSE",
+          "description": "Net /USB service/CP2102_VBUS_SENSE has 2 layer transition(s) across B.Cu, F.Cu. 1 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+          "components": [],
+          "nets": [
+            "/USB service/CP2102_VBUS_SENSE"
+          ],
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "detector": "emc_return_path",
+          "summary": "Missing stitching via at layer transition: /USB service/CP2102_VBUS_SENSE",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "layout"
+          ],
+          "finding_id": "emc:RP-001:/usb-service/cp2102_vbus_sense"
+        },
+        {
+          "category": "return_path",
+          "severity": "error",
+          "rule_id": "RP-001",
+          "confidence": "deterministic",
+          "title": "Missing stitching via at layer transition: SHUNT_U_SENSE_P",
+          "description": "Net SHUNT_U_SENSE_P has 2 layer transition(s) across B.Cu, In2.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+          "components": [],
+          "nets": [
+            "SHUNT_U_SENSE_P"
+          ],
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "detector": "emc_return_path",
+          "summary": "Missing stitching via at layer transition: SHUNT_U_SENSE_P",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "layout"
+          ],
+          "finding_id": "emc:RP-001:shunt_u_sense_p"
+        },
+        {
+          "category": "return_path",
+          "severity": "error",
+          "rule_id": "RP-001",
+          "confidence": "deterministic",
+          "title": "Missing stitching via at layer transition: SHUNT_V_SENSE_P",
+          "description": "Net SHUNT_V_SENSE_P has 2 layer transition(s) across B.Cu, In2.Cu. 2 transition(s) have no ground stitching via within 1.0mm. The return current must find an alternate path, creating a loop antenna.",
+          "components": [],
+          "nets": [
+            "SHUNT_V_SENSE_P"
+          ],
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "detector": "emc_return_path",
+          "summary": "Missing stitching via at layer transition: SHUNT_V_SENSE_P",
+          "pins": [],
+          "evidence_source": "topology",
+          "report_context": {
+            "section": "Return Path",
+            "impact": "",
+            "standard_ref": ""
+          },
+          "suppressed": false,
+          "suppression_reason": "",
+          "stages": [
+            "layout"
+          ],
+          "finding_id": "emc:RP-001:shunt_v_sense_p"
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 69,
+      "by_category": {
+        "ground_plane": 4,
+        "decoupling": 25,
+        "io_filtering": 1,
+        "clock_routing": 3,
+        "stackup": 5,
+        "return_path": 21,
+        "esd_path": 2,
+        "switching_emc": 3,
+        "diff_pair": 5
+      },
+      "top_issues": [
+        {
+          "rule_id": "DC-001",
+          "severity": "error",
+          "summary": "Decoupling cap too far from U602",
+          "recommendation": "Move decoupling cap within 2-3mm of U602 power pins.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-001",
+          "severity": "error",
+          "summary": "Decoupling cap too far from U202",
+          "recommendation": "Move decoupling cap within 2-3mm of U202 power pins.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "SU-001",
+          "severity": "error",
+          "summary": "Adjacent signal layers: F.Cu, In1.Cu",
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "category": "stackup"
+        },
+        {
+          "rule_id": "SU-001",
+          "severity": "error",
+          "summary": "Adjacent signal layers: In1.Cu, In2.Cu",
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "category": "stackup"
+        },
+        {
+          "rule_id": "SU-001",
+          "severity": "error",
+          "summary": "Adjacent signal layers: In2.Cu, In3.Cu",
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "category": "stackup"
+        },
+        {
+          "rule_id": "SU-001",
+          "severity": "error",
+          "summary": "Adjacent signal layers: In3.Cu, In4.Cu",
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "category": "stackup"
+        },
+        {
+          "rule_id": "SU-001",
+          "severity": "error",
+          "summary": "Adjacent signal layers: In4.Cu, B.Cu",
+          "recommendation": "Reorder stackup to place a ground or power plane between every pair of signal layers.",
+          "category": "stackup"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "error",
+          "summary": "Missing stitching via at layer transition: /USB service/CP2102_VBUS_SENSE",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "error",
+          "summary": "Missing stitching via at layer transition: SHUNT_U_SENSE_P",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "error",
+          "summary": "Missing stitching via at layer transition: SHUNT_V_SENSE_P",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "error",
+          "summary": "Missing stitching via at layer transition: SHUNT_W_SENSE_N",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "error",
+          "summary": "Missing stitching via at layer transition: SHUNT_W_SENSE_P",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "ES-002",
+          "severity": "error",
+          "summary": "No ground via near ESD device D801",
+          "recommendation": "Add multiple ground vias directly adjacent to D801 ground pad. Use fat, short traces to ground plane.",
+          "category": "esd_path"
+        },
+        {
+          "rule_id": "ES-002",
+          "severity": "error",
+          "summary": "No ground via near ESD device U202",
+          "recommendation": "Add multiple ground vias directly adjacent to U202 ground pad. Use fat, short traces to ground plane.",
+          "category": "esd_path"
+        },
+        {
+          "rule_id": "DP-001",
+          "severity": "error",
+          "summary": "differential diff pair skew exceeds limit",
+          "recommendation": "Match trace lengths to within 25 ps (4.6mm). Use length-matched serpentine routing.",
+          "category": "diff_pair"
+        },
+        {
+          "rule_id": "DP-003",
+          "severity": "error",
+          "summary": "differential diff pair changes layers",
+          "recommendation": "Add ground stitching vias within 2\u00d7 dielectric height of each signal via. Preferably route diff pairs on a single layer to avoid layer transitions entirely.",
+          "category": "diff_pair"
+        },
+        {
+          "rule_id": "DP-003",
+          "severity": "error",
+          "summary": "differential diff pair changes layers",
+          "recommendation": "Add ground stitching vias within 2\u00d7 dielectric height of each signal via. Preferably route diff pairs on a single layer to avoid layer transitions entirely.",
+          "category": "diff_pair"
+        },
+        {
+          "rule_id": "DP-003",
+          "severity": "error",
+          "summary": "differential diff pair changes layers",
+          "recommendation": "Add ground stitching vias within 2\u00d7 dielectric height of each signal via. Preferably route diff pairs on a single layer to avoid layer transitions entirely.",
+          "category": "diff_pair"
+        },
+        {
+          "rule_id": "DP-003",
+          "severity": "error",
+          "summary": "differential diff pair changes layers",
+          "recommendation": "Add ground stitching vias within 2\u00d7 dielectric height of each signal via. Preferably route diff pairs on a single layer to avoid layer transitions entirely.",
+          "category": "diff_pair"
+        },
+        {
+          "rule_id": "GP-001",
+          "severity": "warning",
+          "summary": "Signal has partial reference plane gap",
+          "recommendation": "Route this signal to avoid ground plane gaps, or fill the void. If a split is intentional, add a bridge capacitor across the gap.",
+          "category": "ground_plane"
+        },
+        {
+          "rule_id": "GP-004",
+          "severity": "warning",
+          "summary": "Low ground plane fill ratio",
+          "recommendation": "Reduce routing density on this layer or move signals to other layers.",
+          "category": "ground_plane"
+        },
+        {
+          "rule_id": "GP-004",
+          "severity": "warning",
+          "summary": "Low ground plane fill ratio",
+          "recommendation": "Reduce routing density on this layer or move signals to other layers.",
+          "category": "ground_plane"
+        },
+        {
+          "rule_id": "GP-005",
+          "severity": "warning",
+          "summary": "2 ground domains detected",
+          "recommendation": "Verify ground domains connect at a single, intentional point (typically near the ADC for analog/digital split). Ensure no signal traces cross the domain boundary.",
+          "category": "ground_plane"
+        },
+        {
+          "rule_id": "DC-001",
+          "severity": "warning",
+          "summary": "Decoupling cap moderately far from U603",
+          "recommendation": "Move decoupling cap closer to U603 power pins if layout permits.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C701 far from via",
+          "recommendation": "Place a via directly adjacent to C701 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C702 far from via",
+          "recommendation": "Place a via directly adjacent to C702 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C311 far from via",
+          "recommendation": "Place a via directly adjacent to C311 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C312 far from via",
+          "recommendation": "Place a via directly adjacent to C312 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C601 far from via",
+          "recommendation": "Place a via directly adjacent to C601 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C10 far from via",
+          "recommendation": "Place a via directly adjacent to C10 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C5 far from via",
+          "recommendation": "Place a via directly adjacent to C5 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C10 far from via",
+          "recommendation": "Place a via directly adjacent to C10 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C10 far from via",
+          "recommendation": "Place a via directly adjacent to C10 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C202 far from via",
+          "recommendation": "Place a via directly adjacent to C202 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C201 far from via",
+          "recommendation": "Place a via directly adjacent to C201 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C1 far from via",
+          "recommendation": "Place a via directly adjacent to C1 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C5 far from via",
+          "recommendation": "Place a via directly adjacent to C5 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C2 far from via",
+          "recommendation": "Place a via directly adjacent to C2 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C601 far from via",
+          "recommendation": "Place a via directly adjacent to C601 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C219 far from via",
+          "recommendation": "Place a via directly adjacent to C219 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C218 far from via",
+          "recommendation": "Place a via directly adjacent to C218 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C312 far from via",
+          "recommendation": "Place a via directly adjacent to C312 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C218 far from via",
+          "recommendation": "Place a via directly adjacent to C218 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C219 far from via",
+          "recommendation": "Place a via directly adjacent to C219 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C502 far from via",
+          "recommendation": "Place a via directly adjacent to C502 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "DC-003",
+          "severity": "warning",
+          "summary": "Decoupling cap C501 far from via",
+          "recommendation": "Place a via directly adjacent to C501 pads. Use fat, short traces from cap pads to via.",
+          "category": "decoupling"
+        },
+        {
+          "rule_id": "IO-002",
+          "severity": "warning",
+          "summary": "Insufficient ground pins on U202",
+          "recommendation": "Ensure U202 has sufficient ground pins. For high-speed interfaces, ground pins should be distributed among signal pins, not grouped at one end.",
+          "category": "io_filtering"
+        },
+        {
+          "rule_id": "CK-001",
+          "severity": "warning",
+          "summary": "Clock /MCU / clock / SWD/NRST on outer layer",
+          "recommendation": "Route clock signals on inner layers (stripline) when possible.",
+          "category": "clock_routing"
+        },
+        {
+          "rule_id": "CK-003",
+          "severity": "warning",
+          "summary": "Clock /MCU / clock / SWD/NRST routed near connector J801",
+          "recommendation": "Route /MCU / clock / SWD/NRST away from J801, or add ground guard traces between the clock and connector.",
+          "category": "clock_routing"
+        },
+        {
+          "rule_id": "CK-003",
+          "severity": "warning",
+          "summary": "Clock /MCU / clock / SWD/NRST routed near connector J802",
+          "recommendation": "Route /MCU / clock / SWD/NRST away from J802, or add ground guard traces between the clock and connector.",
+          "category": "clock_routing"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: /CAN interface/CANL_BUS",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: GHS1",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: GHS2",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: GHS3",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: GLS1",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: GLS2",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: Net-(D601-IO2)",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: Net-(D601-IO3)",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: HS_RETURN_U",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: HS_RETURN_V",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: HS_RETURN_W",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: Net-(U602A-S3B)",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: /CAN interface/CANH_BUS",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: /Current / temperature/OPP_U1",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "Missing stitching via at layer transition: /Current / temperature/OPP_V1",
+          "recommendation": "Add a ground stitching via within 1.0mm of each signal via. Place the ground via adjacent to the signal via on the same pad cluster.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "RP-001",
+          "severity": "warning",
+          "summary": "21+ nets missing stitching vias (truncated)",
+          "recommendation": "Add ground stitching vias at all signal layer transitions.",
+          "category": "return_path"
+        },
+        {
+          "rule_id": "SW-001",
+          "severity": "warning",
+          "summary": "U201 harmonics in 30-88 MHz band",
+          "recommendation": "Minimize switching loop area for U201. Place input cap as close as possible. Consider spread-spectrum modulation if available.",
+          "category": "switching_emc"
+        },
+        {
+          "rule_id": "SW-001",
+          "severity": "warning",
+          "summary": "U205 harmonics in 30-88 MHz band",
+          "recommendation": "Minimize switching loop area for U205. Place input cap as close as possible. Consider spread-spectrum modulation if available.",
+          "category": "switching_emc"
+        },
+        {
+          "rule_id": "SW-003",
+          "severity": "warning",
+          "summary": "Large hot loop for U201",
+          "recommendation": "Place C150, U201, and L201 in a tight triangle. Minimize trace length between them. Input cap should be adjacent to the IC with the inductor on the opposite side.",
+          "category": "switching_emc"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "high",
+      "blocker_count": 19,
+      "warning_count": 50,
+      "stage_readiness": {
+        "schematic": "needs_work",
+        "layout": "needs_work",
+        "pre_fab": "needs_work",
+        "bring_up": "pass"
+      },
+      "one_liner": "19 errors, 50 warnings across 9 categories. Schematic, layout, pre-fab stages have blockers."
+    }
+  },
+  "trust_summary": {
+    "total_findings": 86,
+    "trust_level": "mixed",
+    "by_confidence": {
+      "deterministic": 63,
+      "heuristic": 23,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 63,
+      "heuristic_rule": 23,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261011T144309Z-9d96cd"
+  }
+}

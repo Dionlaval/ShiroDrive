@@ -1,0 +1,88 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/combined_can_brake/seeded/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/combined_brakefirst/ShiroFOC_Manual.kicad_pcb",
+  "removed_ids": [],
+  "new_ids": [
+    "06158017-6a5d-4655-88c5-03961b09e473",
+    "113a535a-270b-4551-ac2e-33e787750d77",
+    "14d5e5e1-5513-4b5b-86f1-90f8388862e4",
+    "17f7cb18-3dba-48bf-ada6-ca5aa7255cd1",
+    "19d0ff63-b848-483a-b9d1-eec298ecf668",
+    "1c003329-064b-4a04-b22d-9741880bcb6f",
+    "20cc1c14-03fa-46dd-93ef-9920a1e01629",
+    "2d033cb2-99ff-40cc-8b26-813ba98abc5f",
+    "3995019c-0f8c-4d8f-b682-4b9562290e8f",
+    "413c8f38-78b4-49f1-9b62-c0fd3b4dde6c",
+    "448ca8fc-65ec-4852-acdd-50aacff59765",
+    "4fd731e6-e9e0-4949-9946-c6898f5258b5",
+    "5e07a6d0-d205-49ce-88dc-1a4d09c184e9",
+    "656d7b54-17f7-4a56-a3a0-fb11d332616d",
+    "6976696f-4ccd-453c-a457-7190455f822e",
+    "6efd06ad-a56e-4408-b57f-7e168a442dd2",
+    "6f95adba-a76e-44dc-8005-1565ec658717",
+    "7f0da212-1315-4938-b67c-8fcf0488433e",
+    "84ddced7-c149-4bf5-9204-ffb56cfc0e18",
+    "85606967-7e9e-4541-b3f1-46d801a087da",
+    "8ab60701-a955-47e4-bff2-f564b482bf1c",
+    "a15ee7d8-b094-488e-b0bd-564ce64c4894",
+    "cc0dc21e-86c2-4c1f-a4b3-67f0e87bd399",
+    "d6d73e8c-9617-47a3-aafb-4cb4f9f06fac",
+    "d7a31b50-09ee-48fc-a358-e7460f6683a5",
+    "e620532d-ae9a-4596-be7a-c2a28ebfebaa",
+    "e7737c81-2bcb-42d8-b4f3-3ef6e376641e",
+    "e94ac3a3-b26c-4de3-9438-26a6a19029a8",
+    "ea70c2d2-2d43-4b73-a83e-9be8c6f40ca0",
+    "f61390a6-7c9b-4e5b-9ed9-2ab32329dc86",
+    "fe76f346-1ae7-4fbc-b325-ae86063d329b"
+  ],
+  "footprint_moves": [],
+  "allowed_replacement_uuids": [],
+  "net_geometry": [
+    {
+      "net": "BRAKE_PWM",
+      "before": {
+        "tracks": 2,
+        "vias": 1,
+        "length_mm": 2.285,
+        "layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      },
+      "after": {
+        "tracks": 18,
+        "vias": 4,
+        "length_mm": 30.379469,
+        "layers": [
+          "B.Cu",
+          "F.Cu",
+          "Power L4",
+          "Signals L3"
+        ]
+      }
+    },
+    {
+      "net": "CAN_TERM_DISABLE",
+      "before": {
+        "tracks": 2,
+        "vias": 2,
+        "length_mm": 0.690528,
+        "layers": [
+          "F.Cu"
+        ]
+      },
+      "after": {
+        "tracks": 12,
+        "vias": 4,
+        "length_mm": 19.599895,
+        "layers": [
+          "B.Cu",
+          "F.Cu",
+          "Power L4",
+          "Signals L3"
+        ]
+      }
+    }
+  ],
+  "reason": "Complete CAN_TERM_DISABLE via inward MCU escape; move NTC_BRAKE via down 0.07 mm and reroute its short B branch; replace old FEEDBACK_I_H3 L4 path with a shorter direct branch to free CAN escape; preserve all other copper and every footprint."
+}

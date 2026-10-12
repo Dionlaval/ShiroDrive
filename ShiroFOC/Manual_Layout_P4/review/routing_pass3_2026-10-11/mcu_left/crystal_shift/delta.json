@@ -1,0 +1,38 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/crystal_shift/ShiroFOC_Manual.kicad_pcb",
+  "removed_ids": [
+    "bb565293-f95d-4add-b81d-2d4a5ab603cc",
+    "cccf689b-950b-4732-8d29-02a786d9f3ca",
+    "d9b664c4-7905-4726-8709-4cbafbb3df83",
+    "ed8d0836-ddc0-44db-96ba-e4eba16254c0"
+  ],
+  "new_ids": [
+    "66c254a3-bef7-402d-9dd8-8e343eb5b454",
+    "49cd91b7-7cd3-4a87-aa4f-7cccd56b71cf",
+    "6b563600-1b3f-426a-9337-7c778211e088",
+    "67a70c8f-71ad-4dfa-bd2a-15788c5b1cd7"
+  ],
+  "footprint_moves": [
+    {
+      "uuid": "a148d178-4217-43b6-9f24-87a1d94eddd9",
+      "reference": "Y301",
+      "old": {
+        "position_nm": [
+          -12410000,
+          4770000
+        ],
+        "angle_deg": 180.0
+      },
+      "new": {
+        "position_nm": [
+          -13010000,
+          4770000
+        ],
+        "angle_deg": 180.0
+      }
+    }
+  ],
+  "clock_track_length_before_mm": 3.1050233965344667,
+  "clock_track_length_after_mm": 3.144131968344225
+}

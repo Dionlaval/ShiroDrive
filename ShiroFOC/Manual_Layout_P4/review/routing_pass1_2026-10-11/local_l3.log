@@ -1,0 +1,76 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+23/97 VREF+: 68 points; 3.81 mm; 0 vias; accepted candidate; 1.00s
+27/97 VREF+: 72 points; 3.59 mm; 0 vias; accepted candidate; 0.97s
+28/97 VREF+: 141 points; 8.18 mm; 0 vias; accepted candidate; 0.99s
+81/97 VBUS_SENSE: -2 points; 0.00 mm; 0 vias; not routed; 0.99s
+86/97 NTC_BRAKE: 303 points; 16.60 mm; 1 vias; accepted candidate; 0.97s
+93/97 NTC_PHASE_B: -2 points; 0.00 mm; 0 vias; not routed; 1.12s
+96/97 NTC_PHASE_C: 190 points; 11.39 mm; 1 vias; accepted candidate; 0.98s
+{"candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/local_l3/ShiroFOC_Manual.kicad_pcb", "connections": 5, "new_items": 24, "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/local_l3/ShiroFOC_Manual.routes.json"}
+Found 427 violations
+Found 417 unconnected items
+Saved DRC Report to /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/local_l3/drc.json
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+05:45:48 PM: Debug: Adding duplicate image handler for 'PNG file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'JPEG file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'TIFF file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'GIF file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'PNM file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'PCX file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'IFF file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'TGA file'
+05:45:48 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "failures": [],
+  "new_item_count": 66,
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 394,
+    "unconnected": 417
+  }
+}
+{
+  "status": "PASS",
+  "failures": [],
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 39,
+      "vias": 0,
+      "length_mm": 40.838027
+    },
+    "F.Cu": {
+      "tracks": 12,
+      "vias": 0,
+      "length_mm": 11.873875
+    },
+    "Signals L3": {
+      "tracks": 11,
+      "vias": 0,
+      "length_mm": 27.932947
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 4,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 394,
+    "unconnected": 417
+  }
+}

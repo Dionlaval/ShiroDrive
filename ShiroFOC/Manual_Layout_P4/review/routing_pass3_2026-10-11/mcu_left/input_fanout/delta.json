@@ -1,0 +1,208 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/combined_can_brake/final/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/input_fanout/ShiroFOC_Manual.kicad_pcb",
+  "removed_ids": [
+    "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+    "3496956d-1784-41e7-abe2-55f09c73f642",
+    "4e2c3243-8b8e-4a9c-b5c5-75791c25e8e5",
+    "5b7c8fe2-a7f7-4a5f-9b77-7700c9eca95e",
+    "77ec5009-e832-46c9-978c-5deda23163c1",
+    "914fc82b-7119-4c97-a344-67bb06375b86",
+    "a7def529-c6d2-4a62-b102-405feae746c0",
+    "abb723cd-fd1f-4217-a223-cd7dc4c6536c"
+  ],
+  "new_ids": [
+    "0a818ab7-68c6-4c5d-9dab-7f999cf2da0a",
+    "0f1d8ff7-1307-4a87-80dd-845e57ba97b9",
+    "18cf990f-4706-42f8-9440-93d45213bb0b",
+    "19fff62e-c1f9-43b4-b2d7-171fc0c23eef",
+    "1e553d72-87d8-4150-a8c7-7a5dfbc8ca35",
+    "42158abe-2bd3-408f-983b-14509e3850ac",
+    "42384102-861b-432b-b856-229d232054cb",
+    "43f9e7bd-03cd-42db-a879-e383870c6965",
+    "5705f432-6436-4b20-b30d-4c580bfcc5c4",
+    "57250b9f-c681-4d21-a3b7-d6c51df907f9",
+    "6c73d3c6-b6cd-4bcb-ac10-033e89dceb62",
+    "6d6905b4-bf34-49d3-bb24-968c571da974",
+    "704ce673-3a50-40f0-8f67-3e34964db523",
+    "7d1f178a-9d3f-4124-aa8f-9abd091d49f0",
+    "87e30e85-8f36-4e5d-9eca-d8a044aeb021",
+    "8af22714-37fe-4d58-938b-864fb7b4ac71",
+    "987011ff-26cf-47cc-8fe0-c02edff1956e",
+    "a54c6ec6-7223-4c52-b5f4-7b64a83f92ec",
+    "b21b29ca-8a85-4766-9b33-f50fd18946d3",
+    "beb08202-a119-4c02-8954-4d3cbb0caf48",
+    "bece0db5-14c9-43f5-bd2a-352681c65f68",
+    "cfc366d5-62a5-4900-a583-1d0bf173a83a",
+    "d534d872-db9f-4bfe-b9b4-9211c6adcb3d",
+    "d57d261d-24d6-42aa-8130-df92603a4c2c",
+    "d6465c5c-f5d1-487d-8675-14d323484017",
+    "e85ac4cc-534e-4af3-982f-f322c961e88a"
+  ],
+  "footprint_moves": [
+    {
+      "uuid": "90053e43-840d-433f-bf95-1fddbbe597d5",
+      "reference": "R604",
+      "old": {
+        "position_nm": [
+          -9060000,
+          4700000
+        ],
+        "angle_deg": 0.0
+      },
+      "new": {
+        "position_nm": [
+          -9560000,
+          4680000
+        ],
+        "angle_deg": 0.0
+      }
+    }
+  ],
+  "allowed_replacement_uuids": [
+    "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+    "3496956d-1784-41e7-abe2-55f09c73f642",
+    "4e2c3243-8b8e-4a9c-b5c5-75791c25e8e5",
+    "5b7c8fe2-a7f7-4a5f-9b77-7700c9eca95e",
+    "77ec5009-e832-46c9-978c-5deda23163c1",
+    "914fc82b-7119-4c97-a344-67bb06375b86",
+    "a7def529-c6d2-4a62-b102-405feae746c0",
+    "abb723cd-fd1f-4217-a223-cd7dc4c6536c"
+  ],
+  "net_geometry": [
+    {
+      "net": "3V3",
+      "before": {
+        "tracks": 78,
+        "vias": 22,
+        "length_mm": 59.168756,
+        "layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      },
+      "after": {
+        "tracks": 79,
+        "vias": 22,
+        "length_mm": 59.355863,
+        "layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      }
+    },
+    {
+      "net": "EXT_SENSOR_FAULT_N",
+      "before": {
+        "tracks": 11,
+        "vias": 3,
+        "length_mm": 17.014688,
+        "layers": [
+          "B.Cu",
+          "F.Cu",
+          "Signals L3"
+        ]
+      },
+      "after": {
+        "tracks": 15,
+        "vias": 3,
+        "length_mm": 18.116614,
+        "layers": [
+          "B.Cu",
+          "F.Cu",
+          "Signals L3"
+        ]
+      }
+    },
+    {
+      "net": "GND",
+      "before": {
+        "tracks": 88,
+        "vias": 62,
+        "length_mm": 70.152137,
+        "layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      },
+      "after": {
+        "tracks": 88,
+        "vias": 61,
+        "length_mm": 70.152137,
+        "layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      }
+    },
+    {
+      "net": "IMU_INT2",
+      "before": {
+        "tracks": 28,
+        "vias": 3,
+        "length_mm": 20.604647,
+        "layers": [
+          "B.Cu",
+          "F.Cu",
+          "Signals L3"
+        ]
+      },
+      "after": {
+        "tracks": 31,
+        "vias": 3,
+        "length_mm": 20.666779,
+        "layers": [
+          "B.Cu",
+          "F.Cu",
+          "Signals L3"
+        ]
+      }
+    },
+    {
+      "net": "INPUT_MUX_ENABLE_N",
+      "before": {
+        "tracks": 7,
+        "vias": 2,
+        "length_mm": 5.984503,
+        "layers": [
+          "B.Cu",
+          "Signals L3"
+        ]
+      },
+      "after": {
+        "tracks": 13,
+        "vias": 3,
+        "length_mm": 7.791636,
+        "layers": [
+          "B.Cu",
+          "F.Cu",
+          "Signals L3"
+        ]
+      }
+    },
+    {
+      "net": "NTC_BRAKE",
+      "before": {
+        "tracks": 20,
+        "vias": 3,
+        "length_mm": 24.824351,
+        "layers": [
+          "B.Cu",
+          "F.Cu",
+          "Signals L3"
+        ]
+      },
+      "after": {
+        "tracks": 24,
+        "vias": 3,
+        "length_mm": 24.937954,
+        "layers": [
+          "B.Cu",
+          "F.Cu",
+          "Signals L3"
+        ]
+      }
+    }
+  ],
+  "reason": "INPUT fanout only: R604 shift, EXT_SENSOR_FAULT fanout relocation, local IMU_INT2 L3 bend and NTC_BRAKE B repair; removed GND stitch for input via. Continuation still pending."
+}

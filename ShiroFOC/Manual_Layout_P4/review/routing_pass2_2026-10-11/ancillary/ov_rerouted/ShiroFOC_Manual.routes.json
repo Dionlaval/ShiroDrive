@@ -1,0 +1,101 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/ancillary/ov_unfenced/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "Net-(U203-OV1)",
+      "source": "e8429220-4c2c-4138-827a-58452590906b",
+      "target": "bdaca54c-df90-42fe-b39f-1c27661b1d4c",
+      "source_ref": "R210",
+      "source_pin": "2",
+      "target_ref": "R211",
+      "target_pin": "1",
+      "distance_mm": 2.23606797749979e-06,
+      "length_mm": 10.221930009000664,
+      "vias": 2,
+      "path_points": 363,
+      "rejected": false,
+      "new_items": [
+        "92372e9c-904c-48c4-a195-43706c112895",
+        "87d71311-cb70-46d8-a286-d6c8b92269dc",
+        "5712cb59-ab96-4e0a-9ac4-3b9d47d5d001",
+        "80f01885-abf6-465c-abb0-cd4af43f9ee5",
+        "341aa9db-5e17-4bb9-9081-9a1e0309aefe",
+        "d4a0596c-feae-43b4-8a27-6e940b0abf54",
+        "81a7baa6-2caa-4053-8a01-dd43315404e3",
+        "c5c59eaf-fc6d-4e90-b965-0a88675d3bca",
+        "10c9c0db-5d40-41e6-b871-312a36286ef9",
+        "8f69ca69-a01a-4e32-ac26-d70f5c3bcf7c",
+        "c90937ee-0d85-434f-96d3-042a3809be86"
+      ],
+      "elapsed_seconds": 4.471904039382935
+    },
+    {
+      "net": "Net-(U203-OV2)",
+      "source": "44e18072-9efb-4e4d-9db7-234d23b7a0fa",
+      "target": "fc0c9c71-2089-43ac-a15c-c61ff8876609",
+      "source_ref": "R212",
+      "source_pin": "2",
+      "target_ref": "R213",
+      "target_pin": "1",
+      "distance_mm": 3.6055512754639896e-06,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 4.453744173049927
+    },
+    {
+      "net": "Net-(U203-CP2)",
+      "source": "5fe72292-e002-4e4d-b897-5c5a1b201da4",
+      "target": "80619f70-819e-44b8-b163-7ba6cf5d4392",
+      "source_ref": "R208",
+      "source_pin": "2",
+      "target_ref": "U203",
+      "target_pin": "3",
+      "distance_mm": 1.0477225250122286,
+      "length_mm": 0.9785533905932743,
+      "vias": 0,
+      "path_points": 36,
+      "rejected": false,
+      "new_items": [
+        "ff1dde6a-1d9d-4622-b638-e50028ccd06c",
+        "5fc6295c-4172-47e4-869e-f382853fc9b3"
+      ],
+      "elapsed_seconds": 4.968447923660278
+    },
+    {
+      "net": "Net-(U203-PR1)",
+      "source": "585a40a6-5450-4466-a968-e3741c9ea893",
+      "target": "a505a8d8-ef95-4668-b127-e343685557ee",
+      "source_ref": "R206",
+      "source_pin": "2",
+      "target_ref": "U203",
+      "target_pin": "6",
+      "distance_mm": 1.598384520492175,
+      "length_mm": 3.9642135623730863,
+      "vias": 0,
+      "path_points": 143,
+      "rejected": false,
+      "new_items": [
+        "89795f09-206d-457d-9547-8cb27dcdee7e",
+        "e846a182-5ac7-417c-a717-5219cf6fcf79",
+        "f01b8146-f9a8-449d-bed1-24490aa8fbc2",
+        "20897b4f-aea8-4594-8c83-f1820aa5fe24",
+        "e4bc7f66-d330-4f62-bce5-9c1cae43b5e8",
+        "b7d8d2ae-bb54-48cf-adf4-46c5b137006d",
+        "4bbc7f51-9d0a-4fea-a463-2d8c847fc807"
+      ],
+      "elapsed_seconds": 4.465958118438721
+    }
+  ]
+}

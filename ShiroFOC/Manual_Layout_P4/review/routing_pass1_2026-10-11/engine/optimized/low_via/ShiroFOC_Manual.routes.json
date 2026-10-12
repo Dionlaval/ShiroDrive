@@ -1,0 +1,62 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/engine/optimized/base/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "SPI3_MOSI_MCU",
+      "source": "4a2c25db-8a6c-41ad-9632-05125b8033f6",
+      "target": "bd799b00-6e2e-4030-886a-1e5e72051f2b",
+      "source_ref": "U4",
+      "source_pin": "56",
+      "target_ref": "R314",
+      "target_pin": "1",
+      "distance_mm": 1.5840419198900642,
+      "length_mm": 10.392031021678292,
+      "vias": 2,
+      "path_points": 198,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 1.0754339694976807
+    },
+    {
+      "net": "SPI3_SCK_MCU",
+      "source": "46b74c79-820f-4c2d-83ea-b77253a47321",
+      "target": "0174a6a5-e6c8-435f-95b3-661fd08b1142",
+      "source_ref": "U4",
+      "source_pin": "54",
+      "target_ref": "R313",
+      "target_pin": "1",
+      "distance_mm": 3.5124970603866696,
+      "length_mm": 9.022539674441607,
+      "vias": 1,
+      "path_points": 146,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 1.1069931983947754
+    },
+    {
+      "net": "Net-(U601-MISO)",
+      "source": "5f51515c-fa6d-47c9-a6e5-bd9955887420",
+      "target": "f9bf18dd-e470-4f46-8ec4-da1fd4412935",
+      "source_ref": "U601",
+      "source_pin": "3",
+      "target_ref": "R611",
+      "target_pin": "1",
+      "distance_mm": 2.5475,
+      "length_mm": 15.240306627408021,
+      "vias": 0,
+      "path_points": 259,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 1.1229748725891113
+    }
+  ]
+}

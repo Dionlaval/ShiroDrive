@@ -1,0 +1,104 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/combined_can_brake/sequential/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "5c5dec78bb06db79272af079ff68362e6170fcb6cc84449c598f282859b7912d",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/combined_can_brake/grounded/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "signal_return_430e1451-1f11-4a90-a671-ae05f1b908a9",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "BRAKE_PWM",
+      "signal_via_uuid": "430e1451-1f11-4a90-a671-ae05f1b908a9",
+      "signal_position_mm": [
+        5.875,
+        2.075
+      ],
+      "end_mm": [
+        5.3,
+        1.5
+      ],
+      "distance_to_signal_mm": 0.813173,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "cdcf53fb-5a13-4177-a226-2b0ef5f63817"
+      ],
+      "new_items": [
+        "cdcf53fb-5a13-4177-a226-2b0ef5f63817"
+      ],
+      "added_via_uuid": "cdcf53fb-5a13-4177-a226-2b0ef5f63817",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    }
+  ],
+  "skipped": [],
+  "signal_returns": {
+    "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/combined_can_brake/sequential/ShiroFOC_Manual.kicad_pcb",
+    "baseline_sha256": "5c5dec78bb06db79272af079ff68362e6170fcb6cc84449c598f282859b7912d",
+    "new_signal_vias": 0,
+    "reused_signal_vias": 1,
+    "audited_signal_vias": 1,
+    "required_ground_planes": [
+      "GND L2",
+      "GND L5"
+    ],
+    "before": [
+      {
+        "signal_via_uuid": "430e1451-1f11-4a90-a671-ae05f1b908a9",
+        "net": "BRAKE_PWM",
+        "position_mm": [
+          5.875,
+          2.075
+        ],
+        "nearest_ground_mm": 2.192316,
+        "transition": {
+          "new_via": false,
+          "forced": true,
+          "previous_signal_layers": [
+            "Signals L3",
+            "Power L4"
+          ],
+          "current_signal_layers": [
+            "Signals L3",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "signal_via_uuid": "430e1451-1f11-4a90-a671-ae05f1b908a9",
+        "net": "BRAKE_PWM",
+        "position_mm": [
+          5.875,
+          2.075
+        ],
+        "nearest_ground_via_uuid": "cdcf53fb-5a13-4177-a226-2b0ef5f63817",
+        "nearest_ground_mm": 0.813173,
+        "covered_within_1_5mm": true
+      }
+    ],
+    "uncovered": []
+  },
+  "added_counts": {
+    "PCB_VIA": 1
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 1.5,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

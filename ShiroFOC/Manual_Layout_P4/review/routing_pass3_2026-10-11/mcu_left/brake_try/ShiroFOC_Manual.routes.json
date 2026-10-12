@@ -1,0 +1,60 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/sensor_open/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "BRAKE_PWM",
+      "source": "78ff7d13-0581-420f-877d-88407af32004",
+      "target": "bbf0e96b-4754-4656-a28b-b5491173ee49",
+      "source_ref": "U4",
+      "source_pin": "60",
+      "target_ref": "R501",
+      "target_pin": "1",
+      "distance_mm": 18.63812480469438,
+      "length_mm": 20.94330265358691,
+      "vias": 1,
+      "path_points": 696,
+      "rejected": false,
+      "new_items": [
+        "4bacea33-8f4b-448e-9dbc-2fa653c47bb9",
+        "9a118536-3015-4af7-ba73-c48244d5d0eb",
+        "a1748657-7a49-432d-b9dc-e1085dffb666",
+        "b3b97f0d-0c2f-40d8-a871-5f1a21be6bee",
+        "a88ee52b-d385-4d2c-8e72-569ecca0ec62",
+        "c0a48dfc-b07d-46eb-a855-2876d57722dc",
+        "0bdbc965-a4bf-490c-bf6c-c5cee566e045",
+        "8b426a4a-d22a-43ed-9826-41000de0b474",
+        "699bf66b-cc45-4ed9-8a9e-f1979854a305",
+        "d9653f37-ecaf-42e7-be64-787ef98865c7",
+        "c5295885-0a11-4f3d-83a5-ef923d1bfccf",
+        "e27118e7-e614-4ed3-b040-f8541762b4d0",
+        "383f49a9-2e3a-4c15-aab2-43f3ddd61b41"
+      ],
+      "elapsed_seconds": 4.693163156509399
+    },
+    {
+      "net": "Net-(U601-MOSI)",
+      "source": "54344c8f-edb0-4e72-9b15-f662fcc6cee6",
+      "target": "23abd763-343c-4663-b322-e4f23f235a08",
+      "source_ref": "U601",
+      "source_pin": "4",
+      "target_ref": "R314",
+      "target_pin": "2",
+      "distance_mm": 9.39120632560056,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 5.090063810348511
+    }
+  ]
+}

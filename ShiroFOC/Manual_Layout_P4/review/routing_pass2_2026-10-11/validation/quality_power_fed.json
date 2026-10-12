@@ -1,0 +1,781 @@
+{
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/power_fed/ShiroFOC_Manual.kicad_pcb",
+  "sha256": "342cde3957200cf6bb7f071025db8b6d668d6bd7e5e1f8d0e0f22d913e35ea9a",
+  "method": "Native filled GND polygon centerline containment sampled every <= 0.05 mm; adjacent layer only. Includes local antipad gaps. Geometric review only; no rise-time, field-solver, or impedance claim.",
+  "stackup": [
+    "F.Cu",
+    "GND L2",
+    "Signals L3",
+    "Power L4",
+    "GND L5",
+    "B.Cu"
+  ],
+  "ground_plane_regions": {
+    "GND L2": [
+      1
+    ],
+    "GND L5": [
+      1
+    ]
+  },
+  "connections": [
+    {
+      "net": "/Current / temperature/NTC_B_RAW",
+      "source": "R712.1",
+      "target": "TH702.1",
+      "manifest": "ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/ntc_l4/ShiroFOC_Manual.routes.json",
+      "all_manifest_items_present": true,
+      "length_mm": 36.52112,
+      "direct_distance_mm": 31.972335307262117,
+      "detour_ratio": 1.142,
+      "vias": 2,
+      "segments": 9,
+      "unsupported_length_mm": 1.62332,
+      "max_single_segment_gap_mm": 0.55
+    },
+    {
+      "net": "/Current / temperature/NTC_C_RAW",
+      "source": "R713.1",
+      "target": "TH703.1",
+      "manifest": "ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/ntc_l4/ShiroFOC_Manual.routes.json",
+      "all_manifest_items_present": true,
+      "length_mm": 39.20315,
+      "direct_distance_mm": 34.542079048603895,
+      "detour_ratio": 1.135,
+      "vias": 2,
+      "segments": 11,
+      "unsupported_length_mm": 1.86915,
+      "max_single_segment_gap_mm": 0.546726
+    }
+  ],
+  "new_routes_by_net": {
+    "/Current / temperature/NTC_B_RAW": {
+      "length_mm": 36.52112,
+      "unsupported_length_mm": 1.62332,
+      "max_single_segment_gap_mm": 0.55,
+      "layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "coverage_percent": 95.56
+    },
+    "/Current / temperature/NTC_C_RAW": {
+      "length_mm": 39.20315,
+      "unsupported_length_mm": 1.86915,
+      "max_single_segment_gap_mm": 0.546726,
+      "layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "coverage_percent": 95.23
+    },
+    "3V3": {
+      "length_mm": 5.31629,
+      "unsupported_length_mm": 4.34506,
+      "max_single_segment_gap_mm": 0.565685,
+      "layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "coverage_percent": 18.27
+    }
+  },
+  "segments_with_reference_void_at_least_0p75mm": [],
+  "all_new_segment_reference_samples": [
+    {
+      "uuid": "74247a05-a89d-4f52-a74e-3b12d5f06307",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.1,
+      "start_mm": [
+        15.85,
+        9.425
+      ],
+      "end_mm": [
+        15.85,
+        9.525
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "faccf46f-95f2-4080-b891-fba5525f8577",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.742462,
+      "start_mm": [
+        16.375,
+        8.9
+      ],
+      "end_mm": [
+        15.85,
+        9.425
+      ],
+      "unsupported_length_mm": 0.544472,
+      "longest_gap_mm": 0.544472,
+      "gaps": [
+        {
+          "from_mm": [
+            16.3575,
+            8.9175
+          ],
+          "to_mm": [
+            15.9725,
+            9.3025
+          ],
+          "length_mm": 0.5445
+        }
+      ]
+    },
+    {
+      "uuid": "5ff0fe58-89b3-44d8-ad21-6af7c2fc26fc",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 5.586143,
+      "start_mm": [
+        9.2,
+        1.5
+      ],
+      "end_mm": [
+        13.149999,
+        5.45
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "6ad483f6-5fc4-47f9-8562-1568c415e61f",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 3.995153,
+      "start_mm": [
+        13.55,
+        5.45
+      ],
+      "end_mm": [
+        16.375,
+        8.275
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "7eee36ce-ac3a-4ba5-ae20-06d10c4dbfbb",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 18.65,
+      "start_mm": [
+        -9.45,
+        1.5
+      ],
+      "end_mm": [
+        9.2,
+        1.5
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "8a7e702e-bd9e-43e6-9eb9-c8b87c9105cd",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.400001,
+      "start_mm": [
+        13.149999,
+        5.45
+      ],
+      "end_mm": [
+        13.55,
+        5.45
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "be4d36e8-f873-4e2b-9b8a-06136ec4ff9c",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 2.72236,
+      "start_mm": [
+        -11.375,
+        -0.424999
+      ],
+      "end_mm": [
+        -9.45,
+        1.5
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "dc86f718-6286-4eb8-9bb0-f597da0c37c5",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 3.7,
+      "start_mm": [
+        -15.075,
+        -0.424999
+      ],
+      "end_mm": [
+        -11.375,
+        -0.424999
+      ],
+      "unsupported_length_mm": 0.55,
+      "longest_gap_mm": 0.55,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.05,
+            -0.424999
+          ],
+          "to_mm": [
+            -14.5,
+            -0.424999
+          ],
+          "length_mm": 0.55
+        }
+      ]
+    },
+    {
+      "uuid": "ecc7e841-e80e-4c3f-b4de-559d9c8e20dc",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.625,
+      "start_mm": [
+        16.375,
+        8.275
+      ],
+      "end_mm": [
+        16.375,
+        8.9
+      ],
+      "unsupported_length_mm": 0.528846,
+      "longest_gap_mm": 0.528846,
+      "gaps": [
+        {
+          "from_mm": [
+            16.375,
+            8.395192
+          ],
+          "to_mm": [
+            16.375,
+            8.9
+          ],
+          "length_mm": 0.5288
+        }
+      ]
+    },
+    {
+      "uuid": "15ce15ba-067b-4a17-997f-fdd71333e970",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.1,
+      "start_mm": [
+        15.85,
+        16.925
+      ],
+      "end_mm": [
+        15.85,
+        17.025
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "2eb5e3d8-eaa3-4fc4-9eff-5d39b0638535",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.742462,
+      "start_mm": [
+        16.375,
+        16.4
+      ],
+      "end_mm": [
+        15.85,
+        16.925
+      ],
+      "unsupported_length_mm": 0.544472,
+      "longest_gap_mm": 0.544472,
+      "gaps": [
+        {
+          "from_mm": [
+            16.3575,
+            16.4175
+          ],
+          "to_mm": [
+            15.9725,
+            16.8025
+          ],
+          "length_mm": 0.5445
+        }
+      ]
+    },
+    {
+      "uuid": "13413b4e-c090-4cf3-99f9-26e5fc4cdeea",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 10.960154,
+      "start_mm": [
+        5.4,
+        5.2
+      ],
+      "end_mm": [
+        13.149999,
+        12.95
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "23c35323-ec13-4f90-a0f2-5f0f633775f2",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 4.175001,
+      "start_mm": [
+        -15.075,
+        0.6
+      ],
+      "end_mm": [
+        -10.899999,
+        0.6
+      ],
+      "unsupported_length_mm": 0.695833,
+      "longest_gap_mm": 0.546726,
+      "gaps": [
+        {
+          "from_mm": [
+            -15.050149,
+            0.6
+          ],
+          "to_mm": [
+            -14.503422,
+            0.6
+          ],
+          "length_mm": 0.5467
+        },
+        {
+          "from_mm": [
+            -13.559077,
+            0.6
+          ],
+          "to_mm": [
+            -13.40997,
+            0.6
+          ],
+          "length_mm": 0.1491
+        }
+      ]
+    },
+    {
+      "uuid": "2e76e832-752d-42cb-869c-0781a4783db5",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.625001,
+      "start_mm": [
+        16.375,
+        15.774999
+      ],
+      "end_mm": [
+        16.375,
+        16.4
+      ],
+      "unsupported_length_mm": 0.528847,
+      "longest_gap_mm": 0.528847,
+      "gaps": [
+        {
+          "from_mm": [
+            16.375,
+            15.895192
+          ],
+          "to_mm": [
+            16.375,
+            16.4
+          ],
+          "length_mm": 0.5288
+        }
+      ]
+    },
+    {
+      "uuid": "3367d4ac-2f9d-4703-8ba9-046e29e6396c",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 4.4,
+      "start_mm": [
+        1.0,
+        5.2
+      ],
+      "end_mm": [
+        5.4,
+        5.2
+      ],
+      "unsupported_length_mm": 0.1,
+      "longest_gap_mm": 0.1,
+      "gaps": [
+        {
+          "from_mm": [
+            2.025,
+            5.2
+          ],
+          "to_mm": [
+            2.125,
+            5.2
+          ],
+          "length_mm": 0.1
+        }
+      ]
+    },
+    {
+      "uuid": "402d11a2-598e-449d-8785-19cb069f1092",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 3.995153,
+      "start_mm": [
+        13.55,
+        12.95
+      ],
+      "end_mm": [
+        16.375,
+        15.774999
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "4202342b-db46-4d9f-a6c3-9ccafcc550c0",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 3.394112,
+      "start_mm": [
+        -10.899999,
+        0.6
+      ],
+      "end_mm": [
+        -8.5,
+        3.0
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "687c2a26-b275-412f-a55e-62e0b226116d",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 7.300001,
+      "start_mm": [
+        -8.5,
+        3.0
+      ],
+      "end_mm": [
+        -1.199999,
+        3.0
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "90517ed5-9c64-4fef-813c-5009b4a5fc3b",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 3.111269,
+      "start_mm": [
+        -1.199999,
+        3.0
+      ],
+      "end_mm": [
+        1.0,
+        5.2
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "f68da833-540a-4835-9a84-f9c51fce5964",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.400001,
+      "start_mm": [
+        13.149999,
+        12.95
+      ],
+      "end_mm": [
+        13.55,
+        12.95
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "2e3b9253-1377-44ea-9353-1351c44ce9c4",
+      "net": "3V3",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 1.06066,
+      "start_mm": [
+        -7.1,
+        -1.92
+      ],
+      "end_mm": [
+        -7.85,
+        -1.17
+      ],
+      "unsupported_length_mm": 0.53033,
+      "longest_gap_mm": 0.53033,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.492045,
+            -1.527955
+          ],
+          "to_mm": [
+            -7.85,
+            -1.17
+          ],
+          "length_mm": 0.5303
+        }
+      ]
+    },
+    {
+      "uuid": "6420bc21-b216-47c1-a3a6-e06cae0a813b",
+      "net": "3V3",
+      "layer": "F.Cu",
+      "reference_plane": "GND L2",
+      "length_mm": 0.55,
+      "start_mm": [
+        -7.1,
+        -4.73
+      ],
+      "end_mm": [
+        -7.1,
+        -5.28
+      ],
+      "unsupported_length_mm": 0.55,
+      "longest_gap_mm": 0.55,
+      "gaps": [
+        {
+          "from_mm": [
+            -7.1,
+            -4.755
+          ],
+          "to_mm": [
+            -7.1,
+            -5.28
+          ],
+          "length_mm": 0.55
+        }
+      ]
+    },
+    {
+      "uuid": "3e8e35a6-b1c0-435c-8bd5-806135ee62f2",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.707107,
+      "start_mm": [
+        -3.305,
+        21.125
+      ],
+      "end_mm": [
+        -2.805,
+        21.625
+      ],
+      "unsupported_length_mm": 0.565685,
+      "longest_gap_mm": 0.565685,
+      "gaps": [
+        {
+          "from_mm": [
+            -3.188333,
+            21.241667
+          ],
+          "to_mm": [
+            -2.805,
+            21.625
+          ],
+          "length_mm": 0.5657
+        }
+      ]
+    },
+    {
+      "uuid": "68130fab-b913-4772-9141-ddb57cd423dc",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.55,
+      "start_mm": [
+        -16.45,
+        -13.86
+      ],
+      "end_mm": [
+        -16.45,
+        -13.31
+      ],
+      "unsupported_length_mm": 0.55,
+      "longest_gap_mm": 0.55,
+      "gaps": [
+        {
+          "from_mm": [
+            -16.45,
+            -13.835
+          ],
+          "to_mm": [
+            -16.45,
+            -13.31
+          ],
+          "length_mm": 0.55
+        }
+      ]
+    },
+    {
+      "uuid": "797ed889-dc4c-4b41-8f29-3f2dd0e60165",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.55,
+      "start_mm": [
+        -20.337503,
+        13.922499
+      ],
+      "end_mm": [
+        -20.887503,
+        13.922499
+      ],
+      "unsupported_length_mm": 0.55,
+      "longest_gap_mm": 0.55,
+      "gaps": [
+        {
+          "from_mm": [
+            -20.362503,
+            13.922499
+          ],
+          "to_mm": [
+            -20.887503,
+            13.922499
+          ],
+          "length_mm": 0.55
+        }
+      ]
+    },
+    {
+      "uuid": "82c0d828-7dc9-41a5-bdae-d2ece61de780",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.848528,
+      "start_mm": [
+        4.39,
+        -2.4
+      ],
+      "end_mm": [
+        3.79,
+        -3.0
+      ],
+      "unsupported_length_mm": 0.549048,
+      "longest_gap_mm": 0.549048,
+      "gaps": [
+        {
+          "from_mm": [
+            4.160588,
+            -2.629412
+          ],
+          "to_mm": [
+            3.79,
+            -3.0
+          ],
+          "length_mm": 0.549
+        }
+      ]
+    },
+    {
+      "uuid": "8ea396ad-6f1b-41a8-a21a-ddbcfeb2deb8",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.5,
+      "start_mm": [
+        -14.0,
+        1.85
+      ],
+      "end_mm": [
+        -14.0,
+        2.35
+      ],
+      "unsupported_length_mm": 0.5,
+      "longest_gap_mm": 0.5,
+      "gaps": [
+        {
+          "from_mm": [
+            -14.0,
+            1.875
+          ],
+          "to_mm": [
+            -14.0,
+            2.35
+          ],
+          "length_mm": 0.5
+        }
+      ]
+    },
+    {
+      "uuid": "ee066ebe-62e4-4261-94cd-8d31d98cb52f",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.55,
+      "start_mm": [
+        -16.909999,
+        -0.5
+      ],
+      "end_mm": [
+        -17.459999,
+        -0.5
+      ],
+      "unsupported_length_mm": 0.55,
+      "longest_gap_mm": 0.55,
+      "gaps": [
+        {
+          "from_mm": [
+            -16.934999,
+            -0.5
+          ],
+          "to_mm": [
+            -17.459999,
+            -0.5
+          ],
+          "length_mm": 0.55
+        }
+      ]
+    }
+  ]
+}

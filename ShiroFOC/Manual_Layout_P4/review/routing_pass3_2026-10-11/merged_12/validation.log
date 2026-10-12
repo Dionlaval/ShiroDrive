@@ -1,0 +1,28 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+07:53:37 PM: Debug: Adding duplicate image handler for 'PNG file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'JPEG file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'TIFF file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'GIF file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'PNM file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'PCX file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'IFF file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'TGA file'
+07:53:37 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "failures": [],
+  "new_item_count": 389,
+  "baseline_drc": {
+    "errors": 29,
+    "warnings": 381,
+    "unconnected": 307
+  },
+  "candidate_drc": {
+    "errors": 29,
+    "warnings": 376,
+    "unconnected": 256
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-11",
+  "scope": "P3 feedback power fixed at 5V; schematic only",
+  "confidence": "verified",
+  "removed_ref": "JP601",
+  "checks": {
+    "sensor_supply": "U604 IN/EN/ILIM and C606 pin1 = 5V_SYS",
+    "3V3_supply": "JP601 connection removed, all other 3V3 connections unchanged",
+    "unrelated_connectivity": "unchanged, including fan/brake/MCU interfaces",
+    "values_and_footprints": "unchanged for all retained parts",
+    "erc_no_new_findings": true,
+    "pcb_unchanged": true
+  },
+  "erc_before": {
+    "warning": 16,
+    "error": 1
+  },
+  "erc_after": {
+    "warning": 16,
+    "error": 1
+  },
+  "new_erc_findings": 0,
+  "resolved_erc_findings": 0,
+  "pcb_sha256": "33bcf58813051d15b5970d7d86492cf5755018e0d618f0b616fbfbeb74daedca",
+  "after_schematic_sha256": "1ddb25d35a827425c0f731d8a134a3a59fc4cfffbfc0af4daf8d6bee71f33085",
+  "evidence": [
+    "Native KiCad XML netlists",
+    "Native KiCad ERC",
+    "Raw schematic diff",
+    "PDF visual check"
+  ],
+  "limitations": "No hardware testing; unrelated existing ERC findings remain."
+}

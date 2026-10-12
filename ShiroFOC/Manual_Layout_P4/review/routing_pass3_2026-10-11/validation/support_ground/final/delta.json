@@ -1,0 +1,270 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_06/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/support_ground/final/ShiroFOC_Manual.kicad_pcb",
+  "candidate_sha256": "f49cc228baa62285d844d8512b3c0f2e86e719e2b63a8e3ea4fbc8ed0461f400",
+  "removed_ids": [],
+  "new_ids": [
+    "3a0fc561-d227-40bc-832c-6bf791fd9311",
+    "84749eea-4205-4af1-b3b2-888b47643294",
+    "658ee945-8401-4df4-aec2-7608b72afd2c",
+    "bd16f7ca-fe53-47db-882a-f26e43ccab12",
+    "e5161985-5f50-404e-a76d-226cc4a3ab3f",
+    "f37ff81b-696a-4b6f-8d31-9df3e1d25bfd",
+    "7e32d2da-29cc-4dca-a150-297645817daa",
+    "2ddca686-f342-4eef-97a5-606509a6eca5",
+    "057723a5-c168-4ae3-93d7-024c18f18d0a",
+    "5692d667-e7a3-4b47-97e4-35f8c75bcd81",
+    "140a4ace-cb06-4b80-b09e-673e020269a2",
+    "ce2557c0-e11e-445c-be8f-f39d6f7761d7",
+    "f07adafa-c4d0-4d92-a52d-54e741d68528",
+    "a06ae7ac-aa19-4fa8-8172-1a776224f28b",
+    "58dd2c2c-567c-48a4-9c18-7955b7b3ee24",
+    "2eb404f4-0263-4acf-8091-d406e32afb89",
+    "09903290-e461-4b89-818f-8df99cdc2689",
+    "82f8dd41-8142-423d-92fb-403ee653bfa1",
+    "19c93679-49e1-4b8c-a32b-878b9defd237",
+    "ae261e10-f4e0-4c21-a0ce-97c02ea885d2",
+    "3f82e6ab-30a7-4970-8469-71195f2619e4",
+    "aff2b8be-d5b7-4fe9-8fe9-3e53eb430dea"
+  ],
+  "footprint_moves": [],
+  "groups": [
+    {
+      "id": "ground_U601.5",
+      "net": "GND",
+      "pad": "U601.5",
+      "pad_uuid": "9667a117-2b7b-4b95-87b2-ea8eb558fb40",
+      "new_items": [
+        "3a0fc561-d227-40bc-832c-6bf791fd9311",
+        "84749eea-4205-4af1-b3b2-888b47643294",
+        "658ee945-8401-4df4-aec2-7608b72afd2c"
+      ],
+      "length_mm": 2.8020815280171267,
+      "width_mm": 0.254,
+      "new_via_uuid": null,
+      "target_mode": "existing",
+      "start_mm": [
+        2.8625,
+        0.65
+      ],
+      "end_mm": [
+        5.3,
+        1.5
+      ]
+    },
+    {
+      "id": "ground_U901.12",
+      "net": "GND",
+      "pad": "U901.12",
+      "pad_uuid": "111e6942-3a13-43d4-b3e5-7f41a80836b2",
+      "new_items": [
+        "bd16f7ca-fe53-47db-882a-f26e43ccab12",
+        "e5161985-5f50-404e-a76d-226cc4a3ab3f",
+        "f37ff81b-696a-4b6f-8d31-9df3e1d25bfd",
+        "7e32d2da-29cc-4dca-a150-297645817daa"
+      ],
+      "length_mm": 1.6828427124746175,
+      "width_mm": 0.254,
+      "new_via_uuid": "7e32d2da-29cc-4dca-a150-297645817daa",
+      "target_mode": "new",
+      "start_mm": [
+        -21.52,
+        -7.399999
+      ],
+      "end_mm": [
+        -21.725,
+        -5.8
+      ]
+    },
+    {
+      "id": "ground_R307.2",
+      "net": "GND",
+      "pad": "R307.2",
+      "pad_uuid": "7a6a3eb2-873c-4bc0-bdc3-6b17322318da",
+      "new_items": [
+        "2ddca686-f342-4eef-97a5-606509a6eca5",
+        "057723a5-c168-4ae3-93d7-024c18f18d0a",
+        "5692d667-e7a3-4b47-97e4-35f8c75bcd81",
+        "140a4ace-cb06-4b80-b09e-673e020269a2"
+      ],
+      "length_mm": 2.9717514421272146,
+      "width_mm": 0.1524,
+      "new_via_uuid": null,
+      "target_mode": "existing",
+      "start_mm": [
+        -0.69,
+        16.9
+      ],
+      "end_mm": [
+        0.55,
+        18.9
+      ]
+    },
+    {
+      "id": "ground_C601.2",
+      "net": "GND",
+      "pad": "C601.2",
+      "pad_uuid": "204b1235-e6c0-475f-8c18-1a63c2a12d28",
+      "new_items": [
+        "ce2557c0-e11e-445c-be8f-f39d6f7761d7",
+        "f07adafa-c4d0-4d92-a52d-54e741d68528",
+        "a06ae7ac-aa19-4fa8-8172-1a776224f28b",
+        "58dd2c2c-567c-48a4-9c18-7955b7b3ee24"
+      ],
+      "length_mm": 2.9985281374238517,
+      "width_mm": 0.1524,
+      "new_via_uuid": null,
+      "target_mode": "existing",
+      "start_mm": [
+        -4.360312,
+        -1.606331
+      ],
+      "end_mm": [
+        -7.1,
+        -1.1
+      ]
+    },
+    {
+      "id": "ground_U601.13",
+      "net": "GND",
+      "pad": "U601.13",
+      "pad_uuid": "69c4e5c2-fcac-45bc-b3a2-f7296a03f7b1",
+      "new_items": [
+        "2eb404f4-0263-4acf-8091-d406e32afb89",
+        "09903290-e461-4b89-818f-8df99cdc2689",
+        "82f8dd41-8142-423d-92fb-403ee653bfa1"
+      ],
+      "length_mm": 1.5992640687119275,
+      "width_mm": 0.254,
+      "new_via_uuid": null,
+      "target_mode": "existing",
+      "start_mm": [
+        -2.8625,
+        -1.3
+      ],
+      "end_mm": [
+        -4.360312,
+        -1.606331
+      ]
+    },
+    {
+      "id": "ground_U602.11",
+      "net": "GND",
+      "pad": "U602.11",
+      "pad_uuid": "bf08e11f-cd22-469e-846f-17b5458084ef",
+      "new_items": [
+        "19c93679-49e1-4b8c-a32b-878b9defd237",
+        "ae261e10-f4e0-4c21-a0ce-97c02ea885d2",
+        "3f82e6ab-30a7-4970-8469-71195f2619e4"
+      ],
+      "length_mm": 2.706370849898472,
+      "width_mm": 0.254,
+      "new_via_uuid": null,
+      "target_mode": "existing",
+      "start_mm": [
+        -3.305,
+        17.875
+      ],
+      "end_mm": [
+        -5.25,
+        16.65
+      ]
+    },
+    {
+      "id": "ground_R209.2",
+      "net": "GND",
+      "pad": "R209.2",
+      "pad_uuid": "27812bce-b5a7-4c14-b01c-c62a09261552",
+      "new_items": [
+        "aff2b8be-d5b7-4fe9-8fe9-3e53eb430dea"
+      ],
+      "length_mm": 1.4499999999999988,
+      "width_mm": 0.1524,
+      "new_via_uuid": null,
+      "target_mode": "existing",
+      "start_mm": [
+        -15.45,
+        -21.88
+      ],
+      "end_mm": [
+        -14.010003,
+        -21.879997
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "pad": "C313.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U601.5",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C605.2",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "U602.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U602.5",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "U602.8",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U202.2",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "U901.12",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.3",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R905.2",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "R616.2",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "R617.2",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    }
+  ],
+  "note": "R905 and initial U602.11 via groups were rejected because refill split the 3V3 network. R209 uses 6 mil to maintain board-edge clearance. All additions stay outside the shared MCU rectangle."
+}

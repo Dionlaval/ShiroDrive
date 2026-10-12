@@ -1,0 +1,73 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "/Current / temperature/NTC_B_RAW",
+      "source": "fba9fb3d-bc1e-4d82-ae4e-fc7f2d88bbab",
+      "target": "6923c7e1-e32b-4927-b0f2-81e9b262fbd1",
+      "source_ref": "R712",
+      "source_pin": "1",
+      "target_ref": "TH702",
+      "target_pin": "1",
+      "distance_mm": 31.972335307262117,
+      "length_mm": 36.52112011289184,
+      "vias": 2,
+      "path_points": 1311,
+      "rejected": false,
+      "new_items": [
+        "5034bbf0-807e-4ba6-b857-f41f634fdc6a",
+        "dc86f718-6286-4eb8-9bb0-f597da0c37c5",
+        "be4d36e8-f873-4e2b-9b8a-06136ec4ff9c",
+        "7eee36ce-ac3a-4ba5-ae20-06d10c4dbfbb",
+        "5ff0fe58-89b3-44d8-ad21-6af7c2fc26fc",
+        "8a7e702e-bd9e-43e6-9eb9-c8b87c9105cd",
+        "6ad483f6-5fc4-47f9-8562-1568c415e61f",
+        "ecc7e841-e80e-4c3f-b4de-559d9c8e20dc",
+        "a9d11b94-6abb-4f37-bd31-c48dab89b6c6",
+        "faccf46f-95f2-4080-b891-fba5525f8577",
+        "74247a05-a89d-4f52-a74e-3b12d5f06307"
+      ],
+      "elapsed_seconds": 5.121681213378906
+    },
+    {
+      "net": "/Current / temperature/NTC_C_RAW",
+      "source": "66593c0d-5690-4b5d-8ec6-d76487069f37",
+      "target": "7d8c86e6-c817-4ebe-98c5-7f5677c311fa",
+      "source_ref": "R713",
+      "source_pin": "1",
+      "target_ref": "TH703",
+      "target_pin": "1",
+      "distance_mm": 34.542079048603895,
+      "length_mm": 39.203152929258216,
+      "vias": 2,
+      "path_points": 1311,
+      "rejected": false,
+      "new_items": [
+        "5cab317d-ca6c-4dad-a6e0-535861ca46b9",
+        "23c35323-ec13-4f90-a0f2-5f0f633775f2",
+        "4202342b-db46-4d9f-a6c3-9ccafcc550c0",
+        "687c2a26-b275-412f-a55e-62e0b226116d",
+        "90517ed5-9c64-4fef-813c-5009b4a5fc3b",
+        "3367d4ac-2f9d-4703-8ba9-046e29e6396c",
+        "13413b4e-c090-4cf3-99f9-26e5fc4cdeea",
+        "f68da833-540a-4835-9a84-f9c51fce5964",
+        "402d11a2-598e-449d-8785-19cb069f1092",
+        "2e76e832-752d-42cb-869c-0781a4783db5",
+        "5bb308ef-c685-40f9-8f3b-da143674bb43",
+        "2eb5e3d8-eaa3-4fc4-9eff-5d39b0638535",
+        "15ce15ba-067b-4a17-997f-fdd71333e970"
+      ],
+      "elapsed_seconds": 5.036067962646484
+    }
+  ]
+}

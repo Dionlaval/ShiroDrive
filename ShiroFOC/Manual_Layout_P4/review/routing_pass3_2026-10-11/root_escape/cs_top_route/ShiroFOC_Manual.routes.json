@@ -1,0 +1,95 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/root_escape/cs_top_rip/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "AS5047P_CS_N",
+      "source": "0bcaadb4-070e-47bc-aae8-bd64aed85311",
+      "target": "577a787a-cb4f-40fd-b637-8736f1a8dd46",
+      "source_ref": "U4",
+      "source_pin": "51",
+      "target_ref": "U601",
+      "target_pin": "1",
+      "distance_mm": 7.021392825162896,
+      "length_mm": 8.642335854398839,
+      "vias": 2,
+      "path_points": 311,
+      "rejected": false,
+      "new_items": [
+        "b54d0277-5a57-43a7-b25d-7f5bc921d30c",
+        "e418a4a3-1834-4679-9417-f642c1fbb235",
+        "7d092800-bfc5-4dd2-b817-33af94689d8e",
+        "0ce15277-8ed2-49c0-beea-a26a50b19c6b",
+        "2b759c49-0d7f-43ff-93f8-aed588603d11",
+        "61d69771-2381-4956-9fbe-8f677c25568c",
+        "b04e3b5b-57c1-41c3-91f5-06e79bd5803e",
+        "4b737200-73b9-49c1-acf1-470f7cd491e7",
+        "9c531daa-3711-4a8d-afde-59d2ae2373d7",
+        "5f75f3fb-b8a0-4648-9c3d-43c6fd91f606",
+        "24e908f1-d9cd-4efb-8907-90d36bcc0af3",
+        "6561e90e-b591-4f40-9633-f58377a3a93b",
+        "df308054-dc48-4cd5-bd6b-fad9a84ade12",
+        "60a59bef-b3b8-4890-8fe3-0446720a9a4e",
+        "915a4efc-49d5-4a5d-ab5d-1ab41dbf249c"
+      ],
+      "elapsed_seconds": 5.187014818191528
+    },
+    {
+      "net": "I2C2_SCL",
+      "source": "8e4e8a58-9ecf-4c02-a837-d8b818ad2377",
+      "target": "1ea48ba5-ae6b-4810-ad21-97b8280557f3",
+      "source_ref": "R308",
+      "source_pin": "2",
+      "target_ref": "U4",
+      "target_pin": "21",
+      "distance_mm": 15.480444965002814,
+      "length_mm": 4.886700935788387,
+      "vias": 0,
+      "path_points": 177,
+      "rejected": false,
+      "new_items": [
+        "8fccceed-3508-4d39-97dc-9a6944b07ffc",
+        "8ed3e52a-381c-4569-8f15-718fd7f71343",
+        "632a57b3-fd2e-473c-bee6-4f1937d1b2d6",
+        "176c17bf-4045-401f-a263-b38be380f5f9",
+        "1c5acc0f-5ad2-4ba2-9d81-0aa06874136b",
+        "d9ea8eec-338b-4ea8-9c74-1bf26ce70dcb"
+      ],
+      "elapsed_seconds": 5.236077070236206
+    },
+    {
+      "net": "/Current / temperature/NTC_B_RAW",
+      "source": "fba9fb3d-bc1e-4d82-ae4e-fc7f2d88bbab",
+      "target": "6923c7e1-e32b-4927-b0f2-81e9b262fbd1",
+      "source_ref": "R712",
+      "source_pin": "1",
+      "target_ref": "TH702",
+      "target_pin": "1",
+      "distance_mm": 31.972335307262117,
+      "length_mm": 21.284114344383077,
+      "vias": 2,
+      "path_points": 733,
+      "rejected": false,
+      "new_items": [
+        "d940b6a0-b9df-4565-8b01-93d352528e1e",
+        "35ca683d-6f5a-4ade-8c45-96b4c835eff9",
+        "7f6c78b8-a605-4980-a11e-69b13055e4ba",
+        "b288c709-e616-4b43-9d7c-b3ffb9d5e985",
+        "4212cdb3-1eca-4843-890c-7dcb4f84105e",
+        "8788d3c4-dc1f-41cf-ac49-b2b3fbdfbdab",
+        "7c8dad06-7a2c-4482-96b2-9b4b5901f337",
+        "be2cd675-4aea-4e63-aabe-ffc0d8134c79"
+      ],
+      "elapsed_seconds": 5.355280876159668
+    }
+  ]
+}

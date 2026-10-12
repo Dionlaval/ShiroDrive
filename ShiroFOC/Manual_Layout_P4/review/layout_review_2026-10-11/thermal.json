@@ -1,0 +1,158 @@
+{
+  "analyzer_type": "thermal",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/schematic.json",
+      "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/pcb_refilled.json"
+    ],
+    "source_hashes": {
+      "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/schematic.json": "2bef82c7ff906597f19cf06e624b12b44693c043c858b37db1988b0e08b55705",
+      "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/pcb_refilled.json": "a91dbfbb074ffc71d296e3609a989d750db75479d2c71404babcc4a4b3cd729b"
+    },
+    "run_id": "20261011T144309Z-9d96cd",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/schematic.json",
+        "sha256": "2bef82c7ff906597f19cf06e624b12b44693c043c858b37db1988b0e08b55705",
+        "schema_version": "1.4.0",
+        "run_id": "20261011T144309Z-9d96cd"
+      },
+      "pcb": {
+        "path": "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/pcb_refilled.json",
+        "sha256": "a91dbfbb074ffc71d296e3609a989d750db75479d2c71404babcc4a4b3cd729b",
+        "schema_version": "1.4.0",
+        "run_id": "20261011T144309Z-9d96cd"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "summary": {
+    "total_findings": 0,
+    "components_assessed": 1,
+    "components_skipped": 4,
+    "active": 0,
+    "suppressed": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "thermal_score": 100,
+    "total_board_dissipation_w": 0.026,
+    "hottest_component": {
+      "ref": "U201",
+      "tj_estimated_c": 27.6
+    },
+    "components_analyzed": 1,
+    "components_above_85c": 0,
+    "components_above_tjmax": 0,
+    "ambient_c": 25.0
+  },
+  "findings": [],
+  "assessments": [
+    {
+      "ref": "U201",
+      "value": "LMR36510FADDAR",
+      "component_type": "switching_reg",
+      "pdiss_w": 0.0265,
+      "pdiss_source": "6.005V \u00d7 0.025A \u00d7 (1/85% - 1)",
+      "pdiss_confidence": "heuristic",
+      "package": "unknown",
+      "rtheta_ja_raw": 150.0,
+      "rtheta_ja_source": "default",
+      "pcb_correction": 0.65,
+      "pcb_correction_notes": [
+        "thermal pad with 11 vias (adequate)"
+      ],
+      "rtheta_ja_effective": 97.5,
+      "ambient_c": 25.0,
+      "tj_estimated_c": 27.6,
+      "tj_max_c": 125.0,
+      "tj_max_source": "default_125",
+      "margin_c": 97.4,
+      "position": {
+        "x": 2.270005,
+        "y": -17.6625
+      },
+      "detector": "analyze_thermal",
+      "rule_id": "TH-DET",
+      "category": "thermal",
+      "severity": "info",
+      "confidence": "heuristic",
+      "evidence_source": "heuristic_rule",
+      "summary": "Thermal: U201 Tj=27.6C (margin 97.4C)",
+      "description": "Component U201 in unknown package: Tj=27.6C, margin 97.4C to Tj_max (125.0C).",
+      "components": [
+        "U201"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Thermal",
+        "impact": "",
+        "standard_ref": ""
+      }
+    }
+  ],
+  "elapsed_s": 0.003,
+  "missing_info": {
+    "default_rtheta_ja": [
+      "U201"
+    ],
+    "default_tj_max": [
+      "U201"
+    ]
+  },
+  "skipped_components": [
+    {
+      "ref": "U204",
+      "value": "TLV75533PDYDR",
+      "reason": "below_min_pdiss"
+    },
+    {
+      "ref": "U604",
+      "value": "TPS2553DBVR",
+      "reason": "below_min_pdiss"
+    },
+    {
+      "ref": "U205",
+      "value": "MPM3620AGQV-Z",
+      "reason": "below_min_pdiss"
+    },
+    {
+      "ref": "U4",
+      "value": "STSPIN32G4",
+      "reason": "no_vout"
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 0,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 0,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": null
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20261011T144309Z-9d96cd"
+  }
+}

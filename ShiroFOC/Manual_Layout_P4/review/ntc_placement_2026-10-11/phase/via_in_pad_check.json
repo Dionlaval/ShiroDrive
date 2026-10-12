@@ -1,0 +1,150 @@
+{
+  "candidate_sha256": "62de3befb5c0526d70e8a35c4d0f6070b61b1e4ab005fcc709358bc91263ceba",
+  "checked_references": [
+    "R701",
+    "R702",
+    "R703",
+    "R711",
+    "R712",
+    "R713"
+  ],
+  "checked_pad_count": 12,
+  "checked_via_count": 124,
+  "method": "KiCad effective B.Cu pad-shape collision against every standalone via outer radius and drill radius, regardless net. Nearest gap uses conservative pad bounding box.",
+  "collisions": [],
+  "nearest_vias": [
+    {
+      "ref": "R712",
+      "pad": "1",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 1.6578,
+      "via_uuid": "f3efa981-b0c6-47de-b0d5-541da0be9da5",
+      "via_position_mm": [
+        -13.58,
+        -2.610001
+      ],
+      "via_net": "/USB service/USB_CC2"
+    },
+    {
+      "ref": "R712",
+      "pad": "2",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 1.54,
+      "via_uuid": "f3efa981-b0c6-47de-b0d5-541da0be9da5",
+      "via_position_mm": [
+        -13.58,
+        -2.610001
+      ],
+      "via_net": "/USB service/USB_CC2"
+    },
+    {
+      "ref": "R702",
+      "pad": "1",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 2.07054,
+      "via_uuid": "1b06f993-9734-4224-bc84-311cf5df4661",
+      "via_position_mm": [
+        -17.230001,
+        2.14
+      ],
+      "via_net": "/CAN interface/CANL_BUS"
+    },
+    {
+      "ref": "R702",
+      "pad": "2",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 2.30486,
+      "via_uuid": "1b06f993-9734-4224-bc84-311cf5df4661",
+      "via_position_mm": [
+        -17.230001,
+        2.14
+      ],
+      "via_net": "/CAN interface/CANL_BUS"
+    },
+    {
+      "ref": "R711",
+      "pad": "1",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 0.74157,
+      "via_uuid": "f3efa981-b0c6-47de-b0d5-541da0be9da5",
+      "via_position_mm": [
+        -13.58,
+        -2.610001
+      ],
+      "via_net": "/USB service/USB_CC2"
+    },
+    {
+      "ref": "R711",
+      "pad": "2",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 0.49,
+      "via_uuid": "f3efa981-b0c6-47de-b0d5-541da0be9da5",
+      "via_position_mm": [
+        -13.58,
+        -2.610001
+      ],
+      "via_net": "/USB service/USB_CC2"
+    },
+    {
+      "ref": "R701",
+      "pad": "1",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 2.89821,
+      "via_uuid": "f3efa981-b0c6-47de-b0d5-541da0be9da5",
+      "via_position_mm": [
+        -13.58,
+        -2.610001
+      ],
+      "via_net": "/USB service/USB_CC2"
+    },
+    {
+      "ref": "R701",
+      "pad": "2",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 1.92007,
+      "via_uuid": "f3efa981-b0c6-47de-b0d5-541da0be9da5",
+      "via_position_mm": [
+        -13.58,
+        -2.610001
+      ],
+      "via_net": "/USB service/USB_CC2"
+    },
+    {
+      "ref": "R703",
+      "pad": "1",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 1.02098,
+      "via_uuid": "1b06f993-9734-4224-bc84-311cf5df4661",
+      "via_position_mm": [
+        -17.230001,
+        2.14
+      ],
+      "via_net": "/CAN interface/CANL_BUS"
+    },
+    {
+      "ref": "R703",
+      "pad": "2",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 1.41066,
+      "via_uuid": "1b06f993-9734-4224-bc84-311cf5df4661",
+      "via_position_mm": [
+        -17.230001,
+        2.14
+      ],
+      "via_net": "/CAN interface/CANL_BUS"
+    },
+    {
+      "ref": "R713",
+      "pad": "1",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 2.5096,
+      "via_uuid": "1b06f993-9734-4224-bc84-311cf5df4661",
+      "via_position_mm": [
+        -17.230001,
+        2.14
+      ],
+      "via_net": "/CAN interface/CANL_BUS"
+    },
+    {
+      "ref": "R713",
+      "pad": "2",
+      "conservative_pad_bbox_to_nearest_annulus_gap_mm": 2.59,
+      "via_uuid": "f3efa981-b0c6-47de-b0d5-541da0be9da5",
+      "via_position_mm": [
+        -13.58,
+        -2.610001
+      ],
+      "via_net": "/USB service/USB_CC2"
+    }
+  ],
+  "result": "PASS"
+}

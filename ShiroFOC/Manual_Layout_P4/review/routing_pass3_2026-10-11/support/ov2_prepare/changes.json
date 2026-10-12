@@ -1,0 +1,47 @@
+{
+  "footprint_moves": [
+    {
+      "uuid": "021c9123-de54-415f-af36-21fa3cc6a8c6",
+      "reference": "R208",
+      "old": {
+        "position_nm": [
+          -15000002,
+          -20350000
+        ],
+        "angle_deg": 90.0
+      },
+      "new": {
+        "position_nm": [
+          -15450002,
+          -20350000
+        ],
+        "angle_deg": 90.0
+      }
+    },
+    {
+      "uuid": "2005dfd8-8805-4982-9a47-c86f4bb19aa1",
+      "reference": "R209",
+      "old": {
+        "position_nm": [
+          -15000000,
+          -21370001
+        ],
+        "angle_deg": 90.0
+      },
+      "new": {
+        "position_nm": [
+          -15450000,
+          -21370001
+        ],
+        "angle_deg": 90.0
+      }
+    }
+  ],
+  "allowed_replacement_uuids": [
+    "4e36e25a-1a21-40ff-8a82-5bd7ca36f9bf",
+    "8869cc94-55e5-4ef3-9d62-b11cde838e3c",
+    "48805db2-82ec-41f7-9568-788436775bdd",
+    "77243c0c-42d8-4f0d-9de9-b03c14962dfb",
+    "903380fb-311b-4c34-ba80-f4443e32343a"
+  ]
+}

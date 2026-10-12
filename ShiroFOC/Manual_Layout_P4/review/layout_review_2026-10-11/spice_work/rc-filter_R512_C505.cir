@@ -1,0 +1,17 @@
+* Auto-generated testbench for RC filter: R512/C505
+* Type: low-pass, expected fc = 338.6 Hz
+* Model: ideal passives (exact for RC)
+
+
+R512 BRAKE_NTC_RAW NTC_BRAKE 4.7k
+
+C505 NTC_BRAKE 0 100n
+
+* AC stimulus
+VAC BRAKE_NTC_RAW 0 DC 0 AC 1
+
+.ac dec 100 3.386 33.86k
+.meas ac fc_sim when vdb(NTC_BRAKE)=-3
+.meas ac phase_fc find vp(NTC_BRAKE) at=fc_sim
+
+.end

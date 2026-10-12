@@ -1,0 +1,62 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/digital/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/engine/optimized/final/ShiroFOC_Manual.kicad_pcb",
+  "net": "Net-(U601-MISO)",
+  "delete_ids": [
+    "b06c6562-a216-4923-9f56-dec4a7eed1e3",
+    "212ed3dc-e259-458a-af38-a7bf2864fc46",
+    "ab6d4768-2cad-4576-a575-8e3644212cd7",
+    "e64bb276-9b22-48f0-8d4d-fd76ab930094",
+    "3f4d8e4f-af76-499c-9a5b-7f3fe195d5c9",
+    "dab403d2-3770-42b7-9ace-0bafca81709e",
+    "dd4651fa-193a-4abc-962c-8258e89060cd",
+    "19a70e48-99d2-440b-af59-41746969905f",
+    "26cf7aa7-5104-4c63-a14b-87cc9a5e08e9",
+    "7129ebad-ac5a-427d-93b5-6ea88ce00701"
+  ],
+  "new_ids": [
+    "397a1cf7-8deb-4a46-bfc7-2c836aa4f887",
+    "612e90a7-b0af-41be-bd50-37603e5355cf",
+    "7d05edbb-3d06-49be-9774-518a3a076616",
+    "8d278458-1b07-40ff-b629-b79ed9927839",
+    "1ae6933c-0b47-4286-be59-e7462ec7c116",
+    "0e260230-6915-4f09-9a79-763474791a1b",
+    "3403e4a1-ffa1-4e60-ac95-98a805a649fd",
+    "df2c6c19-0a60-4612-994e-bad38e756c33",
+    "1c55dcc5-548a-4653-98eb-2b324d67071b",
+    "269a1a39-bb1e-4918-b928-4e6d423fd1b8"
+  ],
+  "old_length_mm": 15.240306627408021,
+  "new_length_mm": 7.640559159102187,
+  "old_vias": 0,
+  "new_vias": 2,
+  "connections": [
+    {
+      "net": "Net-(U601-MISO)",
+      "source": "5f51515c-fa6d-47c9-a6e5-bd9955887420",
+      "target": "f9bf18dd-e470-4f46-8ec4-da1fd4412935",
+      "source_ref": "U601",
+      "source_pin": "3",
+      "target_ref": "R611",
+      "target_pin": "1",
+      "distance_mm": 2.5475,
+      "length_mm": 7.640559159102187,
+      "vias": 2,
+      "path_points": 273,
+      "rejected": false,
+      "new_items": [
+        "397a1cf7-8deb-4a46-bfc7-2c836aa4f887",
+        "612e90a7-b0af-41be-bd50-37603e5355cf",
+        "7d05edbb-3d06-49be-9774-518a3a076616",
+        "8d278458-1b07-40ff-b629-b79ed9927839",
+        "1ae6933c-0b47-4286-be59-e7462ec7c116",
+        "0e260230-6915-4f09-9a79-763474791a1b",
+        "3403e4a1-ffa1-4e60-ac95-98a805a649fd",
+        "df2c6c19-0a60-4612-994e-bad38e756c33",
+        "1c55dcc5-548a-4653-98eb-2b324d67071b",
+        "269a1a39-bb1e-4918-b928-4e6d423fd1b8"
+      ],
+      "elapsed_seconds": 4.3012168407440186
+    }
+  ]
+}

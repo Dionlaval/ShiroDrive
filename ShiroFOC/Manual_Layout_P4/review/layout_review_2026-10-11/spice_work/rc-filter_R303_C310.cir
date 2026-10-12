@@ -1,0 +1,17 @@
+* Auto-generated testbench for RC filter: R303/C310
+* Type: low-pass, expected fc = 723.4 Hz
+* Model: ideal passives (exact for RC)
+
+
+R303 n3V3 NRST 2.2k
+
+C310 NRST 0 100n
+
+* AC stimulus
+VAC n3V3 0 DC 0 AC 1
+
+.ac dec 100 7.234 72.34k
+.meas ac fc_sim when vdb(NRST)=-3
+.meas ac phase_fc find vp(NRST) at=fc_sim
+
+.end

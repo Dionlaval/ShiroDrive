@@ -1,0 +1,62 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/root_escape/cs_miso_rip/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "AS5047P_CS_N",
+      "source": "0bcaadb4-070e-47bc-aae8-bd64aed85311",
+      "target": "577a787a-cb4f-40fd-b637-8736f1a8dd46",
+      "source_ref": "U4",
+      "source_pin": "51",
+      "target_ref": "U601",
+      "target_pin": "1",
+      "distance_mm": 7.021392825162896,
+      "length_mm": 11.199926035179223,
+      "vias": 2,
+      "path_points": 352,
+      "rejected": false,
+      "new_items": [
+        "a7d7448b-aaae-4d1a-997e-1d08fd6d41f6",
+        "11fdfd62-3d40-4ca6-9501-dccec3a32cfe",
+        "14924465-7cb4-431e-b326-8cf3bfd0f884",
+        "06374902-fd05-4d85-bbba-e299a61a69cf",
+        "5d2369fe-69a4-413f-9caf-0885b8b96be5",
+        "d959d289-4866-4f77-a403-9f05fc5bce81",
+        "eb0e45bb-34a7-49cc-9162-97d2c04d2665",
+        "4b939bcc-5187-42f7-a4b7-5e7b326680af",
+        "54def3f6-5bc0-4f11-a7b5-9e807fcf493b",
+        "c765222e-610d-4b25-96a0-6a07e8243168",
+        "aeb0261d-a931-40ea-9339-d0a90f379646",
+        "315829d6-0499-4e7e-ac33-3d7488b34699",
+        "5bcf7e6d-27df-43f3-b415-3caae6d8b11e",
+        "18de5d36-e14f-4e54-ae9f-ab8e7bd47f69"
+      ],
+      "elapsed_seconds": 5.189905881881714
+    },
+    {
+      "net": "SPI3_MISO",
+      "source": "7d680273-7f20-4c30-bd69-8c3c64437f6b",
+      "target": "3f9ff78b-837b-46ef-8d81-e40cbd5cc1ae",
+      "source_ref": "U4",
+      "source_pin": "55",
+      "target_ref": "R611",
+      "target_pin": "2",
+      "distance_mm": 9.379675970721005,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 5.177742958068848
+    }
+  ]
+}

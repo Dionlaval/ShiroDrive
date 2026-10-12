@@ -1,0 +1,31 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/root_escape/input_brakefix/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "INPUT_MUX_ENABLE_N",
+      "source": "1cd9456a-435d-4bd9-ae5d-8388c1570946",
+      "target": "f31f0502-887b-499a-990a-7e04b0dfa9e7",
+      "source_ref": "U4",
+      "source_pin": "4",
+      "target_ref": "R305",
+      "target_pin": "2",
+      "distance_mm": 15.9370182537854,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 17.406033992767334
+    }
+  ]
+}

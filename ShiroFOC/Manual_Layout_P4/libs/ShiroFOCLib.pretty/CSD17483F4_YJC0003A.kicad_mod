@@ -1,0 +1,117 @@
+(footprint "CSD17483F4_YJC0003A"
+	(version 20211014)
+	(generator pcbnew)
+	(layer "F.Cu")
+	(tags "CSD17483F4 ")
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.0762 0)
+		(layer "F.Fab")
+		(width 0.0254)
+		(fill none)
+	)
+	(fp_line
+		(start -0.5207 0.3175)
+		(end 0.5207 0.3175)
+		(layer "F.Fab")
+		(width 0.0254)
+	)
+	(fp_line
+		(start 0.5207 0.3175)
+		(end 0.5207 -0.3175)
+		(layer "F.Fab")
+		(width 0.0254)
+	)
+	(fp_line
+		(start 0.5207 -0.3175)
+		(end -0.5207 -0.3175)
+		(layer "F.Fab")
+		(width 0.0254)
+	)
+	(fp_line
+		(start -0.5207 -0.3175)
+		(end -0.5207 0.3175)
+		(layer "F.Fab")
+		(width 0.0254)
+	)
+	(pad "1" smd rect
+		(at -0.3302 -0.175001)
+		(size 0.254 0.1524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "2" smd rect
+		(at -0.3302 0.175001)
+		(size 0.254 0.1524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "3" smd rect
+		(at 0.3302 0)
+		(size 0.254 0.508)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(descr "CSD17483F4, YJC0003A 1.0x0.6 mm PicoStar; supplied Ultra Librarian nominal land pattern. Pins 1=G, 2=S, 3=D. Source nominal copper/paste dimensions retained.")
+	(fp_text reference "REF**"
+		(at 0 -0.9)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text value "CSD17483F4_YJC0003A"
+		(at 0 0.9)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_line
+		(start -0.8 -0.6)
+		(end 0.8 -0.6)
+		(layer "F.CrtYd")
+		(width 0.05)
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end 0.8 0.6)
+		(layer "F.CrtYd")
+		(width 0.05)
+	)
+	(fp_line
+		(start 0.8 0.6)
+		(end -0.8 0.6)
+		(layer "F.CrtYd")
+		(width 0.05)
+	)
+	(fp_line
+		(start -0.8 0.6)
+		(end -0.8 -0.6)
+		(layer "F.CrtYd")
+		(width 0.05)
+	)
+	(fp_circle
+		(center -0.675 -0.45)
+		(end -0.625 -0.45)
+		(layer "F.SilkS")
+		(width 0.1)
+		(fill none)
+	)
+	(model "${KIPRJMOD}/libs/3dmodels/YJC0003A_TEX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

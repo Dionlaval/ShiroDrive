@@ -1,0 +1,31 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/c310_bfirst/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "NTC_PHASE_A",
+      "source": "a1b849be-b457-44c8-bb22-9f40b5577ccd",
+      "target": "09d8ad12-2147-49c3-9969-96ffed48601b",
+      "source_ref": "U4",
+      "source_pin": "12",
+      "target_ref": "R711",
+      "target_pin": "2",
+      "distance_mm": 11.217053365054523,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 30.773080825805664
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/input_b_clean/ShiroFOC_Manual.kicad_pcb",
+  "separation": [
+    {
+      "category": "switch_nodes",
+      "minimum_xy_projection": {
+        "can_uuid": "ce0fbc2a-ae0f-435b-94a7-2aefc7aa085d",
+        "can_layer": "Power L4",
+        "obstacle_uuid": "8e345aba-d826-4b11-a5a4-efe745c2d505",
+        "obstacle_net": "PHASE_W",
+        "obstacle_layer": "F.Cu",
+        "copper_edge_gap_mm": 10.349
+      },
+      "minimum_same_layer": {
+        "can_uuid": "ce0fbc2a-ae0f-435b-94a7-2aefc7aa085d",
+        "can_layer": "Power L4",
+        "obstacle_uuid": "a62a41b4-ccb0-4e99-b6aa-cabd31cd93e9",
+        "obstacle_net": "PHASE_W",
+        "obstacle_layer": "Power L4",
+        "copper_edge_gap_mm": 13.165
+      }
+    },
+    {
+      "category": "gate_bootstrap",
+      "minimum_xy_projection": {
+        "can_uuid": "6bb9c2dc-348c-4fa9-904b-a25d51ab9d72",
+        "can_layer": "B.Cu",
+        "obstacle_uuid": "d69a6584-7685-4f0d-a03b-8f53846f87a2",
+        "obstacle_net": "GLS1",
+        "obstacle_layer": "F.Cu",
+        "copper_edge_gap_mm": 0.0
+      },
+      "minimum_same_layer": {
+        "can_uuid": "abcc3ab5-70f7-48ff-be6a-d4730c8c6afa",
+        "can_layer": "B.Cu",
+        "obstacle_uuid": "b8778a4d-5aae-4584-b627-9d8165ce15a5",
+        "obstacle_net": "GLS1",
+        "obstacle_layer": "B.Cu",
+        "copper_edge_gap_mm": 0.153
+      }
+    },
+    {
+      "category": "VM",
+      "minimum_xy_projection": {
+        "can_uuid": "a7f4cb97-3d0b-4b41-986b-23ae0132e284",
+        "can_layer": "Signals L3",
+        "obstacle_uuid": "341356a5-20cf-43b7-b6af-cba29029ae58",
+        "obstacle_net": "VM",
+        "obstacle_layer": "B.Cu",
+        "copper_edge_gap_mm": 0.363
+      },
+      "minimum_same_layer": {
+        "can_uuid": "d534d872-db9f-4bfe-b9b4-9211c6adcb3d",
+        "can_layer": "F.Cu",
+        "obstacle_uuid": "e149df45-e8f6-4e17-87e2-54a8f1853b1a",
+        "obstacle_net": "VM",
+        "obstacle_layer": "F.Cu",
+        "copper_edge_gap_mm": 1.662
+      }
+    }
+  ],
+  "ground_reference_sampling": [
+    {
+      "uuid": "704ce673-3a50-40f0-8f67-3e34964db523",
+      "layer": "F.Cu",
+      "reference": "GND L2",
+      "length_mm": 0.375,
+      "start": [
+        -9.024999,
+        4.9
+      ],
+      "end": [
+        -8.649999,
+        4.9
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "87e30e85-8f36-4e5d-9eca-d8a044aeb021",
+      "layer": "F.Cu",
+      "reference": "GND L2",
+      "length_mm": 0.0707,
+      "start": [
+        -8.649999,
+        4.9
+      ],
+      "end": [
+        -8.6,
+        4.95
+      ],
+      "sample_step_mm": 0.02357,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "8af22714-37fe-4d58-938b-864fb7b4ac71",
+      "layer": "F.Cu",
+      "reference": "GND L2",
+      "length_mm": 0.0707,
+      "start": [
+        -9.075,
+        4.95
+      ],
+      "end": [
+        -9.024999,
+        4.9
+      ],
+      "sample_step_mm": 0.02357,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "987011ff-26cf-47cc-8fe0-c02edff1956e",
+      "layer": "F.Cu",
+      "reference": "GND L2",
+      "length_mm": 0.75,
+      "start": [
+        -8.6,
+        4.95
+      ],
+      "end": [
+        -7.85,
+        4.95
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 15,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "d534d872-db9f-4bfe-b9b4-9211c6adcb3d",
+      "layer": "F.Cu",
+      "reference": "GND L2",
+      "length_mm": 0.0707,
+      "start": [
+        -7.85,
+        4.95
+      ],
+      "end": [
+        -7.799999,
+        4.9
+      ],
+      "sample_step_mm": 0.02357,
+      "uncovered_samples": 4,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "e85ac4cc-534e-4af3-982f-f322c961e88a",
+      "layer": "F.Cu",
+      "reference": "GND L2",
+      "length_mm": 0.47,
+      "start": [
+        -9.545,
+        4.949433
+      ],
+      "end": [
+        -9.075,
+        4.95
+      ],
+      "sample_step_mm": 0.024737,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "03443645-c579-4cda-bc71-6b625ab1eb4a",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.5657,
+      "start": [
+        -0.199999,
+        18.6
+      ],
+      "end": [
+        -0.599999,
+        18.2
+      ],
+      "sample_step_mm": 0.024595,
+      "uncovered_samples": 23,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "0daa806b-b6ce-404d-8c82-093c90dda28d",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 1.2,
+      "start": [
+        -1.199999,
+        5.525
+      ],
+      "end": [
+        -2.399999,
+        5.525
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "147238a6-a90f-46f8-a5d8-9ff9e61c3d8c",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.6364,
+      "start": [
+        -2.549999,
+        20.5
+      ],
+      "end": [
+        -2.099999,
+        20.95
+      ],
+      "sample_step_mm": 0.024477,
+      "uncovered_samples": 8,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "18a65eeb-66fe-468b-a620-9366cf70b8a4",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.95,
+      "start": [
+        -3.474999,
+        4.1
+      ],
+      "end": [
+        -2.524999,
+        4.1
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "2e8b0118-8c85-4b17-b890-0b64d470b24c",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.3536,
+      "start": [
+        -7.574999,
+        5.0
+      ],
+      "end": [
+        -7.324999,
+        5.25
+      ],
+      "sample_step_mm": 0.02357,
+      "uncovered_samples": 7,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "32b01476-9cad-4ee9-b677-0ea51d8ea703",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.3889,
+      "start": [
+        -2.049999,
+        3.425
+      ],
+      "end": [
+        -1.774999,
+        3.15
+      ],
+      "sample_step_mm": 0.024307,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "494d5318-96cf-4600-9d76-382828239216",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.2,
+      "start": [
+        -2.049999,
+        3.625
+      ],
+      "end": [
+        -2.049999,
+        3.425
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "4c32baa1-51a4-4ccb-a454-d17d2e1c93fb",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.09,
+      "start": [
+        -0.599999,
+        18.2
+      ],
+      "end": [
+        -0.69,
+        18.2
+      ],
+      "sample_step_mm": 0.0225,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "6bb9c2dc-348c-4fa9-904b-a25d51ab9d72",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 1.3435,
+      "start": [
+        -2.75,
+        9.725
+      ],
+      "end": [
+        -1.799999,
+        10.675
+      ],
+      "sample_step_mm": 0.02488,
+      "uncovered_samples": 17,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "896d4af4-e8f0-4ade-a274-b05f07ae3b58",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.7554,
+      "start": [
+        -3.305,
+        20.475
+      ],
+      "end": [
+        -2.549999,
+        20.5
+      ],
+      "sample_step_mm": 0.024368,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "8adb54f5-6fd0-4df6-bcfc-249efc1b3c0f",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.6718,
+      "start": [
+        -2.524999,
+        4.1
+      ],
+      "end": [
+        -2.049999,
+        3.625
+      ],
+      "sample_step_mm": 0.02488,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "9feaa4bc-c4aa-40d1-a839-03e81a5e94ac",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.45,
+      "start": [
+        -1.774999,
+        3.15
+      ],
+      "end": [
+        -1.324999,
+        3.15
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "abcc3ab5-70f7-48ff-be6a-d4730c8c6afa",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 3.85,
+      "start": [
+        -2.75,
+        5.875
+      ],
+      "end": [
+        -2.75,
+        9.725
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "b2169060-d362-459e-9309-61339aca5e6c",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 1.6263,
+      "start": [
+        -4.625,
+        5.25
+      ],
+      "end": [
+        -3.474999,
+        4.1
+      ],
+      "sample_step_mm": 0.024642,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "b961832a-fc85-4c9e-952d-56c40c36491c",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 1.85,
+      "start": [
+        -1.0,
+        3.475
+      ],
+      "end": [
+        -1.0,
+        5.325
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "dc204ff9-1179-426b-a741-41a16c1f26ac",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.4,
+      "start": [
+        -2.099999,
+        20.95
+      ],
+      "end": [
+        -2.099999,
+        21.35
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 17,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "dc82fe12-2431-4fd0-ada2-4de43f32b38c",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.2828,
+      "start": [
+        -1.0,
+        5.325
+      ],
+      "end": [
+        -1.199999,
+        5.525
+      ],
+      "sample_step_mm": 0.02357,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "f5de2209-a69c-4d27-b4f4-eac6486ebaf0",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.4596,
+      "start": [
+        -1.324999,
+        3.15
+      ],
+      "end": [
+        -1.0,
+        3.475
+      ],
+      "sample_step_mm": 0.02419,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "f6314e47-4496-4a2e-9c1f-8cbfcc18bcb6",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 0.495,
+      "start": [
+        -2.399999,
+        5.525
+      ],
+      "end": [
+        -2.75,
+        5.875
+      ],
+      "sample_step_mm": 0.024749,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "ff788764-f065-46a9-84cd-7dc570413870",
+      "layer": "B.Cu",
+      "reference": "GND L5",
+      "length_mm": 2.7,
+      "start": [
+        -7.324999,
+        5.25
+      ],
+      "end": [
+        -4.625,
+        5.25
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "61595c1d-8da6-4c67-8903-c652613b9265",
+      "layer": "Signals L3",
+      "reference": "GND L2",
+      "length_mm": 3.25,
+      "start": [
+        3.125,
+        19.45
+      ],
+      "end": [
+        -0.125,
+        19.45
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 0,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "848952a1-de7b-4d66-be3c-bac9f128cc32",
+      "layer": "Signals L3",
+      "reference": "GND L2",
+      "length_mm": 0.85,
+      "start": [
+        -0.199999,
+        19.45
+      ],
+      "end": [
+        -0.199999,
+        18.6
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 23,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "a7f4cb97-3d0b-4b41-986b-23ae0132e284",
+      "layer": "Signals L3",
+      "reference": "GND L2",
+      "length_mm": 1.7678,
+      "start": [
+        4.375,
+        18.2
+      ],
+      "end": [
+        3.125,
+        19.45
+      ],
+      "sample_step_mm": 0.024898,
+      "uncovered_samples": 23,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "db3c5071-d8f9-4840-81c9-29b5881a437c",
+      "layer": "Signals L3",
+      "reference": "GND L2",
+      "length_mm": 2.687,
+      "start": [
+        -2.099999,
+        21.35
+      ],
+      "end": [
+        -0.199999,
+        19.45
+      ],
+      "sample_step_mm": 0.02488,
+      "uncovered_samples": 23,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "4ca999f6-d4ad-490a-a97c-8ee3f2330d46",
+      "layer": "Power L4",
+      "reference": "GND L5",
+      "length_mm": 0.15,
+      "start": [
+        -1.799999,
+        10.675
+      ],
+      "end": [
+        -1.799999,
+        10.825
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 7,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "ce0fbc2a-ae0f-435b-94a7-2aefc7aa085d",
+      "layer": "Power L4",
+      "reference": "GND L5",
+      "length_mm": 1.2,
+      "start": [
+        4.375,
+        17.0
+      ],
+      "end": [
+        4.375,
+        18.2
+      ],
+      "sample_step_mm": 0.025,
+      "uncovered_samples": 23,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    },
+    {
+      "uuid": "d9fdb3e9-fae5-447a-9e3f-98ed5369c136",
+      "layer": "Power L4",
+      "reference": "GND L5",
+      "length_mm": 8.7328,
+      "start": [
+        -1.799999,
+        10.825
+      ],
+      "end": [
+        4.375,
+        17.0
+      ],
+      "sample_step_mm": 0.024951,
+      "uncovered_samples": 12,
+      "uncovered_samples_away_from_same_net_vias": 0,
+      "uncovered_intervals_away_from_same_net_vias_mm": []
+    }
+  ],
+  "notes": "Native copper-shape distances. XY projection also compares copper on different layers and is not a DRC clearance. Ground reference sampled along track centre every <=0.025 mm; own via antipads excluded within0.6mm. This is geometry evidence, not an EMC simulation."
+}

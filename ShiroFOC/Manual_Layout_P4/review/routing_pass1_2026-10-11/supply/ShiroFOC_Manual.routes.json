@@ -1,0 +1,423 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/mux/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.254,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2
+  ],
+  "connections": [
+    {
+      "net": "3V3",
+      "source": "5c6c1723-5f5f-4d51-9738-59b02709fc64",
+      "target": "fc1714db-295a-458d-8e8d-8f10ec443cfc",
+      "source_ref": "U901",
+      "source_pin": "6",
+      "target_ref": "U901",
+      "target_pin": "7",
+      "distance_mm": 0.5830943319918314,
+      "length_mm": 0.35355339059327384,
+      "vias": 0,
+      "path_points": 6,
+      "rejected": false,
+      "new_items": [
+        "d1d0d3b4-98e1-409e-9812-50b0041e3a25"
+      ],
+      "elapsed_seconds": 1.0128822326660156
+    },
+    {
+      "net": "3V3",
+      "source": "d1f04f88-b133-498c-984f-2ad918bf1bb8",
+      "target": "27a79d45-bf5d-4765-bac5-c875c06e1627",
+      "source_ref": "U601",
+      "source_pin": "11",
+      "target_ref": "U601",
+      "target_pin": "12",
+      "distance_mm": 0.65,
+      "length_mm": 0.65,
+      "vias": 0,
+      "path_points": 14,
+      "rejected": false,
+      "new_items": [
+        "8365f24d-7cd6-4a87-8897-3be3958b66e4"
+      ],
+      "elapsed_seconds": 0.9895861148834229
+    },
+    {
+      "net": "3V3",
+      "source": "7004dba8-d0a4-4d6b-a712-e7c76514486b",
+      "target": "ffb6f9e1-d538-4718-b8f5-83ae7f945f4f",
+      "source_ref": "R511",
+      "source_pin": "1",
+      "target_ref": "R301",
+      "target_pin": "1",
+      "distance_mm": 0.8265127645723326,
+      "length_mm": 0.6,
+      "vias": 0,
+      "path_points": 13,
+      "rejected": false,
+      "new_items": [
+        "d22a2a0c-7667-46db-96bc-e94524270452"
+      ],
+      "elapsed_seconds": 0.9963090419769287
+    },
+    {
+      "net": "3V3",
+      "source": "6a78e03c-1b34-4276-8fb5-d3f4f2a8f166",
+      "target": "da3c1108-a0ca-49c8-a587-7519ed615f9f",
+      "source_ref": "R801",
+      "source_pin": "1",
+      "target_ref": "R805",
+      "target_pin": "1",
+      "distance_mm": 0.8900010000050561,
+      "length_mm": 0.9000000000000002,
+      "vias": 0,
+      "path_points": 19,
+      "rejected": false,
+      "new_items": [
+        "181d0234-5869-47d5-974c-a98ddae16ec4"
+      ],
+      "elapsed_seconds": 1.0101609230041504
+    },
+    {
+      "net": "3V3",
+      "source": "750f3f70-e8ae-497b-ad62-4338b0639599",
+      "target": "27a79d45-bf5d-4765-bac5-c875c06e1627",
+      "source_ref": "R310",
+      "source_pin": "1",
+      "target_ref": "U601",
+      "target_pin": "12",
+      "distance_mm": 1.0339991610252883,
+      "length_mm": 2.3999999999999995,
+      "vias": 1,
+      "path_points": 50,
+      "rejected": false,
+      "new_items": [
+        "770a877a-0c17-4980-b275-c16f5b9b437c",
+        "553b183e-1da5-499f-a180-13c910091a5d",
+        "d67c88e1-5b1d-489d-a6fc-a035128f6f7c"
+      ],
+      "elapsed_seconds": 1.005491018295288
+    },
+    {
+      "net": "3V3",
+      "source": "fe5e3184-c93c-4edf-9440-827f9d1135cf",
+      "target": "73d98d0a-59f1-4801-8825-b724d0146632",
+      "source_ref": "R702",
+      "source_pin": "1",
+      "target_ref": "R701",
+      "target_pin": "1",
+      "distance_mm": 1.05,
+      "length_mm": 1.0500000000000003,
+      "vias": 0,
+      "path_points": 22,
+      "rejected": false,
+      "new_items": [
+        "c91a04d5-fab1-4408-99f4-106752fbc06f"
+      ],
+      "elapsed_seconds": 0.9982819557189941
+    },
+    {
+      "net": "3V3",
+      "source": "fe5e3184-c93c-4edf-9440-827f9d1135cf",
+      "target": "dd2773f5-fd3c-4772-9834-ad4b2aa85c71",
+      "source_ref": "R702",
+      "source_pin": "1",
+      "target_ref": "R703",
+      "target_pin": "1",
+      "distance_mm": 1.05,
+      "length_mm": 0.9500000000000003,
+      "vias": 0,
+      "path_points": 20,
+      "rejected": false,
+      "new_items": [
+        "2441d358-d723-4b36-a7de-b06b067a5b7a"
+      ],
+      "elapsed_seconds": 1.0206949710845947
+    },
+    {
+      "net": "3V3",
+      "source": "a115e371-1a5d-4ae8-b2da-efb8b8558c14",
+      "target": "20c89c29-23e1-4f84-ac08-71247d7914dc",
+      "source_ref": "C602",
+      "source_pin": "1",
+      "target_ref": "C601",
+      "target_pin": "1",
+      "distance_mm": 1.210495766204905,
+      "length_mm": 1.3242640687119294,
+      "vias": 0,
+      "path_points": 25,
+      "rejected": false,
+      "new_items": [
+        "707ed4d6-6122-4180-81b1-51abbcf2f1ed",
+        "555628e0-0c39-4325-8c1d-4f8ca7623cec"
+      ],
+      "elapsed_seconds": 0.9947421550750732
+    },
+    {
+      "net": "3V3",
+      "source": "5bcfda18-f2a8-4a4f-9018-3962f6e594ce",
+      "target": "0c69bd86-e695-4eff-9e35-933b06abb272",
+      "source_ref": "C702",
+      "source_pin": "1",
+      "target_ref": "U701",
+      "target_pin": "5",
+      "distance_mm": 1.2568039823297823,
+      "length_mm": 3.7349242404917455,
+      "vias": 2,
+      "path_points": 69,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 1.0194997787475586
+    },
+    {
+      "net": "3V3",
+      "source": "12642299-964f-4e4c-b76c-df9e679ccf04",
+      "target": "6422eeae-2773-41a0-b528-2c6dab578011",
+      "source_ref": "U701",
+      "source_pin": "12",
+      "target_ref": "R308",
+      "target_pin": "1",
+      "distance_mm": 1.2862761173247366,
+      "length_mm": 1.3621320343559649,
+      "vias": 0,
+      "path_points": 27,
+      "rejected": false,
+      "new_items": [
+        "f9399ba1-b321-4c0a-b7ca-b6c8ff74b192",
+        "5b6bc68c-e023-4064-b13a-96e8c874df68"
+      ],
+      "elapsed_seconds": 1.0070841312408447
+    },
+    {
+      "net": "3V3",
+      "source": "6422eeae-2773-41a0-b528-2c6dab578011",
+      "target": "1eb31f30-8fdc-45f3-8f20-23e171816994",
+      "source_ref": "R308",
+      "source_pin": "1",
+      "target_ref": "R715",
+      "target_pin": "1",
+      "distance_mm": 1.3,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 1.057926893234253
+    },
+    {
+      "net": "3V3",
+      "source": "04e869c0-7c80-45d0-8e42-fc29a8ba35db",
+      "target": "a4ecf8be-2ed3-4be2-92bb-acc775cacfe7",
+      "source_ref": "U701",
+      "source_pin": "8",
+      "target_ref": "C701",
+      "target_pin": "1",
+      "distance_mm": 1.4130839500893073,
+      "length_mm": 1.5363961030678936,
+      "vias": 0,
+      "path_points": 28,
+      "rejected": false,
+      "new_items": [
+        "b26ed7a4-b3bd-4aec-8ae2-10ee1d2c0262",
+        "6150ac09-bae0-4bde-9d25-98f7d0e6c08c"
+      ],
+      "elapsed_seconds": 1.0842981338500977
+    },
+    {
+      "net": "3V3",
+      "source": "27a79d45-bf5d-4765-bac5-c875c06e1627",
+      "target": "20c89c29-23e1-4f84-ac08-71247d7914dc",
+      "source_ref": "U601",
+      "source_pin": "12",
+      "target_ref": "C601",
+      "target_pin": "1",
+      "distance_mm": 1.4978164937351304,
+      "length_mm": 1.3000000000000005,
+      "vias": 0,
+      "path_points": 27,
+      "rejected": false,
+      "new_items": [
+        "504065ee-c54c-4da5-89d6-8e0dd0a480d8"
+      ],
+      "elapsed_seconds": 1.0113089084625244
+    },
+    {
+      "net": "3V3",
+      "source": "98ecf261-2e8e-476b-b7d3-0058a7f84df0",
+      "target": "fa9d608c-fd8b-4295-b199-3160dc69762b",
+      "source_ref": "C302",
+      "source_pin": "1",
+      "target_ref": "C307",
+      "target_pin": "1",
+      "distance_mm": 1.5623696937668112,
+      "length_mm": 1.415685424949239,
+      "vias": 0,
+      "path_points": 26,
+      "rejected": false,
+      "new_items": [
+        "3bdc63d6-5eee-470c-acbe-7a75fea8fbfe",
+        "07723488-0272-428b-8bce-b5392fd5891b",
+        "8c063009-53b6-48de-abd6-4f314f3ac9b9"
+      ],
+      "elapsed_seconds": 0.9983227252960205
+    },
+    {
+      "net": "3V3",
+      "source": "0b4a325b-de9a-44b3-aff7-722f37b4a6d4",
+      "target": "13296172-9ab6-4c9f-b48f-9fb56b35fc7e",
+      "source_ref": "U204",
+      "source_pin": "5",
+      "target_ref": "C213",
+      "target_pin": "1",
+      "distance_mm": 1.6454558638869656,
+      "length_mm": 1.73284271247462,
+      "vias": 0,
+      "path_points": 34,
+      "rejected": false,
+      "new_items": [
+        "9b441d22-af7b-4505-9dd6-69e53ff8c68e",
+        "e4053dd3-673e-481f-bc7a-ab6ec7e5da72"
+      ],
+      "elapsed_seconds": 1.0219731330871582
+    },
+    {
+      "net": "3V3",
+      "source": "0c69bd86-e695-4eff-9e35-933b06abb272",
+      "target": "04e869c0-7c80-45d0-8e42-fc29a8ba35db",
+      "source_ref": "U701",
+      "source_pin": "5",
+      "target_ref": "U701",
+      "target_pin": "8",
+      "distance_mm": 1.7819406555775084,
+      "length_mm": 3.9627416997969482,
+      "vias": 2,
+      "path_points": 69,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 1.0025157928466797
+    },
+    {
+      "net": "3V3",
+      "source": "04e869c0-7c80-45d0-8e42-fc29a8ba35db",
+      "target": "12642299-964f-4e4c-b76c-df9e679ccf04",
+      "source_ref": "U701",
+      "source_pin": "8",
+      "target_ref": "U701",
+      "target_pin": "12",
+      "distance_mm": 1.920367803312688,
+      "length_mm": 3.333452377915604,
+      "vias": 2,
+      "path_points": 56,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 1.0054850578308105
+    },
+    {
+      "net": "3V3",
+      "source": "04e869c0-7c80-45d0-8e42-fc29a8ba35db",
+      "target": "20c89c29-23e1-4f84-ac08-71247d7914dc",
+      "source_ref": "U701",
+      "source_pin": "8",
+      "target_ref": "C601",
+      "target_pin": "1",
+      "distance_mm": 2.188900482869196,
+      "length_mm": 7.487005768508865,
+      "vias": 1,
+      "path_points": 136,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 1.004770040512085
+    },
+    {
+      "net": "3V3",
+      "source": "0c69bd86-e695-4eff-9e35-933b06abb272",
+      "target": "12642299-964f-4e4c-b76c-df9e679ccf04",
+      "source_ref": "U701",
+      "source_pin": "5",
+      "target_ref": "U701",
+      "target_pin": "12",
+      "distance_mm": 2.2584563312138672,
+      "length_mm": 2.314213562373095,
+      "vias": 0,
+      "path_points": 39,
+      "rejected": false,
+      "new_items": [
+        "0c01626f-e430-4b88-bc6e-e5602ba5437a",
+        "f03780f0-1c7c-4076-acbd-064a6db6ac93",
+        "c7239198-e622-4f85-848f-f8621c8422be"
+      ],
+      "elapsed_seconds": 1.011868953704834
+    },
+    {
+      "net": "3V3",
+      "source": "2a2087f4-0c7e-46bc-bf03-a2fb2aa83ba8",
+      "target": "d789b496-800e-4929-a027-92f9b067b7d4",
+      "source_ref": "U602",
+      "source_pin": "16",
+      "target_ref": "C603",
+      "target_pin": "1",
+      "distance_mm": 2.2860992979308663,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 1.0580968856811523
+    },
+    {
+      "net": "3V3",
+      "source": "6422eeae-2773-41a0-b528-2c6dab578011",
+      "target": "27a79d45-bf5d-4765-bac5-c875c06e1627",
+      "source_ref": "R308",
+      "source_pin": "1",
+      "target_ref": "U601",
+      "target_pin": "12",
+      "distance_mm": 2.3050501621439823,
+      "length_mm": 2.689949493661166,
+      "vias": 0,
+      "path_points": 49,
+      "rejected": false,
+      "new_items": [
+        "a62857a1-cf13-4830-8bc6-458d84f9915c",
+        "c1c5a0d6-cb3c-4eab-9265-1f8bcc969fc3",
+        "8285425c-6a43-4291-8fe8-22f2efec5a1f"
+      ],
+      "elapsed_seconds": 0.9949209690093994
+    },
+    {
+      "net": "3V3",
+      "source": "0c69bd86-e695-4eff-9e35-933b06abb272",
+      "target": "a4ecf8be-2ed3-4be2-92bb-acc775cacfe7",
+      "source_ref": "U701",
+      "source_pin": "5",
+      "target_ref": "C701",
+      "target_pin": "1",
+      "distance_mm": 2.4361970876757897,
+      "length_mm": 2.654163056034261,
+      "vias": 2,
+      "path_points": 42,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 1.002375841140747
+    },
+    {
+      "net": "3V3",
+      "source": "d789b496-800e-4929-a027-92f9b067b7d4",
+      "target": "1b3e883b-5e4f-4ab8-8bc5-f54394ab6af4",
+      "source_ref": "C603",
+      "source_pin": "1",
+      "target_ref": "R305",
+      "target_pin": "1",
+      "distance_mm": 2.4813101378102655,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 1.004560947418213
+    }
+  ]
+}

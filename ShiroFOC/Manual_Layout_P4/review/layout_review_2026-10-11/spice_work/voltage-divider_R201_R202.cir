@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R201/R202
+* Expected Vout = 3.3 * 0.099910 = 0.3297 V
+* Model: ideal passives (exact, unloaded)
+
+VIN VCC 0 DC 3.3
+R201 VCC n10V_FB 100k
+R202 n10V_FB 0 11.1k
+
+.op 
+
+.end

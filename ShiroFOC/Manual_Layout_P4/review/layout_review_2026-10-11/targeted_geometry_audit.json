@@ -1,0 +1,224 @@
+{
+  "U4.65": {
+    "pad_center": [
+      -5.1,
+      7.2
+    ],
+    "pad_size": [
+      4.0894,
+      4.0894
+    ],
+    "nearest_ground_plated": [
+      {
+        "x": -8.6,
+        "y": 3.72,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 4.9356
+      },
+      {
+        "x": -11.46,
+        "y": 5.25,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 6.6522
+      },
+      {
+        "x": -3.605,
+        "y": 13.85,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 6.816
+      }
+    ],
+    "ground_vias_in_pad": 0
+  },
+  "U4.32": {
+    "pad_center": [
+      -1.3491,
+      11.645
+    ],
+    "pad_size": [
+      0.254,
+      0.8128
+    ],
+    "nearest_ground_plated": [
+      {
+        "x": -0.84,
+        "y": 12.58,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 1.0646
+      },
+      {
+        "x": -3.605,
+        "y": 13.85,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 3.1545
+      },
+      {
+        "x": -4.585,
+        "y": 14.799999,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 4.5194
+      }
+    ],
+    "ground_vias_in_pad": 0
+  },
+  "D801.3": {
+    "pad_center": [
+      -18.75,
+      2.785
+    ],
+    "pad_size": [
+      1.475,
+      0.6
+    ],
+    "nearest_ground_plated": [
+      {
+        "x": -13.51,
+        "y": 4.29,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 5.4518
+      },
+      {
+        "x": -19.38,
+        "y": -3.15,
+        "net": "GND",
+        "source": "J201.S1 plated pad",
+        "distance_mm": 5.9683
+      },
+      {
+        "x": -15.2,
+        "y": -3.15,
+        "net": "GND",
+        "source": "J201.S1 plated pad",
+        "distance_mm": 6.9157
+      }
+    ],
+    "ground_vias_in_pad": 0
+  },
+  "U202.2": {
+    "pad_center": [
+      -14.76,
+      -6.0825
+    ],
+    "pad_size": [
+      1.325,
+      0.6
+    ],
+    "nearest_ground_plated": [
+      {
+        "x": -15.2,
+        "y": -3.15,
+        "net": "GND",
+        "source": "J201.S1 plated pad",
+        "distance_mm": 2.9653
+      },
+      {
+        "x": -19.320001,
+        "y": -5.38,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 4.6138
+      },
+      {
+        "x": -19.52,
+        "y": -8.15,
+        "net": "GND",
+        "source": "U901.21 plated pad",
+        "distance_mm": 5.1896
+      }
+    ],
+    "ground_vias_in_pad": 0
+  },
+  "D601.3": {
+    "pad_center": [
+      -15.45,
+      15.46
+    ],
+    "pad_size": [
+      0.4,
+      0.3
+    ],
+    "nearest_ground_plated": [
+      {
+        "x": -15.40584,
+        "y": 15.41,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 0.0667
+      },
+      {
+        "x": -13.74,
+        "y": 19.244999,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 4.1534
+      },
+      {
+        "x": -8.545,
+        "y": 13.65,
+        "net": "GND",
+        "source": "standalone via",
+        "distance_mm": 7.1383
+      }
+    ],
+    "ground_vias_in_pad": 1
+  },
+  "U603.local_decoupling": {
+    "power_pad": [
+      -10.95,
+      20.87
+    ],
+    "nearest_3v3_gnd_cap": [
+      {
+        "ref": "C802",
+        "value": "1uF",
+        "layer": "B.Cu",
+        "distance_mm": 11.24
+      },
+      {
+        "ref": "C801",
+        "value": "100nF",
+        "layer": "B.Cu",
+        "distance_mm": 11.679
+      },
+      {
+        "ref": "C301",
+        "value": "100nF",
+        "layer": "B.Cu",
+        "distance_mm": 17.206
+      }
+    ]
+  },
+  "U602.local_decoupling": {
+    "power_pad": [
+      -3.305,
+      21.81
+    ],
+    "nearest_3v3_gnd_cap": [
+      {
+        "ref": "C802",
+        "value": "1uF",
+        "layer": "B.Cu",
+        "distance_mm": 18.559
+      },
+      {
+        "ref": "C801",
+        "value": "100nF",
+        "layer": "B.Cu",
+        "distance_mm": 18.77
+      },
+      {
+        "ref": "C301",
+        "value": "100nF",
+        "layer": "B.Cu",
+        "distance_mm": 19.141
+      }
+    ]
+  }
+}

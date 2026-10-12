@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/brake/final/ShiroFOC_Manual.kicad_pcb",
+  "candidate_sha256": "4c4ce9969a933948730dd153abf55b40a3c31da087002422ddc9cb09ec96e22f",
+  "frozen": true,
+  "native_drc": {
+    "errors": 29,
+    "warnings": 376,
+    "unconnected": 276
+  },
+  "prior_connectivity_regressions": [],
+  "selected_complete": 77,
+  "selected_total": 81,
+  "3V3_all_49_onboard_pads_connected": true,
+  "footprint_moves": [
+    {
+      "uuid": "cda89781-22e9-4527-a406-b1595f11f21f",
+      "reference": "R313",
+      "old": {
+        "position_nm": [
+          -7200000,
+          3300000
+        ],
+        "angle_deg": 90.0
+      },
+      "new": {
+        "position_nm": [
+          -7200000,
+          2700000
+        ],
+        "angle_deg": 90.0
+      }
+    },
+    {
+      "uuid": "15722463-8789-4b0e-b565-d54dd4615d23",
+      "reference": "C302",
+      "old": {
+        "position_nm": [
+          -9080000,
+          1280000
+        ],
+        "angle_deg": 0.0
+      },
+      "new": {
+        "position_nm": [
+          -9480000,
+          1280000
+        ],
+        "angle_deg": 0.0
+      }
+    }
+  ],
+  "new_tracks": 44,
+  "new_vias": 6,
+  "old_signal_segments_replaced": 15,
+  "all_new_widths_mm": [
+    0.1524
+  ],
+  "all_new_via_diameter_drill_mm": [
+    0.5,
+    0.3
+  ],
+  "planes": [
+    {
+      "net": "GND",
+      "uuid": "6ae18780-7be8-49c7-ba8b-e54da0cbc017",
+      "layers": [
+        {
+          "name": "GND L2",
+          "id": 4,
+          "filled_regions": 1
+        }
+      ]
+    },
+    {
+      "net": "3V3",
+      "uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+      "layers": [
+        {
+          "name": "Power L4",
+          "id": 8,
+          "filled_regions": 3
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "uuid": "0da23d62-325e-4479-9e26-4962df50b9c4",
+      "layers": [
+        {
+          "name": "GND L5",
+          "id": 10,
+          "filled_regions": 1
+        }
+      ]
+    }
+  ],
+  "reference_voids_at_least_0p75mm": [],
+  "return_stitch_opportunities": [
+    {
+      "via_uuid": "8e2452f7-d1b8-45fa-aa04-885a139716de",
+      "new_via": true,
+      "previous_touching_signal_layers": [],
+      "net": "BRAKE_PWM",
+      "position_mm": [
+        6.025,
+        2.25
+      ],
+      "touching_signal_layers": [
+        "Signals L3",
+        "Power L4"
+      ],
+      "adjacent_reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "changes_ground_reference_plane": true,
+      "nearest_ground_interconnect_uuid": "69cca4f4-118d-41a1-9cbe-3663828fc9cd",
+      "nearest_ground_interconnect_type": "via",
+      "nearest_ground_interconnect_mm": 2.353
+    }
+  ],
+  "notes": [
+    "All original MOSI and MISO copper preserved.",
+    "BRAKE_PWM routed 29.232 mm with four through vias.",
+    "SCK fanout rerouted to shifted R313: 8.334 mm of new tracks and two new vias.",
+    "R313 shifted up 0.6 mm and C302 shifted left 0.4 mm; all other footprints unchanged.",
+    "IMU_INT2 original vias preserved; one L3 segment replaced by a local bow.",
+    "A 2.976 mm, 6 mil 3V3 bridge with no new vias restores the R301/R305/R511 island."
+  ]
+}

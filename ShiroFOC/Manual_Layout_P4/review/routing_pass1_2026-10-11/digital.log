@@ -1,0 +1,90 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+1/32 Net-(U601-CLK): 208 points; 12.59 mm; 0 vias; accepted candidate; 1.07s
+2/32 Net-(U601-MOSI): 183 points; 10.93 mm; 2 vias; accepted candidate; 1.01s
+3/32 Net-(U601-MISO): 259 points; 15.24 mm; 0 vias; accepted candidate; 1.09s
+4/32 SPI3_MISO: 229 points; 14.26 mm; 2 vias; accepted candidate; 1.05s
+5/32 SPI3_SCK_MCU: 146 points; 9.02 mm; 1 vias; accepted candidate; 1.03s
+6/32 SPI3_MOSI_MCU: 211 points; 11.52 mm; 2 vias; accepted candidate; 1.05s
+7/32 AS5047P_CS_N: 52 points; 2.90 mm; 0 vias; accepted candidate; 1.05s
+8/32 AS5047P_CS_N: -2 points; 0.00 mm; 0 vias; not routed; 1.04s
+10/32 IMU_INT1: 384 points; 22.38 mm; 3 vias; accepted candidate; 1.07s
+11/32 IMU_INT2: 304 points; 16.51 mm; 3 vias; accepted candidate; 1.05s
+12/32 I2C2_SCL: 47 points; 2.57 mm; 0 vias; accepted candidate; 1.19s
+13/32 I2C2_SCL: 306 points; 17.90 mm; 3 vias; accepted candidate; 1.06s
+15/32 I2C2_SDA: 47 points; 2.90 mm; 0 vias; accepted candidate; 1.07s
+16/32 I2C2_SDA: 203 points; 10.87 mm; 0 vias; accepted candidate; 1.06s
+19/32 /MCU / clock / SWD/NRST: -2 points; 0.00 mm; 0 vias; not routed; 1.07s
+22/32 USB_UART_RX: 549 points; 31.38 mm; 2 vias; accepted candidate; 1.10s
+23/32 /USB service/UART_BRIDGE_RX: 696 points; 39.40 mm; 1 vias; not routed; 1.08s
+26/32 FDCAN1_TX: -2 points; 0.00 mm; 0 vias; not routed; 1.10s
+28/32 FDCAN1_RX: -2 points; 0.00 mm; 0 vias; not routed; 1.08s
+30/32 CAN_STB: 345 points; 19.70 mm; 1 vias; accepted candidate; 1.09s
+32/32 CAN_TERM_DISABLE: -2 points; 0.00 mm; 0 vias; not routed; 1.10s
+{"candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/digital/ShiroFOC_Manual.kicad_pcb", "connections": 15, "new_items": 169, "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/digital/ShiroFOC_Manual.routes.json"}
+Found 424 violations
+Found 402 unconnected items
+Saved DRC Report to /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/digital/drc.json
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+05:46:26 PM: Debug: Adding duplicate image handler for 'PNG file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'JPEG file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'TIFF file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'GIF file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'PNM file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'PCX file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'IFF file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'TGA file'
+05:46:26 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "failures": [],
+  "new_item_count": 235,
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 391,
+    "unconnected": 402
+  }
+}
+{
+  "status": "PASS",
+  "failures": [],
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 102,
+      "vias": 0,
+      "length_mm": 122.963512
+    },
+    "F.Cu": {
+      "tracks": 58,
+      "vias": 0,
+      "length_mm": 61.071548
+    },
+    "Signals L3": {
+      "tracks": 52,
+      "vias": 0,
+      "length_mm": 97.311075
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 23,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 391,
+    "unconnected": 402
+  }
+}

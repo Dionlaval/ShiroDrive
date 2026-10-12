@@ -1,0 +1,252 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_ROUTE_QUALITY_LIMITATIONS",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_11/ShiroFOC_Manual.kicad_pcb",
+  "sha256": "797c2d7edabe48968bc5a42dfd3103c37068ecb19214ee9dbfd8785607686d0f",
+  "read_only_audit": true,
+  "structural_status": "PASS",
+  "native_drc": {
+    "errors": 29,
+    "warnings": 376,
+    "unconnected": 256
+  },
+  "introduced_errors": [],
+  "connectivity_status": "PASS",
+  "selected_signal_nets_completed": 81,
+  "selected_signal_nets_total": 81,
+  "prior_connectivity_regressions": [],
+  "plane_connectivity": {
+    "GND": {
+      "filled_polygon_count": 2,
+      "electrically_joined_region_groups": [
+        [
+          {
+            "zone_uuid": "6ae18780-7be8-49c7-ba8b-e54da0cbc017",
+            "layer": "GND L2",
+            "filled_polygon_index": 0
+          },
+          {
+            "zone_uuid": "0da23d62-325e-4479-9e26-4962df50b9c4",
+            "layer": "GND L5",
+            "filled_polygon_index": 0
+          }
+        ]
+      ],
+      "electrical_region_group_count": 1
+    },
+    "3V3": {
+      "filled_polygon_count": 3,
+      "electrically_joined_region_groups": [
+        [
+          {
+            "zone_uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+            "layer": "Power L4",
+            "filled_polygon_index": 0
+          },
+          {
+            "zone_uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+            "layer": "Power L4",
+            "filled_polygon_index": 1
+          },
+          {
+            "zone_uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+            "layer": "Power L4",
+            "filled_polygon_index": 2
+          }
+        ]
+      ],
+      "electrical_region_group_count": 1
+    }
+  },
+  "copper_provenance_status": "PASS",
+  "new_copper_accepted_source_count": 131,
+  "unchanged_baseline_copper_count": 1503,
+  "planes": [
+    {
+      "net": "GND",
+      "uuid": "6ae18780-7be8-49c7-ba8b-e54da0cbc017",
+      "layers": [
+        {
+          "name": "GND L2",
+          "id": 4,
+          "filled_regions": 1
+        }
+      ]
+    },
+    {
+      "net": "3V3",
+      "uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+      "layers": [
+        {
+          "name": "Power L4",
+          "id": 8,
+          "filled_regions": 3
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "uuid": "0da23d62-325e-4479-9e26-4962df50b9c4",
+      "layers": [
+        {
+          "name": "GND L5",
+          "id": 10,
+          "filled_regions": 1
+        }
+      ]
+    }
+  ],
+  "source_U204_5_reaches_3V3_fill": true,
+  "new_copper_plane_sampling": {
+    "maximum_single_segment_void_mm": 0.55,
+    "segments_with_void_at_least_0p75mm": 0
+  },
+  "long_connections": [
+    {
+      "net": "INPUT_MUX_ENABLE_N",
+      "source": "U4.4",
+      "target": "R305.2",
+      "manifest": "ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/input_completed/ShiroFOC_Manual.routes.json",
+      "all_manifest_items_present": true,
+      "length_mm": 31.92203,
+      "direct_distance_mm": 15.9370182537854,
+      "detour_ratio": 2.003,
+      "vias": 2,
+      "segments": 20,
+      "unsupported_length_mm": 2.11441,
+      "max_single_segment_gap_mm": 0.55
+    },
+    {
+      "net": "NTC_PHASE_B",
+      "source": "U4.11",
+      "target": "R712.2",
+      "manifest": "ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/precise_b/ShiroFOC_Manual.routes.json",
+      "all_manifest_items_present": true,
+      "length_mm": 43.82634,
+      "direct_distance_mm": 9.781163713956792,
+      "detour_ratio": 4.481,
+      "vias": 2,
+      "segments": 41,
+      "unsupported_length_mm": 6.95908,
+      "max_single_segment_gap_mm": 0.549545
+    }
+  ],
+  "removed_ground_affected_reference_changes": [
+    {
+      "net": "BRAKE_PWM",
+      "position_mm": [
+        -6.85,
+        4.05
+      ],
+      "before_mm": 0.8746,
+      "after_mm": 1.7808
+    },
+    {
+      "net": "FEEDBACK_A_H1",
+      "position_mm": [
+        -5.16,
+        4.755298
+      ],
+      "before_mm": 2.1405,
+      "after_mm": 3.5924
+    },
+    {
+      "net": "FEEDBACK_B_H2",
+      "position_mm": [
+        -5.85,
+        4.755298
+      ],
+      "before_mm": 1.4507,
+      "after_mm": 2.9384
+    },
+    {
+      "net": "FEEDBACK_I_H3",
+      "position_mm": [
+        -6.52,
+        4.755298
+      ],
+      "before_mm": 0.7813,
+      "after_mm": 2.3234
+    },
+    {
+      "net": "I2C2_SCL",
+      "position_mm": [
+        -3.299999,
+        4.65
+      ],
+      "before_mm": 4.0028,
+      "after_mm": 5.1539
+    },
+    {
+      "net": "IMU_INT2",
+      "position_mm": [
+        -7.85,
+        6.1
+      ],
+      "before_mm": 1.4116,
+      "after_mm": 2.4954
+    },
+    {
+      "net": "Net-(U601-MOSI)",
+      "position_mm": [
+        -4.8,
+        3.65
+      ],
+      "before_mm": 2.7518,
+      "after_mm": 3.8006
+    },
+    {
+      "net": "SPI3_MOSI_MCU",
+      "position_mm": [
+        -4.449999,
+        4.35
+      ],
+      "before_mm": 2.8853,
+      "after_mm": 4.1975
+    },
+    {
+      "net": "NTC_BRAKE",
+      "position_mm": [
+        -8.649999,
+        6.12
+      ],
+      "before_mm": 1.8881,
+      "after_mm": 2.4005
+    },
+    {
+      "net": "NTC_BRAKE",
+      "position_mm": [
+        -8.565,
+        7.24
+      ],
+      "before_mm": 2.7484,
+      "after_mm": 2.7748
+    },
+    {
+      "net": "CAN_TERM_DISABLE",
+      "position_mm": [
+        -8.875,
+        5.4
+      ],
+      "before_mm": 1.6854,
+      "after_mm": 1.7024
+    }
+  ],
+  "targeted_ground_search": {
+    "candidate_sha256": "a8ac0ae1e4ff093cebcc1983d2021d580bc3a31608101762ca214b8bd1bde483",
+    "grid_mm": 0.025,
+    "radius_mm": 2,
+    "minimum_radius_mm": 0.75,
+    "targets": 6,
+    "legal_sites_found": 0,
+    "added_copper_items": 0,
+    "rules": "Existing U4 courtyard clearance, all-layer effective shapes, no pad overlap, .45mm drill web, both filled GND planes required",
+    "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/input_return/joint_search/ShiroFOC_Manual.ground_manifest.json"
+  },
+  "limitations": [
+    "NTC_PHASE_B new continuation is 43.826mm for a 9.781mm endpoint distance; routing complete but detour remains.",
+    "Removing the GND stitch at (-7.3,4.8) to permit INPUT escape increases local return-interconnect distances; no legal replacement found within the bounded search.",
+    "Ground coverage and return distances are geometric checks, not an impedance or EMI guarantee."
+  ],
+  "three_v_three_onboard_pads_connected": 49,
+  "three_v_three_onboard_pads_total": 49
+}

@@ -1,0 +1,429 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/power_plane/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "2bb17cdcef103443aae08cb5e4b71a72a0c185ca24e8d3c1b066a11935cc293e",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/power_fed/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "power_U204_5",
+      "kind": "pad_ground_stitch",
+      "pad": "U204.5",
+      "pad_uuid": "0b4a325b-de9a-44b3-aff7-722f37b4a6d4",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start_mm": [
+        -16.45,
+        -13.86
+      ],
+      "end_mm": [
+        -16.45,
+        -13.31
+      ],
+      "stub_length_mm": 0.55,
+      "added_uuids": [
+        "d2342fc7-eba5-40be-bc8c-9946db85c0e2",
+        "68130fab-b913-4772-9141-ddb57cd423dc"
+      ],
+      "new_items": [
+        "d2342fc7-eba5-40be-bc8c-9946db85c0e2",
+        "68130fab-b913-4772-9141-ddb57cd423dc"
+      ],
+      "added_via_uuid": "d2342fc7-eba5-40be-bc8c-9946db85c0e2",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "power_C701_1",
+      "kind": "pad_ground_stitch",
+      "pad": "C701.1",
+      "pad_uuid": "a4ecf8be-2ed3-4be2-92bb-acc775cacfe7",
+      "net": "3V3",
+      "layer": "F.Cu",
+      "start_mm": [
+        -7.1,
+        -1.92
+      ],
+      "end_mm": [
+        -7.85,
+        -1.17
+      ],
+      "stub_length_mm": 1.06066,
+      "added_uuids": [
+        "2c5b9c5a-1fa7-4e68-8c24-fb4278a7898e",
+        "2e3b9253-1377-44ea-9353-1351c44ce9c4"
+      ],
+      "new_items": [
+        "2c5b9c5a-1fa7-4e68-8c24-fb4278a7898e",
+        "2e3b9253-1377-44ea-9353-1351c44ce9c4"
+      ],
+      "added_via_uuid": "2c5b9c5a-1fa7-4e68-8c24-fb4278a7898e",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "power_C702_1",
+      "kind": "pad_ground_stitch",
+      "pad": "C702.1",
+      "pad_uuid": "5bcfda18-f2a8-4a4f-9018-3962f6e594ce",
+      "net": "3V3",
+      "layer": "F.Cu",
+      "start_mm": [
+        -7.1,
+        -4.73
+      ],
+      "end_mm": [
+        -7.1,
+        -5.28
+      ],
+      "stub_length_mm": 0.55,
+      "added_uuids": [
+        "6b6cdee0-912d-4b44-ac63-a5015594f83e",
+        "6420bc21-b216-47c1-a3a6-e06cae0a813b"
+      ],
+      "new_items": [
+        "6b6cdee0-912d-4b44-ac63-a5015594f83e",
+        "6420bc21-b216-47c1-a3a6-e06cae0a813b"
+      ],
+      "added_via_uuid": "6b6cdee0-912d-4b44-ac63-a5015594f83e",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "power_C801_1",
+      "kind": "pad_ground_stitch",
+      "pad": "C801.1",
+      "pad_uuid": "bea2af47-cbe7-4655-a9c0-7eb34e3baa4c",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start_mm": [
+        -20.337503,
+        13.922499
+      ],
+      "end_mm": [
+        -20.887503,
+        13.922499
+      ],
+      "stub_length_mm": 0.55,
+      "added_uuids": [
+        "6c9c56be-dc7f-4913-be23-c5c25f52ec6f",
+        "797ed889-dc4c-4b41-8f29-3f2dd0e60165"
+      ],
+      "new_items": [
+        "6c9c56be-dc7f-4913-be23-c5c25f52ec6f",
+        "797ed889-dc4c-4b41-8f29-3f2dd0e60165"
+      ],
+      "added_via_uuid": "6c9c56be-dc7f-4913-be23-c5c25f52ec6f",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "power_U602_16",
+      "kind": "pad_ground_stitch",
+      "pad": "U602.16",
+      "pad_uuid": "2a2087f4-0c7e-46bc-bf03-a2fb2aa83ba8",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start_mm": [
+        -3.305,
+        21.125
+      ],
+      "end_mm": [
+        -2.805,
+        21.625
+      ],
+      "stub_length_mm": 0.707107,
+      "added_uuids": [
+        "e54906d8-3cbd-42f7-a662-2be1ee473e83",
+        "3e8e35a6-b1c0-435c-8bd5-806135ee62f2"
+      ],
+      "new_items": [
+        "e54906d8-3cbd-42f7-a662-2be1ee473e83",
+        "3e8e35a6-b1c0-435c-8bd5-806135ee62f2"
+      ],
+      "added_via_uuid": "e54906d8-3cbd-42f7-a662-2be1ee473e83",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "power_R702_1",
+      "kind": "pad_ground_stitch",
+      "pad": "R702.1",
+      "pad_uuid": "fe5e3184-c93c-4edf-9440-827f9d1135cf",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start_mm": [
+        -16.909999,
+        -0.5
+      ],
+      "end_mm": [
+        -17.459999,
+        -0.5
+      ],
+      "stub_length_mm": 0.55,
+      "added_uuids": [
+        "94ecdcb5-4e9d-4871-a0ec-fa89ed3a7ad8",
+        "ee066ebe-62e4-4261-94cd-8d31d98cb52f"
+      ],
+      "new_items": [
+        "94ecdcb5-4e9d-4871-a0ec-fa89ed3a7ad8",
+        "ee066ebe-62e4-4261-94cd-8d31d98cb52f"
+      ],
+      "added_via_uuid": "94ecdcb5-4e9d-4871-a0ec-fa89ed3a7ad8",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "power_D505_2",
+      "kind": "pad_ground_stitch",
+      "pad": "D505.2",
+      "pad_uuid": "9e2ced47-904f-45bd-929d-0abb872ff82b",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start_mm": [
+        -14.0,
+        1.85
+      ],
+      "end_mm": [
+        -14.0,
+        2.35
+      ],
+      "stub_length_mm": 0.5,
+      "added_uuids": [
+        "f19daee5-fde3-4c8a-98b6-930f19042e6c",
+        "8ea396ad-6f1b-41a8-a21a-ddbcfeb2deb8"
+      ],
+      "new_items": [
+        "f19daee5-fde3-4c8a-98b6-930f19042e6c",
+        "8ea396ad-6f1b-41a8-a21a-ddbcfeb2deb8"
+      ],
+      "added_via_uuid": "f19daee5-fde3-4c8a-98b6-930f19042e6c",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "power_R309_1",
+      "kind": "pad_ground_stitch",
+      "pad": "R309.1",
+      "pad_uuid": "ff9ca13f-62ac-4ffc-9733-8d74e7802696",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start_mm": [
+        4.39,
+        -2.4
+      ],
+      "end_mm": [
+        3.79,
+        -3.0
+      ],
+      "stub_length_mm": 0.848528,
+      "added_uuids": [
+        "5d8436c0-8a42-462f-b9eb-6c46cc31a2d8",
+        "82c0d828-7dc9-41a5-bdae-d2ece61de780"
+      ],
+      "new_items": [
+        "5d8436c0-8a42-462f-b9eb-6c46cc31a2d8",
+        "82c0d828-7dc9-41a5-bdae-d2ece61de780"
+      ],
+      "added_via_uuid": "5d8436c0-8a42-462f-b9eb-6c46cc31a2d8",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "pad": "C213.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C301.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C302.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C307.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C503.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C601.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C602.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C603.1",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C605.1",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C802.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C901.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C902.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C903.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C904.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.64",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U601.11",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U601.12",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U701.5",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U701.8",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U701.12",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.6",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.7",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U801.3",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U801.5",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U603.8",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U502.6",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R310.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R511.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R308.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R715.1",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R303.1",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R701.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R703.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R604.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R801.1",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R301.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R805.1",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R305.1",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R901.1",
+      "reason": "already reaches existing GND plane"
+    }
+  ],
+  "signal_returns": null,
+  "added_counts": {
+    "PCB_VIA": 8,
+    "PCB_TRACK": 8
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 1.5,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

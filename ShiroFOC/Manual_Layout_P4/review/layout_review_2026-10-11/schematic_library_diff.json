@@ -1,0 +1,478 @@
+[
+  {
+    "file": "07_Brake_Chopper.kicad_sch",
+    "symbol": "COMP_J501",
+    "pin_diff": {
+      "2": {
+        "embedded": {
+          "type": "passive",
+          "name": "2",
+          "at": [
+            "at",
+            "-11.43",
+            "15.24",
+            "0"
+          ]
+        },
+        "library": {
+          "type": "passive",
+          "name": "2",
+          "at": [
+            "at",
+            "-11.43",
+            "-15.24",
+            "0"
+          ]
+        }
+      },
+      "1": {
+        "embedded": {
+          "type": "passive",
+          "name": "1",
+          "at": [
+            "at",
+            "-11.43",
+            "-15.24",
+            "0"
+          ]
+        },
+        "library": {
+          "type": "passive",
+          "name": "1",
+          "at": [
+            "at",
+            "-11.43",
+            "15.24",
+            "0"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "file": "10_CAN.kicad_sch",
+    "symbol": "COMP_D801",
+    "pin_diff": {
+      "1": {
+        "embedded": {
+          "type": "passive",
+          "name": "CANL_IN",
+          "at": [
+            "at",
+            "-5.08",
+            "10.16",
+            "270"
+          ]
+        },
+        "library": {
+          "type": "passive",
+          "name": "CANH_IN",
+          "at": [
+            "at",
+            "-5.08",
+            "10.16",
+            "270"
+          ]
+        }
+      },
+      "2": {
+        "embedded": {
+          "type": "passive",
+          "name": "CANH_IN",
+          "at": [
+            "at",
+            "5.08",
+            "10.16",
+            "270"
+          ]
+        },
+        "library": {
+          "type": "passive",
+          "name": "CANL_IN",
+          "at": [
+            "at",
+            "5.08",
+            "10.16",
+            "270"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "file": "MCUclockSWD.kicad_sch",
+    "symbol": "STSPIN32G4_Functional",
+    "pin_diff": {
+      "13": {
+        "embedded": {
+          "type": "input",
+          "name": "PA0",
+          "at": [
+            "at",
+            "24.13",
+            "11.43",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PA0",
+          "at": [
+            "at",
+            "24.13",
+            "17.78",
+            "180"
+          ]
+        }
+      },
+      "10": {
+        "embedded": {
+          "type": "input",
+          "name": "PC1",
+          "at": [
+            "at",
+            "24.13",
+            "19.05",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PC1",
+          "at": [
+            "at",
+            "24.13",
+            "22.86",
+            "180"
+          ]
+        }
+      },
+      "11": {
+        "embedded": {
+          "type": "input",
+          "name": "PC2",
+          "at": [
+            "at",
+            "24.13",
+            "16.51",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PC2",
+          "at": [
+            "at",
+            "24.13",
+            "-12.7",
+            "180"
+          ]
+        }
+      },
+      "12": {
+        "embedded": {
+          "type": "input",
+          "name": "PC3",
+          "at": [
+            "at",
+            "24.13",
+            "13.97",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PC3",
+          "at": [
+            "at",
+            "24.13",
+            "20.32",
+            "180"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "file": "04_Gate_Driver.kicad_sch",
+    "symbol": "STSPIN32G4_Functional",
+    "pin_diff": {
+      "13": {
+        "embedded": {
+          "type": "input",
+          "name": "PA0",
+          "at": [
+            "at",
+            "24.13",
+            "11.43",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PA0",
+          "at": [
+            "at",
+            "24.13",
+            "17.78",
+            "180"
+          ]
+        }
+      },
+      "10": {
+        "embedded": {
+          "type": "input",
+          "name": "PC1",
+          "at": [
+            "at",
+            "24.13",
+            "19.05",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PC1",
+          "at": [
+            "at",
+            "24.13",
+            "22.86",
+            "180"
+          ]
+        }
+      },
+      "11": {
+        "embedded": {
+          "type": "input",
+          "name": "PC2",
+          "at": [
+            "at",
+            "24.13",
+            "16.51",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PC2",
+          "at": [
+            "at",
+            "24.13",
+            "-12.7",
+            "180"
+          ]
+        }
+      },
+      "12": {
+        "embedded": {
+          "type": "input",
+          "name": "PC3",
+          "at": [
+            "at",
+            "24.13",
+            "13.97",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PC3",
+          "at": [
+            "at",
+            "24.13",
+            "20.32",
+            "180"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "file": "11_USB_Service.kicad_sch",
+    "symbol": "COMP_U202",
+    "pin_diff": {
+      "3": {
+        "embedded": {
+          "type": "passive",
+          "name": "IO2",
+          "at": [
+            "at",
+            "-16.51",
+            "6.35",
+            "0"
+          ]
+        },
+        "library": {
+          "type": "passive",
+          "name": "IO2",
+          "at": [
+            "at",
+            "-16.51",
+            "-6.35",
+            "0"
+          ]
+        }
+      },
+      "4": {
+        "embedded": {
+          "type": "passive",
+          "name": "IO2",
+          "at": [
+            "at",
+            "16.51",
+            "6.35",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "passive",
+          "name": "IO2",
+          "at": [
+            "at",
+            "16.51",
+            "-6.35",
+            "180"
+          ]
+        }
+      },
+      "1": {
+        "embedded": {
+          "type": "passive",
+          "name": "IO1",
+          "at": [
+            "at",
+            "-16.51",
+            "-6.35",
+            "0"
+          ]
+        },
+        "library": {
+          "type": "passive",
+          "name": "IO1",
+          "at": [
+            "at",
+            "-16.51",
+            "6.35",
+            "0"
+          ]
+        }
+      },
+      "6": {
+        "embedded": {
+          "type": "passive",
+          "name": "IO1",
+          "at": [
+            "at",
+            "16.51",
+            "-6.35",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "passive",
+          "name": "IO1",
+          "at": [
+            "at",
+            "16.51",
+            "6.35",
+            "180"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "file": "06_Current_Temperature.kicad_sch",
+    "symbol": "STSPIN32G4_Functional",
+    "pin_diff": {
+      "13": {
+        "embedded": {
+          "type": "input",
+          "name": "PA0",
+          "at": [
+            "at",
+            "24.13",
+            "11.43",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PA0",
+          "at": [
+            "at",
+            "24.13",
+            "17.78",
+            "180"
+          ]
+        }
+      },
+      "10": {
+        "embedded": {
+          "type": "input",
+          "name": "PC1",
+          "at": [
+            "at",
+            "24.13",
+            "19.05",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PC1",
+          "at": [
+            "at",
+            "24.13",
+            "22.86",
+            "180"
+          ]
+        }
+      },
+      "11": {
+        "embedded": {
+          "type": "input",
+          "name": "PC2",
+          "at": [
+            "at",
+            "24.13",
+            "16.51",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PC2",
+          "at": [
+            "at",
+            "24.13",
+            "-12.7",
+            "180"
+          ]
+        }
+      },
+      "12": {
+        "embedded": {
+          "type": "input",
+          "name": "PC3",
+          "at": [
+            "at",
+            "24.13",
+            "13.97",
+            "180"
+          ]
+        },
+        "library": {
+          "type": "input",
+          "name": "PC3",
+          "at": [
+            "at",
+            "24.13",
+            "20.32",
+            "180"
+          ]
+        }
+      }
+    }
+  }
+]

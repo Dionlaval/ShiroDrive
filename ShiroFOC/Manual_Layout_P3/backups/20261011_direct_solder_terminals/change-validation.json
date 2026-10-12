@@ -1,0 +1,28 @@
+{
+  "pitch_mm": 6.35,
+  "row_x_mm": 19.5,
+  "pad_width_mm": 4.1,
+  "drill_mm": {
+    "DC": 2.7,
+    "phases": 2.9
+  },
+  "pad_y_mm": {
+    "GND": -12.7,
+    "VM": -6.35,
+    "PHASE_U": 0,
+    "PHASE_V": 6.35,
+    "PHASE_W": 12.7
+  },
+  "terminal_drc_violations": 0,
+  "global_existing_drc_violations": 389,
+  "global_unconnected_items": 470,
+  "unchanged_net_count": 201,
+  "modified_files": [
+    "ShiroFOC_Manual.kicad_pcb",
+    "01_DC_Link.kicad_sch",
+    "Three-phase bridge.kicad_sch",
+    "libs/ShiroFOCLib.kicad_sym",
+    "libs/ShiroFOCLib.pretty/WireSolder_DC_1x02_P6.35mm_D2.70mm_Pad4.10mm.kicad_mod",
+    "libs/ShiroFOCLib.pretty/WireSolder_Phase_1x03_P6.35mm_D2.90mm_Pad4.10mm.kicad_mod"
+  ]
+}

@@ -1,0 +1,791 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/supply/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "3cc6d63e0e3e9b3b0f1ab120601af19daa0f44ce9f0d1c08947f535d2bbc15ae",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/grounded/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "ground_C305_2",
+      "pad": "C305.2",
+      "pad_uuid": "10f5ed0f-92cb-4927-9dd9-6105909b3bcc",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -4.345,
+        10.02
+      ],
+      "end_mm": [
+        -3.145,
+        10.02
+      ],
+      "stub_length_mm": 1.2,
+      "added_uuids": [
+        "3fe67ddd-6314-4784-a7dc-56641a241ee0",
+        "f2cbbe9f-a777-47ec-8cdf-a13921a23b7d"
+      ],
+      "added_via_uuid": "3fe67ddd-6314-4784-a7dc-56641a241ee0",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "3fe67ddd-6314-4784-a7dc-56641a241ee0",
+        "f2cbbe9f-a777-47ec-8cdf-a13921a23b7d"
+      ]
+    },
+    {
+      "group_id": "ground_C313_2",
+      "pad": "C313.2",
+      "pad_uuid": "bfe59373-4f54-4f94-9b68-8b557950d260",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -8.81,
+        0.61
+      ],
+      "end_mm": [
+        -8.81,
+        0.06
+      ],
+      "stub_length_mm": 0.55,
+      "added_uuids": [
+        "9f222697-0fdb-46cf-a84d-525904bd27d0",
+        "21a330ae-2f0a-4789-be81-1a6955bab835"
+      ],
+      "added_via_uuid": "9f222697-0fdb-46cf-a84d-525904bd27d0",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "9f222697-0fdb-46cf-a84d-525904bd27d0",
+        "21a330ae-2f0a-4789-be81-1a6955bab835"
+      ]
+    },
+    {
+      "group_id": "ground_C606_2",
+      "pad": "C606.2",
+      "pad_uuid": "77e958a1-10df-4d50-8dc4-6071d103a4cf",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -12.114997,
+        -13.3525
+      ],
+      "end_mm": [
+        -12.864997,
+        -13.3525
+      ],
+      "stub_length_mm": 0.75,
+      "added_uuids": [
+        "bf3e02b2-611e-4080-a963-2199c1ddee98",
+        "0e610fcb-05d0-4425-8de4-4a658ae1d3c4"
+      ],
+      "added_via_uuid": "bf3e02b2-611e-4080-a963-2199c1ddee98",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "bf3e02b2-611e-4080-a963-2199c1ddee98",
+        "0e610fcb-05d0-4425-8de4-4a658ae1d3c4"
+      ]
+    },
+    {
+      "group_id": "ground_C607_2",
+      "pad": "C607.2",
+      "pad_uuid": "9c47c1ba-557e-411d-8436-52819995788e",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -10.1,
+        -7.78
+      ],
+      "end_mm": [
+        -9.5,
+        -7.78
+      ],
+      "stub_length_mm": 0.6,
+      "added_uuids": [
+        "7d3384c9-9bd1-4d44-a27c-636442c1ac71",
+        "a5bd1443-960f-44b0-afcf-4fcaf8553859"
+      ],
+      "added_via_uuid": "7d3384c9-9bd1-4d44-a27c-636442c1ac71",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "7d3384c9-9bd1-4d44-a27c-636442c1ac71",
+        "a5bd1443-960f-44b0-afcf-4fcaf8553859"
+      ]
+    },
+    {
+      "group_id": "ground_C701_2",
+      "pad": "C701.2",
+      "pad_uuid": "7974e0d8-5e91-4fab-9892-a8b82c458902",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -7.1,
+        -2.88
+      ],
+      "end_mm": [
+        -6.6,
+        -3.38
+      ],
+      "stub_length_mm": 0.707107,
+      "added_uuids": [
+        "f24602c0-3be8-41c9-bd23-3e7912870a26",
+        "25bf12bc-819e-4828-a210-ecaba85d22d9"
+      ],
+      "added_via_uuid": "f24602c0-3be8-41c9-bd23-3e7912870a26",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "f24602c0-3be8-41c9-bd23-3e7912870a26",
+        "25bf12bc-819e-4828-a210-ecaba85d22d9"
+      ]
+    },
+    {
+      "group_id": "ground_C702_2",
+      "pad": "C702.2",
+      "pad_uuid": "7e025805-99c5-4714-a42b-c95ebc41868e",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -7.1,
+        -3.77
+      ],
+      "end_mm": [
+        -6.6,
+        -3.38
+      ],
+      "stub_length_mm": 0.661543,
+      "added_uuids": [
+        "5c8eb0a5-3625-44ad-b32b-d23f7acaa57b",
+        "dc084f40-f2cf-47d9-adc2-3590ee9f6370"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "f24602c0-3be8-41c9-bd23-3e7912870a26",
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "5c8eb0a5-3625-44ad-b32b-d23f7acaa57b",
+        "dc084f40-f2cf-47d9-adc2-3590ee9f6370"
+      ]
+    },
+    {
+      "group_id": "ground_C713_2",
+      "pad": "C713.2",
+      "pad_uuid": "6fbc0dc1-b08d-48a0-b5c0-6e658dc2a708",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -7.605,
+        10.15
+      ],
+      "end_mm": [
+        -6.955,
+        9.5
+      ],
+      "stub_length_mm": 0.919239,
+      "added_uuids": [
+        "f03b7746-bab2-4a36-9880-1ea56688760b",
+        "f643fbdd-5631-438a-ab38-94516bc2ecc2"
+      ],
+      "added_via_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "f03b7746-bab2-4a36-9880-1ea56688760b",
+        "f643fbdd-5631-438a-ab38-94516bc2ecc2"
+      ]
+    },
+    {
+      "group_id": "ground_C801_2",
+      "pad": "C801.2",
+      "pad_uuid": "185cbc32-d678-4f84-b355-c899f3f0ca81",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -19.377503,
+        13.922499
+      ],
+      "end_mm": [
+        -18.827503,
+        13.922499
+      ],
+      "stub_length_mm": 0.55,
+      "added_uuids": [
+        "d9b3adfb-eb2d-4420-818a-aacc5ac22308",
+        "fbdee4fe-1443-4a89-962b-52389090a67d"
+      ],
+      "added_via_uuid": "d9b3adfb-eb2d-4420-818a-aacc5ac22308",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "d9b3adfb-eb2d-4420-818a-aacc5ac22308",
+        "fbdee4fe-1443-4a89-962b-52389090a67d"
+      ]
+    },
+    {
+      "group_id": "ground_C901_2",
+      "pad": "C901.2",
+      "pad_uuid": "628be030-a06f-4c01-8f59-e9b12ecefc24",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -17.14,
+        -2.864999
+      ],
+      "end_mm": [
+        -17.89,
+        -2.864999
+      ],
+      "stub_length_mm": 0.75,
+      "added_uuids": [
+        "6e17a201-02c0-4512-9f96-78477fb52b1c",
+        "76e078d2-a875-431d-a041-767d30f1e2e6"
+      ],
+      "added_via_uuid": "6e17a201-02c0-4512-9f96-78477fb52b1c",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "6e17a201-02c0-4512-9f96-78477fb52b1c",
+        "76e078d2-a875-431d-a041-767d30f1e2e6"
+      ]
+    },
+    {
+      "group_id": "ground_C903_2",
+      "pad": "C903.2",
+      "pad_uuid": "d1d93b4f-41ef-4802-a0c3-665ebd45637e",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -21.460001,
+        -2.864999
+      ],
+      "end_mm": [
+        -20.710001,
+        -2.864999
+      ],
+      "stub_length_mm": 0.75,
+      "added_uuids": [
+        "e784057c-0735-49da-a883-1380e05495d7",
+        "c1513283-05d3-49b1-9aca-b4caafdfcf98"
+      ],
+      "added_via_uuid": "e784057c-0735-49da-a883-1380e05495d7",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "e784057c-0735-49da-a883-1380e05495d7",
+        "c1513283-05d3-49b1-9aca-b4caafdfcf98"
+      ]
+    },
+    {
+      "group_id": "ground_C211_2",
+      "pad": "C211.2",
+      "pad_uuid": "0b529b75-a358-4632-afa8-9f61cde68a84",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -12.054017,
+        -17.418056
+      ],
+      "end_mm": [
+        -11.054017,
+        -17.418056
+      ],
+      "stub_length_mm": 1.0,
+      "added_uuids": [
+        "1810ff38-f724-40df-b34e-8afb0295559e",
+        "0a63cbae-a4dd-4bcc-8c32-cdd5fc3ceae5"
+      ],
+      "added_via_uuid": "1810ff38-f724-40df-b34e-8afb0295559e",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "1810ff38-f724-40df-b34e-8afb0295559e",
+        "0a63cbae-a4dd-4bcc-8c32-cdd5fc3ceae5"
+      ]
+    },
+    {
+      "group_id": "ground_C212_2",
+      "pad": "C212.2",
+      "pad_uuid": "e4f99d48-de50-4846-96be-b940d137f645",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -20.65,
+        -15.695
+      ],
+      "end_mm": [
+        -21.4,
+        -15.695
+      ],
+      "stub_length_mm": 0.75,
+      "added_uuids": [
+        "524bd404-85dc-48e2-8cc3-236f07b501f7",
+        "449c358d-b463-48ba-9666-de4b9743beff"
+      ],
+      "added_via_uuid": "524bd404-85dc-48e2-8cc3-236f07b501f7",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "524bd404-85dc-48e2-8cc3-236f07b501f7",
+        "449c358d-b463-48ba-9666-de4b9743beff"
+      ]
+    },
+    {
+      "group_id": "ground_C213_2",
+      "pad": "C213.2",
+      "pad_uuid": "a4f79615-b939-420a-ae08-3e191ac14943",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -14.82,
+        -15.185
+      ],
+      "end_mm": [
+        -15.044013,
+        -16.468053
+      ],
+      "stub_length_mm": 1.375842,
+      "added_uuids": [
+        "c526b4cc-043c-4693-a5f5-751cc6f9dcf0",
+        "5f377272-b999-4388-a388-fcf76d21a518"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "db219d76-7f46-4c58-88a6-9b2066c2b1c9",
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "c526b4cc-043c-4693-a5f5-751cc6f9dcf0",
+        "5f377272-b999-4388-a388-fcf76d21a518"
+      ]
+    },
+    {
+      "group_id": "ground_U701_1",
+      "pad": "U701.1",
+      "pad_uuid": "70651a79-1fb9-4e75-a34f-ac1a779bd9d3",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -4.25,
+        -4.8625
+      ],
+      "end_mm": [
+        -4.25,
+        -5.4625
+      ],
+      "stub_length_mm": 0.6,
+      "added_uuids": [
+        "eec18195-7a7b-494f-b3ee-8f7028a06093",
+        "76ce7d83-d322-491c-b649-1426d852ed83"
+      ],
+      "added_via_uuid": "eec18195-7a7b-494f-b3ee-8f7028a06093",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "eec18195-7a7b-494f-b3ee-8f7028a06093",
+        "76ce7d83-d322-491c-b649-1426d852ed83"
+      ]
+    },
+    {
+      "group_id": "ground_U701_6",
+      "pad": "U701.6",
+      "pad_uuid": "283ae47b-e0a2-4bfc-945f-30e77db429b8",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -6.0125,
+        -3.6
+      ],
+      "end_mm": [
+        -6.6,
+        -3.38
+      ],
+      "stub_length_mm": 0.678627,
+      "added_uuids": [
+        "647b47f0-4d5c-4a36-b1a6-41a1a86ac1a5",
+        "14c8348d-007e-41e2-b6a4-fc9afec7b67e"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "f24602c0-3be8-41c9-bd23-3e7912870a26",
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "647b47f0-4d5c-4a36-b1a6-41a1a86ac1a5",
+        "14c8348d-007e-41e2-b6a4-fc9afec7b67e"
+      ]
+    },
+    {
+      "group_id": "ground_U701_7",
+      "pad": "U701.7",
+      "pad_uuid": "020e6dd7-19fd-4fe6-8b6e-04f01e43c818",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -6.0125,
+        -3.1
+      ],
+      "end_mm": [
+        -6.6,
+        -3.38
+      ],
+      "stub_length_mm": 0.70348,
+      "added_uuids": [
+        "f07aecae-970f-4caa-a7c7-6cf686db5551",
+        "83ab5154-4bc4-4c12-bae3-0fc13c4f3265"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "f24602c0-3be8-41c9-bd23-3e7912870a26",
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "f07aecae-970f-4caa-a7c7-6cf686db5551",
+        "83ab5154-4bc4-4c12-bae3-0fc13c4f3265"
+      ]
+    },
+    {
+      "group_id": "ground_U602_2",
+      "pad": "U602.2",
+      "pad_uuid": "ce01fae2-9f1e-424b-a426-beaa16172555",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -9.03,
+        20.475
+      ],
+      "end_mm": [
+        -8.03,
+        20.475
+      ],
+      "stub_length_mm": 1.0,
+      "added_uuids": [
+        "601a2202-0c27-417c-b764-e6afdea1c4d5",
+        "ef11d12c-6627-411f-90ec-125c746a2a82"
+      ],
+      "added_via_uuid": "601a2202-0c27-417c-b764-e6afdea1c4d5",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "601a2202-0c27-417c-b764-e6afdea1c4d5",
+        "ef11d12c-6627-411f-90ec-125c746a2a82"
+      ]
+    },
+    {
+      "group_id": "ground_U602_8",
+      "pad": "U602.8",
+      "pad_uuid": "eb673eef-6de0-4149-afa2-b83029e8dc0e",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -9.03,
+        16.575
+      ],
+      "end_mm": [
+        -9.03,
+        16.075
+      ],
+      "stub_length_mm": 0.5,
+      "added_uuids": [
+        "6ca4e555-ecf5-4724-b640-9309c493de3a",
+        "e0fa79e1-f2c2-4d60-b3ab-a322e44cca22"
+      ],
+      "added_via_uuid": "6ca4e555-ecf5-4724-b640-9309c493de3a",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "6ca4e555-ecf5-4724-b640-9309c493de3a",
+        "e0fa79e1-f2c2-4d60-b3ab-a322e44cca22"
+      ]
+    },
+    {
+      "group_id": "ground_U604_2",
+      "pad": "U604.2",
+      "pad_uuid": "df83e557-4fe5-458b-95a8-59540a9280d2",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -11.33,
+        -11.66
+      ],
+      "end_mm": [
+        -11.33,
+        -10.71
+      ],
+      "stub_length_mm": 0.95,
+      "added_uuids": [
+        "c815437b-e4f6-44e6-b1a8-531dde786eae",
+        "383bad4d-8894-418f-b77f-1ea5a325f80c"
+      ],
+      "added_via_uuid": "c815437b-e4f6-44e6-b1a8-531dde786eae",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ],
+      "new_items": [
+        "c815437b-e4f6-44e6-b1a8-531dde786eae",
+        "383bad4d-8894-418f-b77f-1ea5a325f80c"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "pad": "C301.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C302.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C303.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C304.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C306.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C307.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C308.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C309.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C310.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C312.2",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "C314.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C108.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C503.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C504.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C505.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C601.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C602.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C603.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C604.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C605.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C711.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C712.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C802.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C902.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C904.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C208.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C209.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.32",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.65",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "U601.5",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U601.13",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U901.3",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U901.12",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U202.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U801.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U801.9",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "U602.5",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U602.11",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U603.4",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U502.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "Y301.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "Y301.4",
+      "reason": "already reaches existing GND plane"
+    }
+  ],
+  "added_counts": {
+    "PCB_VIA": 15,
+    "PCB_TRACK": 23
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 1.5,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

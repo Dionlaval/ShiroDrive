@@ -1,0 +1,37 @@
+Brake NTC placement candidate, 2026-10-11
+
+Final positions: R511 F.Cu (-2.30, 15.40) mm, 0 degrees;
+R512 F.Cu (-0.10, 15.40) mm, 0 degrees.
+Both footprints moved from the crowded back-side MCU region to a row
+immediately above J502. Their RAW pads face each other for a short local
+junction. J502, C505, D505, every other footprint, all 661 track/via items,
+and every schematic pad-net assignment remain unchanged.
+
+The connector-local pull-up keeps the divider junction near the cable input.
+The series resistor also sits here, while the ADC capacitor remains at the
+MCU. This meets the placement request but leaves a longer ADC-side trace
+after the resistor. That trace still needs a quiet ground reference and
+separation from PWM/switch-node copper; moving the series resistor away
+from the ADC does not improve immunity to noise coupled into that trace.
+This is a placement change. No new signal routing was added.
+
+Native KiCad DRC: baseline 431 violations / 433 unconnected; candidate
+429 violations / 433 unconnected. No new finding identities, and no
+findings involving R511 or R512. Existing board findings remain.
+Native copper-shape check against every F.Cu pad, track and via includes
+same-net objects: no separation below 0.20 mm. Closest external copper
+is a preserved 3V3 via with 0.305 mm pad-to-via edge separation.
+No courtyard or board-edge collision involving the moved footprints.
+
+Files:
+  ShiroFOC_Manual.kicad_pcb - isolated candidate
+  manifest.json - exact before/after footprint identities and positions
+  validation.json - preservation and DRC comparison
+  geometry.json - all-net copper and courtyard checks
+  preview/brake_detail.png - current close-up, visually inspected
+  preview/overview.png - current front/back placement map
+
+The earlier candidate at X=-2.9/-0.7 mm was superseded: its R511 3V3 pad
+overlapped an existing same-net via, which native net-clearance DRC does
+not report. The final +0.60 mm X adjustment removes that unintended overlap
+without editing copper.

@@ -1,0 +1,89 @@
+{
+  "drc_saved": {
+    "violations": {
+      "count": 953,
+      "types": {
+        "track_dangling": 40,
+        "clearance": 412,
+        "hole_clearance": 200,
+        "shorting_items": 2,
+        "courtyards_overlap": 12,
+        "silk_edge_clearance": 5,
+        "copper_edge_clearance": 11,
+        "hole_to_hole": 43,
+        "drill_out_of_range": 7,
+        "lib_footprint_mismatch": 11,
+        "text_thickness": 4,
+        "text_height": 4,
+        "silk_over_copper": 66,
+        "solder_mask_bridge": 2,
+        "silk_overlap": 134
+      },
+      "severities": {
+        "warning": 307,
+        "error": 646
+      }
+    },
+    "unconnected_items": {
+      "count": 457,
+      "types": {
+        "unconnected_items": 457
+      },
+      "severities": {
+        "error": 457
+      }
+    },
+    "schematic_parity": {
+      "count": 56,
+      "types": {
+        "missing_footprint": 54,
+        "net_conflict": 2
+      },
+      "severities": {
+        "warning": 56
+      }
+    }
+  },
+  "drc_refilled": {
+    "violations": {
+      "count": 395,
+      "types": {
+        "via_dangling": 24,
+        "track_dangling": 40,
+        "clearance": 28,
+        "shorting_items": 2,
+        "hole_clearance": 2,
+        "courtyards_overlap": 12,
+        "silk_edge_clearance": 5,
+        "copper_edge_clearance": 11,
+        "hole_to_hole": 43,
+        "drill_out_of_range": 7,
+        "lib_footprint_mismatch": 11,
+        "text_thickness": 4,
+        "text_height": 4,
+        "silk_over_copper": 66,
+        "solder_mask_bridge": 2,
+        "silk_overlap": 134
+      },
+      "severities": {
+        "warning": 331,
+        "error": 64
+      }
+    },
+    "unconnected_items": {
+      "count": 456,
+      "types": {
+        "unconnected_items": 456
+      },
+      "severities": {
+        "error": 456
+      }
+    },
+    "schematic_parity": {
+      "count": 0,
+      "types": {},
+      "severities": {}
+    }
+  },
+  "refill_note": "Only refilled_assessment/ PCB was modified for diagnostic refill. Original P3 and primary P4 PCB untouched. Assessment copied project rules and resolves same local footprint libraries. Schematic parity assessed on primary P4 separately."
+}

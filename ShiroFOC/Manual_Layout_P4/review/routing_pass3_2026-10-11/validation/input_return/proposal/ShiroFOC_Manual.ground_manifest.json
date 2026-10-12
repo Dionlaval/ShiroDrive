@@ -1,0 +1,381 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/input_completed/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "fae043172365d17bd100a4eb04e5e1a23488753f11942d9e25a66b89c2bc03fc",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/input_return/proposal/ShiroFOC_Manual.kicad_pcb",
+  "groups": [],
+  "skipped": [
+    {
+      "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+      "net": "FEEDBACK_A_H1",
+      "position_mm": [
+        -5.16,
+        4.755298
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 3.592415
+    },
+    {
+      "signal_via_uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+      "net": "FEEDBACK_B_H2",
+      "position_mm": [
+        -5.85,
+        4.755298
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.938425
+    },
+    {
+      "signal_via_uuid": "acf5ed9a-e17c-437c-b160-690d8b1c14b4",
+      "net": "NTC_BRAKE",
+      "position_mm": [
+        -8.565,
+        7.24
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.774833
+    },
+    {
+      "signal_via_uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+      "net": "IMU_INT2",
+      "position_mm": [
+        -7.85,
+        6.1
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.495376
+    },
+    {
+      "signal_via_uuid": "2a1c749d-6c88-4b79-a1aa-15d3b24873b4",
+      "net": "NTC_BRAKE",
+      "position_mm": [
+        -8.649999,
+        6.12
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.400521
+    },
+    {
+      "signal_via_uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+      "net": "FEEDBACK_I_H3",
+      "position_mm": [
+        -6.52,
+        4.755298
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.323412
+    }
+  ],
+  "signal_returns": {
+    "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/input_completed/ShiroFOC_Manual.kicad_pcb",
+    "baseline_sha256": "fae043172365d17bd100a4eb04e5e1a23488753f11942d9e25a66b89c2bc03fc",
+    "new_signal_vias": 0,
+    "reused_signal_vias": 6,
+    "audited_signal_vias": 6,
+    "required_ground_planes": [
+      "GND L2",
+      "GND L5"
+    ],
+    "before": [
+      {
+        "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "nearest_ground_mm": 3.592415,
+        "transition": {
+          "new_via": false,
+          "forced": true,
+          "previous_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "current_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "nearest_ground_mm": 2.938425,
+        "transition": {
+          "new_via": false,
+          "forced": true,
+          "previous_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "current_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "nearest_ground_mm": 2.323412,
+        "transition": {
+          "new_via": false,
+          "forced": true,
+          "previous_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "current_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -7.85,
+          6.1
+        ],
+        "nearest_ground_mm": 2.495376,
+        "transition": {
+          "new_via": false,
+          "forced": true,
+          "previous_signal_layers": [
+            "Signals L3",
+            "Power L4"
+          ],
+          "current_signal_layers": [
+            "Signals L3",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "2a1c749d-6c88-4b79-a1aa-15d3b24873b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.12
+        ],
+        "nearest_ground_mm": 2.400521,
+        "transition": {
+          "new_via": false,
+          "forced": true,
+          "previous_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "acf5ed9a-e17c-437c-b160-690d8b1c14b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.565,
+          7.24
+        ],
+        "nearest_ground_mm": 2.774833,
+        "transition": {
+          "new_via": false,
+          "forced": true,
+          "previous_signal_layers": [
+            "F.Cu",
+            "B.Cu",
+            "Signals L3"
+          ],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu",
+            "Signals L3"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 3.592415,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.938425,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "acf5ed9a-e17c-437c-b160-690d8b1c14b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.565,
+          7.24
+        ],
+        "nearest_ground_via_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+        "nearest_ground_mm": 2.774833,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -7.85,
+          6.1
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.495376,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "2a1c749d-6c88-4b79-a1aa-15d3b24873b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.12
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.400521,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.323412,
+        "covered_within_1_5mm": false
+      }
+    ],
+    "uncovered": [
+      {
+        "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 3.592415,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.938425,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "acf5ed9a-e17c-437c-b160-690d8b1c14b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.565,
+          7.24
+        ],
+        "nearest_ground_via_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+        "nearest_ground_mm": 2.774833,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -7.85,
+          6.1
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.495376,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "2a1c749d-6c88-4b79-a1aa-15d3b24873b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.12
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.400521,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.323412,
+        "covered_within_1_5mm": false
+      }
+    ]
+  },
+  "added_counts": {},
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 1.5,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

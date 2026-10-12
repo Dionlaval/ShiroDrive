@@ -1,0 +1,81 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+10/97 VDDA: 26 points; 1.58 mm; 0 vias; accepted candidate; 0.93s
+11/97 VDDA: 32 points; 1.98 mm; 0 vias; accepted candidate; 0.95s
+23/97 VREF+: 400 points; 23.39 mm; 0 vias; accepted candidate; 0.95s
+27/97 VREF+: 31 points; 1.54 mm; 0 vias; accepted candidate; 0.91s
+39/97 Net-(U4C-SCREF): 22 points; 1.05 mm; 0 vias; accepted candidate; 0.91s
+41/97 Net-(R310-Pad2): 19 points; 0.92 mm; 0 vias; accepted candidate; 1.01s
+42/97 Net-(R310-Pad2): 20 points; 0.95 mm; 0 vias; accepted candidate; 1.06s
+74/97 Net-(R103-Pad2): 20 points; 1.03 mm; 0 vias; accepted candidate; 0.91s
+75/97 Net-(R103-Pad2): 21 points; 1.17 mm; 0 vias; accepted candidate; 0.89s
+77/97 VBUS_MUX_IN: 14 points; 0.65 mm; 0 vias; accepted candidate; 0.92s
+78/97 VBUS_MUX_IN: 107 points; 6.29 mm; 0 vias; accepted candidate; 0.91s
+81/97 VBUS_SENSE: -2 points; 0.00 mm; 0 vias; not routed; 0.89s
+84/97 NTC_BRAKE: 103 points; 6.23 mm; 1 vias; accepted candidate; 0.92s
+86/97 NTC_BRAKE: 408 points; 23.22 mm; 1 vias; accepted candidate; 0.90s
+90/97 NTC_PHASE_A: 264 points; 13.66 mm; 1 vias; accepted candidate; 0.92s
+93/97 NTC_PHASE_B: -2 points; 0.00 mm; 0 vias; not routed; 0.99s
+96/97 NTC_PHASE_C: 331 points; 17.26 mm; 3 vias; not routed; 0.91s
+{"candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/local/ShiroFOC_Manual.kicad_pcb", "connections": 14, "new_items": 62, "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/local/ShiroFOC_Manual.routes.json"}
+Found 428 violations
+Found 418 unconnected items
+Saved DRC Report to /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/local/drc.json
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+05:44:32 PM: Debug: Adding duplicate image handler for 'PNG file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'JPEG file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'TIFF file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'GIF file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'PNM file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'PCX file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'IFF file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'TGA file'
+05:44:32 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "failures": [],
+  "new_item_count": 62,
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 418
+  }
+}
+{
+  "status": "PASS",
+  "failures": [],
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 43,
+      "vias": 0,
+      "length_mm": 60.035716
+    },
+    "F.Cu": {
+      "tracks": 16,
+      "vias": 0,
+      "length_mm": 23.673564
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 3,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 418
+  }
+}

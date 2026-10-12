@@ -1,0 +1,44 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/ancillary/base_combined/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "/USB service/UART_BRIDGE_RX",
+      "source": "e2000345-81b8-4828-9a4a-79193f76c834",
+      "target": "d391353e-1503-4f5f-a904-4870d98fe326",
+      "source_ref": "R903",
+      "source_pin": "2",
+      "target_ref": "U901",
+      "target_pin": "17",
+      "distance_mm": 23.35591223609134,
+      "length_mm": 28.565358928434282,
+      "vias": 1,
+      "path_points": 981,
+      "rejected": false,
+      "new_items": [
+        "156d9fe2-63c1-4507-a732-62fb1adecee7",
+        "2ce3c4ec-29ef-41ab-aa32-a1bb5ce1d3ea",
+        "50108ffa-f709-4a9b-a07e-bae15fb01fe2",
+        "4fc00b2e-2280-47fb-bdfa-9f7c307dca80",
+        "89e48dd6-4a1e-46eb-9e8c-0276b7f929ec",
+        "af6c276f-b546-4fa7-8deb-1b6a9b3a4822",
+        "48e04d8f-beb4-48ef-8919-51f955eb5ff6",
+        "e88fa71a-c33e-4d21-aa8e-3d01e0721fb9",
+        "07f9ff97-31bd-4030-8dbc-3392c9e3f2fe",
+        "a025ba72-dae2-4be7-ab58-74409c52b7d8",
+        "747877ff-0da9-4ca1-9bf2-ae5dcd627921",
+        "7ec9a4f1-6d7b-4b08-ad3b-73fe238b41b2"
+      ],
+      "elapsed_seconds": 5.673989295959473
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "baseline": "baseline.kicad_pcb",
+  "candidate": "candidate.kicad_pcb",
+  "moves": [
+    {
+      "reference": "C203",
+      "uuid": "0349507d-b1c6-46db-aa88-ff47d731deb6",
+      "before": {
+        "position": [
+          0.995,
+          -20.5375
+        ],
+        "angle": 0.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position": [
+          0.995,
+          -20.5375
+        ],
+        "angle": 180.0,
+        "side": "B.Cu"
+      }
+    },
+    {
+      "reference": "R503",
+      "uuid": "b9c74b27-d092-4717-9bd3-bda4128d7b89",
+      "before": {
+        "position": [
+          12.71,
+          -14.890001
+        ],
+        "angle": -90.0,
+        "side": "B.Cu"
+      },
+      "after": {
+        "position": [
+          12.71,
+          -14.890001
+        ],
+        "angle": 90.0,
+        "side": "B.Cu"
+      }
+    }
+  ],
+  "added_copper": [
+    {
+      "uuid": "57bdcc07-8f91-48a4-8329-34be891aec57",
+      "type": "track",
+      "net": "VM",
+      "layer": "F.Cu",
+      "points": [
+        [
+          2.905005,
+          -14.7875
+        ],
+        [
+          2.905005,
+          -12.437498999999999
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "8acb9f50-87aa-48cd-a37b-c9a04bd35f9f",
+      "type": "track",
+      "net": "VM",
+      "layer": "F.Cu",
+      "points": [
+        [
+          2.905005,
+          -12.437498999999999
+        ],
+        [
+          2.915005,
+          -12.427499
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "f76db6b4-0eeb-4b59-8f0f-2133d630f4cf",
+      "type": "track",
+      "net": "VM",
+      "layer": "F.Cu",
+      "points": [
+        [
+          2.905005,
+          -14.7875
+        ],
+        [
+          1.635005,
+          -14.7875
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "98e97847-a744-4ead-a4a3-6ee7c5be2839",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          0.365006,
+          -14.7875
+        ],
+        [
+          0.365006,
+          -13.077499999999999
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "7d1f4e79-c98f-408d-bb6a-a77c7c850c3a",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          0.365006,
+          -13.077499999999999
+        ],
+        [
+          1.015007,
+          -12.427499
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "568ae450-c83e-4462-8ed6-232f20741fd5",
+      "type": "track",
+      "net": "VM",
+      "layer": "F.Cu",
+      "points": [
+        [
+          2.915005,
+          -12.427499
+        ],
+        [
+          4.045006,
+          -11.297498
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "d119cf29-f867-4d47-8ddd-14e145e468dc",
+      "type": "track",
+      "net": "VM",
+      "layer": "F.Cu",
+      "points": [
+        [
+          4.045006,
+          -11.297498
+        ],
+        [
+          4.045006,
+          -9.792499
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "bc1c43d6-39d6-4687-a739-51ea90eedc79",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          1.015007,
+          -12.427499
+        ],
+        [
+          1.015007,
+          -9.872496
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "9879096c-65ba-470c-910c-5af550edb2e4",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          1.015007,
+          -9.872496
+        ],
+        [
+          1.095004,
+          -9.792499
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "8eda8e45-3629-48de-8304-4d2db9b457b7",
+      "type": "via",
+      "net": "VCC",
+      "position": [
+        11.65,
+        -11.7275
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "2af4d96c-44cf-43e4-b37c-845d4dec99a3",
+      "type": "track",
+      "net": "VCC",
+      "layer": "F.Cu",
+      "points": [
+        [
+          11.65,
+          -11.7275
+        ],
+        [
+          11.65,
+          -10.785
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "31769152-cd40-412d-aee4-4e10ab127b85",
+      "type": "track",
+      "net": "VCC",
+      "layer": "F.Cu",
+      "points": [
+        [
+          11.65,
+          -10.785
+        ],
+        [
+          11.945,
+          -10.49
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "ccc9597a-b88b-4691-aae3-1c048cf06090",
+      "type": "via",
+      "net": "GND",
+      "position": [
+        10.69,
+        -11.7275
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "2d78400d-506b-437c-affa-3f2d03ec8fd2",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          10.69,
+          -11.7275
+        ],
+        [
+          10.69,
+          -10.785
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "8f7a6f21-83a7-4bb7-87d4-2e6c4cd057a6",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          10.69,
+          -10.785
+        ],
+        [
+          10.395,
+          -10.49
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "d86ba212-2ea9-4ccb-b0f9-97762db2acea",
+      "type": "track",
+      "net": "Net-(U501-OUT)",
+      "layer": "B.Cu",
+      "points": [
+        [
+          11.639999,
+          -14.005
+        ],
+        [
+          12.015000999999998,
+          -14.380002
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "2c0e53f5-b23b-4dbd-8151-d9e07649627e",
+      "type": "track",
+      "net": "Net-(U501-OUT)",
+      "layer": "B.Cu",
+      "points": [
+        [
+          12.015000999999998,
+          -14.380002
+        ],
+        [
+          12.71,
+          -14.380002
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "352f36c2-8b0f-4859-b608-a1bc804daecc",
+      "type": "via",
+      "net": "Net-(D501-K)",
+      "position": [
+        11.400001,
+        -15.245
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "e4caa3b6-fa8e-442d-a795-9f9fb84a7e02",
+      "type": "track",
+      "net": "Net-(D501-K)",
+      "layer": "B.Cu",
+      "points": [
+        [
+          12.71,
+          -15.4
+        ],
+        [
+          11.555001,
+          -15.4
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "5c11e6c0-0b15-489b-8be1-be6d20be692c",
+      "type": "track",
+      "net": "Net-(D501-K)",
+      "layer": "B.Cu",
+      "points": [
+        [
+          11.555001,
+          -15.4
+        ],
+        [
+          11.400001,
+          -15.245
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "22d2e1c1-3e65-4e08-a680-e2fa7a818d2e",
+      "type": "via",
+      "net": "GND",
+      "position": [
+        10.0,
+        -15.295
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "996f8c74-ea9c-4a88-ab88-3c2b4fc3b4f7",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "points": [
+        [
+          9.740001,
+          -14.005
+        ],
+        [
+          9.740001,
+          -15.035001
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "f939240e-872a-4240-98ec-31b1432bc02a",
+      "type": "track",
+      "net": "GND",
+      "layer": "B.Cu",
+      "points": [
+        [
+          9.740001,
+          -15.035001
+        ],
+        [
+          10.0,
+          -15.295
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "22de9707-c903-44bd-891b-db002e2c1e2f",
+      "type": "track",
+      "net": "Net-(D501-K)",
+      "layer": "F.Cu",
+      "points": [
+        [
+          12.36,
+          -13.39
+        ],
+        [
+          12.36,
+          -14.285001
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "a8810853-5706-49e7-953b-1fb4a9b8f1cd",
+      "type": "track",
+      "net": "Net-(D501-K)",
+      "layer": "F.Cu",
+      "points": [
+        [
+          12.36,
+          -14.285001
+        ],
+        [
+          11.400001,
+          -15.245
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "bfe43b7e-8b46-43ea-a5b3-7c2d8db016c4",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          9.06,
+          -13.39
+        ],
+        [
+          9.06,
+          -14.355
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "abc4e78d-b57a-447a-899e-118437fb0106",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          9.06,
+          -14.355
+        ],
+        [
+          10.0,
+          -15.295
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "1197dff7-61ec-434f-94b7-5b8185ada8f6",
+      "type": "via",
+      "net": "3V3",
+      "position": [
+        7.34,
+        -13.430001
+      ],
+      "diameter_mm": 0.5,
+      "drill_mm": 0.3
+    },
+    {
+      "uuid": "640c2845-2902-4d6c-96bd-ad78c5a13d7e",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          7.620001,
+          -12.412501
+        ],
+        [
+          6.737501999999999,
+          -11.530002
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "6e60b9a7-21b5-45db-892a-c891c9ce6b10",
+      "type": "track",
+      "net": "GND",
+      "layer": "F.Cu",
+      "points": [
+        [
+          6.737501999999999,
+          -11.530002
+        ],
+        [
+          6.69,
+          -11.530002
+        ]
+      ],
+      "width_mm": 0.254
+    },
+    {
+      "uuid": "f6008995-31df-41ff-8a68-037697f0eff6",
+      "type": "track",
+      "net": "Net-(U502-IN+)",
+      "layer": "F.Cu",
+      "points": [
+        [
+          5.710002,
+          -12.482501
+        ],
+        [
+          5.710002,
+          -11.564998
+        ]
+      ],
+      "width_mm": 0.1524
+    },
+    {
+      "uuid": "b28660c9-7470-41d2-bebc-b74de7660f1c",
+      "type": "track",
+      "net": "Net-(U502-IN+)",
+      "layer": "F.Cu",
+      "points": [
+        [
+          5.710002,
+          -11.564998
+        ],
+        [
+          5.745,
+          -11.53
+        ]
+      ],
+      "width_mm": 0.1524
+    }
+  ],
+  "removed_copper": [],
+  "notes": [
+    "All source footprints preserve UUIDs/pad nets. No zones or footprint-integrated keepouts modified.",
+    "Existing main IC block placement retained after pad-level loop inspection.",
+    "C206/C215 retained: moving toward top conflicts with 10V_GOOD via; parent must leave J502 courtyard below y=-6.6.",
+    "R511/R512/D505/J502 are owned by parent and unchanged here."
+  ]
+}

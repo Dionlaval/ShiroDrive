@@ -1,0 +1,1321 @@
+PDF PAGE 1
+ MPM3620A  24 V/2 A DC/DC Module 
+Synchronous Step-Down Converter 
+with Integrated Inductor 
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 1 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+The Future of Analog IC Technology
+DESCRIPTION 
+The MPM3620A is a synchronous, rectified, 
+step-down module converter with an integrated 
+inductor, two capacitors, and power MOSFETs. 
+It offers a compact solution that requires only 5 
+external components to achieve a 2 A 
+continuous output current with excellent load 
+and line regulation over a wide input-supply 
+range. Also, it provi des fast load transient 
+response.  
+Full protection features include over-current 
+protection (OCP) and thermal shutdown (TSD).  
+MPM3620A eliminates design and 
+manufacturing risks while dramatically 
+improving time-to-market. 
+The MPM3620A is available in a space-saving 
+QFN20 (3mm x 5mm x 1.6mm) package.  
+FEATURES 
+• 4.5 V to 24 V Operating Input Range 
+• 2 A Continuous Load Current 
+• 90 m Ω/40 mΩ Low RDS(ON) Internal Power 
+MOSFETs 
+• Integrated Inductor 
+• Integrated VCC and Bootstrap Capacitors 
+• Power-Save Mode at Light Load 
+• Power Good Indicator 
+• Over-Current Protection and Hiccup 
+• Thermal Shutdown 
+• Output Adjustable from 0.8 V 
+• Available in QFN20 (3mm x 5mm x 1.6mm) 
+Package 
+• Total Solution Size 6.7mm  x 7.3mm 
+APPLICATIONS 
+• Industrial Controls 
+• Medical and Imaging Equipment 
+• Telecom and Networking Applications 
+• LDO Replacement 
+• Space and Resource-Limited Applications 
+ All MPS parts are lead-free, halogen-free, and adhere to the RoHS 
+directive. For MPS green status, please visit the MPS website under Quality 
+Assurance.  
+ “MPS” and “The Future of Analog IC Technology” are registered 
+Trademarks of Monolithic Power Systems, Inc. 
+ 
+TYPICAL APPLICATION 
+ 
+LOAD CURRENT (A)
+Efficiency
+VOUT=3.3V
+30
+40
+50
+60
+70
+80
+90
+100
+0.01 0.1 1 10
+VIN=12V
+VIN=5V
+VIN=19V
+VIN=24V
+ 
+ 
+
+PDF PAGE 2
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 2 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+ORDERING INFORMATION 
+Part Number* Package Top Marking 
+MPM3620AGQV QFN-20 (3mm x 5mm x 1.6mm) See Below  
+ * For Tape & Reel, add suffix –Z (e.g. MPM3620AGQ–Z); 
+ 
+TOP MARKING 
+    
+ 
+MP: MPS prefix 
+Y: Year code  
+W: Week code 
+3620A: Product code of MPM3620AGQV 
+LLL: Lot number 
+M: Module 
+PACKAGE REFERENCE 
+ 
+
+PDF PAGE 3
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 3 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+ABSOLUTE MAXIMUM RATINGS (1) 
+VIN  .............................................. -0.3 V to 28 V 
+VOUT ............................................. -0.3 V to 28 V 
+VSW ....................................................................  
+-0.3 V (-5 V for <10 ns) to 28 V (30 V for    
+<10 ns) 
+V
+BST ......................................................V SW+6 V 
+All other pins ...............................-0.3 V to 6 V (2)  
+Continuous power dissipation (TA = +25°C) (3) 
+  ........................................................... 2.7 W 
+Junction temperature ............................... 150°C 
+Lead temperature .................................... 260°C 
+Storage temperature .................. -65°C to 150°C 
+Recommended Operating Conditions (4) 
+Supply voltage (VIN) ...................... 4.5 V to 24 V 
+Output voltage (VOUT) ............ 0.8 V to VIN*DMAX
+(5) 
+Operating junction temp. (TJ). .. -40°C to +125°C 
+Thermal Resistance (6) θJA θJC 
+QFN-20 (3mm  x 5mm  x 1.6mm) 46 ..... 10 ... °C/W 
+NOTES: 
+1) Exceeding these ratings may damage the device. 
+2) For additional details on EN’s absolute max. rating, please 
+refer to the “Enable Control” section on page 15. 
+3) The maximum allowable power dissipation is a function of the 
+maximum junction temperature T J (MAX), the junction-to-
+ambient thermal resistance θJA, and the ambient temperature 
+TA. The maximum allowable continuous power dissipation at 
+any ambient temperature is calculated by P D (MAX) = (T J 
+(MAX)-TA)/θJA. Exceeding the maximum allowable powe r 
+dissipation produces an excessive die temperature, causing
+the converter to go into thermal shutdown. Internal thermal 
+shutdown circuitry protects the device from permanen t 
+damage. 
+4) The device is not guaranteed to function outside of its 
+operating conditions. 
+5) In practical design, the minimum V OUT is limited by the 
+minimum on-time. To allow a margin, a 50 ns on-time is 
+recommended for calculating. To set the output voltage above 
+5.5 V, please refer to the application information on page 18.
+6) Measured on JESD51-7, 4-layer PCB. 
+ 
+
+PDF PAGE 4
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 4 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+ELECTRICAL CHARACTERISTICS 
+VIN=12 V, TJ=-40°C to +125°C(7), typical value is tested at TJ=+25°C, unless otherwise noted. 
+Parameter Symbol Condition Min Typ Max Units
+Supply current (shutdown) I s 
+VEN = 0 V, TJ =+25°C  6.5 8 μA 
+VEN = 0 V, TJ =-40°C to +125°C  6.5 9 μA 
+Supply current (quiescent) I q VFB = 1 V, TJ =+25°C  0.3 0.39 mA 
+VFB = 1 V, TJ =-40°C to +125°C  0.3 0.44 mA 
+HS switch-on resistance HS RDS-ON V BST-SW=5 V  90  m Ω 
+LS switch-on resistance LS RDS-ON V CC =5 V  40  m Ω 
+Integrated inductor inductance(8) L   1  μH 
+Inductor DC resistance L DCR T J =25°C 25 45 65 m Ω 
+Switch leakage SW LKG V EN = 0 V, VSW =12 V   1 μA 
+Current limit(8) I LIMIT Under 40% duty cycle 3.15 4.25  A 
+Oscillator frequency f SW VFB=0.75 V, TJ =+25°C 1600 2000 2400 kHz
+VFB=0.75 V, TJ =-40°C to +125°C 1500 2000 2500 kHz
+Foldback frequency f FB V FB=200 mV  0.3  f SW 
+Maximum duty cycle D MAX 
+VFB=700 mV, TJ =+25°C 78 83 88 % 
+VFB=700 mV, T J =-40°C to 
++125°C 77 83 89 % 
+Minimum on time(8) τON_MIN   30  ns 
+Feedback voltage V FB TJ =25°C 786 798 810 mV 
+TJ =-40°C to +125°C 782 798 814 mV 
+Feedback current I FB V FB=820 mV  10 50 nA 
+EN rising threshold V EN_RISING 
+TJ =+25°C 1.2 1.4 1.6 V 
+TJ =-40°C to +125°C 1.15 1.4 1.65 V 
+EN falling threshold V EN_FALLING
+TJ =+25°C 1.05 1.25 1.4 V 
+TJ =-40°C to +125°C 1 1.25 1.45 V 
+EN input current I EN 
+VEN=2 V, TJ =+25°C 2 2.3 2.6 μA 
+VEN=2 V, TJ =-40°C to +125°C 1.8 2.3 2.8 μA 
+Power good rising threshold PG VTH-Hi T J =+25°C 0.86 0.9 0.95 V FB 
+Power good falling threshold PG VTH-LO T J =+25°C 0.78 0.83 0.88 V FB 
+Power good rising delay PG TD_RSING
+TJ =+25°C 15 35 55 µs 
+TJ =-40°C to +125°C 10 35 60 µs 
+Power good falling delay PG TD_FALLING
+TJ =+25°C 40 80 125 µs 
+TJ =-40°C to +125°C 30 80 135 µs 
+Power good sink current 
+capability VPG Sink 1 mA   0.4 V 
+Power good leakage current I PG-LEAK V PG=6 V   1 μA 
+
+PDF PAGE 5
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 5 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+ELECTRICAL CHARACTERISTICS (CONTINUED) 
+VIN=12 V, TJ=-40°C to +125°C, typical value is tested at TJ=+25°C, unless otherwise noted. 
+Parameter Symbol Condition Min Typ Max Units
+VIN under-voltage lockout 
+threshold—rising INUVVth TJ =+25°C 3.7 3.9 4.1 V 
+TJ =-40°C to +125°C 3.65 3.9 4.15 V 
+VIN under-voltage lockout 
+threshold—hysteresis INUVHYS  600 675 750 mV 
+VCC regulator V CC TJ =+25°C 4.75 4.9 5.05 V 
+TJ =-40°C to +125°C 4.7 4.9 5.1 V 
+VCC load regulation  I CC=5 mA  1.5 3 % 
+Soft-start time t SS 
+VOUT from 10% to 90%, TJ =+25°C 0.8 1.6 2.4 ms 
+VOUT from 10% to 90%, TJ =-40°C 
+to +125°C 0.6 1.6 2.6 ms 
+Thermal shutdown (8) T SD   150  °C 
+Thermal hysteresis (8) T SD HYS    20  °C 
+NOTES: 
+7) Not tested in production. Guaranteed by over-temperature correlation. 
+8)  Guaranteed by characterization test.
+
+PDF PAGE 6
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 6 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+TYPICAL CHARACTERISTICS 
+VIN = 12 V, VOUT = 3.3 V, TA = 25°C, unless otherwise noted. 
+LOAD CURRENT (A)
+Efficiency
+VOUT=2.5V
+Efficiency
+VOUT=1.2V
+Efficiency
+VOUT=1.8V
+LOAD CURRENT (A) LOAD CURRENT (A)
+LOAD CURRENT (A)
+Efficiency
+VOUT=5V 
+0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6 1.8 2.0
+Load Regulation
+VOUT =5V
+Load Regulation
+VOUT =2.5V
+Load Regulation
+VOUT =3.3V
+Load Regulation
+VOUT =1.8V
+LOAD CURRENT (A)LOAD CURRENT (A)
+LOAD CURRENT (A)
+LOAD CURRENT (A)
+-1
+-0.5
+0
+0.5
+1
+0 0.5 1 1.5 2
+-1
+-0.5
+0
+0.5
+1
+0 0.5 1 1.5 2
+-1
+-0.5
+0
+0.5
+1
+0 0.5 1 1.5 2
+-1
+-0.5
+0
+0.5
+1
+12VIN
+19VIN 24VIN
+12VIN
+5VIN
+19VIN
+24VIN
+12VIN
+5VIN
+19VIN
+12VIN5VIN
+19VIN24VIN
+LOAD CURRENT (A)
+Efficiency
+VOUT=3.3V
+30
+40
+50
+60
+70
+80
+90
+100
+0.01 0.1 1 10
+12VIN
+5VIN
+19VIN
+24VIN
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+100
+0.01 0.1 1 10
+12VIN
+19VIN
+24VIN
+30
+40
+50
+60
+70
+80
+90
+100
+0.01 0.1 1 10
+5VIN
+12VIN
+19VIN
+24VIN
+40
+50
+60
+70
+80
+90
+100
+0.01 0.1 1 10
+12VIN
+5VIN
+19VIN
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0.01 0.1 1 10
+5VIN
+12VIN
+  
+
+PDF PAGE 7
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 7 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+TYPICAL CHARACTERISTICS (continued) 
+VIN = 12 V, VOUT = 3.3 V, TA = 25°C, unless otherwise noted. 
+ 
+
+PDF PAGE 8
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 8 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+TYPICAL CHARACTERISTICS (continued) 
+VIN = 12 V, VOUT = 3.3 V, TA = 25°C, unless otherwise noted. 
+ 
+
+PDF PAGE 9
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 9 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+TYPICAL CHARACTERISTICS (continued) 
+VIN = 12V, VOUT = 3.3V, TA = 25°C, unless otherwise noted. 
+ 
+
+PDF PAGE 10
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 10 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+TYPICAL PERFORMANCE CHARACTERISTICS 
+Performance waveforms are captured from the evaluation board discussed in the Design 
+Example section. VIN = 12V, VOUT = 3.3V, TA = 25°C, unless otherwise noted. 
+VSW
+10V/div.
+VIN/AC
+50mV/div.
+VOUT/AC
+10mV/div.
+VSW
+10V/div.
+Input/Output Ripple
+IOUT = 0A
+Input/Output Ripple
+IOUT = 2A
+VOUT
+2V/div.
+VPG
+5V/div.
+VIN
+10V/div.
+Start-Up through 
+Input Voltage
+IOUT = 0A
+Start-Up through 
+Input Voltage
+IOUT = 2A
+IOUT
+1A/div.
+VSW
+10V/div.
+VIN/AC
+100mV/div.
+VOUT/AC
+20mV/div.
+IOUT
+2A/div.
+IOUT
+2A/div.
+VSW
+10V/div.
+VOUT
+2V/div.
+VPG
+5V/div.
+VIN
+10V/div.
+IOUT
+2A/div.
+VSW
+10V/div.
+VOUT
+2V/div.
+VPG
+5V/div.
+VEN
+5V/div.
+IOUT
+2A/div.
+VSW
+10V/div.
+VOUT
+2V/div.
+VPG
+5V/div.
+VIN
+10V/div.
+IOUT
+500mA/div.
+VSW
+10V/div.
+VOUT
+2V/div.
+VPG
+5V/div.
+VIN
+10V/div.
+IOUT
+2A/div.
+Shutdown through 
+Input Voltage
+IOUT = 0A
+Shutdown through 
+Input Voltage
+IOUT = 2A
+Start-Up through Enable
+IOUT = 0A
+VOUT/AC
+10mV/div.
+Output Ripple
+Bandwidth=20MHz,
+IOUT = 2A
+VOUT/AC
+10mV/div.
+Output Ripple
+Bandwidth=150MHz,
+IOUT = 2A
+ 
+
+PDF PAGE 11
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 11 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+TYPICAL PERFORMANCE CHARACTERISTICS (continued) 
+Performance waveforms are captured from the evaluation board discussed in the Design 
+Example section. VIN = 12V, VOUT = 3.3V, TA = 25°C, unless otherwise noted. 
+VOUT/AC
+100mV/div.
+VSW
+10V/div.
+VOUT
+2V/div.
+VPG
+5V/div.
+VEN
+5V/div.
+IOUT
+2A/div.
+IOUT
+1A/div.
+Load Transient Response
+IOUT Transient from 1A to 2A
+Shutdown through Enable
+IOUT = 2A
+VOUT
+1V/div.
+VSW
+10V/div.
+IOUT
+5A/div.
+VOUT
+2V/div.
+VSW
+10V/div.
+IOUT
+5A/div.
+VOUT
+2V/div.
+VSW
+10V/div.
+IOUT
+5A/div.
+Short-Circuit Steady State Short-Circuit Entry
+IOUT=0A
+Short-Circuit Recovery
+IOUT=0A
+VSW
+10V/div.
+VOUT
+2V/div.
+VPG
+5V/div.
+VEN
+5V/div.
+IOUT
+2A/div.
+VSW
+10V/div.
+VOUT
+2V/div.
+VPG
+5V/div.
+VEN
+5V/div.
+IOUT
+2A/div.
+Start-Up through Enable
+IOUT = 2A
+Shutdown through Enable
+IOUT = 0A
+
+PDF PAGE 12
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 12 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+PIN FUNCTIONS 
+Package 
+Pin # Name Description 
+1 FB 
+Feedback. Connect FB to the tap of an external resistor divider from the output to 
+AGND to set the output voltage. To prevent current-limit runaway during a short-circuit 
+fault, the frequency foldback comparator lowers the oscillator frequency when the FB 
+voltage is below 400 mV. Place the resistor divider as close to FB as possible. Avoid 
+placing vias on the FB traces. 
+2 VCC Internal 4.9 V LDO output.  The module integrates a LDO output capacitor, so there is 
+no need to add an external capacitor. 
+3 AGND Analog ground. AGND is the reference ground of the logic circuit. AGND is connected
+internally to PGND, so there is no need to add any external connections to PGND. 
+4, 5, 6 SW Switch output.  A large copper plane is recommended on pins 4, 5, and 6 to improve
+thermal performance. 
+7, 8, 9 OUT Power output. Connect the load to OUT. An output capacitor is needed. 
+10, 15,  
+19, 20 NC DO NOT CONNECT. NC must be left floating. 
+11 BST Bootstrap. A bootstrap capacitor is integrated internally, so an external connection is 
+not needed. 
+12, 13, 14 PGND 
+Power ground . PGND is the reference ground of the power device. PCB layout 
+requires extra care, please refer to the “PCB Layout Guidelines” section on page 19.
+For best results, connect to PGND with copper and vias. 
+16 IN 
+Supply voltage.  IN supplies power to the internal MOSFET and regulator. The 
+MPM3620A operates from a +4.5 V to +24 V input rail. It requires a low ESR and low-
+inductance capacitor to decouple the input rail. Place the input capacitor very close to 
+IN and connect it with wide PCB traces and multiple vias. 
+17 EN Enable. Pull EN high to enable the module. Leave EN floating or connect it to GND to 
+disable the module. 
+18 PG 
+Power good indicator.  PG is an open-drain output. Connect PG to VCC (or another 
+voltage source) through a pull-up resistor (e.g. 100 k Ω). For additional details, please 
+refer to the “Power Good Indicator” section on page 15. 
+
+PDF PAGE 13
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 13 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+FUNCTIONAL BLOCK DIAGRAM 
+ 
+Figure 1—Functional block diagram
+
+PDF PAGE 14
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 14 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+OPERATION 
+The MPM3620A is a high-frequency, 
+synchronous, rectified, step-down, switch-mode 
+converter with an integrated inductor, two 
+capacitors, and power MOSFETs. It offers a 
+compact solution that achieves a 2 A 
+continuous output current with excellent load 
+and line regulation over a 4.5 V to 24 V input- 
+supply range. 
+The MPM3620A has three working modes: 
+advanced asynchronous modulation (AAM), 
+similar to PFM mode, discontinuous conduction 
+mode (DCM), and continuous conduction mode 
+(CCM). The load current increases as the 
+device transitions from AAM mode to DCM to 
+CCM. In particular conditions, the device will 
+not enter AAM mode during a light-load 
+condition (see the Power-Save Mode Range 
+graph on page 8). 
+AAM Control Operation 
+In a light-load condition, the MPM3620A 
+operates in AAM mode (see Figure 2). The 
+V
+AAM is an internally fixed voltage when input 
+and output voltages are fixed. VCOMP is the error 
+amplifier output, which represents the peak 
+inductor current information. When V COMP is 
+lower than V AAM, the internal clock is blocked. 
+This causes the MPM3620A to skip pulses, 
+achieving the light-load power save. Refer to 
+AN032 for additional details. 
+The internal clock re-sets every time V
+COMP 
+exceeds V AAM. Simultaneously, the high-side 
+MOSFET (HS-FET) turns on and remains on 
+until V
+ILsense reaches the value set by VCOMP. 
+The light-load feature in this device is optimized 
+for 12 V input applications. 
+ 
+Figure 2—Simplified AAM control logic 
+DCM Control Operation 
+The V COMP ramps up as the output current 
+increases. When its minimum value exceeds 
+VAAM, the device enters DCM. In this mode, the 
+internal 2 MHz clock initiates the PWM cycle, 
+the HS-FET turns on and remains on until 
+V
+ILsense reaches the value set by V COMP (after a 
+period of dead time), and then the low-side 
+MOSFET (LS-FET) turns on and remains on 
+until the inductor-current value decreases to 
+zero. The device repeats the same operation in 
+every clock cycle to regulate the output voltage 
+(see Figure 3).   
+IL
+ 
+Figure 3—DCM control operation 
+CCM Control Operation 
+The device enters CCM from DCM once the 
+inductor current no longer drops to zero in a 
+clock cycle. In CCM, th e internal 2 MHz clock 
+initiates the PWM cycle, the HS-FET turns on 
+and remains on until V ILsense reaches the value 
+set by V COMP (after a period of dead time), and 
+then the LS-FET turns on and remains on until 
+the next clock cycle begins. The device repeats 
+the same operation in every clock cycle to 
+regulate the output voltage. 
+If VILsense does not reach the value set by V COMP 
+within 83% of one PWM period, the HS-FET will 
+be forced off. 
+Internal VCC Regulator 
+A 4.9 V internal regulator powers most of the 
+internal circuitries. This regulator takes V
+IN and 
+operates in the full V IN range. When V IN 
+exceeds 4.9 V, the output of the regulator is in 
+full regulation. If V IN is less than 4.9 V, the 
+output decreases. The device integrates an 
+internal decoupling capacitor, so adding an 
+external VCC output capacitor is unnecessary.  
+
+PDF PAGE 15
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 15 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+Error Amplifier (EA) 
+The error amplifier compares the FB voltage to 
+the internal 0.798 V reference (V REF) and 
+outputs a current proportional to the difference 
+between the two. This output current then 
+charges or discharges the internal 
+compensation network to form the COMP 
+voltage; the COMP voltage controls the power 
+MOSFET current. The optimized internal 
+compensation network minimizes the external 
+component count and simplifies control loop 
+design. 
+Under-Voltage Lockout (UVLO) 
+Under-voltage lockout (UVLO) protects the chip 
+from operating at an insufficient input-supply 
+voltage. The MPM3620A UVLO comparator 
+monitors the output voltage of the internal 
+regulator (VCC). The UVLO rising threshold is 
+about 3.9 V while its falling threshold is 3.225 V. 
+Enable Control (EN) 
+EN turns the converter on and off. Drive EN 
+high to turn on the converter; drive EN low to 
+turn off the converter. An internal 870 k Ω 
+resistor from EN to GND allows EN to be 
+floated to shut down the chip. 
+EN is clamped internally using a 6.5 V series-
+Zener diode (see Figure 4). Connecting EN to a 
+voltage source directly without a pull-up resistor 
+requires limiting the amplitude of the voltage 
+source to ≤6 V to prevent damage to the Zener 
+diode.  
+Connecting the EN input through a pull-up 
+resistor to the voltage on V
+IN limits the EN input 
+current to less than 100 µA. 
+For example, with 12 V connected to V IN, 
+RPULLUP ≥ (12 V – 6.5 V) ÷ 100 µA = 55 kΩ. 
+.
+  
+Figure 4—6.5V Zener diode connection 
+Internal Soft-Start (SS) 
+Soft-start prevents the converter output voltage 
+from overshooting during start-up. When the 
+chip starts up, the internal circuitry generates a 
+soft-start voltage (SS) that ramps up from 0 V to 
+4.9 V. When SS is lower than V REF, the error 
+amplifier uses SS as the reference. When SS is 
+higher than V
+REF, the error amplifier uses V REF 
+as the reference. The SS time is set internally 
+to 1.6 ms (VOUT from 10% to 90%). 
+Pre-Bias Start-Up 
+The MPM3620A is designed for a monotonic 
+start-up into a pre-biased output voltage. If the 
+output is pre-biased to a certain voltage during 
+start-up, VSS ramps up. When V SS exceeds the 
+sensed output voltage at FB, the device turns 
+on the HS-FET and the LS-FET sequentially. 
+The output voltage ramps up following the 
+internal SS slew rate. 
+Power Good Indicator (PG) 
+The MPM3620A has power good (PG) output to 
+indicate whether the output voltage of the 
+module is ready. PG is an open-drain output. 
+Connect PG to VCC (or another voltage source) 
+through a pull-up resistor (e.g. 100 k Ω). When 
+the input voltage is applied, PG is pulled down 
+to GND before the internal V
+SS>1 V. Once 
+VSS>1 V (when V FB is above 90% of V REF), PG 
+is pulled high (after a 35 µs delay). During 
+normal operation, PG is pulled low when the 
+V
+FB drops below 83% of V REF (after an 80µs 
+delay). 
+When UVLO or OTP occurs, PG is pulled low 
+immediately; when OC (over-current) occurs, 
+PG is pulled low when V
+FB drops below 83% of 
+VREF (after an 80µs delay). 
+Since MPM3620A doesn’t implement dedicated 
+output over-voltage protection, PG will not 
+respond to an output over-voltage condition. 
+Over-Current Protection and Hiccup (OCP) 
+The MPM3620A has a cycle-by-cycle over-
+current limiting control. When the inductor 
+current peak value exceeds the internal peak 
+current-limit threshold, the HS-FET turns off 
+and the LS-FET turns on, remaining on until the 
+inductor current falls below the internal valley 
+current-limit threshold. The valley current-limit 
+circuit decreases the operation frequency (after 
+the peak current-limit threshold is triggered). 
+Meanwhile, the output voltage drops until V
+FB is 
+below the under-voltage (UV) threshold (50% 
+below the reference, typically). 
+
+PDF PAGE 16
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 16 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+Once UV is triggered, the MPM3620A enters 
+hiccup mode to re-start the part periodically. 
+This protection mode is useful when the output 
+is dead-shorted to ground and greatly reduces 
+the average short-circuit current to alleviate 
+thermal issues and protect the converter. The 
+MPM3620A exits hiccup mode once the over-
+current condition is removed. 
+Thermal Shutdown (TSD)
+ 
+To prevent thermal damage, MPM3620A stops 
+switching when the die temperature exceeds 
+150°C. As soon as the temperature drops 
+below its lower threshold (130°C, typically), the 
+power supply resumes operation. 
+Floating Driver and Bootstrap Charging 
+An internal bootstrap capacitor powers the 
+floating power MOSFET driver. This floating 
+driver has its own UVLO protection. This 
+UVLO’s rising threshold is 2.2 V with a 
+hysteresis of 150 mV. The bootstrap capacitor 
+voltage is regulated internally by V
+IN through D1, 
+M1, C4, L1, and C2 (see Figure 5). If V BST-VSW 
+exceeds 5 V, U1 regulates M1 to maintain a 5 V 
+voltage across C4. 
+ 
+ 
+Figure 5—Internal bootstrap charging circuit 
+Start-Up and Shutdown 
+If both V
+IN and V EN exceed their respective 
+thresholds, the chip starts up. The reference 
+block starts first, generating a stable reference 
+voltage, and then the internal regulator is 
+enabled. The regulator provides a stable supply 
+for the remaining circuitries. 
+Three events can shut down the chip: V IN low, 
+VEN low, and thermal shutdown. During the 
+shutdown procedure, the signaling path is 
+blocked first to avoid any fault triggering. The 
+COMP voltage and the internal supply rail are 
+then pulled down. The floating driver is not 
+subject to this shutdown command. 
+Additional RC Snubber Circuit 
+An additional RC snubber circuit can clamp the 
+voltage spike and damp the ringing voltage for 
+better EMI performance.  
+The power dissipation of the RC snubber circuit 
+is estimated using Equation (1): 
+                 
+=× × 2
+Loss S S INPf C V                (1) 
+Where f S is the switching frequency, C s is the 
+snubber capacitor, and VIN is the input voltage. 
+For improved efficiency, the value of C S should 
+not be set too high. Generally, a 5.6 Ω RS and a 
+330 pF C S are recommended to generate the 
+RC snubber circuit (see Figure 6). 
+ 
+Figure 6—Additional RC snubber circuit
+
+PDF PAGE 17
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 17 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+APPLICATION INFORMATION 
+Setting the Output Voltage 
+The external resistor divider sets the output 
+voltage (see “Typical Application” on page 1). 
+Choose R1 (see Table 1); R2 is then given by 
+Equation (2): 
+                          
+OUT
+R1
+R2
+V
+1
+0.798V
+=
+−
+                   (2)  
+Figure 7—Feedback network 
+See Table 1 and Figure 7 for the feedback 
+network and a list of recommended feedback 
+network parameters for common output 
+voltages. 
+Table 1—Recommended parameters for common output voltages 
+ 
+Small solution size(CIN=10µF/0805/25V, 
+COUT=22 µF/0805/16 V) 
+ 
+ 
+Low VOUT ripple(CIN=10 µF/0805/25 V,
+COUT=2X22 µF/0805/16 V) 
+VIN 
+(V) 
+VOUT 
+(V) 
+R1 
+(kΩ) 
+R2 
+(kΩ) 
+Cf 
+(pF) 
+VOUT 
+ripple 
+(mV)(9)
+Load 
+transient 
+(mV)(10)
+R1 
+(kΩ)
+R2 
+(kΩ)
+Cf 
+(pF) 
+VOUT 
+ripple 
+(mV) (9) 
+Load 
+transient 
+(mV) (10)
+24 
+5 130 24.9 NS 19.2 162 56 10.7 NS 10.4 103 
+3.3 120 38.3 NS 13.6 127 75 24 NS 7.6 86 
+2.5 102 47.5 5.6 10.8 94 62 29.4 5.6 5.8 58 
+21 
+5 115 22 NS 17.6 157 40.2 7.68 NS 9.4 93 
+3.3 102 32.4 NS 12.4 115 62 19.6 NS 7 83 
+2.5 102 47.5 5.6 10 87 62 29.4 5.6 5.2 60 
+19 
+5 115 22 NS 16.4 159 40.2 7.68 NS 8.8 93 
+3.3 102 32.4 NS 11.4 119 62 19.6 NS 6.6 86 
+2.5 102 47.5 5.6 9.8 91 62 29.4 5.6 5 64 
+16 
+5 115 22 NS 15.6 159 40.2 7.68 NS 7.8 89 
+3.3 102 32.4 NS 10.6 123 62 19.6 NS 6 90 
+2.5 102 47.5 5.6 9.6 94 62 29.4 5.6 4.8 68 
+1.8 102 82 5.6 8.6 71 62 49.9 5.6 4 53 
+14 
+5 115 22 NS 14.8 158 40.2 7.68 NS 7.4 91 
+3.3 102 32.4 NS 10.2 126 40.2 12.7 NS 5.6 71 
+2.5 75 34.8 5.6 9.4 82 40.2 18.7 5.6 4.6 58 
+1.8 102 82 5.6 8.4 81 62 49.9 5.6 4.2 59 
+1.5(11) 158 180 5.6 7.2 89 62 69.8 5.6 3.6 56 
+12 
+5 100 19.1 NS 13.8 141 34 6.49 NS 6.4 87 
+3.3 75 24 NS 9.4 110 40.2 12.7 NS 5.2 70 
+2.5 75 34.8 5.6 9 86 40.2 18.7 5.6 4.4 60 
+1.8 102 82 5.6 7.8 85 47 37.4 5.6 4 54 
+1.5(11) 158 180 5.6 6.6 109 47 53.6 5.6 3.4 50 
+1.2(11) 158 316 5.6 6.2 105 75 147 5.6 3 66 
+
+PDF PAGE 18
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 18 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+Table 1—Recommended parameters for common output voltages (continued) 
+ 
+Small Solution Size(CIN=10µF/0805/25V, 
+COUT=22µF/0805/16V) 
+ 
+ 
+Low VOUT Ripple(CIN=10µF/0805/25V, 
+COUT=2X22µF/0805/16V) 
+VIN 
+(V) 
+VOUT 
+(V) 
+R1 
+(kΩ) 
+R2 
+(kΩ) 
+Cf 
+(pF) 
+VOUT 
+ripple 
+(mV) (9)
+Load 
+transient 
+(mV) (10)
+R1 
+(kΩ)
+R2 
+(kΩ)
+Cf 
+(pF) 
+VOUT 
+ripple 
+(mV) (9) 
+Load 
+transient 
+(mV) (10)
+10 
+5 100 19.1 NS 13.2 141 34 6.49 NS 6.2 82 
+3.3 75 24 NS 8.4 104 40.2 12.7 NS 4.8 68 
+2.5 75 34.8 5.6 8.2 87 40.2 18.7 5.6 4 60 
+1.8 75 59 5.6 7.2 73 47 37.4 5.6 3.6 56 
+1.5 102 115 5.6 6 87 47 53.6 5.6 3.2 52 
+1.2(11) 102 205 5.6 5.4 85 62 124 5.6 2.8 59 
+1(11) 102 402 5.6 4.8 82 82 324 5.6 2.6 70 
+8 
+5 100 19.1 NS 9.2 140 34 6.49 NS 5 86 
+3.3 75 24 NS 7.6 103 40.2 12.7 NS 3.8 72 
+2.5 75 34.8 5.6 7 87 40.2 18.7 5.6 3.4 60 
+1.8 75 59 5.6 6.4 76 47 37.4 5.6 3 58 
+1.5 75 84.5 5.6 5.4 75 47 53.6 5.6 2.8 53 
+1.2(11) 75 147 5.6 5 69 47 93.1 5.6 2.6 50 
+1(11) 75 294 5.6 4.6 65 56 221 5.6 2.2 52 
+5 
+3.3 75 24 NS 6 104 40.2 12.7 NS 3.4 74 
+2.5 75 34.8 5.6 5.8 91 40.2 18.7 5.6 3.2 60 
+1.8 75 59 5.6 5.2 86 47 37.4 5.6 2.8 58 
+1.5 62 69.8 5.6 5 73 47 53.6 5.6 2.4 56 
+1.2(11) 62 124 5.6 4.6 67 47 93.1 5.6 2.2 53 
+1(11) 62 243 5.6 4.4 66 47 187 5.6 2 50 
+NOTES: 
+9) V OUT PWM ripple is tested when Io=2 A. 
+10) Load transient from 1 A to 2 A, slew rate =0.8 A/µs. 
+11) In these specs, BST operation current will charge the output voltage higher than the setting value when there is no load, d ue to a large 
+resistor divider value. A 10 µA load current can pull the output voltage up to a normal regulation level. 
+Normally, it is recommended to set the output 
+voltage from 0.8 V to 5.5 V. However, it can be 
+set higher than 5.5 V. In this case, the output 
+voltage ripple is larger due to a larger inductor 
+ripple current. An additional output capacitor is 
+needed to reduce the output ripple voltage. 
+If output voltage is high, heat dissipation 
+becomes more important. Please refer to the 
+“PCB Layout Guidelines” section on page 19 to 
+achieve better thermal performance. 
+For thermal consideration, the relationship curve 
+between the output voltage and the maximum 
+output current is shown in Figure 8. 
+ 
+Figure 8—Maximum output current vs. output 
+voltage 
+
+PDF PAGE 19
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 19 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+Selecting the Input Capacitor 
+The input current to the step-down converter is 
+discontinuous, and therefore requires a 
+capacitor to supply the AC current while 
+maintaining the DC input voltage. Use low ESR 
+capacitors for improved performance. Use 
+ceramic capacitors with X5R or X7R dielectrics 
+for optimum results because of their low ESR 
+and small temperature coefficients. For most 
+applications, use a 10 µF capacitor. 
+Since C1 absorbs the input switching current, it 
+requires an adequate ripple-current rating. The 
+RMS current in the input capacitor is estimated 
+with Equation (3): 
+       ⎟
+⎟
+⎠
+⎞
+⎜
+⎜
+⎝
+⎛
+× −×=
+IN
+OUT
+IN
+OUTLOAD1C V
+V1V
+VII         (3) 
+The worst case condition occurs at VIN = 2 VOUT, 
+where:  
+2
+II LOAD
+1C =  
+For simplification, choose an input capacitor 
+with an RMS current rating greater than half of 
+the maximum load current. 
+The input capacitor can be electrolytic, tantalum, 
+or ceramic. When using electrolytic or tantalum 
+capacitors, add a small, high-quality ceramic 
+capacitor (e.g. 0.1 μF) placed as close to the IC 
+as possible. When using ceramic capacitors, 
+make sure they have enough capacitance to 
+provide sufficient charge to prevent excessive 
+voltage ripple at the input. The input voltage 
+ripple caused by capacitance can be estimated 
+using Equation (4): 
+       LOAD OUT OUT
+IN
+INSI N
+IV VV1 fC 1V V
+⎛⎞Δ= × × − ⎜⎟× ⎝⎠
+        (4) 
+Selecting the Output Capacitor 
+The output capacitor (C2) maintains the DC 
+output voltage. Use ceramic, tantalum, or low 
+ESR electrolytic capacitors. For best results, 
+use low ESR capacitors to keep the output  
+voltage ripple low. The output voltage ripple is 
+estimated using Equation (5): 
+ 
+OUT OUT
+OUT ESR
+S1 I N S
+VV 1V1 R fL V 8 fC 2
+⎛⎞⎛⎞Δ= × − × + ⎜⎟⎜⎟×× × ⎝⎠ ⎝ ⎠
+    (5) 
+Where L 1 is the inductor value, R ESR is the 
+equivalent series resistance (ESR) value of the 
+output capacitor, and L1=1 μH.  
+For ceramic capacitors, the capacitance 
+dominates the impedance at the switching 
+frequency; the capacitance causes the majority 
+of the output voltage ripple. For simplification, 
+the output voltage ripple is estimated using 
+Equation (6): 
+            
+OUT OUT
+OUT 2
+INS1
+VVΔV1 V8f L C 2
+⎛⎞=× − ⎜⎟×× × ⎝⎠
+             (6) 
+For tantalum or electrolytic capacitors, the ESR 
+dominates the impedance at the switching 
+frequency. For simplification, the output ripple is 
+approximated using Equation (7): 
+           OUT OUT
+OUT ESR
+INS1
+VVΔV1 R fL V
+⎛⎞=× −× ⎜⎟× ⎝⎠
+             (7) 
+The characteristics of the output capacitor 
+affect the stability of the regulation system. The 
+MPM3620A internal compensation is optimized 
+for a wide range of capacitance and ESR 
+values. 
+PCB Layout Guidelines
+(12) 
+Efficient PCB layout is critical to achieve stable 
+operation, particularly for input capacitor 
+placement. For best results, refer to Figure 9 
+and follow the guidelines below: 
+1. Use a large ground plane to connect 
+directly to PGND. Add vias near PGND if 
+the bottom layer is ground plane. 
+2. The high-current paths (PGND, IN, and 
+OUT) should have short, direct, and wide 
+traces. Place the ceramic input capacitor 
+close to IN and PGND. Keep the input 
+capacitor and IN connection as short and 
+wide as possible. 
+3. Place the external feedback resistors next 
+to FB. 
+4. Keep the feedback network away from the 
+switching node. 
+NOTES: 
+12) The recommended layout is based on the “Typical Application 
+Circuits” section on page 21. 
+
+PDF PAGE 20
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 20 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+PG
+EN
+IN
+NC
+PGND
+R2 R1
+C2
+PGND
+R3
+6.7mm
+NC
+NC
+C3
+ 
+Top Layer 
+ 
+Bottom Layer 
+Figure 9—Recommended PCB layout 
+Design Example 
+Table 2 shows a design example following the 
+application guidelines for the specifications 
+below: 
+Table 2—Design example 
+VIN 12 V 
+VOUT 3.3 V 
+IOUT 2 A 
+The detailed application schematic is shown in 
+Figure 11. The typical performance and circuit 
+waveforms are shown in the “Typical 
+Characteristics” section (For additional device 
+applications, please refer to the related 
+evaluation board datasheets). 
+
+PDF PAGE 21
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 21 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+TYPICAL APPLICATION CIRCUITS (13)(14)
+Figure 10—Vo=5 V, Io=2 A 
+ 
+Figure 11—Vo=3.3 V, Io=2 A 
+ 
+Figure 12—Vo=2.5 V, Io=2 A 
+
+PDF PAGE 22
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 22 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+TYPICAL APPLICATION CIRCUITS (continued) 
+ 
+Figure 13—Vo=1.8 V, Io=2 A 
+ 
+Figure 14—Vo=1.5 V, Io=2 A 
+ 
+Figure 15—Vo=1.2 V, Io=2 A 
+
+PDF PAGE 23
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+MPM3620A Rev. 1.0 www.MonolithicPower.com 23 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+ © 2015 MPS. All Rights Reserved. 
+TYPICAL APPLICATION CIRCUITS (continued) 
+ 
+Figure 16—Vo=1 V, Io=2 A 
+NOTES: 
+13) In 12 V IN to 1 VOUT application conditions, the HS-FET’s on-time is close to the minimum on-time; although the SW may have a little jitter, 
+the output voltage ripple is smaller than 15 mV in PWM mode. 
+14) In 12 VIN to 1.5/1.2/1 VOUT application conditions, BST operation current will charge the output voltage higher than the setting value when 
+there is completely no load, due to a large resistor divider value. A 10 µA load current is able to pull the output voltage up to a normal 
+regulation level.
+
+PDF PAGE 24
+MPM3620A – SYNCHRONOUS STEP-DOWN MODULE WITH INTEGRATED INDUCTOR  
+ 
+ 
+NOTICE: The information in this document is subject to change without notice. Users should warrant and guarantee that third 
+party Intellectual Property rights are not infringed upon w hen integrating MPS products into any application. MPS will not 
+assume any legal responsibility for any said applications. 
+MPM3620A Rev. 0.81 www.MonolithicPower.com 24 
+4/21/2015 MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited. 
+Preliminary Specifications Subject to Change © 2015 MPS. All Rights Reserved. 
+PACKAGE INFORMATION 
+QFN-20 (3mm x 5mm x 1.6mm) 
+1) ALL DIMENSIONS ARE IN MILLIMETERS.
+2) SHADED AREA IS THE KEEP-OUT ZONE. ANY PCB 
+METAL TRACE AND VIA ARE NOT ALLOWED TO 
+CONNECT TO THIS AREA ELECTRICALLY OR 
+MECHANICALLY.
+3) LEAD COPLANARITY SHALL BE 0.10 
+MILLIMETERS MAX.
+4) JEDEC REFERENCE IS MO-220.
+5) DRAWING IS NOT TO SCALE.
+ 

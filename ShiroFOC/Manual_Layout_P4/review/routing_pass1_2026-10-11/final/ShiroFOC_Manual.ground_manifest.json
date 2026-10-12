@@ -1,0 +1,1701 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/signal_final/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "959d51629a30ae092ca607cde568a18fc8738758d36fe04d81cdd62f02f5f9e3",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/final/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "signal_return_d94deb99-8201-444a-9f62-c1c60ce57008",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "/Current / temperature/NTC_A_RAW",
+      "signal_via_uuid": "d94deb99-8201-444a-9f62-c1c60ce57008",
+      "signal_position_mm": [
+        16.375,
+        1.4
+      ],
+      "end_mm": [
+        16.8,
+        0.35
+      ],
+      "distance_to_signal_mm": 1.132751,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "d2369e56-a6c5-421c-9991-22e40c88d833"
+      ],
+      "new_items": [
+        "d2369e56-a6c5-421c-9991-22e40c88d833"
+      ],
+      "added_via_uuid": "d2369e56-a6c5-421c-9991-22e40c88d833",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_81f1d055-4e1f-427e-bc62-088fbbffd1c2",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "Net-(U601-MISO)",
+      "signal_via_uuid": "81f1d055-4e1f-427e-bc62-088fbbffd1c2",
+      "signal_position_mm": [
+        6.0,
+        -0.899999
+      ],
+      "end_mm": [
+        6.15,
+        -0.1
+      ],
+      "distance_to_signal_mm": 0.81394,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "69cca4f4-118d-41a1-9cbe-3663828fc9cd"
+      ],
+      "new_items": [
+        "69cca4f4-118d-41a1-9cbe-3663828fc9cd"
+      ],
+      "added_via_uuid": "69cca4f4-118d-41a1-9cbe-3663828fc9cd",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_04493a1c-8337-4551-a074-c44ce4aac3a8",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "EXT_FEEDBACK_SELECT",
+      "signal_via_uuid": "04493a1c-8337-4551-a074-c44ce4aac3a8",
+      "signal_position_mm": [
+        0.55,
+        2.65
+      ],
+      "end_mm": [
+        1.15,
+        2.05
+      ],
+      "distance_to_signal_mm": 0.848528,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "b86b804d-1e08-41ea-873f-602828f0d323"
+      ],
+      "new_items": [
+        "b86b804d-1e08-41ea-873f-602828f0d323"
+      ],
+      "added_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_8c78eca4-49bd-4f4c-a40c-4996eda225b6",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "Net-(U601-MISO)",
+      "signal_via_uuid": "8c78eca4-49bd-4f4c-a40c-4996eda225b6",
+      "signal_position_mm": [
+        1.75,
+        -0.524999
+      ],
+      "end_mm": [
+        0.85,
+        -1.15
+      ],
+      "distance_to_signal_mm": 1.095731,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "0029451e-bf76-4914-921a-a942dd4b8be7"
+      ],
+      "new_items": [
+        "0029451e-bf76-4914-921a-a942dd4b8be7"
+      ],
+      "added_via_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_8714268b-b6e5-4a13-a6c5-c830f5024fd2",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "EXT_FEEDBACK_SELECT",
+      "signal_via_uuid": "8714268b-b6e5-4a13-a6c5-c830f5024fd2",
+      "signal_position_mm": [
+        2.05,
+        5.75
+      ],
+      "end_mm": [
+        2.85,
+        5.75
+      ],
+      "distance_to_signal_mm": 0.8,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878"
+      ],
+      "new_items": [
+        "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878"
+      ],
+      "added_via_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_285ce6dd-1661-4be5-97a0-248a4d90858f",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "INPUT_MUX_ENABLE_N",
+      "signal_via_uuid": "285ce6dd-1661-4be5-97a0-248a4d90858f",
+      "signal_position_mm": [
+        -0.199999,
+        18.6
+      ],
+      "end_mm": [
+        0.55,
+        18.9
+      ],
+      "distance_to_signal_mm": 0.807774,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "5c3cc62a-690e-4d64-9a49-920a35f559b5"
+      ],
+      "new_items": [
+        "5c3cc62a-690e-4d64-9a49-920a35f559b5"
+      ],
+      "added_via_uuid": "5c3cc62a-690e-4d64-9a49-920a35f559b5",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_8869cc94-55e5-4ef3-9d62-b11cde838e3c",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "Net-(U203-CP2)",
+      "signal_via_uuid": "8869cc94-55e5-4ef3-9d62-b11cde838e3c",
+      "signal_position_mm": [
+        -15.6,
+        -20.85
+      ],
+      "end_mm": [
+        -16.4,
+        -20.85
+      ],
+      "distance_to_signal_mm": 0.8,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33"
+      ],
+      "new_items": [
+        "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33"
+      ],
+      "added_via_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_92171863-ef33-4ed5-b513-32b8a29f67e3",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "IMU_INT1",
+      "signal_via_uuid": "92171863-ef33-4ed5-b513-32b8a29f67e3",
+      "signal_position_mm": [
+        -13.0,
+        12.3
+      ],
+      "end_mm": [
+        -13.55,
+        11.5
+      ],
+      "distance_to_signal_mm": 0.970824,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "d0489921-c513-4564-8875-20bb4dc12c87"
+      ],
+      "new_items": [
+        "d0489921-c513-4564-8875-20bb4dc12c87"
+      ],
+      "added_via_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_01bc5121-3145-4e97-9a1c-7ec2303817ea",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "USB_UART_RX",
+      "signal_via_uuid": "01bc5121-3145-4e97-9a1c-7ec2303817ea",
+      "signal_position_mm": [
+        -12.95,
+        -6.05
+      ],
+      "end_mm": [
+        -12.15,
+        -6.05
+      ],
+      "distance_to_signal_mm": 0.8,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "97f90dcb-7de1-4360-b630-3d2218a64258"
+      ],
+      "new_items": [
+        "97f90dcb-7de1-4360-b630-3d2218a64258"
+      ],
+      "added_via_uuid": "97f90dcb-7de1-4360-b630-3d2218a64258",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_d515e896-e1d1-481f-888c-e34dcafe5e24",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "/Current / temperature/NTC_A_RAW",
+      "signal_via_uuid": "d515e896-e1d1-481f-888c-e34dcafe5e24",
+      "signal_position_mm": [
+        -14.275,
+        -2.149999
+      ],
+      "end_mm": [
+        -15.1,
+        -2.15
+      ],
+      "distance_to_signal_mm": 0.825,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "ac82db53-15d8-4cc8-a5b0-8d0dfb229aff"
+      ],
+      "new_items": [
+        "ac82db53-15d8-4cc8-a5b0-8d0dfb229aff"
+      ],
+      "added_via_uuid": "ac82db53-15d8-4cc8-a5b0-8d0dfb229aff",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_30ae4289-88a9-436f-9643-8895f4493832",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "Net-(U203-PR1)",
+      "signal_via_uuid": "30ae4289-88a9-436f-9643-8895f4493832",
+      "signal_position_mm": [
+        -11.399999,
+        -20.85
+      ],
+      "end_mm": [
+        -11.4,
+        -21.65
+      ],
+      "distance_to_signal_mm": 0.8,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "0e853b39-4f2e-4efa-8d57-fdbd9ccf1495"
+      ],
+      "new_items": [
+        "0e853b39-4f2e-4efa-8d57-fdbd9ccf1495"
+      ],
+      "added_via_uuid": "0e853b39-4f2e-4efa-8d57-fdbd9ccf1495",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_689195ce-e4c4-4ac8-8708-a43be55d9d1e",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "NTC_PHASE_C",
+      "signal_via_uuid": "689195ce-e4c4-4ac8-8708-a43be55d9d1e",
+      "signal_position_mm": [
+        -13.5,
+        1.15
+      ],
+      "end_mm": [
+        -14.65,
+        1.35
+      ],
+      "distance_to_signal_mm": 1.167262,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "69e4690b-adbe-4fd3-8fdc-c872f92eb7f6"
+      ],
+      "new_items": [
+        "69e4690b-adbe-4fd3-8fdc-c872f92eb7f6"
+      ],
+      "added_via_uuid": "69e4690b-adbe-4fd3-8fdc-c872f92eb7f6",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_91b509c1-f368-462b-bc89-e771f43ab18b",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "EXT_FEEDBACK_SELECT",
+      "signal_via_uuid": "91b509c1-f368-462b-bc89-e771f43ab18b",
+      "signal_position_mm": [
+        -5.0,
+        21.1
+      ],
+      "end_mm": [
+        -5.0,
+        20.3
+      ],
+      "distance_to_signal_mm": 0.8,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "4faffcb5-2156-47e4-a317-73e36dadf929"
+      ],
+      "new_items": [
+        "4faffcb5-2156-47e4-a317-73e36dadf929"
+      ],
+      "added_via_uuid": "4faffcb5-2156-47e4-a317-73e36dadf929",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_12dc1e14-d583-45b7-ad80-e1e3a743ab0c",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "IMU_INT2",
+      "signal_via_uuid": "12dc1e14-d583-45b7-ad80-e1e3a743ab0c",
+      "signal_position_mm": [
+        -6.349999,
+        -0.799999
+      ],
+      "end_mm": [
+        -7.1,
+        -1.1
+      ],
+      "distance_to_signal_mm": 0.807776,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "f7484f98-ec96-434a-a1fe-1221882faeaf"
+      ],
+      "new_items": [
+        "f7484f98-ec96-434a-a1fe-1221882faeaf"
+      ],
+      "added_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_afb372b5-3465-4209-b921-d2777e3831d9",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "IMU_INT2",
+      "signal_via_uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+      "signal_position_mm": [
+        -7.85,
+        6.1
+      ],
+      "end_mm": [
+        -7.3,
+        4.8
+      ],
+      "distance_to_signal_mm": 1.411559,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "09209edf-75e1-41a0-b8b1-3348e588b4cd"
+      ],
+      "new_items": [
+        "09209edf-75e1-41a0-b8b1-3348e588b4cd"
+      ],
+      "added_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_65a31c8b-e2ea-4f83-b52a-130344cf459b",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "EXT_SENSOR_FAULT_N",
+      "signal_via_uuid": "65a31c8b-e2ea-4f83-b52a-130344cf459b",
+      "signal_position_mm": [
+        -11.95,
+        -8.45
+      ],
+      "end_mm": [
+        -10.75,
+        -8.2
+      ],
+      "distance_to_signal_mm": 1.225765,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "4cd8e6e0-5b99-4b03-8ad4-c49f073d6a7c"
+      ],
+      "new_items": [
+        "4cd8e6e0-5b99-4b03-8ad4-c49f073d6a7c"
+      ],
+      "added_via_uuid": "4cd8e6e0-5b99-4b03-8ad4-c49f073d6a7c",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_dc11939a-ec6c-46fe-9ed1-0293abb2f789",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "NTC_BRAKE",
+      "signal_via_uuid": "dc11939a-ec6c-46fe-9ed1-0293abb2f789",
+      "signal_position_mm": [
+        1.4,
+        12.55
+      ],
+      "end_mm": [
+        2.6,
+        12.55
+      ],
+      "distance_to_signal_mm": 1.2,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "2c74fb34-1915-434d-92a7-2cdd5e465a34"
+      ],
+      "new_items": [
+        "2c74fb34-1915-434d-92a7-2cdd5e465a34"
+      ],
+      "added_via_uuid": "2c74fb34-1915-434d-92a7-2cdd5e465a34",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_9d39e173-5374-4efe-a02d-0926674ce32e",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "NTC_PHASE_A",
+      "signal_via_uuid": "9d39e173-5374-4efe-a02d-0926674ce32e",
+      "signal_position_mm": [
+        -12.6,
+        7.05
+      ],
+      "end_mm": [
+        -13.4,
+        7.05
+      ],
+      "distance_to_signal_mm": 0.8,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "191fd546-7ff5-4129-8338-f1d063a37db5"
+      ],
+      "new_items": [
+        "191fd546-7ff5-4129-8338-f1d063a37db5"
+      ],
+      "added_via_uuid": "191fd546-7ff5-4129-8338-f1d063a37db5",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    }
+  ],
+  "skipped": [
+    {
+      "signal_via_uuid": "1df38be0-0160-42d3-9d14-64dea830578b",
+      "net": "SPI3_MISO",
+      "position_mm": [
+        5.45,
+        -1.449999
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 1.52069
+    },
+    {
+      "signal_via_uuid": "129e0ff8-a950-499d-85d2-81a9bce699df",
+      "net": "Net-(U601-MOSI)",
+      "position_mm": [
+        -0.75,
+        2.65
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 1.992486
+    },
+    {
+      "signal_via_uuid": "8de0d3f8-0b48-4537-b594-cf5da8a933c3",
+      "net": "SPI3_MISO",
+      "position_mm": [
+        -1.549999,
+        3.65
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 3.13847
+    },
+    {
+      "signal_via_uuid": "66d9fb2f-cdc1-4e57-a7e0-35450d46da35",
+      "net": "INPUT_MUX_ENABLE_N",
+      "position_mm": [
+        -2.099999,
+        21.35
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 5.994209
+    },
+    {
+      "signal_via_uuid": "95b5cd3f-f021-475d-b98d-b338ece1f527",
+      "net": "EXT_FEEDBACK_SELECT",
+      "position_mm": [
+        -1.699999,
+        19.4
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.304885
+    },
+    {
+      "signal_via_uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+      "net": "I2C2_SCL",
+      "position_mm": [
+        -3.299999,
+        4.65
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 5.153881
+    },
+    {
+      "signal_via_uuid": "9749d2cd-ae02-483f-8d46-05d3579ecac9",
+      "net": "I2C2_SCL",
+      "position_mm": [
+        -1.649999,
+        -1.149999
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.499999
+    },
+    {
+      "signal_via_uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+      "net": "SPI3_MOSI_MCU",
+      "position_mm": [
+        -4.449999,
+        4.35
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 4.197548
+    },
+    {
+      "signal_via_uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+      "net": "Net-(U601-MOSI)",
+      "position_mm": [
+        -4.8,
+        3.65
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 3.800645
+    },
+    {
+      "signal_via_uuid": "63999344-2fb0-4119-a058-eb36d42fee7a",
+      "net": "SPI3_SCK_MCU",
+      "position_mm": [
+        -5.349999,
+        -0.199999
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 3.416857
+    },
+    {
+      "signal_via_uuid": "d018fdd1-e66b-4145-948f-d8cee7bf752b",
+      "net": "CAN_STB",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+      "distance_mm": 1.399999
+    },
+    {
+      "signal_via_uuid": "2a182489-f567-48bd-a797-b45d5a341cfd",
+      "net": "EXT_FEEDBACK_SELECT",
+      "position_mm": [
+        -5.05,
+        -1.099999
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.756974
+    },
+    {
+      "signal_via_uuid": "1b16397d-a7db-46f8-a12e-5ea12b4663a1",
+      "net": "USB_UART_RX",
+      "position_mm": [
+        -10.899999,
+        2.55
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.580484
+    },
+    {
+      "signal_via_uuid": "dca7d7f8-db94-4017-958e-6e3c71082ff5",
+      "net": "SPI3_MOSI_MCU",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+      "distance_mm": 1.303841
+    },
+    {
+      "signal_via_uuid": "cc45d318-8def-4b11-b57d-774ac1bf1666",
+      "net": "NTC_BRAKE",
+      "position_mm": [
+        -8.649999,
+        6.05
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 1.839836
+    },
+    {
+      "signal_via_uuid": "b93268c2-6589-4d32-ada2-02cb3f04a629",
+      "net": "IMU_INT2",
+      "position_mm": [
+        -8.35,
+        10.95
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.012095
+    },
+    {
+      "signal_via_uuid": "6820e1d2-bea7-4d2c-bac6-3d349c88bcc0",
+      "net": "/Current / temperature/NTC_A_RAW",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+      "distance_mm": 1.345594
+    },
+    {
+      "signal_via_uuid": "ad8e86f7-39ed-4c83-acba-5a320140d2bd",
+      "net": "IMU_INT1",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "f24602c0-3be8-41c9-bd23-3e7912870a26",
+      "distance_mm": 1.394596
+    },
+    {
+      "signal_via_uuid": "914a5787-4b20-4843-9eea-10719a5b7040",
+      "net": "EXT_SENSOR_FAULT_N",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "9f222697-0fdb-46cf-a84d-525904bd27d0",
+      "distance_mm": 1.290039
+    },
+    {
+      "signal_via_uuid": "d04e1ded-c943-4c81-aa4f-c115969ee95d",
+      "net": "IMU_INT1",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "76cb84be-a027-4fa7-92c2-aa1f01c36af4",
+      "distance_mm": 0.952942
+    },
+    {
+      "signal_via_uuid": "1c624b02-9281-41e9-900b-d1bc5ef3e932",
+      "net": "I2C2_SCL",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "distance_mm": 0.757314
+    }
+  ],
+  "signal_returns": {
+    "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+    "baseline_sha256": "aaf146629e4152249c9dac33abb3b74b821fa0c7ba292b358c85ccb19a27e37c",
+    "new_signal_vias": 39,
+    "required_ground_planes": [
+      "GND L2",
+      "GND L5"
+    ],
+    "before": [
+      {
+        "signal_via_uuid": "6820e1d2-bea7-4d2c-bac6-3d349c88bcc0",
+        "net": "/Current / temperature/NTC_A_RAW",
+        "position_mm": [
+          -7.875,
+          -2.199999
+        ],
+        "nearest_ground_mm": 1.737247
+      },
+      {
+        "signal_via_uuid": "d515e896-e1d1-481f-888c-e34dcafe5e24",
+        "net": "/Current / temperature/NTC_A_RAW",
+        "position_mm": [
+          -14.275,
+          -2.149999
+        ],
+        "nearest_ground_mm": 3.685031
+      },
+      {
+        "signal_via_uuid": "d94deb99-8201-444a-9f62-c1c60ce57008",
+        "net": "/Current / temperature/NTC_A_RAW",
+        "position_mm": [
+          16.375,
+          1.4
+        ],
+        "nearest_ground_mm": 14.30561
+      },
+      {
+        "signal_via_uuid": "d018fdd1-e66b-4145-948f-d8cee7bf752b",
+        "net": "CAN_STB",
+        "position_mm": [
+          -13.549999,
+          12.899999
+        ],
+        "nearest_ground_mm": 3.121578
+      },
+      {
+        "signal_via_uuid": "04493a1c-8337-4551-a074-c44ce4aac3a8",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          0.55,
+          2.65
+        ],
+        "nearest_ground_mm": 8.244387
+      },
+      {
+        "signal_via_uuid": "2a182489-f567-48bd-a797-b45d5a341cfd",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -5.05,
+          -1.099999
+        ],
+        "nearest_ground_mm": 2.756974
+      },
+      {
+        "signal_via_uuid": "8714268b-b6e5-4a13-a6c5-c830f5024fd2",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          2.05,
+          5.75
+        ],
+        "nearest_ground_mm": 6.724651
+      },
+      {
+        "signal_via_uuid": "91b509c1-f368-462b-bc89-e771f43ab18b",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -5.0,
+          21.1
+        ],
+        "nearest_ground_mm": 3.093788
+      },
+      {
+        "signal_via_uuid": "95b5cd3f-f021-475d-b98d-b338ece1f527",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -1.699999,
+          19.4
+        ],
+        "nearest_ground_mm": 5.429847
+      },
+      {
+        "signal_via_uuid": "65a31c8b-e2ea-4f83-b52a-130344cf459b",
+        "net": "EXT_SENSOR_FAULT_N",
+        "position_mm": [
+          -11.95,
+          -8.45
+        ],
+        "nearest_ground_mm": 2.343502
+      },
+      {
+        "signal_via_uuid": "914a5787-4b20-4843-9eea-10719a5b7040",
+        "net": "EXT_SENSOR_FAULT_N",
+        "position_mm": [
+          -10.1,
+          0.05
+        ],
+        "nearest_ground_mm": 1.290039
+      },
+      {
+        "signal_via_uuid": "1c624b02-9281-41e9-900b-d1bc5ef3e932",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -6.85,
+          10.25
+        ],
+        "nearest_ground_mm": 0.757314
+      },
+      {
+        "signal_via_uuid": "9749d2cd-ae02-483f-8d46-05d3579ecac9",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -1.649999,
+          -1.149999
+        ],
+        "nearest_ground_mm": 5.03564
+      },
+      {
+        "signal_via_uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -3.299999,
+          4.65
+        ],
+        "nearest_ground_mm": 5.372236
+      },
+      {
+        "signal_via_uuid": "92171863-ef33-4ed5-b513-32b8a29f67e3",
+        "net": "IMU_INT1",
+        "position_mm": [
+          -13.0,
+          12.3
+        ],
+        "nearest_ground_mm": 3.931942
+      },
+      {
+        "signal_via_uuid": "ad8e86f7-39ed-4c83-acba-5a320140d2bd",
+        "net": "IMU_INT1",
+        "position_mm": [
+          -6.149999,
+          -4.699999
+        ],
+        "nearest_ground_mm": 1.394596
+      },
+      {
+        "signal_via_uuid": "d04e1ded-c943-4c81-aa4f-c115969ee95d",
+        "net": "IMU_INT1",
+        "position_mm": [
+          -12.299999,
+          4.8
+        ],
+        "nearest_ground_mm": 0.952942
+      },
+      {
+        "signal_via_uuid": "12dc1e14-d583-45b7-ad80-e1e3a743ab0c",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -6.349999,
+          -0.799999
+        ],
+        "nearest_ground_mm": 2.592085
+      },
+      {
+        "signal_via_uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -7.85,
+          6.1
+        ],
+        "nearest_ground_mm": 2.495376
+      },
+      {
+        "signal_via_uuid": "b93268c2-6589-4d32-ada2-02cb3f04a629",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -8.35,
+          10.95
+        ],
+        "nearest_ground_mm": 2.012095
+      },
+      {
+        "signal_via_uuid": "285ce6dd-1661-4be5-97a0-248a4d90858f",
+        "net": "INPUT_MUX_ENABLE_N",
+        "position_mm": [
+          -0.199999,
+          18.6
+        ],
+        "nearest_ground_mm": 5.802434
+      },
+      {
+        "signal_via_uuid": "66d9fb2f-cdc1-4e57-a7e0-35450d46da35",
+        "net": "INPUT_MUX_ENABLE_N",
+        "position_mm": [
+          -2.099999,
+          21.35
+        ],
+        "nearest_ground_mm": 5.994209
+      },
+      {
+        "signal_via_uuid": "9d39e173-5374-4efe-a02d-0926674ce32e",
+        "net": "NTC_PHASE_A",
+        "position_mm": [
+          -12.6,
+          7.05
+        ],
+        "nearest_ground_mm": 2.130634
+      },
+      {
+        "signal_via_uuid": "689195ce-e4c4-4ac8-8708-a43be55d9d1e",
+        "net": "NTC_PHASE_C",
+        "position_mm": [
+          -13.5,
+          1.15
+        ],
+        "nearest_ground_mm": 3.140016
+      },
+      {
+        "signal_via_uuid": "8869cc94-55e5-4ef3-9d62-b11cde838e3c",
+        "net": "Net-(U203-CP2)",
+        "position_mm": [
+          -15.6,
+          -20.85
+        ],
+        "nearest_ground_mm": 4.417078
+      },
+      {
+        "signal_via_uuid": "30ae4289-88a9-436f-9643-8895f4493832",
+        "net": "Net-(U203-PR1)",
+        "position_mm": [
+          -11.399999,
+          -20.85
+        ],
+        "nearest_ground_mm": 3.44934
+      },
+      {
+        "signal_via_uuid": "81f1d055-4e1f-427e-bc62-088fbbffd1c2",
+        "net": "Net-(U601-MISO)",
+        "position_mm": [
+          6.0,
+          -0.899999
+        ],
+        "nearest_ground_mm": 10.652374
+      },
+      {
+        "signal_via_uuid": "8c78eca4-49bd-4f4c-a40c-4996eda225b6",
+        "net": "Net-(U601-MISO)",
+        "position_mm": [
+          1.75,
+          -0.524999
+        ],
+        "nearest_ground_mm": 7.770387
+      },
+      {
+        "signal_via_uuid": "129e0ff8-a950-499d-85d2-81a9bce699df",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -0.75,
+          2.65
+        ],
+        "nearest_ground_mm": 7.749382
+      },
+      {
+        "signal_via_uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -4.8,
+          3.65
+        ],
+        "nearest_ground_mm": 3.800645
+      },
+      {
+        "signal_via_uuid": "1df38be0-0160-42d3-9d14-64dea830578b",
+        "net": "SPI3_MISO",
+        "position_mm": [
+          5.45,
+          -1.449999
+        ],
+        "nearest_ground_mm": 10.155986
+      },
+      {
+        "signal_via_uuid": "8de0d3f8-0b48-4537-b594-cf5da8a933c3",
+        "net": "SPI3_MISO",
+        "position_mm": [
+          -1.549999,
+          3.65
+        ],
+        "nearest_ground_mm": 6.566653
+      },
+      {
+        "signal_via_uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+        "net": "SPI3_MOSI_MCU",
+        "position_mm": [
+          -4.449999,
+          4.35
+        ],
+        "nearest_ground_mm": 4.197548
+      },
+      {
+        "signal_via_uuid": "dca7d7f8-db94-4017-958e-6e3c71082ff5",
+        "net": "SPI3_MOSI_MCU",
+        "position_mm": [
+          -6.399999,
+          0.0
+        ],
+        "nearest_ground_mm": 2.410748
+      },
+      {
+        "signal_via_uuid": "63999344-2fb0-4119-a058-eb36d42fee7a",
+        "net": "SPI3_SCK_MCU",
+        "position_mm": [
+          -5.349999,
+          -0.199999
+        ],
+        "nearest_ground_mm": 3.416857
+      },
+      {
+        "signal_via_uuid": "01bc5121-3145-4e97-9a1c-7ec2303817ea",
+        "net": "USB_UART_RX",
+        "position_mm": [
+          -12.95,
+          -6.05
+        ],
+        "nearest_ground_mm": 3.859456
+      },
+      {
+        "signal_via_uuid": "1b16397d-a7db-46f8-a12e-5ea12b4663a1",
+        "net": "USB_UART_RX",
+        "position_mm": [
+          -10.899999,
+          2.55
+        ],
+        "nearest_ground_mm": 2.580484
+      },
+      {
+        "signal_via_uuid": "cc45d318-8def-4b11-b57d-774ac1bf1666",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.05
+        ],
+        "nearest_ground_mm": 2.330536
+      },
+      {
+        "signal_via_uuid": "dc11939a-ec6c-46fe-9ed1-0293abb2f789",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          1.4,
+          12.55
+        ],
+        "nearest_ground_mm": 2.240201
+      }
+    ],
+    "after": [
+      {
+        "signal_via_uuid": "d94deb99-8201-444a-9f62-c1c60ce57008",
+        "net": "/Current / temperature/NTC_A_RAW",
+        "position_mm": [
+          16.375,
+          1.4
+        ],
+        "nearest_ground_via_uuid": "d2369e56-a6c5-421c-9991-22e40c88d833",
+        "nearest_ground_mm": 1.132751,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "81f1d055-4e1f-427e-bc62-088fbbffd1c2",
+        "net": "Net-(U601-MISO)",
+        "position_mm": [
+          6.0,
+          -0.899999
+        ],
+        "nearest_ground_via_uuid": "69cca4f4-118d-41a1-9cbe-3663828fc9cd",
+        "nearest_ground_mm": 0.81394,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "1df38be0-0160-42d3-9d14-64dea830578b",
+        "net": "SPI3_MISO",
+        "position_mm": [
+          5.45,
+          -1.449999
+        ],
+        "nearest_ground_via_uuid": "69cca4f4-118d-41a1-9cbe-3663828fc9cd",
+        "nearest_ground_mm": 1.52069,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "04493a1c-8337-4551-a074-c44ce4aac3a8",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          0.55,
+          2.65
+        ],
+        "nearest_ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 0.848528,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "8c78eca4-49bd-4f4c-a40c-4996eda225b6",
+        "net": "Net-(U601-MISO)",
+        "position_mm": [
+          1.75,
+          -0.524999
+        ],
+        "nearest_ground_via_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+        "nearest_ground_mm": 1.095731,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "129e0ff8-a950-499d-85d2-81a9bce699df",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -0.75,
+          2.65
+        ],
+        "nearest_ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 1.992486,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "8714268b-b6e5-4a13-a6c5-c830f5024fd2",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          2.05,
+          5.75
+        ],
+        "nearest_ground_via_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+        "nearest_ground_mm": 0.8,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "8de0d3f8-0b48-4537-b594-cf5da8a933c3",
+        "net": "SPI3_MISO",
+        "position_mm": [
+          -1.549999,
+          3.65
+        ],
+        "nearest_ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 3.13847,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "66d9fb2f-cdc1-4e57-a7e0-35450d46da35",
+        "net": "INPUT_MUX_ENABLE_N",
+        "position_mm": [
+          -2.099999,
+          21.35
+        ],
+        "nearest_ground_via_uuid": "4faffcb5-2156-47e4-a317-73e36dadf929",
+        "nearest_ground_mm": 3.084235,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "285ce6dd-1661-4be5-97a0-248a4d90858f",
+        "net": "INPUT_MUX_ENABLE_N",
+        "position_mm": [
+          -0.199999,
+          18.6
+        ],
+        "nearest_ground_via_uuid": "5c3cc62a-690e-4d64-9a49-920a35f559b5",
+        "nearest_ground_mm": 0.807774,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "95b5cd3f-f021-475d-b98d-b338ece1f527",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -1.699999,
+          19.4
+        ],
+        "nearest_ground_via_uuid": "5c3cc62a-690e-4d64-9a49-920a35f559b5",
+        "nearest_ground_mm": 2.304885,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -3.299999,
+          4.65
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 4.002813,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "9749d2cd-ae02-483f-8d46-05d3579ecac9",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -1.649999,
+          -1.149999
+        ],
+        "nearest_ground_via_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+        "nearest_ground_mm": 2.499999,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "8869cc94-55e5-4ef3-9d62-b11cde838e3c",
+        "net": "Net-(U203-CP2)",
+        "position_mm": [
+          -15.6,
+          -20.85
+        ],
+        "nearest_ground_via_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+        "nearest_ground_mm": 0.8,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+        "net": "SPI3_MOSI_MCU",
+        "position_mm": [
+          -4.449999,
+          4.35
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.885309,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "92171863-ef33-4ed5-b513-32b8a29f67e3",
+        "net": "IMU_INT1",
+        "position_mm": [
+          -13.0,
+          12.3
+        ],
+        "nearest_ground_via_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+        "nearest_ground_mm": 0.970824,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "01bc5121-3145-4e97-9a1c-7ec2303817ea",
+        "net": "USB_UART_RX",
+        "position_mm": [
+          -12.95,
+          -6.05
+        ],
+        "nearest_ground_via_uuid": "97f90dcb-7de1-4360-b630-3d2218a64258",
+        "nearest_ground_mm": 0.8,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -4.8,
+          3.65
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.751818,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "d515e896-e1d1-481f-888c-e34dcafe5e24",
+        "net": "/Current / temperature/NTC_A_RAW",
+        "position_mm": [
+          -14.275,
+          -2.149999
+        ],
+        "nearest_ground_via_uuid": "ac82db53-15d8-4cc8-a5b0-8d0dfb229aff",
+        "nearest_ground_mm": 0.825,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "30ae4289-88a9-436f-9643-8895f4493832",
+        "net": "Net-(U203-PR1)",
+        "position_mm": [
+          -11.399999,
+          -20.85
+        ],
+        "nearest_ground_via_uuid": "0e853b39-4f2e-4efa-8d57-fdbd9ccf1495",
+        "nearest_ground_mm": 0.8,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "63999344-2fb0-4119-a058-eb36d42fee7a",
+        "net": "SPI3_SCK_MCU",
+        "position_mm": [
+          -5.349999,
+          -0.199999
+        ],
+        "nearest_ground_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+        "nearest_ground_mm": 1.967868,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "689195ce-e4c4-4ac8-8708-a43be55d9d1e",
+        "net": "NTC_PHASE_C",
+        "position_mm": [
+          -13.5,
+          1.15
+        ],
+        "nearest_ground_via_uuid": "69e4690b-adbe-4fd3-8fdc-c872f92eb7f6",
+        "nearest_ground_mm": 1.167262,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "d018fdd1-e66b-4145-948f-d8cee7bf752b",
+        "net": "CAN_STB",
+        "position_mm": [
+          -13.549999,
+          12.899999
+        ],
+        "nearest_ground_via_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+        "nearest_ground_mm": 1.399999,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "91b509c1-f368-462b-bc89-e771f43ab18b",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -5.0,
+          21.1
+        ],
+        "nearest_ground_via_uuid": "4faffcb5-2156-47e4-a317-73e36dadf929",
+        "nearest_ground_mm": 0.8,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "2a182489-f567-48bd-a797-b45d5a341cfd",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -5.05,
+          -1.099999
+        ],
+        "nearest_ground_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+        "nearest_ground_mm": 2.05,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "12dc1e14-d583-45b7-ad80-e1e3a743ab0c",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -6.349999,
+          -0.799999
+        ],
+        "nearest_ground_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+        "nearest_ground_mm": 0.807776,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "1b16397d-a7db-46f8-a12e-5ea12b4663a1",
+        "net": "USB_UART_RX",
+        "position_mm": [
+          -10.899999,
+          2.55
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.580484,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -7.85,
+          6.1
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.411559,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "dca7d7f8-db94-4017-958e-6e3c71082ff5",
+        "net": "SPI3_MOSI_MCU",
+        "position_mm": [
+          -6.399999,
+          0.0
+        ],
+        "nearest_ground_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+        "nearest_ground_mm": 1.303841,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "65a31c8b-e2ea-4f83-b52a-130344cf459b",
+        "net": "EXT_SENSOR_FAULT_N",
+        "position_mm": [
+          -11.95,
+          -8.45
+        ],
+        "nearest_ground_via_uuid": "4cd8e6e0-5b99-4b03-8ad4-c49f073d6a7c",
+        "nearest_ground_mm": 1.225765,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "cc45d318-8def-4b11-b57d-774ac1bf1666",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.05
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.839836,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "dc11939a-ec6c-46fe-9ed1-0293abb2f789",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          1.4,
+          12.55
+        ],
+        "nearest_ground_via_uuid": "2c74fb34-1915-434d-92a7-2cdd5e465a34",
+        "nearest_ground_mm": 1.2,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "9d39e173-5374-4efe-a02d-0926674ce32e",
+        "net": "NTC_PHASE_A",
+        "position_mm": [
+          -12.6,
+          7.05
+        ],
+        "nearest_ground_via_uuid": "191fd546-7ff5-4129-8338-f1d063a37db5",
+        "nearest_ground_mm": 0.8,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "b93268c2-6589-4d32-ada2-02cb3f04a629",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -8.35,
+          10.95
+        ],
+        "nearest_ground_via_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+        "nearest_ground_mm": 2.012095,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "6820e1d2-bea7-4d2c-bac6-3d349c88bcc0",
+        "net": "/Current / temperature/NTC_A_RAW",
+        "position_mm": [
+          -7.875,
+          -2.199999
+        ],
+        "nearest_ground_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+        "nearest_ground_mm": 1.345594,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "ad8e86f7-39ed-4c83-acba-5a320140d2bd",
+        "net": "IMU_INT1",
+        "position_mm": [
+          -6.149999,
+          -4.699999
+        ],
+        "nearest_ground_via_uuid": "f24602c0-3be8-41c9-bd23-3e7912870a26",
+        "nearest_ground_mm": 1.394596,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "914a5787-4b20-4843-9eea-10719a5b7040",
+        "net": "EXT_SENSOR_FAULT_N",
+        "position_mm": [
+          -10.1,
+          0.05
+        ],
+        "nearest_ground_via_uuid": "9f222697-0fdb-46cf-a84d-525904bd27d0",
+        "nearest_ground_mm": 1.290039,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "d04e1ded-c943-4c81-aa4f-c115969ee95d",
+        "net": "IMU_INT1",
+        "position_mm": [
+          -12.299999,
+          4.8
+        ],
+        "nearest_ground_via_uuid": "76cb84be-a027-4fa7-92c2-aa1f01c36af4",
+        "nearest_ground_mm": 0.952942,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "1c624b02-9281-41e9-900b-d1bc5ef3e932",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -6.85,
+          10.25
+        ],
+        "nearest_ground_via_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+        "nearest_ground_mm": 0.757314,
+        "covered_within_1_5mm": true
+      }
+    ],
+    "uncovered": [
+      {
+        "signal_via_uuid": "1df38be0-0160-42d3-9d14-64dea830578b",
+        "net": "SPI3_MISO",
+        "position_mm": [
+          5.45,
+          -1.449999
+        ],
+        "nearest_ground_via_uuid": "69cca4f4-118d-41a1-9cbe-3663828fc9cd",
+        "nearest_ground_mm": 1.52069,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "129e0ff8-a950-499d-85d2-81a9bce699df",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -0.75,
+          2.65
+        ],
+        "nearest_ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 1.992486,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "8de0d3f8-0b48-4537-b594-cf5da8a933c3",
+        "net": "SPI3_MISO",
+        "position_mm": [
+          -1.549999,
+          3.65
+        ],
+        "nearest_ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 3.13847,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "66d9fb2f-cdc1-4e57-a7e0-35450d46da35",
+        "net": "INPUT_MUX_ENABLE_N",
+        "position_mm": [
+          -2.099999,
+          21.35
+        ],
+        "nearest_ground_via_uuid": "4faffcb5-2156-47e4-a317-73e36dadf929",
+        "nearest_ground_mm": 3.084235,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "95b5cd3f-f021-475d-b98d-b338ece1f527",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -1.699999,
+          19.4
+        ],
+        "nearest_ground_via_uuid": "5c3cc62a-690e-4d64-9a49-920a35f559b5",
+        "nearest_ground_mm": 2.304885,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -3.299999,
+          4.65
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 4.002813,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "9749d2cd-ae02-483f-8d46-05d3579ecac9",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -1.649999,
+          -1.149999
+        ],
+        "nearest_ground_via_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+        "nearest_ground_mm": 2.499999,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+        "net": "SPI3_MOSI_MCU",
+        "position_mm": [
+          -4.449999,
+          4.35
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.885309,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -4.8,
+          3.65
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.751818,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "63999344-2fb0-4119-a058-eb36d42fee7a",
+        "net": "SPI3_SCK_MCU",
+        "position_mm": [
+          -5.349999,
+          -0.199999
+        ],
+        "nearest_ground_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+        "nearest_ground_mm": 1.967868,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "2a182489-f567-48bd-a797-b45d5a341cfd",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -5.05,
+          -1.099999
+        ],
+        "nearest_ground_via_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+        "nearest_ground_mm": 2.05,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "1b16397d-a7db-46f8-a12e-5ea12b4663a1",
+        "net": "USB_UART_RX",
+        "position_mm": [
+          -10.899999,
+          2.55
+        ],
+        "nearest_ground_via_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.580484,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "cc45d318-8def-4b11-b57d-774ac1bf1666",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.05
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.839836,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "b93268c2-6589-4d32-ada2-02cb3f04a629",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -8.35,
+          10.95
+        ],
+        "nearest_ground_via_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+        "nearest_ground_mm": 2.012095,
+        "covered_within_1_5mm": false
+      }
+    ]
+  },
+  "added_counts": {
+    "PCB_VIA": 18
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 1.5,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

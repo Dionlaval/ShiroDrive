@@ -1,0 +1,662 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/ntc_placement_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "b80f4e53a6b2d0f2141c7621ccca13b152eb86d52738a354707efabf63daf02e",
+  "moved": {
+    "R701": {
+      "before": {
+        "uuid": "7d416c38-db3f-492b-97cd-0deaef7213e0",
+        "position": [
+          -13.0,
+          9.5
+        ],
+        "angle": 90.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -14.145,
+            9.5
+          ],
+          "angle": 90.0,
+          "size": [
+            0.75,
+            0.75
+          ]
+        },
+        "pad_nets": {
+          "73d98d0a-59f1-4801-8825-b724d0146632": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "ac5861e2-6325-4a95-8bb0-95e551b7c451": {
+            "number": "2",
+            "net": "/Current / temperature/NTC_A_RAW"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/aabd278e-3163-5427-8475-e327f18bf9db"
+      },
+      "after": {
+        "uuid": "7d416c38-db3f-492b-97cd-0deaef7213e0",
+        "position": [
+          -16.399999,
+          -1.55
+        ],
+        "angle": 0.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -19.4,
+            -1.55
+          ],
+          "angle": 0.0,
+          "size": [
+            0.8,
+            0.8
+          ]
+        },
+        "pad_nets": {
+          "73d98d0a-59f1-4801-8825-b724d0146632": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "ac5861e2-6325-4a95-8bb0-95e551b7c451": {
+            "number": "2",
+            "net": "/Current / temperature/NTC_A_RAW"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/aabd278e-3163-5427-8475-e327f18bf9db"
+      }
+    },
+    "R711": {
+      "before": {
+        "uuid": "710188e5-7552-4174-bca3-f0c9f9c73e43",
+        "position": [
+          -9.5,
+          10.25
+        ],
+        "angle": 90.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -10.645,
+            10.25
+          ],
+          "angle": 90.0,
+          "size": [
+            0.75,
+            0.75
+          ]
+        },
+        "pad_nets": {
+          "1fb0ee53-6bf9-4221-891d-720803957cf8": {
+            "number": "1",
+            "net": "/Current / temperature/NTC_A_RAW"
+          },
+          "09d8ad12-2147-49c3-9969-96ffed48601b": {
+            "number": "2",
+            "net": "NTC_PHASE_A"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/a2cd581d-66ac-5638-809c-7a9266698c1f"
+      },
+      "after": {
+        "uuid": "710188e5-7552-4174-bca3-f0c9f9c73e43",
+        "position": [
+          -14.0,
+          -1.55
+        ],
+        "angle": 0.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -11.8,
+            -1.55
+          ],
+          "angle": 0.0,
+          "size": [
+            0.8,
+            0.8
+          ]
+        },
+        "pad_nets": {
+          "1fb0ee53-6bf9-4221-891d-720803957cf8": {
+            "number": "1",
+            "net": "/Current / temperature/NTC_A_RAW"
+          },
+          "09d8ad12-2147-49c3-9969-96ffed48601b": {
+            "number": "2",
+            "net": "NTC_PHASE_A"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/a2cd581d-66ac-5638-809c-7a9266698c1f"
+      }
+    },
+    "R702": {
+      "before": {
+        "uuid": "1eb13851-42a8-4887-9095-6c519b287f89",
+        "position": [
+          -13.25,
+          7.75
+        ],
+        "angle": 0.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -13.25,
+            6.604999
+          ],
+          "angle": 0.0,
+          "size": [
+            0.75,
+            0.75
+          ]
+        },
+        "pad_nets": {
+          "fe5e3184-c93c-4edf-9440-827f9d1135cf": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "8794334b-f982-4b48-9a31-18e551aec89e": {
+            "number": "2",
+            "net": "/Current / temperature/NTC_B_RAW"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/acb2083e-dd2f-5904-933a-bfe14504eb9e"
+      },
+      "after": {
+        "uuid": "1eb13851-42a8-4887-9095-6c519b287f89",
+        "position": [
+          -16.399999,
+          -0.5
+        ],
+        "angle": 0.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -19.4,
+            -0.5
+          ],
+          "angle": 0.0,
+          "size": [
+            0.8,
+            0.8
+          ]
+        },
+        "pad_nets": {
+          "fe5e3184-c93c-4edf-9440-827f9d1135cf": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "8794334b-f982-4b48-9a31-18e551aec89e": {
+            "number": "2",
+            "net": "/Current / temperature/NTC_B_RAW"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/acb2083e-dd2f-5904-933a-bfe14504eb9e"
+      }
+    },
+    "R712": {
+      "before": {
+        "uuid": "0293f7ec-6e3d-4bb7-bbdf-c1ac8226ff77",
+        "position": [
+          -9.75,
+          8.25
+        ],
+        "angle": 90.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -10.895001,
+            8.25
+          ],
+          "angle": 90.0,
+          "size": [
+            0.75,
+            0.75
+          ]
+        },
+        "pad_nets": {
+          "fba9fb3d-bc1e-4d82-ae4e-fc7f2d88bbab": {
+            "number": "1",
+            "net": "/Current / temperature/NTC_B_RAW"
+          },
+          "7d8f11af-2c64-45c7-b8c3-94de47b6f59a": {
+            "number": "2",
+            "net": "NTC_PHASE_B"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/31ad8c57-605c-57f4-b2e4-21befede0bb5"
+      },
+      "after": {
+        "uuid": "0293f7ec-6e3d-4bb7-bbdf-c1ac8226ff77",
+        "position": [
+          -14.0,
+          -0.5
+        ],
+        "angle": 0.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -11.8,
+            -0.5
+          ],
+          "angle": 0.0,
+          "size": [
+            0.8,
+            0.8
+          ]
+        },
+        "pad_nets": {
+          "fba9fb3d-bc1e-4d82-ae4e-fc7f2d88bbab": {
+            "number": "1",
+            "net": "/Current / temperature/NTC_B_RAW"
+          },
+          "7d8f11af-2c64-45c7-b8c3-94de47b6f59a": {
+            "number": "2",
+            "net": "NTC_PHASE_B"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/31ad8c57-605c-57f4-b2e4-21befede0bb5"
+      }
+    },
+    "R703": {
+      "before": {
+        "uuid": "8bed542b-0c96-44e4-862c-786cebed1a0a",
+        "position": [
+          -13.25,
+          11.0
+        ],
+        "angle": 0.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -13.25,
+            9.855
+          ],
+          "angle": 0.0,
+          "size": [
+            0.75,
+            0.75
+          ]
+        },
+        "pad_nets": {
+          "dd2773f5-fd3c-4772-9834-ad4b2aa85c71": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "f802bcda-924c-446f-8e24-f09b35af4d3f": {
+            "number": "2",
+            "net": "/Current / temperature/NTC_C_RAW"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/e3e9d75b-cb44-5c74-b008-9fdcc12cdadc"
+      },
+      "after": {
+        "uuid": "8bed542b-0c96-44e4-862c-786cebed1a0a",
+        "position": [
+          -16.399999,
+          0.55
+        ],
+        "angle": 0.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -19.4,
+            0.55
+          ],
+          "angle": 0.0,
+          "size": [
+            0.8,
+            0.8
+          ]
+        },
+        "pad_nets": {
+          "dd2773f5-fd3c-4772-9834-ad4b2aa85c71": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "f802bcda-924c-446f-8e24-f09b35af4d3f": {
+            "number": "2",
+            "net": "/Current / temperature/NTC_C_RAW"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/e3e9d75b-cb44-5c74-b008-9fdcc12cdadc"
+      }
+    },
+    "R713": {
+      "before": {
+        "uuid": "b7176cc6-abba-45f9-8c3a-f7ad06db63eb",
+        "position": [
+          -6.5,
+          10.0
+        ],
+        "angle": 90.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -7.855,
+            10.0
+          ],
+          "angle": 90.0,
+          "size": [
+            0.8,
+            0.8
+          ]
+        },
+        "pad_nets": {
+          "66593c0d-5690-4b5d-8ec6-d76487069f37": {
+            "number": "1",
+            "net": "/Current / temperature/NTC_C_RAW"
+          },
+          "3f199580-9e60-4891-a464-c51186b23659": {
+            "number": "2",
+            "net": "NTC_PHASE_C"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/63dd0ee9-9642-581f-9ed8-f0e5ce3e4ddd"
+      },
+      "after": {
+        "uuid": "b7176cc6-abba-45f9-8c3a-f7ad06db63eb",
+        "position": [
+          -14.0,
+          0.55
+        ],
+        "angle": 0.0,
+        "side": "B",
+        "reference_field": {
+          "position": [
+            -11.8,
+            0.55
+          ],
+          "angle": 0.0,
+          "size": [
+            0.8,
+            0.8
+          ]
+        },
+        "pad_nets": {
+          "66593c0d-5690-4b5d-8ec6-d76487069f37": {
+            "number": "1",
+            "net": "/Current / temperature/NTC_C_RAW"
+          },
+          "3f199580-9e60-4891-a464-c51186b23659": {
+            "number": "2",
+            "net": "NTC_PHASE_C"
+          }
+        },
+        "path": "/73a3ad8a-8b99-485f-a068-1c059917a31b/63dd0ee9-9642-581f-9ed8-f0e5ce3e4ddd"
+      }
+    }
+  },
+  "unchanged_references": [
+    "C1",
+    "C10",
+    "C101",
+    "C102",
+    "C103",
+    "C104",
+    "C105",
+    "C106",
+    "C107",
+    "C108",
+    "C11",
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C117",
+    "C118",
+    "C119",
+    "C12",
+    "C120",
+    "C121",
+    "C122",
+    "C123",
+    "C124",
+    "C125",
+    "C126",
+    "C127",
+    "C128",
+    "C129",
+    "C130",
+    "C131",
+    "C132",
+    "C133",
+    "C134",
+    "C135",
+    "C136",
+    "C137",
+    "C138",
+    "C139",
+    "C140",
+    "C141",
+    "C142",
+    "C143",
+    "C144",
+    "C145",
+    "C146",
+    "C147",
+    "C148",
+    "C149",
+    "C150",
+    "C151",
+    "C152",
+    "C153",
+    "C154",
+    "C155",
+    "C156",
+    "C157",
+    "C158",
+    "C159",
+    "C160",
+    "C2",
+    "C201",
+    "C202",
+    "C203",
+    "C204",
+    "C205",
+    "C206",
+    "C208",
+    "C209",
+    "C210",
+    "C211",
+    "C212",
+    "C213",
+    "C214",
+    "C215",
+    "C218",
+    "C219",
+    "C3",
+    "C301",
+    "C302",
+    "C303",
+    "C304",
+    "C305",
+    "C306",
+    "C307",
+    "C308",
+    "C309",
+    "C310",
+    "C311",
+    "C312",
+    "C313",
+    "C314",
+    "C4",
+    "C5",
+    "C501",
+    "C502",
+    "C503",
+    "C504",
+    "C505",
+    "C6",
+    "C601",
+    "C602",
+    "C603",
+    "C604",
+    "C605",
+    "C606",
+    "C607",
+    "C7",
+    "C701",
+    "C702",
+    "C711",
+    "C712",
+    "C713",
+    "C8",
+    "C801",
+    "C802",
+    "C9",
+    "C901",
+    "C902",
+    "C903",
+    "C904",
+    "D101",
+    "D201",
+    "D301",
+    "D501",
+    "D502",
+    "D505",
+    "D601",
+    "D801",
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "J1",
+    "J1001",
+    "J101",
+    "J201",
+    "J501",
+    "J502",
+    "J601",
+    "J801",
+    "J802",
+    "L201",
+    "Q201",
+    "Q301",
+    "Q501",
+    "Q801",
+    "Q802",
+    "R1",
+    "R101",
+    "R102",
+    "R103",
+    "R105",
+    "R106",
+    "R2",
+    "R201",
+    "R202",
+    "R203",
+    "R204",
+    "R206",
+    "R207",
+    "R208",
+    "R209",
+    "R210",
+    "R211",
+    "R212",
+    "R213",
+    "R214",
+    "R215",
+    "R216",
+    "R217",
+    "R218",
+    "R219",
+    "R220",
+    "R221",
+    "R3",
+    "R301",
+    "R302",
+    "R303",
+    "R304",
+    "R305",
+    "R306",
+    "R307",
+    "R308",
+    "R309",
+    "R310",
+    "R311",
+    "R312",
+    "R313",
+    "R314",
+    "R315",
+    "R4",
+    "R410",
+    "R417",
+    "R418",
+    "R419",
+    "R420",
+    "R427",
+    "R428",
+    "R429",
+    "R430",
+    "R437",
+    "R438",
+    "R439",
+    "R441",
+    "R442",
+    "R443",
+    "R5",
+    "R501",
+    "R502",
+    "R503",
+    "R504",
+    "R505",
+    "R506",
+    "R509",
+    "R510",
+    "R511",
+    "R512",
+    "R6",
+    "R604",
+    "R605",
+    "R606",
+    "R607",
+    "R611",
+    "R615",
+    "R616",
+    "R617",
+    "R618",
+    "R715",
+    "R801",
+    "R802",
+    "R803",
+    "R804",
+    "R805",
+    "R806",
+    "R901",
+    "R902",
+    "R903",
+    "R904",
+    "R905",
+    "SW301",
+    "TH701",
+    "TH702",
+    "TH703",
+    "U1",
+    "U2",
+    "U201",
+    "U202",
+    "U203",
+    "U204",
+    "U205",
+    "U3",
+    "U4",
+    "U501",
+    "U502",
+    "U601",
+    "U602",
+    "U603",
+    "U604",
+    "U701",
+    "U801",
+    "U901",
+    "Y301"
+  ],
+  "removed_copper": [],
+  "added_copper": [],
+  "geometry_collisions": [],
+  "rationale": "Three aligned bias/series resistor rows in the quiet USB/CAN service-side gap. ADC capacitors and phase thermistors stay fixed; the series-resistor/filter-cap path requires later routing."
+}

@@ -1,0 +1,35 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/ntc_unfenced/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "/MCU / clock / SWD/NRST",
+      "source": "b38ef85c-7d1c-4e68-88a5-84bb2ac67336",
+      "target": "749a71d3-61f4-4a98-b092-063cdad70ead",
+      "source_ref": "C310",
+      "source_pin": "1",
+      "target_ref": "R303",
+      "target_pin": "2",
+      "distance_mm": 3.2493268533651705,
+      "length_mm": 3.443502884254433,
+      "vias": 0,
+      "path_points": 123,
+      "rejected": false,
+      "new_items": [
+        "f6d6e2e4-dbe9-4f49-a216-421fc152ac28",
+        "48c3f2f8-bf20-4f0d-a01a-9cb17d46382f",
+        "713719c8-4669-42bc-ae7a-c30e8a8e67ca"
+      ],
+      "elapsed_seconds": 18.99069309234619
+    }
+  ]
+}

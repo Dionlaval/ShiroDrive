@@ -1,0 +1,81 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+07:54:29 PM: Debug: Adding duplicate image handler for 'PNG file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'JPEG file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'TIFF file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'GIF file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'PNM file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'PCX file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'IFF file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'TGA file'
+07:54:29 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "beyond_selected_net_count": 27,
+  "minimum_onboard_pad_cluster_joins": 125,
+  "native_drc_unconnected_scope": {
+    "onboard_pad_to_pad": 71,
+    "includes_DNP_or_staged": 123,
+    "includes_dangling_or_separate_copper": 62
+  },
+  "categories": {
+    "auxiliary_power": {
+      "net_count": 6,
+      "minimum_pad_cluster_joins": 28,
+      "nets": [
+        "/External feedback/EXT_VCC",
+        "5V_BAT",
+        "5V_SYS",
+        "5V_USB",
+        "Net-(U201-SW)",
+        "VCC"
+      ]
+    },
+    "gate_drive": {
+      "net_count": 9,
+      "minimum_pad_cluster_joins": 9,
+      "nets": [
+        "GHS1",
+        "GHS2",
+        "GHS3",
+        "GLS1",
+        "GLS2",
+        "GLS3",
+        "HS_RETURN_U",
+        "HS_RETURN_V",
+        "HS_RETURN_W"
+      ]
+    },
+    "high_current": {
+      "net_count": 5,
+      "minimum_pad_cluster_joins": 25,
+      "nets": [
+        "Net-(J501-Pad1)",
+        "PHASE_U",
+        "PHASE_V",
+        "PHASE_W",
+        "VM"
+      ]
+    },
+    "support": {
+      "net_count": 6,
+      "minimum_pad_cluster_joins": 6,
+      "nets": [
+        "SHUNT_U_SENSE_N",
+        "SHUNT_U_SENSE_P",
+        "SHUNT_V_SENSE_N",
+        "SHUNT_V_SENSE_P",
+        "SHUNT_W_SENSE_N",
+        "SHUNT_W_SENSE_P"
+      ]
+    },
+    "ground_connections": {
+      "net_count": 1,
+      "minimum_pad_cluster_joins": 57,
+      "nets": [
+        "GND"
+      ]
+    }
+  }
+}

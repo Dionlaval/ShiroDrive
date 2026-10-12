@@ -1,0 +1,146 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/ground/candidate/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "dbe40401cbb6e288120809b1ad0dfb41f45260e70f840e4b3e717975363d5829",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/ground/resistor_candidate/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "ground_R311_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R311.2",
+      "pad_uuid": "5f8ebef0-d2a7-4755-b49c-51b72f0d5a4c",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -0.86,
+        1.589999
+      ],
+      "end_mm": [
+        1.15,
+        2.05
+      ],
+      "stub_length_mm": 2.200539,
+      "added_uuids": [
+        "79a6e2f1-de8d-4f46-ade8-365385af68b5",
+        "d329d306-5588-43c2-95c5-36e357f85b48"
+      ],
+      "new_items": [
+        "79a6e2f1-de8d-4f46-ade8-365385af68b5",
+        "d329d306-5588-43c2-95c5-36e357f85b48"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R315_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R315.2",
+      "pad_uuid": "81088b79-d07a-4844-bd35-145b13da7269",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -15.420001,
+        14.015
+      ],
+      "end_mm": [
+        -17.25,
+        14.775
+      ],
+      "stub_length_mm": 2.144801,
+      "added_uuids": [
+        "b5b0997d-d42d-49cd-b7cb-215f43d0abde",
+        "867e6d63-beb8-4dc6-b8a8-88be2fe33455"
+      ],
+      "new_items": [
+        "b5b0997d-d42d-49cd-b7cb-215f43d0abde",
+        "867e6d63-beb8-4dc6-b8a8-88be2fe33455"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "ed9edda8-3cea-4ccf-9422-3274ae82130b",
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R213_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R213.2",
+      "pad_uuid": "601cafac-c9d2-4ce3-b15f-106507fddc34",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -14.010003,
+        -21.879997
+      ],
+      "end_mm": [
+        -11.4,
+        -21.65
+      ],
+      "stub_length_mm": 2.705271,
+      "added_uuids": [
+        "5122bc4c-6a4a-409b-8494-831768152572",
+        "ce467d80-a0a0-45bd-907a-07cd42e91fd8"
+      ],
+      "new_items": [
+        "5122bc4c-6a4a-409b-8494-831768152572",
+        "ce467d80-a0a0-45bd-907a-07cd42e91fd8"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "0e853b39-4f2e-4efa-8d57-fdbd9ccf1495",
+      "track_widths_mm": [
+        0.1524
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "pad": "R618.2",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "R905.2",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "R209.2",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "R616.2",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "R617.2",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "R211.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R441.2",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "R804.2",
+      "reason": "already reaches existing GND plane"
+    }
+  ],
+  "signal_returns": null,
+  "added_counts": {
+    "PCB_TRACK": 6
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 3.0,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

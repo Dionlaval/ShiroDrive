@@ -1,0 +1,34 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/can_final/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/can_return/ShiroFOC_Manual.kicad_pcb",
+  "removed_ids": [],
+  "new_ids": [
+    "cd5bdd3c-761e-44fd-b9f1-5c4c5ad03aaf"
+  ],
+  "footprint_moves": [],
+  "allowed_replacement_uuids": [],
+  "net_geometry": [
+    {
+      "net": "GND",
+      "before": {
+        "tracks": 88,
+        "vias": 61,
+        "length_mm": 70.152137,
+        "layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      },
+      "after": {
+        "tracks": 88,
+        "vias": 62,
+        "length_mm": 70.152137,
+        "layers": [
+          "B.Cu",
+          "F.Cu"
+        ]
+      }
+    }
+  ],
+  "reason": "Add one GND through via at (5.65,2.5), 0.813 mm from CAN L3/L4 transition; connect existing GND L2 and L5 planes without changing signal copper."
+}

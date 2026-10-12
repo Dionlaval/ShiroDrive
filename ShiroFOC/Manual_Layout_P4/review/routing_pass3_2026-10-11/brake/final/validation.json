@@ -1,0 +1,297 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_03/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/brake/final/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "192743ddd26768cae5c64b662d253b784ded1abfa7457791f452c03a9b1aee6c",
+  "candidate_sha256": "4c4ce9969a933948730dd153abf55b40a3c31da087002422ddc9cb09ec96e22f",
+  "footprint_count": 272,
+  "changed_footprints": [
+    {
+      "uuid": "cda89781-22e9-4527-a406-b1595f11f21f",
+      "reference": "R313",
+      "changed_fields": [
+        "position_nm",
+        "pads"
+      ]
+    },
+    {
+      "uuid": "15722463-8789-4b0e-b565-d54dd4615d23",
+      "reference": "C302",
+      "changed_fields": [
+        "position_nm",
+        "pads"
+      ]
+    }
+  ],
+  "authorized_footprint_moves": [
+    {
+      "uuid": "cda89781-22e9-4527-a406-b1595f11f21f",
+      "reference": "R313",
+      "old": {
+        "position_nm": [
+          -7200000,
+          3300000
+        ],
+        "angle_deg": 90.0
+      },
+      "new": {
+        "position_nm": [
+          -7200000,
+          2700000
+        ],
+        "angle_deg": 90.0
+      },
+      "translation_mm": 0.6
+    },
+    {
+      "uuid": "15722463-8789-4b0e-b565-d54dd4615d23",
+      "reference": "C302",
+      "old": {
+        "position_nm": [
+          -9080000,
+          1280000
+        ],
+        "angle_deg": 0.0
+      },
+      "new": {
+        "position_nm": [
+          -9480000,
+          1280000
+        ],
+        "angle_deg": 0.0
+      },
+      "translation_mm": 0.4
+    }
+  ],
+  "footprint_move_manifest_errors": [],
+  "unauthorized_footprint_changes": [],
+  "footprint_geometry_changes_authorized": true,
+  "removed_old_copper": [
+    "1bc974c2-be34-4cd1-b52e-dafd479ecc8b",
+    "2888667f-ca08-47cc-ab9c-0694918c8380",
+    "348dd70f-1005-4493-b8e6-caab0b06cc87",
+    "3c0b0e0e-48c5-4de2-a9f2-c0713a4d6d47",
+    "5b95dd54-d956-4e4c-b7f1-3af8c3f647c7",
+    "5d3b3fae-7066-40be-8764-90d371ba9333",
+    "774e8f9b-d154-4edc-ab7b-66c4fa396b3f",
+    "86707db8-2594-477b-920b-61b513bc5a74",
+    "9e3ef56e-5265-4070-8219-ab3c0779682f",
+    "a9ab7d90-ff23-43cc-9168-2bc527b3f26b",
+    "b0c35876-a465-4b88-b183-d77b679da538",
+    "b2434500-dfaf-4508-b420-e5668994c0f4",
+    "bd195ca8-b0fd-4277-beca-03d5e247e4d5",
+    "c177c482-3b31-45f1-bec9-51b163401145",
+    "d55ff758-0bed-4950-b719-aa038a969fca"
+  ],
+  "changed_old_copper": [],
+  "existing_copper_unchanged": false,
+  "allowed_replacement_uuids": [
+    "1bc974c2-be34-4cd1-b52e-dafd479ecc8b",
+    "2888667f-ca08-47cc-ab9c-0694918c8380",
+    "348dd70f-1005-4493-b8e6-caab0b06cc87",
+    "3c0b0e0e-48c5-4de2-a9f2-c0713a4d6d47",
+    "5b95dd54-d956-4e4c-b7f1-3af8c3f647c7",
+    "5d3b3fae-7066-40be-8764-90d371ba9333",
+    "774e8f9b-d154-4edc-ab7b-66c4fa396b3f",
+    "86707db8-2594-477b-920b-61b513bc5a74",
+    "9e3ef56e-5265-4070-8219-ab3c0779682f",
+    "a9ab7d90-ff23-43cc-9168-2bc527b3f26b",
+    "b0c35876-a465-4b88-b183-d77b679da538",
+    "b2434500-dfaf-4508-b420-e5668994c0f4",
+    "bd195ca8-b0fd-4277-beca-03d5e247e4d5",
+    "c177c482-3b31-45f1-bec9-51b163401145",
+    "d55ff758-0bed-4950-b719-aa038a969fca"
+  ],
+  "unknown_authorized_ids": [],
+  "unauthorized_removed_old_copper": [],
+  "unauthorized_changed_old_copper": [],
+  "old_copper_net_or_class_changed": [],
+  "existing_copper_changes_authorized": true,
+  "checked_new_or_replaced_item_count": 50,
+  "checked_new_or_replaced_items": [
+    "0aa470c9-30e3-40c6-8d65-86ed67e0d9a9",
+    "13c81ee9-6347-4bd0-a70a-54d88d304777",
+    "158560bd-dc26-45a6-b9cc-33eb3ec33466",
+    "178a0edc-3ac9-4338-a409-c21644bb1850",
+    "1d5c6c57-059c-4678-9e89-a40514e21f11",
+    "2c7176da-6223-4427-8139-af3bb9279fba",
+    "2d1ec5b9-d093-43f7-aa4e-00a341184cfe",
+    "3496956d-1784-41e7-abe2-55f09c73f642",
+    "377dae5b-1804-478c-bc8c-58305932f31d",
+    "3a7f3a90-76d8-4de8-878e-dde8f3763e54",
+    "42efde65-ae0b-48e8-9563-fb1932ce4cf0",
+    "4514634a-99aa-4715-91df-857eec07cbd0",
+    "4ac039e2-6b30-495a-9522-4785659a40ac",
+    "53d430f6-1443-40bc-9c9e-ff5c3b895ad2",
+    "54ae4ba3-a90e-45fa-9832-e389eba9fbcc",
+    "6006cccd-7cdd-4064-be60-f3f6ac101560",
+    "603f04e4-fdb9-422a-beec-f9dedd3c3f65",
+    "64c6293d-df8b-45c3-803f-92330ba42b9c",
+    "6ed37d6f-71aa-4cce-952f-a51dfacf4873",
+    "721cbc76-517f-41dc-a4bd-4b95dcca4925",
+    "724199d0-ec75-4a96-b3ed-8d60e13faa2b",
+    "77d8d2bb-7664-4cbb-884c-6ea6a84a7cd6",
+    "7911d68f-e715-4030-bbf5-e6ae68d783e3",
+    "7e3f2ca6-bb72-42b2-94b4-d29b5f3ce7fa",
+    "8090d76b-c066-4586-862a-a521f4b8928e",
+    "8e2452f7-d1b8-45fa-aa04-885a139716de",
+    "8f774976-1b12-41b3-9aa6-261c6186192e",
+    "914fc82b-7119-4c97-a344-67bb06375b86",
+    "9756814d-851d-4249-b920-0df4fb945ef3",
+    "997f5cdd-34b5-49a0-abb3-02437054fc96",
+    "a9a19ede-be2b-4f39-9250-c0bb01e252b6",
+    "aab8bab2-f520-4791-813e-2d235c99ca61",
+    "ae481252-b5ba-4105-bbdb-cec5c6fc8dbb",
+    "b0e6519a-d86d-4df3-9328-733e46027a75",
+    "b85c7885-c533-4ba8-8339-678f7054312b",
+    "c322dfaa-a2db-459e-a7e2-85c6925859ea",
+    "c4782ab6-08b4-4497-8039-cde32e143bb0",
+    "d0e8143b-c725-4906-8f8e-33655d759c7c",
+    "d572220d-fa2e-4483-aae7-064e3cb5d13f",
+    "d95f4ebb-cae9-4ac0-be98-7245e3743129",
+    "dc249a63-f009-4700-9bf1-b0cf0767d5e9",
+    "e018b9c3-452c-4ada-a973-384789a422eb",
+    "eed74c52-7976-4455-92c1-f8d3a2083e5c",
+    "f2f89fcd-be16-4196-b2f8-15b7a8b6145b",
+    "f7cc5c6e-eabb-4e57-b07b-58dcd465f25f",
+    "fb2586be-a387-42cd-8ad8-002e34e4d2a4",
+    "fc684bda-4ae9-4387-9c72-bea2c3d1a98c",
+    "fce6f4d5-0cba-4bb5-a5be-b5b2d324d913",
+    "fd1909da-fb60-4ec1-a9ce-c8a4edcaf5ab",
+    "ff71c050-8257-4a1e-8344-d519995f3d78"
+  ],
+  "new_item_count": 50,
+  "new_items": [
+    "0aa470c9-30e3-40c6-8d65-86ed67e0d9a9",
+    "13c81ee9-6347-4bd0-a70a-54d88d304777",
+    "158560bd-dc26-45a6-b9cc-33eb3ec33466",
+    "178a0edc-3ac9-4338-a409-c21644bb1850",
+    "1d5c6c57-059c-4678-9e89-a40514e21f11",
+    "2c7176da-6223-4427-8139-af3bb9279fba",
+    "2d1ec5b9-d093-43f7-aa4e-00a341184cfe",
+    "3496956d-1784-41e7-abe2-55f09c73f642",
+    "377dae5b-1804-478c-bc8c-58305932f31d",
+    "3a7f3a90-76d8-4de8-878e-dde8f3763e54",
+    "42efde65-ae0b-48e8-9563-fb1932ce4cf0",
+    "4514634a-99aa-4715-91df-857eec07cbd0",
+    "4ac039e2-6b30-495a-9522-4785659a40ac",
+    "53d430f6-1443-40bc-9c9e-ff5c3b895ad2",
+    "54ae4ba3-a90e-45fa-9832-e389eba9fbcc",
+    "6006cccd-7cdd-4064-be60-f3f6ac101560",
+    "603f04e4-fdb9-422a-beec-f9dedd3c3f65",
+    "64c6293d-df8b-45c3-803f-92330ba42b9c",
+    "6ed37d6f-71aa-4cce-952f-a51dfacf4873",
+    "721cbc76-517f-41dc-a4bd-4b95dcca4925",
+    "724199d0-ec75-4a96-b3ed-8d60e13faa2b",
+    "77d8d2bb-7664-4cbb-884c-6ea6a84a7cd6",
+    "7911d68f-e715-4030-bbf5-e6ae68d783e3",
+    "7e3f2ca6-bb72-42b2-94b4-d29b5f3ce7fa",
+    "8090d76b-c066-4586-862a-a521f4b8928e",
+    "8e2452f7-d1b8-45fa-aa04-885a139716de",
+    "8f774976-1b12-41b3-9aa6-261c6186192e",
+    "914fc82b-7119-4c97-a344-67bb06375b86",
+    "9756814d-851d-4249-b920-0df4fb945ef3",
+    "997f5cdd-34b5-49a0-abb3-02437054fc96",
+    "a9a19ede-be2b-4f39-9250-c0bb01e252b6",
+    "aab8bab2-f520-4791-813e-2d235c99ca61",
+    "ae481252-b5ba-4105-bbdb-cec5c6fc8dbb",
+    "b0e6519a-d86d-4df3-9328-733e46027a75",
+    "b85c7885-c533-4ba8-8339-678f7054312b",
+    "c322dfaa-a2db-459e-a7e2-85c6925859ea",
+    "c4782ab6-08b4-4497-8039-cde32e143bb0",
+    "d0e8143b-c725-4906-8f8e-33655d759c7c",
+    "d572220d-fa2e-4483-aae7-064e3cb5d13f",
+    "d95f4ebb-cae9-4ac0-be98-7245e3743129",
+    "dc249a63-f009-4700-9bf1-b0cf0767d5e9",
+    "e018b9c3-452c-4ada-a973-384789a422eb",
+    "eed74c52-7976-4455-92c1-f8d3a2083e5c",
+    "f2f89fcd-be16-4196-b2f8-15b7a8b6145b",
+    "f7cc5c6e-eabb-4e57-b07b-58dcd465f25f",
+    "fb2586be-a387-42cd-8ad8-002e34e4d2a4",
+    "fc684bda-4ae9-4387-9c72-bea2c3d1a98c",
+    "fce6f4d5-0cba-4bb5-a5be-b5b2d324d913",
+    "fd1909da-fb60-4ec1-a9ce-c8a4edcaf5ab",
+    "ff71c050-8257-4a1e-8344-d519995f3d78"
+  ],
+  "new_track_widths_mm": {
+    "0.1524": 44
+  },
+  "invalid_new_widths": [],
+  "invalid_new_vias": [],
+  "outside_board_copper": [],
+  "via_pad_overlaps": [],
+  "new_routing_by_net": {
+    "3V3": {
+      "tracks": 5,
+      "vias": 0,
+      "length_mm": 2.975609
+    },
+    "BRAKE_PWM": {
+      "tracks": 16,
+      "vias": 4,
+      "length_mm": 29.232362
+    },
+    "IMU_INT2": {
+      "tracks": 6,
+      "vias": 0,
+      "length_mm": 5.653858
+    },
+    "Net-(U601-CLK)": {
+      "tracks": 2,
+      "vias": 0,
+      "length_mm": 0.705184
+    },
+    "SPI3_SCK_MCU": {
+      "tracks": 11,
+      "vias": 2,
+      "length_mm": 8.334416
+    },
+    "USB_UART_RX": {
+      "tracks": 4,
+      "vias": 0,
+      "length_mm": 6.839951
+    }
+  },
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 19,
+      "vias": 0,
+      "length_mm": 14.772012
+    },
+    "F.Cu": {
+      "tracks": 1,
+      "vias": 0,
+      "length_mm": 1.295
+    },
+    "Power L4": {
+      "tracks": 12,
+      "vias": 0,
+      "length_mm": 23.810406
+    },
+    "Signals L3": {
+      "tracks": 12,
+      "vias": 0,
+      "length_mm": 13.863961
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 6,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 29,
+    "warnings": 377,
+    "unconnected": 277
+  },
+  "candidate_drc": {
+    "errors": 29,
+    "warnings": 376,
+    "unconnected": 276
+  },
+  "introduced_errors": [],
+  "introduced_error_item_uuids": [],
+  "project_schematic_rules_hash_check": "External responsibility; this script does not modify them",
+  "scope": "Additive routing and native DRC regression; does not claim circuit or signal-integrity verification"
+}

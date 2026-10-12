@@ -1,0 +1,50 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+2/3 /Current / temperature/NTC_A_RAW: 1301 points; 34.34 mm; 3 vias; accepted candidate; 4.49s
+{"candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/signal_final/ShiroFOC_Manual.kicad_pcb", "connections": 1, "new_items": 18, "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/signal_final/ShiroFOC_Manual.routes.json"}
+Found 421 violations
+Found 338 unconnected items
+Saved DRC Report to /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/signal_final/drc.json
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+05:52:30 PM: Debug: Adding duplicate image handler for 'PNG file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'JPEG file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'TIFF file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'GIF file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'PNM file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'PCX file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'IFF file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'TGA file'
+05:52:30 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "failures": [],
+  "new_item_count": 414,
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 388,
+    "unconnected": 338
+  }
+}
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_VIA *', no destructor found.
+swig/python detected a memory leak of type 'PCB_VIA *', no destructor found.
+swig/python detected a memory leak of type 'PCB_VIA *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.
+swig/python detected a memory leak of type 'PCB_TRACK *', no destructor found.

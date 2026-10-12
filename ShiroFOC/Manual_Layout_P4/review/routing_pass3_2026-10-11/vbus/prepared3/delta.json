@@ -1,0 +1,33 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/vbus/prepared3/ShiroFOC_Manual.kicad_pcb",
+  "allowed_replacement_uuids": [
+    "981ec8e4-fca2-4402-9b73-0ac75e3b8ae3",
+    "ecf12b11-f579-47f3-be16-080c6b7ad46c"
+  ],
+  "footprint_moves": [],
+  "groups": [
+    {
+      "id": "feedback_I_escape_detour",
+      "net": "FEEDBACK_I_H3",
+      "removed_items": [
+        "981ec8e4-fca2-4402-9b73-0ac75e3b8ae3",
+        "ecf12b11-f579-47f3-be16-080c6b7ad46c"
+      ],
+      "new_items": [
+        "6999d46f-77c9-41c2-8995-30816e7c2442",
+        "82c5d2c2-5a86-4179-9bec-f487d5b51146",
+        "60ec5f38-fe78-40e0-be8e-3bfdd5a89fa8",
+        "861501e1-5d25-4f3b-a517-239c174433c6",
+        "a29dc769-d852-4b62-8bb5-0449822e1028"
+      ]
+    },
+    {
+      "id": "VBUS_MCU_escape_via",
+      "net": "VBUS_SENSE",
+      "new_items": [
+        "20e4c18d-5f33-4de4-930d-33553c049ce1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R510/R509
+* Expected Vout = 3.3 * 0.013125 = 0.0433 V
+* Model: ideal passives (exact, unloaded)
+
+VIN BRAKE_OV_CMD 0 DC 3.3
+R510 BRAKE_OV_CMD __unnamed_36 1Meg
+R509 __unnamed_36 0 13.3k
+
+.op 
+
+.end

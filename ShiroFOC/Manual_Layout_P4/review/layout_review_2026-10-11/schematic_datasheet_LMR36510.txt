@@ -1,0 +1,1996 @@
+PDF PAGE 1
+LMR36510 SIMPLE SWITCHER® 4.2V to 65V, 1A Synchronous Step-Down Converter
+1 Features
+• Designed for reliable and rugged applications
+– Input transient protection up to 70V
+– Protection features: thermal shutdown, input 
+undervoltage lockout, cycle-by-cycle current 
+limit, hiccup short-circuit protection
+• Well-designed for scalable industrial power 
+supplies
+– Pin compatible with:
+• LMR36520 (65V, 2 A)
+• LMR33610, LMR33620, LMR33630,
+LMR33640 (36V, 1A, 2A, 3A, or 4A)
+– Internal compensation helps reduce design 
+size, cost, and design complexity
+– 400kHz frequency
+• Wide conversion range
+– Input voltage range: 4.2V to 65V
+– Output voltage range: 1V to 95% of VIN
+• Low-power dissipation across load spectrum
+– 90% efficiency: 24 VIN, 5 VOUT, 1A at 400kHz
+– Increased light-load efficiency in PFM mode
+– Low operating quiescent current of 26µA
+• Power-good output with filter and delayed release
+2 Applications
+• IP network cameras
+• Analog security cameras
+• HVAC valve and actuator control
+• AC drive and servo drive control modules
+• Analog input modules and mixed IO modules
+• General purpose wide VIN power supply
+3 Description
+The LMR36510 regulator is an easy-to-use, 
+synchronous, step-down DC/DC SIMPLE SWITCHER 
+power converter. With integrated high-side and low-
+side power MOSFETs, output current up to 1A is 
+delivered over a wide input voltage range of 4.2V 
+to 65V. The transient tolerance that goes up to 
+70V reduces the design size and cost to protect 
+against overvoltages and meets the surge immunity 
+requirements of IEC 61000-4-5.
+The LMR36510 uses peak-current mode control 
+to provide excellent efficiency and output voltage 
+accuracy. Precision enable gives flexibility by enabling 
+a direct connection to the wide input voltage or 
+precise control over device start-up and shutdown. 
+The power-good flag, with built-in filtering and delay, 
+offers a true indication of system status, eliminating 
+the requirement for an external supervisor.
+Integration and internal compensation eliminates 
+many external components and provides a pinout 
+designed for a simple PCB layout. The feature set of 
+the device is designed to simplify implementation for a 
+wide range of end equipment. The LMR36510 is pin-
+to-pin compatible with the LMR36520 (65V, 2A) and 
+LMR33610, LMR33620, LMR33630 and LMR33640 
+(36V, 1A, 2A, 3A, 4A), completing the latest family 
+of SIMPLE SWITCHER power converters. This 
+compatibility increases the ease of use and scalability 
+of wide Vin converters across various commonly used 
+voltage and current ratings without having the need 
+to redesign the board layout. As a result, the overall 
+cost, design effort, and time to market are optimized.
+The LMR36510 is in an 8-pin HSOIC package.
+Package Information
+PART NUMBER PACKAGE(1) PACKAGE SIZE(2)
+LMR36510 DDA (HSOIC, 8) 4.9mm × 6mm
+(1) For more information, see Section 11.
+(2) The package size (length × width) is a nominal value and 
+includes pins, where applicable.
+Load Current (A)
+Efficiency (%)
+0.001 0.002 0.005 0.01 0.02 0.05 0.1 0.2 0.3 0.5 1
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+100
+Effi
+VIN = 8V
+VIN = 12V
+VIN = 24V
+VIN = 36V
+VIN = 48V
+Efficiency versus Output Current VOUT = 5V, 
+400kHz
+VIN VIN
+EN
+BOOT
+SW
+FB
+VOUT 
+CBOOT
+L1CIN
+COUT
+RFBT
+RFBB
+VCC
+ 
+ 
+ PG
+PGND
+CVCC Simplified Schematic
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, 
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+
+PDF PAGE 2
+Table of Contents
+1 Features............................................................................1
+2 Applications.....................................................................1
+3 Description.......................................................................1
+4 Device Comparison Table...............................................3
+5 Pin Configuration and Functions...................................4
+6 Specifications.................................................................. 5
+6.1 Absolute Maximum Ratings........................................ 5
+6.2 ESD Ratings............................................................... 5
+6.3 Recommended Operating Conditions.........................5
+6.4 Thermal Information....................................................6
+6.5 Electrical Characteristics.............................................6
+6.6 Timing Requirements..................................................7
+6.7 Switching Characteristics............................................7
+6.8 System Characteristics............................................... 8
+6.9 Typical Characteristics................................................9
+7 Detailed Description......................................................10
+7.1 Overview...................................................................10
+7.2 Functional Block Diagram.........................................10
+7.3 Feature Description...................................................10
+7.4 Device Functional Modes..........................................14
+8 Application and Implementation..................................16
+8.1 Application Information............................................. 16
+8.2 Typical Application.................................................... 16
+8.3 Best Design Practices...............................................25
+8.4 Power Supply Recommendations.............................26
+8.5 Layout....................................................................... 26
+9 Device and Documentation Support............................29
+9.1 Device Support......................................................... 29
+9.2 Documentation Support............................................ 29
+9.3 Receiving Notification of Documentation Updates....29
+9.4 Support Resources................................................... 29
+9.5 Trademarks...............................................................29
+9.6 Electrostatic Discharge Caution................................29
+9.7 Glossary....................................................................30
+10 Revision History.......................................................... 30
+11 Mechanical, Packaging, and Orderable 
+Information.................................................................... 30
+11.1 Tape and Reel Information...................................... 30
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+2 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 3
+4 Device Comparison Table
+ORDERABLE PART NUMBER CURRENT FPWM fSW
+LMR36510ADDAR 1 A No 400 kHz
+LMR36510FADDAR 1 A Yes 400 kHz
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 3
+Product Folder Links: LMR36510
+
+PDF PAGE 4
+5 Pin Configuration and Functions
+1PGND 8  SW
+2VIN 7  BOOT
+3EN 6  VCC
+4PG 5  FB
+Not to scale
+THERMAL PAD
+Figure 5-1. 8-Pin HSOIC DDA Package (Top View)
+Table 5-1. Pin Functions
+PIN
+TYPE DESCRIPTION
+NAME NO.
+PGND 1 G
+Power and analog ground terminal. Connect to bypass capacitor with short, wide traces. Ground 
+reference for internal references and logic. All electrical parameters are measured with respect to this 
+pin.
+VIN 2 P Input supply to regulator. Connect a high-quality bypass capacitor or capacitors directly to this pin 
+and PGND.
+EN 3 A Enable input to regulator. High = ON, low = OFF. Can be connected directly to VIN; Do not float.
+PG 4 A
+Open-drain power-good flag output. Connect to suitable voltage supply through a current limiting 
+resistor. High = power OK, low = power bad. Flag pulls low when EN = Low. Can be left open when 
+not used.
+FB 5 A Feedback input to regulator. Connect to tap point of feedback voltage divider. Do not float. Do not 
+ground.
+VCC 6 P
+Internal 5-V LDO output. Used as supply to internal control circuits. Do not connect to external loads. 
+Can be used as logic supply for power-good flag. Connect a high-quality 1-µF capacitor from this pin 
+to PGND.
+BOOT 7 P Bootstrap supply voltage for internal high-side driver. Connect a high-quality 100-nF capacitor from 
+this pin to the SW pin.
+SW 8 P Regulator switch node. Connect to a power inductor.
+PAD THERMAL 
+PAD Thermal Major heat dissipation path of the device. A direct thermal connection to a ground plane is required. 
+The PAD is not meant as an electrical interconnect. Electrical characteristics are not specified.
+A = Analog, P = Power, G = Ground
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+4 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 5
+6 Specifications
+6.1 Absolute Maximum Ratings
+Over junction temperature range of -40°C to 150°C (unless otherwise noted)(1)
+MIN MAX UNIT
+Input voltage VIN to PGND –0.3 70 V
+Input voltage EN to PGND –0.3 70.3 V
+Input voltage FB to PGND –0.3 5.5 V
+Input voltage PG to PGND –0.3 20 V
+Output voltage SW to PGND –0.3 70.3 V
+Output voltage SW to PGND less than 10-ns transients –3.5 70 V
+Output voltage CBOOT to SW –0.3 5.5 V
+Output voltage VCC to PGND –0.3 5.5 V
+Junction Temperature TJ -40 150 °C
+Storage temperature, Tstg –65 150 °C
+(1) Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress 
+ratings only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under 
+Recommended Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device 
+reliability.
+6.2 ESD Ratings
+VALUE UNIT
+V(ESD) Electrostatic discharge
+Human-body model (HBM)(1) ±2500
+V
+Charged-device model (CDM)(2) ±750
+(1) JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2) JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+6.3 Recommended Operating Conditions
+Over the recommended operating junction temperature range of –40℃ to 125℃ (unless otherwise noted)(1)
+MIN MAX UNIT
+Input voltage
+VIN to PGND 4.2 65 V
+EN to PGND(2) 0 65 V
+PG to PGND(2) 0 18 V
+Output voltage VOUT 1 28 V
+Output current IOUT 0 1 A
+(1) Recommended operating conditions indicate conditions for which the device is intended to be functional, but do not specify specific 
+performance limits. For specified specifications, see Electrical Characteristics.
+(2) The voltage on this pin must not exceed the voltage on the VIN pin by more than 0.3 V.
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 5
+Product Folder Links: LMR36510
+
+PDF PAGE 6
+6.4 Thermal Information
+THERMAL METRIC(1)
+LMR36510
+UNITDDA (HSOIC)
+8 PINS
+RθJA Junction-to-ambient thermal resistance 42.9 °C/W
+RθJC(top) Junction-to-case (top) thermal resistance 54 °C/W
+RθJB Junction-to-board thermal resistance 13.6 °C/W
+ψJT Junction-to-top characterization parameter 4.3 °C/W
+ψJB Junction-to-board characterization parameter 13.8 °C/W
+RθJC(bot) Junction-to-case (bottom) thermal resistance 4.3 °C/W
+(1) For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application 
+note.
+6.5 Electrical Characteristics
+Limits apply over operating junction temperature (TJ ) range of –40°C to +125°C, unless otherwise stated. Minimum and 
+Maximum limits(1) are specified through test, design or statistical correlation. Typical values represent the most likely 
+parametric norm at TJ = 25°C, and are provided for reference purposes only. Unless otherwise stated, the following 
+conditions apply: VIN = 24 V.
+PARAMETER TEST CONDITIONS MIN TYP MAX UNIT
+SUPPLY VOLTAGE (VIN PIN)
+IQ-nonSW
+Operating quiescent current (non-
+switching)(2) VEN = 3.3 V (PFM variant only) 26 36 µA
+ISD
+Shutdown quiescent current; 
+measured at VIN pin VEN = 0 V 5.3 µA
+ENABLE (EN PIN)
+VEN-VCC-H Enable input high level for VCC output VENABLE rising 1.14 V
+VEN-VCC-L Enable input low level for VCC output VENABLE falling 0.3 V
+VEN-VOUT-H Enable input high level for VOUT VENABLE rising 1.157 1.231 1.3 V
+VEN-VOUT-HYS Enable input hysteresis for VOUT Hysteresis below VENABLE-H; falling 110 mV
+ILKG-EN Enable input leakage current VEN = 3.3V 2.7 nA
+INTERNAL LDO (VCC PIN)
+VCC Internal VCC voltage 6 V ≤ VIN ≤ 65 V 4.75 5 5.25 V
+VCC-UVLO-
+Rising
+Internal VCC undervoltage lockout VCC rising 3.6 3.8 4.0 V
+VCC-UVLO-
+Falling
+Internal VCC undervoltage lockout VCC falling 3.1 3.3 3.5 V
+VOLTAGE REFERENCE (FB PIN)
+VFB Feedback voltage 0.985 1 1.015 V
+ILKG-FB Feedback leakage current FB = 1 V 2.1 nA
+CURRENT LIMITS AND HICCUP
+ISC High-side current limit(3) 1.6 2 2.4 A
+ILS-LIMIT Low-side current limit(3) 1 1.3 1.6 A
+IL-ZC Zero cross detector threshold PFM variants only 0.04 A
+IPEAK-MIN Minimum inductor peak current(3) 0.28 A
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+6 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 7
+6.5 Electrical Characteristics (continued)
+Limits apply over operating junction temperature (TJ ) range of –40°C to +125°C, unless otherwise stated. Minimum and 
+Maximum limits(1) are specified through test, design or statistical correlation. Typical values represent the most likely 
+parametric norm at TJ = 25°C, and are provided for reference purposes only. Unless otherwise stated, the following 
+conditions apply: VIN = 24 V.
+PARAMETER TEST CONDITIONS MIN TYP MAX UNIT
+POWER GOOD (PGOOD PIN)
+VPG-HIGH-UP Power-Good upper threshold - rising % of FB voltage 105% 107% 110%
+VPG-LOW-DN Power-Good lower threshold - falling % of FB voltage 90% 93% 95%
+VPG-HYS
+Power-Good hysteresis (rising & 
+falling) % of FB voltage 1.5%
+VPG-VALID
+Minimum input voltage for proper 
+Power-Good function 2 V
+RPG Power-Good on-resistance VEN = 2.5 V 80 165 Ω
+RPG Power-Good on-resistance VEN = 0 V 35 90 Ω
+MOSFETS
+RDS-ON-HS High-side MOSFET ON-resistance IOUT = 0.5 A 245 465 mΩ
+RDS-ON-LS Low-side MOSFET ON-resistance IOUT = 0.5 A 165 310 mΩ
+(1) MIN and MAX limits are 100% production tested at 25℃. Limits over the operating temperature range verified through correlation using
+Statistical Quality Control (SQC) methods. Limits are used to calculate Average Outgoing Quality Level (AOQL).
+(2) This is the current used by the device open loop. This value does not represent the total input current of the system when in regulation.
+(3) The current limit values in this table are tested, open loop, in production. The values can differ from those found in a closed loop 
+application.
+6.6 Timing Requirements
+Limits apply over operating junction temperature (TJ ) range of –40°C to +125°C, unless otherwise stated. Minimum and 
+Maximum limits(1) are specified through test, design or statistical correlation. Typical values represent the most likely 
+parametric norm at TJ = 25°C, and are provided for reference purposes only. Unless otherwise stated, the following 
+conditions apply: VIN = 24 V.
+MIN NOM MAX UNIT
+tON-MIN Minimum switch on-time 92 ns
+tOFF-MIN Minimum switch off-time 80 102 ns
+tON-MAX Maximum switch on-time 7 12 µs
+tSS Internal soft-start time 3 4.5 6 ms
+(1) MIN and MAX limits are 100% production tested at 25℃. Limits over the operating temperature range verified through correlation using
+Statistical Quality Control (SQC) methods. Limits are used to calculate Average Outgoing Quality Level (AOQL).
+6.7 Switching Characteristics
+TJ = -40°C to 125°C, VIN = 24 V (unless otherwise noted)
+PARAMETER TEST CONDITIONS MIN TYP MAX UNIT
+OSCILLATOR
+FOSC Internal oscillator frequency 400-kHz variant 340 400 460 kHz
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 7
+Product Folder Links: LMR36510
+
+PDF PAGE 8
+6.8 System Characteristics
+The following specifications apply to a typical application circuit with nominal component values. Specifications in the typical 
+(TYP) column apply to TJ = 25℃ only. Specifications in the minimum (MIN) and maximum (MAX) columns apply to the 
+case of typical components over the temperature range of TJ = –40℃ to 125℃. These specifications are not specified by 
+production testing.
+PARAMETER TEST CONDITIONS MIN TYP MAX UNIT
+VIN Operating input voltage range 4.2 65 V
+VOUT Adjustable output voltage regulation(1) PFM operation –1.5% 2.5%
+ISUPPLY Input supply current when in regulation VIN = 24 V, VOUT = 3.3 V, IOUT = 0 A,
+RFBT = 1 MΩ, PFM variant 26 µA
+DMAX Maximum switch duty cycle(2) 98%
+VHC
+FB pin voltage required to trip short-circuit 
+hiccup mode 0.4 V
+tD Switch voltage dead time 2 ns
+TSD Thermal shutdown temperature Shutdown temperature 170 °C
+TSD Thermal shutdown temperature Recovery temperature 158 °C
+(1) Deviation in VOUT from nominal output voltage value at VIN = 24 V, IOUT = 0 A to full load
+(2) In dropout the switching frequency drops to increase the effective duty cycle. The lowest frequency is clamped at approximately: FMIN 
+= 1 / (tON-MAX + tOFF-MIN). DMAX = tON-MAX / (tON-MAX + tOFF-MIN).
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+8 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 9
+6.9 Typical Characteristics
+Unless otherwise specified the following conditions apply: TA = 25°C and VIN = 24 V.
+Input Voltage (V)
+Input Current (PA)
+5 10 15 20 25 30 35 40 45 50 55 60 65
+2
+4
+6
+8
+10
+12
+Shut
+25qC
+125qC
+-40qC
+EN = 0 V
+Figure 6-1. Shutdown Supply Current
+Input Voltage (V)
+Peak Inductor Current (mA)
+5 10 15 20 25 30 35 40 45 50 55 60 65
+300
+325
+350
+375
+400
+425
+450
+475
+500
+Imin
+25qC
+125qC
+-40qC
+IOUT = 0 A VOUT = 3.3 V ƒSW = 400 kHz
+See Figure 8-22
+Figure 6-2. IPEAK-MIN 
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 9
+Product Folder Links: LMR36510
+
+PDF PAGE 10
+7 Detailed Description
+7.1 Overview
+The LMR36510 is a synchronous peak-current mode buck regulator designed for a wide variety of industrial 
+applications. The regulator automatically switches modes between PFM and PWM, depending on load. At heavy 
+loads, the device operates in PWM at a constant switching frequency. At light loads, the mode changes to PFM 
+with diode emulation, allowing DCM. This reduces the input supply current and keeps efficiency high. The device 
+features internal loop compensation, which reduces design time and requires fewer external components than 
+externally compensated regulators.
+7.2 Functional Block Diagram
++
+±+
+±
+CONTROL
+LOGIC DRIVER
+HS CURRENT
+SENSE
+LS CURRENT
+SENSE
+OSCILLATOR
+PWM
+COMPERROR 
+AMPLIFIER
+POWER GOOD
+CONTROL
+SW
+VIN
+PGND
+FB
+EN
+INT. REG.
+BIAS
+VCC
+BOOT
+1.0 V
+Reference
+
+ENABLE
+LOGIC
+PG PFM 
+MODE
+CONTROL
+7.3 Feature Description
+7.3.1 Power-Good Flag Output
+The power-good flag function (PG output pin) of the LMR36510 can be used to reset a system microprocessor 
+whenever the output voltage is out of regulation. This open-drain output goes low under fault conditions, such 
+as current limit and thermal shutdown, as well as during normal start-up. A glitch filter prevents false flag 
+operation for short excursions of the output voltage, such as during line and load transients. Output voltage 
+excursions lasting less than t PG do not trip the power-good flag. Power-good operation can best be understood 
+by referencing Figure 7-1 and Figure 7-2. Note that during initial power-up, a delay of about 4 ms (typical) is 
+inserted from the time that EN is asserted to the time that the power-good flag goes high. This delay only occurs 
+during start-up and is not encountered during normal operation of the power-good function.
+The power-good output consists of an open-drain NMOS, requiring an external pullup resistor to a suitable logic 
+supply. It can also be pulled up to either VCC or V OUT through an appropriate resistor, as desired. If this function 
+is not needed, the PG pin must be grounded. When EN is pulled low, the flag output is also forced low. With EN 
+low, power good remains valid as long as the input voltage is ≥ 2 V (typical). Limit the current into this pin to ≤ 4 
+mA.
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+10 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 11
+(95%)
+VOUT
+(93%)
+PG
+TPG
+Glitches do not cause false operation nor reset timer
+VPG-LOW-UP
+VPG-LOW-DN
+TPG TPG
+<TPG
+Figure 7-1. Static Power-Good Operation
+VOUT
+PG
+tPG
+Glitches do not cause false operation nor reset timer
+tPG tPG
+<tPG
+(95%)
+(93%)
+VPG-LOW-UP
+VPG-LOW-DN
+Figure 7-2. Power-Good Timing Behavior
+7.3.2 Enable and Start-Up
+Start-up and shutdown are controlled by the EN input. This input features precision thresholds, allowing the 
+use of an external voltage divider to provide an adjustable input UVLO (see the Section 8.2.1.2.9 section). 
+Applying a voltage of ≥ VEN-VCC_H causes the device to enter standby mode, powering the internal VCC, but not 
+producing an output voltage. Increasing the EN voltage to V EN-H fully enables the device, allowing the device 
+to enter start-up mode and begin the soft-start period. When the EN input is brought below V EN-H by V EN-HYS, 
+the regulator stops running and enters standby mode. If the EN voltage decreases below V EN-VCC-L, the device 
+shuts down. Figure 7-3 shows this behavior. The EN input can be connected directly to VIN if this feature is not 
+needed. This input must not be allowed to float. The values for the various EN thresholds can be found in the 
+Electrical Characteristics table.
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 11
+Product Folder Links: LMR36510
+
+PDF PAGE 12
+The LMR36510 utilizes a reference-based soft start that prevents output voltage overshoots and large inrush 
+currents as the regulator is starting up.
+EN
+VCC
+0
+VEN-H
+VEN-H ± VEN-HYS
+VEN-VCC-L
+5 V
+VOUT
+VOUT
+0
+VEN-VCC-H
+Figure 7-3. Precision Enable Behavior
+PGOOD (5V/DIV)
+VOUT (2V/DIV)
+EN (5V/DIV)
+IOUT (1A/DIV)
+2ms/DIV
+Figure 7-4. Typical Start-up Behavior VIN = 24 V, VOUT = 5 V, IOUT = 1 A
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+12 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 13
+7.3.3 Current Limit and Short Circuit
+The LMR36510 incorporates valley current limit for normal overloads and for short-circuit protection. In addition, 
+the high-side power MOSFET is protected from excessive current by a peak-current limit circuit. Cycle-by-cycle 
+current limit is used for overloads while hiccup mode is used for short circuits. Finally, a zero current detector is 
+used on the low-side power MOSFET to implement diode emulation at light loads (see the Section 9.7).
+During overloads, the low-side current limit, ILIMIT, determines the maximum load current that the LMR36510 can 
+supply. When the low-side switch turns on, the inductor current begins to ramp down. If the current does not fall 
+below I LIMIT before the next turnon cycle, then that cycle is skipped, and the low-side MOSFET is left on until 
+the current falls below I LIMIT. This is somewhat different than the more typical peak-current limit and results in 
+Equation 1 for the maximum load current.
+ 
+IN
+OUT
+SW
+OUTIN
+LIMITmaxOUT V
+V
+Lf 2
+VVII 
+ 
+(1)
+where
+• fSW = switching frequency
+• L = inductor value
+If, during current limit, the voltage on the FB input falls below about 0.4 V due to a short circuit, the device enters 
+into hiccup mode. In this mode, the device stops switching for t HC, or about 94 ms, and then goes through a 
+normal re-start with soft start. If the short-circuit condition remains, the device runs in current limit for about 20 
+ms (typical) and then shuts down again. This cycle repeats as long as the short-circuit condition persists. This 
+mode of operation reduces the temperature rise of the device during a hard short on the output. Of course, the 
+output current is greatly reduced during hiccup mode. Once the output short is removed and the hiccup delay is 
+passed, the output voltage recovers normally .
+The high-side current limit trips when the peak inductor current reaches I SC. This is a cycle-by-cycle current 
+limit and does not produce any frequency or load current foldback. It is meant to protect the high-side MOSFET 
+from excessive current. Under some conditions, such as high input voltages, this current limit can trip before the 
+low-side protection. Under this condition, I SC determines the maximum output current. Note that I SC varies with 
+duty cycle.
+Inductor Current (1A/DIV)
+50ms/DIV
+Output Voltage (5V/DIV) 
+Short applied Short removed 
+Figure 7-5. Short-Circuit Transient and Recovery
+Inductor Current (0.5A/DIV)
+20ms/DIV Figure 7-6. Inductor Current Burst in Short Circuit 
+Mode
+7.3.4 Undervoltage Lockout and Thermal Shutdown
+The LMR36510 incorporates an undervoltage lockout feature on the output of the internal LDO at the VCC pin. 
+When VCC reaches about 3.7 V, the device is ready to receive an EN signal and start up. When VCC falls 
+below about 3 V, the device shuts down, regardless of EN status. Because the LDO is in dropout during these 
+transitions, the previously mentioned values roughly represent the input voltage levels during the transitions.
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 13
+Product Folder Links: LMR36510
+
+PDF PAGE 14
+Thermal shutdown is provided to protect the regulator from excessive junction temperature. When the junction 
+temperature reaches about 170°C, the device shuts down; re-start occurs when the temperature falls to about 
+158°C. For safe operation, the device must not be allowed to go into a short circuit condition while in thermal 
+shutdown.
+7.4 Device Functional Modes
+7.4.1 Auto Mode
+In auto mode, the device moves between PWM and PFM as the load changes. At light loads, the regulator 
+operates in PFM. At higher loads, the mode changes to PWM.
+In PWM, the regulator operates as a constant frequency, current mode, full-synchronous converter using PWM 
+to regulate the output voltage. While operating in this mode, the output voltage is regulated by switching at a 
+constant frequency and modulating the duty cycle to control the power to the load. This provides excellent line 
+and load regulation and low output voltage ripple.
+In PFM, the high-side MOSFET is turned on in a burst of one or more pulses to provide energy to the load. The 
+duration of the burst depends on how long the inductor current takes to reach I PEAK-MIN. The frequency of these 
+bursts is adjusted to regulate the output, while diode emulation is used to maximize efficiency (see the Section 
+9.7). This mode provides high light-load efficiency by reducing the amount of input supply current required to 
+regulate the output voltage at small loads. This trades off very good light-load efficiency for larger output voltage 
+ripple and variable switching frequency. Also, a small increase in output voltage occurs at light loads. The actual 
+switching frequency and output voltage ripple depend on the input voltage, output voltage, and load.
+Inductor Current (0.5A/DIV)
+5µs/DIV
+Switch Node (10V/DIV) 
+Figure 7-7. Typical PFM Switching Waveforms VIN = 
+24 V, VOUT = 5 V, IOUT = 50 mA
+Inductor Current (0.5A/DIV)
+1µs/DIV
+Switch Node (10V/DIV) 
+Figure 7-8. Typical PWM Switching Waveforms VIN 
+= 24 V, VOUT = 5 V, IOUT = 0.5 A, ƒS = 400 kHz
+7.4.2 Dropout
+The dropout performance of any buck regulator is affected by the R DSON of the power MOSFETs, the DC 
+resistance of the inductor, and the maximum duty cycle that the controller can achieve. As the input voltage 
+is reduced to the output voltage, the off-time of the high-side MOSFET starts to approach the minimum value. 
+Beyond this point, the switching can become erratic and the output voltage falls out of regulation. To avoid this 
+problem, the LMR36510 automatically reduces the switching frequency to increase the effective duty cycle and 
+maintain regulation. In this data sheet, the dropout voltage is defined as the difference between the input and 
+output voltage when the output has dropped by 1% of the nominal value. Under this condition, the switching 
+frequency has dropped to the minimum value of about 140 kHz. Note that the 0.4 V short-circuit detection 
+threshold is not activated when in dropout mode.
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+14 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 15
+Input Voltage (V)
+Output Voltage (V)
+4 4.2 4.4 4.6 4.8 5 5.2 5.4 5.6 5.8 6
+3.5
+3.75
+4
+4.25
+4.5
+4.75
+5
+5.25
+Drop
+IOUT = 0.1A
+IOUT = 0.5A
+IOUT = 1A
+Figure 7-9. Overall Dropout Characteristic VOUT = 5 
+V
+Input Voltage (V)
+Switching Frequency (kHz)
+4 4.5 5 5.5 6 6.5 7 7.5 8 8.5 9
+100
+150
+200
+250
+300
+350
+400
+450
+500
+Freq
+IOUT = 0.5 A
+IOUT =1 A
+Figure 7-10. Frequency Dropout Characteristics 
+ƒSW = 400 kHz
+7.4.3 Minimum Switch On-Time
+Every switching regulator has a minimum controllable on-time dictated by the inherent delays and blanking 
+times associated with the control circuits. This imposes a minimum switch duty cycle, therefore, a minimum 
+conversion ratio. The constraint is encountered at high input voltages and low output voltages. To help extend 
+the minimum controllable duty cycle, the LMR36510 automatically reduces the switching frequency when the 
+minimum on-time limit is reached. This way, the converter can regulate the lowest programmable output voltage 
+at the maximum input voltage. An estimate for the approximate input voltage, for a given output voltage, before 
+frequency foldback occurs is found in Equation 2. As the input voltage is increased, the switch on-time (duty 
+cycle) reduces to regulate the output voltage. When the on-time reaches the limit, the switching frequency drops, 
+while the on-time remains fixed.
+SWON
+OUT
+IN ft
+VV d
+(2)
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 15
+Product Folder Links: LMR36510
+
+PDF PAGE 16
+8 Application and Implementation
+Note
+Information in the following applications sections is not part of the TI component specification, 
+and TI does not warrant its accuracy or completeness. TI’s customers are responsible for 
+determining suitability of components for their purposes, as well as validating and testing their design 
+implementation to confirm system functionality.
+8.1 Application Information
+The LMR36510 step-down DC-to-DC converter is typically used to convert a higher DC voltage to a lower 
+DC voltage with a maximum output current of 1 A. The following design procedure can be used to select 
+components for the LMR36510.
+Note
+All of the capacitance values given in the following application information refer to effective values; 
+unless otherwise stated. The effective value is defined as the actual capacitance under DC bias 
+and temperature, not the rated or nameplate values. Use high-quality, low-ESR, ceramic capacitors 
+with an X7R or better dielectric throughout. All high value ceramic capacitors have a large voltage 
+coefficient in addition to normal tolerances and temperature effects. Under DC bias, the capacitance 
+drops considerably. Large case sizes and higher voltage ratings are better in this regard. To help 
+mitigate these effects, multiple capacitors can be used in parallel to bring the minimum effective 
+capacitance up to the required value. This can also ease the RMS current requirements on a single 
+capacitor. A careful study of bias and temperature variation of any capacitor bank must be made in 
+order to ensure that the minimum value of effective capacitance is provided.
+8.2 Typical Application
+shows a typical application circuit for the LMR36510. This device is designed to function over a wide range of 
+external components and system parameters. However, the internal compensation is optimized for a certain 
+range of external inductance and output capacitance. As a quick-start guide, Figure 8-1  provides typical 
+component values for a range of the most common output voltages.
+VIN
+EN
+VCC
+SW
+BOOT
+FB
+VIN
+VOUT
+L
+CBOOT
+COUT
+CIN
+CVCC
+2.2 µF
+0.1 µF
+1 µF
+PG
+LMR36510
+CHF
+220 nF
+RFBT
+RFBB
+CFF
+PGND
+Figure 8-1. Example Applications Circuit
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+16 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 17
+Table 8-1. Typical External Component Values
+ƒSW 
+(kHz) VOUT (V) L (µH)
+NOMINAL COUT 
+(RATED 
+CAPACITANCE) 
+(1)
+MINIMUM 
+COUT (RATED 
+CAPACITANCE) 
+(2)
+RFBT (Ω) RFBB (Ω) CIN CFF
+400 3.3 22 3 × 22 µF 2 x 22 µF 100 k 43.2 k 1 × 2.2 µF + 220 nF None
+400 5 22 2 × 22 µF 1 x 22 µF 100 k 24.9 k 1 × 2.2 µF + 220 nF None
+400 12 47 3 × 10 µF 2 × 10 µF 100 k 9.09 k 1 × 2.2 µF + 220 nF None
+(1) Optimized for superior load transient performance from 0 to 100% rated load
+(2) Optimized for size constrained end applications
+8.2.1 Design 1: Low Power 24-V, 1-A Buck Converter
+8.2.1.1 Design Requirements
+The following are example requirements for a typical 5-V or 3.3-V application. The input voltages are here for 
+illustration purposes only. See the Section 6 for the operating input voltage range.
+Table 8-2. Detailed Design Parameters
+DESIGN PARAMETER EXAMPLE VALUE
+Input voltage 12 V to 24 V steady state, 4.2 V to 60-V transients
+Output voltage 5 V
+Maximum output current 0 A to 1 A
+Switching frequency 400 kHz
+Current consumption at 0-A load Critical: Need to ensure low current consumption to reduce battery drain
+Switching frequency at 0-A load Not critical: Need fixed frequency operation at high load only
+Table 8-3. List of Components for Design 1
+VOUT FREQUENCY RFBB COUT L U1
+5 V 400 kHz 24.9 kΩ 2 × 22 µF 22 µH LMR36510
+3.3 V 400 kHz 43.2 kΩ 3 × 22 µF 22 µH LMR36510
+8.2.1.2 Detailed Design Procedure
+The following design procedure applies to Figure 8-1 and Table 8-2.
+8.2.1.2.1 Choosing the Switching Frequency
+The choice of switching frequency is a compromise between conversion efficiency and overall design size. The 
+LMR36510 switching frequency is fixed internal to the IC, therefore, a value of 400 kHz is used in this design.
+8.2.1.2.2 Setting the Output Voltage
+The output voltage of LMR36510 is externally adjustable using a resistor divider network. The range of 
+recommended output voltage is found in the Recommended Operating Conditions . The divider network is 
+comprised of R FBT and R FBB, and closes the loop between the output voltage and the converter. The converter 
+regulates the output voltage by holding the voltage on the FB pin equal to the internal reference voltage, 
+VREF. The resistance of the divider is a compromise between excessive noise pickup and excessive loading of 
+the output. Smaller values of resistance reduce noise sensitivity but also reduce the light-load efficiency. The 
+recommended value for R FBT is 100 k Ω with a maximum value of 1 M Ω. If a 1 M Ω is selected for R FBT, then a 
+feedforward capacitor must be used across this resistor to provide adequate loop phase margin (see the Section 
+8.2.1.2.8 section). Once RFBT is selected, use Equation 3 to select RFBB. VREF is nominally 1 V.
+»
+¼
+º
+«
+¬
+ª 
+ 
+1V
+V
+RR
+REF
+OUT
+FBT
+FBB
+(3)
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 17
+Product Folder Links: LMR36510
+
+PDF PAGE 18
+For this 5-V example, values are: RFBT = 100 kΩ and RFBB = 24.9 kΩ.
+8.2.1.2.3 Inductor Selection
+The parameters for selecting the inductor are the inductance and saturation current. The inductance is based 
+on the desired peak-to-peak ripple current and is normally chosen to be in the range of 20% to 40% of 
+the maximum output current. Experience shows that the best value for inductor ripple current is 30% of the 
+maximum load current. Note that when selecting the ripple current for applications with much smaller maximum 
+load than the maximum available from the device, use the maximum device current. Equation 4 can be used 
+to determine the value of inductance. The constant K is the percentage of inductor current ripple. This example 
+uses K = 0.4 and with input voltage of 24 V, you can calculate an inductance of L = 24.74 µH . The standard 
+value of 22 µH is selected.
+ 
+IN
+OUT
+maxOUTSW
+OUTIN
+V
+V
+I Kf
+VVL  
+ 
+(4)
+Ideally, the saturation current rating of the inductor is at least as large as the high-side switch current limit, I SC. 
+This ensures that the inductor does not saturate even during a short circuit on the output. When the inductor 
+core material saturates, the inductance falls to a very low value, causing the inductor current to rise very rapidly. 
+Although the valley current limit, I LIMIT, is designed to reduce the risk of current runaway, a saturated inductor 
+can cause the current to rise to high values very rapidly. This can lead to component damage. Do not allow the 
+inductor to saturate. Inductors with a ferrite core material have very hard saturation characteristics, but usually 
+have lower core losses than powdered iron cores. Powered iron cores exhibit a soft saturation, allowing some 
+relaxation in the current rating of the inductor. However, they have more core losses at frequencies above about 
+1 MHz. In any case, the inductor saturation current must not be less than the device low-side current limit, I LIMIT. 
+In order to avoid subharmonic oscillation, the inductance value must not be less than that given in Equation 5:
+t  OUT
+MIN
+SW
+VL M f
+(5)
+where
+• LMIN = minimum inductance (H)
+• M = 0.625
+• fsw = switching frequency (Hz)
+8.2.1.2.4 Output Capacitor Selection
+The value of the output capacitor and the respective ESR determine the output voltage ripple and load transient 
+performance. The output capacitor bank is usually limited by the load transient requirements rather than the 
+output voltage ripple. Equation 6 can be used to estimate a lower bound on the total output capacitance, and an 
+upper bound on the ESR that is required to meet a specified load transient.
+     
+ 
+IN
+OUT
+2
+OUT
+OUT
+2
+OUTSW
+OUT
+OUT
+V
+VD
+) D1 (
+1112
+KK1I2
+VK2ESR
+D212
+KK1D1KVf
+IC
+ 
+»
+»
+¼
+º
+«
+«
+¬
+ª
+¸¸
+¹
+·
+¨¨
+©
+§
+' 
+' d
+»
+»
+¼
+º
+«
+«
+¬
+ª
+' 
+'t
+(6)
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+18 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 19
+where
+• ΔVOUT = output voltage transient
+• ΔIOUT = output current transient
+• K = ripple factor from Section 8.2.1.2.3
+Once the output capacitor and ESR have been calculated, Equation 7 can be used to check the output voltage 
+ripple.
+  2
+OUTSW
+2
+Lr
+Cf 8
+1ESRIV
+
+' #
+(7)
+where
+• Vr = peak-to-peak output voltage ripple
+The output capacitor and ESR can then be adjusted to meet both the load transient and output ripple 
+requirements.
+In practice, the output capacitor has the most influence on the transient response and loop-phase margin. Load 
+transient testing and bode plots are the best way to validate any given design and must always be completed 
+before the application goes into production. In addition to the required output capacitance, a small ceramic 
+placed on the output can help reduce high frequency noise. Small case size ceramic capacitors in the range of 1 
+nF to 100 nF can be very helpful in reducing spikes on the output caused by inductor and board parasitics.
+Limit the maximum value of total output capacitance to about 10 times the design value, or 1000 µF, whichever 
+is smaller. Large values of output capacitance can adversely affect the start-up behavior of the regulator as well 
+as the loop stability. If values larger than noted here must be used, then a careful study of start-up at full load 
+and loop stability must be performed.
+8.2.1.2.5 Input Capacitor Selection
+The ceramic input capacitors provide a low impedance source to the regulator in addition to supplying the 
+ripple current and isolating switching noise from other circuits. A minimum ceramic capacitance of 2.2-µF is 
+required on the input of the LMR36510. This must be rated for at least the maximum input voltage that the 
+application requires; preferably twice the maximum input voltage. This capacitance can be increased to help 
+reduce input voltage ripple and maintain the input voltage during load transients. In addition, a small case size 
+220-nF ceramic capacitor must be used at the input, as close a possible to the regulator. This provides a high 
+frequency bypass for the control circuits internal to the device. For this example, a 1 x 2.2-µF, 100-V , X7R (or 
+better) ceramic capacitor is chosen. The 220 nF must also be rated at 100-V with an X7R dielectric.
+Using an electrolytic capacitor on the input in parallel with the ceramics is often desirable. This is especially true 
+if long leads, traces are used to connect the input supply to the regulator. The moderate ESR of this capacitor 
+can help damp any ringing on the input supply caused by the long power leads. The use of this additional 
+capacitor also helps with voltage dips caused by input supplies with unusually high impedance.
+Most of the input switching current passes through the ceramic input capacitors. The approximate RMS value 
+of this current can be calculated from Equation 8 and must be checked against the manufacturer's maximum 
+ratings.
+2
+II OUT
+RMS #
+(8)
+8.2.1.2.6 CBOOT 
+The LMR36510 requires a bootstrap capacitor connected between the BOOT pin and the SW pin. This capacitor 
+stores energy that is used to supply the gate drivers for the power MOSFETs. A high-quality ceramic capacitor of 
+100 nF and at least 16 V is required.
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 19
+Product Folder Links: LMR36510
+
+PDF PAGE 20
+8.2.1.2.7 VCC
+The VCC pin is the output of the internal LDO used to supply the control circuits of the regulator. This output 
+requires a 1-µF, 16-V ceramic capacitor connected from VCC to GND for proper operation. In general, this 
+output must not be loaded with any external circuitry. However, this output can be used to supply the pullup for 
+the power-good function (see the Section 7.3.1 section). A value in the range of 10 k Ω to 100 k Ω is a good 
+choice in this case. The nominal output voltage on VCC is 5 V.
+8.2.1.2.8 CFF Selection
+In some cases, a feedforward capacitor can be used across R FBT to improve the load transient response or 
+improve the loop-phase margin. This is especially true when values of R FBT > 100 kΩ are used. Large values of 
+RFBT, in combination with the parasitic capacitance at the FB pin, can create a small signal pole that interferes 
+with the loop stability. A C FF can help mitigate this effect. Equation 9 can be used to estimate the value of C FF. 
+The value found with Equation 9 is a starting point; use lower values to determine if any advantage is gained 
+by the using a C FF capacitor. The Optimizing Transient Response of Internally Compensated DC-DC Converters 
+with Feed-forward Capacitor Application Report is helpful when experimenting with a feedforward capacitor.
+OUT
+REF
+FBT
+OUTOUT
+FF
+V
+VR120
+CVC
+
+
+(9)
+8.2.1.2.9 External UVLO
+In some cases, an input UVLO level different than that provided internal to the device is needed. This can 
+be accomplished by using the circuit shown in Figure 8-2 . The input voltage at which the device turns on is 
+designated VON and the turnoff voltage is VOFF. First, a value for RENB is chosen in the range of 10 kΩ to 100 kΩ 
+and then Equation 10 is used to calculate RENT and VOFF.
+EN
+RENT
+RENB
+VIN
+Figure 8-2. Setup for External UVLO Application
+¸¸
+¹
+·
+¨¨
+©
+§  
+¸¸
+¹
+·
+¨¨
+©
+§  
+
+
+EN
+HYSEN
+ONOFF
+ENB
+HEN
+ON
+ENT
+V
+V1VV
+R1V
+VR
+(10)
+where
+• VON = VIN turnon voltage
+• VOFF = VIN turnoff voltage
+8.2.1.2.10 Maximum Ambient Temperature
+As with any power conversion device, the LMR36510 dissipates internal power while operating. The effect of 
+this power dissipation is to raise the internal temperature of the converter above ambient. The internal die 
+temperature (TJ) is a function of the ambient temperature, the power loss, and the effective thermal resistance, 
+RθJA, of the device and PCB combination. The maximum internal die temperature for the LMR36510 must be 
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+20 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 21
+limited to 150°C. This establishes a limit on the maximum device power dissipation and, therefore, the load 
+current. Equation 11 shows the relationships between the important parameters. Seeing that larger ambient 
+temperatures (TA) and larger values of RθJA reduce the maximum available output current is easy. The converter 
+efficiency can be estimated using the curves provided in this data sheet. If the desired operating conditions 
+cannot be found in one of the curves, then interpolation can be used to estimate the efficiency. Alternatively, 
+the EVM can be adjusted to match the desired application requirements and the efficiency can be measured 
+directly. The correct value of R θJA is more difficult to estimate. As stated in the Semiconductor and IC Package 
+Thermal Metrics Application Report , the values given in Thermal Information are not valid for design purposes 
+and must not be used to estimate the thermal performance of the application. The values reported in that table 
+are measured under a specific set of conditions that are rarely obtained in an actual application.
+ 
+  OUTJA
+AJ
+MAXOUT V
+1
+1R
+TTI K 
+K 
+T
+(11)
+where
+• η = efficiency
+The effective RθJA is a critical parameter and depends on many factors such as the following:
+• Power dissipation
+• Air temperature/flow
+• PCB area
+• Cooper heat-sink area
+• Number of thermal vias under the package
+• Adjacent component placement
+A typical example of R θJA versus copper board area can be found in Figure 8-3. Note that the data given in this 
+graph is for illustration purposes only, and the actual performance in any given application depends on all of the 
+factors mentioned above.
+Copper Area (cm2)
+RTJA (qC/W)
+5 10 15 20 25 30 35 40 45 50 55 60
+25
+30
+35
+40
+45
+50
+55
+Ther
+4Layer
+2Layer
+Figure 8-3. RθJA versus Copper Board Area
+Use the following resources as guides to optimal thermal PCB design and estimate R θJA for a given application 
+environment:
+• Thermal Design by Insight not Hindsight Application Report
+• Semiconductor and IC Package Thermal Metrics Application Report
+• Thermal Design Made Simple with LM43603 and LM43602 Application Report
+• Using New Thermal Metrics Application Report
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 21
+Product Folder Links: LMR36510
+
+PDF PAGE 22
+8.2.1.3 Application Curves
+Unless otherwise specified, the following conditions apply: V IN = 24 V, T A = 25°C. Figure 8-22 shows the circuit 
+with the appropriate BOM from Table 8-4.
+Load Current (A)
+Efficiency (%)
+0.001 0.002 0.005 0.01 0.02 0.05 0.1 0.2 0.3 0.5 1
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+100
+Effi
+VIN = 8V
+VIN = 12V
+VIN = 24V
+VIN = 36V
+VIN = 48V
+LMR36510A VOUT = 3.3 V 400 kHz
+Figure 8-4. Efficiency
+Load Current (A)
+Output Voltage (V)
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+3.305
+3.31
+3.315
+3.32
+3.325
+3.33
+3.335
+Load
+VIN = 8V
+VIN = 12V
+VIN = 24V
+VIN = 36V
+VIN = 48V
+LMR36510A VOUT = 3.3 V 400 kHz
+Figure 8-5. Load Regulation
+Load Current (A)
+Efficiency (%)
+0.001 0.002 0.005 0.01 0.02 0.05 0.1 0.2 0.3 0.5 1
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+100
+Effi
+VIN = 8V
+VIN = 12V
+VIN = 24V
+VIN = 36V
+VIN = 48V
+LMR36510A VOUT = 5 V 400 kHz
+Figure 8-6. Efficiency
+Load Current (A)
+Output Voltage (V)
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+5
+5.01
+5.02
+5.03
+5.04
+5.05
+5.06
+Load
+VIN = 8V
+VIN = 12V
+VIN = 24V
+VIN = 36V
+VIN = 48V
+LMR36510A VOUT = 5 V 400 kHz
+Figure 8-7. Load Regulation
+Load Current (A)
+Efficiency (%)
+0.001 0.002 0.005 0.01 0.02 0.05 0.1 0.2 0.3 0.5 1
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+100
+Effi
+VIN = 18V
+VIN = 24V
+VIN = 36V
+VIN = 48V
+LMR36510A VOUT = 12 V 400 kHz
+Figure 8-8. Efficiency
+Load Current (A)
+Output Voltage (V)
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+11.9
+11.92
+11.94
+11.96
+11.98
+12
+12.02
+Load
+VIN = 18V
+VIN = 24V
+VIN = 36V
+VIN = 48V
+LMR36510A VOUT = 12 V 400 kHz
+Figure 8-9. Load Regulation
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+22 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 23
+Input Voltage (V)
+Output Voltage (V)
+4 4.2 4.4 4.6 4.8 5 5.2 5.4 5.6 5.8 6
+3.5
+3.75
+4
+4.25
+4.5
+4.75
+5
+5.25
+Drop
+IOUT = 0.1A
+IOUT = 0.5A
+IOUT = 1A
+LMR36510A VOUT = 5 V 400 kHz
+Figure 8-10. Dropout Characteristic
+Input Voltage (V)
+Output Voltage (V)
+9.5 10 10.5 11 11.5 12 12.5 13 13.5 14 14.5
+9
+9.5
+10
+10.5
+11
+11.5
+12
+12.5
+Drop
+IOUT = 0.1A
+IOUT = 0.5A
+IOUT = 1A
+LMR36510A VOUT = 12 V 400 kHz
+Figure 8-11. Dropout Characteristic
+Input Voltage (V)
+Input Current (PA)
+5 10 15 20 25 30 35 40 45 50 55 60 65
+20
+22
+24
+26
+28
+30
+32
+34
+36
+Inpu
+VOUT = 3.3 V IOUT = 0 A RFBT = 100 kΩ
+RFBB = 43.2 kΩ
+Figure 8-12. Input Supply Current
+Output Current (mA)
+Input Current (mA)
+0.1 1 10
+0.01
+0.1
+1
+10
+Inpu
+VIN = 12V
+VIN = 24V
+VOUT = 3.3 V RFBT = 100 kΩ RFBB = 43.2 kΩ
+Figure 8-13. Input Supply Current versus Load 
+Current
+PGOOD (5V/DIV)
+VOUT (2V/DIV)
+EN (5V/DIV)
+IOUT (1A/DIV)
+2ms/DIV
+VIN = 24 V VOUT = 3.3 V ILOAD = 1 A
+Figure 8-14. Enable Start-Up Waveform
+PGOOD (5V/DIV)
+VOUT (2V/DIV)
+EN (5V/DIV)
+IOUT (2A/DIV)
+50µs/DIV
+VIN = 24 V VOUT = 3.3 V ILOAD = 1 A
+Figure 8-15. Enable Shutdown Waveform
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 23
+Product Folder Links: LMR36510
+
+PDF PAGE 24
+VOUT (100mV/DIV)
+IOUT (0.5A/DIV)
+3.3V
+100µs/DIV
+VOUT = 3.3 V 400 kHz ILOAD = 0.1 A - 1 A
+Slew Rate = 1 A/µs
+Figure 8-16. Load Transient
+VOUT (100mV/DIV)
+IOUT (0.5A/DIV)
+3.3V
+100µs/DIV
+VOUT = 3.3 V 400 kHz ILOAD = 0.5 A - 1 A
+Slew Rate = 1 A/µs
+Figure 8-17. Load Transient
+VOUT (200mV/DIV)
+IOUT (0.5A/DIV)
+5V
+100µs/DIV
+VOUT = 5 V 400 kHz ILOAD = 0.1 A -1 A
+Slew Rate = 1 A/µs
+Figure 8-18. Load Transient
+VOUT (100mV/DIV)
+IOUT (0.5A/DIV)
+5V
+100µs/DIV
+VOUT = 5 V 400 kHz ILOAD = 0.5 A -1 A
+Slew Rate = 1 A/µs
+Figure 8-19. Load Transient
+Inductor Current (0.5A/DIV)
+5ms/DIV
+Output Voltage (50mV/DIV) 
+VIN = 24 V VOUT = 5 V ILOAD = 0 A
+Figure 8-20. Output Ripple at No load
+Inductor Current (1A/DIV)
+2µs/DIV
+Output Voltage (20mV/DIV) 
+VIN = 24 V VOUT = 5 V ILOAD = 1 A
+Figure 8-21. Output Ripple at 1 A
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+24 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 25
+VIN
+EN
+VCC
+SW
+BOOT
+FB
+VIN
+VOUT
+L
+CBOOT
+COUT
+CIN
+CVCC
+2.2 µF
+0.1 µF
+1 µF
+PG
+LMR36510
+CHF
+220 nF
+RFBT
+RFBB
+CFF
+PGND
+Figure 8-22. Circuit for Typical Application Curves
+Table 8-4. BOM for Typical Application Curves
+VOUT FREQUENCY L COUT RFBT RFBB CFF IC
+3.3 V 400 kHz 22 µH, 99.65 mΩ 3 x 22 µF, 25V 46.4 kΩ 20.0 kΩ None LMR36510A
+5 V 400 kHz 22 µH, 99.65 mΩ 2 x 22 µF, 25V 34.0 kΩ + 46.4 kΩ 20.0 kΩ None LMR36510A
+12 V 400 kHz 47 µH, 100 mΩ 3 x 22 µF, 25V 100 kΩ 9.09 kΩ None LMR36510A
+8.3 Best Design Practices
+• Do not allow the EN input to float.
+• Do not allow the output voltage to exceed the input voltage, nor go below ground.
+• Do not use the thermal data given in the Thermal Information table to design your application.
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 25
+Product Folder Links: LMR36510
+
+PDF PAGE 26
+8.4 Power Supply Recommendations
+The characteristics of the input supply must be compatible with the Section 6 found in this data sheet. In 
+addition, the input supply must be capable of delivering the required input current to the loaded regulator. The 
+average input current can be estimated with Equation 12.
+K 
+ 
+IN
+OUTOUT
+IN V
+IVI
+(12)
+where
+• η is the efficiency
+If the regulator is connected to the input supply through long wires or PCB traces, special care is required to 
+achieve good performance. The parasitic inductance and resistance of the input cables can have an adverse 
+effect on the operation of the regulator. The parasitic inductance, in combination with the low-ESR, ceramic 
+input capacitors, can form an underdamped resonant circuit, resulting in overvoltage transients at the input to 
+the regulator. The parasitic resistance can cause the voltage at the VIN pin to dip whenever a load transient 
+is applied to the output. If the application is operating close to the minimum input voltage, this dip can cause 
+the regulator to momentarily shutdown and reset. The best way to solve these kind of issues is to reduce the 
+distance from the input supply to the regulator and use an aluminum or tantalum input capacitor in parallel with 
+the ceramics. The moderate ESR of these types of capacitors help damp the input resonant circuit and reduce 
+any overshoots. A value in the range of 20 µF to 100 µF is usually sufficient to provide input damping and help 
+hold the input voltage steady during large load transients.
+Sometimes, for other system considerations, an input filter is used in front of the regulator. This can lead to 
+instability, as well as some of the effects mentioned above, unless designed carefully. The AN-2162 Simple 
+Success With Conducted EMI From DC/DC Converters User's Guide  provides helpful suggestions when 
+designing an input filter for any switching regulator.
+In some cases, a transient voltage suppressor (TVS) is used on the input of regulators. One class of this 
+device has a snap-back characteristic (thyristor type). The use of a device with this type of characteristic is not 
+recommended. When the TVS fires, the clamping voltage falls to a very low value. If this voltage is less than the 
+output voltage of the regulator, the output capacitors discharge through the device and back into the input. This 
+uncontrolled current flow can damage the device.
+8.5 Layout
+8.5.1 Layout Guidelines
+The PCB layout of any DC/DC converter is critical to the optimal performance of the design. Poor PCB layout 
+can disrupt the operation of an otherwise good schematic design. Even if the converter regulates correctly, 
+bad PCB layout can mean the difference between a robust design and one that cannot be mass produced. 
+Furthermore, to a great extent, the EMI performance of the regulator is dependent on the PCB layout. In a buck 
+converter, the most critical PCB feature is the loop formed by the input capacitors and power ground, as shown 
+in Figure 8-23. This loop carries large transient currents that can cause large transient voltages when reacting 
+with the trace inductance. These unwanted transient voltages disrupt the proper operation of the converter. 
+Because of this, the traces in this loop must be wide and short, and the loop area as small as possible to 
+reduce the parasitic inductance. Figure 8-24 shows a recommended layout for the critical components of the 
+LMR36510.
+1. Place the input capacitors as close as possible to the VIN and GND terminals. VIN and GND pins are 
+adjacent, simplifying the input capacitor placement.
+2. Place the bypass capacitor for VCC close to the VCC pin. This capacitor must be placed close to the device 
+and routed with short, wide traces to the VCC and GND pins.
+3. Use wide traces for the CBOOT capacitor. Place CBOOT close to the device with short, wide traces to the 
+BOOT and SW pins. Route the SW pin to the N/C pin and use it to connect the BOOT capacitor to SW.
+4. Place the feedback divider as close as possible to the FB pin of the device. Place RFBB, RFBT, and CFF, 
+if used, physically close to the device. The connections to FB and GND must be short and close to those 
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+26 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 27
+pins on the device. The connection to VOUT can be somewhat longer. However, this latter trace must not be 
+routed near any noise source (such as the SW node) that can capacitively couple into the feedback path of 
+the regulator.
+5. Use at least one ground plane in one of the middle layers. This plane acts as a noise shield and also act as 
+a heat dissipation path.
+6. Provide wide paths for VIN, VOUT, and GND. Making these paths as wide and direct as possible reduces 
+any voltage drops on the input or output paths of the converter and maximizes efficiency.
+7. Provide enough PCB area for proper heat-sinking. As stated in the Section 8.2.1.2.10 section, enough 
+copper area must be used to make sure of a low RθJA, commensurate with the maximum load current and 
+ambient temperature. The top and bottom PCB layers must be made with two ounce copper; and no less 
+than one ounce. If the PCB design uses multiple copper layers (recommended), these thermal vias can also 
+be connected to the inner layer heat-spreading ground planes.
+8. Keep the switch area small. Keep the copper area connecting the SW pin to the inductor as short and wide 
+as possible. At the same time, the total area of this node must be minimized to help reduce radiated EMI.
+See the following PCB layout resources for additional important guidelines:
+• Layout Guidelines for Switching Power Supplies Application Report
+• Simple Switcher PCB Layout Guidelines Application Report
+• Constructing Your Power Supply- Layout Considerations Seminar
+• Low Radiated EMI Layout Made Simple with LM4360x and LM4600x Application Report
+CIN
+VIN
+SW
+GND
+Figure 8-23. Current Loops With Fast Edges
+8.5.1.1 Ground and Thermal Considerations
+As previously mentioned, TI recommends using one of the middle layers as a solid ground plane. A ground 
+plane provides shielding for sensitive circuits and traces as well as a quiet reference potential for the control 
+circuitry. Connect the PGND pin to the ground planes using vias next to the bypass capacitors. The PGND pin is 
+connected directly to the source of the low-side MOSFET switch and is also connected directly to the grounds of 
+the input and output capacitors. The PGND net contains noise at the switching frequency and can bounce due 
+to load variations. The PGND trace, as well as the VIN and SW traces, must be constrained to one side of the 
+ground planes. The other side of the ground plane contains much less noise; use for sensitive routes.
+Use as much copper as possible for the system ground plane, on the top and bottom layers for the best heat 
+dissipation. Use a four-layer board with the copper thickness for the four layers, starting from the top as: 2 oz / 
+1 oz / 1 oz / 2 oz. A four-layer board with enough copper thickness, and proper layout, provides low current 
+conduction impedance, proper shielding, and lower thermal resistance.
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 27
+Product Folder Links: LMR36510
+
+PDF PAGE 28
+8.5.2 Layout Example
+VIN
+GND
+VOUT
+GND
+GND
+HEATSINK
+GND
+HEATSINK
+COUT COUTCOUT
+CIN
+RFBB
+RFBT
+CHF
+CVCC
+CBOOT
+EN
+PGOOD
+INDUCTOR
+Bottom Trace VIA 
+ Ground PlaneTop Trace VIA 
+ Bottom 
+Figure 8-24. Example Layout
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+28 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 29
+9 Device and Documentation Support
+9.1 Device Support
+9.1.1 Development Support
+• How a DC/DC Converter Package and Pinout Design Can Enhance Automotive EMI Performance Blog
+• Introduction to Buck Converters Features: UVLO, Enable, Soft Start, Power Good Training Video
+• Introduction to Buck Converters: Understanding Mode Transitions Training Video
+• Introduction to Buck Converters: Minimum On-time and Minimum Off-time Operation Training Video
+• Introduction to Buck Converters: Understanding Quiescent Current Specifications Training Video
+• Trade-offs Between Thermal Performance and Small Solution Size with DC/DC Converters Training Video
+• Reduce EMI and Shrink Solution Size with Hot Rod Packaging Training Video
+9.2 Documentation Support
+9.2.1 Related Documentation
+For related documentation see the following:
+• Texas Instruments, Designing High-Performance, Low-EMI Automotive Power Supplies Application Report
+• Texas Instruments, Simple Switcher PCB Layout Guidelines Application Report
+• Texas Instruments, Constructing Your Power Supply- Layout Considerations Seminar
+• Texas Instruments, Low Radiated EMI Layout Made Simple with LM4360x and LM4600x Report
+• Texas Instruments, Semiconductor and IC Package Thermal Metrics Application Report
+• Texas Instruments, Thermal Design Made Simple with LM43603 and LM43602 Application Report
+• Texas Instruments, AN-2162 Simple Success With Conducted EMI From DC/DC Converters User's Guide
+• Texas Instruments, Thermal Design by Insight not Hindsight Application Report
+• Texas Instruments, Semiconductor and IC Package Thermal Metrics Application Report
+• Texas Instruments, Thermal Design Made Simple with LM43603 and LM43602 Application Report
+• Texas Instruments, Using New Thermal Metrics Application Report
+• Texas Instruments, Optimizing Transient Response of Internally Compensated DC-DC Converters with Feed-
+forward Capacitor Application Report
+9.3 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on 
+Notifications to register and receive a weekly digest of any product information that has changed. For change 
+details, review the revision history included in any revised document.
+9.4 Support Resources
+TI E2E ™ support forums  are an engineer's go-to source for fast, verified answers and design help — straight 
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do 
+not necessarily reflect TI's views; see TI's Terms of Use.
+9.5 Trademarks
+TI E2E™ is a trademark of Texas Instruments.
+SIMPLE SWITCHER® is a registered trademark of Texas Instruments.
+All trademarks are the property of their respective owners.
+9.6 Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled 
+with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may 
+be more susceptible to damage because very small parametric changes could cause the device not to meet its published 
+specifications.
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 29
+Product Folder Links: LMR36510
+
+PDF PAGE 30
+9.7 Glossary
+TI Glossary This glossary lists and explains terms, acronyms, and definitions.
+10 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision A (February 2020) to Revision B (November 2025) Page
+• Updated the numbering format for tables, figures, and cross-references throughout the document................. 1
+• Added the Device Comparison Table ................................................................................................................ 3
+Changes from Revision * (October 2019) to Revision A (February 2020) Page
+• Changed device status from Advance Information to Production Data .............................................................1
+11 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most 
+current data available for the designated devices. This data is subject to change without notice and revision of 
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+11.1 Tape and Reel Information
+Reel Width (W1)
+REEL DIMENSIONS
+A0
+B0
+K0
+W
+Dimension designed to accommodate the component length
+Dimension designed to accommodate the component thickness
+Overall width of the carrier tape
+Pitch between successive cavity centers
+Dimension designed to accommodate the component width
+TAPE DIMENSIONS
+K0
+P1
+B0 W
+A0Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket Quadrants
+Sprocket Holes
+Q1 Q1Q2 Q2
+Q3 Q3Q4 Q4
+Reel
+Diameter
+User Direction of Feed
+P1
+Device Package
+Type
+Package 
+Drawing Pins SPQ
+Reel
+Diameter 
+(mm)
+Reel
+Width W1 
+(mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+LMR36510ADDAR SO 
+PowerPAD DDA 8 2500 330 12.4 6.4 5.2 2.1 8 12 Q1
+LMR36510FADDAR SO 
+PowerPAD DDA 8 2500 330 12.4 6.4 5.2 2.1 8 12 Q1
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+ www.ti.com
+30 Submit Document Feedback Copyright © 2025 Texas Instruments Incorporated
+Product Folder Links: LMR36510
+
+PDF PAGE 31
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W L
+H
+Device Package Type Package Drawing Pins SPQ Length (mm) Width (mm) Height (mm)
+LMR36510ADDAR SO PowerPAD DDA 8 2500 353 353 36
+LMR36510FADDAR SO PowerPAD DDA 8 2500 353 353 36
+www.ti.com
+LMR36510
+SNVSBD7B – OCTOBER 2019 – REVISED NOVEMBER 2025
+Copyright © 2025 Texas Instruments Incorporated Submit Document Feedback 31
+Product Folder Links: LMR36510
+
+PDF PAGE 32
+PACKAGE OPTION ADDENDUM
+www.ti.com 23-May-2025
+PACKAGING INFORMATION
+Orderable part number Status
+(1)
+Material type
+(2)
+Package | Pins Package qty | Carrier RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C) Part marking
+(6)
+LMR36510ADDAR Active Production SO PowerPAD
+(DDA) | 8
+2500 | LARGE T&R Yes NIPDAU | NIPDAUAG Level-2-260C-1 YEAR -40 to 125 36510A
+LMR36510ADDAR.A Active Production SO PowerPAD
+(DDA) | 8
+2500 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 36510A
+LMR36510FADDAR Active Production SO PowerPAD
+(DDA) | 8
+2500 | LARGE T&R Yes NIPDAU | NIPDAUAG Level-2-260C-1 YEAR -40 to 125 36510F
+LMR36510FADDAR.A Active Production SO PowerPAD
+(DDA) | 8
+2500 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 36510F
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+Addendum-Page 1
+
+PDF PAGE 33
+PACKAGE OPTION ADDENDUM
+www.ti.com 23-May-2025
+ 
+Addendum-Page 2
+
+PDF PAGE 34
+
+
+PDF PAGE 35
+
+
+PDF PAGE 36
+
+
+PDF PAGE 37
+www.ti.com
+PACKAGE OUTLINE
+C
+6.2
+5.8 TYP
+1.7 MAX
+6X 1.27
+8X 0.51
+0.31
+2X
+3.81
+0.25
+0.10 TYP
+0 - 8
+0.15
+0.00
+2.71
+2.11
+3.4
+2.8
+4X (0 -10 )
+0.25
+GAGE PLANE
+1.27
+0.40
+A
+5.0
+4.8
+NOTE 3
+B 4.0
+3.8
+4214849/B   09/2025
+PowerPAD    SOIC - 1.7 mm max heightDDA0008B
+PLASTIC SMALL OUTLINE
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side. 
+4. This dimension does not include interlead flash. Interlead flash shall not exceed 0.25 mm per side.
+5. Reference JEDEC registration MS-012.
+ 
+PowerPAD is a trademark of Texas Instruments.
+TM
+1 8
+0.25 C A B
+5
+4
+PIN 1 ID
+AREA
+NOTE 4
+SEATING PLANE
+0.1 C
+ SEE DETAIL A
+DETAIL A
+TYPICAL
+SCALE  2.400
+EXPOSED
+THERMAL PAD
+4
+1
+5
+8
+9
+
+PDF PAGE 38
+www.ti.com
+EXAMPLE BOARD LAYOUT
+(5.4)
+(1.3) TYP
+( 0.2) TYP
+VIA
+(R0.05) TYP
+0.07 MAX
+ALL AROUND
+0.07 MIN
+ALL AROUND
+8X (1.55)
+8X (0.6)
+6X (1.27)
+(2.95)
+NOTE 9
+(4.9)
+NOTE 9
+(2.71)
+(3.4)
+SOLDER MASK
+OPENING(1.3)
+TYP
+4214849/B   09/2025
+PowerPAD    SOIC - 1.7 mm max heightDDA0008B
+PLASTIC SMALL OUTLINE
+SYMM
+SYMM
+SEE DETAILS
+LAND PATTERN EXAMPLE
+SCALE:10X
+1
+4 5
+8
+SOLDER MASK
+OPENING
+ 
+METAL COVERED
+BY SOLDER MASK
+SOLDER MASK
+DEFINED PAD
+9
+NOTES: (continued)
+ 
+6.   Publication IPC-7351 may have alternate designs. 
+7.   Solder mask tolerances between and around signal pads can vary based on board fabrication site. 
+8.   This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature
+       numbers SLMA002 (www.ti.com/lit/slma002) and SLMA004 (www.ti.com/lit/slma004).
+9.   Size of metal pad may vary due to creepage requirement.
+10. Vias are optional depending on application, refer to device data sheet. If any vias are implemented, refer to their locations shown
+      on this view. It is recommended that vias under paste be filled, plugged or tented.
+TM
+METALSOLDER MASK
+OPENING
+NON SOLDER MASK
+DEFINED
+SOLDER MASK DETAILS
+PADS 1-8
+OPENING
+SOLDER MASK METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+
+PDF PAGE 39
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(R0.05) TYP8X (1.55)
+8X (0.6)
+6X (1.27)
+(5.4)
+(2.71)
+(3.4)
+BASED ON
+0.125 THICK
+STENCIL
+4214849/B   09/2025
+PowerPAD    SOIC - 1.7 mm max heightDDA0008B
+PLASTIC SMALL OUTLINE
+2.29 X 2.870.175
+2.47 X 3.100.150
+2.71 X 3.40 (SHOWN)0.125
+3.03 X 3.800.1
+SOLDER STENCIL
+OPENING
+STENCIL
+THICKNESS
+NOTES: (continued)
+ 
+11. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+      design recommendations.   
+12. Board assembly site may have different recommendations for stencil design.
+ 
+TM
+SOLDER PASTE EXAMPLE
+EXPOSED PAD
+100% PRINTED SOLDER COVERAGE BY AREA
+SCALE:10X
+SYMM
+SYMM
+1
+4 5
+8
+BASED ON
+0.125 THICK
+STENCIL
+BY SOLDER MASK
+METAL COVERED
+SEE TABLE FOR
+DIFFERENT OPENINGS
+FOR OTHER STENCIL
+THICKNESSES
+9
+
+PDF PAGE 40
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2026, Texas Instruments Incorporated
+Last updated 10/2025

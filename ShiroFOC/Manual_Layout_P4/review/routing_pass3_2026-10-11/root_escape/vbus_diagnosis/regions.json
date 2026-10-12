@@ -1,0 +1,44 @@
+[
+  {
+    "net": "VBUS_SENSE",
+    "components": [
+      {
+        "ref": "U4",
+        "pin": "9",
+        "cluster_ids": [
+          "0053dd7e-d0aa-4c6a-94bc-9733e61a78cd",
+          "6205f489-ba5e-4f90-a91d-907772520fd9",
+          "8e370716-b6fe-46b5-84d7-176f0bbfd8e4",
+          "a71ca3cc-bbe1-4273-bab7-df5fcf14a478"
+        ],
+        "reaches": [
+          {
+            "layer": 0,
+            "area_mm2": 0.9243750000000001,
+            "via_sites": 0,
+            "nearest_via": []
+          }
+        ]
+      },
+      {
+        "ref": "U602",
+        "pin": "12",
+        "cluster_ids": [
+          "57c7a55f-14de-4341-a901-4a2020f773c1"
+        ],
+        "reaches": [
+          {
+            "layer": 2,
+            "area_mm2": 10.933125000000002,
+            "via_sites": 981,
+            "nearest_via": [
+              -5.175000000000001,
+              17.900000000000006,
+              1.9764235376052373
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

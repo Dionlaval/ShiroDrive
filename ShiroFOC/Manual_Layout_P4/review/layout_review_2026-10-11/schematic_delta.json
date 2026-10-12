@@ -1,0 +1,4284 @@
+{
+  "diff_version": "1.0",
+  "analyzer_type": "schematic",
+  "base_file": "ShiroFOC/Manual_Rebuild/review/schematic_review_2026-09-26/schematic.json",
+  "head_file": "ShiroFOC/Manual_Layout_P4/review/layout_review_2026-10-11/schematic.json",
+  "has_changes": true,
+  "summary": {
+    "total_changes": 286,
+    "added": 98,
+    "removed": 15,
+    "modified": 173,
+    "severity": "breaking",
+    "regressions": 2
+  },
+  "diff": {
+    "statistics": {
+      "statistics.total_components": {
+        "base": 253,
+        "head": 331,
+        "delta": 78
+      },
+      "statistics.total_nets": {
+        "base": 180,
+        "head": 199,
+        "delta": 19
+      },
+      "statistics.unique_parts": {
+        "base": 137,
+        "head": 140,
+        "delta": 3
+      },
+      "statistics.total_wires": {
+        "base": 850,
+        "head": 1145,
+        "delta": 295
+      },
+      "statistics.total_no_connects": {
+        "base": 32,
+        "head": 31,
+        "delta": -1
+      }
+    },
+    "components": {
+      "added": [
+        {
+          "reference": "R425",
+          "value": "TUNE DNP",
+          "footprint": "Resistor_SMD:R_1206_3216Metric"
+        },
+        {
+          "reference": "C413",
+          "value": "TUNE DNP",
+          "footprint": "Capacitor_SMD:C_1206_3216Metric"
+        },
+        {
+          "reference": "TP432",
+          "value": "SOURCE",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "TP433",
+          "value": "PHASE",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "R415",
+          "value": "TUNE DNP",
+          "footprint": "Resistor_SMD:R_1206_3216Metric"
+        },
+        {
+          "reference": "TP423",
+          "value": "PHASE",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "TP422",
+          "value": "SOURCE",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "TP413",
+          "value": "PHASE",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "TP421",
+          "value": "GL",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "R435",
+          "value": "TUNE DNP",
+          "footprint": "Resistor_SMD:R_1206_3216Metric"
+        },
+        {
+          "reference": "C433",
+          "value": "TUNE DNP",
+          "footprint": "Capacitor_SMD:C_1206_3216Metric"
+        },
+        {
+          "reference": "TP431",
+          "value": "GL",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "TP411",
+          "value": "GL",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "TP412",
+          "value": "SOURCE",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "C423",
+          "value": "TUNE DNP",
+          "footprint": "Capacitor_SMD:C_1206_3216Metric"
+        },
+        {
+          "reference": "C150",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C114",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C139",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C117",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C130",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C142",
+          "value": "10uF DNP",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C151",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C144",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "TP104",
+          "value": "VM BULK",
+          "footprint": "TestPoint:TestPoint_Pad_D3.0mm"
+        },
+        {
+          "reference": "C128",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C118",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C135",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C124",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C123",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C157",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C156",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C112",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C115",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C159",
+          "value": "10uF DNP",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C154",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C153",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C152",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C160",
+          "value": "10uF DNP",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C122",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C155",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C141",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C126",
+          "value": "10uF DNP",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C121",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C125",
+          "value": "10uF DNP",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C111",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C133",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C119",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C127",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C116",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C134",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C147",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C136",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C120",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C158",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C131",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C132",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C129",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C140",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "TP105",
+          "value": "GND BULK",
+          "footprint": "TestPoint:TestPoint_Pad_D3.0mm"
+        },
+        {
+          "reference": "C137",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C145",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C143",
+          "value": "10uF DNP",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C148",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C113",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C138",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C110",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C146",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "C149",
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric"
+        },
+        {
+          "reference": "J502",
+          "value": "BRAKE NTC",
+          "footprint": "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
+        },
+        {
+          "reference": "D505",
+          "value": "BAT54SW",
+          "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70"
+        },
+        {
+          "reference": "R511",
+          "value": "10k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric"
+        },
+        {
+          "reference": "R512",
+          "value": "4.7k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric"
+        },
+        {
+          "reference": "C505",
+          "value": "100nF 16V",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric"
+        },
+        {
+          "reference": "Q301",
+          "value": "CSD17483F4",
+          "footprint": "ShiroFOCLib:CSD17483F4_YJC0003A"
+        },
+        {
+          "reference": "R315",
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric"
+        },
+        {
+          "reference": "TP424",
+          "value": "SCOPE GND",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "TP414",
+          "value": "SCOPE GND",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "TP434",
+          "value": "SCOPE GND",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "R221",
+          "value": "33k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric"
+        },
+        {
+          "reference": "Q201",
+          "value": "CSD17483F4",
+          "footprint": "ShiroFOCLib:CSD17483F4_YJC0003A"
+        },
+        {
+          "reference": "R220",
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric"
+        },
+        {
+          "reference": "D201",
+          "value": "LTST-C19HE1WT",
+          "footprint": "LED_SMD:LED_LiteOn_LTST-C19HE1WT"
+        },
+        {
+          "reference": "U604",
+          "value": "TPS2553DBVR",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-6"
+        },
+        {
+          "reference": "C607",
+          "value": "100nF 16V X7R",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric"
+        },
+        {
+          "reference": "R618",
+          "value": "49.9k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric"
+        },
+        {
+          "reference": "C606",
+          "value": "4.7uF 16V X7R",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric"
+        },
+        {
+          "reference": "Q802",
+          "value": "CSD87502Q2",
+          "footprint": "ShiroFOCLib:CSD87502Q2_DLV0006A"
+        },
+        {
+          "reference": "Q801",
+          "value": "CSD17483F4",
+          "footprint": "ShiroFOCLib:CSD17483F4_YJC0003A"
+        },
+        {
+          "reference": "R806",
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric"
+        }
+      ],
+      "removed": [
+        {
+          "reference": "TP903",
+          "value": "GND",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "C207",
+          "value": "4.7nF 2kV",
+          "footprint": "Capacitor_SMD:C_1206_3216Metric"
+        },
+        {
+          "reference": "R205",
+          "value": "0R",
+          "footprint": "Resistor_SMD:R_0603_1608Metric"
+        },
+        {
+          "reference": "R104",
+          "value": "270k 0.1% 100V",
+          "footprint": "Resistor_SMD:R_1206_3216Metric"
+        },
+        {
+          "reference": "R507",
+          "value": "150k 0.1% 200V",
+          "footprint": "Resistor_SMD:R_1206_3216Metric"
+        },
+        {
+          "reference": "D503",
+          "value": "BAT54H",
+          "footprint": "Diode_SMD:D_SOD-123F"
+        },
+        {
+          "reference": "R508",
+          "value": "150k 0.1% 200V",
+          "footprint": "Resistor_SMD:R_1206_3216Metric"
+        },
+        {
+          "reference": "D504",
+          "value": "B5100C 100V 5A",
+          "footprint": "Diode_SMD:D_SMC"
+        },
+        {
+          "reference": "TP1003",
+          "value": "VCC",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm"
+        },
+        {
+          "reference": "JP601",
+          "value": "SENSOR SUPPLY",
+          "footprint": ""
+        },
+        {
+          "reference": "JP801",
+          "value": "TERM ENABLE",
+          "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+        }
+      ],
+      "modified": [
+        {
+          "reference": "H3",
+          "changes": [
+            {
+              "field": "value",
+              "base": "M3 NPTH",
+              "head": "M2 PTH"
+            },
+            {
+              "field": "footprint",
+              "base": "MountingHole:MountingHole_3.2mm_M3",
+              "head": "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+            }
+          ]
+        },
+        {
+          "reference": "H2",
+          "changes": [
+            {
+              "field": "value",
+              "base": "M3 NPTH",
+              "head": "M2 PTH"
+            },
+            {
+              "field": "footprint",
+              "base": "MountingHole:MountingHole_3.2mm_M3",
+              "head": "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+            }
+          ]
+        },
+        {
+          "reference": "H4",
+          "changes": [
+            {
+              "field": "value",
+              "base": "M3 NPTH",
+              "head": "M2 PTH"
+            },
+            {
+              "field": "footprint",
+              "base": "MountingHole:MountingHole_3.2mm_M3",
+              "head": "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+            }
+          ]
+        },
+        {
+          "reference": "H1",
+          "changes": [
+            {
+              "field": "value",
+              "base": "M3 NPTH",
+              "head": "M2 PTH"
+            },
+            {
+              "field": "footprint",
+              "base": "MountingHole:MountingHole_3.2mm_M3",
+              "head": "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+            }
+          ]
+        },
+        {
+          "reference": "U202",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:USBLC6_SOT23_6",
+              "head": "ShiroFOCLib:USBLC6_SOT23_6"
+            }
+          ]
+        },
+        {
+          "reference": "C904",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R902",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R204",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R904",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R905",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R903",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R203",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R901",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C902",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R3",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026",
+              "head": "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
+            },
+            {
+              "field": "mpn",
+              "base": "BVR-Z-R0005-1.0",
+              "head": "LR2512D-3W-0.5mR-1%"
+            }
+          ]
+        },
+        {
+          "reference": "U3",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:DMM0022A",
+              "head": "ShiroFOCLib:DMM0022A"
+            }
+          ]
+        },
+        {
+          "reference": "R1",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026",
+              "head": "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
+            },
+            {
+              "field": "mpn",
+              "base": "BVR-Z-R0005-1.0",
+              "head": "LR2512D-3W-0.5mR-1%"
+            }
+          ]
+        },
+        {
+          "reference": "R5",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026",
+              "head": "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
+            },
+            {
+              "field": "mpn",
+              "base": "BVR-Z-R0005-1.0",
+              "head": "LR2512D-3W-0.5mR-1%"
+            }
+          ]
+        },
+        {
+          "reference": "U1",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:DMM0022A",
+              "head": "ShiroFOCLib:DMM0022A"
+            }
+          ]
+        },
+        {
+          "reference": "R6",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0805_2012Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0805FR-074R7L",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R4",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0805_2012Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0805FR-074R7L",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R2",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0805_2012Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0805FR-074R7L",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "U2",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:DMM0022A",
+              "head": "ShiroFOCLib:DMM0022A"
+            }
+          ]
+        },
+        {
+          "reference": "J1",
+          "changes": [
+            {
+              "field": "value",
+              "base": "Conn_Receptacle_3P_Protected",
+              "head": "MR60PW-M"
+            },
+            {
+              "field": "footprint",
+              "base": "",
+              "head": "ShiroFOCLib:AMASS_MR60PW-M_1x03_P5.50mm_Horizontal"
+            },
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "MR60PW-M"
+            }
+          ]
+        },
+        {
+          "reference": "C102",
+          "changes": [
+            {
+              "field": "value",
+              "base": "680uF 63V",
+              "head": "10uF"
+            },
+            {
+              "field": "footprint",
+              "base": "Manual:Panasonic_EEVFK_K16_18x16.5",
+              "head": "Capacitor_SMD:C_1210_3225Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "EEVFK1J681M",
+              "head": "CL32Y106KCVZNWE"
+            }
+          ]
+        },
+        {
+          "reference": "C105",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0805_2012Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C101",
+          "changes": [
+            {
+              "field": "value",
+              "base": "680uF 63V",
+              "head": "10uF"
+            },
+            {
+              "field": "footprint",
+              "base": "Manual:Panasonic_EEVFK_K16_18x16.5",
+              "head": "Capacitor_SMD:C_1210_3225Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "EEVFK1J681M",
+              "head": "CL32Y106KCVZNWE"
+            }
+          ]
+        },
+        {
+          "reference": "C108",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R103",
+          "changes": [
+            {
+              "field": "value",
+              "base": "270k 0.1% 100V",
+              "head": "560k 0.1% 75V"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_1206_3216Metric",
+              "head": "Resistor_SMD:R_0603_1608Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "RT0603BRD07560KL"
+            }
+          ]
+        },
+        {
+          "reference": "R106",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C103",
+          "changes": [
+            {
+              "field": "value",
+              "base": "680uF 63V",
+              "head": "10uF"
+            },
+            {
+              "field": "footprint",
+              "base": "Manual:Panasonic_EEVFK_K16_18x16.5",
+              "head": "Capacitor_SMD:C_1210_3225Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "EEVFK1J681M",
+              "head": "CL32Y106KCVZNWE"
+            }
+          ]
+        },
+        {
+          "reference": "C106",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R105",
+          "changes": [
+            {
+              "field": "value",
+              "base": "27k 0.1%",
+              "head": "28k 0.1%"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "RT0402BRD0728KL"
+            }
+          ]
+        },
+        {
+          "reference": "U501",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:UCC27517A_DBV5",
+              "head": "ShiroFOCLib:UCC27517A_DBV5"
+            }
+          ]
+        },
+        {
+          "reference": "R509",
+          "changes": [
+            {
+              "field": "value",
+              "base": "12.7k 0.1%",
+              "head": "13.3k 1%"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0712K7L",
+              "head": "RC0402FR-0713K3L"
+            }
+          ]
+        },
+        {
+          "reference": "Q501",
+          "changes": [
+            {
+              "field": "value",
+              "base": "CSD19531Q5A 100V",
+              "head": "ISZ080N10NM6 100V"
+            },
+            {
+              "field": "footprint",
+              "base": "Manual:CSD19531Q5A_Q5A_DQJ0008A",
+              "head": "ShiroFOCLib:ISZ080N10NM6_TSDSON8_FL"
+            },
+            {
+              "field": "mpn",
+              "base": "CSD19531Q5A",
+              "head": "ISZ080N10NM6ATMA1"
+            }
+          ]
+        },
+        {
+          "reference": "R501",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0603FR-0710KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R510",
+          "changes": [
+            {
+              "field": "value",
+              "base": "1M 0.1%",
+              "head": "1M 1%"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD071ML",
+              "head": "RC0402FR-071ML"
+            }
+          ]
+        },
+        {
+          "reference": "C504",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "C1608C0G1H102J080AA",
+              "head": "CGA2B2C0G1H102J050BA"
+            }
+          ]
+        },
+        {
+          "reference": "R506",
+          "changes": [
+            {
+              "field": "value",
+              "base": "150k 0.1% 200V",
+              "head": "470k 1% 75V"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_1206_3216Metric",
+              "head": "Resistor_SMD:R_0603_1608Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT1206BRD07150KL",
+              "head": "RC0603FR-07470KL"
+            }
+          ]
+        },
+        {
+          "reference": "R505",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0603FR-0710KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "C502",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "C1608X7R1H104K080AA",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "D502",
+          "changes": [
+            {
+              "field": "value",
+              "base": "BAT54H",
+              "head": "BAT54CM"
+            },
+            {
+              "field": "footprint",
+              "base": "Diode_SMD:D_SOD-123F",
+              "head": "Package_TO_SOT_SMD:SOT-883"
+            },
+            {
+              "field": "mpn",
+              "base": "BAT54H,115",
+              "head": "BAT54CM,315"
+            }
+          ]
+        },
+        {
+          "reference": "U502",
+          "changes": [
+            {
+              "field": "value",
+              "base": "TLV3012BIDBVR",
+              "head": "TLV3012BIDCKR"
+            },
+            {
+              "field": "footprint",
+              "base": "Package_TO_SOT_SMD:SOT-23-6",
+              "head": "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+            },
+            {
+              "field": "mpn",
+              "base": "TLV3012BIDBVR",
+              "head": "TLV3012BIDCKR"
+            }
+          ]
+        },
+        {
+          "reference": "TP502",
+          "changes": [
+            {
+              "field": "value",
+              "base": "BRK_SW",
+              "head": "BRAKE_SWITCH"
+            }
+          ]
+        },
+        {
+          "reference": "R502",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0603FR-0733RL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R504",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0603FR-0710KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "C503",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "C1608X7R1H104K080AA",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R503",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RC0603FR-074R7L",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "J501",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm",
+              "head": "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm"
+            }
+          ]
+        },
+        {
+          "reference": "R304",
+          "changes": [
+            {
+              "field": "value",
+              "base": "1k",
+              "head": "15k"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R303",
+          "changes": [
+            {
+              "field": "value",
+              "base": "100k",
+              "head": "2k2"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "TP1021",
+          "changes": [
+            {
+              "field": "value",
+              "base": "SPARE_GPIO_1",
+              "head": "CAN_TERM_DISABLE"
+            }
+          ]
+        },
+        {
+          "reference": "U4",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:QFN_IN32G4_STM",
+              "head": "ShiroFOCLib:QFN_IN32G4_STM"
+            }
+          ]
+        },
+        {
+          "reference": "R302",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "Y301",
+          "changes": [
+            {
+              "field": "mpn",
+              "base": "0132M4-24.000F07DTNLL",
+              "head": "CX3225FB24000C0FZZH1"
+            }
+          ]
+        },
+        {
+          "reference": "TP1023",
+          "changes": [
+            {
+              "field": "value",
+              "base": "SPARE_GPIO_3",
+              "head": "EXT_SENSOR_FAULT_N"
+            }
+          ]
+        },
+        {
+          "reference": "C307",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C310",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C308",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "D301",
+          "changes": [
+            {
+              "field": "value",
+              "base": "RED",
+              "head": "LTST-C19HE1WT"
+            },
+            {
+              "field": "footprint",
+              "base": "LED_SMD:LED_0603_1608Metric",
+              "head": "LED_SMD:LED_LiteOn_LTST-C19HE1WT"
+            },
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "LTST-C19HE1WT"
+            }
+          ]
+        },
+        {
+          "reference": "C301",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C305",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C303",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "J1001",
+          "changes": [
+            {
+              "field": "value",
+              "base": "ARM Cortex SWD 10-pin",
+              "head": "TC2030-NL SWD"
+            },
+            {
+              "field": "footprint",
+              "base": "Manual:FTSH_105_01_L_DV_K",
+              "head": "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+            },
+            {
+              "field": "mpn",
+              "base": "FTSH-105-01-L-DV-K",
+              "head": "PCB feature"
+            }
+          ]
+        },
+        {
+          "reference": "SW301",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Button_Switch_SMD:SW_SPST_TL3305A",
+              "head": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG"
+            },
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "KMR221GLFS"
+            }
+          ]
+        },
+        {
+          "reference": "R301",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C309",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "TP703",
+          "changes": [
+            {
+              "field": "value",
+              "base": "NTC_C",
+              "head": "NTC_PHASE_C"
+            }
+          ]
+        },
+        {
+          "reference": "R430",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0756KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R438",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD071KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R419",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0728KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R441",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0756KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R712",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R417",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD071KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R713",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R429",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0728KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R427",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD071KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R418",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD071KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R428",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD071KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R437",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD071KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R420",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0756KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R439",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0728KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R443",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0756KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R711",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C711",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R701",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R702",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "TP701",
+          "changes": [
+            {
+              "field": "value",
+              "base": "NTC_A",
+              "head": "NTC_PHASE_A"
+            }
+          ]
+        },
+        {
+          "reference": "C713",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C712",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R703",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R410",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0756KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "R442",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            },
+            {
+              "field": "mpn",
+              "base": "RT0603BRD0756KL",
+              "head": ""
+            }
+          ]
+        },
+        {
+          "reference": "TP702",
+          "changes": [
+            {
+              "field": "value",
+              "base": "NTC_B",
+              "head": "NTC_PHASE_B"
+            }
+          ]
+        },
+        {
+          "reference": "C215",
+          "changes": [
+            {
+              "field": "value",
+              "base": "22uF / 25V",
+              "head": "22uF 25V X7R"
+            },
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "C3225X7R1E226M250AB"
+            }
+          ]
+        },
+        {
+          "reference": "R201",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C203",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R210",
+          "changes": [
+            {
+              "field": "value",
+              "base": "21.0k 1%",
+              "head": "22.0k 1%"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R212",
+          "changes": [
+            {
+              "field": "value",
+              "base": "21.0k 1%",
+              "head": "22.0k 1%"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "L201",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:WE_LHMI_7050_74437349470",
+              "head": "ShiroFOCLib:WE_LHMI_7050_74437349470"
+            }
+          ]
+        },
+        {
+          "reference": "C214",
+          "changes": [
+            {
+              "field": "value",
+              "base": "22uF / 25V",
+              "head": "22uF 25V X7R"
+            },
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "C3225X7R1E226M250AB"
+            }
+          ]
+        },
+        {
+          "reference": "R208",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C209",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "U201",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:LMR36510_DDA",
+              "head": "ShiroFOCLib:LMR36510_DDA"
+            }
+          ]
+        },
+        {
+          "reference": "C206",
+          "changes": [
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "C3225X7R1E226M250AB"
+            }
+          ]
+        },
+        {
+          "reference": "R207",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R217",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "U204",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:TLV75533_DYD_GND",
+              "head": "ShiroFOCLib:TLV75533_DYD_GND"
+            }
+          ]
+        },
+        {
+          "reference": "R216",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R215",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R213",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C219",
+          "changes": [
+            {
+              "field": "value",
+              "base": "22uF / 16V",
+              "head": "22uF 16V X7R"
+            },
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "C3225X7R1C226M250AC"
+            }
+          ]
+        },
+        {
+          "reference": "C205",
+          "changes": [
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "C3225X7R1E226M250AB"
+            }
+          ]
+        },
+        {
+          "reference": "R209",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R211",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C218",
+          "changes": [
+            {
+              "field": "value",
+              "base": "22uF / 16V",
+              "head": "22uF 16V X7R"
+            },
+            {
+              "field": "mpn",
+              "base": "",
+              "head": "C3225X7R1C226M250AC"
+            }
+          ]
+        },
+        {
+          "reference": "R206",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R219",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C211",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "TP201",
+          "changes": [
+            {
+              "field": "value",
+              "base": "5V_BAT",
+              "head": "PWR_SOURCE_STATUS"
+            }
+          ]
+        },
+        {
+          "reference": "R214",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R218",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R202",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "U203",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:TPS2121_RUX",
+              "head": "ShiroFOCLib:TPS2121_RUX"
+            }
+          ]
+        },
+        {
+          "reference": "U205",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:IC18_MPM3620AGQV-Z_MNP",
+              "head": "ShiroFOCLib:IC18_MPM3620AGQV-Z_MNP"
+            }
+          ]
+        },
+        {
+          "reference": "U602",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:TMUX1574_PW16",
+              "head": "ShiroFOCLib:TMUX1574_PW16"
+            }
+          ]
+        },
+        {
+          "reference": "R307",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "U603",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "",
+              "head": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+            }
+          ]
+        },
+        {
+          "reference": "R609",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R606",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C603",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C605",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R608",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R306",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "D601",
+          "changes": [
+            {
+              "field": "value",
+              "base": "TPD3E001DRLR 3-line ESD",
+              "head": "TPD3E001DRYR"
+            },
+            {
+              "field": "footprint",
+              "base": "Manual:TPD3E001_DRL5",
+              "head": "ShiroFOCLib:TPD3E001_DRY6"
+            },
+            {
+              "field": "mpn",
+              "base": "TPD3E001DRLR",
+              "head": "TPD3E001DRYR"
+            }
+          ]
+        },
+        {
+          "reference": "R616",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R617",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R605",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R615",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R604",
+          "changes": [
+            {
+              "field": "value",
+              "base": "0R",
+              "head": "10k"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R305",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C604",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R607",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R610",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R310",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C314",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R311",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C313",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R312",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R801",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R804",
+          "changes": [
+            {
+              "field": "value",
+              "base": "0R CANL link",
+              "head": "100k"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R803",
+          "changes": [
+            {
+              "field": "value",
+              "base": "0R CANH link",
+              "head": "4.7k"
+            },
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C801",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R805",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "U801",
+          "changes": [
+            {
+              "field": "value",
+              "base": "TCAN3413DR",
+              "head": "TCAN3413DRBR"
+            },
+            {
+              "field": "footprint",
+              "base": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+              "head": "ShiroFOCLib:TCAN3413_DRB8"
+            },
+            {
+              "field": "mpn",
+              "base": "TCAN3413DR",
+              "head": "TCAN3413DRBR"
+            }
+          ]
+        },
+        {
+          "reference": "C702",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "TP1012",
+          "changes": [
+            {
+              "field": "value",
+              "base": "SPI3_MOSI",
+              "head": "ENC_SPI_MOSI"
+            }
+          ]
+        },
+        {
+          "reference": "U601",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:AS5047P_TSSOP14",
+              "head": "ShiroFOCLib:AS5047P_TSSOP14"
+            }
+          ]
+        },
+        {
+          "reference": "R309",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R313",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C601",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "C701",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Capacitor_SMD:C_0603_1608Metric",
+              "head": "Capacitor_SMD:C_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R308",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R715",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "R611",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        },
+        {
+          "reference": "TP1010",
+          "changes": [
+            {
+              "field": "value",
+              "base": "SPI3_SCK",
+              "head": "ENC_SPI_CLK"
+            }
+          ]
+        },
+        {
+          "reference": "U701",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Manual:BMI323_LGA14",
+              "head": "ShiroFOCLib:BMI323_LGA14"
+            }
+          ]
+        },
+        {
+          "reference": "R314",
+          "changes": [
+            {
+              "field": "footprint",
+              "base": "Resistor_SMD:R_0603_1608Metric",
+              "head": "Resistor_SMD:R_0402_1005Metric"
+            }
+          ]
+        }
+      ]
+    },
+    "signal_analysis": {
+      "detect_solder_jumpers": {
+        "added": [],
+        "removed": [
+          {
+            "reference": "JP601",
+            "value": "SENSOR SUPPLY"
+          },
+          {
+            "reference": "JP801",
+            "value": "TERM ENABLE"
+          }
+        ],
+        "modified": [],
+        "unchanged_count": 0
+      },
+      "power_regulators": {
+        "added": [
+          {
+            "ref": "U604",
+            "value": "TPS2553DBVR",
+            "topology": "LDO"
+          }
+        ],
+        "removed": [],
+        "modified": [],
+        "unchanged_count": 4
+      },
+      "rc_filters": {
+        "added": [
+          {
+            "ref": "C505",
+            "type": "low-pass",
+            "resistor_ref": "R512",
+            "capacitor_ref": "C505"
+          }
+        ],
+        "removed": [],
+        "modified": [
+          {
+            "identity": "rc_filters:2e7d4a1847ef",
+            "changes": [
+              {
+                "field": "cutoff_hz",
+                "base": 15.92,
+                "head": 723.43,
+                "delta_pct": 4444.2
+              }
+            ],
+            "base_item": {
+              "type": "low-pass",
+              "resistor": {
+                "ref": "R303",
+                "value": "100k",
+                "ohms": 100000.0
+              },
+              "capacitor": {
+                "ref": "C310",
+                "value": "100nF",
+                "farads": 1.0000000000000001e-07,
+                "package": "0603",
+                "esr_ohm": 0.15,
+                "dielectric": "X7R"
+              },
+              "cutoff_hz": 15.92,
+              "time_constant_s": 0.01,
+              "input_net": "3V3",
+              "output_net": "NRST",
+              "ground_net": "GND",
+              "cutoff_formatted": "15.92 Hz",
+              "detector": "detect_rc_filters",
+              "rule_id": "RC-DET",
+              "category": "passive_filters",
+              "severity": "info",
+              "confidence": "deterministic",
+              "evidence_source": "topology",
+              "summary": "RC filter R303/C310 at 15.92Hz",
+              "description": "low-pass RC filter",
+              "components": [
+                "C310",
+                "R303"
+              ],
+              "nets": [],
+              "pins": [],
+              "recommendation": "",
+              "report_context": {
+                "section": "Passive Filters",
+                "impact": "",
+                "standard_ref": ""
+              },
+              "provenance": {
+                "evidence": "rc_topology",
+                "confidence": "deterministic",
+                "claimed_components": [
+                  "R303",
+                  "C310"
+                ],
+                "excluded_by": [],
+                "suppressed_candidates": []
+              },
+              "detection_id": "rc_filters:2e7d4a1847ef",
+              "stages": [
+                "schematic"
+              ],
+              "in_active_stage": true,
+              "finding_id": "schematic:rc_filters-2e7d4a1847ef"
+            },
+            "head_item": {
+              "type": "low-pass",
+              "resistor": {
+                "ref": "R303",
+                "value": "2k2",
+                "ohms": 2200.0
+              },
+              "capacitor": {
+                "ref": "C310",
+                "value": "100nF",
+                "farads": 1.0000000000000001e-07,
+                "package": "0402",
+                "esr_ohm": 0.5,
+                "dielectric": "X7R"
+              },
+              "cutoff_hz": 723.43,
+              "time_constant_s": 0.00022,
+              "input_net": "3V3",
+              "output_net": "NRST",
+              "ground_net": "GND",
+              "cutoff_formatted": "723.43 Hz",
+              "detector": "detect_rc_filters",
+              "rule_id": "RC-DET",
+              "category": "passive_filters",
+              "severity": "info",
+              "confidence": "deterministic",
+              "evidence_source": "topology",
+              "summary": "RC filter R303/C310 at 723.43Hz",
+              "description": "low-pass RC filter",
+              "components": [
+                "C310",
+                "R303"
+              ],
+              "nets": [],
+              "pins": [],
+              "recommendation": "",
+              "report_context": {
+                "section": "Passive Filters",
+                "impact": "",
+                "standard_ref": ""
+              },
+              "provenance": {
+                "evidence": "rc_topology",
+                "confidence": "deterministic",
+                "claimed_components": [
+                  "R303",
+                  "C310"
+                ],
+                "excluded_by": [],
+                "suppressed_candidates": []
+              },
+              "detection_id": "rc_filters:2e7d4a1847ef",
+              "stages": [
+                "schematic"
+              ],
+              "finding_id": "schematic:rc_filters-2e7d4a1847ef"
+            },
+            "attributed_to": [
+              {
+                "ref": "R303",
+                "base_value": "100k",
+                "head_value": "2k2"
+              }
+            ]
+          }
+        ],
+        "unchanged_count": 6
+      },
+      "transistor_circuits": {
+        "added": [
+          {
+            "reference": "Q201",
+            "value": "CSD17483F4",
+            "type": "mosfet"
+          },
+          {
+            "reference": "Q301",
+            "value": "CSD17483F4",
+            "type": "mosfet"
+          },
+          {
+            "reference": "Q801",
+            "value": "CSD17483F4",
+            "type": "mosfet"
+          },
+          {
+            "reference": "Q802",
+            "value": "CSD87502Q2",
+            "type": "mosfet"
+          }
+        ],
+        "removed": [],
+        "modified": [],
+        "unchanged_count": 1
+      },
+      "validate_voltage_levels": {
+        "added": [
+          {}
+        ],
+        "removed": [],
+        "modified": [],
+        "unchanged_count": 1
+      },
+      "voltage_dividers": {
+        "added": [
+          {
+            "ref": "R105",
+            "r_top_ref": "R103",
+            "r_bottom_ref": "R105"
+          },
+          {
+            "ref": "R510",
+            "r_top_ref": "R506",
+            "r_bottom_ref": "R510"
+          }
+        ],
+        "removed": [
+          {
+            "ref": "R105",
+            "r_top_ref": "R104",
+            "r_bottom_ref": "R105"
+          },
+          {
+            "ref": "R510",
+            "r_top_ref": "R508",
+            "r_bottom_ref": "R510"
+          }
+        ],
+        "modified": [
+          {
+            "identity": "voltage_dividers:82dd39f77509",
+            "changes": [
+              {
+                "field": "ratio",
+                "base": 0.195402,
+                "head": 0.188192,
+                "delta_pct": -3.7
+              }
+            ],
+            "base_item": {
+              "r_top": {
+                "ref": "R210",
+                "value": "21.0k 1%",
+                "ohms": 21000.0
+              },
+              "r_bottom": {
+                "ref": "R211",
+                "value": "5.10k 1%",
+                "ohms": 5100.0
+              },
+              "top_net": "5V_BAT",
+              "mid_net": "__unnamed_43",
+              "bottom_net": "GND",
+              "ratio": 0.195402,
+              "mid_point_connections": [
+                {
+                  "component": "U203",
+                  "pin_number": "5",
+                  "pin_name": "OV1",
+                  "pin_type": "input"
+                }
+              ],
+              "purpose": "unknown",
+              "detector": "detect_voltage_dividers",
+              "rule_id": "VD-DET",
+              "category": "voltage_dividers",
+              "severity": "info",
+              "confidence": "deterministic",
+              "evidence_source": "topology",
+              "summary": "Voltage divider R210/R211",
+              "description": "Resistive voltage divider detected",
+              "components": [
+                "R210",
+                "R211"
+              ],
+              "nets": [],
+              "pins": [],
+              "recommendation": "",
+              "report_context": {
+                "section": "Voltage Dividers",
+                "impact": "",
+                "standard_ref": ""
+              },
+              "provenance": {
+                "evidence": "vd_two_resistor",
+                "confidence": "deterministic",
+                "claimed_components": [
+                  "R210",
+                  "R211"
+                ],
+                "excluded_by": [],
+                "suppressed_candidates": []
+              },
+              "detection_id": "voltage_dividers:82dd39f77509",
+              "stages": [
+                "schematic"
+              ],
+              "in_active_stage": true,
+              "finding_id": "schematic:voltage_dividers-82dd39f77509"
+            },
+            "head_item": {
+              "r_top": {
+                "ref": "R210",
+                "value": "22.0k 1%",
+                "ohms": 22000.0
+              },
+              "r_bottom": {
+                "ref": "R211",
+                "value": "5.10k 1%",
+                "ohms": 5100.0
+              },
+              "top_net": "5V_BAT",
+              "mid_net": "__unnamed_52",
+              "bottom_net": "GND",
+              "ratio": 0.188192,
+              "mid_point_connections": [
+                {
+                  "component": "U203",
+                  "pin_number": "5",
+                  "pin_name": "OV1",
+                  "pin_type": "input"
+                }
+              ],
+              "purpose": "unknown",
+              "detector": "detect_voltage_dividers",
+              "rule_id": "VD-DET",
+              "category": "voltage_dividers",
+              "severity": "info",
+              "confidence": "deterministic",
+              "evidence_source": "topology",
+              "summary": "Voltage divider R210/R211",
+              "description": "Resistive voltage divider detected",
+              "components": [
+                "R210",
+                "R211"
+              ],
+              "nets": [],
+              "pins": [],
+              "recommendation": "",
+              "report_context": {
+                "section": "Voltage Dividers",
+                "impact": "",
+                "standard_ref": ""
+              },
+              "provenance": {
+                "evidence": "vd_two_resistor",
+                "confidence": "deterministic",
+                "claimed_components": [
+                  "R210",
+                  "R211"
+                ],
+                "excluded_by": [],
+                "suppressed_candidates": []
+              },
+              "detection_id": "voltage_dividers:82dd39f77509",
+              "stages": [
+                "schematic"
+              ],
+              "finding_id": "schematic:voltage_dividers-82dd39f77509"
+            },
+            "attributed_to": [
+              {
+                "ref": "R210",
+                "base_value": "21.0k 1%",
+                "head_value": "22.0k 1%"
+              }
+            ]
+          },
+          {
+            "identity": "voltage_dividers:50140c958538",
+            "changes": [
+              {
+                "field": "ratio",
+                "base": 0.195402,
+                "head": 0.188192,
+                "delta_pct": -3.7
+              }
+            ],
+            "base_item": {
+              "r_top": {
+                "ref": "R212",
+                "value": "21.0k 1%",
+                "ohms": 21000.0
+              },
+              "r_bottom": {
+                "ref": "R213",
+                "value": "5.10k 1%",
+                "ohms": 5100.0
+              },
+              "top_net": "5V_USB",
+              "mid_net": "__unnamed_44",
+              "bottom_net": "GND",
+              "ratio": 0.195402,
+              "mid_point_connections": [
+                {
+                  "component": "U203",
+                  "pin_number": "4",
+                  "pin_name": "OV2",
+                  "pin_type": "input"
+                }
+              ],
+              "purpose": "unknown",
+              "detector": "detect_voltage_dividers",
+              "rule_id": "VD-DET",
+              "category": "voltage_dividers",
+              "severity": "info",
+              "confidence": "deterministic",
+              "evidence_source": "topology",
+              "summary": "Voltage divider R212/R213",
+              "description": "Resistive voltage divider detected",
+              "components": [
+                "R212",
+                "R213"
+              ],
+              "nets": [],
+              "pins": [],
+              "recommendation": "",
+              "report_context": {
+                "section": "Voltage Dividers",
+                "impact": "",
+                "standard_ref": ""
+              },
+              "provenance": {
+                "evidence": "vd_two_resistor",
+                "confidence": "deterministic",
+                "claimed_components": [
+                  "R212",
+                  "R213"
+                ],
+                "excluded_by": [],
+                "suppressed_candidates": []
+              },
+              "detection_id": "voltage_dividers:50140c958538",
+              "stages": [
+                "schematic"
+              ],
+              "in_active_stage": true,
+              "finding_id": "schematic:voltage_dividers-50140c958538"
+            },
+            "head_item": {
+              "r_top": {
+                "ref": "R212",
+                "value": "22.0k 1%",
+                "ohms": 22000.0
+              },
+              "r_bottom": {
+                "ref": "R213",
+                "value": "5.10k 1%",
+                "ohms": 5100.0
+              },
+              "top_net": "5V_USB",
+              "mid_net": "__unnamed_53",
+              "bottom_net": "GND",
+              "ratio": 0.188192,
+              "mid_point_connections": [
+                {
+                  "component": "U203",
+                  "pin_number": "4",
+                  "pin_name": "OV2",
+                  "pin_type": "input"
+                }
+              ],
+              "purpose": "unknown",
+              "detector": "detect_voltage_dividers",
+              "rule_id": "VD-DET",
+              "category": "voltage_dividers",
+              "severity": "info",
+              "confidence": "deterministic",
+              "evidence_source": "topology",
+              "summary": "Voltage divider R212/R213",
+              "description": "Resistive voltage divider detected",
+              "components": [
+                "R212",
+                "R213"
+              ],
+              "nets": [],
+              "pins": [],
+              "recommendation": "",
+              "report_context": {
+                "section": "Voltage Dividers",
+                "impact": "",
+                "standard_ref": ""
+              },
+              "provenance": {
+                "evidence": "vd_two_resistor",
+                "confidence": "deterministic",
+                "claimed_components": [
+                  "R212",
+                  "R213"
+                ],
+                "excluded_by": [],
+                "suppressed_candidates": []
+              },
+              "detection_id": "voltage_dividers:50140c958538",
+              "stages": [
+                "schematic"
+              ],
+              "finding_id": "schematic:voltage_dividers-50140c958538"
+            },
+            "attributed_to": [
+              {
+                "ref": "R212",
+                "base_value": "21.0k 1%",
+                "head_value": "22.0k 1%"
+              }
+            ]
+          },
+          {
+            "identity": "voltage_dividers:ea78751fec0e",
+            "changes": [
+              {
+                "field": "ratio",
+                "base": 0.012541,
+                "head": 0.013125,
+                "delta_pct": 4.7
+              }
+            ],
+            "base_item": {
+              "r_top": {
+                "ref": "R510",
+                "value": "1M 0.1%",
+                "ohms": 1000000.0
+              },
+              "r_bottom": {
+                "ref": "R509",
+                "value": "12.7k 0.1%",
+                "ohms": 12700.0
+              },
+              "top_net": "BRAKE_OV_CMD",
+              "mid_net": "__unnamed_25",
+              "bottom_net": "GND",
+              "ratio": 0.012541,
+              "mid_point_connections": [
+                {
+                  "component": "C504",
+                  "pin_number": "1",
+                  "pin_name": "~",
+                  "pin_type": "passive"
+                },
+                {
+                  "component": "U502",
+                  "pin_number": "3",
+                  "pin_name": "IN+",
+                  "pin_type": "input"
+                },
+                {
+                  "component": "R508",
+                  "pin_number": "2",
+                  "pin_name": "~",
+                  "pin_type": "passive"
+                }
+              ],
+              "purpose": "bias",
+              "detector": "detect_voltage_dividers",
+              "rule_id": "VD-DET",
+              "category": "voltage_dividers",
+              "severity": "info",
+              "confidence": "deterministic",
+              "evidence_source": "topology",
+              "summary": "Voltage divider R510/R509",
+              "description": "Resistive voltage divider detected",
+              "components": [
+                "R509",
+                "R510"
+              ],
+              "nets": [],
+              "pins": [],
+              "recommendation": "",
+              "report_context": {
+                "section": "Voltage Dividers",
+                "impact": "",
+                "standard_ref": ""
+              },
+              "provenance": {
+                "evidence": "vd_two_resistor",
+                "confidence": "deterministic",
+                "claimed_components": [
+                  "R510",
+                  "R509"
+                ],
+                "excluded_by": [],
+                "suppressed_candidates": []
+              },
+              "detection_id": "voltage_dividers:ea78751fec0e",
+              "stages": [
+                "schematic"
+              ],
+              "in_active_stage": true,
+              "finding_id": "schematic:voltage_dividers-ea78751fec0e"
+            },
+            "head_item": {
+              "r_top": {
+                "ref": "R510",
+                "value": "1M 1%",
+                "ohms": 1000000.0
+              },
+              "r_bottom": {
+                "ref": "R509",
+                "value": "13.3k 1%",
+                "ohms": 13300.0
+              },
+              "top_net": "BRAKE_OV_CMD",
+              "mid_net": "__unnamed_36",
+              "bottom_net": "GND",
+              "ratio": 0.013125,
+              "mid_point_connections": [
+                {
+                  "component": "C504",
+                  "pin_number": "1",
+                  "pin_name": "~",
+                  "pin_type": "passive"
+                },
+                {
+                  "component": "R506",
+                  "pin_number": "2",
+                  "pin_name": "~",
+                  "pin_type": "passive"
+                },
+                {
+                  "component": "U502",
+                  "pin_number": "3",
+                  "pin_name": "IN+",
+                  "pin_type": "input"
+                }
+              ],
+              "purpose": "bias",
+              "detector": "detect_voltage_dividers",
+              "rule_id": "VD-DET",
+              "category": "voltage_dividers",
+              "severity": "info",
+              "confidence": "deterministic",
+              "evidence_source": "topology",
+              "summary": "Voltage divider R510/R509",
+              "description": "Resistive voltage divider detected",
+              "components": [
+                "R509",
+                "R510"
+              ],
+              "nets": [],
+              "pins": [],
+              "recommendation": "",
+              "report_context": {
+                "section": "Voltage Dividers",
+                "impact": "",
+                "standard_ref": ""
+              },
+              "provenance": {
+                "evidence": "vd_two_resistor",
+                "confidence": "deterministic",
+                "claimed_components": [
+                  "R510",
+                  "R509"
+                ],
+                "excluded_by": [],
+                "suppressed_candidates": []
+              },
+              "detection_id": "voltage_dividers:ea78751fec0e",
+              "stages": [
+                "schematic"
+              ],
+              "finding_id": "schematic:voltage_dividers-ea78751fec0e"
+            },
+            "attributed_to": [
+              {
+                "ref": "R509",
+                "base_value": "12.7k 0.1%",
+                "head_value": "13.3k 1%"
+              },
+              {
+                "ref": "R510",
+                "base_value": "1M 0.1%",
+                "head_value": "1M 1%"
+              }
+            ]
+          }
+        ],
+        "unchanged_count": 22
+      }
+    },
+    "bom": {
+      "added": [
+        {
+          "value": "100nF 100V X7R",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "10nF 100V C0G",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "10uF DNP",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric",
+          "quantity": 6
+        },
+        {
+          "value": "10uF",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric",
+          "quantity": 48
+        },
+        {
+          "value": "22uF 16V X7R",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric",
+          "quantity": 2
+        },
+        {
+          "value": "10pF C0G",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "quantity": 2
+        },
+        {
+          "value": "100nF 25V",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "TUNE DNP",
+          "footprint": "Capacitor_SMD:C_1206_3216Metric",
+          "quantity": 3
+        },
+        {
+          "value": "100nF 50V",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "quantity": 3
+        },
+        {
+          "value": "1nF C0G",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "100nF 16V",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "4.7uF 16V X7R",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "100nF 16V X7R",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "100nF",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "quantity": 16
+        },
+        {
+          "value": "LTST-C19HE1WT",
+          "footprint": "LED_SMD:LED_LiteOn_LTST-C19HE1WT",
+          "quantity": 2
+        },
+        {
+          "value": "BAT54CM",
+          "footprint": "Package_TO_SOT_SMD:SOT-883",
+          "quantity": 1
+        },
+        {
+          "value": "BAT54SW",
+          "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
+          "quantity": 1
+        },
+        {
+          "value": "TPD3E001DRYR",
+          "footprint": "ShiroFOCLib:TPD3E001_DRY6",
+          "quantity": 1
+        },
+        {
+          "value": "MR60PW-M",
+          "footprint": "ShiroFOCLib:AMASS_MR60PW-M_1x03_P5.50mm_Horizontal",
+          "quantity": 1
+        },
+        {
+          "value": "BRAKE RESISTOR",
+          "footprint": "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm",
+          "quantity": 1
+        },
+        {
+          "value": "BRAKE NTC",
+          "footprint": "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+          "quantity": 1
+        },
+        {
+          "value": "47uH / 1.9A",
+          "footprint": "ShiroFOCLib:WE_LHMI_7050_74437349470",
+          "quantity": 1
+        },
+        {
+          "value": "CSD17483F4",
+          "footprint": "ShiroFOCLib:CSD17483F4_YJC0003A",
+          "quantity": 3
+        },
+        {
+          "value": "ISZ080N10NM6 100V",
+          "footprint": "ShiroFOCLib:ISZ080N10NM6_TSDSON8_FL",
+          "quantity": 1
+        },
+        {
+          "value": "CSD87502Q2",
+          "footprint": "ShiroFOCLib:CSD87502Q2_DLV0006A",
+          "quantity": 1
+        },
+        {
+          "value": "560k 0.1% 75V",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "28k 0.1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 3
+        },
+        {
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "11.1k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "5.1k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 2
+        },
+        {
+          "value": "15.0k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "5.10k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 4
+        },
+        {
+          "value": "10.0k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "22.0k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 2
+        },
+        {
+          "value": "80.6k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "34.0k 0.1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "6.49k 0.1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "100k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 7
+        },
+        {
+          "value": "33k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "0.5m 1%",
+          "footprint": "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin",
+          "quantity": 3
+        },
+        {
+          "value": "0R",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 2
+        },
+        {
+          "value": "2k2",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "15k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "2.2k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 2
+        },
+        {
+          "value": "22R",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 2
+        },
+        {
+          "value": "TUNE DNP",
+          "footprint": "Resistor_SMD:R_1206_3216Metric",
+          "quantity": 3
+        },
+        {
+          "value": "56k 0.1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 6
+        },
+        {
+          "value": "1k 0.1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 6
+        },
+        {
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 15
+        },
+        {
+          "value": "33R",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 2
+        },
+        {
+          "value": "4.7R",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "470k 1% 75V",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "13.3k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "1M 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "10k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "4.7k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 4
+        },
+        {
+          "value": "4R7",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 3
+        },
+        {
+          "value": "4.7k DNP",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 3
+        },
+        {
+          "value": "49.9k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "4.7k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "1k",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 6
+        },
+        {
+          "value": "100R",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 5
+        },
+        {
+          "value": "22.1k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "47.5k 1%",
+          "footprint": "Resistor_SMD:R_0402_1005Metric",
+          "quantity": 1
+        },
+        {
+          "value": "RESET",
+          "footprint": "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG",
+          "quantity": 1
+        },
+        {
+          "value": "ENC_SPI_CLK",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "ENC_SPI_MOSI",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "CAN_TERM_DISABLE",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "EXT_SENSOR_FAULT_N",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "PWR_SOURCE_STATUS",
+          "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+          "quantity": 1
+        },
+        {
+          "value": "BRAKE_SWITCH",
+          "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+          "quantity": 1
+        },
+        {
+          "value": "NTC_PHASE_A",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "NTC_PHASE_B",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "NTC_PHASE_C",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "LMR36510FADDAR",
+          "footprint": "ShiroFOCLib:LMR36510_DDA",
+          "quantity": 1
+        },
+        {
+          "value": "USBLC6-2SC6",
+          "footprint": "ShiroFOCLib:USBLC6_SOT23_6",
+          "quantity": 1
+        },
+        {
+          "value": "TPS2121RUXR",
+          "footprint": "ShiroFOCLib:TPS2121_RUX",
+          "quantity": 1
+        },
+        {
+          "value": "TLV75533PDYDR",
+          "footprint": "ShiroFOCLib:TLV75533_DYD_GND",
+          "quantity": 1
+        },
+        {
+          "value": "MPM3620AGQV-Z",
+          "footprint": "ShiroFOCLib:IC18_MPM3620AGQV-Z_MNP",
+          "quantity": 1
+        },
+        {
+          "value": "CSD88599Q5DC",
+          "footprint": "ShiroFOCLib:DMM0022A",
+          "quantity": 3
+        },
+        {
+          "value": "STSPIN32G4",
+          "footprint": "ShiroFOCLib:QFN_IN32G4_STM",
+          "quantity": 1
+        },
+        {
+          "value": "UCC27517ADBVR",
+          "footprint": "ShiroFOCLib:UCC27517A_DBV5",
+          "quantity": 1
+        },
+        {
+          "value": "TLV3012BIDCKR",
+          "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+          "quantity": 1
+        },
+        {
+          "value": "AS5047P-ATSM",
+          "footprint": "ShiroFOCLib:AS5047P_TSSOP14",
+          "quantity": 1
+        },
+        {
+          "value": "TMUX1574PW",
+          "footprint": "ShiroFOCLib:TMUX1574_PW16",
+          "quantity": 1
+        },
+        {
+          "value": "74LVC3G17",
+          "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+          "quantity": 1
+        },
+        {
+          "value": "TPS2553DBVR",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+          "quantity": 1
+        },
+        {
+          "value": "BMI323",
+          "footprint": "ShiroFOCLib:BMI323_LGA14",
+          "quantity": 1
+        },
+        {
+          "value": "TCAN3413DRBR",
+          "footprint": "ShiroFOCLib:TCAN3413_DRB8",
+          "quantity": 1
+        }
+      ],
+      "removed": [
+        {
+          "value": "680uF 63V",
+          "footprint": "Manual:Panasonic_EEVFK_K16_18x16.5",
+          "quantity": 3
+        },
+        {
+          "value": "100nF 100V X7R",
+          "footprint": "Capacitor_SMD:C_0805_2012Metric",
+          "quantity": 1
+        },
+        {
+          "value": "10nF 100V C0G",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "10nF",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "quantity": 5
+        },
+        {
+          "value": "4.7nF 2kV",
+          "footprint": "Capacitor_SMD:C_1206_3216Metric",
+          "quantity": 1
+        },
+        {
+          "value": "22uF / 25V",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric",
+          "quantity": 2
+        },
+        {
+          "value": "22uF / 16V",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric",
+          "quantity": 2
+        },
+        {
+          "value": "10pF C0G",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "quantity": 2
+        },
+        {
+          "value": "100nF 25V",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "100nF 50V",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "1nF C0G",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "100nF",
+          "footprint": "Capacitor_SMD:C_0603_1608Metric",
+          "quantity": 16
+        },
+        {
+          "value": "RED",
+          "footprint": "LED_SMD:LED_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "BAT54H",
+          "footprint": "Diode_SMD:D_SOD-123F",
+          "quantity": 2
+        },
+        {
+          "value": "B5100C 100V 5A",
+          "footprint": "Diode_SMD:D_SMC",
+          "quantity": 1
+        },
+        {
+          "value": "TPD3E001DRLR 3-line ESD",
+          "footprint": "Manual:TPD3E001_DRL5",
+          "quantity": 1
+        },
+        {
+          "value": "Conn_Receptacle_3P_Protected",
+          "footprint": "",
+          "quantity": 1
+        },
+        {
+          "value": "ARM Cortex SWD 10-pin",
+          "footprint": "Manual:FTSH_105_01_L_DV_K",
+          "quantity": 1
+        },
+        {
+          "value": "BRAKE RESISTOR",
+          "footprint": "Connector_Wire:SolderWire-2sqmm_1x02_P7.8mm_D2mm_OD3.9mm",
+          "quantity": 1
+        },
+        {
+          "value": "SENSOR SUPPLY",
+          "footprint": "",
+          "quantity": 1
+        },
+        {
+          "value": "TERM ENABLE",
+          "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+          "quantity": 1
+        },
+        {
+          "value": "47uH / 1.9A",
+          "footprint": "Manual:WE_LHMI_7050_74437349470",
+          "quantity": 1
+        },
+        {
+          "value": "CSD19531Q5A 100V",
+          "footprint": "Manual:CSD19531Q5A_Q5A_DQJ0008A",
+          "quantity": 1
+        },
+        {
+          "value": "270k 0.1% 100V",
+          "footprint": "Resistor_SMD:R_1206_3216Metric",
+          "quantity": 2
+        },
+        {
+          "value": "27k 0.1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "100k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "11.1k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "5.1k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 2
+        },
+        {
+          "value": "0R",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 4
+        },
+        {
+          "value": "15.0k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "5.10k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 4
+        },
+        {
+          "value": "10.0k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "21.0k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 2
+        },
+        {
+          "value": "80.6k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "10k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 3
+        },
+        {
+          "value": "34.0k 0.1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "6.49k 0.1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "0.5m 1%",
+          "footprint": "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026",
+          "quantity": 3
+        },
+        {
+          "value": "100k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 7
+        },
+        {
+          "value": "2.2k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 2
+        },
+        {
+          "value": "22R",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 2
+        },
+        {
+          "value": "28k 0.1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 3
+        },
+        {
+          "value": "56k 0.1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 6
+        },
+        {
+          "value": "1k 0.1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 6
+        },
+        {
+          "value": "33R",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "4.7R",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "150k 0.1% 200V",
+          "footprint": "Resistor_SMD:R_1206_3216Metric",
+          "quantity": 3
+        },
+        {
+          "value": "12.7k 0.1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "1M 0.1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "4R7",
+          "footprint": "Resistor_SMD:R_0805_2012Metric",
+          "quantity": 3
+        },
+        {
+          "value": "4.7k DNP",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 3
+        },
+        {
+          "value": "4.7k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 3
+        },
+        {
+          "value": "0R CANH link",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "0R CANL link",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "1k",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 7
+        },
+        {
+          "value": "100R",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 5
+        },
+        {
+          "value": "22.1k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "47.5k 1%",
+          "footprint": "Resistor_SMD:R_0603_1608Metric",
+          "quantity": 1
+        },
+        {
+          "value": "RESET",
+          "footprint": "Button_Switch_SMD:SW_SPST_TL3305A",
+          "quantity": 1
+        },
+        {
+          "value": "VCC",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "SPI3_SCK",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "SPI3_MOSI",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "SPARE_GPIO_1",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "SPARE_GPIO_3",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "5V_BAT",
+          "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+          "quantity": 1
+        },
+        {
+          "value": "BRK_SW",
+          "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+          "quantity": 1
+        },
+        {
+          "value": "NTC_A",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "NTC_B",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "NTC_C",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "GND",
+          "footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+          "quantity": 1
+        },
+        {
+          "value": "LMR36510FADDAR",
+          "footprint": "Manual:LMR36510_DDA",
+          "quantity": 1
+        },
+        {
+          "value": "USBLC6-2SC6",
+          "footprint": "Manual:USBLC6_SOT23_6",
+          "quantity": 1
+        },
+        {
+          "value": "TPS2121RUXR",
+          "footprint": "Manual:TPS2121_RUX",
+          "quantity": 1
+        },
+        {
+          "value": "TLV75533PDYDR",
+          "footprint": "Manual:TLV75533_DYD_GND",
+          "quantity": 1
+        },
+        {
+          "value": "MPM3620AGQV-Z",
+          "footprint": "Manual:IC18_MPM3620AGQV-Z_MNP",
+          "quantity": 1
+        },
+        {
+          "value": "CSD88599Q5DC",
+          "footprint": "Manual:DMM0022A",
+          "quantity": 3
+        },
+        {
+          "value": "STSPIN32G4",
+          "footprint": "Manual:QFN_IN32G4_STM",
+          "quantity": 1
+        },
+        {
+          "value": "UCC27517ADBVR",
+          "footprint": "Manual:UCC27517A_DBV5",
+          "quantity": 1
+        },
+        {
+          "value": "TLV3012BIDBVR",
+          "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+          "quantity": 1
+        },
+        {
+          "value": "AS5047P-ATSM",
+          "footprint": "Manual:AS5047P_TSSOP14",
+          "quantity": 1
+        },
+        {
+          "value": "TMUX1574PW",
+          "footprint": "Manual:TMUX1574_PW16",
+          "quantity": 1
+        },
+        {
+          "value": "74LVC3G17",
+          "footprint": "",
+          "quantity": 1
+        },
+        {
+          "value": "BMI323",
+          "footprint": "Manual:BMI323_LGA14",
+          "quantity": 1
+        },
+        {
+          "value": "TCAN3413DR",
+          "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+          "quantity": 1
+        }
+      ],
+      "quantity_changes": [
+        {
+          "value": "10nF",
+          "footprint": "Capacitor_SMD:C_0402_1005Metric",
+          "base_qty": 3,
+          "head_qty": 5,
+          "delta": 2
+        },
+        {
+          "value": "22uF 25V X7R",
+          "footprint": "Capacitor_SMD:C_1210_3225Metric",
+          "base_qty": 2,
+          "head_qty": 4,
+          "delta": 2
+        }
+      ]
+    },
+    "erc": {
+      "new_warnings": [
+        {
+          "type": "no_driver",
+          "net": "CAN_TERM_GATE",
+          "message": "Net 'CAN_TERM_GATE' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "Q301",
+              "pin_number": "1",
+              "pin_name": "G",
+              "pin_type": "input"
+            },
+            {
+              "component": "Q802",
+              "pin_number": "5",
+              "pin_name": "G2",
+              "pin_type": "input"
+            },
+            {
+              "component": "Q802",
+              "pin_number": "2",
+              "pin_name": "G1",
+              "pin_type": "input"
+            },
+            {
+              "component": "Q801",
+              "pin_number": "3",
+              "pin_name": "D",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R806",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            }
+          ]
+        },
+        {
+          "type": "no_driver",
+          "net": "NTC_BRAKE",
+          "message": "Net 'NTC_BRAKE' has input pins but no output driver",
+          "pins": [
+            {
+              "component": "D505",
+              "pin_number": "3",
+              "pin_name": "COM",
+              "pin_type": "passive"
+            },
+            {
+              "component": "R512",
+              "pin_number": "2",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "C505",
+              "pin_number": "1",
+              "pin_name": "~",
+              "pin_type": "passive"
+            },
+            {
+              "component": "U4",
+              "pin_number": "10",
+              "pin_name": "PC1",
+              "pin_type": "input"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "regressions": [
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on CAN_TERM_GATE"
+    },
+    {
+      "category": "erc",
+      "severity": "breaking",
+      "detail": "New ERC warning: no_driver on NTC_BRAKE"
+    }
+  ]
+}

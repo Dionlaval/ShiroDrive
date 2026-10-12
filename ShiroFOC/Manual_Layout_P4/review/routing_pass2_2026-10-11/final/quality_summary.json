@@ -1,0 +1,223 @@
+{
+  "status": "PASS",
+  "final_sha256": "aa2f73794ee34d12209cd3c946f5201601ee923cc8112b36ed58a221a39f93a5",
+  "drc_before": {
+    "errors": 33,
+    "warnings": 388,
+    "unconnected": 337
+  },
+  "drc_after": {
+    "errors": 29,
+    "warnings": 381,
+    "unconnected": 307
+  },
+  "no_new_drc_errors": true,
+  "footprint_count": 272,
+  "footprint_changes": [],
+  "new_copper_items": 281,
+  "replaced_old_copper_items": 53,
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 84,
+      "vias": 0,
+      "length_mm": 76.650142
+    },
+    "F.Cu": {
+      "tracks": 50,
+      "vias": 0,
+      "length_mm": 40.310679
+    },
+    "Power L4": {
+      "tracks": 77,
+      "vias": 0,
+      "length_mm": 187.609562
+    },
+    "Signals L3": {
+      "tracks": 25,
+      "vias": 0,
+      "length_mm": 50.507457
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 45,
+      "length_mm": 0.0
+    }
+  },
+  "new_track_widths_mm": {
+    "0.1524": 219,
+    "0.254": 17
+  },
+  "prior_pad_connectivity": "PASS",
+  "selected_nets_completed": 73,
+  "selected_nets_count": 81,
+  "selected_nets_remaining": [
+    "/MCU / clock / SWD/NRST",
+    "AS5047P_CS_N",
+    "BRAKE_PWM",
+    "CAN_TERM_DISABLE",
+    "INPUT_MUX_ENABLE_N",
+    "NTC_PHASE_B",
+    "Net-(U203-OV2)",
+    "VBUS_SENSE"
+  ],
+  "all_49_3V3_pads_connected": true,
+  "plane_connectivity": {
+    "GND": {
+      "filled_polygon_count": 2,
+      "electrically_joined_region_groups": [
+        [
+          {
+            "zone_uuid": "6ae18780-7be8-49c7-ba8b-e54da0cbc017",
+            "layer": "GND L2",
+            "filled_polygon_index": 0
+          },
+          {
+            "zone_uuid": "0da23d62-325e-4479-9e26-4962df50b9c4",
+            "layer": "GND L5",
+            "filled_polygon_index": 0
+          }
+        ]
+      ],
+      "electrical_region_group_count": 1
+    },
+    "3V3": {
+      "filled_polygon_count": 2,
+      "electrically_joined_region_groups": [
+        [
+          {
+            "zone_uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+            "layer": "Power L4",
+            "filled_polygon_index": 0
+          },
+          {
+            "zone_uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+            "layer": "Power L4",
+            "filled_polygon_index": 1
+          }
+        ]
+      ],
+      "electrical_region_group_count": 1
+    }
+  },
+  "source_U204_5_reaches_3V3_plane": true,
+  "new_segments_without_adjacent_ground_reference": 0,
+  "largest_sampled_single_segment_reference_void_mm": 0.59397,
+  "new_ground_return_vias_retained": 3,
+  "ground_return_vias_pruned": 1,
+  "remaining_reference_change_gaps_over2mm": [
+    {
+      "via_uuid": "c3713be5-69a9-42e5-b986-9b201fe8b031",
+      "new_via": true,
+      "previous_touching_signal_layers": [],
+      "net": "FDCAN1_TX",
+      "position_mm": [
+        -1.375,
+        16.125
+      ],
+      "touching_signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "adjacent_reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "changes_ground_reference_plane": true,
+      "nearest_ground_interconnect_uuid": "95011531-a3b2-4311-b345-ad3d7080dd5a",
+      "nearest_ground_interconnect_type": "via",
+      "nearest_ground_interconnect_mm": 3.186
+    },
+    {
+      "via_uuid": "508273a0-dd74-48be-8c45-1fc622b7c205",
+      "new_via": true,
+      "previous_touching_signal_layers": [],
+      "net": "I2C2_SDA",
+      "position_mm": [
+        0.225,
+        4.4
+      ],
+      "touching_signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "adjacent_reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "changes_ground_reference_plane": true,
+      "nearest_ground_interconnect_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_interconnect_type": "via",
+      "nearest_ground_interconnect_mm": 2.525
+    },
+    {
+      "via_uuid": "d14a38f5-e59c-4a1c-8e4c-e4ff784bea5a",
+      "new_via": true,
+      "previous_touching_signal_layers": [],
+      "net": "FDCAN1_TX",
+      "position_mm": [
+        1.525,
+        10.35
+      ],
+      "touching_signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "adjacent_reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "changes_ground_reference_plane": true,
+      "nearest_ground_interconnect_uuid": "2c74fb34-1915-434d-92a7-2cdd5e465a34",
+      "nearest_ground_interconnect_type": "via",
+      "nearest_ground_interconnect_mm": 2.449
+    },
+    {
+      "via_uuid": "87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+      "new_via": true,
+      "previous_touching_signal_layers": [],
+      "net": "EXT_FEEDBACK_SELECT",
+      "position_mm": [
+        -1.674999,
+        19.4
+      ],
+      "touching_signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "adjacent_reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "changes_ground_reference_plane": true,
+      "nearest_ground_interconnect_uuid": "5c3cc62a-690e-4d64-9a49-920a35f559b5",
+      "nearest_ground_interconnect_type": "via",
+      "nearest_ground_interconnect_mm": 2.28
+    },
+    {
+      "via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+      "new_via": false,
+      "previous_touching_signal_layers": [
+        "F.Cu"
+      ],
+      "net": "FEEDBACK_A_H1",
+      "position_mm": [
+        -5.16,
+        4.755298
+      ],
+      "touching_signal_layers": [
+        "F.Cu",
+        "Power L4"
+      ],
+      "adjacent_reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "changes_ground_reference_plane": true,
+      "nearest_ground_interconnect_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+      "nearest_ground_interconnect_type": "via",
+      "nearest_ground_interconnect_mm": 2.14
+    }
+  ],
+  "candidate_project_settings_equal_baseline": true,
+  "scope": "Structural, native DRC, prior pad connectivity and filled-plane geometric review. No electrical/SI/EMI sign-off."
+}

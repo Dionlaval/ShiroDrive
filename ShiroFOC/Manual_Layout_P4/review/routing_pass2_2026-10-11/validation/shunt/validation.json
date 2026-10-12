@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/validation/shunt/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "0377dac62f42cae4ee8205d58f0a06d141545b332f3cf237d79f053e5bf536ec",
+  "candidate_sha256": "9819d4f22f6bb40d2fa61120c5c50ac7f0cf96235ea1ddd0ae2738c6b433cd01",
+  "footprint_count": 272,
+  "changed_footprints": [],
+  "removed_old_copper": [
+    "9eea7e47-98c4-4188-864e-c62034cbf76a"
+  ],
+  "changed_old_copper": [],
+  "existing_copper_unchanged": false,
+  "allowed_replacement_uuids": [
+    "9eea7e47-98c4-4188-864e-c62034cbf76a"
+  ],
+  "unknown_authorized_ids": [],
+  "unauthorized_removed_old_copper": [],
+  "unauthorized_changed_old_copper": [],
+  "old_copper_net_or_class_changed": [],
+  "existing_copper_changes_authorized": true,
+  "checked_new_or_replaced_item_count": 1,
+  "checked_new_or_replaced_items": [
+    "3b42e27e-ffc5-46a8-8d15-028290f8943b"
+  ],
+  "new_item_count": 1,
+  "new_items": [
+    "3b42e27e-ffc5-46a8-8d15-028290f8943b"
+  ],
+  "new_track_widths_mm": {
+    "0.1524": 1
+  },
+  "invalid_new_widths": [],
+  "invalid_new_vias": [],
+  "outside_board_copper": [],
+  "via_pad_overlaps": [],
+  "new_routing_by_net": {
+    "SHUNT_W_SENSE_P": {
+      "tracks": 1,
+      "vias": 0,
+      "length_mm": 5.074764
+    }
+  },
+  "new_routing_by_layer": {
+    "Signals L3": {
+      "tracks": 1,
+      "vias": 0,
+      "length_mm": 5.074764
+    }
+  },
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 388,
+    "unconnected": 337
+  },
+  "candidate_drc": {
+    "errors": 32,
+    "warnings": 388,
+    "unconnected": 337
+  },
+  "introduced_errors": [],
+  "introduced_error_item_uuids": [],
+  "project_schematic_rules_hash_check": "External responsibility; this script does not modify them",
+  "scope": "Additive routing and native DRC regression; does not claim circuit or signal-integrity verification"
+}

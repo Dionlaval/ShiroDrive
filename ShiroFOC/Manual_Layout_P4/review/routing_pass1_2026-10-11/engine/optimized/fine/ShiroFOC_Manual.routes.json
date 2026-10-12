@@ -1,0 +1,73 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/engine/optimized/base/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "Net-(U601-MISO)",
+      "source": "5f51515c-fa6d-47c9-a6e5-bd9955887420",
+      "target": "f9bf18dd-e470-4f46-8ec4-da1fd4412935",
+      "source_ref": "U601",
+      "source_pin": "3",
+      "target_ref": "R611",
+      "target_pin": "1",
+      "distance_mm": 2.5475,
+      "length_mm": 7.640559159102187,
+      "vias": 2,
+      "path_points": 273,
+      "rejected": false,
+      "new_items": [
+        "397a1cf7-8deb-4a46-bfc7-2c836aa4f887",
+        "612e90a7-b0af-41be-bd50-37603e5355cf",
+        "7d05edbb-3d06-49be-9774-518a3a076616",
+        "8d278458-1b07-40ff-b629-b79ed9927839",
+        "1ae6933c-0b47-4286-be59-e7462ec7c116",
+        "0e260230-6915-4f09-9a79-763474791a1b",
+        "3403e4a1-ffa1-4e60-ac95-98a805a649fd",
+        "df2c6c19-0a60-4612-994e-bad38e756c33",
+        "1c55dcc5-548a-4653-98eb-2b324d67071b",
+        "269a1a39-bb1e-4918-b928-4e6d423fd1b8"
+      ],
+      "elapsed_seconds": 4.3012168407440186
+    },
+    {
+      "net": "SPI3_MOSI_MCU",
+      "source": "4a2c25db-8a6c-41ad-9632-05125b8033f6",
+      "target": "bd799b00-6e2e-4030-886a-1e5e72051f2b",
+      "source_ref": "U4",
+      "source_pin": "56",
+      "target_ref": "R314",
+      "target_pin": "1",
+      "distance_mm": 1.5840419198900642,
+      "length_mm": 10.28345237791566,
+      "vias": 2,
+      "path_points": 387,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 4.17165994644165
+    },
+    {
+      "net": "SPI3_SCK_MCU",
+      "source": "46b74c79-820f-4c2d-83ea-b77253a47321",
+      "target": "0174a6a5-e6c8-435f-95b3-661fd08b1142",
+      "source_ref": "U4",
+      "source_pin": "54",
+      "target_ref": "R313",
+      "target_pin": "1",
+      "distance_mm": 3.5124970603866696,
+      "length_mm": 8.863961030678924,
+      "vias": 1,
+      "path_points": 282,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 4.178714036941528
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_08/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/root_escape/c312/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "50472e0a2f1a7ba792589dc73dc0080b39ec80e8b543991150fb515b0d1c73aa",
+  "candidate_sha256": "024af5c2a51152e9913bd3d4e1aea13eaa32093f793fd10dbb6b029b0896f8d8",
+  "footprint_count": 272,
+  "changed_footprints": [],
+  "authorized_footprint_moves": [],
+  "footprint_move_manifest_errors": [],
+  "unauthorized_footprint_changes": [],
+  "footprint_geometry_changes_authorized": true,
+  "removed_old_copper": [],
+  "changed_old_copper": [],
+  "existing_copper_unchanged": true,
+  "allowed_replacement_uuids": [],
+  "unknown_authorized_ids": [],
+  "unauthorized_removed_old_copper": [],
+  "unauthorized_changed_old_copper": [],
+  "old_copper_net_or_class_changed": [],
+  "existing_copper_changes_authorized": true,
+  "checked_new_or_replaced_item_count": 2,
+  "checked_new_or_replaced_items": [
+    "b569279e-cfc5-4c5e-ac51-d5a06015ab70",
+    "b600361c-8584-4c56-aa85-8cd85a58b5aa"
+  ],
+  "new_item_count": 2,
+  "new_items": [
+    "b569279e-cfc5-4c5e-ac51-d5a06015ab70",
+    "b600361c-8584-4c56-aa85-8cd85a58b5aa"
+  ],
+  "new_track_widths_mm": {
+    "0.254": 2
+  },
+  "invalid_new_widths": [],
+  "invalid_new_vias": [],
+  "outside_board_copper": [],
+  "via_pad_overlaps": [],
+  "new_routing_by_net": {
+    "VCC": {
+      "tracks": 2,
+      "vias": 0,
+      "length_mm": 2.010208
+    }
+  },
+  "new_routing_by_layer": {
+    "F.Cu": {
+      "tracks": 2,
+      "vias": 0,
+      "length_mm": 2.010208
+    }
+  },
+  "baseline_drc": {
+    "errors": 29,
+    "warnings": 376,
+    "unconnected": 266
+  },
+  "candidate_drc": {
+    "errors": 29,
+    "warnings": 376,
+    "unconnected": 265
+  },
+  "introduced_errors": [],
+  "introduced_error_item_uuids": [],
+  "project_schematic_rules_hash_check": "External responsibility; this script does not modify them",
+  "scope": "Additive routing and native DRC regression; does not claim circuit or signal-integrity verification"
+}

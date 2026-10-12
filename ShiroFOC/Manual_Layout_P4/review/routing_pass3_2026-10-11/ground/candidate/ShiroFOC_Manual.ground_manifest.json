@@ -1,0 +1,810 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/can_gate/accepted/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "bcbf3b4bb1beab71da39f2bfc457c69b1ab24ae6e0e6eb1073f71bbfbff8efeb",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/ground/candidate/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "ground_R509_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R509.2",
+      "pad_uuid": "eab7cd77-bda2-47ec-a347-2fdf1c5f7558",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        6.73,
+        -12.482501
+      ],
+      "end_mm": [
+        6.69,
+        -11.530002
+      ],
+      "stub_length_mm": 0.969068,
+      "added_uuids": [
+        "e45e4f35-b90b-4812-a9e0-f9f0b7e46c74",
+        "ba3b1f7a-eb95-4025-ad9b-5f4aeca76cac"
+      ],
+      "new_items": [
+        "e45e4f35-b90b-4812-a9e0-f9f0b7e46c74",
+        "ba3b1f7a-eb95-4025-ad9b-5f4aeca76cac"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "c72e16e9-ea16-454b-9f4c-b517332cadf4",
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R220_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R220.2",
+      "pad_uuid": "1407d101-4a55-4175-81be-dc735df0aa07",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -13.564014,
+        -14.538058
+      ],
+      "end_mm": [
+        -12.864997,
+        -13.3525
+      ],
+      "stub_length_mm": 1.4751,
+      "added_uuids": [
+        "c5251fd7-a1d7-45c7-85d2-4f625187b4bc",
+        "013655c6-277b-46dc-a05c-be30c99bd5dd"
+      ],
+      "new_items": [
+        "c5251fd7-a1d7-45c7-85d2-4f625187b4bc",
+        "013655c6-277b-46dc-a05c-be30c99bd5dd"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "bf3e02b2-611e-4080-a963-2199c1ddee98",
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R501_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R501.2",
+      "pad_uuid": "322f11f8-dc8a-4148-be60-27233f8c0b4d",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        8.729999,
+        -8.88
+      ],
+      "end_mm": [
+        9.279999,
+        -8.88
+      ],
+      "stub_length_mm": 0.55,
+      "added_uuids": [
+        "e2575352-4362-49e8-b781-a96cd776132a",
+        "5acad917-8caa-416a-b84e-a373e1526e9b"
+      ],
+      "new_items": [
+        "e2575352-4362-49e8-b781-a96cd776132a",
+        "5acad917-8caa-416a-b84e-a373e1526e9b"
+      ],
+      "added_via_uuid": "e2575352-4362-49e8-b781-a96cd776132a",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R105_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R105.2",
+      "pad_uuid": "af8be0eb-9e7a-4907-991f-c59c19b1b0de",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        3.429999,
+        20.9
+      ],
+      "end_mm": [
+        3.979999,
+        20.9
+      ],
+      "stub_length_mm": 0.55,
+      "added_uuids": [
+        "597cdc8f-ca47-491d-908f-f218cd387d69",
+        "9a19e8f2-e575-40d6-bd11-3a54371dda1a"
+      ],
+      "new_items": [
+        "597cdc8f-ca47-491d-908f-f218cd387d69",
+        "9a19e8f2-e575-40d6-bd11-3a54371dda1a"
+      ],
+      "added_via_uuid": "597cdc8f-ca47-491d-908f-f218cd387d69",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R204_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R204.2",
+      "pad_uuid": "cdb21327-53a3-4851-b005-14051f9abc6b",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -13.580001,
+        -3.629999
+      ],
+      "end_mm": [
+        -12.730001,
+        -3.629999
+      ],
+      "stub_length_mm": 0.85,
+      "added_uuids": [
+        "3e63e45e-650e-4a6f-b2f0-cd829daca931",
+        "7322db49-b2b8-4506-b3d1-18ad572481c6"
+      ],
+      "new_items": [
+        "3e63e45e-650e-4a6f-b2f0-cd829daca931",
+        "7322db49-b2b8-4506-b3d1-18ad572481c6"
+      ],
+      "added_via_uuid": "3e63e45e-650e-4a6f-b2f0-cd829daca931",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R615_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R615.2",
+      "pad_uuid": "ddaeab40-f19c-49ab-84ec-b01a6cc8d370",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -16.119999,
+        21.82
+      ],
+      "end_mm": [
+        -16.869999,
+        21.07
+      ],
+      "stub_length_mm": 1.06066,
+      "added_uuids": [
+        "06163302-1cd1-4e1e-a6fd-57f4c6d6486f",
+        "9f86e0ce-a856-4c80-8180-ac09fcc005ce"
+      ],
+      "new_items": [
+        "06163302-1cd1-4e1e-a6fd-57f4c6d6486f",
+        "9f86e0ce-a856-4c80-8180-ac09fcc005ce"
+      ],
+      "added_via_uuid": "06163302-1cd1-4e1e-a6fd-57f4c6d6486f",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R203_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R203.2",
+      "pad_uuid": "f2ce8031-07d7-4b17-8ed1-93e01a8d8985",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -13.580001,
+        -11.300001
+      ],
+      "end_mm": [
+        -12.730001,
+        -10.450001
+      ],
+      "stub_length_mm": 1.202082,
+      "added_uuids": [
+        "2f95f583-a526-49b5-abce-ccbaa5e15032",
+        "9cda6556-f9db-4da7-8db8-d65af678608d"
+      ],
+      "new_items": [
+        "2f95f583-a526-49b5-abce-ccbaa5e15032",
+        "9cda6556-f9db-4da7-8db8-d65af678608d"
+      ],
+      "added_via_uuid": "2f95f583-a526-49b5-abce-ccbaa5e15032",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R504_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R504.2",
+      "pad_uuid": "967c26c6-592b-4f56-af12-9622b7764173",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        12.91,
+        -12.480001
+      ],
+      "end_mm": [
+        12.91,
+        -11.930001
+      ],
+      "stub_length_mm": 0.55,
+      "added_uuids": [
+        "5c0a912f-fa62-436d-8522-9c2a035064ed",
+        "eea15fa5-2627-4c93-a5a3-951b32f2c2b0"
+      ],
+      "new_items": [
+        "5c0a912f-fa62-436d-8522-9c2a035064ed",
+        "eea15fa5-2627-4c93-a5a3-951b32f2c2b0"
+      ],
+      "added_via_uuid": "5c0a912f-fa62-436d-8522-9c2a035064ed",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R207_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R207.2",
+      "pad_uuid": "1b7b190f-b7e5-4c57-ab62-2984668edd37",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -12.040003,
+        -21.88
+      ],
+      "end_mm": [
+        -11.4,
+        -21.65
+      ],
+      "stub_length_mm": 0.735272,
+      "added_uuids": [
+        "ef4e6311-8918-43ac-af4c-54174ff2215d",
+        "fdce48d4-f7b6-4f61-8026-1443287dcf46"
+      ],
+      "new_items": [
+        "ef4e6311-8918-43ac-af4c-54174ff2215d",
+        "fdce48d4-f7b6-4f61-8026-1443287dcf46"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "0e853b39-4f2e-4efa-8d57-fdbd9ccf1495",
+      "track_widths_mm": [
+        0.1524
+      ]
+    },
+    {
+      "group_id": "ground_R505_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R505.2",
+      "pad_uuid": "3d80833d-9450-45c5-82f2-4ddd7d8110a8",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        10.639999,
+        -10.3
+      ],
+      "end_mm": [
+        10.69,
+        -11.7275
+      ],
+      "stub_length_mm": 1.448211,
+      "added_uuids": [
+        "6dea5494-22fa-401f-a636-258f768543dd",
+        "58a0afba-2db3-4573-bde7-618a8a3feae2"
+      ],
+      "new_items": [
+        "6dea5494-22fa-401f-a636-258f768543dd",
+        "58a0afba-2db3-4573-bde7-618a8a3feae2"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "ccc9597a-b88b-4691-aae3-1c048cf06090",
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_J802_1",
+      "kind": "pad_ground_stitch",
+      "pad": "J802.1",
+      "pad_uuid": "bbc7d8bc-0994-4542-bcd7-7befc1bb7f8d",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -17.25,
+        14.175
+      ],
+      "end_mm": [
+        -17.25,
+        14.775
+      ],
+      "stub_length_mm": 0.6,
+      "added_uuids": [
+        "ed9edda8-3cea-4ccf-9422-3274ae82130b",
+        "784449dd-2a90-411d-96a5-008501f2bc7f"
+      ],
+      "new_items": [
+        "ed9edda8-3cea-4ccf-9422-3274ae82130b",
+        "784449dd-2a90-411d-96a5-008501f2bc7f"
+      ],
+      "added_via_uuid": "ed9edda8-3cea-4ccf-9422-3274ae82130b",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_J601_2",
+      "kind": "pad_ground_stitch",
+      "pad": "J601.2",
+      "pad_uuid": "e56a3687-d6af-4a4e-b56c-d92bb0bcfac9",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -9.19,
+        17.24
+      ],
+      "end_mm": [
+        -9.03,
+        16.075
+      ],
+      "stub_length_mm": 1.231274,
+      "added_uuids": [
+        "258f5e50-9a49-4995-98b9-cb61048be567",
+        "c9951bba-afd3-41f8-b500-34707ddd9457"
+      ],
+      "new_items": [
+        "258f5e50-9a49-4995-98b9-cb61048be567",
+        "c9951bba-afd3-41f8-b500-34707ddd9457"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "6ca4e555-ecf5-4724-b640-9309c493de3a",
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_J601_6",
+      "kind": "pad_ground_stitch",
+      "pad": "J601.6",
+      "pad_uuid": "335120d2-b00f-4438-b824-f45908017f57",
+      "net": "GND",
+      "layer": "F.Cu",
+      "start_mm": [
+        -14.19,
+        17.24
+      ],
+      "end_mm": [
+        -14.19,
+        18.64
+      ],
+      "stub_length_mm": 1.4,
+      "added_uuids": [
+        "9a1f1c19-7636-4942-a72e-373cc5e1accd",
+        "bd48411f-c5f9-40e5-98c6-4b9d6ed776d1"
+      ],
+      "new_items": [
+        "9a1f1c19-7636-4942-a72e-373cc5e1accd",
+        "bd48411f-c5f9-40e5-98c6-4b9d6ed776d1"
+      ],
+      "added_via_uuid": "9a1f1c19-7636-4942-a72e-373cc5e1accd",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_TH701_2",
+      "kind": "pad_ground_stitch",
+      "pad": "TH701.2",
+      "pad_uuid": "8d2b95e5-de54-45e1-9166-18ca0eded119",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        15.85,
+        0.375
+      ],
+      "end_mm": [
+        16.8,
+        0.35
+      ],
+      "stub_length_mm": 0.960355,
+      "added_uuids": [
+        "b7e25cfb-2a0e-491e-aed2-a8c01fe4a26a",
+        "99badc0e-f19b-4b13-b476-f3323a30ce17"
+      ],
+      "new_items": [
+        "b7e25cfb-2a0e-491e-aed2-a8c01fe4a26a",
+        "99badc0e-f19b-4b13-b476-f3323a30ce17"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "d2369e56-a6c5-421c-9991-22e40c88d833",
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_TH702_2",
+      "kind": "pad_ground_stitch",
+      "pad": "TH702.2",
+      "pad_uuid": "567358c9-09c1-491c-a9bf-2031b757c214",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        15.85,
+        7.875
+      ],
+      "end_mm": [
+        16.45,
+        7.275
+      ],
+      "stub_length_mm": 0.848528,
+      "added_uuids": [
+        "84608cae-1dba-41a5-a596-2dd5ffbeac8c",
+        "e08f3cd4-01ed-42fa-8229-a16f851c32cf"
+      ],
+      "new_items": [
+        "84608cae-1dba-41a5-a596-2dd5ffbeac8c",
+        "e08f3cd4-01ed-42fa-8229-a16f851c32cf"
+      ],
+      "added_via_uuid": "84608cae-1dba-41a5-a596-2dd5ffbeac8c",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_TH703_2",
+      "kind": "pad_ground_stitch",
+      "pad": "TH703.2",
+      "pad_uuid": "5c13f873-944a-4534-88a4-adf4f1349468",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        15.85,
+        15.375
+      ],
+      "end_mm": [
+        16.6,
+        15.375
+      ],
+      "stub_length_mm": 0.75,
+      "added_uuids": [
+        "91f48629-6a5a-459b-befc-2b0d4fc45f1d",
+        "98f1d40a-312e-4c4a-8053-748d6a153dd3"
+      ],
+      "new_items": [
+        "91f48629-6a5a-459b-befc-2b0d4fc45f1d",
+        "98f1d40a-312e-4c4a-8053-748d6a153dd3"
+      ],
+      "added_via_uuid": "91f48629-6a5a-459b-befc-2b0d4fc45f1d",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "signal_return_a13e6a91-25f1-4900-ac80-f43b9efd361a",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "CAN_TERM_GATE",
+      "signal_via_uuid": "a13e6a91-25f1-4900-ac80-f43b9efd361a",
+      "signal_position_mm": [
+        -15.240002,
+        8.025
+      ],
+      "end_mm": [
+        -15.65,
+        9.05
+      ],
+      "distance_to_signal_mm": 1.103958,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "39471489-c134-443f-be29-537a68841fc9"
+      ],
+      "new_items": [
+        "39471489-c134-443f-be29-537a68841fc9"
+      ],
+      "added_via_uuid": "39471489-c134-443f-be29-537a68841fc9",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    }
+  ],
+  "skipped": [
+    {
+      "pad": "R311.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R618.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R315.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R905.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R209.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R616.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R617.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R213.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R211.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R441.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R804.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "D801.3",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "J801.1",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "J801.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J801.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J802.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J802.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J601.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J601.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J502.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "J502.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J502.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "signal_via_uuid": "f9b7553c-7178-473d-9398-2a18b503ef23",
+      "net": "Net-(U203-OV2)",
+      "position_mm": [
+        -14.6,
+        -20.625
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 1.814008
+    },
+    {
+      "signal_via_uuid": "af3aee63-959f-436a-8e6c-38840ea9ec4a",
+      "net": "Net-(U203-CP2)",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+      "distance_mm": 0.770146
+    },
+    {
+      "signal_via_uuid": "24e908f1-d9cd-4efb-8907-90d36bcc0af3",
+      "net": "AS5047P_CS_N",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+      "distance_mm": 0.765261
+    }
+  ],
+  "signal_returns": {
+    "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+    "baseline_sha256": "aa2f73794ee34d12209cd3c946f5201601ee923cc8112b36ed58a221a39f93a5",
+    "new_signal_vias": 3,
+    "reused_signal_vias": 1,
+    "audited_signal_vias": 4,
+    "required_ground_planes": [
+      "GND L2",
+      "GND L5"
+    ],
+    "before": [
+      {
+        "signal_via_uuid": "24e908f1-d9cd-4efb-8907-90d36bcc0af3",
+        "net": "AS5047P_CS_N",
+        "position_mm": [
+          0.25,
+          -1.625
+        ],
+        "nearest_ground_mm": 0.765261,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "B.Cu",
+            "Signals L3"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "af3aee63-959f-436a-8e6c-38840ea9ec4a",
+        "net": "Net-(U203-CP2)",
+        "position_mm": [
+          -16.225,
+          -20.1
+        ],
+        "nearest_ground_mm": 0.770146,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "f9b7553c-7178-473d-9398-2a18b503ef23",
+        "net": "Net-(U203-OV2)",
+        "position_mm": [
+          -14.6,
+          -20.625
+        ],
+        "nearest_ground_mm": 1.814008,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "a13e6a91-25f1-4900-ac80-f43b9efd361a",
+        "net": "CAN_TERM_GATE",
+        "position_mm": [
+          -15.240002,
+          8.025
+        ],
+        "nearest_ground_mm": 2.082362,
+        "transition": {
+          "new_via": false,
+          "forced": false,
+          "previous_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu",
+            "Signals L3"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "signal_via_uuid": "a13e6a91-25f1-4900-ac80-f43b9efd361a",
+        "net": "CAN_TERM_GATE",
+        "position_mm": [
+          -15.240002,
+          8.025
+        ],
+        "nearest_ground_via_uuid": "39471489-c134-443f-be29-537a68841fc9",
+        "nearest_ground_mm": 1.103958,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "f9b7553c-7178-473d-9398-2a18b503ef23",
+        "net": "Net-(U203-OV2)",
+        "position_mm": [
+          -14.6,
+          -20.625
+        ],
+        "nearest_ground_via_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+        "nearest_ground_mm": 1.814008,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "af3aee63-959f-436a-8e6c-38840ea9ec4a",
+        "net": "Net-(U203-CP2)",
+        "position_mm": [
+          -16.225,
+          -20.1
+        ],
+        "nearest_ground_via_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+        "nearest_ground_mm": 0.770146,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "24e908f1-d9cd-4efb-8907-90d36bcc0af3",
+        "net": "AS5047P_CS_N",
+        "position_mm": [
+          0.25,
+          -1.625
+        ],
+        "nearest_ground_via_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+        "nearest_ground_mm": 0.765261,
+        "covered_within_1_5mm": true
+      }
+    ],
+    "uncovered": [
+      {
+        "signal_via_uuid": "f9b7553c-7178-473d-9398-2a18b503ef23",
+        "net": "Net-(U203-OV2)",
+        "position_mm": [
+          -14.6,
+          -20.625
+        ],
+        "nearest_ground_via_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+        "nearest_ground_mm": 1.814008,
+        "covered_within_1_5mm": false
+      }
+    ]
+  },
+  "added_counts": {
+    "PCB_TRACK": 22,
+    "PCB_VIA": 11
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 1.5,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

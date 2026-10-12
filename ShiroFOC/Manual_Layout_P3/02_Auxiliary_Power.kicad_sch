@@ -6411,7 +6411,7 @@
 		)
 		(uuid "1abd3e21-57a8-4faf-817b-322522bb1e71")
 	)
-	(text "At 5 V: PR1 = 1.269 V; CP2 = 1.689 V."
+	(text "At 5 V: PR1 = 1.689 V; CP2 = 1.269 V."
 		(exclude_from_sim no)
 		(at 25.4 246.38 0)
 		(effects
@@ -6422,7 +6422,7 @@
 		)
 		(uuid "26a9710d-a2f1-55ee-b5c9-356344ba2bc0")
 	)
-	(text "AUXILIARY POWER - USB HAS PRIORITY"
+	(text "AUXILIARY POWER - BATTERY HAS PRIORITY"
 		(exclude_from_sim no)
 		(at 17.78 22.86 0)
 		(effects
@@ -6466,7 +6466,7 @@
 		)
 		(uuid "b2d59562-11d2-45ee-a235-c72b4f23cc32")
 	)
-	(text "USB-PRIORITY POWER MUX"
+	(text "BATTERY-PRIORITY POWER MUX"
 		(exclude_from_sim no)
 		(at 25.4 142.24 0)
 		(effects
@@ -6554,7 +6554,7 @@
 		)
 		(uuid "effae714-9db8-5485-b471-d6c50c169549")
 	)
-	(text "USB wins the priority comparison. Coarse OV = 5.63 V typical."
+	(text "At nominal 5 V, battery has priority. Coarse OV = 5.63 V typical."
 		(exclude_from_sim no)
 		(at 25.4 252.73 0)
 		(effects
@@ -9642,7 +9642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10.0k 1%"
+		(property "Value" "15.0k 1%"
 			(at 267.97 177.8 0)
 			(effects
 				(font
@@ -13594,7 +13594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15.0k 1%"
+		(property "Value" "10.0k 1%"
 			(at 143.51 177.8 0)
 			(effects
 				(font

@@ -1,0 +1,453 @@
+{
+  "scope": "Read-only schematic/native parity review of Manual_Layout_P4 copy, 2026-10-11. No schematic/PCB/library edits.",
+  "counts": {
+    "native_components": 331,
+    "native_nets": 199,
+    "native_pin_nodes": 933,
+    "board_footprints": 277,
+    "missing_footprints": 54,
+    "erc_errors": 1,
+    "erc_warnings": 16,
+    "analyzer_findings": 124,
+    "analyzer_errors_before_triage": 8,
+    "analyzer_warnings_before_triage": 7,
+    "analyzer_info": 109
+  },
+  "verification": {
+    "native_vs_analyzer": "All 331 unique refs and 933 pin-to-net nodes agree; all 199 net groups identical. components[] has 342 entries due to 11 additional multi-unit entries; statistics correctly deduplicates 331.",
+    "native_vs_pcb": "All present 277 refs have exact value/footprint match. Zero differences in assigned pad net names. No extra connected board pads. Missing 54 refs and two NC pins U205 19/20 remain."
+  },
+  "findings": [
+    {
+      "id": "SCH-01",
+      "priority": "must_complete_before_fab",
+      "confidence": "deterministic",
+      "summary": "Place and connect R618, fitted 49.9k current-limit resistor missing from PCB.",
+      "evidence": [
+        "schematic_netlist.xml R618 Assembly=FIT, U604 pin 5 Net-(U604-ILIM), R618.2=GND",
+        "schematic_parity.json missing_components"
+      ],
+      "action": "Add beside U604 and route ILIM to resistor/GND. Current annotations specify about 520 mA typical accessory/fan limit; do not revert to earlier 75 mA tied-IN scheme."
+    },
+    {
+      "id": "SCH-02",
+      "priority": "resolve_before_release",
+      "confidence": "deterministic",
+      "summary": "Reconcile other 53 missing footprints:47 test points plus 6 optionalDNP passives.",
+      "details": "C414/C424/C434 are 47 pF feedback DNP positions; R608/R609/R610 optional Hall pull-ups. Decide intended DNP land retention and explicitly reconcile schematic/PCB. All 47 schematic testpoints absent from PCB; existing connector/component access may replace some, but formally choose the bring-up access set.",
+      "evidence": [
+        "schematic_parity.json",
+        "schematic_netlist.xml"
+      ]
+    },
+    {
+      "id": "SCH-03",
+      "priority": "cleanup_before_release",
+      "confidence": "deterministic",
+      "summary": "Native ERC 17 messages need cleanup without changing intended nets.",
+      "details": "1 error #FLG11/#FLG12 power-output conflict in auxiliary power; 6 off-grid pin/wire warnings at TP1015/TP1016; 9 library mismatch warnings (U4 six units, U202,J501,D801) ; 1 same-net label 5V_USB/5V_USB_RAW warning.",
+      "action": "Preserve current embedded symbol pin geometry/connections when reconciling library; blind Update from Library could move pins/rewire intended signals. Native current netlist matches PCB.",
+      "evidence": [
+        "erc.json",
+        "schematic_library_diff.json"
+      ]
+    },
+    {
+      "id": "SCH-04",
+      "priority": "handoff_before_bringup",
+      "confidence": "deterministic",
+      "summary": "Firmware/interface docs lag the actual hardware.",
+      "details": "FIRMWARE_REQUIREMENTS.md:98/168 says PC15 statusLED; current native netlist PC15/pad 5=CAN_TERM_DISABLE. FW-EXT-02 at line 121 describes 75 mA selected supply; latest U604 uses fixed 5 V and R618 to GND. Design constraints still mention internal STSPIN buck and no fan, while actual topology uses external 10 V cascade and fan/accessory annotations.",
+      "action": "Update documentation to current hardware before firmware bring-up; retain accepted hardware topology.",
+      "evidence": [
+        "../../../requirements/FIRMWARE_REQUIREMENTS.md",
+        "../../../docs/DESIGN_CONSTRAINTS.md",
+        "schematic_netlist.xml"
+      ]
+    }
+  ],
+  "manufacturer_checks": [
+    {
+      "component": "U205 MPM3620AGQV-Z",
+      "scope": "NC 19/20 exception",
+      "result": "Datasheet p12:NC 10,15,19,20 must float. p24 land drawing shaded 19/20 region prohibits PCB metal/via electrical or mechanical contact. These are not thermal pads; existing no-land assignment is intentional and should remain. Parent reports B.Cu footprint keepout exists.",
+      "sources": [
+        "ShiroFOC/DataSheets/MPM3620A.pdf pp12,24",
+        "schematic_MPM3620A_p24.png"
+      ]
+    },
+    {
+      "component": "U4 STSPIN32G4",
+      "scope": "EP 65 ground role",
+      "result": "Table 6 p13 calls EPAD VSS control logic ground; Table 7 p14 connects all MCU VSS/VSSA to exposed pad. p5 note 2 requires grounds connected. Need short local low-impedance plane connection; no numerical minimum via count found in local datasheet. \u03b8JA48.3C/W p7 is for 114.3 x 76.2 mm JEDEC 2s2p, not current compact PCB.",
+      "sources": [
+        "ShiroFOC/DataSheets/STSPIN32G4.pdf pp5,7,13,14"
+      ]
+    },
+    {
+      "component": "D601 TPD3E001DRYR",
+      "scope": "changed NC 5 usage",
+      "result": "Current schematic/PCB ties pin 5 NC to IO2; local datasheet p3 explicitly says pin 5 not internally connected. This differs from Oct 6 preserved review which left 5 unconnected; no functional pinout mismatch found. Pins 1,2,4 IO; 3 GND; 6 VCC match DRY table.",
+      "sources": [
+        "ShiroFOC/DataSheets/TPD3E001.pdf p3",
+        "schematic_netlist.xml"
+      ]
+    },
+    {
+      "component": "U801 TCAN3413DRBR",
+      "scope": "package substitution consistency",
+      "result": "Current native/PCB pin 1 TXD, 2 GND, 3 VCC, 4 RXD, 5 VIO, 6 CANL, 7 CANH, 8 STB, 9 EP=GND match Oct 6 reviewed mapping; current whole-board pin/net comparison passes.",
+      "sources": [
+        "../package_swap_2026-10-06/README.md",
+        "schematic_netlist.xml"
+      ]
+    }
+  ],
+  "false_positive_triage": [
+    "PP-001 bootstrap DC-path errors U201 BOOT and U4 BOOT1/2/3 do not model internal bootstrap charging paths; no added resistor/rail tie required. LMR36510 p3 requires BOOT-SW 100 nF; STSPIN feature list and bootstrap section describe embedded diodes.",
+    "USB_DM/DP VM-001 errors misclassify USB ESD rail as 5 V logic; do not add USB level shifters.",
+    "EXT_SENSOR_FAULT_N VM-001 is open-drain with R604 pull-up to 3V3; no 5 V push-pull crossing.",
+    "U205 PG is intentionally NC; no pull-up needed unless used. U601 MISO pull-up not mandatory.",
+    "RS-001 10V_FB,10V_GOOD,PWR_SOURCE_STATUS,VBUS_SENSE are signals; VBUS_MUX_IN source is via retained power path. No missing rail generators inferred.",
+    "SS-001 procurement flag not promoted into layout blocker; exact passive procurement is separate from this requested layout review.",
+    "U20519/20 native parity messages are intentional documented NC/no-copper exceptions, not missing GND thermal pads."
+  ],
+  "prior_review_delta": [
+    "Sept 26 pre-edit R1 bridge mapping, R2 mux 22k, R4 footprints/crystal, R5 converter capacitors, R7 labels completed in preserved implementation review; current native/PCB mappings retain them.",
+    "R6 external supply protection subsequently implemented; latest fan/accessory revision changes setpoint from 75 mA toabout 520 mA. Only R618 has not reached PCB.",
+    "Ceramic DC-link bank/six layers and CAN/ESD package substitutions supersede older bulk capacitor and package baseline.",
+    "Hardware current-trip precision, current/thermal ratings, brake energy, startup/overshoot remain bench/firmware qualification; do not reopen accepted hardware as automatic redesign.",
+    "Native ERC regressed from Sept 26 post-implementation 0 to current 17; current Oct 6comparison has 11 (1 error + 10 warnings), consistent with later 6 off-grid warnings."
+  ],
+  "limits": [
+    "Datasheet extraction cache not populated; analyzer has no automated datasheet-backed findings and mixed trust. Manual PDF checks above are limited named checks, not exhaustive all-IC datasheet requalification.",
+    "No sourcing/lifecycle audit (scope is layout review); no claim of production or electrical signoff.",
+    "Cross-domain/full PCB, EMC, thermal, simulation handled by other reviewers; use native connectivity for blockers."
+  ],
+  "missing_footprints": [
+    {
+      "reference": "TP101",
+      "value": "VM",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP102",
+      "value": "GND",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP103",
+      "value": "VBUS_SENSE",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP104",
+      "value": "VM BULK",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP105",
+      "value": "GND BULK",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP201",
+      "value": "PWR_SOURCE_STATUS",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1005",
+      "value": "5V_SYS",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1006",
+      "value": "3V3",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP303",
+      "value": "NRST",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1008",
+      "value": "SWDIO",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1009",
+      "value": "SWCLK",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1021",
+      "value": "CAN_TERM_DISABLE",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1023",
+      "value": "EXT_SENSOR_FAULT_N",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1024",
+      "value": "I2C2_SDA",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP301",
+      "value": "VCC",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP302",
+      "value": "SCREF",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP411",
+      "value": "GL",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP412",
+      "value": "SOURCE",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP413",
+      "value": "PHASE",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP421",
+      "value": "GL",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP422",
+      "value": "SOURCE",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP423",
+      "value": "PHASE",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP431",
+      "value": "GL",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP432",
+      "value": "SOURCE",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP433",
+      "value": "PHASE",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "C414",
+      "value": "47pF C0G",
+      "assembly": "DNP",
+      "dnp": true
+    },
+    {
+      "reference": "C424",
+      "value": "47pF C0G",
+      "assembly": "DNP",
+      "dnp": true
+    },
+    {
+      "reference": "C434",
+      "value": "47pF C0G",
+      "assembly": "DNP",
+      "dnp": true
+    },
+    {
+      "reference": "TP414",
+      "value": "SCOPE GND",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP424",
+      "value": "SCOPE GND",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP434",
+      "value": "SCOPE GND",
+      "assembly": "PCB",
+      "dnp": false
+    },
+    {
+      "reference": "TP701",
+      "value": "NTC_PHASE_A",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP702",
+      "value": "NTC_PHASE_B",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP703",
+      "value": "NTC_PHASE_C",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1018",
+      "value": "OPO_U1",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1019",
+      "value": "OPO_V1",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1020",
+      "value": "OPO_W1",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP501",
+      "value": "BRAKE_GATE",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP502",
+      "value": "BRAKE_SWITCH",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1010",
+      "value": "ENC_SPI_CLK",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1011",
+      "value": "SPI3_MISO",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1012",
+      "value": "ENC_SPI_MOSI",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "R608",
+      "value": "4.7k DNP",
+      "assembly": "DNP",
+      "dnp": true
+    },
+    {
+      "reference": "R609",
+      "value": "4.7k DNP",
+      "assembly": "DNP",
+      "dnp": true
+    },
+    {
+      "reference": "R610",
+      "value": "4.7k DNP",
+      "assembly": "DNP",
+      "dnp": true
+    },
+    {
+      "reference": "R618",
+      "value": "49.9k 1%",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1015",
+      "value": "FEEDBACK_A_H1",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1016",
+      "value": "FEEDBACK_B_H2",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1013",
+      "value": "FDCAN1_TX",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1014",
+      "value": "FDCAN1_RX",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP1022",
+      "value": "CAN_STB",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP202",
+      "value": "5V_USB",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP901",
+      "value": "USB_UART_TX",
+      "assembly": "FIT",
+      "dnp": false
+    },
+    {
+      "reference": "TP902",
+      "value": "USB_UART_RX",
+      "assembly": "FIT",
+      "dnp": false
+    }
+  ]
+}

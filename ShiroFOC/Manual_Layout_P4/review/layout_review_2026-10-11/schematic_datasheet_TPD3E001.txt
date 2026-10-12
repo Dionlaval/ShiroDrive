@@ -1,0 +1,833 @@
+PDF PAGE 1
+D-
+D+
+GND
+VBUS
+USB 
+Controller
+IO1
+IO2
+IO3
+GND
+VCC
+0.1µF
+ID
+Product
+Folder
+Sample &
+Buy
+T echnical
+Documents
+Tools &
+Software
+Support &
+Community
+Reference
+Design
+TPD3E001
+SLLS683F – JULY 2006 – REVISED OCTOBER 2015
+TPD3E001Low-Capacitance3-ChannelESD-ProtectionforHigh-SpeedDataInterfaces
+1 Features 3 Description
+The TPD3E001 is a three-channel Transient Voltage
+1• IEC61000-4-2 Level-4 ESD Protection
+Suppressor (TVS) based Electrostatic Discharge– ±8-kV IEC 61000-4-2 Contact Discharge (ESD) protection diode array. The TPD3E001 is rated
+– ±15-kV IEC 61000-4-2 Air-Gap Discharge to dissipate ESD strikes at the maximum level
+specified in the IEC 61000-4-2 international standard• 5.5-A Peak Pulse Current (8/20-µs Pulse)
+(Level 4). This device has a 1.5-pF IO capacitance• I/O Capacitance: 1.5 pF (Typical) per channel, making it ideal for use in high-speed
+• Low Leakage Current: 1-nA (Maximum) data IO interfaces. The ultra low leakage current
+(<1 nA max) is suitable for precision analog• Low Supply Current: 1-nA (Typical)
+measurements in applications like glucose meters• 0.9-V to 5.5-V Supply-Voltage Range and heart rate monitors.• Space-Saving DRY, DRL, and DRS Package
+The TPD3E001 is available in space saving DRYOptions
+(USON), DRL (SOT), and DRS (WSON) packages• Alternate 2-, 4-, and 6-Channel Options Available: and is specified for –40°C to 85°C operation. AlsoTPD2E2U06, TPD4E1U06, and TPD6E001 see TPD2E2U06, TPD4E1U06, and TPD6E001
+which are 2, 4, and 6 channel ESD protection
+2 Applications options, respectively, for ESD protection diode arrays
+with a different number of channels. The TPD2E2U06• End Equipments
+provides a higher level of IEC ESD protection, when– Blood Glucose Meters compared to the TPDxE001 family, and removes the
+– Video Surveillance Equipment need for an input capacitor. The TPD4E1U06
+removes the need for an input capacitor, provides– Portable Data Terminal
+higher IEC ESD protection, and provides lower– Industrial Monitor capacitance, when compared to the TPDxE001
+• Interfaces family.
+– USB2.0
+Device Information(1)
+– SDIO
+PART NUMBER PACKAGE BODY SIZE (NOM)– Precision Analog Interface
+SOT (5) 1.60 mm × 1.20 mm
+– SVGA Video Connections
+TPD3E001 WSON (6) 3.00 mm × 3.00 mm
+USON (6) 1.45 mm × 1.00 mm
+(1) For all available packages, see the orderable addendum at
+the end of the datasheet.
+Application Schematic
+1
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+
+PDF PAGE 2
+TPD3E001
+SLLS683F – JULY 2006 – REVISED OCTOBER 2015 www.ti.com
+Table of Contents
+7.4 Device Functional Modes.......................................... 61 Features .................................................................. 1
+8 Application and Implementation .......................... 72 Applications ........................................................... 1
+8.1 Application Information.............................................. 73 Description ............................................................. 1
+8.2 Typical Application ................................................... 74 Revision History..................................................... 2
+9 Power Supply Recommendations ........................ 95 Pin Configuration and Functions ......................... 3
+10 Layout..................................................................... 96 Specifications......................................................... 4
+10.1 Layout Guidelines ................................................... 96.1 Absolute Maximum Ratings ..................................... 4
+10.2 Layout Example ...................................................... 96.2 ESD Ratings.............................................................. 4
+11 Device and Documentation Support ................. 106.3 Recommended Operating Conditions....................... 4
+11.1 Documentation Support ........................................ 106.4 Thermal Information .................................................. 4
+11.2 Community Resources.......................................... 106.5 Electrical Characteristics........................................... 5
+11.3 Trademarks ........................................................... 106.6 Typical Characteristics .............................................. 5
+11.4 Electrostatic Discharge Caution ............................ 107 Detailed Description .............................................. 6
+11.5 Glossary ................................................................ 107.1 Overview ................................................................... 6
+12 Mechanical, Packaging, and Orderable7.2 Functional Block Diagram ......................................... 6
+Information ........................................................... 107.3 Feature Description................................................... 6
+4 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision E (April 2013) to Revision F Page
+• Added Pin Configuration and Functions section, ESD Ratings table, Feature Description section, Device Functional
+Modes, Application and Implementation section, Power Supply Recommendations section, Layout section, Device
+and Documentation Support section, and Mechanical, Packaging, and Orderable Information section .............................. 1
+2 Submit Documentation Feedback Copyright © 2006–2015, Texas Instruments Incorporated
+Product Folder Links: TPD3E001
+
+PDF PAGE 3
+IO3
+VCC
+N.C.
+GND
+IO2
+IO1 1
+2
+3 4
+5
+6
+GND
+IO1
+GND
+IO2
+3 4
+2
+IO3
+51 VCC
+VCCIO1
+GND
+IO2
+IO3
+N.C.
+3 4
+2
+6
+5
+1
+TPD3E001
+www.ti.com SLLS683F – JULY 2006 – REVISED OCTOBER 2015
+5 Pin Configuration and Functions
+DRY Package DRL Package6-Pin USON 5-Pin SOTTop View Top View
+DRS Package
+6-Pin WSON
+Top View
+Pin Functions
+PIN
+TYPE DESCRIPTION
+NAME DRY NO. DRL NO. DRS NO.
+IOx 1, 2, 4 1, 2, 4 1, 2, 4 I/O ESD-protected channel
+GND 3 3 3 GND Ground
+Power-supply input. Bypass VCC to GND with a 0.1-μFVCC 6 5 6 Power ceramic capacitor.
+N.C. 5 – 5 – No connection. Not internally connected.
+Exposed
+EP – – Thermal GND Exposed thermal pad. Connect to GND or leave floating.
+Pad
+Copyright © 2006–2015, Texas Instruments Incorporated Submit Documentation Feedback 3
+Product Folder Links: TPD3E001
+
+PDF PAGE 4
+TPD3E001
+SLLS683F – JULY 2006 – REVISED OCTOBER 2015 www.ti.com
+6 Specifications
+6.1 Absolute Maximum Ratings (1)
+over operating free-air temperature range (unless otherwise noted)
+MIN MAX UNIT
+VCC –0.3 7 V
+VI/O IO voltage tolerance –0.3 VCC + 0.3 V
+TJ Junction temperature 150 °C
+Lead temperature (soldering, 10 s) 300 °C
+Peak pulse power (tp = 8/20 µs) 90 W
+Peak pulse power (tp = 8/20 µs) 5.5 A
+Tstg Storage temperature –65 150 °C
+(1) Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress ratings
+only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under Recommended
+Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device reliability.
+6.2 ESD Ratings
+VALUE UNIT
+Human body model (HBM), per ANSI/ESDA/JEDEC JS-001 (1) ±15000
+Charged-device model (CDM), per JEDEC specification JESD22- ±1500
+C101 (2)
+V(ESD) Electrostatic discharge V
+IEC 61000-4-2 Contact Discharge ±8000
+IEC 61000-4-2 Air-gap Discharge ±15000
+(1) JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2) JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+6.3 Recommended Operating Conditions
+over operating free-air temperature range (unless otherwise noted)
+MIN NOM MAX UNIT
+VCC Pin 0.9 5.5
+Operating Voltage V
+IOx Pin 0 VCC
+Operating free-air temperature, TA -40 85 °C
+6.4 Thermal Information
+TPD3E001
+THERMAL METRIC (1) DRL (SOT) DRS (WSON) DRY (USON) UNIT
+5 PINS 6 PINS 6 PINS
+RθJA Junction-to-ambient thermal resistance 266.3 91.9 374.2 °C/W
+RθJC(top) Junction-to-case (top) thermal resistance 111.5 106.9 223.4 °C/W
+RθJB Junction-to-board thermal resistance 84.5 64.8 227.8 °C/W
+ψJT Junction-to-top characterization parameter 16.0 10.2 52.9 °C/W
+ψJB Junction-to-board characterization parameter 84.0 64.9 224.8 °C/W
+RθJC(bot) Junction-to-case (bottom) thermal resistance N/A 29.9 87.5 °C/W
+(1) For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+report, SPRA953.
+4 Submit Documentation Feedback Copyright © 2006–2015, Texas Instruments Incorporated
+Product Folder Links: TPD3E001
+
+PDF PAGE 5
+1
+10
+100
+1000
+–40 25 45 65 85
+Temperature□(°C)
+IO□Leakage□Current□(pA)
+0.00 1.00 2.00 2.50 3.00 4.00 5.00
+IO Voltage (V)
+1.00
+1.20
+1.40
+1.60
+1.80
+2.00
+2.20
+IO Capacitance (pF)
+TPD3E001
+www.ti.com SLLS683F – JULY 2006 – REVISED OCTOBER 2015
+6.5 Electrical Characteristics
+VCC = 5 V ± 10%, TA = -40°c to 85°C (unless otherwise noted)
+PARAMETER TEST CONDITIONS MIN TYP (1) MAX UNIT
+VCC Supply voltage 0.9 5.5 V
+ICC Supply current 1 100 nA
+VF Diode forward voltage IF = 10 mA 0.65 0.95 V
+VBR Breakdown Voltage IBR = 10mA 11 V
+Positive transients VCC + 25TA = 25°C, ±15-kV HBM,
+IF = 10 A Negative transients –25
+TA = 25°C, Positive transients VCC + 60
+±8-kV Contact DischargeVC Channel clamp voltage (2) VNegative transients –60(IEC 61000-4-2), IF = 24 A
+TA = 25°C, Positive transients VCC + 100
+±15-kV Air-Gap Discharge
+Negative transients –100(IEC 61000-4-2), IF = 45 A
+Ii/o Channel leakage current Vi/o = GND or VCC ±1 nA
+Cio Channel input capacitance VCC = 5 V, bias of VCC/2 1.5 pF
+Ii/o = 1 A, between IO pin andRdyn Dynamic resistance 1.2 Ωground
+(1) Typical values are at VCC = 5 V and TA = 25°C.
+(2) Channel clamp voltage is not production tested.
+6.6 Typical Characteristics
+VCC = 5.0 V VCC = 5.5 V
+Figure 1. IO Capacitance vs IO Voltage Figure 2. IO Leakage Current vs Temperature
+Copyright © 2006–2015, Texas Instruments Incorporated Submit Documentation Feedback 5
+Product Folder Links: TPD3E001
+
+PDF PAGE 6
+IO3
+GND
+IO2IO1
+VCC
+TPD3E001
+SLLS683F – JULY 2006 – REVISED OCTOBER 2015 www.ti.com
+7 Detailed Description
+7.1 Overview
+The TPD3E001 is a three-channel Transient Voltage Suppressor (TVS) based Electrostatic Discharge (ESD)
+protection diode array. The TPD3E001 is rated to dissipate ESD strikes at the maximum level specified in the
+IEC 61000-4-2 international standard (Level 4). This device has a 1.5-pF IO capacitance per channel, making it
+ideal for use in high-speed data IO interfaces. The ultra low leakage current (< 1 nA maximum) is suitable for
+precision analog measurements in applications like glucose meters and heart rate monitors. The wide voltage
+range on VCC (up to 5.5V) gives this device the flexibility to be used in a wide variety applications. Having 3-
+channels of ESD protection makes this device particularly well suited to protect a micro-AB USB connector,
+which has three signal lines to be protected (D+, D-, ID). The VBUS pin can also be protected by connecting it to
+VCC on TPD3E001. Therefore, TPD3E001 is a one-chip solution to provide Level 4 IEC 61000-4-2 ESD
+protection on every pin of the micro-AB USB connector.
+7.2 Functional Block Diagram
+7.3 Feature Description
+TPD3E001 is a uni-directional ESD protection device with low capacitance. The device is constructed with a
+central ESD clamp that features two hiding diodes per line to reduce the capacitive loading. This central ESD
+clamp is also connected to VCC to provide protection for the VCC line. Each IO line is rated to dissipate ESD
+strikes at the maximum level specified in the IEC 61000-4-2 level 4 international standard. The TPD3E001's low
+loading capacitance makes it ideal for protection high-speed signal terminals.
+7.4 Device Functional Modes
+TPD3E001 is a passive-integrated circuit that activates whenever voltages above VBR or below the lower diodes
+Vforward (–0.6V) are present upon the circuit being protected. During ESD events, voltages as high as ±15 kV can
+be directed to ground and VCC via the internal diode network. Once the voltages on the protected lines fall below
+the trigger voltage of the TPD3E001 (usually within 10's of nano-seconds) the device reverts back to a high-
+impedance state.
+6 Submit Documentation Feedback Copyright © 2006–2015, Texas Instruments Incorporated
+Product Folder Links: TPD3E001
+
+PDF PAGE 7
+D-
+D+
+GND
+VBUS
+USB 
+Controller
+IO1
+IO2
+IO3
+GND
+VCC
+0.1µF
+ID
+TPD3E001
+www.ti.com SLLS683F – JULY 2006 – REVISED OCTOBER 2015
+8 Application and Implementation
+NOTE
+Information in the following applications sections is not part of the TI component
+specification, and TI does not warrant its accuracy or completeness. TI’s customers are
+responsible for determining suitability of components for their purposes. Customers should
+validate and test their design implementation to confirm system functionality.
+8.1 Application Information
+TPD3E001 is a diode array type Transient Voltage Suppressor (TVS) which is typically used to provide a path to
+ground for dissipating ESD events on hi-speed signal lines between a human interface connector and a system.
+As the current from ESD passes through the TVS, only a small voltage drop is present across the diode. This is
+the voltage presented to the protected IC. The low RDYN of the triggered TVS holds this voltage, VCLAMP, to a
+tolerable level to the protected IC.
+8.2 Typical Application
+Figure 3. Typical Application Schematic
+8.2.1 Design Requirements
+For this design example, a single TPD3E001 is used to protect all the pins of a USB2.0 micro-AB connector. The
+micro-AB connector has an extra pin, the ID pin, which is used by the device to determine whether it is to
+perform the "A" role or the "B' role. This functionality the ID offers is part of the USB On-the-Go (OTG) Standard.
+The TPD3E001 offers 3-channels of IEC Level ESD protection to provide complete protection for the USB micro-
+AB style connector, plus VCC (VBUS, D+, D-, ID).
+Given the USB application, the following parameters are known.
+Table 1. Design Parameters
+DESIGN PARAMETER EXAMPLE VALUE
+Signal range on IO1, IO2 0 V to 3.6 V
+State of IO3 (ID) GND or Floating
+Signal voltage range on VCC 0 V to 5.25 V
+Operating Frequency 240 MHz
+Copyright © 2006–2015, Texas Instruments Incorporated Submit Documentation Feedback 7
+Product Folder Links: TPD3E001
+
+PDF PAGE 8
+±40 
+±30 
+±20 
+±10 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+±15 0 15 30 45 60 75 90 105 120 135 150
+Voltage (V) 
+Time (nS) C001 
+TPD3E001
+SLLS683F – JULY 2006 – REVISED OCTOBER 2015 www.ti.com
+8.2.2 Detailed Design Procedure
+When placed near the USB connectors, the TPD3E001 ESD solution offers little or no signal distortion during
+normal operation due to low IO capacitance and ultra-low leakage current specifications. The TPD3E001 ensures
+that the core circuitry is protected and the system is functioning properly in the event of an ESD strike. For
+proper operation, the following layout/ design guidelines should be followed:
+1. Place the TPD3E001 solution close to the connectors. This allows the TPD3E001 to take away the energy
+associated with ESD strike before it reaches the internal circuitry of the system board.
+2. Place a 0.1-μF capacitor very close to the VCC pin. This limits any momentary voltage surge at the IO pin
+during the ESD strike event.
+3. Ensure that there is enough metallization for the VCC and GND loop. During normal operation, the TPD3E001
+consumes approximately 1 nA (typ.) supply current through the VCC and GND loop. But during the ESD
+event, VCC and GND may see 15 A to 30 A of current, depending on the ESD level. Sufficient current path
+enables safe discharge of all the energy associated with the ESD strike.
+4. Leave the unused IO pins floating. In this example of protecting a micro-AB type USB port, none of the IO
+pins will be left unused.
+5. The VCC pin can be connected in two different ways:
+(a) If the VCC pin is connected to the system power supply, the TPD3E001 works as a transient suppressor
+for any signal swing above VCC + VF. A 0.1-μF capacitor on the device VCC pin is recommended for ESD
+bypass.
+(b) If the VCC pin is not connected to the system power supply, the TPD3E001 can tolerate higher signal
+swing in the range up to 10 V. Please note that a 0.1-μF capacitor is still recommended at the VCC pin for
+ESD bypass.
+8.2.3 Application Curve
+Figure 4 is a capture of the voltage clamping waveform of TPD3E001 on IO1 during a +8kV Contact IEC61000-4-
+2 ESD strike.
+Figure 4. TPD3E001 +8kV Contact IEC61000-4-2 Voltage Clamping Waveform
+8 Submit Documentation Feedback Copyright © 2006–2015, Texas Instruments Incorporated
+Product Folder Links: TPD3E001
+
+PDF PAGE 9
+GND
+IO3
+= VIA to GND
+IO1
+IO2
+GND
+0.1µF
+IO1
+IO2
+IO3
+VCC
+TPD3E001
+www.ti.com SLLS683F – JULY 2006 – REVISED OCTOBER 2015
+9 Power Supply Recommendations
+TPD3E001 is a passive TVS diode, so there is no requirement to power this device. However, for best IEC
+61000-4-2 ESD performance and lowest capacitance performance, it is recommended that the VCC pin is biased
+with a 5V supply and that a 0.1µF capacitor is placed near the VCC pin. Take care to make sure that the
+maximum voltage specification for the VCC pin is not violated.
+10 Layout
+10.1 Layout Guidelines
+• The optimum placement is as close to the connector as possible.
+– EMI during an ESD event can couple from the trace being struck to other nearby unprotected traces,
+resulting in early system failures.
+– The PCB designer needs to minimize the possibility of EMI coupling by keeping any unprotected traces
+away from the protected traces which are between the TVS and the connector.
+• Route the protected traces as straight as possible.
+• Eliminate any sharp corners on the protected traces between the TVS and the connector by using rounded
+corners with the largest radii possible.
+– Electric fields tend to build up on corners, increasing EMI coupling.
+10.2 Layout Example
+Figure 5 is an example of how to layout three data lines with the TPD3E001. One example could be protecting a
+USB micro-AB connector from IEC ESD, as discussed in the Application and Implementation section.
+Figure 5. Routing with the DRL Package
+Copyright © 2006–2015, Texas Instruments Incorporated Submit Documentation Feedback 9
+Product Folder Links: TPD3E001
+
+PDF PAGE 10
+TPD3E001
+SLLS683F – JULY 2006 – REVISED OCTOBER 2015 www.ti.com
+11 Device and Documentation Support
+11.1 Documentation Support
+11.1.1 Related Documentation
+For related documentation see the following:
+1. TPD2E2U06 Data Sheet, SLLSEG9
+2. TPD4E1U06 Data Sheet, SLVSBQ9
+3. TPD6E001 Data Sheet, SLLS685
+11.2 Community Resources
+The following links connect to TI community resources. Linked contents are provided "AS IS" by the respective
+contributors. They do not constitute TI specifications and do not necessarily reflect TI's views; see TI's Terms of
+Use.
+TI E2E™ Online Community TI's Engineer-to-Engineer (E2E) Community. Created to foster collaboration
+among engineers. At e2e.ti.com, you can ask questions, share knowledge, explore ideas and help
+solve problems with fellow engineers.
+Design Support TI's Design Support Quickly find helpful E2E forums along with design support tools and
+contact information for technical support.
+11.3 Trademarks
+E2E is a trademark of Texas Instruments.
+All other trademarks are the property of their respective owners.
+11.4 Electrostatic Discharge Caution
+These devices have limited built-in ESD protection. The leads should be shorted together or the device placed in conductive foam
+during storage or handling to prevent electrostatic damage to the MOS gates.
+11.5 Glossary
+SLYZ022 — TI Glossary.
+This glossary lists and explains terms, acronyms, and definitions.
+12 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most
+current data available for the designated devices. This data is subject to change without notice and revision of
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+10 Submit Documentation Feedback Copyright © 2006–2015, Texas Instruments Incorporated
+Product Folder Links: TPD3E001
+
+PDF PAGE 11
+PACKAGE OPTION ADDENDUM
+www.ti.com 10-Nov-2025
+PACKAGING INFORMATION
+Orderable part number Status
+(1)
+Material type
+(2)
+Package | Pins Package qty | Carrier RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C) Part marking
+(6)
+TPD3E001DRLR Active Production SOT-5X3 (DRL) | 5 4000 | LARGE T&R Yes NIPDAUAG Level-1-260C-UNLIM -40 to 85 2BR
+2BH
+TPD3E001DRLR.B Active Production SOT-5X3 (DRL) | 5 4000 | LARGE T&R Yes NIPDAUAG Level-1-260C-UNLIM -40 to 85 2BR
+2BH
+TPD3E001DRLRG4 Active Production SOT-5X3 (DRL) | 5 4000 | LARGE T&R Yes NIPDAUAG Level-1-260C-UNLIM -40 to 85 2BR
+2BH
+TPD3E001DRSR Active Production SON (DRS) | 6 1000 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 85 ZWL
+TPD3E001DRSR.B Active Production SON (DRS) | 6 1000 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 85 ZWL
+TPD3E001DRYR Active Production SON (DRY) | 6 5000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 85 2B
+TPD3E001DRYR.B Active Production SON (DRY) | 6 5000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 85 2B
+TPD3E001DRYRG4 Active Production SON (DRY) | 6 5000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 85 2B
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+Addendum-Page 1
+
+PDF PAGE 12
+PACKAGE OPTION ADDENDUM
+www.ti.com 10-Nov-2025
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+ 
+Addendum-Page 2
+
+PDF PAGE 13
+PACKAGE MATERIALS INFORMATION
+  
+www.ti.com 23-Jul-2025
+TAPE AND REEL INFORMATION
+Reel Width (W1)
+REEL DIMENSIONS
+A0B0K0WDimension designed to accommodate the component lengthDimension designed to accommodate the component thicknessOverall width of the carrier tapePitch between successive cavity centersDimension designed to accommodate the component width
+TAPE DIMENSIONSK0 P1B0WA0Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket QuadrantsSprocket HolesQ1Q1Q2Q2Q3Q3Q4Q4User Direction of Feed
+P1ReelDiameter
+ 
+*All dimensions are nominal
+Device Package
+Type
+Package
+Drawing
+Pins SPQ Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+TPD3E001DRLR SOT-5X3 DRL 5 4000 180.0 8.4 1.98 1.78 0.69 4.0 8.0 Q3
+TPD3E001DRSR SON DRS 6 1000 330.0 12.4 3.3 3.3 1.1 8.0 12.0 Q2
+TPD3E001DRYR SON DRY 6 5000 180.0 9.5 1.2 1.65 0.7 4.0 8.0 Q1
+Pack Materials-Page 1
+
+PDF PAGE 14
+PACKAGE MATERIALS INFORMATION
+  
+www.ti.com 23-Jul-2025
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W LH
+ 
+*All dimensions are nominal
+Device Package Type Package Drawing Pins SPQ Length (mm) Width (mm) Height (mm)
+TPD3E001DRLR SOT-5X3 DRL 5 4000 183.0 183.0 20.0
+TPD3E001DRSR SON DRS 6 1000 353.0 353.0 32.0
+TPD3E001DRYR SON DRY 6 5000 189.0 185.0 36.0
+Pack Materials-Page 2
+
+PDF PAGE 15
+GENERIC PACKAGE VIEW
+Images above are just a representation of the package family, actual package may vary.
+Refer to the product data sheet for package details.
+DRY 6 USON - 0.6 mm max height
+PLASTIC SMALL OUTLINE - NO LEAD
+4207181/G
+
+PDF PAGE 16
+www.ti.com
+PACKAGE OUTLINE
+C
+6X 0.25
+0.15
+4X
+0.5
+5X 0.35
+0.25
+2X
+1
+0.6 MAX
+0.05
+0.00
+3X 0.6
+0.4
+0.3
+B 1.05
+0.95
+A
+1.5
+1.4
+(0.05) TYP (0.127) TYP
+4222894/A   01/2018
+USON - 0.6 mm max heightDRY0006A
+PLASTIC SMALL OUTLINE - NO LEAD
+PIN 1 INDEX AREA
+SEATING PLANE
+0.08 C
+1
+3 4
+6
+(OPTIONAL)
+PIN 1 ID 
+0.1 C A B
+0.05 C
+SYMM
+SYMM
+NOTES:
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+SCALE  8.500
+
+PDF PAGE 17
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.05 MIN
+ALL AROUND
+0.05 MAX
+ALL AROUND
+5X (0.3)
+6X (0.2)
+4X (0.5)
+(0.6)
+(R0.05) TYP
+(0.35)
+4222894/A   01/2018
+USON - 0.6 mm max heightDRY0006A
+PLASTIC SMALL OUTLINE - NO LEAD
+SYMM
+1
+3 4
+6
+SYMM
+LAND PATTERN EXAMPLE
+1:1 RATIO WITH PKG SOLDER PADS
+EXPOSED METAL SHOWN
+SCALE:40X
+NOTES: (continued)
+ 
+3. For more information, see QFN/SON PCB application report in literature No. SLUA271 (www.ti.com/lit/slua271).
+ 
+ 
+METALSOLDER MASK
+OPENING
+SOLDER MASK DETAILS
+NON SOLDER MASK
+DEFINED
+EXPOSED
+METAL
+SOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+(PREFERRED)
+EXPOSED
+METAL
+
+PDF PAGE 18
+www.ti.com
+EXAMPLE STENCIL DESIGN
+5X (0.3)
+6X (0.2)
+4X (0.5)
+(0.6)(R0.05) TYP
+(0.35)
+4222894/A   01/2018
+USON - 0.6 mm max heightDRY0006A
+PLASTIC SMALL OUTLINE - NO LEAD
+NOTES: (continued)
+ 
+4. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+   design recommendations. 
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.075 - 0.1 mm THICK STENCIL
+SCALE:40X
+SYMM
+1
+3 4
+6
+SYMM
+
+PDF PAGE 19
+www.ti.com
+PACKAGE OUTLINE
+1.7
+1.5
+2X 0.5
+2X 1
+5X 0.3
+0.10.6 MAX
+5X 0.18
+0.08
+5X 0.4
+0.2
+0.05
+0.00 TYP
+5X 0.27
+0.15
+2X 0 -10
+2X 4 -15
+1.3
+1.1
+1.7
+1.5
+NOTE 3
+SOT - 0.6 mm max heightDRL0005A
+PLASTIC SMALL OUTLINE
+4220753/E   11/2024
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side.
+4. Reference JEDEC registration MO-293 Variation UAAD-1
+1 5
+PIN 1
+ID AREA
+3 4
+SEATING PLANE
+0.05 C
+SCALE  8.000
+0.1 C A B
+0.05 C
+SYMM
+SYMM
+A
+B
+C
+
+PDF PAGE 20
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.05 MAX
+AROUND
+0.05 MIN
+AROUND
+5X (0.67)
+5X (0.3)
+(1.48)
+2X (0.5)
+(R0.05) TYP
+(1)
+4220753/E   11/2024
+SOT - 0.6 mm max heightDRL0005A
+PLASTIC SMALL OUTLINE
+NOTES: (continued)
+ 
+5. Publication IPC-7351 may have alternate designs. 
+6. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+SYMM
+LAND PATTERN EXAMPLE
+SCALE:30X
+SYMM
+1
+3 4
+5
+SOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+METALSOLDER MASK
+OPENING
+NON SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDERMASK DETAILS
+
+PDF PAGE 21
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(1.48)
+2X (0.5)
+5X (0.67)
+5X (0.3)
+(R0.05) TYP
+(1)
+SOT - 0.6 mm max heightDRL0005A
+PLASTIC SMALL OUTLINE
+4220753/E   11/2024
+NOTES: (continued)
+ 
+7. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations. 
+8. Board assembly site may have different recommendations for stencil design.
+SOLDER PASTE EXAMPLE
+BASED ON 0.1 mm THICK STENCIL
+SCALE:30X
+SYMM
+SYMM
+1
+3 4
+5
+
+PDF PAGE 22
+
+
+PDF PAGE 23
+
+
+PDF PAGE 24
+
+
+PDF PAGE 25
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2025, Texas Instruments Incorporated
+Last updated 10/2025

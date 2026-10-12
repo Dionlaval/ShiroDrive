@@ -1,0 +1,24 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+07:41:58 PM: Debug: Adding duplicate image handler for 'PNG file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'JPEG file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'TIFF file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'GIF file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'PNM file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'PCX file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'IFF file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'TGA file'
+07:41:58 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "prior_connectivity_regressions": [],
+  "completed_selected": 79,
+  "total_selected": 81,
+  "remaining_selected": [
+    "INPUT_MUX_ENABLE_N",
+    "NTC_PHASE_B"
+  ],
+  "method": "Native same-net copper contacts plus per-filled-polygon zone contact; includes copper-only island bridges."
+}

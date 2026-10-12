@@ -1,0 +1,334 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_06/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/support_ground/guarded/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "id": "ground_U601.5",
+      "net": "GND",
+      "pad": "U601.5",
+      "pad_uuid": "9667a117-2b7b-4b95-87b2-ea8eb558fb40",
+      "new_items": [
+        "3a0fc561-d227-40bc-832c-6bf791fd9311",
+        "84749eea-4205-4af1-b3b2-888b47643294",
+        "658ee945-8401-4df4-aec2-7608b72afd2c"
+      ],
+      "length_mm": 2.8020815280171267,
+      "width_mm": 0.254,
+      "new_via_uuid": null,
+      "target_mode": "existing",
+      "start_mm": [
+        2.8625,
+        0.65
+      ],
+      "end_mm": [
+        5.3,
+        1.5
+      ]
+    },
+    {
+      "id": "ground_U901.12",
+      "net": "GND",
+      "pad": "U901.12",
+      "pad_uuid": "111e6942-3a13-43d4-b3e5-7f41a80836b2",
+      "new_items": [
+        "bd16f7ca-fe53-47db-882a-f26e43ccab12",
+        "e5161985-5f50-404e-a76d-226cc4a3ab3f",
+        "f37ff81b-696a-4b6f-8d31-9df3e1d25bfd",
+        "7e32d2da-29cc-4dca-a150-297645817daa"
+      ],
+      "length_mm": 1.6828427124746175,
+      "width_mm": 0.254,
+      "new_via_uuid": "7e32d2da-29cc-4dca-a150-297645817daa",
+      "target_mode": "new",
+      "start_mm": [
+        -21.52,
+        -7.399999
+      ],
+      "end_mm": [
+        -21.725,
+        -5.8
+      ]
+    },
+    {
+      "id": "ground_R905.2",
+      "net": "GND",
+      "pad": "R905.2",
+      "pad_uuid": "52835b68-6f82-44bb-9fc0-d2f5a7bbfb9c",
+      "new_items": [
+        "8f55af68-22ce-43fa-ac82-3712207c5592",
+        "1ec0af35-0437-4434-aa42-93c71bfc94bd",
+        "46d3566a-f245-49f2-aae0-a6e72eda3f99"
+      ],
+      "length_mm": 0.7103553390593277,
+      "width_mm": 0.254,
+      "new_via_uuid": "46d3566a-f245-49f2-aae0-a6e72eda3f99",
+      "target_mode": "new",
+      "start_mm": [
+        -21.740001,
+        -11.92
+      ],
+      "end_mm": [
+        -21.725,
+        -12.625
+      ]
+    },
+    {
+      "id": "ground_R307.2",
+      "net": "GND",
+      "pad": "R307.2",
+      "pad_uuid": "7a6a3eb2-873c-4bc0-bdc3-6b17322318da",
+      "new_items": [
+        "2ddca686-f342-4eef-97a5-606509a6eca5",
+        "057723a5-c168-4ae3-93d7-024c18f18d0a",
+        "5692d667-e7a3-4b47-97e4-35f8c75bcd81",
+        "140a4ace-cb06-4b80-b09e-673e020269a2"
+      ],
+      "length_mm": 2.9717514421272146,
+      "width_mm": 0.1524,
+      "new_via_uuid": null,
+      "target_mode": "existing",
+      "start_mm": [
+        -0.69,
+        16.9
+      ],
+      "end_mm": [
+        0.55,
+        18.9
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "pad": "U601.13",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U901.3",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U602.11",
+      "skipped": "no legal surface path <= 2 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "U602.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U602.5",
+      "skipped": "no legal surface path <= 2 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "U602.8",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U801.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U202.2",
+      "skipped": "no legal surface path <= 2 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "U603.4",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U604.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U502.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C601.2",
+      "skipped": "no legal surface path <= 2 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "C603.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C604.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C605.2",
+      "skipped": "no legal surface path <= 2 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "C606.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C607.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C801.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C802.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C901.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C902.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C903.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C904.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C503.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "C504.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R509.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R311.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R618.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R214.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R220.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R315.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R501.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R209.2",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "R105.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R616.2",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "R202.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R204.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R615.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R443.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R203.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R617.2",
+      "skipped": "no legal surface path <= 3 mm to existing ground via or new via site"
+    },
+    {
+      "pad": "R504.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R207.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R306.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R213.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R219.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R505.2",
+      "skipped": "already reaches GND plane"
+    },
+    {
+      "pad": "R211.2",
+      "skipped": "already reaches GND plane"
+    }
+  ]
+}

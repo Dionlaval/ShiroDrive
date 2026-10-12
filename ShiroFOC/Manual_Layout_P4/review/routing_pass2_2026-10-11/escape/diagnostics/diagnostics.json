@@ -1,0 +1,376 @@
+[
+  {
+    "net": "CAN_TERM_DISABLE",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "5",
+        "position": [
+          -9.545,
+          5.449559
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      },
+      {
+        "ref": "R803",
+        "pin": "1",
+        "position": [
+          -14.11,
+          9.724999
+        ],
+        "free_terminals": 942,
+        "terminal_pixels": 942,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "FDCAN1_TX",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "48",
+        "position": [
+          -0.655,
+          3.449055
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      },
+      {
+        "ref": "R805",
+        "pin": "2",
+        "position": [
+          -17.579999,
+          12.604998
+        ],
+        "free_terminals": 1199,
+        "terminal_pixels": 1219,
+        "blockers": []
+      },
+      {
+        "ref": "U801",
+        "pin": "1",
+        "position": [
+          -18.872502,
+          12.7325
+        ],
+        "free_terminals": 1199,
+        "terminal_pixels": 1219,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "FDCAN1_RX",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "47",
+        "position": [
+          -0.655,
+          3.949181
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      },
+      {
+        "ref": "U801",
+        "pin": "4",
+        "position": [
+          -20.822502,
+          12.7325
+        ],
+        "free_terminals": 881,
+        "terminal_pixels": 939,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "AS5047P_CS_N",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "51",
+        "position": [
+          -2.349307,
+          2.755
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      },
+      {
+        "ref": "U601",
+        "pin": "1",
+        "position": [
+          2.8625,
+          -1.95
+        ],
+        "free_terminals": 743,
+        "terminal_pixels": 802,
+        "blockers": []
+      },
+      {
+        "ref": "R309",
+        "pin": "2",
+        "position": [
+          5.41,
+          -2.4
+        ],
+        "free_terminals": 743,
+        "terminal_pixels": 802,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "/MCU / clock / SWD/NRST",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "8",
+        "position": [
+          -9.545,
+          6.949937
+        ],
+        "free_terminals": 451,
+        "terminal_pixels": 632,
+        "blockers": []
+      },
+      {
+        "ref": "C310",
+        "pin": "1",
+        "position": [
+          -11.745,
+          7.45
+        ],
+        "free_terminals": 451,
+        "terminal_pixels": 632,
+        "blockers": []
+      },
+      {
+        "ref": "R303",
+        "pin": "2",
+        "position": [
+          -12.75,
+          10.54
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "VBUS_SENSE",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "9",
+        "position": [
+          -9.545,
+          7.450063
+        ],
+        "free_terminals": 374,
+        "terminal_pixels": 374,
+        "blockers": []
+      },
+      {
+        "ref": "C108",
+        "pin": "1",
+        "position": [
+          -10.775,
+          7.45
+        ],
+        "free_terminals": 374,
+        "terminal_pixels": 374,
+        "blockers": []
+      },
+      {
+        "ref": "U602",
+        "pin": "12",
+        "position": [
+          -3.305,
+          18.525
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "NTC_PHASE_B",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "11",
+        "position": [
+          -9.545,
+          8.450315
+        ],
+        "free_terminals": 1181,
+        "terminal_pixels": 1199,
+        "blockers": []
+      },
+      {
+        "ref": "R712",
+        "pin": "2",
+        "position": [
+          -13.49,
+          -0.5
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      },
+      {
+        "ref": "C712",
+        "pin": "1",
+        "position": [
+          -8.565,
+          8.21
+        ],
+        "free_terminals": 1181,
+        "terminal_pixels": 1199,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "FEEDBACK_A_H1",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "57",
+        "position": [
+          -5.350063,
+          2.755
+        ],
+        "free_terminals": 1283,
+        "terminal_pixels": 1474,
+        "blockers": []
+      },
+      {
+        "ref": "U602",
+        "pin": "4",
+        "position": [
+          -9.03,
+          19.175
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "FEEDBACK_B_H2",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "58",
+        "position": [
+          -5.850189,
+          2.755
+        ],
+        "free_terminals": 1194,
+        "terminal_pixels": 1452,
+        "blockers": []
+      },
+      {
+        "ref": "U602",
+        "pin": "7",
+        "position": [
+          -9.03,
+          17.225
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "FEEDBACK_I_H3",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "59",
+        "position": [
+          -6.350315,
+          2.755
+        ],
+        "free_terminals": 1296,
+        "terminal_pixels": 1469,
+        "blockers": []
+      },
+      {
+        "ref": "U602",
+        "pin": "9",
+        "position": [
+          -3.305,
+          16.575
+        ],
+        "free_terminals": 451,
+        "terminal_pixels": 451,
+        "blockers": []
+      },
+      {
+        "ref": "R307",
+        "pin": "1",
+        "position": [
+          -1.71,
+          16.9
+        ],
+        "free_terminals": 451,
+        "terminal_pixels": 451,
+        "blockers": []
+      }
+    ]
+  },
+  {
+    "net": "INPUT_MUX_ENABLE_N",
+    "endpoints": [
+      {
+        "ref": "U4",
+        "pin": "4",
+        "position": [
+          -9.545,
+          4.949433
+        ],
+        "free_terminals": 1,
+        "terminal_pixels": 1,
+        "blockers": []
+      },
+      {
+        "ref": "U602",
+        "pin": "15",
+        "position": [
+          -3.305,
+          20.475
+        ],
+        "free_terminals": 3132,
+        "terminal_pixels": 3226,
+        "blockers": []
+      },
+      {
+        "ref": "R305",
+        "pin": "2",
+        "position": [
+          -0.69,
+          18.2
+        ],
+        "free_terminals": 3132,
+        "terminal_pixels": 3226,
+        "blockers": []
+      }
+    ]
+  }
+]

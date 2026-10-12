@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_06/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/support_ground/final/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "db7dd0dc0965ce2af82282d54509e7bf289ea66c06dd11f1021e5ba5495e9926",
+  "candidate_sha256": "f49cc228baa62285d844d8512b3c0f2e86e719e2b63a8e3ea4fbc8ed0461f400",
+  "footprint_count": 272,
+  "changed_footprints": [],
+  "authorized_footprint_moves": [],
+  "footprint_move_manifest_errors": [],
+  "unauthorized_footprint_changes": [],
+  "footprint_geometry_changes_authorized": true,
+  "removed_old_copper": [],
+  "changed_old_copper": [],
+  "existing_copper_unchanged": true,
+  "allowed_replacement_uuids": [],
+  "unknown_authorized_ids": [],
+  "unauthorized_removed_old_copper": [],
+  "unauthorized_changed_old_copper": [],
+  "old_copper_net_or_class_changed": [],
+  "existing_copper_changes_authorized": true,
+  "checked_new_or_replaced_item_count": 22,
+  "checked_new_or_replaced_items": [
+    "057723a5-c168-4ae3-93d7-024c18f18d0a",
+    "09903290-e461-4b89-818f-8df99cdc2689",
+    "140a4ace-cb06-4b80-b09e-673e020269a2",
+    "19c93679-49e1-4b8c-a32b-878b9defd237",
+    "2ddca686-f342-4eef-97a5-606509a6eca5",
+    "2eb404f4-0263-4acf-8091-d406e32afb89",
+    "3a0fc561-d227-40bc-832c-6bf791fd9311",
+    "3f82e6ab-30a7-4970-8469-71195f2619e4",
+    "5692d667-e7a3-4b47-97e4-35f8c75bcd81",
+    "58dd2c2c-567c-48a4-9c18-7955b7b3ee24",
+    "658ee945-8401-4df4-aec2-7608b72afd2c",
+    "7e32d2da-29cc-4dca-a150-297645817daa",
+    "82f8dd41-8142-423d-92fb-403ee653bfa1",
+    "84749eea-4205-4af1-b3b2-888b47643294",
+    "a06ae7ac-aa19-4fa8-8172-1a776224f28b",
+    "ae261e10-f4e0-4c21-a0ce-97c02ea885d2",
+    "aff2b8be-d5b7-4fe9-8fe9-3e53eb430dea",
+    "bd16f7ca-fe53-47db-882a-f26e43ccab12",
+    "ce2557c0-e11e-445c-be8f-f39d6f7761d7",
+    "e5161985-5f50-404e-a76d-226cc4a3ab3f",
+    "f07adafa-c4d0-4d92-a52d-54e741d68528",
+    "f37ff81b-696a-4b6f-8d31-9df3e1d25bfd"
+  ],
+  "new_item_count": 22,
+  "new_items": [
+    "057723a5-c168-4ae3-93d7-024c18f18d0a",
+    "09903290-e461-4b89-818f-8df99cdc2689",
+    "140a4ace-cb06-4b80-b09e-673e020269a2",
+    "19c93679-49e1-4b8c-a32b-878b9defd237",
+    "2ddca686-f342-4eef-97a5-606509a6eca5",
+    "2eb404f4-0263-4acf-8091-d406e32afb89",
+    "3a0fc561-d227-40bc-832c-6bf791fd9311",
+    "3f82e6ab-30a7-4970-8469-71195f2619e4",
+    "5692d667-e7a3-4b47-97e4-35f8c75bcd81",
+    "58dd2c2c-567c-48a4-9c18-7955b7b3ee24",
+    "658ee945-8401-4df4-aec2-7608b72afd2c",
+    "7e32d2da-29cc-4dca-a150-297645817daa",
+    "82f8dd41-8142-423d-92fb-403ee653bfa1",
+    "84749eea-4205-4af1-b3b2-888b47643294",
+    "a06ae7ac-aa19-4fa8-8172-1a776224f28b",
+    "ae261e10-f4e0-4c21-a0ce-97c02ea885d2",
+    "aff2b8be-d5b7-4fe9-8fe9-3e53eb430dea",
+    "bd16f7ca-fe53-47db-882a-f26e43ccab12",
+    "ce2557c0-e11e-445c-be8f-f39d6f7761d7",
+    "e5161985-5f50-404e-a76d-226cc4a3ab3f",
+    "f07adafa-c4d0-4d92-a52d-54e741d68528",
+    "f37ff81b-696a-4b6f-8d31-9df3e1d25bfd"
+  ],
+  "new_track_widths_mm": {
+    "0.1524": 9,
+    "0.254": 12
+  },
+  "invalid_new_widths": [],
+  "invalid_new_vias": [],
+  "outside_board_copper": [],
+  "via_pad_overlaps": [],
+  "new_routing_by_net": {
+    "GND": {
+      "tracks": 21,
+      "vias": 1,
+      "length_mm": 16.190824
+    }
+  },
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 21,
+      "vias": 0,
+      "length_mm": 16.190824
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 1,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 29,
+    "warnings": 376,
+    "unconnected": 266
+  },
+  "candidate_drc": {
+    "errors": 29,
+    "warnings": 376,
+    "unconnected": 259
+  },
+  "introduced_errors": [],
+  "introduced_error_item_uuids": [],
+  "project_schematic_rules_hash_check": "External responsibility; this script does not modify them",
+  "scope": "Additive routing and native DRC regression; does not claim circuit or signal-integrity verification"
+}

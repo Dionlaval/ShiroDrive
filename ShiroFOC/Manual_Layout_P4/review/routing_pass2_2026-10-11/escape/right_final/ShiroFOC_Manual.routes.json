@@ -1,0 +1,38 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/escape/r715_fanout/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "I2C2_SDA",
+      "source": "68fba910-f762-401a-952f-7c7102ef83a6",
+      "target": "0b7d41ce-3831-41a1-bf0c-e4b055e2b576",
+      "source_ref": "U701",
+      "source_pin": "14",
+      "target_ref": "R715",
+      "target_pin": "2",
+      "distance_mm": 2.302391419806806,
+      "length_mm": 3.6955844122715646,
+      "vias": 0,
+      "path_points": 119,
+      "rejected": false,
+      "new_items": [
+        "294ddd35-9b97-458f-a871-8a4baca5a2cf",
+        "1b689399-9a8f-4a5d-b70f-ae953af87d26",
+        "ba3cf774-283c-4f12-90fc-a2cee44f5fa6",
+        "61910514-e01f-4603-97ad-8174d3298318",
+        "60c0c2da-db82-4b68-9b69-4837e3a1fb2e",
+        "c1a60c82-6e55-46db-b884-705348f489eb",
+        "9d4c91a6-36d0-4eb3-8934-54cef8d51576"
+      ],
+      "elapsed_seconds": 4.709287166595459
+    }
+  ]
+}

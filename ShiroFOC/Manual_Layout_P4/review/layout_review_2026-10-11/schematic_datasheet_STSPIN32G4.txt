@@ -1,0 +1,2294 @@
+PDF PAGE 1
+Features
+• Motor supply voltage from 5.5 V to 75 V
+• Three-phase gate drivers:
+– 1 A sink/source current capability
+– VDS monitoring of the power stage MOSFETs
+– Integrated bootstrap diodes
+– I2C accessible configuration and status registers for best application fit
+– Cross-conduction prevention
+• STM32G431 microcontroller with 32-bit ARM® Cortex®-M4 MCU+FPU core:
+– Up to 170 MHz clock frequency
+– CORDIC mathematical hardware accelerator for trigonometric functions
+– 128 kB Flash memory with proprietary code readout protection (PCROP),
+securable memory area, 1 kB OTP
+– 32 kB SRAM memory with HW parity check
+– 2 x advanced times for motor control, 16-bit with up to 6 x PWM channels
+– 8 x general purpose timers
+– 2 x ADCs 12-bit resolution (up to 19 channels) with 4 Msps conversion rate
+– 4 x 12-bit DAC channels
+– 4 x ultra-fast rail-to-rail comparators
+– 3 x rail-to-rail operational amplifiers usable also in PGA mode
+– Internal high precision voltage reference
+– Up to 40 GPIOs
+– Full set of interfaces: I2C, SPI, UART and CAN
+• Self-supplied thanks to embedded flexible power management
+– VCC buck converter up to 200 mA, with programmable output and
+embedded MOSFET
+– 3.3 V LDO linear regulator up to 150 mA
+– Low quiescent linear regulator for MCU supply during standby
+• Full set of protection features: thermal shutdown, short-circuit, overload and
+UVLO
+• Possibility to control 2 motors simultaneously from the same MCU
+• Standby mode for reduced power consumption
+• On-chip debug support via SWD or JTAG
+• Extended temperature range: -40 to +125°C
+Application
+• Industrial and home automation
+• Home appliances such as vacuum cleaners, dryers and cleaning robots
+• Servo drives and e-bikes
+• Service and automation robots
+• Power and garden tools
+• Pumps and fans
+• Drones and aero modeling
+Product status link
+STSPIN32G4
+Product label
+ High performance 3-phase motor controller with embedded STM32G4 MCU 
+ STSPIN32G4 
+Datasheet
+DS13630 - Rev 2 - October 2022
+For further information contact your local STMicroelectronics sales office.
+www.st.com
+
+PDF PAGE 2
+Description
+The STSPIN32G4 is an extremely integrated and flexible motor controller for driving
+3-phase brushless motors, helping designers to choose the most suitable driving
+mode and reduce PCB area and overall Bill Of Materials.
+It embeds a triple half-bridge gate driver able to drive power MOSFETs with a current
+capability of 1 A (sink and source). Three bootstrap diodes are embedded as well.
+The high- and low-side switches of the same half-bridge cannot be simultaneously
+driven high thanks to an integrated interlocking function. An additional protection
+feature is represented by hardware VDS monitoring circuitry that constantly monitors
+each of the six external MOSFETs and in case an overvoltage is detected across one
+of them, switches off all gate driver outputs. The overvoltage threshold is set through
+a dedicated SCREF pin.
+The device is fully self-supplied thanks to an integrated flexible power management
+structure able to generate all required supplies starting from the motor supply
+voltage, VM; the only one to be provided from outside. An embedded programmable
+buck regulator, with embedded power MOSFET, generates the supply voltage for the
+gate drivers starting from the motor supply voltage VM. Four different VCC output
+values can be selected through a dedicated configuration register, 8 V (default
+value), 10 V, 12 V and 15 V.
+An internal high precision low-drop linear regulator (LDO) is used to generate the 3.3
+V supply (VREG3V3) starting from the REGIN input voltage. The 3.3 V output voltage
+supplies both the gate driver logic and the microcontroller. It is protected against
+short-circuit, overload and undervoltage conditions.
+Both the buck and LDO regulators can be bypassed providing externally VCC and
+VREG3V3 supplies.
+An additional very low-quiescent regulator is used when the STSPIN32G4 is in
+standby mode, allowing to reduce the overall current consumption down to 15 μA
+typical.
+The integrated MCU (STM32G431VBx3) is based on the high-performance 32-bit
+ARM® Cortex®-M4 core, operating at a frequency up to 170 MHz and featuring a
+single-precision floating-point unit (FPU), full set of DSP (Digital Signal Processing)
+instructions and a memory protection unit (MPU), which enhances the application’s
+security.
+This microcontroller represents the mainstream choice for advanced motor control
+applications thanks to the very rich and specific set of features such as: two fast
+12-bit ADCs (4 Msps), four comparators, three operational amplifiers, four DAC
+channels (2 external and 2 internal), an internal voltage reference buffer, one
+general-purpose 32-bit timer, two 16-bit PWM timers dedicated to motor control,
+seven general-purpose 16-bit timers, one 16-bit low-power timer.
+It also embeds high-speed memories (128 kB of Flash memory, and 32 kB of
+SRAM) with several protection mechanisms, up to 40 available GPIOs, mathematical/
+arithmetic function acceleration peripherals (CORDIC for trigonometric functions
+and FMAC unit for filter functions), main interfaces (I2C, SPI, UART and CAN), a
+comprehensive set of power-saving modes and an analog independent supply input
+for ADC, DAC, operational amplifiers and comparators.
+Such a feature rich microcontroller allows running very high-performance motor
+control algorithms offering unprecedented flexibility in choosing the best fitting control
+choice even for the most challenging motion control applications. Users can program
+the STSPIN32G4 to run sensorless or sensored Field Oriented Control (FOC) with
+one, two or three shunts, more advanced position or torque control algorithms or
+more traditional six-steps control mode.
+The STSPIN32G4 also features the full set of protections and an extended
+temperature range (-40°C to +125°C), guaranteeing stable operation even in the
+most demanding industrial applications. Both SWD and JTAG interfaces are provided
+for microcontroller firmware programming and debugging.
+Finally, with an additional external three-phase driver (such as the STDRIVE101) two
+independent 3-phase BLDC motors can be efficiently driven from the STSPIN32G4,
+offering an unprecedented BOM saving and application optimization.
+ STSPIN32G4 
+DS13630 - Rev 2 page 2/49
+
+PDF PAGE 3
+1 Block diagram
+Figure 1. STSPIN32G4 system-in-package block diagram
+SW
+VDDA
+REG3V3/VDD
+STM32G431
+VSS
+VM
+VBAT
+VREF+
+GPIOs
+EPAD
+PE15
+PC8
+PE8
+PE10
+PE12
+PE9
+PE11
+PE13
+V M V DDV DD
+C REG3V3C M
+V REF+ V BAT
+VREF+
+VBAT
+VDD/VDDA
+Power
+stage
+C BOOT
+V M
+Half-bridge U
+To motor
+To OpAmp
+OUTU
+OUTV
+OUTW
+V CC
+D1
+L 1
+C OUT
+Control
+logic
+HS
+LS
++
+-
++
+-
++
++
+nFAULT
+READY
+WAKE
+STBY
+SCL
+INH1
+INH2
+INH3
+BOOT1
+BOOT2
+GHS2
+OUT2
+GLS2
+BOOT3
+GHS3
+OUT3
+GLS3
+GHS1
+OUT1
+GLS1
+SDA
+INL1
+INL2
+INL3
+I2C
+SCREF
+3.3 V
+LDO
+Stby
+reg.
+Buck
+reg.
+T J
+T J
+V CC
+V DD
+V M
+V CC
+V DSth
+V DSth
+V DD
+V BOOT1
+V CC
+PC9
+PE7
+PE14
+VCC
+REGIN
+V DD
+VshuntU+
+VshuntU-
+VshuntV+
+VshuntV-
+VshuntW+
+VshuntW-
+PGND
+V DD
+C BAT C DDAC REF
+DS13630 - Rev 2page 3/49
+ STSPIN32G4 
+Block diagram 
+
+PDF PAGE 4
+Figure 2. Gate driver IC block diagram
+Control
+logic
+HS
+LS
++
+-
++
+-
++
++
+nFAULT
+READY
+WAKE
+STBY
+SCL
+INH1
+INH2
+INH3
+BOOT1
+BOOT2
+GHS2
+OUT2
+GLS2
+BOOT3
+GHS3
+OUT3
+GLS3
+GHS1
+OUT1
+GLS1
+REG3V3
+VCC
+SW
+VM
+REGIN
+VSS
+PGND
+SDA
+INL1
+INL2
+INL3
+I2C
+SCREF
+3.3 V
+LDO
+Stby
+reg.
+Buck
+reg.
+T J
+T J
+V CC
+V DD
+V M
+V CC
+V DSth
+V DSth
+V DD
+V BOOT1
+V CC
+DS13630 - Rev 2page 4/49
+ STSPIN32G4 
+Block diagram 
+
+PDF PAGE 5
+2 Electrical data
+2.1 Absolute maximum ratings
+Stresses above the absolute maximum ratings listed in Table 1 may cause permanent damage to the device.
+Exposure to maximum rating conditions for extended periods may affect device reliability.
+All voltages referred to ground pins unless otherwise specified.
+Table 1. Absolute maximum ratings
+Symbol Parameter Test Condition Value Unit
+VM Motor supply voltage -0.3 to 78 V
+VCC Gate driving supply voltage -0.3 to 20 V
+VSW SW pin voltage -2 to VM V
+VREGIN 3.3 V LDO linear regulator input -0.3 to 20 V
+VREG3V3 Logic supply voltage -0.3 to 3.6 V
+VREG3V3,drop 3.3 V linear regulator voltage drop VREGIN - VREG3V3 -0.3 to 20 V
+Pd,REG3V3
+3.3 V LDO linear regulator power
+dissipation Up to 1 W
+VOUTx OUTx pins voltage -2 to VM + 2 V
+VBOOTx Bootstrap pins voltage -0.3 to 98 V
+VBOx High-side driver supply voltage VBOOTx – VOUTx -0.3 to 20 V
+VGHSx High-side gates voltage VOUT-0.3 to
+VBOOT+0.3 V
+VGLSx Low-side gates voltage -0.3 to VCC+0.3 V
+dVOUT/dt Output slew rate ± 20 V/ns
+VSCREF SCREF input -0.3 to 3.6 V
+VDD, VDDA,
+VBAT
+MCU main supply voltages(1) -0.3 to 4.0 V
+VIO MCU logic input voltage (1) (2)
+FT_xxx pins except FT_c pins
+VSS-0.3 to
+min(VDD,VDDA) +
+4.0(3)
+V
+FT_c pins VSS-0.3 to 5.5 V
+TT_xx pins and other pins VSS-0.3 to 4.0 V
+IIO MCU I/O output current(1) -20 to 20 mA
+∑IIO MCU I/O total output current(1) (4) -100 to 100 mA
+TSTG Storage temperature -55 to 150 °C
+TJ Junction temperature -40 to 150 °C
+ 
+1. Refer to the Absolute maximum ratings section in the STM32G431VBx3 datasheet.
+2. All main power (VDD, VDDA, VBAT) and ground (VSS, VSSA) pins must always be connected to the external power supply,
+in the permitted range.
+3. To sustain a voltage higher than 4 V the internal pull-up/pull-down resistors must be disabled.
+4. This current consumption must be correctly distributed over all I/Os and control pins.
+ 
+ STSPIN32G4 
+Electrical data
+DS13630 - Rev 2 page 5/49
+
+PDF PAGE 6
+2.2 Recommended operating conditions
+All voltages referred to ground pins unless otherwise specified.
+Table 2. Recommended operating conditions
+Symbol Parameter Test Condition Min. Typ. Max. Unit
+VM Supply voltage 5.5(1) 75 V
+dVM /dt Supply voltage slope 10 V/ µs
+VCC
+VCC Buck converter
+output and gate driving
+supply voltage
+Internally generated,
+set to 8 V
+8 V
+Internally generated,
+set to 10 V
+10 V
+Internally generated,
+set to 12 V
+12 V
+Internally generated,
+set to 15 V
+15 V
+Externally provided 5.5(1) 15 V
+ICC
+VCC Buck converter
+output current 200(2) mA
+VREGIN
+3.3 V LDO linear
+regulator input 3.3 15 V
+VREG3V3 Logic supply voltage 3.3 V
+IREG3V3
+3.3 V linear regulator
+output current 150(2) mA
+IREG3V3,Stby
+Standby regulator
+output current VM ≥ 8V 6 mA
+VSCREF SCREF input
+Protection enabled 0.2 2.5 V
+Protection disabled 2.9 3.3 V
+VDDA
+MCU analog supply
+voltage
+ADC or COMP used 1.62 3.6 V
+DAC 1 MSPS or DAC
+15 MSPS 1.71 3.6 V
+Op-amp used 2.0 3.6 V
+VREFBUS used 2.4 3.6 V
+ADC, DAC, Op-amp,
+COMP, VREFBUF not
+used
+0 3.6 V
+VBAT
+MCU backup
+operating voltage 1.55 3.6 V
+VREF+
+ADC positive
+reference voltage
+VDDA ≥ 2 V 2 VDDA V
+VDDA < 2 V VDDA V
+Tamb
+Operative ambient
+temperature -40 125(2) °C
+ 
+1. Actual operative range can be limited by UVLO protections.
+2. Actual operative range can be limited by thermal shutdown.
+ 
+ STSPIN32G4 
+Recommended operating conditions
+DS13630 - Rev 2 page 6/49
+
+PDF PAGE 7
+2.3 Thermal data
+Thermal values are calculated by simulation with the following boundary conditions: 2s2p board as per the std.
+JEDEC (JESD51-7) in natural convection, board dimensions: 114.3 x 76.2 x 1.6 mm, ambient temperature: 25°C.
+Table 3. Thermal data
+Symbol Parameter Conditions Value Unit
+RthJA Junction-to-ambient thermal resistance Natural convection, according to JESD51-2a 48.3 °C/W
+ΨJT Junction-to-top characterization parameter According to JESD51-2a 1.6 °C/W
+ΨJB Junction-to-board characterization parameter According to JESD51-2a 32.0 °C/W
+2.4 Electrical sensitivity characteristics
+Table 4. ESD protection ratings
+Symbol Parameter Test Condition Class Value Unit
+HBM Human Body Model Conforming to ANSI/ESDA/JEDEC JS-001-2014 2 kV
+CDM Charge Device
+Model
+All pins
+Conforming to ANSI/ESDA/JEDEC JS-002-2014
+500 V
+CDM Charge Device
+Model
+Corner pins only
+Conforming to ANSI/ESDA/JEDEC JS-002-2014
+750 V
+ STSPIN32G4 
+Thermal data
+DS13630 - Rev 2 page 7/49
+
+PDF PAGE 8
+3 Electrical characteristics
+Testing conditions: VM = 60 V, VCC = 12 V, VREGIN = VREG3V3 = 3.3 V unless otherwise specified.
+Typical values are tested at Tamb = 25°C, minimum and maximum values are guaranteed by thermal
+characterization in the temperature range of -40 to 125°C, unless otherwise specified.
+Table 5. Electrical characteristics – Gate driver IC
+Symbol Parameter Test condition Min. Typ. Max. Unit
+Supply
+VREG3V3(On) Control logic turn-on threshold VREG3V3 rising 2.5 V
+VREG3V3(Off) Control logic turn-off threshold VREG3V3 falling 1.9 V
+VREG3V3Stby(Off)
+Control logic turn-off threshold
+during standby VREG3V3 falling 2.4 V
+IREG3V3,qu
+Control logic quiescent
+consumption
+MCU consumption excluded
+Tamb = 25°C
+1.9 3 mA
+VCC(On) VCC UVLO turn-on threshold VCC rising 5.5 V
+VCC(Hyst) VCC UVLO hysteresis VCC falling 70 mV
+ICC,qu VCC quiescent consumption 850 1700 µA
+VBO(On)
+VBOOT - VOUT UVLO turn-on
+threshold VBOOT rising 5 V
+VBO(Hyst) VBOOT - VOUT UVLO hysteresis VBOOT falling 100 mV
+IBO,qu
+VBOOT - VOUT quiescent
+current 170 250 µA
+IM,qu VM quiescent consumption
+VCC = 15 V ext
+All gate driver outputs low.
+1500 3000 µA
+VCC buck regulator
+VON,Buck Regulator turn-on threshold VM rising 3 4.5 V
+VHyst,Buck Regulator turn-off hysteresis VM falling 50 150 250 mV
+VCC,mean Regulated output voltage
+Set to 8 V, mean value 7.2 8 8.8
+V
+Set to 10 V, mean value 9 10 11
+Set to 12 V, mean value 10.8 12 13.2
+Set to 15 V, mean value 13.5 15 16.5
+VCC,PkPk Peak-to-peak output ripple Percentage referred to target VCC 1.875 %
+Ipeak,Buck Peak current threshold 750 mA
+fSW,Buck Switching frequency 500 kHz
+tON,Buck, min Minimum buck ON-time 220 ns
+tOFF,Buck min Minimum buck OFF-time 220 ns
+RDS(ON),SW PMOS switch on-resistance 3 Ω
+tSS,Buck Soft-start time 3.3 ms
+fSW,SS Soft-start switching frequency 60 kHz
+tdisable,Buck Disable time 4 ms
+ STSPIN32G4 
+Electrical characteristics
+DS13630 - Rev 2 page 8/49
+
+PDF PAGE 9
+Symbol Parameter Test condition Min. Typ. Max. Unit
+IOC,Buck
+Buck converter overcurrent
+threshold 1.2 A
+TSD Shutdown temperature 140 160 °C
+TSD(Hyst) Thermal shutdown hysteresis 30 °C
+3.3 V Linear regulator
+VREG3V3
+3.3 V linear regulator output
+and logic supply voltage
+VREGIN = 5 V
+IREG3V3 = 150 mA
+3.1 3.3 3.5 V
+IREG3V3lim
+3.3 V linear regulator current
+limit REG3V3 shorted to ground 151 mA
+TSD Shutdown temperature 140 160 °C
+TSD(Hyst) Thermal shutdown hysteresis 30 °C
+Gate drivers
+Igate Sink/source current capabilities
+VCC = 5.5 V to 15 V
+VBOx = 5.5 V to 15 V
+Tamb = 25°C
+700 1000 1300 mA
+VCC = 5.5 V to 15 V
+VBOx = 5.5 V to 15 V
+Full temperature range
+500 1500 mA
+RPMOS PMOS on-resistance
+VCC = 12 V, VBOx = 12 V
+Isource = 100 mA
+Tamb = 25°C
+3.7 Ω
+VCC = 12 V, VBOx = 12 V
+Isource = 100 mA
+Full temperature range
+5.8 Ω
+RNMOS NMOS on-resistance
+VCC = 12 V, VBOx = 12 V
+Isink = 100 mA
+Tamb = 25°C
+1.6 Ω
+VCC = 12 V, VBOx = 12 V
+Isink = 100 mA
+Full temperature range
+2.6 Ω
+tDT Deadtime Minimum deadtime enabled 150 ns
+IOUTx,bias OUTx bias current
+VOUTx = VM = 60 V, VBOx = 15 V 180 260 µA
+VOUTx = 0 V, VBOx = 15 V 180 260 µA
+ton, toff
+Input to output propagation
+delay
+VCC = 5.5 V to 15 V
+VBOx = 5.5 V to 15 V
+30 60 ns
+VCC = 5.5 V to 15 V
+VBOx = 5.5 V to 15 V
+Full temperature range
+120 ns
+MT Delay matching, HS and LS
+turn-on/off
+(1) 0 50 ns
+ STSPIN32G4 
+Electrical characteristics
+DS13630 - Rev 2 page 9/49
+
+PDF PAGE 10
+Symbol Parameter Test condition Min. Typ. Max. Unit
+MTCH
+Delay matching between
+channels
+(2) 0 50 ns
+RDS_diode Bootstrap diode on-resistance 100 200 Ω
+RPDin Input lines pull-down resistor 500 kΩ
+tFAULT,reset Fault reset time 160 µs
+RPU,I2C I2C lines pull-up resistors 4 kΩ
+I2C speed I2C speed 0.1 1 Mbps
+Standby
+ISTBY
+Overall standby consumption
+from VM
+VM = 75 V
+Standby regulator enabled, MCU
+consumption excluded
+15 30 µA
+tSTBY Standby time 100 µs
+VREGStby
+Standby regulator output
+voltage
+VM = 5 V
+IREG3V3 = 1 mA
+3 3.3 3.6 V
+IREGStby,lim Standby regulator current limit VM = 5.5 V, Tamb = 25°C 5 mA
+tWAKE,LDO 3.3V LDO wake-up time 10 µs
+VDS monitoring protection
+VDSth
+VDS monitoring protection
+threshold
+VSCREF = 0.2 V, Tamb = 25°C 0.1 0.2 0.3
+VVSCREF = 1 V, Tamb = 25°C 0.8 1 1.2
+VSCREF = 2.5 V, Tamb = 25°C 2.2 2.5 2.8
+VSCREF,en
+VDS monitoring protection
+enable voltage 2.55 V
+VSCREF,dis
+VDS monitoring protection
+disable voltage 2.9 V
+RSCREF
+VDS monitoring protection
+reference pull-down resistor 400 kΩ
+tDFSC
+VDS monitoring protection
+deglitch filter time
+VDS_P_DEG = 00 6
+µs
+VDS_P_DEG = 01 4
+VDS_P_DEG = 10 3
+VDS_P_DEG = 11 2
+ 
+1. MT = max. (|t on(GLS) - toff(GLS)|, |ton(GHS) - toff(GHS)|, |toff(GLS) - ton(GHS)|, |toff(GHS) - ton(GLS)|).
+2. MT CH is the difference between the ton and toff of a channel and the same timings of any other channel.
+ 
+ STSPIN32G4 
+Electrical characteristics
+DS13630 - Rev 2 page 10/49
+
+PDF PAGE 11
+4 Pin description
+Figure 3. STSPIN32G4 pin connection (top view)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+17 18 19 20 21 22 23 24 25 26 27 28
+64 63 62 61 60 59 58 57 56 55 54 53
+VSS
+VBAT
+PC13
+PF1
+PC3
+PA4
+PA5
+PA6
+PA7
+PC4
+PC5
+PB0
+PB1
+PB2
+VREF+
+VDDA
+PB10
+29 30 31 32
+GLS1
+GLS2
+GLS3
+PGND
+REGIN
+VCC
+SW
+VM
+PB9
+PB8
+PB7
+PB6
+PB5
+PB4
+PB3
+PD2
+52 51 50 49
+SCREF
+PA15
+PA14
+PA13
+PC2
+PC1
+PC0
+13
+14
+15
+16PA3
+PA2
+PA1
+PA0
+PG10
+PF0
+PC15
+PC14
+REG3V3/VDD
+PA11
+PA10
+OUT1
+GHS3
+BOOT2
+OUT2
+GHS2
+36
+35
+34
+33 NC
+NC
+BOOT3
+OUT3
+BOOT1
+GHS1
+PA8
+PA9
+PA12
+EPAD
+Table 6. STSPIN32G4 pin list
+N. Name Type Function(1)
+1 REG3V3/VDD Power 3.3V LDO regulator output and control logic supply voltage
+2 VBAT Power MCU backup supply
+3 PC13 I/O – FT
+TIM8_CH4N, TIM1_BKIN, EVENTOUT, WKUP2,
+RTC_TAMP1, RTC_TS, RTC_OUT1
+4 PC14 I/O – FT EVENTOUT, OSC32_IN
+5 PC15 I/O – FT EVENTOUT, OSC32_OUT
+6 PF0 I – FT_fa
+I2C2_SDA, SPI2_NSS/I2S2_WS,
+EVENTOUT, ADC1_IN10, OSC_IN
+7 PF1 O – FT_a
+SPI2_SCK/I2S2_CK, EVENTOUT
+ADC2_IN10, COMP3_INM, OSC_OUT
+8 PG10 I/O - FT MCO, EVENTOUT, NRST
+9 PC0 I/O – FT_a LPTIM1_IN1, LPUART1_RX, EVENTOUT, ADC12_IN6, COMP3_INM
+10 PC1 I/O – TT_a LPTIM1_OUT, LPUART1_TX, SAI1_SD_A, EVENTOUT, ADC12_IN7,
+COMP3_INP
+11 PC2 I/O – FT_a LPTIM1_IN2, COMP3_OUT, EVENTOUT, ADC12_IN8
+ STSPIN32G4 
+Pin description
+DS13630 - Rev 2 page 11/49
+
+PDF PAGE 12
+N. Name Type Function(1)
+12 PC3 I/O – FT_a TIM1_BKIN2, LPTIM1_ETR, SAI1_D1, SAI1_SD_A, EVENTOUT,
+ADC12_IN9
+13 PA0 I/O – TT_a
+TIM2_CH1, USART2_CTS, COMP1_OUT, TIM8_BKIN, TIM8_ETR,
+TIM2_ETR,
+EVENTOUT, ADC12_IN1, COMP1_INM, COMP3_INP, RTC_TAMP2,
+WKUP1
+14 PA1 I/O – TT_a RTC_REFIN, TIM2_CH2, USART2_RTS_DE, TIM15_CH1N, EVENTOUT,
+ADC12_IN2, COMP1_INP, OPAMP1_VINP, OPAMP3_VINP
+15 PA2 I/O – TT_a
+TIM2_CH3, USART2_TX, COMP2_OUT, TIM15_CH1, LPUART1_TX,
+UCPD1_FRSTX, EVENTOUT, ADC1_IN3, COMP2_INM, OPAMP1_VOUT,
+WKUP4/LSCO
+16 PA3 I/O – TT_a
+TIM2_CH4, SAI1_CK1, USART2_RX, TIM15_CH2, LPUART1_RX,
+SAI1_MCLK_A, EVENTOUT, ADC1_IN4, COMP2_INP, OPAMP1_VINM/
+OPAMP1_VINP
+17 PA4 I/O – TT_a TIM3_CH2, SPI1_NSS, SPI3_NSS/I2S3_WS, USART2_CK, SAI1_FS_B,
+EVENTOUT, ADC2_IN17, DAC1_OUT1, COMP1_INM
+18 PA5 I/O – TT_a TIM2_CH1, TIM2_ETR, SPI1_SCK, UCPD1_FRSTX, EVENTOUT,
+ADC2_IN13, DAC1_OUT2, COMP2_INM, OPAMP2_VINM
+19 PA6 I/O – TT_a TIM16_CH1, TIM3_CH1, TIM8_BKIN, SPI1_MISO, TIM1_BKIN,
+COMP1_OUT, LPUART1_CTS, EVENTOUT, ADC2_IN3, OPAMP2_VOUT
+20 PA7 I/O – TT_a
+TIM17_CH1, TIM3_CH2, TIM8_CH1N, SPI1_MOSI, COMP2_OUT,
+UCPD1_FRSTX, EVENTOUT, ADC2_IN4, COMP2_INP, OPAMP1_VINP,
+OPAMP2_VINP
+21 PC4 I/O - FT_fa I2C2_SCL, USART1_TX, EVENTOUT, ADC2_IN5
+22 PC5 I/O – TT_a TIM15_BKIN, SAI1_D3, USART1_RX, EVENTOUT, ADC2_IN11,
+OPAMP1_VINM, OPAMP2_VINM, WKUP5
+23 PB0 I/O – TT_a TIM3_CH3, TIM8_CH2N, UCPD1_FRSTX, EVENTOUT, ADC1_IN15,
+COMP4_INP, OPAMP2_VINP, OPAMP3_VINP
+24 PB1 I/O – TT_a TIM3_CH4, TIM8_CH3N, COMP4_OUT, LPUART1_RTS_DE,
+EVENTOUT, ADC1_IN12, COMP1_INP, OPAMP3_VOUT
+25 PB2 I/O – TT_a RTC_OUT2, LPTIM1_OUT, EVENTOUT, ADC2_IN12, COMP4_INM,
+OPAMP3_VINM
+26 VREF+ Power MCU VREF+, VREFBUF_OUT
+27 VDDA Power MCU analog supply voltage
+28 PB10 I/O – TT_a TIM1_BKIN, USART3_TX, LPUART1_RX, SAI1_SCK_A, EVENTOUT,
+OPAMP3_VINM
+29 GLS1 Analog Out Phase 1 low-side driver output
+30 GLS2 Analog Out Phase 2 low-side driver output
+31 GLS3 Analog Out Phase 3 low-side driver output
+32 PGND Power Gate drivers power ground
+33 NC Internally not connected
+34 NC Internally not connected
+35 BOOT3 Power Phase 3 bootstrap supply voltage
+36 OUT3 Power Phase 3 high-side (floating) common voltage
+37 GHS3 Analog Out Phase 3 high-side driver output
+38 BOOT2 Power Phase 2 bootstrap supply voltage
+39 OUT2 Power Phase 2 high-side (floating) common voltage
+ STSPIN32G4 
+Pin description
+DS13630 - Rev 2 page 12/49
+
+PDF PAGE 13
+N. Name Type Function(1)
+40 GHS2 Analog Out Phase 2 high-side driver output
+41 BOOT1 Power Phase 1 bootstrap supply voltage
+42 OUT1 Power Phase 1 high-side (floating) common voltage
+43 GHS1 Analog Out Phase 1 high-side driver output
+44 PA8 I/O – FT_f MCO, I2C2_SDA, I2S2_MCK, USART1_CK, TIM4_ETR, SAI1_CK2,
+SAI1_SCK_A, EVENTOUT
+45 PA9 I/O – FT_fd I2C2_SCL, I2S3_MCK, USART1_TX, TIM15_BKIN, TIM2_CH3,
+SAI1_FS_A, EVENTOUT, UCPD1_DBCC1
+46 PA10 I/O – FT_da
+TIM17_BKIN, USB_CRS_SYNC, I2C2_SMBA, SPI2_MISO, USART1_RX,
+TIM2_CH4, TIM8_BKIN, SAI1_D1, SAI1_SD_A, EVENTOUT,
+UCPD1_DBCC2
+47 PA11 I/O – FT_u TIM1_BKIN2, SPI2_MOSI/I2S2_SD, USART1_CTS, COMP1_OUT,
+FDCAN1_RX, TIM4_CH1, EVENTOUT, USB_DM
+48 PA12 I/O – FT_u TIM16_CH1, I2SCKIN, USART1_RTS_DE, COMP2_OUT, FDCAN1_TX,
+TIM4_CH2, EVENTOUT, USB_DP
+49 PA13 (2) I/O – FT_f SWDIO-JTMS, TIM16_CH1N, I2C1_SCL, IR_OUT, USART3_CTS,
+TIM4_CH3, SAI1_SD_B, EVENTOUT
+50 PA14(2) I/O – FT_f SWCLK-JTCK, LPTIM1_OUT, I2C1_SDA, TIM8_CH2, TIM1_BKIN,
+USART2_TX, SAI1_FS_B, EVENTOUT
+51 PA15(2) I/O – FT_f
+JTDI, TIM2_CH1, TIM8_CH1, TIM1_BKIN, I2C1_SCL, SPI1_NSS,
+SPI3_NSS/I2S3_WS, USART2_RX, UART4_RTS_DE, TIM2_ETR,
+EVENTOUT
+52 SCREF Analog In
+Set the threshold voltage of the short-circuit protection.
+If the voltage pin is higher than VSCREF,dis threshold, the short-circuit
+protection is disabled.
+53 PD2 I/O – FT TIM3_ETR, TIM8_BKIN, EVENTOUT
+54 PB3(2) I/O – FT
+JTDO-TRACESWO, TIM2_CH2, TIM4_ETR, USB_CRS_SYNC,
+TIM8_CH1N, SPI1_SCK, SPI3_SCK/I2S3_CK, USART2_TX, TIM3_ETR,
+SAI1_SCK_B, EVENTOUT
+55 PB4(2) I/O – FT_c JTRST, TIM16_CH1, TIM3_CH1, TIM8_CH2N, SPI1_MISO, SPI3_MISO,
+USART2_RX, TIM17_BKIN, SAI1_MCLK_B, EVENTOUT, UCPD1_CC2
+56 PB5 I/O – FT_f
+TIM16_BKIN, TIM3_CH2, TIM8_CH3N, I2C1_SMBA, SPI1_MOSI,
+SPI3_MOSI/I2S3_SD, USART2_CK, TIM17_CH1, LPTIM1_IN1,
+SAI1_SD_B, EVENTOUT
+57 PB6 I/O – FT_c
+TIM16_CH1N, TIM4_CH1, TIM8_CH1, TIM8_ETR, USART1_TX,
+COMP4_OUT, TIM8_BKIN2, LPTIM1_ETR, SAI1_FS_B, EVENTOUT,
+UCPD1_CC1
+58 PB7 I/O – FT_f
+TIM17_CH1N, TIM4_CH2, I2C1_SDA, TIM8_BKIN, USART1_RX,
+COMP3_OUT, TIM3_CH4, LPTIM1_IN2, UART4_CTS, EVENTOUT,
+PVD_IN
+59 PB8(3) I/O – FT_f
+MCU PB8-BOOT0
+TIM1_BKIN, TIM16_CH1, TIM4_CH3, SAI1_CK1, I2C1_SCL,
+USART3_RX, COMP1_OUT, FDCAN1_RX, TIM8_CH2, SAI1_MCLK_A,
+EVENTOUT
+60 PB9 I/O – FT_f TIM17_CH1, TIM4_CH4, SAI1_D2, I2C1_SDA, IR_OUT, USART3_TX,
+COMP2_OUT, FDCAN1_TX, TIM8_CH3, SAI1_FS_A, EVENTOUT
+61 VM Power Power supply voltage (Motor supply voltage)
+62 SW Power Buck regulator switching output
+63 VCC Power Gate driver supply voltage
+64 REGIN Power 3.3 V LDO regulator input
+ STSPIN32G4 
+Pin description
+DS13630 - Rev 2 page 13/49
+
+PDF PAGE 14
+N. Name Type Function(1)
+EPAD VSS Power Control logic ground
+ 
+1. Alternate and additional functions for MCU GPIOs. Refer to STM32G431VBx3 MCU documentation for more details.
+2. After reset, these pins are configured as JTAG/SW debug alternate functions, and the internal pull-up on PA15, PA13, PB4
+pins and the internal pull-down on PA14 pin are activated.
+3. It is recommended to set PB8 in a mode other than analog mode after startup to limit consumption if the pin is left
+unconnected.
+ 
+Table 7. MCU to gate driver internal connection
+MCU pads GD pads Pinout Notes
+All VSS (VSSA included) GND VSS Exposed pad
+All VDD REG3V3 VDD
+PE7 WAKE Push-pull output
+PE8 INL1 TIM1_CH1N(1)
+PE9 INH1 TIM1_CH1(1)
+PE10 INL2 TIM1_CH2N(1)
+PE11 INH2 TIM1_CH2(1)
+PE12 INL3 TIM1_CH3N(1)
+PE13 INH3 TIM1_CH3(1)
+PE14 READY Input with pull-up, TIM1_BKIN2(2)
+(optional)
+PE15 NFAULT Input with pull-up, TIM1_BKIN (2)
+(optional)
+PC8 SCL I2C3_SCL
+PC9 SDA I2C3_SDA
+ 
+1. The gate driver IC is designed to support these GPIOs configuration only. Different configuration could cause device
+malfunctioning. The GPIO input configuration without pull-up or pull-down is always allowed.
+2. The lines are protected against conflict configuration. If the MCU GPIO is wrongly configured in push-pull mode, the device
+is not damaged.
+ 
+ STSPIN32G4 
+Pin description
+DS13630 - Rev 2 page 14/49
+
+PDF PAGE 15
+5 Device description
+The STSPIN32G4 is a system-in-package embedding one MCU (STM32G431) and a triple half-bridge gate driver
+suitable for high performance 3-phase brushless motor applications.
+5.1 Power management section
+The power management section of the device is composed by:
+• One buck regulator generating the VCC voltage (gate driver supply) from the main supply.
+• One LDO linear regulator generating 3.3 V (V REG3V3) starting from the VREGIN input voltage (ranging
+between 3.3 V and 15 V).
+• One low quiescent linear regulator generating low precision 3.3 V starting from the main supply.
+The VM pin is the main supply voltage of the device.
+When the REG3V3 supply is below VREG3V3(On), the control logic is not operative, and the internal registers are
+reset to the default.
+Figure 4. Power-up sequence (REGIN shorted with VCC)
+8 V
+3.3 V 
+V M
+V CC  = V REGIN
+V REG3V3
+LS gate drivers
+leave UVLO
+condition
+Control logic
+is operative
+V ON,Buck
+V CC(On)
+7/32 x V CC
+V REG3V3(On)
+t SS,Buck
+5.1.1 VCC buck regulator
+The device integrates a buck regulator generating the supply voltage for the gate drivers (VCC) starting from the
+motor supply (VM). The regulated voltage supplies the gate driving circuitry, charges the bootstrap capacitors and
+supplies external circuitry with a maximum overall consumption of 200 mA.
+ STSPIN32G4 
+Device description
+DS13630 - Rev 2 page 15/49
+
+PDF PAGE 16
+Figure 5. VCC Buck configuration
++
+L
+Buck
+reg.
+D1
+VCC
+SW
+VM
+C
+OUT
+C
+M
+V
+M
+The output voltage can be set to different values as listed in Table 8 . The regulator works with a fixed switching
+frequency of fSW,Buck and a maximum duty cycle of 90%.
+A soft-start is implemented on system power-up or wake-up: the output target voltage is gradually increased up to
+the target VCC in tSS,Buck time (refer to Figure 6). During the first half of tSS,Buck time the regulator works with a
+fixed switching frequency of fSW,SS.
+When the target output voltage is changed, a new soft-start ramp is generated with the new target voltage as final
+value.
+Table 8. VCC Buck regulator output voltage
+VCC_VAL VCC regulated value [V] Note
+00 8 default
+01 10
+10 12
+11 15
+Figure 6. VCC buck regulator soft-start
+7/32 x V CC,mean
+V CC,mean  = 15 V
+V CC,mean  = 8 V
+new V CC,mean value
+7/32 x V CC,mean
+t SS,Buck t SS,Buck
+It is possible to provide externally the VCC supply, bypassing the integrated regulator.
+ STSPIN32G4 
+Power management section
+DS13630 - Rev 2 page 16/49
+
+PDF PAGE 17
+Figure 7. VCC externally supplied (buck disabled)
++
++
+Buck
+reg.
+VCC
+SW
+VM
+C
+OUT
+C
+M
+V
+M
+V
+CC
+5.1.1.1 Short-circuit protection
+The regulator is protected against short-circuit of the SW pin. If this condition is detected, the regulator stops for a
+tdisable,Buck time.
+At the end of this period, the buck regulator restarts performing a soft-start.
+Figure 8. VCC buck regulator short-circuit protection
+t disable,Buck
+Short circuit
+event
+V CC,mean
+t SS,Buck
+5.1.1.2 Thermal protection
+If the temperature of the buck converter circuitry exceeds the TSD threshold, it stops operating until the
+temperature returns below the TSD - TSD(Hyst) level (auto-restart).
+When the regulator returns operative, a soft-start is performed.
+5.1.2 3.3 V linear regulator
+The device integrates a low-drop linear regulator (LDO) to generate the 3.3 V supply starting from the REGIN
+input voltage. The 3.3 V output voltage supplies both the gate driver logic and the microcontroller.
+The LDO output current is limited, making the regulator protected against short-circuit and overload.
+An undervoltage monitoring circuit is active on the 3.3 V supply which triggers a reset if the voltage falls below
+VREG3V3(Off).
+ STSPIN32G4 
+Power management section
+DS13630 - Rev 2 page 17/49
+
+PDF PAGE 18
+Four configurations are possible for the 3.3 V supply:
+1. Internally generated via LDO with REGIN pin connected directly to the buck output VCC ( Figure 9).
+2. Internally generated via LDO with REGIN pin connected through a resistor to the buck output VCC
+(Figure 10); with this configuration the power dissipation inside the device can be reduced.
+3. Internally generated via LDO with REGIN pin connected to an external supply voltage in the range 15 V to
+3.3 V (Figure 11).
+4. Externally, provided with REGIN and REG3V3 connected ( Figure 12). In this case it is possible to disconnect
+or tie to ground VM or VCC while providing the 3.3 V supply. When VM is provided again the device restarts
+from a power-up condition.
+Figure 9. 3.3 V LDO regulator supplied through VCC
++
+Buck
+reg.
+3.3 V
+LDO
+ 
+REGIN
+ 
+REG3V3
+D1
+V
+M
+C
+M
+C
+OUT
+VCC
+SW
+VM
+C
+DD
+L
+Figure 10. 3.3 V LDO regulator supplied through VCC (external resistor)
++
+Buck
+reg.
+3.3 V
+LDO
+R
+ 
+REGIN
+ 
+REG3V3
+D1
+V
+M
+C
+M
+C
+OUT
+C
+DD
+VCC
+SW
+VM
+C
+REGIN
+L
+Figure 11. 3.3 V LDO regulator with external supply
++
+Buck
+reg.
+3.3 V
+LDO
+(3.3 V to 15 V)
++
+ 
+REGIN
+ 
+REG3V3
+D1
+V
+M
+C
+M
+C
+OUT
+C
+DD
+VCC
+SW
+VM
+V
+REGINL
+C
+REGIN
+ STSPIN32G4 
+Power management section
+DS13630 - Rev 2 page 18/49
+
+PDF PAGE 19
+Figure 12. 3.3 V externally supplied (linear regulator disabled)
++
+L
+Buck
+reg.
+3.3 V
+LDO
+ 
+REGIN
+ 
+REG3V3
++D1
+V
+M
+C
+M
+C
+OUT
+V
+DD
+C
+DD
+VCC
+SW
+VM
+5.1.2.1 Thermal shutdown
+If the temperature of the device exceeds the TSD threshold, all the gate driver outputs are forced low and the 3.3
+V linear regulator stops until the temperature returns below the TSD - TSD(Hyst) level (auto-restart).
+The buck converter has an independent thermal protection as described in Section  5.1.1.2  .
+5.1.3 Standby linear regulator
+When the device is in low consumption status, the embedded MCU can be supplied through a specifically
+designed linear regulator generating a VREGStby supply starting from the main supply pin VM. The regulator is
+designed to provide a maximum supply current of 6 mA with overcurrent protection. If the output current exceeds
+the regulator limit a reset is triggered.
+The regulator output is disabled by default and should be enabled before entering standby condition (see
+Section  5.4  ) setting the STBY_REG_EN bit. When the device enters standby condition, the 3.3 V LDO regulator
+is disabled and disconnected from the REG3V3 pin as shown in Figure 13.
+Figure 13. Standby regulator enabled
+Stby
+reg.
+3.3 V
+LDO
+V
+DD
+VM
+REGIN
+REG3V3 C DD
+C MV M
+ STSPIN32G4 
+Power management section
+DS13630 - Rev 2 page 19/49
+
+PDF PAGE 20
+5.2 Gate drivers
+The STSPIN32G4 integrates a triple half-bridge gate driver able to drive N-channel power MOSFETs. The
+high-side section is supplied by a bootstrapped voltage technique with integrated bootstrap diode.
+Figure 14. Half-bridge gate drivers block diagram
+HS
+LS
++
+-
++
+-
++
++
+BOOTx
+GHSx
+OUTx
+GLSx
+SCREF
+x3
+To control
+logic
+V M
+V CC
+V DSth
+V DSth
+V BOOT1
+V CC
+A couple of digital inputs drive each half-bridge gate driver: one INLx signal for the low-side driving and one INHx
+signal for the high-side driving. High input implies the gate driver turns on the respective external MOSFET, with
+low value the gate driver turns it off.
+5.2.1 Interlocking
+The gate driver provides interlocking function, so the high-side and low-side MOSFETs of the same half-bridge
+cannot be both on at the same time.
+Table 9. Gate driver control logic with interlocking
+INHx INLx High-side gate driver Low-side gate driver
+0 0 Sink current (Turn-off) Sink current (Turn-off)
+0 1 Sink current (Turn-off) Source current (Turn-on)
+1 0 Source current (Turn-on) Sink current (Turn-off)
+1 1 Sink current (Turn-off) Sink current (Turn-off)
+The interlocking function can be disabled setting the ILOCK bit. In this case both the high-side and low-side
+MOSFETs can be turned on at the same time.
+Table 10. Gate driver control logic without interlocking
+INHx INLx High-side gate driver Low-side gate driver
+0 0 Sink current (Turn-off) Sink current (Turn-off)
+0 1 Sink current (Turn-off) Source current (Turn-on)
+1 0 Source current (Turn-on) Sink current (Turn-off)
+1 1 Source current (Turn-on) Source current (Turn-on)
+ STSPIN32G4 
+Gate drivers
+DS13630 - Rev 2 page 20/49
+
+PDF PAGE 21
+5.2.2 Minimum deadtime
+The device guarantees a minimum deadtime value of tDT, imposing a delay between the turn-off of an external
+MOSFET and the turn-on of the complementary one.
+The deadtime is not added to the one eventually imposed by the MCU, as shown in Figure 15.
+Figure 15. Deadtime timing (with interlocking enabled)
+INHx
+INLx
+GHSx
+GLSx
+INTERLOCKING
+t DT
+t DT
+t DT t DT
+t DT t DT
+t DT
+The feature is disabled clearing the DTMIN bit (see Table 17) or when the interlocking is disabled (see
+Section  5.2.1  ).
+5.2.3 Sink/source current
+The output stage of the gate drivers provides a maximum sink/source capability of 1 A.
+The voltage to current characteristics of the gate driver output stage is described by Figure 16 and Figure 17.
+When in UVLO condition, the gate drivers keep their outputs low with the maximum current capability available.
+Figure 16. Low-side gate driver output characteristic in UVLO range
+Figure 17. High-side gate driver output characteristic in UVLO range
+ STSPIN32G4 
+Gate drivers
+DS13630 - Rev 2 page 21/49
+
+PDF PAGE 22
+5.2.4 Bootstrap section
+The bootstrap circuitry allows to generate a voltage higher than the supply VM and it is used to supply the
+high-side drivers. When one high-side MOSFET is turned on, its source voltage (OUTx pin) increases up to VM.
+Therefore, the gate must be driven at a voltage higher than VM.
+The bootstrap capacitor is referred to the OUTx pin:
+• When the OUTx pin is forced to GND (i.e. the respective low-side MOSFET is on), the bootstrap
+capacitor is charged through the bootstrap diode.
+• When the OUTx is forced to VM (i.e. the respective high-side MOSFET is on), the bootstrap capacitor
+supplies the respective high-side driver and discharges.
+The typical voltage-current characteristics of the bootstrap circuitry is reported in Figure 18
+Figure 18. Voltage-Current characteristics of bootstrap circuitry
+01234567891011121314
+0 102030405060708090100
+VCC-VBOOTX[V]
+Boot Current [mA]
+The voltage drop on the bootstrap capacitors corresponds to the supply of the high-side drivers. Each bootstrap
+capacitor must be charged after the corresponding high-side is turned on, otherwise its voltage falls below the
+VBO(On) - VBO(Hyst) threshold, causing the turning-off of the respective driver (refer to Section  5.2.6  ).
+A limitation in a bootstrap architecture is that the high-side MOSFET cannot stay on for an indefinite amount of
+time. In fact, when the high-side is on, the respective bootstrap capacitor starts discharging. If not recharged,
+the bootstrap capacitor voltage falls below the VBO(On) - VBO(Hyst) (i.e. the UVLO on the BOOTx pin). For this
+reason, working at 100% duty cycle is possible, but only for a limited number of PWM periods. The bigger the
+bootstrap capacitor, the longer the time the high-side MOSFET can be kept on (for sizing guidelines of bootstrap
+capacitor  refer to AN5789 - Considerations on bootstrap circuitry for gate drivers).
+To avoid excessive drop on the VCC pin, a proper bypass capacitor is required. Even using an external supply
+connected to the VCC pin, it is important to have a bypass capacitor with low ESR providing fast current
+transients when required by the bootstrap capacitors.
+The bypass capacitor on the VCC pin must provide the charge for the three bootstrap capacitors: the bigger the
+bootstrap capacitors, the bigger the VCC capacitor should be (refer to Equation 1 in Section  5.2.4.2  ).
+5.2.4.1 Power-up and wake-up
+During the power-up or after leaving the standby condition, there may be no charge in the bootstrap capacitors.
+In these cases, the driver cannot start immediately with normal operation, but the bootstrap capacitor should be
+charged turning on the low-side MOSFET.
+At the beginning of this procedure, a large amount of current could be required. If the internal VCC buck regulator
+is used, its current is limited at ICC (refer to Table 2).
+ STSPIN32G4 
+Gate drivers
+DS13630 - Rev 2 page 22/49
+
+PDF PAGE 23
+5.2.4.2 Charging time and external bootstrap diodes
+The charging time of the bootstrap capacitors depends on their value but also on the resistance of the bootstrap
+diode (RDS_diode), which limits the current flow. In order to reduce the minimum time for bootstrap recharge
+(i.e. the minimum time the low-side MOSFET must be on), external bootstrap diodes can be used as shown in
+Figure 19.
+Each diode is in parallel with the corresponding internal bootstrap diode. An external series resistor, smaller
+than RDS_diode, can still be used together with each diode to reduce the maximum charging current and helps
+to limit the voltage drop on the VCC pin. The maximum drop on the COUT capacitor occurs when the three
+bootstrap capacitors must be recharged, and no series resistor is used with the external diodes. This drop can be
+approximated as:
+Equation 1
+(1)
+ΔVCOUT ≈ VCC ∙
+3 ∙ CBOOT
+COUT + 3 ∙ CBOOT
+Figure 19. External bootstrap diode configuration
+BOOTx
+OUTx
+x3 bootstrap circuitries
+Buck
+reg.
+VCC
+C OUT
+C BOOTx
+5.2.5 VDS monitoring protection
+The device monitors the VDS of the power stage’s MOSFETs in order to detect anomalous conditions. The VDS of
+each MOSFET is compared to a reference threshold (VDSth).
+The reference threshold (VDSth) is generated according to the voltage applied to the SCREF pin (VSCREF).
+The SCREF voltage must be in the range between 0.2 V to VSCREF,en. If the voltage is above VSCREF,dis, the
+protection is disabled.
+When enabled, the protection triggers when one of the following conditions occur:
+• GLSx output is expected high and V OUTx > VDSth,LS for more than tDFSC
+• GHSx output is expected high and ‘V M – VOUTx’ > VDSth,HS for more than tDFSC
+As soon as the protection is triggered, all the gate driver outputs are forced low and the protection is latched. In
+this condition all the gate driver outputs are kept low whatever the driving inputs.
+The device returns operative (i.e. the failure condition is cleared) forcing all the driving inputs low for at least
+tFAULT,reset or setting all bits of the CLEAR register.
+ STSPIN32G4 
+Gate drivers
+DS13630 - Rev 2 page 23/49
+
+PDF PAGE 24
+Note: the VDS monitoring protection does not check the actual status of the GHSx and GLSx pins and operates
+according to the expected output status that depends on input signals (refer to Section  5.2.1  ), programmed
+interlocking (refer to Section  5.2.1  ), minimum dead time (refer to Section  5.2.2  ) and VCC UVLO condition
+(refer to Section  5.2.6  ).
+Figure 20. VDS monitoring protection timings
+GHSx - OUTx
+OUTx
+V M
+V M  - V DSth
+t DFSC
+Expected 
+behavior
+Output
+short to ground
+condition
+V M
+V DSth
+Expected 
+behavior
+Output
+short V M
+condition
+GLSx
+OUTx
+A deglitch filter is provided which prevents spurious triggering of the protection when the anomalous condition on
+VDS persists for less than the deglitch time tDFSC. The VDS_P_DEG bits allow to change the deglitch time (as
+shown in Table 11.
+Table 11. VDS monitoring protection deglitch time
+VCC_P_DEG VDS protection deglitch time [μs] Note
+00 6 default
+01 4
+10 3
+11 2
+ STSPIN32G4 
+Gate drivers
+DS13630 - Rev 2 page 24/49
+
+PDF PAGE 25
+5.2.6 Undervoltage protection
+The device provides undervoltage lockout (UVLO) protections on the supply voltages of the gate drivers. When
+in UVLO condition, the gate drivers keep their outputs low with the maximum current capability available. During
+power-up, the device leaves the UVLO condition when the respective supply voltage rises above the turn-on
+threshold. When the supply voltage is below the on-threshold voltage of a hysteresis, the UVLO condition is set.
+Table 12. UVLO protection management
+Block VCC UVLO VBOx UVLO
+HS1, HS2, HS3 output LOW(1) LOW(1)(2)
+LS1, LS2, LS3 output LOW(1) -
+READY open-drain output LOW(3)
+ 
+1. The N-channel of the gate driver is turned ON with all the available supply voltage, refer to Figure 16.
+2. Each high-side gate driver provides independent UVLO protection (e.g. UVLO on BOOT1 causes the HS1 to turn off only).
+3. If VCC_UVLO_RDY is set.
+ 
+5.2.6.1 High-side undervoltage and VDS monitoring
+The VBO UVLO is not reported to the main control logic and is directly managed by the floating circuitry as
+described in Figure 21
+Figure 21. VBO UVLO circuitry and high-side VDS monitoring
+Level
+shifter
++ VBO(on)
+HS gate driver
+Control logic
+Floating circuitry
+BOOTx
+GHSx
+OUTx
+VCC
+VM
++
+VDSth
+Control logic
+For this reason, a VBO UVLO failure may cause the triggering of the VDS monitoring due to the turn-off of the
+respective MOSFET.
+ STSPIN32G4 
+Gate drivers
+DS13630 - Rev 2 page 25/49
+
+PDF PAGE 26
+Figure 22. VDS monitoring failure caused by VBO UVLO
+GHSx - OUTx
+OUTx
+V M
+V M  - V DSth
+t DFSC
+V BO(Off)
+BOOTx - OUTx
+Actual status
+VDS monitoring
+intervention
+Expected status
+5.3 Microcontroller unit
+The integrated MCU is the STM32G431VBx3 with the following main characteristics:
+• Core: ARM ® Cortex®-M4 32-bit CPU + FPU, frequency up to 170 MHz
+• 32 kB of SRAM, 128 kB of Flash memory
+• 2 x ADCs 16-bit resolution and 0.2 µs sampling time
+• 4 x 12-bit DAC channels
+• 4 x fast rail-to-rail comparators
+• 3 x rail-to-rail operational amplifiers
+• Full set of interfaces:
+• CAN, UART, I2C, SPI
+For more details refer to the STM32G431VBx3 datasheet on www.st.com
+5.3.1 Memories and boot mode
+The device has the following features:
+• 32 kB of embedded SRAM
+• The non-volatile memory is dived into two arrays:
+– 128 kB of embedded Flash memory for storing programs and data
+– Option bytes
+The Flash memory embeds the error correction code (ECC) feature supporting:
+• Single error detection and correction
+• Double error detection
+• The address of the ECC fail can be read in the ECC register
+• 1 kB (128 double word) OTP (one-time programmable) bytes for user data. The OTP area is available in
+Bank 1 only. The OTP data cannot be erased and can be written only once.
+Flexible protections can be configured thanks to the option bytes:
+• Readout-protection (RDP) to protect the whole memory with the following options:
+– Level 0: no readout protection
+– Level 1: memory readout protection; the Flash memory cannot be read from or written to if either the
+debug features are connected or the boot in RAM or bootloader are selected.
+– Level 2: chip readout protection; the debug features (Cortex-M4 JTAG and serial wire), the boot in RAM
+and the bootloader selection are disabled (JTAG fuse). This selection is irreversible.
+ STSPIN32G4 
+Microcontroller unit
+DS13630 - Rev 2 page 26/49
+
+PDF PAGE 27
+• Write protection (WRP): the protected area is protected against erasing and programming.
+• Proprietary code readout protection (PCROP): a part of the Flash memory can be protected against read
+and write from third parties.
+• Securable memory area: a part of the Flash memory can be configured by option bytes to be securable.
+At startup, a BOOT0 pin (or nBOOT0 option bit) and an nBOOT1 option bit are used to select one of three boot
+options:
+• Boot from user Flash
+• Boot from system memory
+• Boot from embedded SRAM
+The BOOT0 value may come from the PB8-BOOT0 pin or from an nBOOT0 option bit depending on the value of
+a user nBOOT_SEL option bit to free the GPIO pad if needed.
+The boot loader is located in the system memory. It is used to reprogram the Flash memory by using USART, I2C,
+SPI, and USB through the DFU (device firmware upgrade).
+5.3.2 Power management
+VDD is the external power supply for the I/Os, the internal regulator and the system analog such as reset, power
+management and internal clocks. It is provided externally through the VDD pins.
+VDDA is the external analog power supply for A/D converters, D/A converters, voltage reference buffer, operational
+amplifiers, and comparators. The VDDA voltage level is independent from the VDD voltage and should preferably
+be connected to VDD when these peripherals are not used.
+VBAT is the power supply for RTC, external clock 32 kHz oscillator and backup registers (through power switch)
+when VDD is not present.
+During power-up and power-down, the following power sequence is required:
+• When VDD is below 1 V, then VDDA supply must remain below VDD + 300 mV
+• When VDD is above 1 V, all power supplies became independent.
+During the power-down phase, VDD can temporarily become lower than other supplies only if the energy provided
+to the MCU remains below 1 mJ. This allows external decoupling capacitors to be discharged with different time
+constants during the power-down transient phase.
+VREF+ is the input reference voltage for ADCs and DACs. It is also the output of the internal voltage reference
+buffer when enabled.
+The device has an integrated ultra-low-power Brown-Out reset (BOR) active in all modes (except for Shutdown
+mode). The BOR ensures proper operation of the device after power-on and during power-down. The device
+remains in reset mode when the monitored supply voltage VDD is below a specified threshold, without the need
+for an external reset circuit. The lowest BOR level is 1.71 V at power-on, and other higher thresholds can be
+selected through option bytes.
+The device features an embedded programmable voltage detector (PVD) that monitors the VDD power supply
+and compares it to the VPVD threshold. An interrupt can be generated when VDD drops below the VPVD threshold
+and/or when VDD is higher than the VPVD threshold. The interrupt service routine can then generate a warning
+message and/or put the MCU into a safe state. The PVD is enabled by software.
+In addition, the device embeds a peripheral voltage monitor which compares the independent supply voltages
+VDDA, with a fixed threshold in order to ensure that the peripheral is in its functional supply range.
+The MCU supports three low-power modes to achieve the best compromise between low-power consumption,
+short start-up time and available wake-up sources:
+• Sleep mode: only the CPU is stopped. All peripherals continue to operate and can wake up the CPU when
+an interrupt/event occurs.
+• Low-power run mode: this mode is achieved with VCORE supplied by the low-power regulator to minimize
+the regulator's operating current.
+• Stop mode: the device achieves the lowest power consumption while retaining the SRAM and register
+contents.
+• Standby mode: is used to achieve the lowest power consumption with Brown-Out reset, BOR. The device
+exits Standby mode upon external reset event (NRST pin), IWDG reset event, wakeup event (WKUP pin,
+configurable rising or falling edge) or RTC event (alarm, periodic wakeup, timestamp, tamper), or when a
+failure is detected on LSE (CSS on LSE).
+ STSPIN32G4 
+Microcontroller unit
+DS13630 - Rev 2 page 27/49
+
+PDF PAGE 28
+• Shutdown mode: allows to achieve the lowest power consumption. The BOR is not available in Shutdown
+mode. No power voltage monitoring is possible in this mode. The device exits Shutdown mode upon external
+reset event (NRST pin), IWDG reset event, wakeup event (WKUP pin, configurable rising or falling edge) or
+RTC event (alarm, periodic wakeup, timestamp, tamper).
+5.3.3 Advanced-control timer (TIM1)
+The advanced motor control timers (TIM1) can be seen as a four-phase PWM multiplexed on 8 channels. It has
+complementary PWM outputs with programmable inserted deadtimes.
+This timer is used to generate the PWM signal for the three half-bridge gate drivers as shown in Table 13.
+Table 13. TIM1 channels configuration
+MCU I/O Analog IC inout TIM1 channel
+PE8 INL1 TIM1_CH1N
+PE9 INH1 TIM1_CH1
+PE10 INL2 TIM1_CH2N
+PE11 INH2 TIM1_CH2
+PE12 INL3 TIM1_CH3N
+PE13 INH3 TIM1_CH3
+PE14 READY TIM1_BKIN2 (optional)
+PE15 NFAULT TIM1_BKIN (optional)
+5.4 Standby mode
+The STSPIN32G4 provides a standby mode to reduce power consumption, in particular:
+• All the outputs driver forced low (external power switches turned off)
+• All the embedded protections are disabled
+• The buck regulator is disabled
+• The 3.3 V LDO linear regulator is switched off
+• The I 2C communication is not available
+The device enters into low consumption mode setting the STBY bit. When the STBY bit is set, the device switches
+to low consumption mode after tSTBY time. If during this time the WAKE input is high, the device aborts the
+standby request clearing the STBY bit.
+If the STBY_RDY bit is set the READY pin is tied to ground when the STBY request is asserted via I2C to indicate
+the upcoming entry into standby condition. After tSTBY time when the device switches to low consumption mode
+the READY pin is released to reduce current consumption.
+The device wakes up from standby when the WAKE input goes high. The buck regulator performs a soft-start
+ramp and the LDO regulator is turned on when the VCC reaches the VCC(On) threshold voltage. If the STBY_RDY
+bit was set before entering standby, then the READY pin is forced low and released with a tWAKE,LDO delay from
+VCC > VCC(On) event.
+When the device is in low consumption status, the embedded MCU can be supplied through a specifically
+designed linear regulator setting the STBY_REG_EN bit. The regulator generates VREGStby supply starting from
+the main supply pin VM and is designed to provide a maximum IREG3V3,Stby supply current.
+The standby regulator integrates an overcurrent protection that triggers a device reset in case the supply current
+exceeds IREGStby,lim. During standby a dedicated voltage monitoring circuit is active on the REG3V3 pin which
+triggers a device reset in case the voltage falls below VREG3V3Stby(Off). In case of reset due to overcurrent or
+undervoltage, the system restarts from a power-up condition with registers restored to their defaults and both
+buck and main LDO regulators enabled.
+Note: If the internal standby regulator is disabled when the device is in standby mode, only the undervoltage protection
+on the REG3V3 pin is active.
+ STSPIN32G4 
+Standby mode
+DS13630 - Rev 2 page 28/49
+
+PDF PAGE 29
+Figure 23. Standby timings
+WAKE
+Buck reg.
+3.3 V lin. reg.
+Stby reg. output.
+STBY
+I2C STBY writing I2C STBY writing I2C STBY writing
+ENABLED
+ENABLED
+DISABLED ENABLED
+DISABLED
+DISABLED
+ENABLED
+DISABLED
+DISABLED ENABLED
+ENABLED
+DISABLED
+READY
+(STBY_RDY = 1)
+DISABLED
+V CC  > V CC(On)
+t STBY t STBY
+t WAKE,LDO
+5.5 Control logic
+The MCU drives the high-side and low-side gate drivers independently as listed in Table 14.
+Table 14. INxL and INxH inputs truth table
+INHx INLx GHSx GHLx ‘x’ half-bridge condition
+L L L L Disabled
+L H L H LS on
+H L H L HS on
+H H L L Disabled (interlocking)
+H H H H Both HS and LS on (no-interlocking)
+ STSPIN32G4 
+Control logic
+DS13630 - Rev 2 page 29/49
+
+PDF PAGE 30
+The full list of digital inputs and outputs is listed below:
+Table 15. INxL and INxH inputs truth table
+Signal Type Description Notes
+INH1 Input High-side 1 driving signal Pull-down
+INH2 Input High-side 2 driving signal Pull-down
+INH3 Input High-side 3 driving signal Pull-down
+INL1 Input Low-side 1 driving signal Pull-down
+INL2 Input Low-side 2 driving signal Pull-down
+INL3 Input Low-side 3 driving signal Pull-down
+WAKE Input Active high for wakeup from standby Pull-down
+READY Open-drain output Device ready signal Conflict protection
+nFAULT Open-drain output Fault signal Conflict protection
+SCL Input I2C clock Pull-up
+SDA Input and open-drain
+output I2C data
+Pull-up
+Conflict protection
+All the input lines have an internal pull-down to guarantee the low logic level even if no driving input is present.
+The open-drain outputs are designed to be protected against driving conflict with the corresponding GPIO of the
+MCU. If the GPIO is set as push-pull output with high value and the respective open-drain is on, both the GPIO
+and the open-drain are not damaged by this condition.
+5.5.1 Status and clearing faults
+The device status is reported in the STATUS register. In case of thermal shutdown or VCC undervoltage the
+device automatically returns operative when failure cause is removed.
+In case of RESET or VDS monitoring protection triggering, the fault is latched, and the device may return
+operative in two ways (i.e. clearing fault):
+1. Forcing all the driving inputs INxL and INxH low for at least t FAULT,reset. The time counting does not start if
+inputs were already low before the fault occurrence (refer to Figure 24).
+2. Setting all bits of the CLEAR register through the I 2C interface.
+Figure 24. FAULT clearing via input lines
+FAULT
+At least one 
+input HIGH to LOW
+All inputs
+LOWINxL / INxH
+FAULT
+event
+t FAULT,reset t FAULT,reset< t FAULT,reset
+As a RESET is done on power-up, a clearing of the faults is required to have the device operative.
+5.5.2 READY output
+The READY open-drain output indicates if the device status does not allow the driving of the external MOSFETs.
+ STSPIN32G4 
+Control logic
+DS13630 - Rev 2 page 30/49
+
+PDF PAGE 31
+The READY output can be programmed to report one or more of the following conditions:
+• The V CC supply is below the undervoltage threshold.
+• Thermal shutdown.
+• Entering standby mode.
+By default, the pin reports the standby and the VCC undervoltage condition (refer to Table 19).
+5.5.3 nFAULT output
+The nFAULT open-drain output indicates a critical failure condition. The output can be configured to report one or
+more of the following failures:
+• The device performed a RESET (this signaling cannot be masked)
+• V DS monitoring protection is triggered
+• Thermal shutdown
+• The V CC supply is below the undervoltage threshold
+By default, the nFAULT pin reports all above failures (refer to Table 20).
+5.5.4 I2C interface
+The internal registers are available through a standard IIC (I2C) interface supporting 7-bit addressing and
+communication speed up to 1 Mbit/s (Fast mode Plus).
+The 7-bit address of the device is fixed and equal to 1000111.
+Table 16. I2C address
+Device address
+7 6 5 4 3 2 1 0
+1 0 0 0 1 1 1 R/W bit
+5.5.5 Registers
+The configuration of the device is set through a list of 8-bit registers. Refer to the following tables for details.
+Table 17.  Power manager configuration register
+Register Bit # Bit name Default Description
+POWMNG
+Address 0x01
+Protected
+7 0
+6 REG3V3_DIS 0
+3.3V linear regulator:
+Enabled by default, 1 to disable
+5 VCC_DIS 0
+VCC buck regulator:
+Enabled by default, 1 to disable
+4 STBY_REG_EN 0
+Standby linear regulator:
+Disabled by default, 1 to enable
+3 0
+2 0
+1
+VCC_VAL
+0 Set the output value for the VCC regulator:
+• 00: VCC set to 8V (default)
+• 01: VCC set to 10V
+• 10: VCC set to 12V
+• 11: VCC set to 15V
+0 0
+ STSPIN32G4 
+Control logic
+DS13630 - Rev 2 page 31/49
+
+PDF PAGE 32
+Table 18. Driving Logic configuration register
+Register Bit # Bit name Default Description
+LOGIC
+Address 0x02
+Protected
+7 0
+6 1
+5 1
+4 1
+3
+VDS_P_DEG
+0 Configures the deglitch time for the VDS
+protection:
+• 00: Deglitch set to 6 µs (default)
+• 01: Deglitch set to 4 µs
+• 10: Deglitch set to 3 µs
+• 11: Deglitch set to 2 µs
+2 0
+1 DTMIN 1
+Minimum deadtime insertion:
+Enabled by default, 0 to disable
+0 ILOCK 1
+Interlocking function:
+Enabled by default, 0 to disable
+Table 19. READY output configuration register
+Register Bit # Bit name Default Description
+READY
+Address 0x07
+7 0
+6 0
+5 0
+4 0
+3 STBY_RDY 1
+Signaling of the standby request status:
+Enabled by default, 0 to disable
+2 0
+1 THSD_RDY 0
+Signaling of the thermal shutdown status:
+Disabled by default, 1 to enable
+0 VCC_UVLO_RDY 1
+Signaling of the VCC UVLO status:
+Enabled by default, 0 to disable
+ STSPIN32G4 
+Control logic
+DS13630 - Rev 2 page 32/49
+
+PDF PAGE 33
+Table 20. nFAULT output configuration register
+Register Bit # Bit name Default Description
+NFAULT
+Address 0x08
+Protected
+7 0
+6 1
+5 1
+4 1
+3 1
+2 VDS_P_FLT 1
+Signaling of the VDS protection triggering:
+Enabled by default, 0 to disable
+1 THSD _FLT 1
+Signaling of the thermal shutdown status:
+Enabled by default, 0 to disable
+0 VCC_UVLO_FLT 1
+Signaling of the VCC UVLO status:
+Enabled by default, 0 to disable
+Table 21. FAULT clear command register
+Register Bit # Bit name Default Description
+CLEAR
+Address 0x09
+7
+to
+0
+FAULT_CLEAR
+Setting high all the bits clears all the latched failure
+conditions.
+Any other value is rejected.
+Table 22. Standby register
+Register Bit # Bit name Default Description
+STBY
+Address 0x0A
+Protected
+7
+to
+1
+0
+0 STBY 0 Setting high the STBY bit requests the device to
+enter low consumption mode.
+Table 23. LOCK register
+Register Bit # Bit name Default Description
+LOCK
+Address 0x0B
+7
+to
+4
+NLOCK 0
+When LOCK is different from the bitwise not of
+NLOCK, the writing of the protected registers is
+not allowed.
+When LOCK is equal to the bitwise not of
+NLOCK the writing of the protected registers is
+allowed, and all gate driver outputs are forced
+low.
+3
+to
+0
+LOCK 0
+Table 24. RESET command register
+Register Bit # Bit name Default Description
+RESET
+Address 0x0C
+Protected
+7
+to
+0
+RESET
+Setting high all the bits resets the registers to
+the default value (The RESET bit in the STATUS
+register is not affected).
+ STSPIN32G4 
+Control logic
+DS13630 - Rev 2 page 33/49
+
+PDF PAGE 34
+Register Bit # Bit name Default Description
+Any other value is rejected.
+Table 25. Device STATUS register
+Register Bit # Bit name Default Description
+STATUS
+Address 0x80
+Read only
+7 LOCK
+Indicates if the protected registers are locked:
+• 0: Unlocked
+• 1: Locked
+6
+5
+4
+3 RESET
+Indicates if the registers had been reset to the
+default (power-up):
+• 0: No reset
+• 1: Reset
+2 VDS_P
+Indicates the VDS protection triggering:
+• 0: VDS protection not triggered
+• 1: VDS Protection triggered
+1 THSD
+Indicates the thermal shutdown status:
+• 0: Device not in THSD
+• 1: Device in THSD
+0 VCC_UVLO
+Indicates the VCC UVLO status:
+• 0: Device not in VCC UVLO
+• 1: Device in VCC UVLO
+5.5.5.1 Command registers
+CLEAR and RESET are command registers. It is only allowed to set all bits to execute the command, other values
+are rejected.
+In case of read the device returns 0xFF.
+5.5.5.2 Read/write registers
+All the registers are read and written using the I2C standard method.
+5.5.5.3 Protected registers
+All critical registers of the device are protected against unwanted rewriting.
+When the content of the LOCK register does not fit the following condition:
+LOCK = NLOCK
+__________
+the protected registers are read-only.
+When the content fits the above condition, the protected registers can be written, and the power stage is forced
+into safe condition: all the gate driver outputs are forced low.
+ STSPIN32G4 
+Control logic
+DS13630 - Rev 2 page 34/49
+
+PDF PAGE 35
+6 ESD protection strategy
+Figure 25. ESD protection strategy
+ESD Active
+Clamp
+EPAD
+SCREF
+VM
+SW
+VCC
+REGIN
+REG3V3
+EPAD
+ESD Active
+Clamp
+ESD Active
+Clamp
+EPAD
+GLSx
+ESD Active
+Clamp
+GHSx
+Below GNDPGND
+EPAD
+VBOOTx
+x3
+Power
+Power
+Power
+Power
+Power
+Power
+ STSPIN32G4 
+ESD protection strategy
+DS13630 - Rev 2 page 35/49
+
+PDF PAGE 36
+7 Application example
+Figure 26 shows an application example using the STSPIN32G4 device to drive a three-phase motor with triple
+shunt configuration and field oriented control algorithm.
+The other features implemented are:
+• VDD (3.3 V) power supply internally generated via LDO linear regulator
+• VCC (programmable, 8 V default value) power supply internally generated via Buck regulator
+• Reset dedicated pin
+• Overcurrent protection using internal comparators connected to op-amp positive inputs (PA1, PA7, PB0)
+• Current sensing using internal operational amplifiers and ADCs:
+– Op-amp 1: PA1, PA3, PA2 (OPP, OPN, OPO)
+– Op-amp 2: PA7, PC5, PA6 (OPP, OPN, OPO)
+– Op-amp 3: PB0, PB2, PB1 (OPP, OPN, OPO)
+• Bus voltage monitoring using internal ADC (PA0)
+• Application temperature monitoring using internal ADC (PC4)
+Table 26. Typical application value
+Part name Value
+CBAT, CREF1, CDDA1, CREG3V3_1, CRST 100 nF / 6.3 V
+CREF2, CDDA2 1 μF / 6.3 V
+CREG3V3_2 10 μF / 6.3 V
+COUT 10 μF / 25 V
+L1 18 μH / 1 A
+D1 STPS1H100A / 100 V
+CVM 220 nF / 100 V
+RRST1 100 kΩ / 5 %
+CBUS,CNTC 33 nF / 6.3 V
+others Values according to application requirements
+ STSPIN32G4 
+Application example
+DS13630 - Rev 2 page 36/49
+
+PDF PAGE 37
+7.1 Application example diagram
+Figure 26. Application example diagram
+SW
+VDDA
+REG3V3/VDD
+VM
+VBAT
+VREF+
+others GPIOs
+EPAD
+V M
+V DDV DD
+C REG3V3_1C M
+Power
+stage
+C BOOT
+V M
+Half-bridge U
+To motor
+To OpAmp
+OUTU
+OUTV
+OUTW
+V CC
+D1
+L 1
+C OUT
+BOOT1
+BOOT2
+GHS2
+OUT2
+GLS2
+BOOT3
+GHS3
+OUT3
+GLS3
+GHS1
+OUT1
+GLS1
+SCREF
+VCC
+REGIN
+V DD
+VshuntU+
+VshuntU-
+VshuntV+
+VshuntV-
+VshuntW+
+VshuntW-
+PGND
+C BAT +
+C VMpol
+C DDA1 C DDA2
+C REF2 C REF1
+V DD
+V DD
+C RST
+PG10-NRST
+STSPIN32G4
+V DD
+V DD
+to OpAmp and
+Comparator U
+VshuntV+
+VshuntV-
+VshuntW+
+VshuntW-
+VshuntU+
+VshuntU-
+Current
+sense U
+V M
+PA0
+R RST1
+R BUS1
+R BUS2
+C BUS
+Bus voltage
+monitoring
+V DD
+PC4
+R NTC1
+R NTC2
+C NTC
+Temperature
+monitoring
+C REG3V3_2
+OPP
+OPN
+OPO
+to OpAmp and
+Comparator V
+to OpAmp and
+Comparator W
+DS13630 - Rev 2page 37/49
+ STSPIN32G4 
+Application example
+        diagram 
+
+PDF PAGE 38
+8 Package information
+In order to meet environmental requirements, ST offers these devices in different grades of ECOPACK packages,
+depending on their level of environmental compliance. ECOPACK specifications, grade definitions and product
+status are available at: www.st.com. ECOPACK is an ST trademark.
+ STSPIN32G4 
+Package information
+DS13630 - Rev 2 page 38/49
+
+PDF PAGE 39
+Figure 27. VFQFPN 9X9X1.0 64 PITCH 0.50 package outline
+ STSPIN32G4 
+Package information
+DS13630 - Rev 2 page 39/49
+
+PDF PAGE 40
+Symbol
+Dimensions
+(mm)
+Min. Typ. Max.
+A 0.80 0.90 1.00
+A1 0.02 0.05
+A3 0.10 REF
+b 0.20 0.25 0.30
+D 8.90 9.00 9.10
+D2 3.90 4.00 4.10
+E 8.90 9.00 9.10
+E2 3.90 4.00 4.10
+e 0.50
+L 0.30 0.40 0.50
+aaa 0.15
+bbb 0.10
+ccc 0.10
+ddd 0.05
+eee 0.08
+fff 0.10
+Figure 28. VFQFPN 9X9X1.0 64 PITCH 0.50 suggested footprint
+ STSPIN32G4 
+Package information
+DS13630 - Rev 2 page 40/49
+
+PDF PAGE 41
+9 Characterization graphs
+The characterization graphs are obtained from measurements on a limited number of samples.
+Figure 29. Standby current ISTBY vs. temperature (normalized at ambient temperature)
+0,75
+0,85
+0,95
+1,05
+1,15
+1,25
+1,35
+-50-25 0 25 50 75 100125
+ISTBYnormalized @ 25°C
+Temperature [°C]
+Figure 30. Standby current ISTBY vs. supply voltage VM (normalized at VM = 75V)
+0,75
+0,80
+0,85
+0,90
+0,95
+1,00
+1,05
+0 10 20 30 40 50 60 70 80
+ISTBYnormalized @ VM = 75 V
+VM [V]
+ STSPIN32G4 
+Characterization graphs
+DS13630 - Rev 2 page 41/49
+
+PDF PAGE 42
+Figure 31. VCC quiescent consumption vs. temperature (normalized at ambient temperature)
+0,7
+0,8
+0,9
+1
+1,1
+1,2
+1,3
+-50-25 0 25 50 75 100125
+ICC,qunormalized @ 25°C
+Temperature [°C]
+ STSPIN32G4 
+Characterization graphs
+DS13630 - Rev 2 page 42/49
+
+PDF PAGE 43
+10 Ordering information
+Table 27. Device summary
+Order code Package Packaging
+STSPIN32G4 VFQFPN 9X9X1.0 64 PITCH 0.50 Tray
+STSPIN32G4TR VFQFPN 9X9X1.0 64 PITCH 0.50 Tape & Reel
+ STSPIN32G4 
+Ordering information
+DS13630 - Rev 2 page 43/49
+
+PDF PAGE 44
+Revision history
+Table 28. Document revision history
+Date Version Changes
+19-Mar-2021 1 Initial release.
+14-Oct-2022 2
+Updated Figure 1, Figure 2, Figure 14, Figure 20, Figure 25.
+Updated Table 2: VREF+ test condition; Table 5: IREG3V3,qu unit, IOUTx,bias test
+condition; Table 6: added TIM1_BKIN and TIM1_BKIN2 functions; Table 24
+and Table 25.
+Updated Section  5.2.4  , Section  5.2.5  and Section  7  , added
+Section  5.2.6.1  .
+Minor changes through the document.
+ STSPIN32G4 
+DS13630 - Rev 2 page 44/49
+
+PDF PAGE 45
+Contents
+1 Block diagram ..................................................................... 3
+2 Electrical data ..................................................................... 5
+2.1 Absolute maximum ratings....................................................... 5
+2.2 Recommended operating conditions .............................................. 6
+2.3 Thermal data .................................................................. 7
+2.4 Electrical sensitivity characteristics................................................ 7
+3 Electrical characteristics........................................................... 8
+4 Pin description ................................................................... 11
+5 Device description................................................................ 15
+5.1 Power management section .................................................... 15
+5.1.1 VCC buck regulator...................................................... 15
+5.1.2 3.3 V linear regulator..................................................... 17
+5.1.3 Standby linear regulator .................................................. 19
+5.2 Gate drivers .................................................................. 20
+5.2.1 Interlocking ............................................................ 20
+5.2.2 Minimum deadtime ...................................................... 21
+5.2.3 Sink/source current ...................................................... 21
+5.2.4 Bootstrap section ....................................................... 22
+5.2.5 VDS monitoring protection ................................................ 23
+5.2.6 Undervoltage protection .................................................. 25
+5.3 Microcontroller unit ............................................................ 26
+5.3.1 Memories and boot mode ................................................. 26
+5.3.2 Power management ..................................................... 27
+5.3.3 Advanced-control timer (TIM1) ............................................. 28
+5.4 Standby mode ................................................................ 28
+5.5 Control logic.................................................................. 29
+5.5.1 Status and clearing faults ................................................. 30
+5.5.2 READY output.......................................................... 30
+5.5.3 nFAULT output ......................................................... 31
+5.5.4 I2C interface ........................................................... 31
+ STSPIN32G4 
+Contents
+DS13630 - Rev 2 page 45/49
+
+PDF PAGE 46
+5.5.5 Registers.............................................................. 31
+6 ESD protection strategy .......................................................... 35
+7 Application example .............................................................. 36
+7.1 Application example diagram.................................................... 37
+8 Package information.............................................................. 38
+9 Characterization graphs .......................................................... 41
+10 Ordering information ............................................................. 43
+Revision history ....................................................................... 44
+Contents .............................................................................. 45
+List of tables .......................................................................... 47
+List of figures.......................................................................... 48
+ STSPIN32G4 
+Contents
+DS13630 - Rev 2 page 46/49
+
+PDF PAGE 47
+List of tables
+Table 1.  Absolute maximum ratings ............................................................. 5
+Table 2.  Recommended operating conditions....................................................... 6
+Table 3.  Thermal data....................................................................... 7
+Table 4.  ESD protection ratings ................................................................ 7
+Table 5.  Electrical characteristics – Gate driver IC ................................................... 8
+Table 6.  STSPIN32G4 pin list ................................................................ 11
+Table 7.  MCU to gate driver internal connection .................................................... 14
+Table 8.  VCC Buck regulator output voltage ....................................................... 16
+Table 9.  Gate driver control logic with interlocking................................................... 20
+Table 10.  Gate driver control logic without interlocking ................................................ 20
+Table 11.  VDS monitoring protection deglitch time ................................................... 24
+Table 12.  UVLO protection management.......................................................... 25
+Table 13.  TIM1 channels configuration ........................................................... 28
+Table 14.  INxL and INxH inputs truth table ........................................................ 29
+Table 15.  INxL and INxH inputs truth table ........................................................ 30
+Table 16.  I2C address....................................................................... 31
+Table 17.  Power manager configuration register..................................................... 31
+Table 18.  Driving Logic configuration register....................................................... 32
+Table 19.  READY output configuration register ..................................................... 32
+Table 20.  nFAULT output configuration register ..................................................... 33
+Table 21.  FAULT clear command register ......................................................... 33
+Table 22.  Standby register ................................................................... 33
+Table 23.  LOCK register ..................................................................... 33
+Table 24.  RESET command register............................................................. 33
+Table 25.  Device STATUS register.............................................................. 34
+Table 26.  Typical application value.............................................................. 36
+Table 27.  Device summary ................................................................... 43
+Table 28.  Document revision history ............................................................. 44
+ STSPIN32G4 
+List of tables
+DS13630 - Rev 2 page 47/49
+
+PDF PAGE 48
+List of figures
+Figure 1.  STSPIN32G4 system-in-package block diagram ............................................. 3
+Figure 2.  Gate driver IC block diagram .......................................................... 4
+Figure 3.  STSPIN32G4 pin connection (top view) .................................................. 11
+Figure 4.  Power-up sequence (REGIN shorted with VCC) ............................................ 15
+Figure 5.  VCC Buck configuration............................................................. 16
+Figure 6.  VCC buck regulator soft-start ......................................................... 16
+Figure 7.  VCC externally supplied (buck disabled) ................................................. 17
+Figure 8.  VCC buck regulator short-circuit protection................................................ 17
+Figure 9.  3.3 V LDO regulator supplied through VCC ............................................... 18
+Figure 10.  3.3 V LDO regulator supplied through VCC (external resistor)................................... 18
+Figure 11.  3.3 V LDO regulator with external supply ................................................. 18
+Figure 12.  3.3 V externally supplied (linear regulator disabled) .......................................... 19
+Figure 13.  Standby regulator enabled ........................................................... 19
+Figure 14.  Half-bridge gate drivers block diagram................................................... 20
+Figure 15.  Deadtime timing (with interlocking enabled) ............................................... 21
+Figure 16.  Low-side gate driver output characteristic in UVLO range...................................... 21
+Figure 17.  High-side gate driver output characteristic in UVLO range ..................................... 21
+Figure 18.  Voltage-Current characteristics of bootstrap circuitry ......................................... 22
+Figure 19.  External bootstrap diode configuration ................................................... 23
+Figure 20.  VDS monitoring protection timings...................................................... 24
+Figure 21.  VBO UVLO circuitry and high-side VDS monitoring .......................................... 25
+Figure 22.  VDS monitoring failure caused by VBO UVLO ............................................. 26
+Figure 23.  Standby timings .................................................................. 29
+Figure 24.  FAULT clearing via input lines......................................................... 30
+Figure 25.  ESD protection strategy ............................................................. 35
+Figure 26.  Application example diagram ......................................................... 37
+Figure 27.  VFQFPN 9X9X1.0 64 PITCH 0.50 package outline .......................................... 39
+Figure 28.  VFQFPN 9X9X1.0 64 PITCH 0.50 suggested footprint........................................ 40
+Figure 29.  Standby current ISTBY vs. temperature (normalized at ambient temperature)......................... 41
+Figure 30.  Standby current ISTBY vs. supply voltage VM (normalized at VM = 75V) ............................ 41
+Figure 31.  VCC quiescent consumption vs. temperature (normalized at ambient temperature) .................... 42
+ STSPIN32G4 
+List of figures
+DS13630 - Rev 2 page 48/49
+
+PDF PAGE 49
+IMPORTANT NOTICE – READ CAREFULLY
+STMicroelectronics NV and its subsidiaries (“ST”) reserve the right to make changes, corrections, enhancements, modifications, and improvements to ST
+products and/or to this document at any time without notice. Purchasers should obtain the latest relevant information on ST products before placing orders. ST
+products are sold pursuant to ST’s terms and conditions of sale in place at the time of order acknowledgment.
+Purchasers are solely responsible for the choice, selection, and use of ST products and ST assumes no liability for application assistance or the design of
+purchasers’ products.
+No license, express or implied, to any intellectual property right is granted by ST herein.
+Resale of ST products with provisions different from the information set forth herein shall void any warranty granted by ST for such product.
+ST and the ST logo are trademarks of ST. For additional information about ST trademarks, refer to www.st.com/trademarks. All other product or service names
+are the property of their respective owners.
+Information in this document supersedes and replaces information previously supplied in any prior versions of this document.
+© 2022 STMicroelectronics – All rights reserved
+ STSPIN32G4 
+DS13630 - Rev 2 page 49/49

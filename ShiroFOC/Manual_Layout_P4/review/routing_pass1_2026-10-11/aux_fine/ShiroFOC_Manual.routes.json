@@ -1,0 +1,65 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/aux_clean/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "Net-(U203-OV1)",
+      "source": "e8429220-4c2c-4138-827a-58452590906b",
+      "target": "bdaca54c-df90-42fe-b39f-1c27661b1d4c",
+      "source_ref": "R210",
+      "source_pin": "2",
+      "target_ref": "R211",
+      "target_pin": "1",
+      "distance_mm": 2.23606797749979e-06,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 1.2360901832580566
+    },
+    {
+      "net": "Net-(U203-OV2)",
+      "source": "44e18072-9efb-4e4d-9db7-234d23b7a0fa",
+      "target": "fc0c9c71-2089-43ac-a15c-c61ff8876609",
+      "source_ref": "R212",
+      "source_pin": "2",
+      "target_ref": "R213",
+      "target_pin": "1",
+      "distance_mm": 3.6055512754639896e-06,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 1.2014799118041992
+    },
+    {
+      "net": "/Brake chopper/BRAKE_OV_CMD",
+      "source": "87ae4c0b-ceb2-41b1-9739-d20eeccfbd21",
+      "target": "0e2231ae-7d23-46b8-95f9-9dd53da71243",
+      "source_ref": "U502",
+      "source_pin": "1",
+      "target_ref": "D502",
+      "target_pin": "2",
+      "distance_mm": 1.3480442871066958,
+      "length_mm": 1.0121320343559643,
+      "vias": 0,
+      "path_points": 20,
+      "rejected": false,
+      "new_items": [
+        "f2a43006-011a-423b-b022-5f624c47408a",
+        "7107979c-9f38-4fd9-8729-022860ad7e9b"
+      ],
+      "elapsed_seconds": 1.103743314743042
+    }
+  ]
+}

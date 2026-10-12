@@ -1483,12 +1483,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ShiroFOCLib:COMP_J101"
+		(symbol "ShiroFOCLib:DirectWire_DC_2"
 			(pin_names
 				(offset 0.635)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "J"
 				(at 0 -5.08 0)
@@ -1499,7 +1499,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "COMP_J101"
+			(property "Value" "DC input - solder wires"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1508,7 +1508,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ShiroFOCLib:WireSolder_DC_1x02_P6.35mm_D2.70mm_Pad4.10mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1526,7 +1526,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Direct-solder plated wire terminals; no fitted connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1535,7 +1535,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "COMP_J101_1_1"
+			(symbol "DirectWire_DC_2_1_1"
 				(rectangle
 					(start -6.35 7.62)
 					(end 6.35 -7.62)
@@ -2953,7 +2953,7 @@
 		)
 		(uuid "0048b310-15c9-571a-b8f8-566b6ef5a9c7")
 	)
-	(text "18-42 V operating bus • keyed XT60 • external fuse / precharge required"
+	(text "18-42 V operating bus • direct-solder DC wires • external fuse / precharge required"
 		(exclude_from_sim no)
 		(at 17.78 29.21 0)
 		(effects
@@ -13390,11 +13390,11 @@
 		)
 	)
 	(symbol
-		(lib_id "ShiroFOCLib:COMP_J101")
+		(lib_id "ShiroFOCLib:DirectWire_DC_2")
 		(at 27.94 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9c7bbbf4-1220-548f-9887-8be4f9457e9f")
@@ -13406,7 +13406,7 @@
 				)
 			)
 		)
-		(property "Value" "AMASS XT60PW-M"
+		(property "Value" "DC input - solder wires"
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -13414,7 +13414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+		(property "Footprint" "ShiroFOCLib:WireSolder_DC_1x02_P6.35mm_D2.70mm_Pad4.10mm"
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -13432,7 +13432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Direct-solder plated wire terminals; no fitted connector"
 			(at 27.94 72.39 0)
 			(effects
 				(font
@@ -13440,7 +13440,7 @@
 				)
 			)
 		)
-		(property "MPN" "XT60PW-M"
+		(property "MPN" ""
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -13449,7 +13449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Assembly" "FIT"
+		(property "Assembly" "Direct-solder wires; no connector fitted"
 			(at 27.94 82.55 0)
 			(effects
 				(font
@@ -13458,7 +13458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+		(property "Rating" "Wire gauge and current limited by completed PCB copper and assembly"
 			(at 27.94 82.55 0)
 			(effects
 				(font

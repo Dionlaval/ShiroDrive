@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "prior_connectivity_regressions": [],
+  "completed_selected": 74,
+  "total_selected": 81,
+  "remaining_selected": [
+    "AS5047P_CS_N",
+    "BRAKE_PWM",
+    "CAN_TERM_DISABLE",
+    "INPUT_MUX_ENABLE_N",
+    "NTC_PHASE_B",
+    "Net-(U203-OV2)",
+    "VBUS_SENSE"
+  ],
+  "method": "Native same-net copper contacts plus per-filled-polygon zone contact; includes copper-only island bridges."
+}

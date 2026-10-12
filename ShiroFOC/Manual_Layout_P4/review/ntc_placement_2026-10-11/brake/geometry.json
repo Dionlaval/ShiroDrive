@@ -1,0 +1,124 @@
+{
+  "required_copper_gap_mm": 0.2,
+  "all_nets_including_same_net": true,
+  "copper_violations": [],
+  "courtyard_or_edge_collisions": [],
+  "nearest_copper": [
+    {
+      "pad": "R511.1",
+      "closest": [
+        {
+          "other": "PCB_VIA:461d0358-e681-465e-a6ba-80407e4bb5df",
+          "net": "3V3",
+          "same_net": true,
+          "gap_mm": 0.305
+        },
+        {
+          "other": "R511.2",
+          "net": "/Brake chopper/BRAKE_NTC_RAW",
+          "same_net": false,
+          "gap_mm": 0.479
+        },
+        {
+          "other": "J502.1",
+          "net": "/Brake chopper/BRAKE_NTC_RAW",
+          "same_net": false,
+          "gap_mm": 0.92
+        },
+        {
+          "other": "C303.2",
+          "net": "GND",
+          "same_net": false,
+          "gap_mm": 1.044
+        }
+      ]
+    },
+    {
+      "pad": "R511.2",
+      "closest": [
+        {
+          "other": "R511.1",
+          "net": "3V3",
+          "same_net": false,
+          "gap_mm": 0.479
+        },
+        {
+          "other": "R512.1",
+          "net": "/Brake chopper/BRAKE_NTC_RAW",
+          "same_net": true,
+          "gap_mm": 0.64
+        },
+        {
+          "other": "J502.1",
+          "net": "/Brake chopper/BRAKE_NTC_RAW",
+          "same_net": true,
+          "gap_mm": 0.874
+        },
+        {
+          "other": "J502.2",
+          "net": "GND",
+          "same_net": false,
+          "gap_mm": 1.005
+        }
+      ]
+    },
+    {
+      "pad": "R512.1",
+      "closest": [
+        {
+          "other": "R512.2",
+          "net": "NTC_BRAKE",
+          "same_net": false,
+          "gap_mm": 0.479
+        },
+        {
+          "other": "R511.2",
+          "net": "/Brake chopper/BRAKE_NTC_RAW",
+          "same_net": true,
+          "gap_mm": 0.64
+        },
+        {
+          "other": "PCB_TRACK:f2168ae5-d8b3-41c9-b860-e838c1d321e6",
+          "net": "GLS2",
+          "same_net": false,
+          "gap_mm": 0.822
+        },
+        {
+          "other": "PCB_TRACK:2573dd78-5ec9-421f-a6da-39fafd7f74ec",
+          "net": "GLS2",
+          "same_net": false,
+          "gap_mm": 0.825
+        }
+      ]
+    },
+    {
+      "pad": "R512.2",
+      "closest": [
+        {
+          "other": "R512.1",
+          "net": "/Brake chopper/BRAKE_NTC_RAW",
+          "same_net": false,
+          "gap_mm": 0.479
+        },
+        {
+          "other": "PCB_TRACK:29ffdd02-346e-4216-b826-fa516eb64a69",
+          "net": "GLS2",
+          "same_net": false,
+          "gap_mm": 0.91
+        },
+        {
+          "other": "PCB_TRACK:f2168ae5-d8b3-41c9-b860-e838c1d321e6",
+          "net": "GLS2",
+          "same_net": false,
+          "gap_mm": 0.91
+        },
+        {
+          "other": "J502.2",
+          "net": "GND",
+          "same_net": false,
+          "gap_mm": 1.279
+        }
+      ]
+    }
+  ]
+}

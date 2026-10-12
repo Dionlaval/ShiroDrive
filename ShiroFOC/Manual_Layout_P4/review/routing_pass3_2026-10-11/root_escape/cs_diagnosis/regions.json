@@ -1,0 +1,46 @@
+[
+  {
+    "net": "AS5047P_CS_N",
+    "components": [
+      {
+        "ref": "U4",
+        "pin": "51",
+        "cluster_ids": [
+          "0bcaadb4-070e-47bc-aae8-bd64aed85311"
+        ],
+        "reaches": [
+          {
+            "layer": 0,
+            "area_mm2": 1.4025,
+            "via_sites": 0,
+            "nearest_via": []
+          }
+        ]
+      },
+      {
+        "ref": "U601",
+        "pin": "1",
+        "cluster_ids": [
+          "243d9bd7-e371-4510-8e9e-07e707188e63",
+          "4915c605-04f9-46d6-a9a0-0e8e337a6236",
+          "4954848d-f21c-476c-8307-4ac41d632a20",
+          "577a787a-cb4f-40fd-b637-8736f1a8dd46",
+          "58b7db0f-cd23-4137-bfa3-57d4a017bd22",
+          "c91a2d05-83ef-48a7-80e2-635017511cfe"
+        ],
+        "reaches": [
+          {
+            "layer": 2,
+            "area_mm2": 590.0512500000001,
+            "via_sites": 407403,
+            "nearest_via": [
+              2.650000000000002,
+              -2.75,
+              0.8246211251235321
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+5/63 3V3: 6 points; 0.35 mm; 0 vias; accepted candidate; 1.01s
+6/63 3V3: 14 points; 0.65 mm; 0 vias; accepted candidate; 0.99s
+10/63 3V3: 13 points; 0.60 mm; 0 vias; accepted candidate; 1.00s
+11/63 3V3: 19 points; 0.90 mm; 0 vias; accepted candidate; 1.01s
+16/63 3V3: 50 points; 2.40 mm; 1 vias; accepted candidate; 1.01s
+17/63 3V3: 22 points; 1.05 mm; 0 vias; accepted candidate; 1.00s
+18/63 3V3: 20 points; 0.95 mm; 0 vias; accepted candidate; 1.02s
+25/63 3V3: 25 points; 1.32 mm; 0 vias; accepted candidate; 0.99s
+28/63 3V3: 69 points; 3.73 mm; 2 vias; not routed; 1.02s
+30/63 3V3: 27 points; 1.36 mm; 0 vias; accepted candidate; 1.01s
+31/63 3V3: -2 points; 0.00 mm; 0 vias; not routed; 1.06s
+33/63 3V3: 28 points; 1.54 mm; 0 vias; accepted candidate; 1.08s
+35/63 3V3: 27 points; 1.30 mm; 0 vias; accepted candidate; 1.01s
+38/63 3V3: 26 points; 1.42 mm; 0 vias; accepted candidate; 1.00s
+40/63 3V3: 34 points; 1.73 mm; 0 vias; accepted candidate; 1.02s
+43/63 3V3: 69 points; 3.96 mm; 2 vias; not routed; 1.00s
+46/63 3V3: 56 points; 3.33 mm; 2 vias; not routed; 1.01s
+52/63 3V3: 136 points; 7.49 mm; 1 vias; not routed; 1.00s
+54/63 3V3: 39 points; 2.31 mm; 0 vias; accepted candidate; 1.01s
+55/63 3V3: -2 points; 0.00 mm; 0 vias; not routed; 1.06s
+56/63 3V3: 49 points; 2.69 mm; 0 vias; accepted candidate; 0.99s
+59/63 3V3: 42 points; 2.65 mm; 2 vias; not routed; 1.00s
+61/63 3V3: -2 points; 0.00 mm; 0 vias; not routed; 1.00s
+{"candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/supply/ShiroFOC_Manual.kicad_pcb", "connections": 15, "new_items": 27, "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/supply/ShiroFOC_Manual.routes.json"}
+Found 421 violations
+Found 357 unconnected items
+Saved DRC Report to /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/supply/drc.json
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+05:49:38 PM: Debug: Adding duplicate image handler for 'PNG file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'JPEG file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'TIFF file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'GIF file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'PNM file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'PCX file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'IFF file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'TGA file'
+05:49:38 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "failures": [],
+  "new_item_count": 374,
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 388,
+    "unconnected": 357
+  }
+}
+{
+  "status": "PASS",
+  "failures": [],
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 165,
+      "vias": 0,
+      "length_mm": 178.177505
+    },
+    "F.Cu": {
+      "tracks": 95,
+      "vias": 0,
+      "length_mm": 94.416583
+    },
+    "Signals L3": {
+      "tracks": 76,
+      "vias": 0,
+      "length_mm": 162.517168
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 38,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 388,
+    "unconnected": 357
+  }
+}

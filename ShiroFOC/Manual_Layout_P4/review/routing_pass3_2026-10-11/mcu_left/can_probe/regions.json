@@ -1,0 +1,89 @@
+[
+  {
+    "net": "CAN_TERM_DISABLE",
+    "components": [
+      {
+        "ref": "U4",
+        "pin": "5",
+        "cluster_ids": [
+          "20c4d97f-78cc-4960-b204-77fd0724cb01",
+          "218d591d-fb1a-42c8-a97f-35fce554cc4b",
+          "775a4041-16d3-45d1-8c0b-8bf65be169bb",
+          "81b3b6fd-aa0a-40c1-85b2-ec6f9d06f527"
+        ],
+        "reaches": [
+          {
+            "layer": 0,
+            "area_mm2": 2.883125,
+            "via_sites": 0,
+            "nearest_via": []
+          },
+          {
+            "layer": 2,
+            "area_mm2": 32.364375,
+            "via_sites": 0,
+            "nearest_via": []
+          },
+          {
+            "layer": 6,
+            "area_mm2": 1.5543750000000003,
+            "via_sites": 0,
+            "nearest_via": []
+          },
+          {
+            "layer": 8,
+            "area_mm2": 4.514375,
+            "via_sites": 0,
+            "nearest_via": []
+          }
+        ]
+      },
+      {
+        "ref": "R803",
+        "pin": "1",
+        "cluster_ids": [
+          "3cd693bc-5d0e-4f10-9680-8769383d33a9",
+          "f094fbed-04c1-485a-bbe7-cb9156173cff"
+        ],
+        "reaches": [
+          {
+            "layer": 0,
+            "area_mm2": 5.324375000000001,
+            "via_sites": 19,
+            "nearest_via": [
+              -16.025,
+              11.200000000000003,
+              2.425128862555555
+            ]
+          },
+          {
+            "layer": 2,
+            "area_mm2": 2.7906250000000004,
+            "via_sites": 0,
+            "nearest_via": []
+          },
+          {
+            "layer": 6,
+            "area_mm2": 901.17875,
+            "via_sites": 389298,
+            "nearest_via": [
+              -16.025,
+              11.200000000000003,
+              2.425128862555555
+            ]
+          },
+          {
+            "layer": 8,
+            "area_mm2": 1230.028125,
+            "via_sites": 454671,
+            "nearest_via": [
+              -16.025,
+              11.200000000000003,
+              2.425128862555555
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

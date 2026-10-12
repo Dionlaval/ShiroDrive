@@ -1,0 +1,184 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/grounded/ShiroFOC_Manual.kicad_pcb",
+  "sha256": "f3373ae490a2eae4adec55c76ed96165a088774fd3db36fbe5ec601ccb190f1c",
+  "outline_mm": [
+    45.0,
+    45.0
+  ],
+  "footprints": 272,
+  "footprint_origins_on_board": 213,
+  "footprint_origins_staged": 59,
+  "onboard_ics": [
+    {
+      "ref": "U701",
+      "value": "BMI323",
+      "side": "front",
+      "xy_mm": [
+        -5.0,
+        -3.6
+      ]
+    },
+    {
+      "ref": "U604",
+      "value": "TPS2553DBVR",
+      "side": "front",
+      "xy_mm": [
+        -11.33,
+        -10.5225
+      ]
+    },
+    {
+      "ref": "U4",
+      "value": "STSPIN32G4",
+      "side": "front",
+      "xy_mm": [
+        -5.1,
+        7.2
+      ]
+    },
+    {
+      "ref": "U2",
+      "value": "CSD88599Q5DC",
+      "side": "front",
+      "xy_mm": [
+        12.849999,
+        8.7
+      ]
+    },
+    {
+      "ref": "U3",
+      "value": "CSD88599Q5DC",
+      "side": "front",
+      "xy_mm": [
+        12.849999,
+        16.2
+      ]
+    },
+    {
+      "ref": "U201",
+      "value": "LMR36510FADDAR",
+      "side": "front",
+      "xy_mm": [
+        2.270005,
+        -17.6625
+      ]
+    },
+    {
+      "ref": "U1",
+      "value": "CSD88599Q5DC",
+      "side": "front",
+      "xy_mm": [
+        12.849999,
+        1.2
+      ]
+    },
+    {
+      "ref": "U204",
+      "value": "TLV75533PDYDR",
+      "side": "back",
+      "xy_mm": [
+        -17.75,
+        -14.810001
+      ]
+    },
+    {
+      "ref": "U601",
+      "value": "AS5047P-ATSM",
+      "side": "back",
+      "xy_mm": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ref": "U603",
+      "value": "74LVC3G17",
+      "side": "back",
+      "xy_mm": [
+        -12.35,
+        20.119999
+      ]
+    },
+    {
+      "ref": "U202",
+      "value": "USBLC6-2SC6",
+      "side": "back",
+      "xy_mm": [
+        -14.76,
+        -7.22
+      ]
+    },
+    {
+      "ref": "U502",
+      "value": "TLV3012BIDCKR",
+      "side": "back",
+      "xy_mm": [
+        6.69,
+        -12.480001
+      ]
+    },
+    {
+      "ref": "U901",
+      "value": "CP2102N-A02-GQFN20",
+      "side": "back",
+      "xy_mm": [
+        -19.97,
+        -8.15
+      ]
+    },
+    {
+      "ref": "U602",
+      "value": "TMUX1574PW",
+      "side": "back",
+      "xy_mm": [
+        -6.1675,
+        18.85
+      ]
+    },
+    {
+      "ref": "U205",
+      "value": "MPM3620AGQV-Z",
+      "side": "back",
+      "xy_mm": [
+        -7.617495,
+        -11.312499
+      ]
+    },
+    {
+      "ref": "U801",
+      "value": "TCAN3413DRBR",
+      "side": "back",
+      "xy_mm": [
+        -19.847502,
+        11.2825
+      ]
+    },
+    {
+      "ref": "U203",
+      "value": "TPS2121RUXR",
+      "side": "back",
+      "xy_mm": [
+        -14.019015,
+        -18.688056
+      ]
+    },
+    {
+      "ref": "U501",
+      "value": "UCC27517ADBVR",
+      "side": "back",
+      "xy_mm": [
+        10.69,
+        -12.8675
+      ]
+    }
+  ],
+  "wire_pad_display": [
+    "J1",
+    "J101"
+  ],
+  "limitations": [
+    "Top-view coordinates on both sides, not mirrored underside photography.",
+    "Footprint labels reconstructed at component origins for review.",
+    "Routing preview omits plane fills; DRC results are recorded separately."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "reason": "Eliminate the existing P-to-N sense-guide clearance violation by shortening its isolated P free end 0.1768 mm along the existing diagonal; the remaining path is unchanged.",
+  "prior_pad_connections": 0,
+  "prior_copper_connections": 0,
+  "removed_items": [
+    "9eea7e47-98c4-4188-864e-c62034cbf76a"
+  ],
+  "allowed_replacement_uuids": [
+    "9eea7e47-98c4-4188-864e-c62034cbf76a"
+  ],
+  "new_items": [
+    "3b42e27e-ffc5-46a8-8d15-028290f8943b"
+  ],
+  "before": {
+    "start_mm": [
+      -0.703616,
+      11.4466
+    ],
+    "end_mm": [
+      3.009784,
+      15.16
+    ]
+  },
+  "after": {
+    "start_mm": [
+      -0.578616,
+      11.5716
+    ],
+    "end_mm": [
+      3.009784,
+      15.16
+    ]
+  },
+  "limitation": "This repairs clearance only. Both preliminary Kelvin sense branches still need completion."
+}

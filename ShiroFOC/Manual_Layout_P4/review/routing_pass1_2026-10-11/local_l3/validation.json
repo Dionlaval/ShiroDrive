@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/local_l3/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "aaf146629e4152249c9dac33abb3b74b821fa0c7ba292b358c85ccb19a27e37c",
+  "candidate_sha256": "867978d0c5e6862e32e3f577dcb4883238f2ebd13aed4a613708ef12129f09f8",
+  "footprint_count": 272,
+  "changed_footprints": [],
+  "removed_old_copper": [],
+  "changed_old_copper": [],
+  "existing_copper_unchanged": true,
+  "new_item_count": 66,
+  "new_items": [
+    "06cbc53b-5c0a-4323-a964-c914f9f0700e",
+    "0ef4638b-b89e-459d-9ec6-0c2fb6be003f",
+    "0ef699ec-9535-4086-929f-ac339b9e9d43",
+    "14cc1e72-f692-4f19-b2d6-50a0f814ead9",
+    "1d225d33-28ca-4776-89ae-961f58276e82",
+    "2199c2fc-f3c6-4001-a32b-7431616db1b3",
+    "23729f52-8de6-4ded-9e12-26bff6e94107",
+    "24ee1cc4-bc30-45fe-9bc4-bbecb7e3555d",
+    "263faa06-f59f-4e3a-8e96-7a51e66d75fb",
+    "27cb4ea1-c7b6-45c9-8ae8-212d241f17a3",
+    "302e6881-01ba-4a0d-b0bd-4693f37c1c48",
+    "33af2dc8-3295-4778-9a56-80d7b5f3ed93",
+    "3a7c41b8-baf8-4c03-be2e-9f5e3e8bf057",
+    "4390c314-214f-4be6-a24b-b3509a19ed86",
+    "45b1adfd-cb85-4e38-bd7e-c897b8bd20b1",
+    "462b924f-c5de-4ee5-9d51-201dcb27a095",
+    "4b5eec13-a623-4521-ac3d-1dcb689e5445",
+    "4e2c3243-8b8e-4a9c-b5c5-75791c25e8e5",
+    "505fb5e2-bd30-4e04-9cff-3cdc4dbce0e1",
+    "55320867-f62c-4854-833e-1a67a451e7f5",
+    "5852aa90-7e54-483b-8639-8f266cf23650",
+    "60de42eb-25ad-4b21-9e21-d19986b67521",
+    "62d7a356-cba7-445e-9281-d0b932dc997e",
+    "689195ce-e4c4-4ac8-8708-a43be55d9d1e",
+    "6c9782eb-39bc-457f-b0eb-f6c75a938cde",
+    "6cd82993-5911-4cb7-bda2-743f60915113",
+    "798fa66c-0847-401d-9f60-e71559becd8d",
+    "7c9c4328-54df-4876-9f22-356590f38f65",
+    "8151fb5e-b501-4c36-8dac-fb10fb5bcad4",
+    "8286b5ea-3227-43c6-9243-f82a734b7599",
+    "8289a7b8-2abb-47e3-89ed-3b88059cf5cf",
+    "84798540-3957-4c76-9d7a-db880bb72042",
+    "871dd4e8-8bfa-4084-a5da-1442711c69e9",
+    "8a683ba1-0b40-4d70-9a27-5d2c21bd1a21",
+    "8f4391e2-686f-4b3b-bc86-a3ded3c9b885",
+    "9037b4f9-8fcd-4cdd-8e0d-43eacea74098",
+    "933668ef-c32a-4b6b-aaaa-0f8449f49e2f",
+    "955d4ea4-b05e-4485-94ab-2a56f3ac05c4",
+    "9c1f2983-e5aa-4b2d-af11-002cf08eeb1f",
+    "9d39e173-5374-4efe-a02d-0926674ce32e",
+    "a4cc4ce2-d214-4448-826d-e039dfb508b6",
+    "a7259829-71c7-44c4-8ea4-88af9b2fbc15",
+    "a8b9be8a-e8ac-4d25-9d15-7477a64ba1f4",
+    "b3354c0b-6906-433d-bb9f-e653d77a771b",
+    "b547a090-1dd6-47a0-a233-b4da42b14ffe",
+    "ba3041f0-ccd6-422b-8ae0-6de1a286cf7d",
+    "ba5e3f79-ba4e-44a3-8a45-f14859aba39c",
+    "baad5577-a52b-44d3-8172-b6fcb2af76a5",
+    "be3eb99a-95f3-40c7-a0a0-aa9b98d8126a",
+    "ca28b5e6-436d-4c9f-8d26-a4ccbe7cd93e",
+    "cc45d318-8def-4b11-b57d-774ac1bf1666",
+    "d0c222bd-0474-49f6-8c9e-1260a53d7796",
+    "d5f3b5f4-6214-4865-a8d4-696f3a223037",
+    "d6657651-e1a5-492c-9f76-f1b36cffe994",
+    "dc0b3f5a-e0ca-40e8-a418-94566cfa3b95",
+    "dc11939a-ec6c-46fe-9ed1-0293abb2f789",
+    "dca9e004-f389-48e1-b1d0-354dd7cd5f8c",
+    "e88f4695-d7b6-4454-9d23-0605376ecef7",
+    "e9dbc35e-3a36-47f2-855c-264f7d7034bb",
+    "ed132d44-0729-4fd3-95af-b76c9c122225",
+    "ef0c0381-33eb-4e4a-aada-0bcb829dd953",
+    "f2c45f9b-41ba-4598-8822-60a77d363886",
+    "f3068461-ac37-4fe5-b2bf-1b77e06788d3",
+    "f3a90bc0-53cd-466b-9b14-e99eb42437d9",
+    "f6d219c7-7e8b-495f-b66e-9ce0fe8d7985",
+    "fb747582-6e10-489f-b8a5-71bd8b2b7f06"
+  ],
+  "new_track_widths_mm": {
+    "0.1524": 62
+  },
+  "invalid_new_widths": [],
+  "invalid_new_vias": [],
+  "outside_board_copper": [],
+  "via_pad_overlaps": [],
+  "new_routing_by_net": {
+    "NTC_BRAKE": {
+      "tracks": 15,
+      "vias": 2,
+      "length_mm": 22.833852
+    },
+    "NTC_PHASE_A": {
+      "tracks": 6,
+      "vias": 1,
+      "length_mm": 13.652146
+    },
+    "NTC_PHASE_C": {
+      "tracks": 4,
+      "vias": 1,
+      "length_mm": 11.388308
+    },
+    "Net-(R103-Pad2)": {
+      "tracks": 4,
+      "vias": 0,
+      "length_mm": 2.185775
+    },
+    "Net-(R310-Pad2)": {
+      "tracks": 3,
+      "vias": 0,
+      "length_mm": 1.892465
+    },
+    "Net-(U4C-SCREF)": {
+      "tracks": 1,
+      "vias": 0,
+      "length_mm": 1.060047
+    },
+    "VBUS_MUX_IN": {
+      "tracks": 9,
+      "vias": 0,
+      "length_mm": 6.944583
+    },
+    "VDDA": {
+      "tracks": 7,
+      "vias": 0,
+      "length_mm": 3.587061
+    },
+    "VREF+": {
+      "tracks": 13,
+      "vias": 0,
+      "length_mm": 17.100611
+    }
+  },
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 39,
+      "vias": 0,
+      "length_mm": 40.838027
+    },
+    "F.Cu": {
+      "tracks": 12,
+      "vias": 0,
+      "length_mm": 11.873875
+    },
+    "Signals L3": {
+      "tracks": 11,
+      "vias": 0,
+      "length_mm": 27.932947
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 4,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 394,
+    "unconnected": 417
+  },
+  "introduced_errors": [],
+  "introduced_error_item_uuids": [],
+  "project_schematic_rules_hash_check": "External responsibility; this script does not modify them",
+  "scope": "Additive routing and native DRC regression; does not claim circuit or signal-integrity verification"
+}

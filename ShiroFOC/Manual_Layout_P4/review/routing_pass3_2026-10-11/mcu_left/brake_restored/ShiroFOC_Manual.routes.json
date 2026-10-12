@@ -1,0 +1,31 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/brake_try/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "Net-(U601-MOSI)",
+      "source": "54344c8f-edb0-4e72-9b15-f662fcc6cee6",
+      "target": "23abd763-343c-4663-b322-e4f23f235a08",
+      "source_ref": "U601",
+      "source_pin": "4",
+      "target_ref": "R314",
+      "target_pin": "2",
+      "distance_mm": 9.39120632560056,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -4,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 6.042162179946899
+    }
+  ]
+}

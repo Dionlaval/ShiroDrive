@@ -1,0 +1,242 @@
+{
+  "status": "FAIL",
+  "failures": [
+    "New DRC errors appeared"
+  ],
+  "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/ov2_route/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "aa2f73794ee34d12209cd3c946f5201601ee923cc8112b36ed58a221a39f93a5",
+  "candidate_sha256": "238b6839baa67b26afd8e7cdc753a654668685d30b4a81e4c3152500fcd66526",
+  "footprint_count": 272,
+  "changed_footprints": [
+    {
+      "uuid": "2005dfd8-8805-4982-9a47-c86f4bb19aa1",
+      "reference": "R209",
+      "changed_fields": [
+        "position_nm",
+        "pads"
+      ]
+    },
+    {
+      "uuid": "021c9123-de54-415f-af36-21fa3cc6a8c6",
+      "reference": "R208",
+      "changed_fields": [
+        "position_nm",
+        "pads"
+      ]
+    }
+  ],
+  "authorized_footprint_moves": [
+    {
+      "uuid": "021c9123-de54-415f-af36-21fa3cc6a8c6",
+      "reference": "R208",
+      "old": {
+        "position_nm": [
+          -15000002,
+          -20350000
+        ],
+        "angle_deg": 90.0
+      },
+      "new": {
+        "position_nm": [
+          -15450002,
+          -20350000
+        ],
+        "angle_deg": 90.0
+      },
+      "translation_mm": 0.45
+    },
+    {
+      "uuid": "2005dfd8-8805-4982-9a47-c86f4bb19aa1",
+      "reference": "R209",
+      "old": {
+        "position_nm": [
+          -15000000,
+          -21370001
+        ],
+        "angle_deg": 90.0
+      },
+      "new": {
+        "position_nm": [
+          -15450000,
+          -21370001
+        ],
+        "angle_deg": 90.0
+      },
+      "translation_mm": 0.45
+    }
+  ],
+  "footprint_move_manifest_errors": [],
+  "unauthorized_footprint_changes": [],
+  "footprint_geometry_changes_authorized": true,
+  "removed_old_copper": [
+    "48805db2-82ec-41f7-9568-788436775bdd",
+    "4e36e25a-1a21-40ff-8a82-5bd7ca36f9bf",
+    "77243c0c-42d8-4f0d-9de9-b03c14962dfb",
+    "8869cc94-55e5-4ef3-9d62-b11cde838e3c",
+    "903380fb-311b-4c34-ba80-f4443e32343a"
+  ],
+  "changed_old_copper": [],
+  "existing_copper_unchanged": false,
+  "allowed_replacement_uuids": [
+    "48805db2-82ec-41f7-9568-788436775bdd",
+    "4e36e25a-1a21-40ff-8a82-5bd7ca36f9bf",
+    "77243c0c-42d8-4f0d-9de9-b03c14962dfb",
+    "8869cc94-55e5-4ef3-9d62-b11cde838e3c",
+    "903380fb-311b-4c34-ba80-f4443e32343a"
+  ],
+  "unknown_authorized_ids": [],
+  "unauthorized_removed_old_copper": [],
+  "unauthorized_changed_old_copper": [],
+  "old_copper_net_or_class_changed": [],
+  "existing_copper_changes_authorized": true,
+  "checked_new_or_replaced_item_count": 10,
+  "checked_new_or_replaced_items": [
+    "02602c09-2829-455c-90b9-f7939dae0f3a",
+    "630e5493-adb2-423b-8d9d-aef179b9dc18",
+    "65169bf3-4bb3-4bfc-96d5-fc9d13a033bb",
+    "8b9a6080-a954-4556-99c5-e9c8d0aa1421",
+    "8e79aedb-510c-4b6c-9a14-f73f33229889",
+    "90f11a10-8b05-44b8-899c-ed431c123b67",
+    "af3aee63-959f-436a-8e6c-38840ea9ec4a",
+    "dffaf74b-3b82-4c0e-95f3-8cbb918f4929",
+    "eae93ab0-a863-458f-b2c8-d7bee499659c",
+    "f9b7553c-7178-473d-9398-2a18b503ef23"
+  ],
+  "new_item_count": 10,
+  "new_items": [
+    "02602c09-2829-455c-90b9-f7939dae0f3a",
+    "630e5493-adb2-423b-8d9d-aef179b9dc18",
+    "65169bf3-4bb3-4bfc-96d5-fc9d13a033bb",
+    "8b9a6080-a954-4556-99c5-e9c8d0aa1421",
+    "8e79aedb-510c-4b6c-9a14-f73f33229889",
+    "90f11a10-8b05-44b8-899c-ed431c123b67",
+    "af3aee63-959f-436a-8e6c-38840ea9ec4a",
+    "dffaf74b-3b82-4c0e-95f3-8cbb918f4929",
+    "eae93ab0-a863-458f-b2c8-d7bee499659c",
+    "f9b7553c-7178-473d-9398-2a18b503ef23"
+  ],
+  "new_track_widths_mm": {
+    "0.1524": 8
+  },
+  "invalid_new_widths": [],
+  "invalid_new_vias": [],
+  "outside_board_copper": [],
+  "via_pad_overlaps": [],
+  "new_routing_by_net": {
+    "Net-(U203-CP2)": {
+      "tracks": 5,
+      "vias": 1,
+      "length_mm": 3.319227
+    },
+    "Net-(U203-OV2)": {
+      "tracks": 3,
+      "vias": 1,
+      "length_mm": 0.958329
+    }
+  },
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 4,
+      "vias": 0,
+      "length_mm": 2.506643
+    },
+    "F.Cu": {
+      "tracks": 4,
+      "vias": 0,
+      "length_mm": 1.770913
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 2,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 29,
+    "warnings": 381,
+    "unconnected": 307
+  },
+  "candidate_drc": {
+    "errors": 32,
+    "warnings": 379,
+    "unconnected": 306
+  },
+  "introduced_errors": [
+    {
+      "description": "Items shorting two nets (nets GND and Net-(U203-OV1))",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of R209 on B.Cu",
+          "pos": {
+            "x": -15.45,
+            "y": -21.88
+          },
+          "uuid": "27812bce-b5a7-4c14-b01c-c62a09261552"
+        },
+        {
+          "description": "Via [Net-(U203-OV1)] on F.Cu - B.Cu",
+          "pos": {
+            "x": -15.774999,
+            "y": -21.6
+          },
+          "uuid": "67985fa4-c7a0-4094-be6c-c7f7ded5c078"
+        }
+      ],
+      "severity": "error",
+      "type": "shorting_items"
+    },
+    {
+      "description": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.0000 mm)",
+      "items": [
+        {
+          "description": "Pad 2 [GND] of R209 on B.Cu",
+          "pos": {
+            "x": -15.45,
+            "y": -21.88
+          },
+          "uuid": "27812bce-b5a7-4c14-b01c-c62a09261552"
+        },
+        {
+          "description": "Via [Net-(U203-OV1)] on F.Cu - B.Cu",
+          "pos": {
+            "x": -15.774999,
+            "y": -21.6
+          },
+          "uuid": "67985fa4-c7a0-4094-be6c-c7f7ded5c078"
+        }
+      ],
+      "severity": "error",
+      "type": "hole_clearance"
+    },
+    {
+      "description": "Rear solder mask aperture bridges items with different nets",
+      "items": [
+        {
+          "description": "Via [Net-(U203-OV1)] on F.Cu - B.Cu",
+          "pos": {
+            "x": -15.774999,
+            "y": -21.6
+          },
+          "uuid": "67985fa4-c7a0-4094-be6c-c7f7ded5c078"
+        },
+        {
+          "description": "Pad 2 [GND] of R209 on B.Cu",
+          "pos": {
+            "x": -15.45,
+            "y": -21.88
+          },
+          "uuid": "27812bce-b5a7-4c14-b01c-c62a09261552"
+        }
+      ],
+      "severity": "error",
+      "type": "solder_mask_bridge"
+    }
+  ],
+  "introduced_error_item_uuids": [
+    "27812bce-b5a7-4c14-b01c-c62a09261552",
+    "67985fa4-c7a0-4094-be6c-c7f7ded5c078"
+  ],
+  "project_schematic_rules_hash_check": "External responsibility; this script does not modify them",
+  "scope": "Additive routing and native DRC regression; does not claim circuit or signal-integrity verification"
+}

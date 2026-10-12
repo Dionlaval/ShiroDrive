@@ -1,0 +1,45 @@
+{
+  "removed": [
+    {
+      "uuid": "65ffde8f-24df-4c84-89d8-36f8597a9d51",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "start": [
+        -17780001,
+        -11529999
+      ],
+      "end": [
+        -17780000,
+        -12349999
+      ]
+    },
+    {
+      "uuid": "c27971af-5589-4f82-8871-dee3f3b4aa32",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "start": [
+        -18336600,
+        -10973397
+      ],
+      "end": [
+        -17780001,
+        -11529999
+      ]
+    },
+    {
+      "uuid": "ea3de25d-2047-483c-bc10-e36b76c5c330",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_VIA",
+      "start": [
+        -17780000,
+        -12349999
+      ],
+      "end": [
+        -17780000,
+        -12349999
+      ]
+    }
+  ],
+  "moved": [],
+  "reason": "Remove two invalid dangling UART bridge RX tracks and their end via; reroute actual U901\u2013R903 connection."
+}

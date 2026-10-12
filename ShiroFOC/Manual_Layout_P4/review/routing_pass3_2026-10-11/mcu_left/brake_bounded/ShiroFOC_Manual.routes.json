@@ -1,0 +1,31 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/stagger_bopen/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "SPI3_MOSI_MCU",
+      "source": "4a2c25db-8a6c-41ad-9632-05125b8033f6",
+      "target": "bd799b00-6e2e-4030-886a-1e5e72051f2b",
+      "source_ref": "U4",
+      "source_pin": "56",
+      "target_ref": "R314",
+      "target_pin": "1",
+      "distance_mm": 1.5840419198900642,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 21.087394952774048
+    }
+  ]
+}

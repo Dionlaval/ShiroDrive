@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_08/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "50472e0a2f1a7ba792589dc73dc0080b39ec80e8b543991150fb515b0d1c73aa",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_12/ShiroFOC_Manual.kicad_pcb",
+  "candidate_sha256": "2e0d00b2ca39fba1ed9455682216f14319c1ae8c548aebefb1b5fa9ddc02aa3a",
+  "accepted_sources": [
+    {
+      "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/support_ground/final/delta.json",
+      "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/support_ground/final/ShiroFOC_Manual.kicad_pcb",
+      "sha256": "f49cc228baa62285d844d8512b3c0f2e86e719e2b63a8e3ea4fbc8ed0461f400"
+    },
+    {
+      "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/root_escape/c312/delta.json",
+      "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/root_escape/c312/ShiroFOC_Manual.kicad_pcb",
+      "sha256": "024af5c2a51152e9913bd3d4e1aea13eaa32093f793fd10dbb6b029b0896f8d8"
+    },
+    {
+      "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/input_b_clean/delta.json",
+      "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/input_b_clean/ShiroFOC_Manual.kicad_pcb",
+      "sha256": "a8ac0ae1e4ff093cebcc1983d2021d580bc3a31608101762ca214b8bd1bde483"
+    },
+    {
+      "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/precise_b_simplified/delta.json",
+      "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/precise_b_simplified/ShiroFOC_Manual.kicad_pcb",
+      "sha256": "70b06e191b8db16708a7c1031bd4ff879e474da9878455b7e3bcc870b0418e11"
+    }
+  ],
+  "baseline_copper_count": 1526,
+  "candidate_copper_count": 1628,
+  "unchanged_baseline_uuid_count": 1503,
+  "declared_old_uuid_removals": 61,
+  "declared_new_uuid_count": 163,
+  "fields_checked": [
+    "class",
+    "net name",
+    "layer",
+    "layer set",
+    "start/end coordinates",
+    "arc midpoint",
+    "width",
+    "per-layer via diameters",
+    "via drill",
+    "via type",
+    "locked"
+  ],
+  "failures": []
+}

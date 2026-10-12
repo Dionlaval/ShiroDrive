@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/ntc_placement_2026-10-11/final/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/ntc_placement_2026-10-11/final/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "aaf146629e4152249c9dac33abb3b74b821fa0c7ba292b358c85ccb19a27e37c",
+  "candidate_sha256": "aaf146629e4152249c9dac33abb3b74b821fa0c7ba292b358c85ccb19a27e37c",
+  "footprint_count": 272,
+  "changed_footprints": [],
+  "removed_old_copper": [],
+  "changed_old_copper": [],
+  "existing_copper_unchanged": true,
+  "new_item_count": 0,
+  "new_items": [],
+  "new_track_widths_mm": {},
+  "invalid_new_widths": [],
+  "invalid_new_vias": [],
+  "outside_board_copper": [],
+  "via_pad_overlaps": [],
+  "new_routing_by_net": {},
+  "new_routing_by_layer": {},
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "introduced_errors": [],
+  "introduced_error_item_uuids": [],
+  "project_schematic_rules_hash_check": "External responsibility; this script does not modify them",
+  "scope": "Additive routing and native DRC regression; does not claim circuit or signal-integrity verification"
+}

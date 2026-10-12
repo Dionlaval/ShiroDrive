@@ -1,0 +1,350 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/digital/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.254,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "Net-(U203-CP2)",
+      "source": "5fe72292-e002-4e4d-b897-5c5a1b201da4",
+      "target": "fe471677-4e5f-4fa7-adde-3584ec3c9c34",
+      "source_ref": "R208",
+      "source_pin": "2",
+      "target_ref": "R209",
+      "target_pin": "1",
+      "distance_mm": 3.6055512754639896e-06,
+      "length_mm": 1.1500000000000004,
+      "vias": 1,
+      "path_points": 25,
+      "rejected": false,
+      "new_items": [
+        "4e36e25a-1a21-40ff-8a82-5bd7ca36f9bf",
+        "8869cc94-55e5-4ef3-9d62-b11cde838e3c",
+        "77243c0c-42d8-4f0d-9de9-b03c14962dfb"
+      ],
+      "elapsed_seconds": 1.1030781269073486
+    },
+    {
+      "net": "Net-(U203-OV1)",
+      "source": "e8429220-4c2c-4138-827a-58452590906b",
+      "target": "bdaca54c-df90-42fe-b39f-1c27661b1d4c",
+      "source_ref": "R210",
+      "source_pin": "2",
+      "target_ref": "R211",
+      "target_pin": "1",
+      "distance_mm": 2.23606797749979e-06,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 1.1866140365600586
+    },
+    {
+      "net": "Net-(U203-OV2)",
+      "source": "44e18072-9efb-4e4d-9db7-234d23b7a0fa",
+      "target": "fc0c9c71-2089-43ac-a15c-c61ff8876609",
+      "source_ref": "R212",
+      "source_pin": "2",
+      "target_ref": "R213",
+      "target_pin": "1",
+      "distance_mm": 3.6055512754639896e-06,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 1.2063031196594238
+    },
+    {
+      "net": "Net-(U203-PR1)",
+      "source": "585a40a6-5450-4466-a968-e3741c9ea893",
+      "target": "793c3d36-509a-4d55-9f49-bca31fff411f",
+      "source_ref": "R206",
+      "source_pin": "2",
+      "target_ref": "R207",
+      "target_pin": "1",
+      "distance_mm": 3.6055512754639896e-06,
+      "length_mm": 1.2500000000000004,
+      "vias": 1,
+      "path_points": 27,
+      "rejected": false,
+      "new_items": [
+        "c68e2ba9-ce26-4a45-89c8-ec655d76fcde",
+        "30ae4289-88a9-436f-9643-8895f4493832",
+        "df279bf6-0aa8-4f73-aea8-364d862ee86a"
+      ],
+      "elapsed_seconds": 1.0886800289154053
+    },
+    {
+      "net": "Net-(U205-FB)",
+      "source": "095b7023-52dd-4406-8fb6-4b113c89a5e3",
+      "target": "5a5ce2fb-46d2-40e4-b560-34313223854c",
+      "source_ref": "R216",
+      "source_pin": "2",
+      "target_ref": "R217",
+      "target_pin": "1",
+      "distance_mm": 0.9513158255815993,
+      "length_mm": 0.970710678118655,
+      "vias": 0,
+      "path_points": 20,
+      "rejected": false,
+      "new_items": [
+        "9bcc85b0-11ea-4042-a183-4456d0f47949",
+        "864e86f8-c11a-449e-8714-16c604596727"
+      ],
+      "elapsed_seconds": 1.0868089199066162
+    },
+    {
+      "net": "Net-(U205-FB)",
+      "source": "5a5ce2fb-46d2-40e4-b560-34313223854c",
+      "target": "0e412362-9837-46b0-b42d-368212055851",
+      "source_ref": "R217",
+      "source_pin": "1",
+      "target_ref": "U205",
+      "target_pin": "1",
+      "distance_mm": 1.2002715746205106,
+      "length_mm": 1.0621320343559644,
+      "vias": 0,
+      "path_points": 21,
+      "rejected": false,
+      "new_items": [
+        "071842f8-8850-4dc3-80a8-4cc313d76a9f",
+        "b22eeea6-f675-4ef3-bae9-0149c19be3a3"
+      ],
+      "elapsed_seconds": 1.0925931930541992
+    },
+    {
+      "net": "/5 V / 3.3 V power/U205_AGND",
+      "source": "a9bd491c-c4bb-4fee-916b-2709127e8407",
+      "target": "1ff2019a-0962-4518-affa-0d25a93d4d37",
+      "source_ref": "R217",
+      "source_pin": "2",
+      "target_ref": "U205",
+      "target_pin": "3",
+      "distance_mm": 1.4483850744594822,
+      "length_mm": 1.5156854249492384,
+      "vias": 0,
+      "path_points": 28,
+      "rejected": false,
+      "new_items": [
+        "9945123f-112c-43fe-aaa8-70f97bfe2ff5",
+        "0733db47-6c6b-4806-873d-006f123feb09",
+        "132fe13b-1cd9-49b4-9278-70c943551480"
+      ],
+      "elapsed_seconds": 1.098071575164795
+    },
+    {
+      "net": "Net-(U604-ILIM)",
+      "source": "4db34a09-17c6-42fd-8585-c24ca2654ff0",
+      "target": "418d5f16-17dd-4158-be89-2164e87a7a9f",
+      "source_ref": "U604",
+      "source_pin": "5",
+      "target_ref": "R618",
+      "target_pin": "1",
+      "distance_mm": 2.8465637178886407,
+      "length_mm": 3.1056349186104035,
+      "vias": 0,
+      "path_points": 54,
+      "rejected": false,
+      "new_items": [
+        "41ba5c95-6a48-45fa-8672-65e6e43a5fb6",
+        "69d609ce-354a-4e77-b0be-00ea29ad1935",
+        "71a76487-e851-4920-be10-8acfe9435bd7",
+        "ba1b831e-5e7c-4b1f-88b4-5ca5026b0f71",
+        "e6647d25-008e-4ef6-a44b-a736dee4f65c"
+      ],
+      "elapsed_seconds": 1.1011998653411865
+    },
+    {
+      "net": "Net-(R605-Pad2)",
+      "source": "29f16351-2367-4a40-a5d5-c03422323c6c",
+      "target": "7ee42540-9401-4649-92c1-4df619275295",
+      "source_ref": "R605",
+      "source_pin": "2",
+      "target_ref": "R615",
+      "target_pin": "1",
+      "distance_mm": 0.99,
+      "length_mm": 0.9000000000000002,
+      "vias": 0,
+      "path_points": 19,
+      "rejected": false,
+      "new_items": [
+        "0a993140-5ab4-4767-bcd9-6696b79ce49b"
+      ],
+      "elapsed_seconds": 1.090336799621582
+    },
+    {
+      "net": "Net-(R606-Pad2)",
+      "source": "a703d724-e46a-492a-b964-63f4e7e4dece",
+      "target": "cd0e1bdc-5642-405d-ba71-75a35d2e146a",
+      "source_ref": "R616",
+      "source_pin": "1",
+      "target_ref": "R606",
+      "target_pin": "2",
+      "distance_mm": 0.98,
+      "length_mm": 0.9500000000000003,
+      "vias": 0,
+      "path_points": 20,
+      "rejected": false,
+      "new_items": [
+        "887c95c4-bb1a-4f09-ad84-2b48f5a74505"
+      ],
+      "elapsed_seconds": 1.0999271869659424
+    },
+    {
+      "net": "Net-(U502-IN+)",
+      "source": "d6b1e8df-6012-4b04-9110-fe8920184ba7",
+      "target": "390c69f1-af4c-4c9e-86b0-c74dd15adc6a",
+      "source_ref": "C504",
+      "source_pin": "1",
+      "target_ref": "R510",
+      "target_pin": "2",
+      "distance_mm": 1.17052238765476,
+      "length_mm": 0.9500000000000003,
+      "vias": 0,
+      "path_points": 20,
+      "rejected": false,
+      "new_items": [
+        "5446d9c6-890f-4dd0-8323-8cc500c94f30"
+      ],
+      "elapsed_seconds": 1.117410659790039
+    },
+    {
+      "net": "Net-(U502-IN+)",
+      "source": "5413670d-b9bb-4e7c-915e-7650db24aca0",
+      "target": "390c69f1-af4c-4c9e-86b0-c74dd15adc6a",
+      "source_ref": "R506",
+      "source_pin": "2",
+      "target_ref": "R510",
+      "target_pin": "2",
+      "distance_mm": 1.2500109999520004,
+      "length_mm": 1.1500000000000004,
+      "vias": 0,
+      "path_points": 24,
+      "rejected": false,
+      "new_items": [
+        "f62d97c9-d5cc-44a2-b70d-00af1cf2cc84"
+      ],
+      "elapsed_seconds": 1.0907049179077148
+    },
+    {
+      "net": "Net-(U502-IN-)",
+      "source": "901c453a-2867-462f-a714-1098d2f9f2de",
+      "target": "753a2ddb-64c3-49b4-b87f-5630df7fdccf",
+      "source_ref": "U502",
+      "source_pin": "4",
+      "target_ref": "U502",
+      "target_pin": "5",
+      "distance_mm": 0.6500000000007692,
+      "length_mm": 0.65,
+      "vias": 0,
+      "path_points": 14,
+      "rejected": false,
+      "new_items": [
+        "475e33e3-8812-4699-9d53-2067f783c57c"
+      ],
+      "elapsed_seconds": 1.1070950031280518
+    },
+    {
+      "net": "/Brake chopper/BRAKE_OV_CMD",
+      "source": "87ae4c0b-ceb2-41b1-9739-d20eeccfbd21",
+      "target": "6bb6f7d7-3c41-4d5a-b3ba-8309892f7887",
+      "source_ref": "U502",
+      "source_pin": "1",
+      "target_ref": "R510",
+      "target_pin": "1",
+      "distance_mm": 1.3194705150188086,
+      "length_mm": 1.4485281374238574,
+      "vias": 0,
+      "path_points": 25,
+      "rejected": false,
+      "new_items": [
+        "ba7966c3-4e72-4a24-b21a-d3d9a622aabf",
+        "2b6244fa-d916-4b2b-b9ee-fae97d0058a9"
+      ],
+      "elapsed_seconds": 1.1054329872131348
+    },
+    {
+      "net": "/Brake chopper/BRAKE_OV_CMD",
+      "source": "87ae4c0b-ceb2-41b1-9739-d20eeccfbd21",
+      "target": "0e2231ae-7d23-46b8-95f9-9dd53da71243",
+      "source_ref": "U502",
+      "source_pin": "1",
+      "target_ref": "D502",
+      "target_pin": "2",
+      "distance_mm": 1.3480442871066958,
+      "length_mm": 1.0121320343559643,
+      "vias": 0,
+      "path_points": 20,
+      "rejected": false,
+      "new_items": [
+        "35f73a31-773e-4505-abeb-cbf93b20fc06",
+        "0457489e-e801-41b5-ad40-b9ea02532274",
+        "81f7f08f-ce76-4631-88ea-9851774b8207"
+      ],
+      "elapsed_seconds": 1.0957880020141602
+    },
+    {
+      "net": "/Brake chopper/BRAKE_PWM_DRV",
+      "source": "e0e7723c-05eb-4c4c-8ff0-f42a07b8612d",
+      "target": "0e647413-dbd0-4cfa-9d53-981da34dd22f",
+      "source_ref": "D502",
+      "source_pin": "3",
+      "target_ref": "U501",
+      "target_pin": "3",
+      "distance_mm": 1.1305318129097472,
+      "length_mm": 1.2242640687119293,
+      "vias": 0,
+      "path_points": 23,
+      "rejected": false,
+      "new_items": [
+        "c0cd3335-5fc1-44bd-9b33-475d9e2c7346",
+        "377dc0bc-3832-485b-b67b-bc2ec40e0e63"
+      ],
+      "elapsed_seconds": 1.0971338748931885
+    },
+    {
+      "net": "/Brake chopper/BRAKE_PWM_DRV",
+      "source": "8212ed28-2242-45f7-be57-128fd407ecce",
+      "target": "0e647413-dbd0-4cfa-9d53-981da34dd22f",
+      "source_ref": "R505",
+      "source_pin": "1",
+      "target_ref": "U501",
+      "target_pin": "3",
+      "distance_mm": 1.4350261321662405,
+      "length_mm": 1.3500000000000005,
+      "vias": 0,
+      "path_points": 28,
+      "rejected": false,
+      "new_items": [
+        "65647f3b-f0f3-4f25-ba1e-b801f8c8493b"
+      ],
+      "elapsed_seconds": 1.1173810958862305
+    },
+    {
+      "net": "BRAKE_PWM",
+      "source": "bbf0e96b-4754-4656-a28b-b5491173ee49",
+      "target": "d0d5b993-150d-482c-afd2-17043567435f",
+      "source_ref": "R501",
+      "source_pin": "1",
+      "target_ref": "R502",
+      "target_pin": "1",
+      "distance_mm": 0.99,
+      "length_mm": 0.9500000000000003,
+      "vias": 0,
+      "path_points": 20,
+      "rejected": false,
+      "new_items": [
+        "b06f285e-08a6-4bbd-b3bb-cc9fa9b1a58e"
+      ],
+      "elapsed_seconds": 1.0974059104919434
+    }
+  ]
+}

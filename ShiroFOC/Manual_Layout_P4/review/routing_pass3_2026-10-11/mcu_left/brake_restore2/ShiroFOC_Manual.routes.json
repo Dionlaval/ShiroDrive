@@ -1,0 +1,52 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/clk_open/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "Net-(U601-MOSI)",
+      "source": "54344c8f-edb0-4e72-9b15-f662fcc6cee6",
+      "target": "23abd763-343c-4663-b322-e4f23f235a08",
+      "source_ref": "U601",
+      "source_pin": "4",
+      "target_ref": "R314",
+      "target_pin": "2",
+      "distance_mm": 9.39120632560056,
+      "length_mm": 5.278553390593278,
+      "vias": 0,
+      "path_points": 208,
+      "rejected": false,
+      "new_items": [
+        "ae38915b-b63e-4ad8-bde2-52cba21b1ed0",
+        "2d9a720e-bca0-4275-8394-f25763b71b2c",
+        "47bce0eb-6326-40e5-8c19-35f307028640",
+        "138f6bc5-279a-4eb0-aa21-3f50ec641f05"
+      ],
+      "elapsed_seconds": 5.41521430015564
+    },
+    {
+      "net": "Net-(U601-CLK)",
+      "source": "62dc6c53-ed4a-4334-aa56-a2a3ed380b6c",
+      "target": "1aa3008f-dc25-4065-b918-76a8f83d0856",
+      "source_ref": "U601",
+      "source_pin": "2",
+      "target_ref": "R313",
+      "target_pin": "2",
+      "distance_mm": 10.86195223014721,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -4,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 6.036037921905518
+    }
+  ]
+}

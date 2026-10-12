@@ -1,0 +1,224 @@
+(footprint "IC18_MPM3620AGQV-Z_MNP"
+	(version 20211014)
+	(generator pcbnew)
+	(layer "F.Cu")
+	(tags "MPM3620AGQV-Z ")
+	(attr smd)
+	(fp_text reference "REF**"
+		(at 0 1.249985 unlocked)
+		(layer F.SilkS)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15))))
+	(fp_text value IC18_MPM3620AGQV-Z_MNP
+		(at 0 1.249985 unlocked)
+		(layer F.Fab)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15))))
+	(fp_text user "${REFERENCE}"
+		(at 0 1.249985 unlocked)
+		(layer F.Fab)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15))))
+	(fp_line
+		(start -2.0501 -2.825394)
+		(end -2.0501 2.8067)
+		(layer "F.CrtYd")
+		(width 0.1524))
+	(fp_line
+		(start -2.0501 2.8067)
+		(end 2.050161 2.8067)
+		(layer "F.CrtYd")
+		(width 0.1524))
+	(fp_line
+		(start 2.050161 2.8067)
+		(end 2.050161 -2.825394)
+		(layer "F.CrtYd")
+		(width 0.1524))
+	(fp_line
+		(start 2.050161 -2.825394)
+		(end -2.0501 -2.825394)
+		(layer "F.CrtYd")
+		(width 0.1524))
+	(fp_line
+		(start -1.6764 2.6797)
+		(end 1.6764 2.6797)
+		(layer "F.SilkS")
+		(width 0.1524))
+	(fp_line
+		(start -1.5494 2.5527)
+		(end 1.5494 2.5527)
+		(layer "F.Fab")
+		(width 0.0254))
+	(fp_line
+		(start 1.5494 2.5527)
+		(end 1.5494 -2.5527)
+		(layer "F.Fab")
+		(width 0.0254))
+	(fp_line
+		(start 1.5494 -2.5527)
+		(end -1.5494 -2.5527)
+		(layer "F.Fab")
+		(width 0.0254))
+	(fp_line
+		(start -1.5494 -2.5527)
+		(end -1.5494 2.5527)
+		(layer "F.Fab")
+		(width 0.0254))
+	(fp_poly
+		(pts
+			(xy -1.3138 2.2279)
+			(xy -0.7042 2.2279)
+			(xy -0.7042 0.2721)
+			(xy -1.3138 0.2721))
+		(layer "F.Mask")
+		(width 0)
+		(fill solid))
+	(fp_poly
+		(pts
+			(xy 0.7039 0.272984)
+			(xy 1.3138 0.2721)
+			(xy 1.3138 2.2279)
+			(xy 0.7042 2.2279))
+		(layer "F.Mask")
+		(width 0)
+		(fill solid))
+	(fp_poly
+		(pts
+			(xy -1.3138 2.2279)
+			(xy -0.7042 2.2279)
+			(xy -0.7042 0.2721)
+			(xy -1.3138 0.2721))
+		(layer "F.Paste")
+		(width 0)
+		(fill solid))
+	(fp_poly
+		(pts
+			(xy 0.7039 0.272984)
+			(xy 1.3138 0.2721)
+			(xy 1.3138 2.2279)
+			(xy 0.7042 2.2279))
+		(layer "F.Paste")
+		(width 0)
+		(fill solid))
+	(pad "4" smd rect
+		(at -1.25 0.399984)
+		(size 1.0922 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "9" smd rect
+		(at 1.25 0.399984)
+		(size 1.0922 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "5" smd rect
+		(at -1.25 1.249985)
+		(size 1.0922 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "8" smd rect
+		(at 1.25 1.249985)
+		(size 1.0922 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "6" smd rect
+		(at -1.25 2.099986)
+		(size 1.0922 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "7" smd rect
+		(at 1.25 2.099986)
+		(size 1.0922 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "3" smd rect
+		(at -1.250061 -0.250015 90)
+		(size 0.254 1.0922)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "10" smd rect
+		(at 1.250061 -0.250015 90)
+		(size 0.254 1.0922)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "16" smd rect
+		(at -0.25 -2.253894 90)
+		(size 1.0922 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "15" smd rect
+		(at 0.25 -2.253894 90)
+		(size 1.0922 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "18" smd rect
+		(at -1.25 -2.444394 90)
+		(size 0.7112 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "14" smd rect
+		(at 0.75 -2.444394 90)
+		(size 0.7112 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "12" smd rect
+		(at 1.440561 -1.55001)
+		(size 0.7112 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "1" smd rect
+		(at -1.440439 -1.55001)
+		(size 0.7112 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "2" smd rect
+		(at -1.250061 -0.900015 90)
+		(size 0.254 1.0922)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "17" smd rect
+		(at -0.75 -2.444394 90)
+		(size 0.7112 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "13" smd rect
+		(at 1.25 -2.444394 90)
+		(size 0.7112 0.254)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "11" smd rect
+		(at 1.250061 -0.900015 90)
+		(size 0.254 1.0922)
+		(layers "F.Cu" "F.Paste" "F.Mask"))
+	(pad "4" smd rect
+		(at -1.0090000000000001 1.25)
+		(size 0.6096 1.9558)
+		(layers "F.Cu"))
+	(pad "7" smd rect
+		(at 1.00885 1.25)
+		(size 0.6099000000000001 1.9558)
+		(layers "F.Cu"))
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(hatch edge 0.3)
+		(connect_pads
+			(clearance 0))
+		(min_thickness 0.1)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed))
+		(fill
+			(thermal_gap 0.3)
+			(thermal_bridge_width 0.3))
+		(polygon
+			(pts
+				(xy -0.625 -1.45)
+				(xy 0.625 -1.45)
+				(xy 0.625 0)
+				(xy -0.625 0))))
+	(fp_circle
+		(center -1.9 -2.65)
+		(end -1.8 -2.65)
+		(layer "F.SilkS")
+		(width 0.1)
+		(fill solid))
+	(model "${KIPRJMOD}/libs/3dmodels/MPM3606AGQV.step"
+		(offset
+			(xyz -1.5 -2.5 0.1))
+		(scale
+			(xyz 1 1 1))
+		(rotate
+			(xyz 0 0 0))))

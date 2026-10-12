@@ -1,0 +1,91 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+11/63 Net-(U203-CP2): 25 points; 1.15 mm; 1 vias; accepted candidate; 1.10s
+15/63 Net-(U203-OV1): -2 points; 0.00 mm; 0 vias; not routed; 1.19s
+18/63 Net-(U203-OV2): -2 points; 0.00 mm; 0 vias; not routed; 1.21s
+21/63 Net-(U203-PR1): 27 points; 1.25 mm; 1 vias; accepted candidate; 1.09s
+25/63 Net-(U205-FB): 20 points; 0.97 mm; 0 vias; accepted candidate; 1.09s
+26/63 Net-(U205-FB): 21 points; 1.06 mm; 0 vias; accepted candidate; 1.09s
+28/63 /5 V / 3.3 V power/U205_AGND: 28 points; 1.52 mm; 0 vias; accepted candidate; 1.10s
+36/63 Net-(U604-ILIM): 54 points; 3.11 mm; 0 vias; accepted candidate; 1.10s
+37/63 Net-(R605-Pad2): 19 points; 0.90 mm; 0 vias; accepted candidate; 1.09s
+40/63 Net-(R606-Pad2): 20 points; 0.95 mm; 0 vias; accepted candidate; 1.10s
+49/63 Net-(U502-IN+): 20 points; 0.95 mm; 0 vias; accepted candidate; 1.12s
+51/63 Net-(U502-IN+): 24 points; 1.15 mm; 0 vias; accepted candidate; 1.09s
+56/63 Net-(U502-IN-): 14 points; 0.65 mm; 0 vias; accepted candidate; 1.11s
+57/63 /Brake chopper/BRAKE_OV_CMD: 25 points; 1.45 mm; 0 vias; accepted candidate; 1.11s
+58/63 /Brake chopper/BRAKE_OV_CMD: 20 points; 1.01 mm; 0 vias; accepted candidate; 1.10s
+60/63 /Brake chopper/BRAKE_PWM_DRV: 23 points; 1.22 mm; 0 vias; accepted candidate; 1.10s
+61/63 /Brake chopper/BRAKE_PWM_DRV: 28 points; 1.35 mm; 0 vias; accepted candidate; 1.12s
+63/63 BRAKE_PWM: 20 points; 0.95 mm; 0 vias; accepted candidate; 1.10s
+{"candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/aux/ShiroFOC_Manual.kicad_pcb", "connections": 16, "new_items": 32, "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/aux/ShiroFOC_Manual.routes.json"}
+Found 425 violations
+Found 386 unconnected items
+Saved DRC Report to /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/aux/drc.json
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+05:47:00 PM: Debug: Adding duplicate image handler for 'PNG file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'JPEG file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'TIFF file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'GIF file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'PNM file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'PCX file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'IFF file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'TGA file'
+05:47:00 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "FAIL",
+  "failures": [
+    "New DRC errors appeared"
+  ],
+  "new_item_count": 267,
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 34,
+    "warnings": 391,
+    "unconnected": 386
+  }
+}
+{
+  "status": "FAIL",
+  "failures": [
+    "New DRC errors appeared"
+  ],
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 125,
+      "vias": 0,
+      "length_mm": 138.356337
+    },
+    "F.Cu": {
+      "tracks": 65,
+      "vias": 0,
+      "length_mm": 65.403479
+    },
+    "Signals L3": {
+      "tracks": 52,
+      "vias": 0,
+      "length_mm": 97.311075
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 25,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 34,
+    "warnings": 391,
+    "unconnected": 386
+  }
+}

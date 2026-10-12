@@ -1,0 +1,66 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/vbus/phasec_guided/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "NTC_PHASE_C",
+      "source": "8620edfb-5c81-4041-aedc-f5d5d06266e2",
+      "target": "3f199580-9e60-4891-a464-c51186b23659",
+      "source_ref": "U4",
+      "source_pin": "13",
+      "target_ref": "R713",
+      "target_pin": "2",
+      "distance_mm": 9.735662171700959,
+      "length_mm": 10.535838738653279,
+      "vias": 0,
+      "path_points": 369,
+      "rejected": false,
+      "new_items": [
+        "c9206aff-f1c1-46b3-a476-ba969268a839",
+        "125b411d-5168-436a-ba28-9c0e94ef7034",
+        "06cae860-4ad2-4aa1-9220-d4c251fc58d2",
+        "c5f125a4-3dc7-4244-8bc3-0dc2f510073c",
+        "a251809b-18ed-414b-985a-3950512fc183",
+        "89e7502f-7412-4746-9631-10bc83b75c4f",
+        "aad95000-05b2-4e5d-8540-ec3906547ba2",
+        "9ebfffb5-726f-4ce0-9027-e3b61352e3ec",
+        "3730c1ca-8197-49c3-b535-c5d557555f67"
+      ],
+      "elapsed_seconds": 11.112857103347778
+    },
+    {
+      "net": "VBUS_SENSE",
+      "source": "0053dd7e-d0aa-4c6a-94bc-9733e61a78cd",
+      "target": "57c7a55f-14de-4341-a901-4a2020f773c1",
+      "source_ref": "U4",
+      "source_pin": "9",
+      "target_ref": "U602",
+      "target_pin": "12",
+      "distance_mm": 12.711877499172537,
+      "length_mm": 16.1549512883487,
+      "vias": 1,
+      "path_points": 555,
+      "rejected": false,
+      "new_items": [
+        "898c22fc-077c-4ef6-a02e-d851c72b61f3",
+        "c33dd5f1-b952-41e4-8a72-7bc8ca31d8ec",
+        "b6d118d1-1fe8-4b8a-9517-4c6a0c852a84",
+        "c8dffbf0-b442-4e66-984c-1c98baa39019",
+        "f5a82516-c83f-414b-bf1e-57133edad1fc",
+        "84e8ed77-452f-413c-99cf-baf614789ad3",
+        "7f223314-8300-45b2-a0db-1de3001b99d8",
+        "da8717bf-78fe-4581-bd7c-0ad78c8f86de"
+      ],
+      "elapsed_seconds": 12.820024967193604
+    }
+  ]
+}

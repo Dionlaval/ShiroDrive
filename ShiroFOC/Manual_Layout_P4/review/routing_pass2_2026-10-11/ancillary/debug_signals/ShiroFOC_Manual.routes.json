@@ -1,0 +1,46 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/ancillary/signals/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "BRAKE_PWM",
+      "source": "78ff7d13-0581-420f-877d-88407af32004",
+      "target": "bbf0e96b-4754-4656-a28b-b5491173ee49",
+      "source_ref": "U4",
+      "source_pin": "60",
+      "target_ref": "R501",
+      "target_pin": "1",
+      "distance_mm": 18.63812480469438,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 4.462538003921509
+    },
+    {
+      "net": "/USB service/UART_BRIDGE_RX",
+      "source": "e2000345-81b8-4828-9a4a-79193f76c834",
+      "target": "d391353e-1503-4f5f-a904-4870d98fe326",
+      "source_ref": "R903",
+      "source_pin": "2",
+      "target_ref": "U901",
+      "target_pin": "17",
+      "distance_mm": 23.35591223609134,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 4.5300133228302
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+Power-support placement candidate, 11 October 2026
+
+Deliverable: candidate.kicad_pcb. The project working PCB was not modified.
+Apply only the footprint and copper deltas listed in move_manifest.json.
+The manifest includes reference-field transforms for C101/C103/C110.
+
+Placed 10 previously off-board parts:
+  C3/C7/C11, 4.7 uF phase-local capacitors: back, x=8.55,
+    y=2.5/10/17.5, 180 degrees. VM pad faces right, 1.43 mm from the
+    nearest corresponding bridge VM plated pad; GND faces the shunt side.
+  TH701/702/703: back, x=15.85, y=1.2/8.7/16.2, 90 degrees.
+    Each sensor sits alongside its bridge package on the opposite side,
+    clear of VM thermal holes, phase terminal holes and mounting holes.
+    Keep these quiet sensor nets isolated from switching copper when routing.
+  C101: front, (12.85,-4.4), 180 degrees, at the first phase/input-bus region.
+  C102/C103/C110: back, x=8.55, y=-3.5/5.85/13.35, 180 degrees.
+    These form a partial local ceramic bus bank facing the existing VM vias.
+
+Kept the three bridges, three Kelvin shunts, gate resistors, existing small
+input capacitors and bootstrap capacitors exactly in their original positions.
+All footprint UUIDs, pad UUIDs, pad numbers and pad nets are preserved.
+267 footprints were unchanged in position/orientation/side.
+
+Removed 13 preliminary copper guide objects only: 10 tracks and 3 vias whose
+geometry shorted or infringed clearance to the newly placed capacitor pads.
+They are on GHS1/2/3, GLS1/2/3 and HS_RETURN_U/V/W; every UUID is in the manifest.
+No copper was added. The affected gate routes need to be rerouted together with
+their appropriate source returns after integrated placement is accepted.
+The remaining fragments deliberately preserve original routing intent.
+
+Deferred to the next placement pass:
+  DNP snubbers R415/C413, R425/C423, R435/C433, and bulk-bank C120/C130/C140/
+  C150/C160. They remain staged outside the board. The current compact power
+  region does not provide a good repeated snubber position without displacing
+  primary capacitor/Kelvin/gate corridors. Do not treat the deferred DNPs as
+  completed local snubbers.
+  R701/R702/R703/R711/R712/R713 are owned by the parent integration task near
+  the existing C711/C712/C713 quiet ADC filters.
+
+Validation: native geometry checks found no introduced component-body,
+courtyard or through-hole conflicts; DRC is checked specifically for the moved
+parts. Full-board DRC remains dominated by unfinished placement/routing and
+stale saved zone fills and is not a manufacturing-readiness result. No power
+current, thermal or emissions rating is asserted by this placement-only pass.

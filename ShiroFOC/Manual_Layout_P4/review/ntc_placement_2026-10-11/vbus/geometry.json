@@ -1,0 +1,1800 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/ntc_placement_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "b80f4e53a6b2d0f2141c7621ccca13b152eb86d52738a354707efabf63daf02e",
+  "previous_source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/placement_pass1_2026-10-11/final/ShiroFOC_Manual.kicad_pcb",
+  "current": {
+    "R103": {
+      "ref": "R103",
+      "value": "560k 0.1% 75V",
+      "position_mm": [
+        3.48,
+        19.65
+      ],
+      "rotation_deg": 180.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VM",
+          "position_mm": [
+            4.305,
+            19.65
+          ]
+        },
+        {
+          "number": "2",
+          "net": "Net-(R103-Pad2)",
+          "position_mm": [
+            2.655,
+            19.65
+          ]
+        }
+      ]
+    },
+    "R105": {
+      "ref": "R105",
+      "value": "28k 0.1%",
+      "position_mm": [
+        2.92,
+        20.9
+      ],
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "Net-(R103-Pad2)",
+          "position_mm": [
+            2.410001,
+            20.9
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position_mm": [
+            3.429999,
+            20.9
+          ]
+        }
+      ]
+    },
+    "R106": {
+      "ref": "R106",
+      "value": "1k",
+      "position_mm": [
+        1.47,
+        20.18
+      ],
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "Net-(R103-Pad2)",
+          "position_mm": [
+            1.47,
+            20.689999
+          ]
+        },
+        {
+          "number": "2",
+          "net": "VBUS_MUX_IN",
+          "position_mm": [
+            1.47,
+            19.670001
+          ]
+        }
+      ]
+    },
+    "C108": {
+      "ref": "C108",
+      "value": "10nF",
+      "position_mm": [
+        -10.775,
+        7.93
+      ],
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBUS_SENSE",
+          "position_mm": [
+            -10.775,
+            7.45
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position_mm": [
+            -10.775,
+            8.41
+          ]
+        }
+      ]
+    },
+    "U602": {
+      "ref": "U602",
+      "value": "TMUX1574PW",
+      "position_mm": [
+        -6.1675,
+        18.85
+      ],
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "EXT_FEEDBACK_SELECT",
+          "position_mm": [
+            -9.03,
+            21.125
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position_mm": [
+            -9.03,
+            20.475
+          ]
+        },
+        {
+          "number": "3",
+          "net": "Net-(U602A-S1B)",
+          "position_mm": [
+            -9.03,
+            19.825
+          ]
+        },
+        {
+          "number": "4",
+          "net": "FEEDBACK_A_H1",
+          "position_mm": [
+            -9.03,
+            19.175
+          ]
+        },
+        {
+          "number": "5",
+          "net": "GND",
+          "position_mm": [
+            -9.03,
+            18.525
+          ]
+        },
+        {
+          "number": "6",
+          "net": "Net-(U602A-S2B)",
+          "position_mm": [
+            -9.03,
+            17.875
+          ]
+        },
+        {
+          "number": "7",
+          "net": "FEEDBACK_B_H2",
+          "position_mm": [
+            -9.03,
+            17.225
+          ]
+        },
+        {
+          "number": "8",
+          "net": "GND",
+          "position_mm": [
+            -9.03,
+            16.575
+          ]
+        },
+        {
+          "number": "9",
+          "net": "FEEDBACK_I_H3",
+          "position_mm": [
+            -3.305,
+            16.575
+          ]
+        },
+        {
+          "number": "10",
+          "net": "Net-(U602A-S3B)",
+          "position_mm": [
+            -3.305,
+            17.225
+          ]
+        },
+        {
+          "number": "11",
+          "net": "GND",
+          "position_mm": [
+            -3.305,
+            17.875
+          ]
+        },
+        {
+          "number": "12",
+          "net": "VBUS_SENSE",
+          "position_mm": [
+            -3.305,
+            18.525
+          ]
+        },
+        {
+          "number": "13",
+          "net": "VBUS_MUX_IN",
+          "position_mm": [
+            -3.305,
+            19.175
+          ]
+        },
+        {
+          "number": "14",
+          "net": "VBUS_MUX_IN",
+          "position_mm": [
+            -3.305,
+            19.825
+          ]
+        },
+        {
+          "number": "15",
+          "net": "INPUT_MUX_ENABLE_N",
+          "position_mm": [
+            -3.305,
+            20.475
+          ]
+        },
+        {
+          "number": "16",
+          "net": "3V3",
+          "position_mm": [
+            -3.305,
+            21.125
+          ]
+        }
+      ]
+    },
+    "U4": {
+      "ref": "U4",
+      "value": "STSPIN32G4",
+      "position_mm": [
+        -5.1,
+        7.2
+      ],
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "3V3",
+          "position_mm": [
+            -9.545,
+            3.449055
+          ]
+        },
+        {
+          "number": "2",
+          "net": "3V3",
+          "position_mm": [
+            -9.545,
+            3.949181
+          ]
+        },
+        {
+          "number": "3",
+          "net": "EXT_SENSOR_FAULT_N",
+          "position_mm": [
+            -9.545,
+            4.449307
+          ]
+        },
+        {
+          "number": "4",
+          "net": "INPUT_MUX_ENABLE_N",
+          "position_mm": [
+            -9.545,
+            4.949433
+          ]
+        },
+        {
+          "number": "5",
+          "net": "CAN_TERM_DISABLE",
+          "position_mm": [
+            -9.545,
+            5.449559
+          ]
+        },
+        {
+          "number": "6",
+          "net": "Net-(U4A-PF0)",
+          "position_mm": [
+            -9.545,
+            5.949685
+          ]
+        },
+        {
+          "number": "7",
+          "net": "Net-(U4A-PF1)",
+          "position_mm": [
+            -9.545,
+            6.449811
+          ]
+        },
+        {
+          "number": "8",
+          "net": "/MCU / clock / SWD/NRST",
+          "position_mm": [
+            -9.545,
+            6.949937
+          ]
+        },
+        {
+          "number": "9",
+          "net": "VBUS_SENSE",
+          "position_mm": [
+            -9.545,
+            7.450063
+          ]
+        },
+        {
+          "number": "10",
+          "net": "NTC_BRAKE",
+          "position_mm": [
+            -9.545,
+            7.950189
+          ]
+        },
+        {
+          "number": "11",
+          "net": "NTC_PHASE_B",
+          "position_mm": [
+            -9.545,
+            8.450315
+          ]
+        },
+        {
+          "number": "12",
+          "net": "NTC_PHASE_A",
+          "position_mm": [
+            -9.545,
+            8.950441
+          ]
+        },
+        {
+          "number": "13",
+          "net": "NTC_PHASE_C",
+          "position_mm": [
+            -9.545,
+            9.450567
+          ]
+        },
+        {
+          "number": "14",
+          "net": "/Current / temperature/OPP_U1",
+          "position_mm": [
+            -9.545,
+            9.950693
+          ]
+        },
+        {
+          "number": "15",
+          "net": "OPO_U1",
+          "position_mm": [
+            -9.545,
+            10.450819
+          ]
+        },
+        {
+          "number": "16",
+          "net": "/Current / temperature/OPN_U1",
+          "position_mm": [
+            -9.545,
+            10.950945
+          ]
+        },
+        {
+          "number": "17",
+          "net": "IMU_INT1",
+          "position_mm": [
+            -8.850945,
+            11.645
+          ]
+        },
+        {
+          "number": "18",
+          "net": "IMU_INT2",
+          "position_mm": [
+            -8.350819,
+            11.645
+          ]
+        },
+        {
+          "number": "19",
+          "net": "OPO_V1",
+          "position_mm": [
+            -7.850693,
+            11.645
+          ]
+        },
+        {
+          "number": "20",
+          "net": "/Current / temperature/OPP_V1",
+          "position_mm": [
+            -7.350567,
+            11.645
+          ]
+        },
+        {
+          "number": "21",
+          "net": "I2C2_SCL",
+          "position_mm": [
+            -6.850441,
+            11.645
+          ]
+        },
+        {
+          "number": "22",
+          "net": "/Current / temperature/OPN_V1",
+          "position_mm": [
+            -6.350315,
+            11.645
+          ]
+        },
+        {
+          "number": "23",
+          "net": "/Current / temperature/OPP_W1",
+          "position_mm": [
+            -5.850189,
+            11.645
+          ]
+        },
+        {
+          "number": "24",
+          "net": "OPO_W1",
+          "position_mm": [
+            -5.350063,
+            11.645
+          ]
+        },
+        {
+          "number": "25",
+          "net": "/Current / temperature/OPN_W1",
+          "position_mm": [
+            -4.849937,
+            11.645
+          ]
+        },
+        {
+          "number": "26",
+          "net": "VREF+",
+          "position_mm": [
+            -4.349811,
+            11.645
+          ]
+        },
+        {
+          "number": "27",
+          "net": "VDDA",
+          "position_mm": [
+            -3.849685,
+            11.645
+          ]
+        },
+        {
+          "number": "28",
+          "net": "CAN_STB",
+          "position_mm": [
+            -3.349559,
+            11.645
+          ]
+        },
+        {
+          "number": "29",
+          "net": "GLS1",
+          "position_mm": [
+            -2.849433,
+            11.645
+          ]
+        },
+        {
+          "number": "30",
+          "net": "GLS2",
+          "position_mm": [
+            -2.349307,
+            11.645
+          ]
+        },
+        {
+          "number": "31",
+          "net": "GLS3",
+          "position_mm": [
+            -1.849181,
+            11.645
+          ]
+        },
+        {
+          "number": "32",
+          "net": "GND",
+          "position_mm": [
+            -1.349055,
+            11.645
+          ]
+        },
+        {
+          "number": "33",
+          "net": "unconnected-(U4C-NC-Pad33)",
+          "position_mm": [
+            -0.655,
+            10.950945
+          ]
+        },
+        {
+          "number": "34",
+          "net": "unconnected-(U4C-NC-Pad34)",
+          "position_mm": [
+            -0.655,
+            10.450819
+          ]
+        },
+        {
+          "number": "35",
+          "net": "BOOTSTRAP3",
+          "position_mm": [
+            -0.655,
+            9.950693
+          ]
+        },
+        {
+          "number": "36",
+          "net": "HS_RETURN_W",
+          "position_mm": [
+            -0.655,
+            9.450567
+          ]
+        },
+        {
+          "number": "37",
+          "net": "GHS3",
+          "position_mm": [
+            -0.655,
+            8.950441
+          ]
+        },
+        {
+          "number": "38",
+          "net": "BOOTSTRAP2",
+          "position_mm": [
+            -0.655,
+            8.450315
+          ]
+        },
+        {
+          "number": "39",
+          "net": "HS_RETURN_V",
+          "position_mm": [
+            -0.655,
+            7.950189
+          ]
+        },
+        {
+          "number": "40",
+          "net": "GHS2",
+          "position_mm": [
+            -0.655,
+            7.450063
+          ]
+        },
+        {
+          "number": "41",
+          "net": "BOOTSTRAP1",
+          "position_mm": [
+            -0.655,
+            6.949937
+          ]
+        },
+        {
+          "number": "42",
+          "net": "HS_RETURN_U",
+          "position_mm": [
+            -0.655,
+            6.449811
+          ]
+        },
+        {
+          "number": "43",
+          "net": "GHS1",
+          "position_mm": [
+            -0.655,
+            5.949685
+          ]
+        },
+        {
+          "number": "44",
+          "net": "I2C2_SDA",
+          "position_mm": [
+            -0.655,
+            5.449559
+          ]
+        },
+        {
+          "number": "45",
+          "net": "USB_UART_TX",
+          "position_mm": [
+            -0.655,
+            4.949433
+          ]
+        },
+        {
+          "number": "46",
+          "net": "USB_UART_RX",
+          "position_mm": [
+            -0.655,
+            4.449307
+          ]
+        },
+        {
+          "number": "47",
+          "net": "FDCAN1_RX",
+          "position_mm": [
+            -0.655,
+            3.949181
+          ]
+        },
+        {
+          "number": "48",
+          "net": "FDCAN1_TX",
+          "position_mm": [
+            -0.655,
+            3.449055
+          ]
+        },
+        {
+          "number": "49",
+          "net": "/MCU / clock / SWD/SWDIO",
+          "position_mm": [
+            -1.349055,
+            2.755
+          ]
+        },
+        {
+          "number": "50",
+          "net": "/MCU / clock / SWD/SWCLK",
+          "position_mm": [
+            -1.849181,
+            2.755
+          ]
+        },
+        {
+          "number": "51",
+          "net": "AS5047P_CS_N",
+          "position_mm": [
+            -2.349307,
+            2.755
+          ]
+        },
+        {
+          "number": "52",
+          "net": "Net-(U4C-SCREF)",
+          "position_mm": [
+            -2.849433,
+            2.755
+          ]
+        },
+        {
+          "number": "53",
+          "net": "EXT_FEEDBACK_SELECT",
+          "position_mm": [
+            -3.349559,
+            2.755
+          ]
+        },
+        {
+          "number": "54",
+          "net": "SPI3_SCK_MCU",
+          "position_mm": [
+            -3.849685,
+            2.755
+          ]
+        },
+        {
+          "number": "55",
+          "net": "SPI3_MISO",
+          "position_mm": [
+            -4.349811,
+            2.755
+          ]
+        },
+        {
+          "number": "56",
+          "net": "SPI3_MOSI_MCU",
+          "position_mm": [
+            -4.849937,
+            2.755
+          ]
+        },
+        {
+          "number": "57",
+          "net": "FEEDBACK_A_H1",
+          "position_mm": [
+            -5.350063,
+            2.755
+          ]
+        },
+        {
+          "number": "58",
+          "net": "FEEDBACK_B_H2",
+          "position_mm": [
+            -5.850189,
+            2.755
+          ]
+        },
+        {
+          "number": "59",
+          "net": "FEEDBACK_I_H3",
+          "position_mm": [
+            -6.350315,
+            2.755
+          ]
+        },
+        {
+          "number": "60",
+          "net": "BRAKE_PWM",
+          "position_mm": [
+            -6.850441,
+            2.755
+          ]
+        },
+        {
+          "number": "61",
+          "net": "VM",
+          "position_mm": [
+            -7.350567,
+            2.755
+          ]
+        },
+        {
+          "number": "62",
+          "net": "VM",
+          "position_mm": [
+            -7.850693,
+            2.755
+          ]
+        },
+        {
+          "number": "63",
+          "net": "VCC",
+          "position_mm": [
+            -8.350819,
+            2.755
+          ]
+        },
+        {
+          "number": "64",
+          "net": "3V3",
+          "position_mm": [
+            -8.850945,
+            2.755
+          ]
+        },
+        {
+          "number": "65",
+          "net": "GND",
+          "position_mm": [
+            -5.1,
+            7.2
+          ]
+        }
+      ]
+    },
+    "J502": {
+      "ref": "J502",
+      "value": "BRAKE NTC",
+      "position_mm": [
+        -1.555,
+        19.29
+      ],
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "/Brake chopper/BRAKE_NTC_RAW",
+          "position_mm": [
+            -2.18,
+            17.44
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position_mm": [
+            -0.93,
+            17.44
+          ]
+        },
+        {
+          "number": "MP",
+          "net": "GND",
+          "position_mm": [
+            -4.03,
+            20.64
+          ]
+        },
+        {
+          "number": "MP",
+          "net": "GND",
+          "position_mm": [
+            0.92,
+            20.64
+          ]
+        }
+      ]
+    }
+  },
+  "previous": {
+    "R103": {
+      "ref": "R103",
+      "value": "560k 0.1% 75V",
+      "position_mm": [
+        0.34,
+        20.39
+      ],
+      "rotation_deg": 180.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VM",
+          "position_mm": [
+            1.165,
+            20.39
+          ]
+        },
+        {
+          "number": "2",
+          "net": "Net-(R103-Pad2)",
+          "position_mm": [
+            -0.485,
+            20.39
+          ]
+        }
+      ]
+    },
+    "R105": {
+      "ref": "R105",
+      "value": "28k 0.1%",
+      "position_mm": [
+        -0.22,
+        19.14
+      ],
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "Net-(R103-Pad2)",
+          "position_mm": [
+            -0.729999,
+            19.14
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position_mm": [
+            0.289999,
+            19.14
+          ]
+        }
+      ]
+    },
+    "R106": {
+      "ref": "R106",
+      "value": "1k",
+      "position_mm": [
+        -1.67,
+        19.86
+      ],
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "Net-(R103-Pad2)",
+          "position_mm": [
+            -1.67,
+            19.350001
+          ]
+        },
+        {
+          "number": "2",
+          "net": "VBUS_MUX_IN",
+          "position_mm": [
+            -1.67,
+            20.369999
+          ]
+        }
+      ]
+    },
+    "C108": {
+      "ref": "C108",
+      "value": "10nF",
+      "position_mm": [
+        -10.775,
+        7.93
+      ],
+      "rotation_deg": -90.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "VBUS_SENSE",
+          "position_mm": [
+            -10.775,
+            7.45
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position_mm": [
+            -10.775,
+            8.41
+          ]
+        }
+      ]
+    },
+    "U602": {
+      "ref": "U602",
+      "value": "TMUX1574PW",
+      "position_mm": [
+        -6.1675,
+        18.85
+      ],
+      "rotation_deg": 0.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "EXT_FEEDBACK_SELECT",
+          "position_mm": [
+            -9.03,
+            21.125
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position_mm": [
+            -9.03,
+            20.475
+          ]
+        },
+        {
+          "number": "3",
+          "net": "Net-(U602A-S1B)",
+          "position_mm": [
+            -9.03,
+            19.825
+          ]
+        },
+        {
+          "number": "4",
+          "net": "FEEDBACK_A_H1",
+          "position_mm": [
+            -9.03,
+            19.175
+          ]
+        },
+        {
+          "number": "5",
+          "net": "GND",
+          "position_mm": [
+            -9.03,
+            18.525
+          ]
+        },
+        {
+          "number": "6",
+          "net": "Net-(U602A-S2B)",
+          "position_mm": [
+            -9.03,
+            17.875
+          ]
+        },
+        {
+          "number": "7",
+          "net": "FEEDBACK_B_H2",
+          "position_mm": [
+            -9.03,
+            17.225
+          ]
+        },
+        {
+          "number": "8",
+          "net": "GND",
+          "position_mm": [
+            -9.03,
+            16.575
+          ]
+        },
+        {
+          "number": "9",
+          "net": "FEEDBACK_I_H3",
+          "position_mm": [
+            -3.305,
+            16.575
+          ]
+        },
+        {
+          "number": "10",
+          "net": "Net-(U602A-S3B)",
+          "position_mm": [
+            -3.305,
+            17.225
+          ]
+        },
+        {
+          "number": "11",
+          "net": "GND",
+          "position_mm": [
+            -3.305,
+            17.875
+          ]
+        },
+        {
+          "number": "12",
+          "net": "VBUS_SENSE",
+          "position_mm": [
+            -3.305,
+            18.525
+          ]
+        },
+        {
+          "number": "13",
+          "net": "VBUS_MUX_IN",
+          "position_mm": [
+            -3.305,
+            19.175
+          ]
+        },
+        {
+          "number": "14",
+          "net": "VBUS_MUX_IN",
+          "position_mm": [
+            -3.305,
+            19.825
+          ]
+        },
+        {
+          "number": "15",
+          "net": "INPUT_MUX_ENABLE_N",
+          "position_mm": [
+            -3.305,
+            20.475
+          ]
+        },
+        {
+          "number": "16",
+          "net": "3V3",
+          "position_mm": [
+            -3.305,
+            21.125
+          ]
+        }
+      ]
+    },
+    "U4": {
+      "ref": "U4",
+      "value": "STSPIN32G4",
+      "position_mm": [
+        -5.1,
+        7.2
+      ],
+      "rotation_deg": 0.0,
+      "layer": "F.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "3V3",
+          "position_mm": [
+            -9.545,
+            3.449055
+          ]
+        },
+        {
+          "number": "2",
+          "net": "3V3",
+          "position_mm": [
+            -9.545,
+            3.949181
+          ]
+        },
+        {
+          "number": "3",
+          "net": "EXT_SENSOR_FAULT_N",
+          "position_mm": [
+            -9.545,
+            4.449307
+          ]
+        },
+        {
+          "number": "4",
+          "net": "INPUT_MUX_ENABLE_N",
+          "position_mm": [
+            -9.545,
+            4.949433
+          ]
+        },
+        {
+          "number": "5",
+          "net": "CAN_TERM_DISABLE",
+          "position_mm": [
+            -9.545,
+            5.449559
+          ]
+        },
+        {
+          "number": "6",
+          "net": "Net-(U4A-PF0)",
+          "position_mm": [
+            -9.545,
+            5.949685
+          ]
+        },
+        {
+          "number": "7",
+          "net": "Net-(U4A-PF1)",
+          "position_mm": [
+            -9.545,
+            6.449811
+          ]
+        },
+        {
+          "number": "8",
+          "net": "/MCU / clock / SWD/NRST",
+          "position_mm": [
+            -9.545,
+            6.949937
+          ]
+        },
+        {
+          "number": "9",
+          "net": "VBUS_SENSE",
+          "position_mm": [
+            -9.545,
+            7.450063
+          ]
+        },
+        {
+          "number": "10",
+          "net": "NTC_BRAKE",
+          "position_mm": [
+            -9.545,
+            7.950189
+          ]
+        },
+        {
+          "number": "11",
+          "net": "NTC_PHASE_B",
+          "position_mm": [
+            -9.545,
+            8.450315
+          ]
+        },
+        {
+          "number": "12",
+          "net": "NTC_PHASE_A",
+          "position_mm": [
+            -9.545,
+            8.950441
+          ]
+        },
+        {
+          "number": "13",
+          "net": "NTC_PHASE_C",
+          "position_mm": [
+            -9.545,
+            9.450567
+          ]
+        },
+        {
+          "number": "14",
+          "net": "/Current / temperature/OPP_U1",
+          "position_mm": [
+            -9.545,
+            9.950693
+          ]
+        },
+        {
+          "number": "15",
+          "net": "OPO_U1",
+          "position_mm": [
+            -9.545,
+            10.450819
+          ]
+        },
+        {
+          "number": "16",
+          "net": "/Current / temperature/OPN_U1",
+          "position_mm": [
+            -9.545,
+            10.950945
+          ]
+        },
+        {
+          "number": "17",
+          "net": "IMU_INT1",
+          "position_mm": [
+            -8.850945,
+            11.645
+          ]
+        },
+        {
+          "number": "18",
+          "net": "IMU_INT2",
+          "position_mm": [
+            -8.350819,
+            11.645
+          ]
+        },
+        {
+          "number": "19",
+          "net": "OPO_V1",
+          "position_mm": [
+            -7.850693,
+            11.645
+          ]
+        },
+        {
+          "number": "20",
+          "net": "/Current / temperature/OPP_V1",
+          "position_mm": [
+            -7.350567,
+            11.645
+          ]
+        },
+        {
+          "number": "21",
+          "net": "I2C2_SCL",
+          "position_mm": [
+            -6.850441,
+            11.645
+          ]
+        },
+        {
+          "number": "22",
+          "net": "/Current / temperature/OPN_V1",
+          "position_mm": [
+            -6.350315,
+            11.645
+          ]
+        },
+        {
+          "number": "23",
+          "net": "/Current / temperature/OPP_W1",
+          "position_mm": [
+            -5.850189,
+            11.645
+          ]
+        },
+        {
+          "number": "24",
+          "net": "OPO_W1",
+          "position_mm": [
+            -5.350063,
+            11.645
+          ]
+        },
+        {
+          "number": "25",
+          "net": "/Current / temperature/OPN_W1",
+          "position_mm": [
+            -4.849937,
+            11.645
+          ]
+        },
+        {
+          "number": "26",
+          "net": "VREF+",
+          "position_mm": [
+            -4.349811,
+            11.645
+          ]
+        },
+        {
+          "number": "27",
+          "net": "VDDA",
+          "position_mm": [
+            -3.849685,
+            11.645
+          ]
+        },
+        {
+          "number": "28",
+          "net": "CAN_STB",
+          "position_mm": [
+            -3.349559,
+            11.645
+          ]
+        },
+        {
+          "number": "29",
+          "net": "GLS1",
+          "position_mm": [
+            -2.849433,
+            11.645
+          ]
+        },
+        {
+          "number": "30",
+          "net": "GLS2",
+          "position_mm": [
+            -2.349307,
+            11.645
+          ]
+        },
+        {
+          "number": "31",
+          "net": "GLS3",
+          "position_mm": [
+            -1.849181,
+            11.645
+          ]
+        },
+        {
+          "number": "32",
+          "net": "GND",
+          "position_mm": [
+            -1.349055,
+            11.645
+          ]
+        },
+        {
+          "number": "33",
+          "net": "unconnected-(U4C-NC-Pad33)",
+          "position_mm": [
+            -0.655,
+            10.950945
+          ]
+        },
+        {
+          "number": "34",
+          "net": "unconnected-(U4C-NC-Pad34)",
+          "position_mm": [
+            -0.655,
+            10.450819
+          ]
+        },
+        {
+          "number": "35",
+          "net": "BOOTSTRAP3",
+          "position_mm": [
+            -0.655,
+            9.950693
+          ]
+        },
+        {
+          "number": "36",
+          "net": "HS_RETURN_W",
+          "position_mm": [
+            -0.655,
+            9.450567
+          ]
+        },
+        {
+          "number": "37",
+          "net": "GHS3",
+          "position_mm": [
+            -0.655,
+            8.950441
+          ]
+        },
+        {
+          "number": "38",
+          "net": "BOOTSTRAP2",
+          "position_mm": [
+            -0.655,
+            8.450315
+          ]
+        },
+        {
+          "number": "39",
+          "net": "HS_RETURN_V",
+          "position_mm": [
+            -0.655,
+            7.950189
+          ]
+        },
+        {
+          "number": "40",
+          "net": "GHS2",
+          "position_mm": [
+            -0.655,
+            7.450063
+          ]
+        },
+        {
+          "number": "41",
+          "net": "BOOTSTRAP1",
+          "position_mm": [
+            -0.655,
+            6.949937
+          ]
+        },
+        {
+          "number": "42",
+          "net": "HS_RETURN_U",
+          "position_mm": [
+            -0.655,
+            6.449811
+          ]
+        },
+        {
+          "number": "43",
+          "net": "GHS1",
+          "position_mm": [
+            -0.655,
+            5.949685
+          ]
+        },
+        {
+          "number": "44",
+          "net": "I2C2_SDA",
+          "position_mm": [
+            -0.655,
+            5.449559
+          ]
+        },
+        {
+          "number": "45",
+          "net": "USB_UART_TX",
+          "position_mm": [
+            -0.655,
+            4.949433
+          ]
+        },
+        {
+          "number": "46",
+          "net": "USB_UART_RX",
+          "position_mm": [
+            -0.655,
+            4.449307
+          ]
+        },
+        {
+          "number": "47",
+          "net": "FDCAN1_RX",
+          "position_mm": [
+            -0.655,
+            3.949181
+          ]
+        },
+        {
+          "number": "48",
+          "net": "FDCAN1_TX",
+          "position_mm": [
+            -0.655,
+            3.449055
+          ]
+        },
+        {
+          "number": "49",
+          "net": "/MCU / clock / SWD/SWDIO",
+          "position_mm": [
+            -1.349055,
+            2.755
+          ]
+        },
+        {
+          "number": "50",
+          "net": "/MCU / clock / SWD/SWCLK",
+          "position_mm": [
+            -1.849181,
+            2.755
+          ]
+        },
+        {
+          "number": "51",
+          "net": "AS5047P_CS_N",
+          "position_mm": [
+            -2.349307,
+            2.755
+          ]
+        },
+        {
+          "number": "52",
+          "net": "Net-(U4C-SCREF)",
+          "position_mm": [
+            -2.849433,
+            2.755
+          ]
+        },
+        {
+          "number": "53",
+          "net": "EXT_FEEDBACK_SELECT",
+          "position_mm": [
+            -3.349559,
+            2.755
+          ]
+        },
+        {
+          "number": "54",
+          "net": "SPI3_SCK_MCU",
+          "position_mm": [
+            -3.849685,
+            2.755
+          ]
+        },
+        {
+          "number": "55",
+          "net": "SPI3_MISO",
+          "position_mm": [
+            -4.349811,
+            2.755
+          ]
+        },
+        {
+          "number": "56",
+          "net": "SPI3_MOSI_MCU",
+          "position_mm": [
+            -4.849937,
+            2.755
+          ]
+        },
+        {
+          "number": "57",
+          "net": "FEEDBACK_A_H1",
+          "position_mm": [
+            -5.350063,
+            2.755
+          ]
+        },
+        {
+          "number": "58",
+          "net": "FEEDBACK_B_H2",
+          "position_mm": [
+            -5.850189,
+            2.755
+          ]
+        },
+        {
+          "number": "59",
+          "net": "FEEDBACK_I_H3",
+          "position_mm": [
+            -6.350315,
+            2.755
+          ]
+        },
+        {
+          "number": "60",
+          "net": "BRAKE_PWM",
+          "position_mm": [
+            -6.850441,
+            2.755
+          ]
+        },
+        {
+          "number": "61",
+          "net": "VM",
+          "position_mm": [
+            -7.350567,
+            2.755
+          ]
+        },
+        {
+          "number": "62",
+          "net": "VM",
+          "position_mm": [
+            -7.850693,
+            2.755
+          ]
+        },
+        {
+          "number": "63",
+          "net": "VCC",
+          "position_mm": [
+            -8.350819,
+            2.755
+          ]
+        },
+        {
+          "number": "64",
+          "net": "3V3",
+          "position_mm": [
+            -8.850945,
+            2.755
+          ]
+        },
+        {
+          "number": "65",
+          "net": "GND",
+          "position_mm": [
+            -5.1,
+            7.2
+          ]
+        }
+      ]
+    },
+    "J502": {
+      "ref": "J502",
+      "value": "BRAKE NTC",
+      "position_mm": [
+        -89.38,
+        10.845
+      ],
+      "rotation_deg": 90.0,
+      "layer": "B.Cu",
+      "pads": [
+        {
+          "number": "1",
+          "net": "/Brake chopper/BRAKE_NTC_RAW",
+          "position_mm": [
+            -87.53,
+            11.47
+          ]
+        },
+        {
+          "number": "2",
+          "net": "GND",
+          "position_mm": [
+            -87.53,
+            10.22
+          ]
+        },
+        {
+          "number": "MP",
+          "net": "GND",
+          "position_mm": [
+            -90.73,
+            13.32
+          ]
+        },
+        {
+          "number": "MP",
+          "net": "GND",
+          "position_mm": [
+            -90.73,
+            8.37
+          ]
+        }
+      ]
+    }
+  },
+  "reassigned_stubs_geometry": [
+    {
+      "uuid": "18ff63e2-7daf-4616-934d-d753322ca6e7",
+      "net": "GND",
+      "start_mm": [
+        1.487735,
+        16.763629
+      ],
+      "end_mm": [
+        2.207053,
+        17.482947
+      ],
+      "nearest_back_pads": [
+        {
+          "ref": "R103",
+          "pad": "2",
+          "net": "Net-(R103-Pad2)",
+          "edge_gap_mm": 1.584
+        },
+        {
+          "ref": "R307",
+          "pad": "2",
+          "net": "GND",
+          "edge_gap_mm": 1.783
+        },
+        {
+          "ref": "R106",
+          "pad": "2",
+          "net": "VBUS_MUX_IN",
+          "edge_gap_mm": 1.865
+        },
+        {
+          "ref": "R305",
+          "pad": "2",
+          "net": "INPUT_MUX_ENABLE_N",
+          "edge_gap_mm": 2.136
+        },
+        {
+          "ref": "R103",
+          "pad": "1",
+          "net": "VM",
+          "edge_gap_mm": 2.355
+        }
+      ]
+    },
+    {
+      "uuid": "a1fd5174-15d9-4ab9-b27c-6934df88d367",
+      "net": "GND",
+      "start_mm": [
+        1.034735,
+        16.951267
+      ],
+      "end_mm": [
+        2.195468,
+        18.112
+      ],
+      "nearest_back_pads": [
+        {
+          "ref": "R103",
+          "pad": "2",
+          "net": "Net-(R103-Pad2)",
+          "edge_gap_mm": 0.963
+        },
+        {
+          "ref": "R106",
+          "pad": "2",
+          "net": "VBUS_MUX_IN",
+          "edge_gap_mm": 1.26
+        },
+        {
+          "ref": "R307",
+          "pad": "2",
+          "net": "GND",
+          "edge_gap_mm": 1.328
+        },
+        {
+          "ref": "R305",
+          "pad": "2",
+          "net": "INPUT_MUX_ENABLE_N",
+          "edge_gap_mm": 1.651
+        },
+        {
+          "ref": "R103",
+          "pad": "1",
+          "net": "VM",
+          "edge_gap_mm": 1.963
+        }
+      ]
+    },
+    {
+      "uuid": "3cdf0cd6-13a2-4d3f-96e9-2a5bf21c73de",
+      "net": "VBUS_MUX_IN",
+      "start_mm": [
+        0.579735,
+        17.139735
+      ],
+      "end_mm": [
+        2.13,
+        18.69
+      ],
+      "nearest_back_pads": [
+        {
+          "ref": "R103",
+          "pad": "2",
+          "net": "Net-(R103-Pad2)",
+          "edge_gap_mm": 0.432
+        },
+        {
+          "ref": "R106",
+          "pad": "2",
+          "net": "VBUS_MUX_IN",
+          "edge_gap_mm": 0.708
+        },
+        {
+          "ref": "R307",
+          "pad": "2",
+          "net": "GND",
+          "edge_gap_mm": 0.874
+        },
+        {
+          "ref": "R305",
+          "pad": "2",
+          "net": "INPUT_MUX_ENABLE_N",
+          "edge_gap_mm": 1.171
+        },
+        {
+          "ref": "R306",
+          "pad": "2",
+          "net": "GND",
+          "edge_gap_mm": 1.584
+        }
+      ]
+    }
+  ],
+  "measurement_note": "Native KiCad effective copper shapes; edge gaps rounded up to nearest 0.001 mm. No source changes."
+}

@@ -1,0 +1,571 @@
+{
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/vbus/final/ShiroFOC_Manual.kicad_pcb",
+  "sha256": "84728a7dda1f0f34d3e5348b7f972f4fe35f20cfadb0aa7d57b8a349afcb20b5",
+  "method": "Native filled GND polygon centerline containment sampled every <= 0.05 mm; adjacent layer only. Includes local antipad gaps. Geometric review only; no rise-time, field-solver, or impedance claim.",
+  "stackup": [
+    "F.Cu",
+    "GND L2",
+    "Signals L3",
+    "Power L4",
+    "GND L5",
+    "B.Cu"
+  ],
+  "ground_plane_regions": {
+    "GND L2": [
+      1
+    ],
+    "GND L5": [
+      1
+    ]
+  },
+  "connections": [],
+  "new_routes_by_net": {
+    "FEEDBACK_I_H3": {
+      "length_mm": 9.59307,
+      "unsupported_length_mm": 0,
+      "max_single_segment_gap_mm": 0,
+      "layers": [
+        "Power L4"
+      ],
+      "coverage_percent": 100.0
+    },
+    "NTC_PHASE_C": {
+      "length_mm": 10.61084,
+      "unsupported_length_mm": 0.14774,
+      "max_single_segment_gap_mm": 0.147735,
+      "layers": [
+        "Signals L3"
+      ],
+      "coverage_percent": 98.61
+    },
+    "VBUS_SENSE": {
+      "length_mm": 19.53064,
+      "unsupported_length_mm": 1.88943,
+      "max_single_segment_gap_mm": 0.565685,
+      "layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "coverage_percent": 90.33
+    }
+  },
+  "segments_with_reference_void_at_least_0p75mm": [],
+  "all_new_segment_reference_samples": [
+    {
+      "uuid": "60ec5f38-fe78-40e0-be8e-3bfdd5a89fa8",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.575,
+      "start_mm": [
+        -10.875,
+        6.825
+      ],
+      "end_mm": [
+        -10.875,
+        8.4
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "6999d46f-77c9-41c2-8995-30816e7c2442",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.650001,
+      "start_mm": [
+        -8.899999,
+        5.5
+      ],
+      "end_mm": [
+        -9.55,
+        5.5
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "82c5d2c2-5a86-4179-9bec-f487d5b51146",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 1.873833,
+      "start_mm": [
+        -9.55,
+        5.5
+      ],
+      "end_mm": [
+        -10.875,
+        6.825
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "861501e1-5d25-4f3b-a517-239c174433c6",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 0.919239,
+      "start_mm": [
+        -10.875,
+        8.4
+      ],
+      "end_mm": [
+        -10.225,
+        9.05
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "a29dc769-d852-4b62-8bb5-0449822e1028",
+      "net": "FEEDBACK_I_H3",
+      "layer": "Power L4",
+      "reference_plane": "GND L5",
+      "length_mm": 4.575,
+      "start_mm": [
+        -10.225,
+        9.05
+      ],
+      "end_mm": [
+        -10.225,
+        13.625
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "06cae860-4ad2-4aa1-9220-d4c251fc58d2",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.979899,
+      "start_mm": [
+        -9.649999,
+        7.2
+      ],
+      "end_mm": [
+        -11.049999,
+        5.8
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "125b411d-5168-436a-ba28-9c0e94ef7034",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.75,
+      "start_mm": [
+        -9.649999,
+        8.95
+      ],
+      "end_mm": [
+        -9.649999,
+        7.2
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "3730c1ca-8197-49c3-b535-c5d557555f67",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.106066,
+      "start_mm": [
+        -12.875,
+        1.775
+      ],
+      "end_mm": [
+        -12.95,
+        1.7
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "89e7502f-7412-4746-9631-10bc83b75c4f",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.024999,
+      "start_mm": [
+        -12.625,
+        5.25
+      ],
+      "end_mm": [
+        -12.649999,
+        5.25
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "9ebfffb5-726f-4ce0-9027-e3b61352e3ec",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 3.25,
+      "start_mm": [
+        -12.875,
+        5.025
+      ],
+      "end_mm": [
+        -12.875,
+        1.775
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "a251809b-18ed-414b-985a-3950512fc183",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.777817,
+      "start_mm": [
+        -12.075,
+        5.8
+      ],
+      "end_mm": [
+        -12.625,
+        5.25
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "aad95000-05b2-4e5d-8540-ec3906547ba2",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.318199,
+      "start_mm": [
+        -12.649999,
+        5.25
+      ],
+      "end_mm": [
+        -12.875,
+        5.025
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "c5f125a4-3dc7-4244-8bc3-0dc2f510073c",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.025001,
+      "start_mm": [
+        -11.049999,
+        5.8
+      ],
+      "end_mm": [
+        -12.075,
+        5.8
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "c9206aff-f1c1-46b3-a476-ba969268a839",
+      "net": "NTC_PHASE_C",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.378858,
+      "start_mm": [
+        -8.674999,
+        9.925
+      ],
+      "end_mm": [
+        -9.649999,
+        8.95
+      ],
+      "unsupported_length_mm": 0.147735,
+      "longest_gap_mm": 0.147735,
+      "gaps": [
+        {
+          "from_mm": [
+            -8.69241,
+            9.907589
+          ],
+          "to_mm": [
+            -8.796874,
+            9.803125
+          ],
+          "length_mm": 0.1477
+        }
+      ]
+    },
+    {
+      "uuid": "7f223314-8300-45b2-a0db-1de3001b99d8",
+      "net": "VBUS_SENSE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 0.53033,
+      "start_mm": [
+        -5.425,
+        18.15
+      ],
+      "end_mm": [
+        -5.05,
+        18.525
+      ],
+      "unsupported_length_mm": 0.53033,
+      "longest_gap_mm": 0.53033,
+      "gaps": [
+        {
+          "from_mm": [
+            -5.407955,
+            18.167045
+          ],
+          "to_mm": [
+            -5.05,
+            18.525
+          ],
+          "length_mm": 0.5303
+        }
+      ]
+    },
+    {
+      "uuid": "da8717bf-78fe-4581-bd7c-0ad78c8f86de",
+      "net": "VBUS_SENSE",
+      "layer": "B.Cu",
+      "reference_plane": "GND L5",
+      "length_mm": 1.745,
+      "start_mm": [
+        -5.05,
+        18.525
+      ],
+      "end_mm": [
+        -3.305,
+        18.525
+      ],
+      "unsupported_length_mm": 0.049857,
+      "longest_gap_mm": 0.049857,
+      "gaps": [
+        {
+          "from_mm": [
+            -5.025071,
+            18.525
+          ],
+          "to_mm": [
+            -4.975214,
+            18.525
+          ],
+          "length_mm": 0.0499
+        }
+      ]
+    },
+    {
+      "uuid": "36cb4ac6-c6ea-4591-9768-cf8637c0d4ce",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.09,
+      "start_mm": [
+        -10.21,
+        7.45
+      ],
+      "end_mm": [
+        -11.3,
+        7.45
+      ],
+      "unsupported_length_mm": 0.396364,
+      "longest_gap_mm": 0.396364,
+      "gaps": [
+        {
+          "from_mm": [
+            -10.234773,
+            7.45
+          ],
+          "to_mm": [
+            -10.631136,
+            7.45
+          ],
+          "length_mm": 0.3964
+        }
+      ]
+    },
+    {
+      "uuid": "898c22fc-077c-4ef6-a02e-d851c72b61f3",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.919239,
+      "start_mm": [
+        -11.7,
+        9.575
+      ],
+      "end_mm": [
+        -12.35,
+        10.225
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "96c7fb5e-9bd6-46c4-ac1f-d43e5d1db948",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 1.725,
+      "start_mm": [
+        -11.7,
+        7.85
+      ],
+      "end_mm": [
+        -11.7,
+        9.575
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "9b39cf72-f2a7-4c18-90d8-cb454d95d003",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.565685,
+      "start_mm": [
+        -11.3,
+        7.45
+      ],
+      "end_mm": [
+        -11.7,
+        7.85
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "b6d118d1-1fe8-4b8a-9517-4c6a0c852a84",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 5.939698,
+      "start_mm": [
+        -12.35,
+        14.35
+      ],
+      "end_mm": [
+        -8.149999,
+        18.55
+      ],
+      "unsupported_length_mm": 0,
+      "longest_gap_mm": 0,
+      "gaps": []
+    },
+    {
+      "uuid": "c33dd5f1-b952-41e4-8a72-7bc8ca31d8ec",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 4.125,
+      "start_mm": [
+        -12.35,
+        10.225
+      ],
+      "end_mm": [
+        -12.35,
+        14.35
+      ],
+      "unsupported_length_mm": 0.198795,
+      "longest_gap_mm": 0.198795,
+      "gaps": [
+        {
+          "from_mm": [
+            -12.35,
+            11.492319
+          ],
+          "to_mm": [
+            -12.35,
+            11.691114
+          ],
+          "length_mm": 0.1988
+        }
+      ]
+    },
+    {
+      "uuid": "c8dffbf0-b442-4e66-984c-1c98baa39019",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 2.325,
+      "start_mm": [
+        -8.149999,
+        18.55
+      ],
+      "end_mm": [
+        -5.824999,
+        18.55
+      ],
+      "unsupported_length_mm": 0.148404,
+      "longest_gap_mm": 0.148404,
+      "gaps": [
+        {
+          "from_mm": [
+            -6.44335,
+            18.55
+          ],
+          "to_mm": [
+            -6.294946,
+            18.55
+          ],
+          "length_mm": 0.1484
+        }
+      ]
+    },
+    {
+      "uuid": "f5a82516-c83f-414b-bf1e-57133edad1fc",
+      "net": "VBUS_SENSE",
+      "layer": "Signals L3",
+      "reference_plane": "GND L2",
+      "length_mm": 0.565685,
+      "start_mm": [
+        -5.824999,
+        18.55
+      ],
+      "end_mm": [
+        -5.425,
+        18.15
+      ],
+      "unsupported_length_mm": 0.565685,
+      "longest_gap_mm": 0.565685,
+      "gaps": [
+        {
+          "from_mm": [
+            -5.808332,
+            18.533333
+          ],
+          "to_mm": [
+            -5.425,
+            18.15
+          ],
+          "length_mm": 0.5657
+        }
+      ]
+    }
+  ]
+}

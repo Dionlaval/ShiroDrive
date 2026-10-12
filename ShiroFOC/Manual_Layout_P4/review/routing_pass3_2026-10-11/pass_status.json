@@ -1,0 +1,142 @@
+{
+  "board": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/ShiroFOC_Manual.kicad_pcb",
+  "board_sha256": "2e0d00b2ca39fba1ed9455682216f14319c1ae8c548aebefb1b5fa9ddc02aa3a",
+  "status": "SIGNAL_PASS_COMPLETE_WITH_GROUND_AND_POWER_FOLLOW_UP",
+  "confidence": "Native PCB geometry and connectivity checks; not a full electrical or fabrication signoff",
+  "newly_completed_selected_nets": [
+    "/MCU / clock / SWD/NRST",
+    "AS5047P_CS_N",
+    "BRAKE_PWM",
+    "CAN_TERM_DISABLE",
+    "INPUT_MUX_ENABLE_N",
+    "NTC_PHASE_B",
+    "Net-(U203-OV2)",
+    "VBUS_SENSE"
+  ],
+  "selected_nets": {
+    "complete": 81,
+    "total": 81
+  },
+  "native_drc_before": {
+    "errors": 29,
+    "warnings": 381,
+    "unconnected": 307
+  },
+  "native_drc_after": {
+    "errors": 29,
+    "warnings": 376,
+    "unconnected": 256
+  },
+  "unconnected_scope": {
+    "onboard_pad_to_pad": 71,
+    "includes_DNP_or_staged": 123,
+    "includes_dangling_or_separate_copper": 62
+  },
+  "new_tracks": {
+    "6_mil": 284,
+    "10_mil": 55
+  },
+  "new_vias": {
+    "count": 50,
+    "diameter_mm": 0.5,
+    "drill_mm": 0.3
+  },
+  "old_copper_items_replaced_or_removed": 82,
+  "preserved": {
+    "onboard_3V3_pads_connected": 49,
+    "prior_pad_connections": true,
+    "schematics_and_project_rules": true,
+    "IC_and_connector_positions": true,
+    "staged_DNP_footprints": true
+  },
+  "small_passive_moves": [
+    "C302",
+    "R313",
+    "C310",
+    "R208",
+    "R209",
+    "R604",
+    "R311"
+  ],
+  "remaining_scope": {
+    "auxiliary_power": {
+      "net_count": 6,
+      "minimum_pad_cluster_joins": 28,
+      "nets": [
+        "/External feedback/EXT_VCC",
+        "5V_BAT",
+        "5V_SYS",
+        "5V_USB",
+        "Net-(U201-SW)",
+        "VCC"
+      ]
+    },
+    "gate_drive": {
+      "net_count": 9,
+      "minimum_pad_cluster_joins": 9,
+      "nets": [
+        "GHS1",
+        "GHS2",
+        "GHS3",
+        "GLS1",
+        "GLS2",
+        "GLS3",
+        "HS_RETURN_U",
+        "HS_RETURN_V",
+        "HS_RETURN_W"
+      ]
+    },
+    "high_current": {
+      "net_count": 5,
+      "minimum_pad_cluster_joins": 25,
+      "nets": [
+        "Net-(J501-Pad1)",
+        "PHASE_U",
+        "PHASE_V",
+        "PHASE_W",
+        "VM"
+      ]
+    },
+    "support": {
+      "net_count": 6,
+      "minimum_pad_cluster_joins": 6,
+      "nets": [
+        "SHUNT_U_SENSE_N",
+        "SHUNT_U_SENSE_P",
+        "SHUNT_V_SENSE_N",
+        "SHUNT_V_SENSE_P",
+        "SHUNT_W_SENSE_N",
+        "SHUNT_W_SENSE_P"
+      ]
+    },
+    "ground_connections": {
+      "net_count": 1,
+      "minimum_pad_cluster_joins": 57,
+      "nets": [
+        "GND"
+      ]
+    }
+  },
+  "route_quality_follow_up": [
+    "NTC_PHASE_B uses a 43.819 mm, two-via detour around the dense MCU routes. Ground reference remains present; reconsider length if this region is opened during later layout work.",
+    "The mux-enable escape required removing GND stitch 09209edf-75e1-41a0-b8b1-3348e588b4cd. A targeted search found no legal replacement within 2 mm using the requested via size, existing clearances and no via-in-pad.",
+    "Ground return paths remain electrically connected, but local reference-plane transition distances increased: feedback A/B/I about 3.59/2.94/2.32 mm, IMU2 about 2.50 mm, brake NTC about 2.40 mm; older MOSI transitions reach 3.80/4.20 mm and I2C2_SCL 5.15 mm. Revisit with remaining MCU thermal/ground work.",
+    "The existing 29 DRC errors, power-stage copper, gate-drive paths, Kelvin pickup completion, auxiliary rails, remaining grounds and silkscreen still need finishing."
+  ],
+  "evidence": {
+    "structural": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_12/validation.json",
+    "connectivity": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_12/connectivity.json",
+    "exact_copper_provenance": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_12/provenance.json",
+    "all_via_ground_return_review": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/merged_12_ground_removal.json",
+    "independent_confirmation": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/merged_12_final_confirmation.json",
+    "preview": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/preview_final/overview.png"
+  },
+  "gui_reloaded": true,
+  "gui_counts": {
+    "pads": 1001,
+    "vias": 277,
+    "tracks": 1351,
+    "nets": 194,
+    "unrouted": 256
+  }
+}

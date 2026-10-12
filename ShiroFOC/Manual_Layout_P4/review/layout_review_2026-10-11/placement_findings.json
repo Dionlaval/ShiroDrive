@@ -1,0 +1,100 @@
+{
+  "review_date": "2026-10-11",
+  "scope": "Read-only current P4 native geometry, placement, visual design language, mechanical and silkscreen completion review. Source PCB unchanged.",
+  "source": "../../ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "12419a7748ec6f1cc863f25df0eae1732436d9e87ba4d1f0c2648f9615ea1751",
+  "metrics": {
+    "outline_centerline_mm": [45, 45],
+    "outline_corner_radius_mm": 3,
+    "outline_center_mm": [0, 0],
+    "mounts": "H1-H4: 2.2 mm M2 plated holes at (+/-19.5, +/-19.5), 39 mm square pitch",
+    "total_footprints": 277,
+    "origins_inside_actual_rounded_outline": 179,
+    "origins_outside_actual_rounded_outline": 98,
+    "inside_front": 72,
+    "inside_back": 107,
+    "outside_front": 80,
+    "outside_back": 18,
+    "standalone_board_silkscreen_text_objects": 0
+  },
+  "design_language": [
+    "Compact rounded-square module with four symmetric corner mounts and perimeter connectors.",
+    "Strong repeated power-cell organization: U1/U2/U3 at x=12.85 mm and y=1.2/8.7/16.2 mm; corresponding shunts R3/R1/R5 at x=5.85 mm and y=0.7/8.2/15.7 mm. Preserve this visual and electrical repetition.",
+    "Power input and phase connector along the right edge; USB/CAN along the left edge; external feedback at the lower edge. Conversion and brake circuitry occupy the upper area.",
+    "U4 MCU/driver at (-5.1,7.2) on front with dense analog passives on the back; U601 encoder locked at (0,0) on back. Placement aims to keep control to the quiet side of the aligned power column.",
+    "Routing is still sparse, mainly short local breakouts and several parallel diagonal paths; this is a partly placed and partly routed layout, not a final copper style."
+  ],
+  "findings": [
+    {
+      "priority": "high",
+      "confidence": "high",
+      "title": "Finish placement before committing to the 45 mm outline",
+      "evidence": "98 footprint origins remain outside the actual board; see placement_inventory.json and all-placement maps.",
+      "examples": [
+        "Entire 54-position 10 uF DC-link bank C101-C103 and C110-C160, including six DNP positions, staged at x=67.91..101.81, y=-11.26..18.49 mm; C104/C105/C106 and R101 also staged.",
+        "U701 BMI323 and local components around (-70.32,33.73).",
+        "J1001 Tag-Connect SWD (64.795,-34.8); SW301 reset (57.48,-36.08).",
+        "TH701 (42.985,-9.965), TH702 (34.975,3.225), TH703 (34.975,17.225); phase snubber pairs and C3/C7/C11 staged to the right.",
+        "J502 brake NTC (-89.38,10.845), DC-link TVS/damping parts, and several feedback/temperature network parts remain staged."
+      ],
+      "action": "Place retained parts by function, starting with local DC-link capacitance, commutation loops, phase thermal sensors and optional tuning footprints. Check whether the full architecture fits the current envelope while preserving central encoder and mechanical space. A footprint origin inside the outline alone does not prove all its pads/courtyard fit."
+    },
+    {
+      "priority": "high",
+      "confidence": "high",
+      "title": "Remove bottom-side components from under the centered encoder",
+      "evidence": "Native geometry and refilled DRC agree: U601 at (0,0) overlaps R309 (0.84,-1.8), R313 (-0.82,-0.5), R314 (0,0). R313 and R314 also overlap each other. All are on B.Cu; placement_back_board.png highlights these in red.",
+      "action": "Keep the locked encoder centered and relocate the resistors to a clear, short-route location outside its body/courtyard and the magnet envelope."
+    },
+    {
+      "priority": "high",
+      "confidence": "high for courtyard intersections; physical mating clearance remains unverified",
+      "title": "Resolve connector and mounting conflicts",
+      "evidence": "Refilled native DRC reports J101/H2, J1/H3, Q301/J802 and Q301/R304 courtyard intersections. J1 also intersects staged C3/C7/TH702/TH703 outside the outline; those latter intersections are staging artifacts until those parts are placed.",
+      "action": "Resolve the in-board conflicts and check screws, washers, plugs, mating cables, heatsink and magnet in a complete mechanical assembly. Outboard connector bodies are intentional edge interfaces and do not by themselves prove incorrect placement."
+    },
+    {
+      "priority": "high",
+      "confidence": "high",
+      "title": "Bootstrap capacitor vias land on opposite-net pads",
+      "evidence": "C203 is on B.Cu. Pad 1 BOOT is (0.515,-20.5375), pad 2 SW is (1.475,-20.5375). A 0.5 mm BOOT via is at (1.635005,-20.5375), over the SW pad; a 0.5 mm SW via is at (0.365006,-20.5375), over the BOOT pad. This independently supports the parent's native DRC short finding.",
+      "action": "Correct the via/pad routing in the subsequent layout edit."
+    },
+    {
+      "priority": "medium",
+      "confidence": "high",
+      "title": "Finish the operational silkscreen and assembly identifiers",
+      "evidence": "The current board contains no board-level F.SilkS/B.SilkS text objects. Only footprint marks and a minority of reference fields are visible; native views show collisions and clipped lettering. Existing connector polarity/pin-1 graphics are present but there is no complete interface labeling scheme.",
+      "action": "Add a consistent compact set of board/revision, VM/GND, phase, brake, CAN, feedback, SWD, reset/status and IMU-axis labels. Relocate remaining visible references and trim off-board connector silk; keep orientation marks readable. Review fiducial/assembly access after placement."
+    },
+    {
+      "priority": "medium",
+      "confidence": "high",
+      "title": "Update stale layout guides",
+      "evidence": "User.1/User.2 boundaries still describe the old 80 mm floorplan; Cmts.User includes P3 PLACEMENT and a four-layer F.Cu/In1/In2/B layer-intent sentence. Actual board enables six layers with In1=GND L2, In2=Signals L3, In3=Power L4, In4=GND L5.",
+      "action": "Regenerate or remove obsolete construction annotations once final placement is established. Do not route by the old guide sentence."
+    },
+    {
+      "priority": "review_gap",
+      "confidence": "high",
+      "title": "Current 3D renders cannot prove mechanical clearance",
+      "evidence": "J1's custom MR60 footprint has no 3D model. Exported views also omit some declared connector models. No full enclosure, magnet or heatsink assembly was supplied in this review.",
+      "action": "Resolve model coverage and inspect a full assembly before mechanical release."
+    }
+  ],
+  "artifacts": {
+    "placement_front": "placement_front_board.png",
+    "placement_back_top_coordinates": "placement_back_board.png",
+    "front_including_staging": "placement_front_all.png",
+    "back_including_staging": "placement_back_all.png",
+    "native_top_3d": "visual_top_3d.png",
+    "native_bottom_3d": "visual_bottom_3d.png",
+    "inventory": "placement_inventory.json",
+    "geometry_renderer": "placement_render.py"
+  },
+  "limitations": [
+    "This subreview makes geometry and project-consistency claims, not datasheet, thermal-current-rating, EMC or fabrication-release claims.",
+    "Placement maps use native KiCad pad/body/courtyard geometry and top-view coordinates for both sides; they intentionally omit zones and display reconstructed reference labels. Native 3D renders show current source saved geometry and hide off-board staging.",
+    "Electrical DRC, refreshed plane-fill assessment, schematic parity and full analysis are handled separately by the parent review."
+  ]
+}

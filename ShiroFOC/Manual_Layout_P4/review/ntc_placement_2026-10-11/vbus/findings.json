@@ -1,0 +1,89 @@
+{
+  "scope": "Targeted review of user-moved VBUS divider R103/R105/R106, its U602/C108/U4 signal path, J502 adjacency and three reassigned preliminary copper fragments. No source files modified.",
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/ntc_placement_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "b80f4e53a6b2d0f2141c7621ccca13b152eb86d52738a354707efabf63daf02e",
+  "decision": "Keep the user positions and rotations of all three VBUS resistors. No VBUS placement delta or copper deletion proposed.",
+  "confidence": "verified",
+  "evidence": [
+    "before/ShiroFOC_Manual.kicad_pcb native pcbnew geometry",
+    "baseline_refilled/drc.json native KiCad DRC after project-aware fill",
+    "layout_review_2026-10-11/schematic_netlist.xml native schematic export",
+    "vbus/geometry.json",
+    "vbus/user_copper_delta.json"
+  ],
+  "native_refilled_validation": {
+    "local_clearance_short_courtyard_errors": 0,
+    "refs": [
+      "R103",
+      "R105",
+      "R106",
+      "J502"
+    ],
+    "board_overall_drc_errors": 33,
+    "board_overall_drc_warnings": 398,
+    "board_overall_unconnected_items": 433,
+    "note": "Whole-board counts reflect an incomplete routed board; this is a targeted placement review, not fabrication approval."
+  },
+  "placement": [
+    {
+      "finding": "The divider is compact and clear of same-face pads and courtyards. R103 VM pad points outward/right toward power copper; R105 and R106 leave their common divider node close together.",
+      "status": "retain",
+      "confidence": "verified"
+    },
+    {
+      "finding": "R106 pad 2 to U602 pin 13 straight-line distance increases from 2.025 mm to 4.801 mm. This remains a short local interconnect and creates more room around the mux support network; there is no reason to undo the user placement merely to recover this distance.",
+      "status": "retain",
+      "confidence": "inferred from verified geometry"
+    },
+    {
+      "finding": "C108 stays at the MCU: its VBUS_SENSE pad is 1.230 mm center-to-center from U4 PC0/pad 9 and already has a short F.Cu trace. Keep C108 here.",
+      "status": "retain",
+      "confidence": "verified"
+    },
+    {
+      "finding": "J502 is front-side SMD and the VBUS resistors are on the back; native DRC finds no local short, clearance or courtyard clash. No through-hole conflict introduced.",
+      "status": "retain",
+      "confidence": "verified"
+    }
+  ],
+  "signal_path": [
+    "VM \u2192 R103 560k pad 1",
+    "R103 pad 2 \u2192 R105 28k pad 1 and R106 1k pad 1",
+    "R105 pad 2 \u2192 GND",
+    "R106 pad 2 (VBUS_MUX_IN) \u2192 U602 pins 13 and 14",
+    "U602 pin 12 (VBUS_SENSE) \u2192 C108 pad 1 and U4 PC0/pad 9",
+    "C108 10nF pad 2 \u2192 quiet GND"
+  ],
+  "routing_remaining": [
+    "Complete the R103/R105/R106 common node with short 6 mil signal tracks; both connections remain unrouted.",
+    "Route R106 pad 2 leftward to U602 pins 13/14 as a compact local branch; the existing diagonal VBUS_MUX_IN fragment is disconnected and does not complete it.",
+    "Route U602 pin 12 to the existing C108/U4 VBUS_SENSE segment through a quiet corridor with continuous ground reference; avoid phase/switch-node copper and gate loops.",
+    "Connect R105 and C108 grounds to the local ground reference; native DRC still lists both returns unconnected.",
+    "Connect the R103 VM pad to the intended bus-sense source while retaining Power-class clearance. Placement does not complete the high-voltage tap."
+  ],
+  "user_copper_delta": {
+    "removed_count": 4,
+    "added_count": 0,
+    "changed_net_name_count": 3,
+    "removed_description": "Three old GLS3 fragments and one GND fragment were removed outside the board; preserve these user removals.",
+    "three_remaining_fragments": "Former HS_RETURN_W/GHS3/GLS3 stubs are now labelled GND/GND/VBUS_MUX_IN without a geometric change. All three are dangling, not accidentally touching moved component pads, and have no native clearance/short violations. Retain in this placement pass; they can be pruned or replaced during routing.",
+    "closest_pad_edge_gaps_mm": {
+      "18ff63e2-7daf-4616-934d-d753322ca6e7": 1.584,
+      "a1fd5174-15d9-4ab9-b27c-6934df88d367": 0.963,
+      "3cdf0cd6-13a2-4d3f-96e9-2a5bf21c73de": 0.432
+    },
+    "closest_to_any_vbus_pad": "The VBUS_MUX_IN stub ends 0.432 mm from R103 pad 2 and 0.708 mm from R106 pad 2; it is electrically separate."
+  },
+  "changes": {
+    "footprints": [],
+    "removed_copper": [],
+    "added_copper": [],
+    "schematic": false,
+    "values": false,
+    "rules": false
+  },
+  "limits": [
+    "No full analog sampling or ADC settling qualification performed in this placement-only review.",
+    "Mechanical assembly clearance beyond native two-sided PCB courtyard rules was not modeled."
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "net": "SPI3_MISO",
+    "components": [
+      {
+        "ref": "U4",
+        "pin": "55",
+        "cluster_ids": [
+          "7d680273-7f20-4c30-bd69-8c3c64437f6b"
+        ],
+        "reaches": [
+          {
+            "layer": 0,
+            "area_mm2": 2.2900000000000005,
+            "via_sites": 0,
+            "nearest_via": []
+          }
+        ]
+      },
+      {
+        "ref": "R611",
+        "pin": "2",
+        "cluster_ids": [
+          "3f9ff78b-837b-46ef-8d81-e40cbd5cc1ae"
+        ],
+        "reaches": [
+          {
+            "layer": 2,
+            "area_mm2": 9.617500000000001,
+            "via_sites": 2247,
+            "nearest_via": [
+              5.275000000000002,
+              1.4750000000000014,
+              2.29809703885628
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

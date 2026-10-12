@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R410/R417
+* Expected Vout = 3.3 * 0.017544 = 0.0579 V
+* Model: ideal passives (exact, unloaded)
+
+VIN VREF_ 0 DC 3.3
+R410 VREF_ OPP_U1 56k
+R417 OPP_U1 0 1k
+
+.op 
+
+.end

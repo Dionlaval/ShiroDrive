@@ -1,0 +1,40 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_02/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "CAN_TERM_GATE",
+      "source": "70c95f98-0f62-474b-b9e0-b0ac0c025842",
+      "target": "725d3194-5dc7-4405-bdc9-1efa74a044f0",
+      "source_ref": "Q301",
+      "source_pin": "1",
+      "target_ref": "Q801",
+      "target_pin": "3",
+      "distance_mm": 1.0465926141550972,
+      "length_mm": 5.36220346110528,
+      "vias": 1,
+      "path_points": 491,
+      "rejected": false,
+      "new_items": [
+        "f02eef2d-a6a7-417f-aa47-9c8a9e771980",
+        "4db1424f-7f1c-4bbd-b244-5688b184dd3a",
+        "ce304513-0ebc-4eb1-94d6-dbe3753b6b61",
+        "c2766f18-f57c-4106-b98e-0985a93b214e",
+        "ae160e7f-e30f-4987-9df6-700d87542f25",
+        "51d22702-6bea-45ef-a5d8-92fbe16add30",
+        "e6205aa8-a44f-48ad-b656-c170d12ba3f2",
+        "17865185-e0f9-4905-8a13-bf9bb18be374"
+      ],
+      "elapsed_seconds": 25.70348620414734
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/brake/stagger2/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "SPI3_MOSI_MCU",
+      "source": "4a2c25db-8a6c-41ad-9632-05125b8033f6",
+      "target": "bd799b00-6e2e-4030-886a-1e5e72051f2b",
+      "source_ref": "U4",
+      "source_pin": "56",
+      "target_ref": "R314",
+      "target_pin": "1",
+      "distance_mm": 1.5840419198900642,
+      "length_mm": 2.203858223313765,
+      "vias": 0,
+      "path_points": 73,
+      "rejected": false,
+      "new_items": [
+        "ac3f0d7e-e824-46b3-bd19-3bc2e0aa0656",
+        "405e78c0-1809-49f9-93b2-139613ea1da9",
+        "ca8753b9-a875-4db0-9d65-a2ec34822a6f",
+        "60600845-a6af-469d-ae86-9a565227716b",
+        "3f68b757-e5ef-45c4-9869-c0f0cdab37b9",
+        "c150ae5b-2ae6-49d1-b0f6-6537e4d312d5",
+        "263436da-01ef-4b36-b66c-8b6ec326b0e0",
+        "efc7a2c1-b3a5-44d5-ac84-28098d1f7929",
+        "c70d2fcc-7df7-4393-a821-88cb3c24de08",
+        "236d01f9-cd9c-41e6-9066-df95a63c6bfe"
+      ],
+      "elapsed_seconds": 15.79112696647644
+    }
+  ]
+}

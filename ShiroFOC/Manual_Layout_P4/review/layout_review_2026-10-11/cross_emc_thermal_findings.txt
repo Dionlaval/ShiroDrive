@@ -1,0 +1,98 @@
+P4 targeted cross-domain, EMC and thermal review — 2026-10-11
+
+Scope and evidence
+Read-only review of P4 source; cross_analysis.json, thermal.json and emc.json
+were generated using schematic.json and pcb_refilled.json. Geometry checks in
+targeted_geometry_audit.json independently parse the assessment PCB and include
+both standalone vias and footprint-embedded plated pads. No layout was changed.
+
+Actionable remaining layout work
+1. U4 exposed-pad ground connection is unfinished [deterministic / geometry].
+   EP65 is 4.0894 x 4.0894 mm, centred at (-5.1, 7.2). There are zero GND vias
+   within its pad and no embedded plated pads in U4. The nearest plated GND
+   connection is a standalone via 4.936 mm from the pad centre. Add the intended
+   EP ground/thermal via arrangement and copper return before routing signoff;
+   select actual via geometry against the package land pattern and assembly
+   process. Do not quote an arbitrary minimum count from this analyzer.
+
+2. Finish short local protection returns [deterministic geometry; EMC impact
+   is engineering judgement]. D801 CAN TVS GND3 at (-18.75, 2.785) has its
+   nearest plated GND connection 5.452 mm away. U202 USB protector GND2 at
+   (-14.76, -6.0825) has its nearest dedicated GND via 4.614 mm away; a USB
+   shield plated hole is closer at 2.965 mm. Put a short direct low-inductance
+   ground connection beside each protection device as routing is completed.
+   D601 already has one GND via 0.067 mm from its GND-pad centre; treat it
+   separately, rather than claiming all protection devices lack ground vias.
+
+3. Complete local supply decoupling at the feedback interface [deterministic
+   topology/geometry; capacitor requirements should be confirmed against the
+   actual devices]. No adjacent 3V3-to-GND capacitor is placed at U602 VDD16
+   or U603 VCC8. The nearest appropriate capacitor power pad found is C802,
+   approximately 18.56 mm and 11.24 mm away respectively. Place/connect local
+   supply decouplers and local GND returns. The EMC U602 finding incorrectly
+   selected the VBUS_SENSE filter as its supply capacitor.
+
+4. Finish the motor-power copper and verify losses under specified operating
+   conditions [deterministic topology; ratings not assessed]. Only GND zones
+   exist. VM has only 3.677 mm of track; PHASE_U/V/W have no track segments.
+   Low-side source paths each have one 2.31 mm segment. The high-current bus,
+   phases, shunts, brake path, capacitor loops and heat-spreading copper need
+   completion. Q501 has no drain thermal vias or finished heat-spreading pour.
+   No safe current rating is inferred from these incomplete traces.
+
+5. Preserve the explicit high-side gate-return pairing [topology plus layout
+   judgement]. GHS1/2/3 and HS_RETURN_U/V/W each transition between F.Cu and
+   B.Cu using two vias. Finish/verify compact gate-to-source loops and keep
+   the return accompanying the gate. The generic recommendation to add GND
+   beside every high-side gate transition is not the relevant return path.
+   Route shunt sense pairs as Kelvin connections with low pickup, away from
+   switching copper; generic high-speed differential skew limits do not apply.
+
+6. Schematic/PCB sync [deterministic topology, parent intent triage]. Cross
+   analysis lists R618 plus six DNP components as missing. R618 is the fitted
+   U604 current-limit resistor and must be resolved. The six intentional DNP
+   omissions are not equivalent fitted-component failures.
+
+Raw analyzer results and false-positive triage
+- Cross-domain: 6 findings; EMC: 86 findings (19 errors, 50 warnings, 17 info).
+  These raw counts/scores are not a prioritized defect count or readiness score.
+- Cross PS-002 counts disconnected same-net copper/pads as "plane islands";
+  it must not be presented as 199 fragmented GND pours. Refilled GND zones each
+  have one fill region. Many pads still require routing.
+- GP-004's 26% fill ratio uses the obsolete 79 mm zone-outline area as its
+  denominator. Refilled copper is 1,630.06 mm2 per GND layer, approximately
+  80.5% of the 45 x 45 mm bounding square, not 26% of the current board.
+- SU-001 treats all KiCad layer types "signal" literally, ignoring the actual
+  In1/In4 ground planes and layer intent; its adjacent-signal errors are false.
+- GLS3 has an off-board leftover via at (45.56, 49.59); do not infer a real
+  signal-over-plane-gap defect from its 83% reference-coverage score alone.
+- NRST is misclassified as a clock from its sheet path. U202 USB ESD IC is
+  misclassified as a connector. J1 motor phases are not ordinary digital I/O.
+- The shunt-sense 50 ps length-matching error is inapplicable; avoid adding
+  serpentine length solely to satisfy that heuristic.
+- SW-003 chooses off-board C150 for the U201 hot loop. Verify the actual local
+  C201/C202 input-cap loop after placement/routing; do not use its 64 mm2 claim.
+- Several decoupling-via measurements ignore net identity or embedded pads.
+- The thermal-pad analyzer's strict via-count loop counts unrelated nets.
+  Its U4 count of six vias is wrong; the six include signal vias. Its separate
+  thermal_pad_scan count of one GND via is a wide-radius nearby count, not an
+  in-pad count. The direct geometry audit above supersedes both for U4.
+
+Thermal and simulation limits
+thermal.json reports zero warnings but assessed only U201, using an assumed
+25 mA load, guessed 85% efficiency, unknown-package default thermal resistance,
+and 25 C ambient. U4 was skipped and the motor bridges were not modeled.
+Its temperature/100-point score cannot support thermal or current signoff.
+Need intended bus range, continuous/peak phase current, switching frequency,
+brake duty, enclosure/cooling, copper weight and actual dissipation assumptions.
+
+LTspice.app is installed. The SPICE skill attempted 35 isolated RC/divider
+testbenches, including a second attempt using absolute paths. Every simulation
+was skipped/failed with no useful measurements or diagnostic output. spice.json
+and spice_work preserve the attempts. No SPICE verification is claimed; motor
+bridge switching behavior and regulator stability were not simulated.
+
+EMC analysis was analytical only, with unfinished routing and heuristic device
+classification. It does not establish emissions compliance. When routing is
+complete, reassess local power loops, gate/return loops, shunt pickup, connector
+returns and decoupling, then perform appropriate measurements on hardware.

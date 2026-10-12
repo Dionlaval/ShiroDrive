@@ -1,0 +1,141 @@
+{
+  "project": "Manual_Layout_P3",
+  "date": "2026-10-11",
+  "scope": "Schematic and symbol library only",
+  "confidence": "verified",
+  "evidence": [
+    "KiCad native XML netlists before/after",
+    "KiCad native ERC before/after",
+    "Footprint pad sets",
+    "PDF visual inspection"
+  ],
+  "added_refs": [
+    "C506",
+    "D506",
+    "JP601",
+    "Q502",
+    "R513",
+    "U503"
+  ],
+  "removed_refs": [
+    "D505",
+    "R618"
+  ],
+  "netlist_checks": "PASS: complete fan and selected sensor supply connectivity; all unrelated pin assignments and brake controls preserved",
+  "footprints": {
+    "C505": {
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ]
+    },
+    "C506": {
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pads": [
+        "1",
+        "2"
+      ]
+    },
+    "J502": {
+      "footprint": "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal",
+      "pads": [
+        "1",
+        "2",
+        "MP"
+      ]
+    },
+    "JP601": {
+      "footprint": "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm",
+      "pads": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "Q502": {
+      "footprint": "ShiroFOCLib:CSD17483F4_YJC0003A",
+      "pads": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "D506": {
+      "footprint": "Diode_SMD:D_SOD-323",
+      "pads": [
+        "1",
+        "2"
+      ]
+    },
+    "U503": {
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "pads": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "R511": {
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ]
+    },
+    "R512": {
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ]
+    },
+    "R513": {
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "pads": [
+        "1",
+        "2"
+      ]
+    }
+  },
+  "erc": {
+    "before": {
+      "warning": 16,
+      "error": 1
+    },
+    "after": {
+      "warning": 16,
+      "error": 1
+    },
+    "new": 0,
+    "unchanged_findings": 17
+  },
+  "changed_files": [
+    "07_Brake_Chopper.kicad_sch",
+    "MCUclockSWD.kicad_sch",
+    "04_Gate_Driver.kicad_sch",
+    "09_Feedback_Selection.kicad_sch",
+    "06_Current_Temperature.kicad_sch",
+    "libs/ShiroFOCLib.kicad_sym"
+  ],
+  "pcb_sha256": "33bcf58813051d15b5970d7d86492cf5755018e0d618f0b616fbfbeb74daedca",
+  "pcb_unchanged": true,
+  "candidate_sha256": {
+    "07_Brake_Chopper.kicad_sch": "dc13f7770d7349b9e47df93daf47cacb8c37a828856d5104c2c1af826c074206",
+    "MCUclockSWD.kicad_sch": "3503d75e3b1d5165da44c18f75492a8726557c5b5a7c4534471a34efbe2dadd6",
+    "04_Gate_Driver.kicad_sch": "13606739e8cb5ce6b1cca4104a7e93f1f34b5aa681ed0a2bcf56d793e41f9ec4",
+    "09_Feedback_Selection.kicad_sch": "a7d4219c79b913019747a5cf6b29b05497e4c7acb078c2cba7f72db245cd24c8",
+    "06_Current_Temperature.kicad_sch": "a79859a77525f7f6af70ff3e45c1715650acb9c19b5a977a275591124dfd8a4c",
+    "libs/ShiroFOCLib.kicad_sym": "4253c121b998daff222f55b61a32923af3d2b860a017e8b2dd81b05dca7ec66b"
+  },
+  "trust_summary": {
+    "schematic_connectivity": "verified by native netlist",
+    "ratings": "manufacturer datasheet values; see README sources",
+    "hardware_operation": "not tested",
+    "fan_compatibility": "fan model unspecified; PWM frequency/startup validation pending",
+    "pcb_synchronization": "intentionally not performed"
+  }
+}

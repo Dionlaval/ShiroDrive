@@ -1,0 +1,11 @@
+* Auto-generated testbench for voltage divider: R610/R607
+* Expected Vout = 3.3 * 0.020833 = 0.0687 V
+* Model: ideal passives (exact, unloaded)
+
+VIN EXT_VCC 0 DC 3.3
+R610 EXT_VCC __unnamed_73 4.7k
+R607 __unnamed_73 0 100
+
+.op 
+
+.end

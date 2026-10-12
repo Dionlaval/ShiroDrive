@@ -1,0 +1,943 @@
+{
+  "source": "routing_pass1_2026-10-11/final/drc.json",
+  "baseline_error_count": 33,
+  "categories": {
+    "actionable_old_support_signal_copper": 4,
+    "preliminary_power_stage_clearance": 7,
+    "offboard_staged_footprint": 2,
+    "onboard_footprint_pad_or_placement_clearance": 9,
+    "intentional_wire_pad_connector_courtyard": 2,
+    "onboard_footprint_edge_clearance": 9
+  },
+  "errors": [
+    {
+      "category": "actionable_old_support_signal_copper",
+      "action": "Reroute/reposition implicated old signal copper under explicit UUID replacement allowlist, preserving net identities and native DRC.",
+      "violation": {
+        "description": "Clearance violation (rule 'U4 fine-pitch fanout clearance' clearance 0.1500 mm; actual 0.0548 mm)",
+        "items": [
+          {
+            "description": "Track [SHUNT_W_SENSE_P] on Signals L3, length 5.2515 mm",
+            "pos": {
+              "x": -0.703616,
+              "y": 11.4466
+            },
+            "uuid": "9eea7e47-98c4-4188-864e-c62034cbf76a"
+          },
+          {
+            "description": "Track [SHUNT_W_SENSE_N] on Signals L3, length 2.2800 mm",
+            "pos": {
+              "x": -3.13,
+              "y": 11.3
+            },
+            "uuid": "d6640f10-c6a6-40eb-9e7a-39395bbe8f14"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "preliminary_power_stage_clearance",
+      "action": "Resolve during power-stage finishing. Intentional wire-pad connector overhang does not excuse copper clearance to the actual PHASE_U plated pad.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.4470 mm)",
+        "items": [
+          {
+            "description": "Track [HS_RETURN_U] on F.Cu, length 0.5500 mm",
+            "pos": {
+              "x": 16.297104,
+              "y": 3.200001
+            },
+            "uuid": "3e538f4b-ec21-4c8d-8ffe-58c2c6a94089"
+          },
+          {
+            "description": "PTH pad 1 [PHASE_U] of J1",
+            "pos": {
+              "x": 19.36,
+              "y": 2.71
+            },
+            "uuid": "95b0be27-a38a-4a46-8a42-cf33bca3b282"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "preliminary_power_stage_clearance",
+      "action": "Resolve during power-stage finishing. Intentional wire-pad connector overhang does not excuse copper clearance to the actual PHASE_U plated pad.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.4470 mm)",
+        "items": [
+          {
+            "description": "Track [HS_RETURN_U] on F.Cu, length 0.5726 mm",
+            "pos": {
+              "x": 16.68598,
+              "y": 3.588877
+            },
+            "uuid": "607d30f4-6554-43e6-97bd-7254e9033140"
+          },
+          {
+            "description": "PTH pad 1 [PHASE_U] of J1",
+            "pos": {
+              "x": 19.36,
+              "y": 2.71
+            },
+            "uuid": "95b0be27-a38a-4a46-8a42-cf33bca3b282"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "preliminary_power_stage_clearance",
+      "action": "Resolve during power-stage finishing. Intentional wire-pad connector overhang does not excuse copper clearance to the actual PHASE_U plated pad.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.3240 mm)",
+        "items": [
+          {
+            "description": "PTH pad 1 [PHASE_U] of J1",
+            "pos": {
+              "x": 19.36,
+              "y": 2.71
+            },
+            "uuid": "95b0be27-a38a-4a46-8a42-cf33bca3b282"
+          },
+          {
+            "description": "Via [HS_RETURN_U] on F.Cu - B.Cu",
+            "pos": {
+              "x": 16.68598,
+              "y": 4.161452
+            },
+            "uuid": "fe2b2129-2f93-4e0a-8ffa-2c3e1cd79141"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "preliminary_power_stage_clearance",
+      "action": "Resolve during power-stage finishing. Intentional wire-pad connector overhang does not excuse copper clearance to the actual PHASE_U plated pad.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.4490 mm)",
+        "items": [
+          {
+            "description": "PTH pad 1 [PHASE_U] of J1",
+            "pos": {
+              "x": 19.36,
+              "y": 2.71
+            },
+            "uuid": "95b0be27-a38a-4a46-8a42-cf33bca3b282"
+          },
+          {
+            "description": "Track [HS_RETURN_U] on B.Cu, length 0.1535 mm",
+            "pos": {
+              "x": 16.577432,
+              "y": 4.27
+            },
+            "uuid": "ee186434-3f40-4a62-9888-d650b9338c61"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "actionable_old_support_signal_copper",
+      "action": "Reroute/reposition implicated old signal copper under explicit UUID replacement allowlist, preserving net identities and native DRC.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1951 mm)",
+        "items": [
+          {
+            "description": "Track [/USB service/UART_BRIDGE_RX] on B.Cu, length 0.8200 mm",
+            "pos": {
+              "x": -17.780001,
+              "y": -11.529999
+            },
+            "uuid": "65ffde8f-24df-4c84-89d8-36f8597a9d51"
+          },
+          {
+            "description": "Pad 2 [USB_UART_RX] of R902 on B.Cu",
+            "pos": {
+              "x": -17.18875,
+              "y": -11.459999
+            },
+            "uuid": "7cb4188c-5eee-4186-8e3e-637c49196648"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "actionable_old_support_signal_copper",
+      "action": "Reroute/reposition implicated old signal copper under explicit UUID replacement allowlist, preserving net identities and native DRC.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1951 mm)",
+        "items": [
+          {
+            "description": "Pad 2 [USB_UART_RX] of R902 on B.Cu",
+            "pos": {
+              "x": -17.18875,
+              "y": -11.459999
+            },
+            "uuid": "7cb4188c-5eee-4186-8e3e-637c49196648"
+          },
+          {
+            "description": "Track [/USB service/UART_BRIDGE_RX] on B.Cu, length 0.7872 mm",
+            "pos": {
+              "x": -18.3366,
+              "y": -10.973397
+            },
+            "uuid": "c27971af-5589-4f82-8871-dee3f3b4aa32"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "preliminary_power_stage_clearance",
+      "action": "Resolve during power-stage finishing. Intentional wire-pad connector overhang does not excuse copper clearance to the actual PHASE_U plated pad.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.0250 mm)",
+        "items": [
+          {
+            "description": "Track [GLS1] on F.Cu, length 4.1800 mm",
+            "pos": {
+              "x": 10.499998,
+              "y": 3.7
+            },
+            "uuid": "73878214-66eb-4166-95de-dfe71fc81679"
+          },
+          {
+            "description": "Pad 1 [VM] of C6 on F.Cu",
+            "pos": {
+              "x": 7.74,
+              "y": 4.75
+            },
+            "uuid": "faf1485f-5d2d-49b1-aeea-eb2ce1e0cfdf"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "actionable_old_support_signal_copper",
+      "action": "Reroute/reposition implicated old signal copper under explicit UUID replacement allowlist, preserving net identities and native DRC.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1028 mm)",
+        "items": [
+          {
+            "description": "Via [Net-(D601-IO2)] on F.Cu - B.Cu",
+            "pos": {
+              "x": -16.179016,
+              "y": 17.207157
+            },
+            "uuid": "01a897e4-5de9-432a-8e2c-4afde5db5d50"
+          },
+          {
+            "description": "Pad 1 [Net-(D601-IO1)] of R607 on B.Cu",
+            "pos": {
+              "x": -16.119999,
+              "y": 17.88
+            },
+            "uuid": "bb6855db-ca11-4671-a4b0-3598f0c265d6"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "offboard_staged_footprint",
+      "action": "Defer until intentionally placing these components; do not route staging area.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.4000 mm)",
+        "items": [
+          {
+            "description": "Pad 1 [VM] of C105 on F.Cu",
+            "pos": {
+              "x": 71.09,
+              "y": 24.91
+            },
+            "uuid": "8b616bfd-025d-45f3-bed9-4dcedf72ea41"
+          },
+          {
+            "description": "Pad 2 [GND] of C105 on F.Cu",
+            "pos": {
+              "x": 72.05,
+              "y": 24.91
+            },
+            "uuid": "345feb81-0e52-49e6-b4f7-f064dead7d06"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "preliminary_power_stage_clearance",
+      "action": "Resolve during power-stage finishing. Intentional wire-pad connector overhang does not excuse copper clearance to the actual PHASE_U plated pad.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.4550 mm)",
+        "items": [
+          {
+            "description": "Pad 2 [GND] of C1 on F.Cu",
+            "pos": {
+              "x": 9.08,
+              "y": -2.29
+            },
+            "uuid": "1581b469-3ccb-467a-9290-de373985a6a0"
+          },
+          {
+            "description": "Pad 1 [VM] of C2 on F.Cu",
+            "pos": {
+              "x": 7.77,
+              "y": -2.75
+            },
+            "uuid": "b17b5378-5387-49eb-8ea9-f4941651109e"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_pad_or_placement_clearance",
+      "action": "Requires footprint placement, footprint geometry, or justified local rule review; signal copper replacement alone cannot fix pad-to-pad clearance.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1976 mm)",
+        "items": [
+          {
+            "description": "Pad 1 [CAN_TERM_GATE] of Q301 on F.Cu",
+            "pos": {
+              "x": -14.224999,
+              "y": 7.7698
+            },
+            "uuid": "70c95f98-0f62-474b-b9e0-b0ac0c025842"
+          },
+          {
+            "description": "Pad 2 [GND] of Q301 on F.Cu",
+            "pos": {
+              "x": -14.575001,
+              "y": 7.7698
+            },
+            "uuid": "1c83866d-4cf2-40fb-9c1b-5b832c298594"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "preliminary_power_stage_clearance",
+      "action": "Resolve during power-stage finishing. Intentional wire-pad connector overhang does not excuse copper clearance to the actual PHASE_U plated pad.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.4550 mm)",
+        "items": [
+          {
+            "description": "Pad 2 [GND] of C5 on F.Cu",
+            "pos": {
+              "x": 9.05,
+              "y": 5.19
+            },
+            "uuid": "8aab9ddf-594e-4387-ac96-e918ba0126a8"
+          },
+          {
+            "description": "Pad 1 [VM] of C6 on F.Cu",
+            "pos": {
+              "x": 7.74,
+              "y": 4.75
+            },
+            "uuid": "faf1485f-5d2d-49b1-aeea-eb2ce1e0cfdf"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_pad_or_placement_clearance",
+      "action": "Requires footprint placement, footprint geometry, or justified local rule review; signal copper replacement alone cannot fix pad-to-pad clearance.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.4500 mm)",
+        "items": [
+          {
+            "description": "Pad 1 [VCC] of C313 on F.Cu",
+            "pos": {
+              "x": -8.81,
+              "y": 1.57
+            },
+            "uuid": "8ed17446-f4c3-4a48-ac11-eac16abd181f"
+          },
+          {
+            "description": "Pad 1 [VM] of C311 on F.Cu",
+            "pos": {
+              "x": -7.55,
+              "y": 1.02
+            },
+            "uuid": "5b8ca833-dd68-44a8-89e7-4321da8c5e61"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_pad_or_placement_clearance",
+      "action": "Requires footprint placement, footprint geometry, or justified local rule review; signal copper replacement alone cannot fix pad-to-pad clearance.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.4500 mm)",
+        "items": [
+          {
+            "description": "Pad 2 [GND] of C313 on F.Cu",
+            "pos": {
+              "x": -8.81,
+              "y": 0.61
+            },
+            "uuid": "bfe59373-4f54-4f94-9b68-8b557950d260"
+          },
+          {
+            "description": "Pad 1 [VM] of C311 on F.Cu",
+            "pos": {
+              "x": -7.55,
+              "y": 1.02
+            },
+            "uuid": "5b8ca833-dd68-44a8-89e7-4321da8c5e61"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "offboard_staged_footprint",
+      "action": "Defer until intentionally placing these components; do not route staging area.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Power' clearance 0.5000 mm; actual 0.4000 mm)",
+        "items": [
+          {
+            "description": "Pad 1 [VM] of C106 on F.Cu",
+            "pos": {
+              "x": 71.09,
+              "y": 26.88
+            },
+            "uuid": "a6c9bbef-c9d6-4a52-be36-cfecf0139a8a"
+          },
+          {
+            "description": "Pad 2 [GND] of C106 on F.Cu",
+            "pos": {
+              "x": 72.05,
+              "y": 26.88
+            },
+            "uuid": "c9c30920-2fdc-4a57-b5ad-59448b0bfe53"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_pad_or_placement_clearance",
+      "action": "Requires footprint placement, footprint geometry, or justified local rule review; signal copper replacement alone cannot fix pad-to-pad clearance.",
+      "violation": {
+        "description": "Clearance violation (netclass 'LogicPower' clearance 0.2000 mm; actual 0.1000 mm)",
+        "items": [
+          {
+            "description": "Pad 1 [5V_SYS] of U204 on B.Cu",
+            "pos": {
+              "x": -19.05,
+              "y": -13.86
+            },
+            "uuid": "cd3703cf-5ebc-4e46-9a9a-01587bb6f107"
+          },
+          {
+            "description": "Pad 2 [GND] of U204 on B.Cu",
+            "pos": {
+              "x": -17.75,
+              "y": -14.810001
+            },
+            "uuid": "db97204f-4171-43e2-9bae-bbda40ca5652"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_pad_or_placement_clearance",
+      "action": "Requires footprint placement, footprint geometry, or justified local rule review; signal copper replacement alone cannot fix pad-to-pad clearance.",
+      "violation": {
+        "description": "Clearance violation (netclass 'LogicPower' clearance 0.2000 mm; actual 0.1000 mm)",
+        "items": [
+          {
+            "description": "Pad 2 [GND] of U204 on B.Cu",
+            "pos": {
+              "x": -17.75,
+              "y": -14.810001
+            },
+            "uuid": "db97204f-4171-43e2-9bae-bbda40ca5652"
+          },
+          {
+            "description": "Pad 3 [5V_SYS] of U204 on B.Cu",
+            "pos": {
+              "x": -19.05,
+              "y": -15.760002
+            },
+            "uuid": "9378d29f-7128-46d5-a903-467db3eb84a5"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_pad_or_placement_clearance",
+      "action": "Requires footprint placement, footprint geometry, or justified local rule review; signal copper replacement alone cannot fix pad-to-pad clearance.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1000 mm)",
+        "items": [
+          {
+            "description": "Pad 2 [GND] of U204 on B.Cu",
+            "pos": {
+              "x": -17.75,
+              "y": -14.810001
+            },
+            "uuid": "db97204f-4171-43e2-9bae-bbda40ca5652"
+          },
+          {
+            "description": "Pad 4 [unconnected-(U204-NC-Pad4)] of U204 on B.Cu",
+            "pos": {
+              "x": -16.45,
+              "y": -15.760002
+            },
+            "uuid": "73144135-eba2-4c18-b465-c08d48859a4c"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_pad_or_placement_clearance",
+      "action": "Requires footprint placement, footprint geometry, or justified local rule review; signal copper replacement alone cannot fix pad-to-pad clearance.",
+      "violation": {
+        "description": "Clearance violation (netclass 'LogicPower' clearance 0.2000 mm; actual 0.1000 mm)",
+        "items": [
+          {
+            "description": "Pad 2 [GND] of U204 on B.Cu",
+            "pos": {
+              "x": -17.75,
+              "y": -14.810001
+            },
+            "uuid": "db97204f-4171-43e2-9bae-bbda40ca5652"
+          },
+          {
+            "description": "Pad 5 [3V3] of U204 on B.Cu",
+            "pos": {
+              "x": -16.45,
+              "y": -13.86
+            },
+            "uuid": "0b4a325b-de9a-44b3-aff7-722f37b4a6d4"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_pad_or_placement_clearance",
+      "action": "Requires footprint placement, footprint geometry, or justified local rule review; signal copper replacement alone cannot fix pad-to-pad clearance.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1976 mm)",
+        "items": [
+          {
+            "description": "Pad 1 [PWR_SOURCE_STATUS] of Q201 on B.Cu",
+            "pos": {
+              "x": -12.589015,
+              "y": -16.448457
+            },
+            "uuid": "7828305a-4705-43dd-81c9-516a09d5e7e0"
+          },
+          {
+            "description": "Pad 2 [GND] of Q201 on B.Cu",
+            "pos": {
+              "x": -12.239013,
+              "y": -16.448457
+            },
+            "uuid": "471f6892-8150-4dc5-bfdf-25266c8968e2"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_pad_or_placement_clearance",
+      "action": "Requires footprint placement, footprint geometry, or justified local rule review; signal copper replacement alone cannot fix pad-to-pad clearance.",
+      "violation": {
+        "description": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1976 mm)",
+        "items": [
+          {
+            "description": "Pad 1 [Net-(Q801-G)] of Q801 on B.Cu",
+            "pos": {
+              "x": -15.065,
+              "y": 8.6854
+            },
+            "uuid": "3568c84f-97b4-44be-b9e7-f88659eca5d6"
+          },
+          {
+            "description": "Pad 2 [GND] of Q801 on B.Cu",
+            "pos": {
+              "x": -15.415002,
+              "y": 8.6854
+            },
+            "uuid": "14b40174-59b2-4236-b0c6-906826fea154"
+          }
+        ],
+        "severity": "error",
+        "type": "clearance"
+      }
+    },
+    {
+      "category": "intentional_wire_pad_connector_courtyard",
+      "action": "Respect explicit user intent: connector bodies are not fitted. No placement fix required for this courtyard-only finding.",
+      "violation": {
+        "description": "Courtyards overlap",
+        "items": [
+          {
+            "description": "Footprint J1",
+            "pos": {
+              "x": 19.36,
+              "y": 2.71
+            },
+            "uuid": "27c66998-76f0-475c-9be4-fcba2622980e"
+          },
+          {
+            "description": "Footprint H3",
+            "pos": {
+              "x": 19.5,
+              "y": 19.5
+            },
+            "uuid": "c9ee21b3-88a8-4010-9631-86c23b9d0c6c"
+          }
+        ],
+        "severity": "error",
+        "type": "courtyards_overlap"
+      }
+    },
+    {
+      "category": "intentional_wire_pad_connector_courtyard",
+      "action": "Respect explicit user intent: connector bodies are not fitted. No placement fix required for this courtyard-only finding.",
+      "violation": {
+        "description": "Courtyards overlap",
+        "items": [
+          {
+            "description": "Footprint J101",
+            "pos": {
+              "x": 19.23,
+              "y": -13.84
+            },
+            "uuid": "adbc72ec-6a98-49c9-b6cd-acd9799ec985"
+          },
+          {
+            "description": "Footprint H2",
+            "pos": {
+              "x": 19.5,
+              "y": -19.5
+            },
+            "uuid": "ccc53009-630d-4e93-9bc4-08c181631507"
+          }
+        ],
+        "severity": "error",
+        "type": "courtyards_overlap"
+      }
+    },
+    {
+      "category": "onboard_footprint_edge_clearance",
+      "action": "Requires footprint movement or justified edge-rule review; cannot be resolved by signal copper-only routing.",
+      "violation": {
+        "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3825 mm)",
+        "items": [
+          {
+            "description": "Segment on Edge.Cuts",
+            "pos": {
+              "x": -19.5,
+              "y": -22.5
+            },
+            "uuid": "d100055e-70d2-402d-aefc-68b6deb50901"
+          },
+          {
+            "description": "Pad 1 [Net-(U201-SW)] of L201 on F.Cu",
+            "pos": {
+              "x": -4.215,
+              "y": -20.6425
+            },
+            "uuid": "dd1f5c88-73ae-4ff2-a02e-c6e4d6143efc"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_edge_clearance",
+      "action": "Requires footprint movement or justified edge-rule review; cannot be resolved by signal copper-only routing.",
+      "violation": {
+        "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4400 mm)",
+        "items": [
+          {
+            "description": "Segment on Edge.Cuts",
+            "pos": {
+              "x": -22.5,
+              "y": 19.5
+            },
+            "uuid": "1aaa1875-1174-4fb2-8f36-65cfa5862161"
+          },
+          {
+            "description": "Pad 1 [/USB service/CP2102_VBUS_SENSE] of R905 on B.Cu",
+            "pos": {
+              "x": -21.740001,
+              "y": -10.900002
+            },
+            "uuid": "66aabef5-56cd-4f43-aec8-d760bf55f5fa"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_edge_clearance",
+      "action": "Requires footprint movement or justified edge-rule review; cannot be resolved by signal copper-only routing.",
+      "violation": {
+        "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4400 mm)",
+        "items": [
+          {
+            "description": "Segment on Edge.Cuts",
+            "pos": {
+              "x": -22.5,
+              "y": 19.5
+            },
+            "uuid": "1aaa1875-1174-4fb2-8f36-65cfa5862161"
+          },
+          {
+            "description": "Pad 2 [GND] of R905 on B.Cu",
+            "pos": {
+              "x": -21.740001,
+              "y": -11.92
+            },
+            "uuid": "52835b68-6f82-44bb-9fc0-d2f5a7bbfb9c"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_edge_clearance",
+      "action": "Requires footprint movement or justified edge-rule review; cannot be resolved by signal copper-only routing.",
+      "violation": {
+        "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)",
+        "items": [
+          {
+            "description": "Segment on Edge.Cuts",
+            "pos": {
+              "x": -19.5,
+              "y": -22.5
+            },
+            "uuid": "d100055e-70d2-402d-aefc-68b6deb50901"
+          },
+          {
+            "description": "Pad 2 [GND] of R209 on B.Cu",
+            "pos": {
+              "x": -15.0,
+              "y": -21.88
+            },
+            "uuid": "27812bce-b5a7-4c14-b01c-c62a09261552"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_edge_clearance",
+      "action": "Requires footprint movement or justified edge-rule review; cannot be resolved by signal copper-only routing.",
+      "violation": {
+        "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3600 mm)",
+        "items": [
+          {
+            "description": "Segment on Edge.Cuts",
+            "pos": {
+              "x": 19.5,
+              "y": 22.5
+            },
+            "uuid": "0ed0e705-a0fc-46ef-836c-cd17e2133a8e"
+          },
+          {
+            "description": "Pad 1 [Net-(R605-Pad2)] of R615 on B.Cu",
+            "pos": {
+              "x": -15.100001,
+              "y": 21.82
+            },
+            "uuid": "7ee42540-9401-4649-92c1-4df619275295"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_edge_clearance",
+      "action": "Requires footprint movement or justified edge-rule review; cannot be resolved by signal copper-only routing.",
+      "violation": {
+        "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3600 mm)",
+        "items": [
+          {
+            "description": "Segment on Edge.Cuts",
+            "pos": {
+              "x": 19.5,
+              "y": 22.5
+            },
+            "uuid": "0ed0e705-a0fc-46ef-836c-cd17e2133a8e"
+          },
+          {
+            "description": "Pad 2 [GND] of R615 on B.Cu",
+            "pos": {
+              "x": -16.119999,
+              "y": 21.82
+            },
+            "uuid": "ddaeab40-f19c-49ab-84ec-b01a6cc8d370"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_edge_clearance",
+      "action": "Requires footprint movement or justified edge-rule review; cannot be resolved by signal copper-only routing.",
+      "violation": {
+        "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)",
+        "items": [
+          {
+            "description": "Segment on Edge.Cuts",
+            "pos": {
+              "x": -19.5,
+              "y": -22.5
+            },
+            "uuid": "d100055e-70d2-402d-aefc-68b6deb50901"
+          },
+          {
+            "description": "Pad 2 [GND] of R207 on B.Cu",
+            "pos": {
+              "x": -12.040003,
+              "y": -21.88
+            },
+            "uuid": "1b7b190f-b7e5-4c57-ab62-2984668edd37"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_edge_clearance",
+      "action": "Requires footprint movement or justified edge-rule review; cannot be resolved by signal copper-only routing.",
+      "violation": {
+        "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)",
+        "items": [
+          {
+            "description": "Segment on Edge.Cuts",
+            "pos": {
+              "x": -19.5,
+              "y": -22.5
+            },
+            "uuid": "d100055e-70d2-402d-aefc-68b6deb50901"
+          },
+          {
+            "description": "Pad 2 [GND] of R213 on B.Cu",
+            "pos": {
+              "x": -14.010003,
+              "y": -21.879997
+            },
+            "uuid": "601cafac-c9d2-4ce3-b15f-106507fddc34"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    },
+    {
+      "category": "onboard_footprint_edge_clearance",
+      "action": "Requires footprint movement or justified edge-rule review; cannot be resolved by signal copper-only routing.",
+      "violation": {
+        "description": "Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)",
+        "items": [
+          {
+            "description": "Segment on Edge.Cuts",
+            "pos": {
+              "x": -19.5,
+              "y": -22.5
+            },
+            "uuid": "d100055e-70d2-402d-aefc-68b6deb50901"
+          },
+          {
+            "description": "Pad 2 [GND] of R211 on B.Cu",
+            "pos": {
+              "x": -13.020002,
+              "y": -21.88
+            },
+            "uuid": "5299b46c-84ae-4333-aab1-733fe9b3a765"
+          }
+        ],
+        "severity": "error",
+        "type": "copper_edge_clearance"
+      }
+    }
+  ],
+  "confidence": "Native DRC plus raw pcbnew geometry; no datasheet/part-package verification in this targeted audit.",
+  "actionable_fixes": [
+    {
+      "nets": [
+        "/USB service/UART_BRIDGE_RX"
+      ],
+      "error_count": 2,
+      "minimal_replacement_uuids": [
+        "65ffde8f-24df-4c84-89d8-36f8597a9d51",
+        "c27971af-5589-4f82-8871-dee3f3b4aa32"
+      ],
+      "proposal": "Move their shared corner (-17.780001,-11.529999) left about 0.025\u20130.05 mm while retaining other endpoints, then DRC. Existing actual clearance is 0.1951 mm against 0.2 mm."
+    },
+    {
+      "nets": [
+        "Net-(D601-IO2)"
+      ],
+      "error_count": 1,
+      "minimal_replacement_uuids": [
+        "01a897e4-5de9-432a-8e2c-4afde5db5d50",
+        "51bae491-76e3-4ace-9e6b-fc8302f722a6",
+        "716849b5-e112-4b3b-8917-55450c940d26"
+      ],
+      "proposal": "Move old via (-16.179016,17.207157) away from R607.1, initially upward about 0.125 mm; reconnect its front/back incident segments and DRC. Existing clearance 0.1028 mm against 0.2 mm."
+    },
+    {
+      "nets": [
+        "SHUNT_W_SENSE_P",
+        "SHUNT_W_SENSE_N"
+      ],
+      "error_count": 1,
+      "minimal_replacement_uuids": [
+        "9eea7e47-98c4-4188-864e-c62034cbf76a",
+        "d6640f10-c6a6-40eb-9e7a-39395bbe8f14"
+      ],
+      "proposal": "These are incomplete preliminary Kelvin branches. Review/reroute both R5.2\u2192R437.1 and R5.3\u2192R438.1 together, preserving quiet parallel sensing and exact pin connectivity. Full copper UUIDs in actionable_signal_nets.json."
+    }
+  ]
+}

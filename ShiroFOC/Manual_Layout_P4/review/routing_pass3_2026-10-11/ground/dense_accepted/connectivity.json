@@ -1,0 +1,1019 @@
+{
+  "status": "PASS",
+  "prior_connectivity_regressions": [],
+  "selected_nets": {
+    "/5 V / 3.3 V power/10V_FB": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R201.2",
+          "R202.1",
+          "U201.5"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/5 V / 3.3 V power/10V_GOOD": {
+      "onboard_pads": 4,
+      "physical_pad_clusters": [
+        [
+          "R218.2",
+          "R219.1",
+          "U201.4",
+          "U205.17"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/5 V / 3.3 V power/U205_AGND": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R217.2",
+          "U205.3"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Brake chopper/BRAKE_NTC_RAW": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "J502.1",
+          "R511.2",
+          "R512.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Brake chopper/BRAKE_OV_CMD": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "D502.2",
+          "R510.1",
+          "U502.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Brake chopper/BRAKE_PWM_DRV": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "D502.3",
+          "R505.1",
+          "U501.3"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Current / temperature/NTC_A_RAW": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R701.2",
+          "R711.1",
+          "TH701.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Current / temperature/NTC_B_RAW": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R702.2",
+          "R712.1",
+          "TH702.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Current / temperature/NTC_C_RAW": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R703.2",
+          "R713.1",
+          "TH703.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Current / temperature/OPN_U1": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R418.2",
+          "R419.2",
+          "U4.16"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Current / temperature/OPN_V1": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R428.2",
+          "R429.2",
+          "U4.22"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Current / temperature/OPN_W1": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R438.2",
+          "R439.2",
+          "U4.25"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Current / temperature/OPP_U1": {
+      "onboard_pads": 4,
+      "physical_pad_clusters": [
+        [
+          "R410.2",
+          "R417.2",
+          "R441.1",
+          "U4.14"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Current / temperature/OPP_V1": {
+      "onboard_pads": 4,
+      "physical_pad_clusters": [
+        [
+          "R420.2",
+          "R427.2",
+          "R442.1",
+          "U4.20"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/Current / temperature/OPP_W1": {
+      "onboard_pads": 4,
+      "physical_pad_clusters": [
+        [
+          "R430.2",
+          "R437.2",
+          "R443.1",
+          "U4.23"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/MCU / clock / SWD/NRST": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "C310.1",
+          "U4.8"
+        ],
+        [
+          "R303.2"
+        ]
+      ],
+      "complete_between_onboard_pads": false
+    },
+    "/MCU / clock / SWD/SWCLK": {
+      "onboard_pads": 1,
+      "physical_pad_clusters": [
+        [
+          "U4.50"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/MCU / clock / SWD/SWDIO": {
+      "onboard_pads": 1,
+      "physical_pad_clusters": [
+        [
+          "U4.49"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/USB service/CP2102_RST_N": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R901.2",
+          "U901.9"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/USB service/CP2102_VBUS_SENSE": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R904.2",
+          "R905.1",
+          "U901.8"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/USB service/UART_BRIDGE_RX": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R903.2",
+          "U901.17"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "/USB service/UART_BRIDGE_TX": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R902.1",
+          "U901.18"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "3V3": {
+      "onboard_pads": 49,
+      "physical_pad_clusters": [
+        [
+          "C213.1",
+          "C301.1",
+          "C302.1",
+          "C307.1",
+          "C503.1",
+          "C601.1",
+          "C602.1",
+          "C603.1",
+          "C605.1",
+          "C701.1",
+          "C702.1",
+          "C801.1",
+          "C802.1",
+          "C901.1",
+          "C902.1",
+          "C903.1",
+          "C904.1",
+          "D505.2",
+          "R301.1",
+          "R303.1",
+          "R305.1",
+          "R308.1",
+          "R309.1",
+          "R310.1",
+          "R511.1",
+          "R604.1",
+          "R701.1",
+          "R702.1",
+          "R703.1",
+          "R715.1",
+          "R801.1",
+          "R805.1",
+          "R901.1",
+          "U204.5",
+          "U4.1",
+          "U4.2",
+          "U4.64",
+          "U502.6",
+          "U601.11",
+          "U601.12",
+          "U602.16",
+          "U603.8",
+          "U701.12",
+          "U701.5",
+          "U701.8",
+          "U801.3",
+          "U801.5",
+          "U901.6",
+          "U901.7"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "AS5047P_CS_N": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R309.2",
+          "U4.51",
+          "U601.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "BRAKE_PWM": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "U4.60"
+        ],
+        [
+          "R501.1",
+          "R502.1"
+        ]
+      ],
+      "complete_between_onboard_pads": false
+    },
+    "CAN_STB": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R801.2",
+          "U4.28",
+          "U801.8"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "CAN_TERM_DISABLE": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U4.5"
+        ],
+        [
+          "R803.1"
+        ]
+      ],
+      "complete_between_onboard_pads": false
+    },
+    "EXT_FEEDBACK_SELECT": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R306.1",
+          "U4.53",
+          "U602.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "EXT_SENSOR_FAULT_N": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R604.2",
+          "U4.3",
+          "U604.4"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "FDCAN1_RX": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U4.47",
+          "U801.4"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "FDCAN1_TX": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R805.2",
+          "U4.48",
+          "U801.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "FEEDBACK_A_H1": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U4.57",
+          "U602.4"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "FEEDBACK_B_H2": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U4.58",
+          "U602.7"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "FEEDBACK_I_H3": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R307.1",
+          "U4.59",
+          "U602.9"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "I2C2_SCL": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R308.2",
+          "U4.21",
+          "U701.13"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "I2C2_SDA": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R715.2",
+          "U4.44",
+          "U701.14"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "IMU_INT1": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U4.17",
+          "U701.4"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "IMU_INT2": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U4.18",
+          "U701.9"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "INPUT_MUX_ENABLE_N": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "U4.4"
+        ],
+        [
+          "R305.2",
+          "U602.15"
+        ]
+      ],
+      "complete_between_onboard_pads": false
+    },
+    "NTC_BRAKE": {
+      "onboard_pads": 4,
+      "physical_pad_clusters": [
+        [
+          "C505.1",
+          "D505.3",
+          "R512.2",
+          "U4.10"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "NTC_PHASE_A": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "C711.1",
+          "R711.2",
+          "U4.12"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "NTC_PHASE_B": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "C712.1",
+          "U4.11"
+        ],
+        [
+          "R712.2"
+        ]
+      ],
+      "complete_between_onboard_pads": false
+    },
+    "NTC_PHASE_C": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "C713.1",
+          "R713.2",
+          "U4.13"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(R103-Pad2)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R103.2",
+          "R105.1",
+          "R106.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(R310-Pad2)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R310.2",
+          "R311.1",
+          "R312.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(R605-Pad2)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R605.2",
+          "R615.1",
+          "U603.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(R606-Pad2)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R606.2",
+          "R616.1",
+          "U603.3"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(R607-Pad2)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R607.2",
+          "R617.1",
+          "U603.6"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U201-VCC)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "C204.1",
+          "U201.6"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U203-CP2)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R208.2",
+          "R209.1",
+          "U203.3"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U203-ILM)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R214.1",
+          "U203.10"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U203-OV1)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R210.2",
+          "R211.1",
+          "U203.5"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U203-OV2)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R212.2",
+          "R213.1",
+          "U203.4"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U203-PR1)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R206.2",
+          "R207.1",
+          "U203.6"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U203-SS)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "C209.1",
+          "U203.11"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U205-FB)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R216.2",
+          "R217.1",
+          "U205.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U4A-PF0)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "C308.1",
+          "U4.6",
+          "Y301.1"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U4A-PF1)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "C309.1",
+          "U4.7",
+          "Y301.3"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U4C-SCREF)": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "C314.1",
+          "R312.2",
+          "U4.52"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U502-IN+)": {
+      "onboard_pads": 5,
+      "physical_pad_clusters": [
+        [
+          "C504.1",
+          "R506.2",
+          "R509.1",
+          "R510.2",
+          "U502.3"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U502-IN-)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U502.4",
+          "U502.5"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U601-CLK)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R313.2",
+          "U601.2"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U601-MISO)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R611.1",
+          "U601.3"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U601-MOSI)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R314.2",
+          "U601.4"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U602A-S1B)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U602.3",
+          "U603.7"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U602A-S2B)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U602.6",
+          "U603.5"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U602A-S3B)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "U602.10",
+          "U603.2"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "Net-(U604-ILIM)": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R618.1",
+          "U604.5"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "OPO_U1": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R419.1",
+          "U4.15"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "OPO_V1": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R429.1",
+          "U4.19"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "OPO_W1": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R439.1",
+          "U4.24"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "PWR_SOURCE_STATUS": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "Q201.1",
+          "R215.2",
+          "U203.9"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "SPI3_MISO": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R611.2",
+          "U4.55"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "SPI3_MOSI_MCU": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R314.1",
+          "U4.56"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "SPI3_SCK_MCU": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R313.1",
+          "U4.54"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "USB_UART_RX": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R902.2",
+          "U4.46"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "USB_UART_TX": {
+      "onboard_pads": 2,
+      "physical_pad_clusters": [
+        [
+          "R903.1",
+          "U4.45"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "VBUS_MUX_IN": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "R106.2",
+          "U602.13",
+          "U602.14"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "VBUS_SENSE": {
+      "onboard_pads": 3,
+      "physical_pad_clusters": [
+        [
+          "C108.1",
+          "U4.9",
+          "U602.12"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "VDDA": {
+      "onboard_pads": 5,
+      "physical_pad_clusters": [
+        [
+          "C303.1",
+          "C304.1",
+          "R301.2",
+          "R302.1",
+          "U4.27"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    },
+    "VREF+": {
+      "onboard_pads": 7,
+      "physical_pad_clusters": [
+        [
+          "C305.1",
+          "C306.1",
+          "R302.2",
+          "R410.1",
+          "R420.1",
+          "R430.1",
+          "U4.26"
+        ]
+      ],
+      "complete_between_onboard_pads": true
+    }
+  },
+  "completed_selected": 76,
+  "total_selected": 81,
+  "remaining_selected": [
+    "/MCU / clock / SWD/NRST",
+    "BRAKE_PWM",
+    "CAN_TERM_DISABLE",
+    "INPUT_MUX_ENABLE_N",
+    "NTC_PHASE_B"
+  ],
+  "baseline_plane_connectivity": {
+    "GND": {
+      "filled_polygon_count": 2,
+      "electrically_joined_region_groups": [
+        [
+          {
+            "zone_uuid": "6ae18780-7be8-49c7-ba8b-e54da0cbc017",
+            "layer": "GND L2",
+            "filled_polygon_index": 0
+          },
+          {
+            "zone_uuid": "0da23d62-325e-4479-9e26-4962df50b9c4",
+            "layer": "GND L5",
+            "filled_polygon_index": 0
+          }
+        ]
+      ],
+      "electrical_region_group_count": 1
+    },
+    "3V3": {
+      "filled_polygon_count": 2,
+      "electrically_joined_region_groups": [
+        [
+          {
+            "zone_uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+            "layer": "Power L4",
+            "filled_polygon_index": 0
+          },
+          {
+            "zone_uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+            "layer": "Power L4",
+            "filled_polygon_index": 1
+          }
+        ]
+      ],
+      "electrical_region_group_count": 1
+    }
+  },
+  "candidate_plane_connectivity": {
+    "GND": {
+      "filled_polygon_count": 2,
+      "electrically_joined_region_groups": [
+        [
+          {
+            "zone_uuid": "6ae18780-7be8-49c7-ba8b-e54da0cbc017",
+            "layer": "GND L2",
+            "filled_polygon_index": 0
+          },
+          {
+            "zone_uuid": "0da23d62-325e-4479-9e26-4962df50b9c4",
+            "layer": "GND L5",
+            "filled_polygon_index": 0
+          }
+        ]
+      ],
+      "electrical_region_group_count": 1
+    },
+    "3V3": {
+      "filled_polygon_count": 2,
+      "electrically_joined_region_groups": [
+        [
+          {
+            "zone_uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+            "layer": "Power L4",
+            "filled_polygon_index": 0
+          },
+          {
+            "zone_uuid": "97f7258e-b491-458e-a426-d482e94a8975",
+            "layer": "Power L4",
+            "filled_polygon_index": 1
+          }
+        ]
+      ],
+      "electrical_region_group_count": 1
+    }
+  },
+  "method": "Native same-net copper contacts plus per-filled-polygon zone contact; includes copper-only island bridges."
+}

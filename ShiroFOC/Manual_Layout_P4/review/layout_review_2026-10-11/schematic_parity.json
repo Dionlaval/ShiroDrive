@@ -1,0 +1,1100 @@
+{
+  "native_component_count": 331,
+  "native_nets": 199,
+  "analyzer_component_count": 331,
+  "analyzer_nets": 199,
+  "pcb_footprints": 277,
+  "missing_components": [
+    "TP101",
+    "TP102",
+    "TP103",
+    "TP104",
+    "TP105",
+    "TP201",
+    "TP1005",
+    "TP1006",
+    "TP303",
+    "TP1008",
+    "TP1009",
+    "TP1021",
+    "TP1023",
+    "TP1024",
+    "TP301",
+    "TP302",
+    "TP411",
+    "TP412",
+    "TP413",
+    "TP421",
+    "TP422",
+    "TP423",
+    "TP431",
+    "TP432",
+    "TP433",
+    "C414",
+    "C424",
+    "C434",
+    "TP414",
+    "TP424",
+    "TP434",
+    "TP701",
+    "TP702",
+    "TP703",
+    "TP1018",
+    "TP1019",
+    "TP1020",
+    "TP501",
+    "TP502",
+    "TP1010",
+    "TP1011",
+    "TP1012",
+    "R608",
+    "R609",
+    "R610",
+    "R618",
+    "TP1015",
+    "TP1016",
+    "TP1013",
+    "TP1014",
+    "TP1022",
+    "TP202",
+    "TP901",
+    "TP902"
+  ],
+  "pcb_only_components": [],
+  "missing_schematic_pins_on_pcb": [
+    {
+      "pin": [
+        "C414",
+        "2"
+      ],
+      "net": "/Current / temperature/OPN_U1"
+    },
+    {
+      "pin": [
+        "C424",
+        "2"
+      ],
+      "net": "/Current / temperature/OPN_V1"
+    },
+    {
+      "pin": [
+        "C434",
+        "2"
+      ],
+      "net": "/Current / temperature/OPN_W1"
+    },
+    {
+      "pin": [
+        "R609",
+        "1"
+      ],
+      "net": "/External feedback/EXT_VCC"
+    },
+    {
+      "pin": [
+        "R610",
+        "1"
+      ],
+      "net": "/External feedback/EXT_VCC"
+    },
+    {
+      "pin": [
+        "R608",
+        "1"
+      ],
+      "net": "/External feedback/EXT_VCC"
+    },
+    {
+      "pin": [
+        "TP303",
+        "1"
+      ],
+      "net": "/MCU / clock / SWD/NRST"
+    },
+    {
+      "pin": [
+        "TP1009",
+        "1"
+      ],
+      "net": "/MCU / clock / SWD/SWCLK"
+    },
+    {
+      "pin": [
+        "TP1008",
+        "1"
+      ],
+      "net": "/MCU / clock / SWD/SWDIO"
+    },
+    {
+      "pin": [
+        "TP412",
+        "1"
+      ],
+      "net": "/Three-phase bridge/LS_SOURCE_U"
+    },
+    {
+      "pin": [
+        "TP422",
+        "1"
+      ],
+      "net": "/Three-phase bridge/LS_SOURCE_V"
+    },
+    {
+      "pin": [
+        "TP432",
+        "1"
+      ],
+      "net": "/Three-phase bridge/LS_SOURCE_W"
+    },
+    {
+      "pin": [
+        "TP1006",
+        "1"
+      ],
+      "net": "3V3"
+    },
+    {
+      "pin": [
+        "TP1005",
+        "1"
+      ],
+      "net": "5V_SYS"
+    },
+    {
+      "pin": [
+        "TP202",
+        "1"
+      ],
+      "net": "5V_USB"
+    },
+    {
+      "pin": [
+        "TP1022",
+        "1"
+      ],
+      "net": "CAN_STB"
+    },
+    {
+      "pin": [
+        "TP1021",
+        "1"
+      ],
+      "net": "CAN_TERM_DISABLE"
+    },
+    {
+      "pin": [
+        "TP1023",
+        "1"
+      ],
+      "net": "EXT_SENSOR_FAULT_N"
+    },
+    {
+      "pin": [
+        "TP1014",
+        "1"
+      ],
+      "net": "FDCAN1_RX"
+    },
+    {
+      "pin": [
+        "TP1013",
+        "1"
+      ],
+      "net": "FDCAN1_TX"
+    },
+    {
+      "pin": [
+        "TP1015",
+        "1"
+      ],
+      "net": "FEEDBACK_A_H1"
+    },
+    {
+      "pin": [
+        "TP1016",
+        "1"
+      ],
+      "net": "FEEDBACK_B_H2"
+    },
+    {
+      "pin": [
+        "TP411",
+        "1"
+      ],
+      "net": "GLS1"
+    },
+    {
+      "pin": [
+        "TP421",
+        "1"
+      ],
+      "net": "GLS2"
+    },
+    {
+      "pin": [
+        "TP431",
+        "1"
+      ],
+      "net": "GLS3"
+    },
+    {
+      "pin": [
+        "R618",
+        "2"
+      ],
+      "net": "GND"
+    },
+    {
+      "pin": [
+        "TP105",
+        "1"
+      ],
+      "net": "GND"
+    },
+    {
+      "pin": [
+        "TP434",
+        "1"
+      ],
+      "net": "GND"
+    },
+    {
+      "pin": [
+        "TP102",
+        "1"
+      ],
+      "net": "GND"
+    },
+    {
+      "pin": [
+        "TP414",
+        "1"
+      ],
+      "net": "GND"
+    },
+    {
+      "pin": [
+        "TP424",
+        "1"
+      ],
+      "net": "GND"
+    },
+    {
+      "pin": [
+        "TP1024",
+        "1"
+      ],
+      "net": "I2C2_SDA"
+    },
+    {
+      "pin": [
+        "TP701",
+        "1"
+      ],
+      "net": "NTC_PHASE_A"
+    },
+    {
+      "pin": [
+        "TP702",
+        "1"
+      ],
+      "net": "NTC_PHASE_B"
+    },
+    {
+      "pin": [
+        "TP703",
+        "1"
+      ],
+      "net": "NTC_PHASE_C"
+    },
+    {
+      "pin": [
+        "TP501",
+        "1"
+      ],
+      "net": "Net-(D501-K)"
+    },
+    {
+      "pin": [
+        "TP502",
+        "1"
+      ],
+      "net": "Net-(J501-Pad1)"
+    },
+    {
+      "pin": [
+        "R608",
+        "2"
+      ],
+      "net": "Net-(R605-Pad2)"
+    },
+    {
+      "pin": [
+        "R609",
+        "2"
+      ],
+      "net": "Net-(R606-Pad2)"
+    },
+    {
+      "pin": [
+        "R610",
+        "2"
+      ],
+      "net": "Net-(R607-Pad2)"
+    },
+    {
+      "pin": [
+        "TP302",
+        "1"
+      ],
+      "net": "Net-(U4C-SCREF)"
+    },
+    {
+      "pin": [
+        "TP1010",
+        "1"
+      ],
+      "net": "Net-(U601-CLK)"
+    },
+    {
+      "pin": [
+        "TP1012",
+        "1"
+      ],
+      "net": "Net-(U601-MOSI)"
+    },
+    {
+      "pin": [
+        "R618",
+        "1"
+      ],
+      "net": "Net-(U604-ILIM)"
+    },
+    {
+      "pin": [
+        "C414",
+        "1"
+      ],
+      "net": "OPO_U1"
+    },
+    {
+      "pin": [
+        "TP1018",
+        "1"
+      ],
+      "net": "OPO_U1"
+    },
+    {
+      "pin": [
+        "C424",
+        "1"
+      ],
+      "net": "OPO_V1"
+    },
+    {
+      "pin": [
+        "TP1019",
+        "1"
+      ],
+      "net": "OPO_V1"
+    },
+    {
+      "pin": [
+        "TP1020",
+        "1"
+      ],
+      "net": "OPO_W1"
+    },
+    {
+      "pin": [
+        "C434",
+        "1"
+      ],
+      "net": "OPO_W1"
+    },
+    {
+      "pin": [
+        "TP413",
+        "1"
+      ],
+      "net": "PHASE_U"
+    },
+    {
+      "pin": [
+        "TP423",
+        "1"
+      ],
+      "net": "PHASE_V"
+    },
+    {
+      "pin": [
+        "TP433",
+        "1"
+      ],
+      "net": "PHASE_W"
+    },
+    {
+      "pin": [
+        "TP201",
+        "1"
+      ],
+      "net": "PWR_SOURCE_STATUS"
+    },
+    {
+      "pin": [
+        "TP1011",
+        "1"
+      ],
+      "net": "SPI3_MISO"
+    },
+    {
+      "pin": [
+        "TP902",
+        "1"
+      ],
+      "net": "USB_UART_RX"
+    },
+    {
+      "pin": [
+        "TP901",
+        "1"
+      ],
+      "net": "USB_UART_TX"
+    },
+    {
+      "pin": [
+        "TP103",
+        "1"
+      ],
+      "net": "VBUS_SENSE"
+    },
+    {
+      "pin": [
+        "TP301",
+        "1"
+      ],
+      "net": "VCC"
+    },
+    {
+      "pin": [
+        "TP101",
+        "1"
+      ],
+      "net": "VM"
+    },
+    {
+      "pin": [
+        "TP104",
+        "1"
+      ],
+      "net": "VM"
+    },
+    {
+      "pin": [
+        "U205",
+        "19"
+      ],
+      "net": "unconnected-(U205-NC-Pad19)"
+    },
+    {
+      "pin": [
+        "U205",
+        "20"
+      ],
+      "net": "unconnected-(U205-NC-Pad20)"
+    }
+  ],
+  "extra_pcb_pad_assignments": [],
+  "pin_net_name_differences": [],
+  "property_differences": [],
+  "schematic_components_without_bom": [
+    {
+      "ref": "H1",
+      "properties": [
+        {
+          "name": "Sheetname",
+          "value": ""
+        },
+        {
+          "name": "Sheetfile",
+          "value": "ShiroFOC_Manual.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        },
+        {
+          "name": "ki_keywords",
+          "value": "mounting hole"
+        },
+        {
+          "name": "ki_fp_filters",
+          "value": "MountingHole*"
+        }
+      ]
+    },
+    {
+      "ref": "H2",
+      "properties": [
+        {
+          "name": "Sheetname",
+          "value": ""
+        },
+        {
+          "name": "Sheetfile",
+          "value": "ShiroFOC_Manual.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        },
+        {
+          "name": "ki_keywords",
+          "value": "mounting hole"
+        },
+        {
+          "name": "ki_fp_filters",
+          "value": "MountingHole*"
+        }
+      ]
+    },
+    {
+      "ref": "H3",
+      "properties": [
+        {
+          "name": "Sheetname",
+          "value": ""
+        },
+        {
+          "name": "Sheetfile",
+          "value": "ShiroFOC_Manual.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        },
+        {
+          "name": "ki_keywords",
+          "value": "mounting hole"
+        },
+        {
+          "name": "ki_fp_filters",
+          "value": "MountingHole*"
+        }
+      ]
+    },
+    {
+      "ref": "H4",
+      "properties": [
+        {
+          "name": "Sheetname",
+          "value": ""
+        },
+        {
+          "name": "Sheetfile",
+          "value": "ShiroFOC_Manual.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        },
+        {
+          "name": "ki_keywords",
+          "value": "mounting hole"
+        },
+        {
+          "name": "ki_fp_filters",
+          "value": "MountingHole*"
+        }
+      ]
+    },
+    {
+      "ref": "TP104",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "VM"
+        },
+        {
+          "name": "Sheetname",
+          "value": "DC link / input"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "01_DC_Link.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP105",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "GND"
+        },
+        {
+          "name": "Sheetname",
+          "value": "DC link / input"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "01_DC_Link.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "J1001",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB FEATURE - DO NOT FIT"
+        },
+        {
+          "name": "Rating",
+          "value": "3.3V SWD; VTREF sense-only"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "Tag-Connect"
+        },
+        {
+          "name": "BOM Comments",
+          "value": "No soldered connector. Use TC2030-CTX-NL cable / equivalent ARM-CTX wiring. Pin 6 SWO unconnected."
+        },
+        {
+          "name": "Sheetname",
+          "value": "MCU / clock / SWD"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "MCUclockSWD.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        },
+        {
+          "name": "ki_keywords",
+          "value": "Cortex Debug Connector ARM SWD JTAG"
+        },
+        {
+          "name": "ki_fp_filters",
+          "value": "*TC2030*"
+        }
+      ]
+    },
+    {
+      "ref": "TP411",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "GLS1"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Three-phase bridge"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "Three-phase bridge.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP412",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "LS_SOURCE_U"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Three-phase bridge"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "Three-phase bridge.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP413",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "PHASE_U"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Three-phase bridge"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "Three-phase bridge.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP421",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "GLS2"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Three-phase bridge"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "Three-phase bridge.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP422",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "LS_SOURCE_V"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Three-phase bridge"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "Three-phase bridge.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP423",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "PHASE_V"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Three-phase bridge"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "Three-phase bridge.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP431",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "GLS3"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Three-phase bridge"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "Three-phase bridge.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP432",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "LS_SOURCE_W"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Three-phase bridge"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "Three-phase bridge.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP433",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "PHASE_W"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Three-phase bridge"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "Three-phase bridge.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP414",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "GND"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Current / temperature"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "06_Current_Temperature.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP424",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "GND"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Current / temperature"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "06_Current_Temperature.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    },
+    {
+      "ref": "TP434",
+      "properties": [
+        {
+          "name": "MPN",
+          "value": "PCB feature"
+        },
+        {
+          "name": "Manufacturer",
+          "value": "PCB"
+        },
+        {
+          "name": "Assembly",
+          "value": "PCB"
+        },
+        {
+          "name": "Test_Net",
+          "value": "GND"
+        },
+        {
+          "name": "Sheetname",
+          "value": "Current / temperature"
+        },
+        {
+          "name": "Sheetfile",
+          "value": "06_Current_Temperature.kicad_sch"
+        },
+        {
+          "name": "exclude_from_bom"
+        }
+      ]
+    }
+  ]
+}

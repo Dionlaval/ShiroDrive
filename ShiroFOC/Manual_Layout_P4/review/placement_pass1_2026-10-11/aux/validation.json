@@ -1,0 +1,26 @@
+{
+  "only_moved_refs": [
+    "C203",
+    "R503"
+  ],
+  "component_count_preserved": 277,
+  "pad_nets_preserved": true,
+  "metrics": {
+    "driver_OUT_to_resistor": {
+      "before_mm": 1.7581,
+      "after_mm": 1.1338
+    },
+    "resistor_to_gate": {
+      "before_mm": 1.6542,
+      "after_mm": 1.4185
+    }
+  },
+  "U205_keepouts_preserved": true,
+  "refilled": true,
+  "refilled_drc_violations": 384,
+  "baseline_refilled_drc_violations": 395,
+  "refilled_unconnected": 435,
+  "baseline_refilled_unconnected": 456,
+  "new_or_modified_item_drc_findings": 0,
+  "preview_notes": "Native geometry front/back preview is top-view coordinate consistent. Source solder-wire terminal overhangs retained. No new courtyard intersections or copper violations from these edits."
+}

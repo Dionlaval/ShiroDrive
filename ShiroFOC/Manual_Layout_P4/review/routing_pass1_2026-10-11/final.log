@@ -1,0 +1,47 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+05:53:11 PM: Debug: Adding duplicate image handler for 'PNG file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'JPEG file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'TIFF file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'GIF file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'PNM file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'PCX file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'IFF file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'TGA file'
+05:53:11 PM: Debug: Adding duplicate image handler for 'XPM file'
+{"groups": 18, "added": {"PCB_VIA": 18}, "skipped": 21, "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/final/ShiroFOC_Manual.ground_manifest.json"}
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Refilled /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/final/ShiroFOC_Manual.kicad_pcb
+Found 421 violations
+Found 337 unconnected items
+Saved DRC Report to /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/final/drc.json
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+05:53:18 PM: Debug: Adding duplicate image handler for 'PNG file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'JPEG file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'TIFF file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'GIF file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'PNM file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'PCX file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'IFF file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'TGA file'
+05:53:18 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "failures": [],
+  "new_item_count": 432,
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 388,
+    "unconnected": 337
+  }
+}

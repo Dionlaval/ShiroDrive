@@ -1,0 +1,1025 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/power_final/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "e21d6e5e5c90369e158aa65ec4eae84a911aaa87a59c5167c50128f9b7d5faff",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/final/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "signal_return_c0de4de5-cf3f-49d6-8722-239c7323b5b8",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "FDCAN1_TX",
+      "signal_via_uuid": "c0de4de5-cf3f-49d6-8722-239c7323b5b8",
+      "signal_position_mm": [
+        2.8,
+        18.175
+      ],
+      "end_mm": [
+        3.6,
+        18.2
+      ],
+      "distance_to_signal_mm": 0.800391,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "5093de51-eb6c-4a47-9022-c45c911da0a1"
+      ],
+      "new_items": [
+        "5093de51-eb6c-4a47-9022-c45c911da0a1"
+      ],
+      "added_via_uuid": "5093de51-eb6c-4a47-9022-c45c911da0a1",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_76bfe218-79d8-4a0c-8ec8-70a0b6104578",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "FEEDBACK_I_H3",
+      "signal_via_uuid": "76bfe218-79d8-4a0c-8ec8-70a0b6104578",
+      "signal_position_mm": [
+        -4.5,
+        16.975
+      ],
+      "end_mm": [
+        -5.25,
+        16.65
+      ],
+      "distance_to_signal_mm": 0.817389,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "8296460e-c62d-48a9-9391-bfb2997bbdce"
+      ],
+      "new_items": [
+        "8296460e-c62d-48a9-9391-bfb2997bbdce"
+      ],
+      "added_via_uuid": "8296460e-c62d-48a9-9391-bfb2997bbdce",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    },
+    {
+      "group_id": "signal_return_8bbc3905-1d92-4c2f-9663-165b47575aed",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "Net-(U203-OV1)",
+      "signal_via_uuid": "8bbc3905-1d92-4c2f-9663-165b47575aed",
+      "signal_position_mm": [
+        -11.25,
+        -20.1
+      ],
+      "end_mm": [
+        -10.15,
+        -20.1
+      ],
+      "distance_to_signal_mm": 1.1,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "a1e543f8-d735-4b8f-b906-e95535bd5768"
+      ],
+      "new_items": [
+        "a1e543f8-d735-4b8f-b906-e95535bd5768"
+      ],
+      "added_via_uuid": "a1e543f8-d735-4b8f-b906-e95535bd5768",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    }
+  ],
+  "skipped": [
+    {
+      "signal_via_uuid": "c3713be5-69a9-42e5-b986-9b201fe8b031",
+      "net": "FDCAN1_TX",
+      "position_mm": [
+        -1.375,
+        16.125
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 3.185675
+    },
+    {
+      "signal_via_uuid": "508273a0-dd74-48be-8c45-1fc622b7c205",
+      "net": "I2C2_SDA",
+      "position_mm": [
+        0.225,
+        4.4
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.525495
+    },
+    {
+      "signal_via_uuid": "d14a38f5-e59c-4a1c-8e4c-e4ff784bea5a",
+      "net": "FDCAN1_TX",
+      "position_mm": [
+        1.525,
+        10.35
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.448597
+    },
+    {
+      "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+      "net": "FEEDBACK_A_H1",
+      "position_mm": [
+        -5.16,
+        4.755298
+      ],
+      "reason": "no legal .8..1.5 mm return via contacting every GND reference plane",
+      "nearest_ground_mm": 2.140467
+    },
+    {
+      "signal_via_uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+      "net": "FEEDBACK_B_H2",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+      "distance_mm": 1.450689
+    },
+    {
+      "signal_via_uuid": "a1df0f76-ec85-41bf-a589-e5461c8ccab2",
+      "net": "FEEDBACK_I_H3",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "6ca4e555-ecf5-4724-b640-9309c493de3a",
+      "distance_mm": 1.228627
+    },
+    {
+      "signal_via_uuid": "df577c39-e8d1-471c-9428-835998ada4ae",
+      "net": "I2C2_SDA",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "distance_mm": 1.207528
+    },
+    {
+      "signal_via_uuid": "c4cfd457-eaea-4ee4-84e8-91b9e521016e",
+      "net": "FDCAN1_RX",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "distance_mm": 1.149184
+    },
+    {
+      "signal_via_uuid": "d925f4f5-7aef-428b-ac96-f9257d341e6c",
+      "net": "EXT_FEEDBACK_SELECT",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "4faffcb5-2156-47e4-a317-73e36dadf929",
+      "distance_mm": 0.825
+    },
+    {
+      "signal_via_uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+      "net": "FEEDBACK_I_H3",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+      "distance_mm": 0.78128
+    },
+    {
+      "signal_via_uuid": "dcbb1af1-a496-4de2-98b7-1aadd47b939f",
+      "net": "Net-(D601-IO2)",
+      "reason": "existing GND via joins all reference planes within 1.5 mm",
+      "ground_via_uuid": "bfdd9360-5f92-441d-8cdc-9666e7a6e755",
+      "distance_mm": 0.773641
+    }
+  ],
+  "added_counts": {
+    "PCB_VIA": 3
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 1.5,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  },
+  "pruned_groups": [
+    {
+      "group_id": "signal_return_87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+      "kind": "signal_return_via",
+      "net": "GND",
+      "signal_net": "EXT_FEEDBACK_SELECT",
+      "signal_via_uuid": "87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+      "signal_position_mm": [
+        -1.674999,
+        19.4
+      ],
+      "end_mm": [
+        -1.85,
+        20.35
+      ],
+      "distance_to_signal_mm": 0.965984,
+      "required_ground_planes": [
+        "GND L2",
+        "GND L5"
+      ],
+      "all_plane_fills_contain_site": true,
+      "added_uuids": [
+        "37c21766-29f7-43d1-8123-254033747452"
+      ],
+      "new_items": [
+        "37c21766-29f7-43d1-8123-254033747452"
+      ],
+      "added_via_uuid": "37c21766-29f7-43d1-8123-254033747452",
+      "stub_length_mm": 0,
+      "track_widths_mm": []
+    }
+  ],
+  "prune_reason": "This GND via cut the L4 3V3 feed to C603.1 after zone refill; remove the entire return group to preserve all49 supply-pad connections.",
+  "signal_returns_before_pruning": {
+    "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+    "baseline_sha256": "0377dac62f42cae4ee8205d58f0a06d141545b332f3cf237d79f053e5bf536ec",
+    "new_signal_vias": 12,
+    "reused_signal_vias": 3,
+    "audited_signal_vias": 15,
+    "required_ground_planes": [
+      "GND L2",
+      "GND L5"
+    ],
+    "before": [
+      {
+        "signal_via_uuid": "87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -1.674999,
+          19.4
+        ],
+        "nearest_ground_mm": 2.280487,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "B.Cu",
+            "Signals L3"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "d925f4f5-7aef-428b-ac96-f9257d341e6c",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -5.0,
+          21.125
+        ],
+        "nearest_ground_mm": 0.825,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "B.Cu",
+            "Signals L3"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "c4cfd457-eaea-4ee4-84e8-91b9e521016e",
+        "net": "FDCAN1_RX",
+        "position_mm": [
+          0.35,
+          2.875
+        ],
+        "nearest_ground_mm": 1.149184,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "c0de4de5-cf3f-49d6-8722-239c7323b5b8",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          2.8,
+          18.175
+        ],
+        "nearest_ground_mm": 2.363922,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "c3713be5-69a9-42e5-b986-9b201fe8b031",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          -1.375,
+          16.125
+        ],
+        "nearest_ground_mm": 3.185675,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "d14a38f5-e59c-4a1c-8e4c-e4ff784bea5a",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          1.525,
+          10.35
+        ],
+        "nearest_ground_mm": 2.448597,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "B.Cu",
+            "Signals L3"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "nearest_ground_mm": 2.140467,
+        "transition": {
+          "new_via": false,
+          "forced": false,
+          "previous_signal_layers": [
+            "F.Cu"
+          ],
+          "current_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "nearest_ground_mm": 1.450689,
+        "transition": {
+          "new_via": false,
+          "forced": false,
+          "previous_signal_layers": [
+            "F.Cu"
+          ],
+          "current_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "nearest_ground_mm": 0.78128,
+        "transition": {
+          "new_via": false,
+          "forced": false,
+          "previous_signal_layers": [
+            "F.Cu"
+          ],
+          "current_signal_layers": [
+            "F.Cu",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "76bfe218-79d8-4a0c-8ec8-70a0b6104578",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -4.5,
+          16.975
+        ],
+        "nearest_ground_mm": 2.176661,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "B.Cu",
+            "Signals L3"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "a1df0f76-ec85-41bf-a589-e5461c8ccab2",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -10.2,
+          15.7
+        ],
+        "nearest_ground_mm": 1.228627,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "Signals L3",
+            "Power L4"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "508273a0-dd74-48be-8c45-1fc622b7c205",
+        "net": "I2C2_SDA",
+        "position_mm": [
+          0.225,
+          4.4
+        ],
+        "nearest_ground_mm": 2.525495,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "df577c39-e8d1-471c-9428-835998ada4ae",
+        "net": "I2C2_SDA",
+        "position_mm": [
+          1.7,
+          0.975
+        ],
+        "nearest_ground_mm": 1.207528,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "dcbb1af1-a496-4de2-98b7-1aadd47b939f",
+        "net": "Net-(D601-IO2)",
+        "position_mm": [
+          -14.649999,
+          15.575
+        ],
+        "nearest_ground_mm": 0.773641,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "F.Cu",
+            "B.Cu"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      },
+      {
+        "signal_via_uuid": "8bbc3905-1d92-4c2f-9663-165b47575aed",
+        "net": "Net-(U203-OV1)",
+        "position_mm": [
+          -11.25,
+          -20.1
+        ],
+        "nearest_ground_mm": 1.557241,
+        "transition": {
+          "new_via": true,
+          "forced": false,
+          "previous_signal_layers": [],
+          "current_signal_layers": [
+            "B.Cu",
+            "Signals L3"
+          ],
+          "reference_layers": [
+            "GND L2",
+            "GND L5"
+          ]
+        }
+      }
+    ],
+    "after": [
+      {
+        "signal_via_uuid": "c3713be5-69a9-42e5-b986-9b201fe8b031",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          -1.375,
+          16.125
+        ],
+        "nearest_ground_via_uuid": "95011531-a3b2-4311-b345-ad3d7080dd5a",
+        "nearest_ground_mm": 3.185675,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "508273a0-dd74-48be-8c45-1fc622b7c205",
+        "net": "I2C2_SDA",
+        "position_mm": [
+          0.225,
+          4.4
+        ],
+        "nearest_ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 2.525495,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "d14a38f5-e59c-4a1c-8e4c-e4ff784bea5a",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          1.525,
+          10.35
+        ],
+        "nearest_ground_via_uuid": "2c74fb34-1915-434d-92a7-2cdd5e465a34",
+        "nearest_ground_mm": 2.448597,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "c0de4de5-cf3f-49d6-8722-239c7323b5b8",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          2.8,
+          18.175
+        ],
+        "nearest_ground_via_uuid": "5093de51-eb6c-4a47-9022-c45c911da0a1",
+        "nearest_ground_mm": 0.800391,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -1.674999,
+          19.4
+        ],
+        "nearest_ground_via_uuid": "37c21766-29f7-43d1-8123-254033747452",
+        "nearest_ground_mm": 0.965984,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "76bfe218-79d8-4a0c-8ec8-70a0b6104578",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -4.5,
+          16.975
+        ],
+        "nearest_ground_via_uuid": "8296460e-c62d-48a9-9391-bfb2997bbdce",
+        "nearest_ground_mm": 0.817389,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.140467,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "8bbc3905-1d92-4c2f-9663-165b47575aed",
+        "net": "Net-(U203-OV1)",
+        "position_mm": [
+          -11.25,
+          -20.1
+        ],
+        "nearest_ground_via_uuid": "a1e543f8-d735-4b8f-b906-e95535bd5768",
+        "nearest_ground_mm": 1.1,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.450689,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "a1df0f76-ec85-41bf-a589-e5461c8ccab2",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -10.2,
+          15.7
+        ],
+        "nearest_ground_via_uuid": "6ca4e555-ecf5-4724-b640-9309c493de3a",
+        "nearest_ground_mm": 1.228627,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "df577c39-e8d1-471c-9428-835998ada4ae",
+        "net": "I2C2_SDA",
+        "position_mm": [
+          1.7,
+          0.975
+        ],
+        "nearest_ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 1.207528,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "c4cfd457-eaea-4ee4-84e8-91b9e521016e",
+        "net": "FDCAN1_RX",
+        "position_mm": [
+          0.35,
+          2.875
+        ],
+        "nearest_ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 1.149184,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "d925f4f5-7aef-428b-ac96-f9257d341e6c",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -5.0,
+          21.125
+        ],
+        "nearest_ground_via_uuid": "4faffcb5-2156-47e4-a317-73e36dadf929",
+        "nearest_ground_mm": 0.825,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 0.78128,
+        "covered_within_1_5mm": true
+      },
+      {
+        "signal_via_uuid": "dcbb1af1-a496-4de2-98b7-1aadd47b939f",
+        "net": "Net-(D601-IO2)",
+        "position_mm": [
+          -14.649999,
+          15.575
+        ],
+        "nearest_ground_via_uuid": "bfdd9360-5f92-441d-8cdc-9666e7a6e755",
+        "nearest_ground_mm": 0.773641,
+        "covered_within_1_5mm": true
+      }
+    ],
+    "uncovered": [
+      {
+        "signal_via_uuid": "c3713be5-69a9-42e5-b986-9b201fe8b031",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          -1.375,
+          16.125
+        ],
+        "nearest_ground_via_uuid": "95011531-a3b2-4311-b345-ad3d7080dd5a",
+        "nearest_ground_mm": 3.185675,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "508273a0-dd74-48be-8c45-1fc622b7c205",
+        "net": "I2C2_SDA",
+        "position_mm": [
+          0.225,
+          4.4
+        ],
+        "nearest_ground_via_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 2.525495,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "d14a38f5-e59c-4a1c-8e4c-e4ff784bea5a",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          1.525,
+          10.35
+        ],
+        "nearest_ground_via_uuid": "2c74fb34-1915-434d-92a7-2cdd5e465a34",
+        "nearest_ground_mm": 2.448597,
+        "covered_within_1_5mm": false
+      },
+      {
+        "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "nearest_ground_via_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.140467,
+        "covered_within_1_5mm": false
+      }
+    ]
+  },
+  "signal_returns": {
+    "post_refill_and_prune_verified": true,
+    "source": "plane_quality.json",
+    "after": [
+      {
+        "signal_via_uuid": "c3713be5-69a9-42e5-b986-9b201fe8b031",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          -1.375,
+          16.125
+        ],
+        "nearest_ground_mm": 3.186,
+        "covered_within_1_5mm": false,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "508273a0-dd74-48be-8c45-1fc622b7c205",
+        "net": "I2C2_SDA",
+        "position_mm": [
+          0.225,
+          4.4
+        ],
+        "nearest_ground_mm": 2.525,
+        "covered_within_1_5mm": false,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "d14a38f5-e59c-4a1c-8e4c-e4ff784bea5a",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          1.525,
+          10.35
+        ],
+        "nearest_ground_mm": 2.449,
+        "covered_within_1_5mm": false,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -1.674999,
+          19.4
+        ],
+        "nearest_ground_mm": 2.28,
+        "covered_within_1_5mm": false,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "nearest_ground_mm": 2.14,
+        "covered_within_1_5mm": false,
+        "new_via": false
+      },
+      {
+        "signal_via_uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "nearest_ground_mm": 1.451,
+        "covered_within_1_5mm": true,
+        "new_via": false
+      },
+      {
+        "signal_via_uuid": "a1df0f76-ec85-41bf-a589-e5461c8ccab2",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -10.2,
+          15.7
+        ],
+        "nearest_ground_mm": 1.229,
+        "covered_within_1_5mm": true,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "df577c39-e8d1-471c-9428-835998ada4ae",
+        "net": "I2C2_SDA",
+        "position_mm": [
+          1.7,
+          0.975
+        ],
+        "nearest_ground_mm": 1.208,
+        "covered_within_1_5mm": true,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "c4cfd457-eaea-4ee4-84e8-91b9e521016e",
+        "net": "FDCAN1_RX",
+        "position_mm": [
+          0.35,
+          2.875
+        ],
+        "nearest_ground_mm": 1.149,
+        "covered_within_1_5mm": true,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "8bbc3905-1d92-4c2f-9663-165b47575aed",
+        "net": "Net-(U203-OV1)",
+        "position_mm": [
+          -11.25,
+          -20.1
+        ],
+        "nearest_ground_mm": 1.1,
+        "covered_within_1_5mm": true,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "d925f4f5-7aef-428b-ac96-f9257d341e6c",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -5.0,
+          21.125
+        ],
+        "nearest_ground_mm": 0.825,
+        "covered_within_1_5mm": true,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "76bfe218-79d8-4a0c-8ec8-70a0b6104578",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -4.5,
+          16.975
+        ],
+        "nearest_ground_mm": 0.817,
+        "covered_within_1_5mm": true,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "c0de4de5-cf3f-49d6-8722-239c7323b5b8",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          2.8,
+          18.175
+        ],
+        "nearest_ground_mm": 0.8,
+        "covered_within_1_5mm": true,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "nearest_ground_mm": 0.781,
+        "covered_within_1_5mm": true,
+        "new_via": false
+      },
+      {
+        "signal_via_uuid": "dcbb1af1-a496-4de2-98b7-1aadd47b939f",
+        "net": "Net-(D601-IO2)",
+        "position_mm": [
+          -14.649999,
+          15.575
+        ],
+        "nearest_ground_mm": 0.774,
+        "covered_within_1_5mm": true,
+        "new_via": true
+      }
+    ],
+    "uncovered": [
+      {
+        "signal_via_uuid": "c3713be5-69a9-42e5-b986-9b201fe8b031",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          -1.375,
+          16.125
+        ],
+        "nearest_ground_mm": 3.186,
+        "covered_within_1_5mm": false,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "508273a0-dd74-48be-8c45-1fc622b7c205",
+        "net": "I2C2_SDA",
+        "position_mm": [
+          0.225,
+          4.4
+        ],
+        "nearest_ground_mm": 2.525,
+        "covered_within_1_5mm": false,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "d14a38f5-e59c-4a1c-8e4c-e4ff784bea5a",
+        "net": "FDCAN1_TX",
+        "position_mm": [
+          1.525,
+          10.35
+        ],
+        "nearest_ground_mm": 2.449,
+        "covered_within_1_5mm": false,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+        "net": "EXT_FEEDBACK_SELECT",
+        "position_mm": [
+          -1.674999,
+          19.4
+        ],
+        "nearest_ground_mm": 2.28,
+        "covered_within_1_5mm": false,
+        "new_via": true
+      },
+      {
+        "signal_via_uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "nearest_ground_mm": 2.14,
+        "covered_within_1_5mm": false,
+        "new_via": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,4110 @@
+{
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/input_completed/ShiroFOC_Manual.kicad_pcb",
+  "sha256": "fae043172365d17bd100a4eb04e5e1a23488753f11942d9e25a66b89c2bc03fc",
+  "retired_ground_interconnects": {
+    "09209edf-75e1-41a0-b8b1-3348e588b4cd": [
+      -7.3,
+      4.8
+    ]
+  },
+  "affected_existing_reference_changes": [
+    {
+      "before": {
+        "uuid": "9756814d-851d-4249-b920-0df4fb945ef3",
+        "net": "BRAKE_PWM",
+        "position_mm": [
+          -6.85,
+          4.05
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 0.8746
+      },
+      "after": {
+        "uuid": "9756814d-851d-4249-b920-0df4fb945ef3",
+        "net": "BRAKE_PWM",
+        "position_mm": [
+          -6.85,
+          4.05
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 1.7808
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.1405
+      },
+      "after": {
+        "uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 3.5924
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.4507
+      },
+      "after": {
+        "uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.9384
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 0.7813
+      },
+      "after": {
+        "uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.3234
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -3.299999,
+          4.65
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 4.0028
+      },
+      "after": {
+        "uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -3.299999,
+          4.65
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 5.1539
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -7.85,
+          6.1
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.4116
+      },
+      "after": {
+        "uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -7.85,
+          6.1
+        ],
+        "signal_layers": [
+          "Signals L3",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.4954
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -4.8,
+          3.65
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.7518
+      },
+      "after": {
+        "uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -4.8,
+          3.65
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 3.8006
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+        "net": "SPI3_MOSI_MCU",
+        "position_mm": [
+          -4.449999,
+          4.35
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.8853
+      },
+      "after": {
+        "uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+        "net": "SPI3_MOSI_MCU",
+        "position_mm": [
+          -4.449999,
+          4.35
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 4.1975
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "2a1c749d-6c88-4b79-a1aa-15d3b24873b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.12
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.8881
+      },
+      "after": {
+        "uuid": "2a1c749d-6c88-4b79-a1aa-15d3b24873b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.12
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.4005
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "acf5ed9a-e17c-437c-b160-690d8b1c14b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.565,
+          7.24
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.7484
+      },
+      "after": {
+        "uuid": "acf5ed9a-e17c-437c-b160-690d8b1c14b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.565,
+          7.24
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+        "nearest_ground_mm": 2.7748
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "775a4041-16d3-45d1-8c0b-8bf65be169bb",
+        "net": "CAN_TERM_DISABLE",
+        "position_mm": [
+          -8.875,
+          5.4
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.6854
+      },
+      "after": {
+        "uuid": "775a4041-16d3-45d1-8c0b-8bf65be169bb",
+        "net": "CAN_TERM_DISABLE",
+        "position_mm": [
+          -8.875,
+          5.4
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 1.7024
+      },
+      "old_nearest_ground_removed_or_moved": true
+    }
+  ],
+  "affected_over_2mm": [
+    {
+      "before": {
+        "uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.1405
+      },
+      "after": {
+        "uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+        "net": "FEEDBACK_A_H1",
+        "position_mm": [
+          -5.16,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 3.5924
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.4507
+      },
+      "after": {
+        "uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+        "net": "FEEDBACK_B_H2",
+        "position_mm": [
+          -5.85,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.9384
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 0.7813
+      },
+      "after": {
+        "uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+        "net": "FEEDBACK_I_H3",
+        "position_mm": [
+          -6.52,
+          4.755298
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.3234
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -3.299999,
+          4.65
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 4.0028
+      },
+      "after": {
+        "uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+        "net": "I2C2_SCL",
+        "position_mm": [
+          -3.299999,
+          4.65
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+        "nearest_ground_mm": 5.1539
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -7.85,
+          6.1
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.4116
+      },
+      "after": {
+        "uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+        "net": "IMU_INT2",
+        "position_mm": [
+          -7.85,
+          6.1
+        ],
+        "signal_layers": [
+          "Signals L3",
+          "Power L4"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.4954
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -4.8,
+          3.65
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.7518
+      },
+      "after": {
+        "uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+        "net": "Net-(U601-MOSI)",
+        "position_mm": [
+          -4.8,
+          3.65
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 3.8006
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+        "net": "SPI3_MOSI_MCU",
+        "position_mm": [
+          -4.449999,
+          4.35
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.8853
+      },
+      "after": {
+        "uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+        "net": "SPI3_MOSI_MCU",
+        "position_mm": [
+          -4.449999,
+          4.35
+        ],
+        "signal_layers": [
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 4.1975
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "2a1c749d-6c88-4b79-a1aa-15d3b24873b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.12
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 1.8881
+      },
+      "after": {
+        "uuid": "2a1c749d-6c88-4b79-a1aa-15d3b24873b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.649999,
+          6.12
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "B.Cu"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+        "nearest_ground_mm": 2.4005
+      },
+      "old_nearest_ground_removed_or_moved": true
+    },
+    {
+      "before": {
+        "uuid": "acf5ed9a-e17c-437c-b160-690d8b1c14b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.565,
+          7.24
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "09209edf-75e1-41a0-b8b1-3348e588b4cd",
+        "nearest_ground_mm": 2.7484
+      },
+      "after": {
+        "uuid": "acf5ed9a-e17c-437c-b160-690d8b1c14b4",
+        "net": "NTC_BRAKE",
+        "position_mm": [
+          -8.565,
+          7.24
+        ],
+        "signal_layers": [
+          "F.Cu",
+          "B.Cu",
+          "Signals L3"
+        ],
+        "reference_layers": [
+          "GND L2",
+          "GND L5"
+        ],
+        "reference_change": true,
+        "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+        "nearest_ground_mm": 2.7748
+      },
+      "old_nearest_ground_removed_or_moved": true
+    }
+  ],
+  "all_candidate_signal_vias": [
+    {
+      "uuid": "369bc76b-f5d6-46e6-9c67-421c703d07aa",
+      "net": "/5 V / 3.3 V power/10V_FB",
+      "position_mm": [
+        4.175,
+        -20.7575
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "0a8e085b-2117-474e-ab4b-3945a6d6d76b",
+      "nearest_ground_mm": 2.5187
+    },
+    {
+      "uuid": "8d0f578b-c71f-413b-b796-2ccdee87e9f2",
+      "net": "/5 V / 3.3 V power/10V_GOOD",
+      "position_mm": [
+        4.182505,
+        -14.592499
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "1ee3c8c9-d7a2-4a36-af69-7bc912e8e5dc",
+      "nearest_ground_mm": 2.4963
+    },
+    {
+      "uuid": "b313acf2-6286-4c96-be20-fd280720abe0",
+      "net": "/5 V / 3.3 V power/10V_GOOD",
+      "position_mm": [
+        -4.366944,
+        -10.177499
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "eec18195-7a7b-494f-b3ee-8f7028a06093",
+      "nearest_ground_mm": 4.7164
+    },
+    {
+      "uuid": "5affaa34-9e08-4d2d-993b-613bbae64f3e",
+      "net": "/CAN interface/CANH_BUS",
+      "position_mm": [
+        -17.230001,
+        3.39
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "e3125aff-5343-435a-be63-b17d384ef235",
+      "nearest_ground_mm": 1.1715
+    },
+    {
+      "uuid": "1b06f993-9734-4224-bc84-311cf5df4661",
+      "net": "/CAN interface/CANL_BUS",
+      "position_mm": [
+        -17.230001,
+        2.14
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "e3125aff-5343-435a-be63-b17d384ef235",
+      "nearest_ground_mm": 2.1932
+    },
+    {
+      "uuid": "52135886-4fe0-4eac-a086-e74fd355a049",
+      "net": "/CAN interface/CANL_BUS",
+      "position_mm": [
+        -17.610003,
+        5.756999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "e3125aff-5343-435a-be63-b17d384ef235",
+      "nearest_ground_mm": 1.6986
+    },
+    {
+      "uuid": "ca47761a-eea6-400a-8c27-f882937c1799",
+      "net": "/CAN interface/CANL_BUS",
+      "position_mm": [
+        -20.1725,
+        5.165
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "e3125aff-5343-435a-be63-b17d384ef235",
+      "nearest_ground_mm": 2.2853
+    },
+    {
+      "uuid": "6820e1d2-bea7-4d2c-bac6-3d349c88bcc0",
+      "net": "/Current / temperature/NTC_A_RAW",
+      "position_mm": [
+        -7.875,
+        -2.199999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+      "nearest_ground_mm": 1.3456
+    },
+    {
+      "uuid": "d515e896-e1d1-481f-888c-e34dcafe5e24",
+      "net": "/Current / temperature/NTC_A_RAW",
+      "position_mm": [
+        -14.275,
+        -2.149999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "ac82db53-15d8-4cc8-a5b0-8d0dfb229aff",
+      "nearest_ground_mm": 0.825
+    },
+    {
+      "uuid": "d94deb99-8201-444a-9f62-c1c60ce57008",
+      "net": "/Current / temperature/NTC_A_RAW",
+      "position_mm": [
+        16.375,
+        1.4
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "d2369e56-a6c5-421c-9991-22e40c88d833",
+      "nearest_ground_mm": 1.1328
+    },
+    {
+      "uuid": "0252f1ca-56fa-4e3d-aca2-38406d8b88a7",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "position_mm": [
+        -15.075,
+        -0.424999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "ac82db53-15d8-4cc8-a5b0-8d0dfb229aff",
+      "nearest_ground_mm": 1.7252
+    },
+    {
+      "uuid": "0a9802a4-66ba-43b3-8776-d4eb53488f46",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "position_mm": [
+        16.375,
+        8.9
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "84608cae-1dba-41a5-a596-2dd5ffbeac8c",
+      "nearest_ground_mm": 1.6267
+    },
+    {
+      "uuid": "35ca683d-6f5a-4ade-8c45-96b4c835eff9",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "position_mm": [
+        -8.75,
+        -2.899999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "f24602c0-3be8-41c9-bd23-3e7912870a26",
+      "nearest_ground_mm": 2.2029
+    },
+    {
+      "uuid": "4212cdb3-1eca-4843-890c-7dcb4f84105e",
+      "net": "/Current / temperature/NTC_B_RAW",
+      "position_mm": [
+        0.325,
+        -2.75
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+      "nearest_ground_mm": 1.6839
+    },
+    {
+      "uuid": "730d694f-38eb-43fb-b227-a2fa1cf307e2",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "position_mm": [
+        16.425,
+        17.6
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "91f48629-6a5a-459b-befc-2b0d4fc45f1d",
+      "nearest_ground_mm": 2.2319
+    },
+    {
+      "uuid": "f624a50a-b868-4224-b514-d3fedd28ad4b",
+      "net": "/Current / temperature/NTC_C_RAW",
+      "position_mm": [
+        -13.4,
+        7.85
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "191fd546-7ff5-4129-8338-f1d063a37db5",
+      "nearest_ground_mm": 0.8
+    },
+    {
+      "uuid": "5dd165ed-0754-49bc-b208-d3922cb1942a",
+      "net": "/Current / temperature/OPN_U1",
+      "position_mm": [
+        -10.785,
+        11.569999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+      "nearest_ground_mm": 2.7659
+    },
+    {
+      "uuid": "0dabe156-c484-4e7a-8f8a-e0f2703ccf51",
+      "net": "/Current / temperature/OPN_V1",
+      "position_mm": [
+        -6.585001,
+        12.88
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "0892352c-ae23-4e78-b4f7-5ea3a6d8c487",
+      "nearest_ground_mm": 2.1058
+    },
+    {
+      "uuid": "e64a2781-f6d8-428c-ab17-c0ea3ba50c96",
+      "net": "/Current / temperature/OPN_W1",
+      "position_mm": [
+        -4.585001,
+        12.88
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "95011531-a3b2-4311-b345-ad3d7080dd5a",
+      "nearest_ground_mm": 1.3789
+    },
+    {
+      "uuid": "93353b40-773f-4c5d-ab3a-36bd30bf8e01",
+      "net": "/Current / temperature/OPP_U1",
+      "position_mm": [
+        -11.794999,
+        10.48
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+      "nearest_ground_mm": 2.0299
+    },
+    {
+      "uuid": "a340708f-3995-43f7-ba99-c448187f6839",
+      "net": "/Current / temperature/OPP_V1",
+      "position_mm": [
+        -7.350566,
+        11.094457
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "nearest_ground_mm": 1.6428
+    },
+    {
+      "uuid": "b34acc04-30bb-4330-9a10-a281ce6671f8",
+      "net": "/Current / temperature/OPP_W1",
+      "position_mm": [
+        -5.85019,
+        11.094457
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "nearest_ground_mm": 1.9398
+    },
+    {
+      "uuid": "63dc0a02-3a80-4735-93eb-5079605d4d0d",
+      "net": "/External feedback/FB_ESD_RAIL",
+      "position_mm": [
+        -16.1,
+        16.51
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "bfdd9360-5f92-441d-8cdc-9666e7a6e755",
+      "nearest_ground_mm": 1.3007
+    },
+    {
+      "uuid": "0abb310a-d132-44c6-ae01-b59a7d71b1b7",
+      "net": "/USB service/CP2102_VBUS_SENSE",
+      "position_mm": [
+        -21.73,
+        -10.900001
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "9a801c8d-2941-46d2-a63e-e5331d487313",
+      "nearest_ground_mm": 2.5129
+    },
+    {
+      "uuid": "29a5a3be-86bd-4929-861d-677886f4095c",
+      "net": "/USB service/CP2102_VBUS_SENSE",
+      "position_mm": [
+        -20.049999,
+        -5.369515
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "cb93434d-988b-4eee-b0d6-a252d9d7354e",
+      "nearest_ground_mm": 0.7301
+    },
+    {
+      "uuid": "04e3d0d8-51a6-4b3e-b17f-69ac3fa479ee",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "position_mm": [
+        2.7,
+        3.45
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 2.0887
+    },
+    {
+      "uuid": "54bec8bb-29b8-4119-88f4-354e9f690ffa",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "position_mm": [
+        -2.53,
+        4.95
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 4.6853
+    },
+    {
+      "uuid": "60c2faf5-6e7b-42c9-83f3-f55a8ffda7f1",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "position_mm": [
+        3.975,
+        3.175
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "cdcf53fb-5a13-4177-a226-2b0ef5f63817",
+      "nearest_ground_mm": 2.1357
+    },
+    {
+      "uuid": "6d6a11d2-cf63-477a-b820-cc198db08359",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "position_mm": [
+        -17.975,
+        -11.274999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "9a801c8d-2941-46d2-a63e-e5331d487313",
+      "nearest_ground_mm": 1.4964
+    },
+    {
+      "uuid": "76355bf8-9f11-4a2e-9bd4-232ab58f865e",
+      "net": "/USB service/USB_CC1",
+      "position_mm": [
+        -13.580001,
+        -12.32
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "bf3e02b2-611e-4080-a963-2199c1ddee98",
+      "nearest_ground_mm": 1.2559
+    },
+    {
+      "uuid": "f3efa981-b0c6-47de-b0d5-541da0be9da5",
+      "net": "/USB service/USB_CC2",
+      "position_mm": [
+        -13.58,
+        -2.610001
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "3e63e45e-650e-4a6f-b2f0-cd829daca931",
+      "nearest_ground_mm": 1.3277
+    },
+    {
+      "uuid": "3a9d73cb-50e1-4fb7-b5f1-059bad2d88a6",
+      "net": "/USB service/USB_DM_CONN",
+      "position_mm": [
+        -13.277157,
+        -7.22
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "93589ab4-5ee4-4be6-8254-74aeb9109936",
+      "nearest_ground_mm": 1.256
+    },
+    {
+      "uuid": "df05687c-326b-4420-a327-cf9635352515",
+      "net": "/USB service/USB_DP_CONN",
+      "position_mm": [
+        -15.720001,
+        -6.2425
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "4ccbfc5d-6102-42bd-8e17-5d15245c3636",
+      "nearest_ground_mm": 2.0447
+    },
+    {
+      "uuid": "10b48001-4629-4f5d-9f3c-76f0ac41a319",
+      "net": "5V_SYS",
+      "position_mm": [
+        -12.054014,
+        -18.378054
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "1810ff38-f724-40df-b34e-8afb0295559e",
+      "nearest_ground_mm": 1.3862
+    },
+    {
+      "uuid": "f1f33e52-071b-4537-a13c-d6324e0da579",
+      "net": "5V_SYS",
+      "position_mm": [
+        -15.215,
+        12.81
+      ],
+      "signal_layers": [
+        "F.Cu"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+      "nearest_ground_mm": 2.1186
+    },
+    {
+      "uuid": "17b204b8-c649-4e9e-badf-b0981c316334",
+      "net": "5V_USB",
+      "position_mm": [
+        -16.249015,
+        -19.033056
+      ],
+      "signal_layers": [
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+      "nearest_ground_mm": 1.8232
+    },
+    {
+      "uuid": "5499ac5e-36a4-4ad8-9672-ce3ef91e5a64",
+      "net": "5V_USB",
+      "position_mm": [
+        -14.285,
+        -5.019999
+      ],
+      "signal_layers": [
+        "F.Cu"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "3b59c35e-6ec2-4d4b-8c3c-a0c061a98445",
+      "nearest_ground_mm": 2.0819
+    },
+    {
+      "uuid": "696f47d4-a70a-49f3-8f09-f36ddde5a472",
+      "net": "5V_USB",
+      "position_mm": [
+        -20.77,
+        -12.329999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "9a801c8d-2941-46d2-a63e-e5331d487313",
+      "nearest_ground_mm": 1.4912
+    },
+    {
+      "uuid": "ed748397-a5b8-428b-b6d9-80a579a6c92e",
+      "net": "5V_USB",
+      "position_mm": [
+        -14.285002,
+        -9.920001
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "2f95f583-a526-49b5-abce-ccbaa5e15032",
+      "nearest_ground_mm": 1.6428
+    },
+    {
+      "uuid": "0ce15277-8ed2-49c0-beea-a26a50b19c6b",
+      "net": "AS5047P_CS_N",
+      "position_mm": [
+        -1.625,
+        1.3
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 2.8746
+    },
+    {
+      "uuid": "24e908f1-d9cd-4efb-8907-90d36bcc0af3",
+      "net": "AS5047P_CS_N",
+      "position_mm": [
+        0.25,
+        -1.625
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+      "nearest_ground_mm": 0.7653
+    },
+    {
+      "uuid": "d1a5e355-9e92-4944-81e5-deb91adc7cfa",
+      "net": "BOOTSTRAP1",
+      "position_mm": [
+        -1.433706,
+        6.72306
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "3fe67ddd-6314-4784-a7dc-56641a241ee0",
+      "nearest_ground_mm": 3.7146
+    },
+    {
+      "uuid": "9193cec9-d2d7-41cc-8027-5f5ba54fb2e5",
+      "net": "BOOTSTRAP2",
+      "position_mm": [
+        -1.43386,
+        8.223047
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "3fe67ddd-6314-4784-a7dc-56641a241ee0",
+      "nearest_ground_mm": 2.4813
+    },
+    {
+      "uuid": "c3e264af-e6c5-4f20-b969-17953eb6cb89",
+      "net": "BOOTSTRAP3",
+      "position_mm": [
+        -1.434012,
+        9.723039
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "3fe67ddd-6314-4784-a7dc-56641a241ee0",
+      "nearest_ground_mm": 1.7366
+    },
+    {
+      "uuid": "430e1451-1f11-4a90-a671-ae05f1b908a9",
+      "net": "BRAKE_PWM",
+      "position_mm": [
+        5.875,
+        2.075
+      ],
+      "signal_layers": [
+        "Signals L3",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "cdcf53fb-5a13-4177-a226-2b0ef5f63817",
+      "nearest_ground_mm": 0.8132
+    },
+    {
+      "uuid": "5e1eee0e-00bb-4c50-a32c-0aeb4154671f",
+      "net": "BRAKE_PWM",
+      "position_mm": [
+        3.65,
+        4.8
+      ],
+      "signal_layers": [
+        "Signals L3",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+      "nearest_ground_mm": 1.242
+    },
+    {
+      "uuid": "9756814d-851d-4249-b920-0df4fb945ef3",
+      "net": "BRAKE_PWM",
+      "position_mm": [
+        -6.85,
+        4.05
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 1.7808
+    },
+    {
+      "uuid": "bbd9c7b7-19e1-48b1-b983-ca64fc8af16b",
+      "net": "BRAKE_PWM",
+      "position_mm": [
+        7.6,
+        -8.274999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "e2575352-4362-49e8-b781-a96cd776132a",
+      "nearest_ground_mm": 1.7856
+    },
+    {
+      "uuid": "d018fdd1-e66b-4145-948f-d8cee7bf752b",
+      "net": "CAN_STB",
+      "position_mm": [
+        -13.549999,
+        12.899999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+      "nearest_ground_mm": 1.4
+    },
+    {
+      "uuid": "03ecf6a7-4353-4fab-a593-244c7050fa20",
+      "net": "EXT_FEEDBACK_SELECT",
+      "position_mm": [
+        2.075,
+        5.75
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+      "nearest_ground_mm": 0.775
+    },
+    {
+      "uuid": "4fde95a7-3332-4296-bf91-c71f07380f2e",
+      "net": "EXT_FEEDBACK_SELECT",
+      "position_mm": [
+        -0.224999,
+        -0.125
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+      "nearest_ground_mm": 1.4853
+    },
+    {
+      "uuid": "87ab07ff-d5e1-40d1-beb5-9100dcc42eae",
+      "net": "EXT_FEEDBACK_SELECT",
+      "position_mm": [
+        -1.674999,
+        19.4
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "5c3cc62a-690e-4d64-9a49-920a35f559b5",
+      "nearest_ground_mm": 2.2805
+    },
+    {
+      "uuid": "cb113301-d7db-4adb-9968-5d074e33dd30",
+      "net": "EXT_FEEDBACK_SELECT",
+      "position_mm": [
+        -5.05,
+        -1.099999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+      "nearest_ground_mm": 2.05
+    },
+    {
+      "uuid": "d925f4f5-7aef-428b-ac96-f9257d341e6c",
+      "net": "EXT_FEEDBACK_SELECT",
+      "position_mm": [
+        -5.0,
+        21.125
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "4faffcb5-2156-47e4-a317-73e36dadf929",
+      "nearest_ground_mm": 0.825
+    },
+    {
+      "uuid": "5705f432-6436-4b20-b30d-4c580bfcc5c4",
+      "net": "EXT_SENSOR_FAULT_N",
+      "position_mm": [
+        -8.425,
+        4.465
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 0.7653
+    },
+    {
+      "uuid": "65a31c8b-e2ea-4f83-b52a-130344cf459b",
+      "net": "EXT_SENSOR_FAULT_N",
+      "position_mm": [
+        -11.95,
+        -8.45
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "93589ab4-5ee4-4be6-8254-74aeb9109936",
+      "nearest_ground_mm": 0.805
+    },
+    {
+      "uuid": "914a5787-4b20-4843-9eea-10719a5b7040",
+      "net": "EXT_SENSOR_FAULT_N",
+      "position_mm": [
+        -10.1,
+        0.05
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "9f222697-0fdb-46cf-a84d-525904bd27d0",
+      "nearest_ground_mm": 1.29
+    },
+    {
+      "uuid": "44c5adcc-bb27-4245-a55a-e75631246535",
+      "net": "FDCAN1_RX",
+      "position_mm": [
+        -20.822503,
+        12.7325
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "d9b3adfb-eb2d-4420-818a-aacc5ac22308",
+      "nearest_ground_mm": 2.323
+    },
+    {
+      "uuid": "c4cfd457-eaea-4ee4-84e8-91b9e521016e",
+      "net": "FDCAN1_RX",
+      "position_mm": [
+        0.35,
+        2.875
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 1.1492
+    },
+    {
+      "uuid": "5f128ab9-4b1f-4afd-bbfb-d1e4f8abc50d",
+      "net": "FDCAN1_TX",
+      "position_mm": [
+        1.525,
+        3.25
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 1.2572
+    },
+    {
+      "uuid": "7fc66b78-2123-453d-9f63-bcc7830cf024",
+      "net": "FDCAN1_TX",
+      "position_mm": [
+        -18.872502,
+        12.7325
+      ],
+      "signal_layers": [
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "d9b3adfb-eb2d-4420-818a-aacc5ac22308",
+      "nearest_ground_mm": 1.1908
+    },
+    {
+      "uuid": "c0de4de5-cf3f-49d6-8722-239c7323b5b8",
+      "net": "FDCAN1_TX",
+      "position_mm": [
+        2.8,
+        18.175
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "5093de51-eb6c-4a47-9022-c45c911da0a1",
+      "nearest_ground_mm": 0.8004
+    },
+    {
+      "uuid": "c3713be5-69a9-42e5-b986-9b201fe8b031",
+      "net": "FDCAN1_TX",
+      "position_mm": [
+        -1.375,
+        16.125
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "95011531-a3b2-4311-b345-ad3d7080dd5a",
+      "nearest_ground_mm": 3.1857
+    },
+    {
+      "uuid": "d14a38f5-e59c-4a1c-8e4c-e4ff784bea5a",
+      "net": "FDCAN1_TX",
+      "position_mm": [
+        1.525,
+        10.35
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "2c74fb34-1915-434d-92a7-2cdd5e465a34",
+      "nearest_ground_mm": 2.4486
+    },
+    {
+      "uuid": "c19d78fe-6866-4ca0-8b2f-211f84456fae",
+      "net": "FEEDBACK_A_H1",
+      "position_mm": [
+        -7.174999,
+        17.975
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "8296460e-c62d-48a9-9391-bfb2997bbdce",
+      "nearest_ground_mm": 2.3369
+    },
+    {
+      "uuid": "e8057c7c-46d2-43c4-bf99-96dbbec64822",
+      "net": "FEEDBACK_A_H1",
+      "position_mm": [
+        -5.16,
+        4.755298
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 3.5924
+    },
+    {
+      "uuid": "263d36af-65a1-47f2-b997-42cf008c38ca",
+      "net": "FEEDBACK_B_H2",
+      "position_mm": [
+        -6.399999,
+        18.0
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "8296460e-c62d-48a9-9391-bfb2997bbdce",
+      "nearest_ground_mm": 1.7734
+    },
+    {
+      "uuid": "8ee0ab79-13fa-438c-837f-ed3d4d72797c",
+      "net": "FEEDBACK_B_H2",
+      "position_mm": [
+        -5.85,
+        4.755298
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 2.9384
+    },
+    {
+      "uuid": "4cc50c91-bd11-4015-99a1-e2cb58708cf9",
+      "net": "FEEDBACK_I_H3",
+      "position_mm": [
+        -6.52,
+        4.755298
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 2.3234
+    },
+    {
+      "uuid": "76bfe218-79d8-4a0c-8ec8-70a0b6104578",
+      "net": "FEEDBACK_I_H3",
+      "position_mm": [
+        -4.5,
+        16.975
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "8296460e-c62d-48a9-9391-bfb2997bbdce",
+      "nearest_ground_mm": 0.8174
+    },
+    {
+      "uuid": "93dbf499-e830-4e9e-84ff-ee03daa31043",
+      "net": "GHS1",
+      "position_mm": [
+        15.947698,
+        4.849117
+      ],
+      "signal_layers": [
+        "F.Cu"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "84608cae-1dba-41a5-a596-2dd5ffbeac8c",
+      "nearest_ground_mm": 2.4773
+    },
+    {
+      "uuid": "fde08ca6-26a9-46c2-96e1-ed09cb4d2b18",
+      "net": "GHS1",
+      "position_mm": [
+        0.971587,
+        5.951587
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+      "nearest_ground_mm": 1.8892
+    },
+    {
+      "uuid": "c0aa3a06-c784-48b3-af29-2008f2771a7d",
+      "net": "GHS2",
+      "position_mm": [
+        15.9477,
+        12.349116
+      ],
+      "signal_layers": [
+        "F.Cu"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "91f48629-6a5a-459b-befc-2b0d4fc45f1d",
+      "nearest_ground_mm": 3.0954
+    },
+    {
+      "uuid": "f3880d47-451c-4448-9d30-4b817900530d",
+      "net": "GHS2",
+      "position_mm": [
+        1.04,
+        8.85
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+      "nearest_ground_mm": 3.5897
+    },
+    {
+      "uuid": "46bd4dd4-73c7-4be6-aa91-fcd6fc9e7a54",
+      "net": "GHS3",
+      "position_mm": [
+        15.9477,
+        19.82892
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "91f48629-6a5a-459b-befc-2b0d4fc45f1d",
+      "nearest_ground_mm": 4.5014
+    },
+    {
+      "uuid": "bdde998e-ef82-49c4-9263-52d3cd6e9626",
+      "net": "GHS3",
+      "position_mm": [
+        0.201402,
+        10.624997
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "39cc7157-4ee8-42f7-9aa4-9a94d2b1453d",
+      "nearest_ground_mm": 2.2151
+    },
+    {
+      "uuid": "b8778a4d-5aae-4584-b627-9d8165ce15a5",
+      "net": "GLS1",
+      "position_mm": [
+        -2.27,
+        6.12
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "3fe67ddd-6314-4784-a7dc-56641a241ee0",
+      "nearest_ground_mm": 3.997
+    },
+    {
+      "uuid": "4d3cb516-546d-4874-bca3-375b8a5db2d4",
+      "net": "GLS2",
+      "position_mm": [
+        1.352402,
+        11.657598
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "2c74fb34-1915-434d-92a7-2cdd5e465a34",
+      "nearest_ground_mm": 1.5339
+    },
+    {
+      "uuid": "f75f070e-7b02-4075-92e5-d1a67629d866",
+      "net": "GLS3",
+      "position_mm": [
+        -0.610707,
+        13.530707
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "39cc7157-4ee8-42f7-9aa4-9a94d2b1453d",
+      "nearest_ground_mm": 0.978
+    },
+    {
+      "uuid": "1c624b02-9281-41e9-900b-d1bc5ef3e932",
+      "net": "I2C2_SCL",
+      "position_mm": [
+        -6.85,
+        10.25
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "nearest_ground_mm": 0.7573
+    },
+    {
+      "uuid": "9749d2cd-ae02-483f-8d46-05d3579ecac9",
+      "net": "I2C2_SCL",
+      "position_mm": [
+        -1.649999,
+        -1.149999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+      "nearest_ground_mm": 2.5
+    },
+    {
+      "uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+      "net": "I2C2_SCL",
+      "position_mm": [
+        -3.299999,
+        4.65
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 5.1539
+    },
+    {
+      "uuid": "508273a0-dd74-48be-8c45-1fc622b7c205",
+      "net": "I2C2_SDA",
+      "position_mm": [
+        0.225,
+        4.4
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 2.5255
+    },
+    {
+      "uuid": "df577c39-e8d1-471c-9428-835998ada4ae",
+      "net": "I2C2_SDA",
+      "position_mm": [
+        1.7,
+        0.975
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 1.2075
+    },
+    {
+      "uuid": "557132b3-90c4-4db6-9265-9e102acc4edb",
+      "net": "IMU_INT1",
+      "position_mm": [
+        -14.625,
+        4.55
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "718a50de-5417-4e3d-af01-9ca05f58ee79",
+      "nearest_ground_mm": 1.1449
+    },
+    {
+      "uuid": "92171863-ef33-4ed5-b513-32b8a29f67e3",
+      "net": "IMU_INT1",
+      "position_mm": [
+        -13.0,
+        12.3
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+      "nearest_ground_mm": 0.9708
+    },
+    {
+      "uuid": "ad8e86f7-39ed-4c83-acba-5a320140d2bd",
+      "net": "IMU_INT1",
+      "position_mm": [
+        -6.149999,
+        -4.699999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "f24602c0-3be8-41c9-bd23-3e7912870a26",
+      "nearest_ground_mm": 1.3946
+    },
+    {
+      "uuid": "f83df209-7712-4db0-b7cf-97175750f04e",
+      "net": "IMU_INT1",
+      "position_mm": [
+        -9.1,
+        -1.75
+      ],
+      "signal_layers": [
+        "Signals L3",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "9f222697-0fdb-46cf-a84d-525904bd27d0",
+      "nearest_ground_mm": 1.8331
+    },
+    {
+      "uuid": "12dc1e14-d583-45b7-ad80-e1e3a743ab0c",
+      "net": "IMU_INT2",
+      "position_mm": [
+        -6.349999,
+        -0.799999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+      "nearest_ground_mm": 0.8078
+    },
+    {
+      "uuid": "afb372b5-3465-4209-b921-d2777e3831d9",
+      "net": "IMU_INT2",
+      "position_mm": [
+        -7.85,
+        6.1
+      ],
+      "signal_layers": [
+        "Signals L3",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 2.4954
+    },
+    {
+      "uuid": "b93268c2-6589-4d32-ada2-02cb3f04a629",
+      "net": "IMU_INT2",
+      "position_mm": [
+        -8.35,
+        10.95
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "nearest_ground_mm": 2.0121
+    },
+    {
+      "uuid": "0437273d-1d37-4639-83c2-aa5709b579d7",
+      "net": "INPUT_MUX_ENABLE_N",
+      "position_mm": [
+        -1.799999,
+        10.675
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "3fe67ddd-6314-4784-a7dc-56641a241ee0",
+      "nearest_ground_mm": 1.496
+    },
+    {
+      "uuid": "285ce6dd-1661-4be5-97a0-248a4d90858f",
+      "net": "INPUT_MUX_ENABLE_N",
+      "position_mm": [
+        -0.199999,
+        18.6
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "5c3cc62a-690e-4d64-9a49-920a35f559b5",
+      "nearest_ground_mm": 0.8078
+    },
+    {
+      "uuid": "2ada9568-fd7e-42b5-9d34-e5963afb29fc",
+      "net": "INPUT_MUX_ENABLE_N",
+      "position_mm": [
+        4.375,
+        18.2
+      ],
+      "signal_layers": [
+        "Signals L3",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "5093de51-eb6c-4a47-9022-c45c911da0a1",
+      "nearest_ground_mm": 0.775
+    },
+    {
+      "uuid": "66d9fb2f-cdc1-4e57-a7e0-35450d46da35",
+      "net": "INPUT_MUX_ENABLE_N",
+      "position_mm": [
+        -2.099999,
+        21.35
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "7ca27b5f-623d-4bc2-bd6c-a39709d6e5c4",
+      "nearest_ground_mm": 1.9857
+    },
+    {
+      "uuid": "b21b29ca-8a85-4766-9b33-f50fd18946d3",
+      "net": "INPUT_MUX_ENABLE_N",
+      "position_mm": [
+        -7.8,
+        4.9
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 1.4256
+    },
+    {
+      "uuid": "b7178d81-beca-47ba-ab65-ea1f03423f0e",
+      "net": "NTC_PHASE_A",
+      "position_mm": [
+        -12.975,
+        -1.149999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "d4814382-b304-4708-a341-fd6431863e35",
+      "nearest_ground_mm": 1.3288
+    },
+    {
+      "uuid": "e8360dbc-bbde-4053-b77b-22c47054bc63",
+      "net": "NTC_PHASE_A",
+      "position_mm": [
+        -8.565,
+        9.18
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "nearest_ground_mm": 1.6415
+    },
+    {
+      "uuid": "1fd40dc9-360d-475f-8fdb-285cf676db5c",
+      "net": "NTC_PHASE_B",
+      "position_mm": [
+        -8.565,
+        8.21
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "nearest_ground_mm": 2.0631
+    },
+    {
+      "uuid": "13719728-5ba9-4591-9919-e41197ac9700",
+      "net": "NTC_PHASE_C",
+      "position_mm": [
+        -8.565,
+        10.15
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "nearest_ground_mm": 1.7363
+    },
+    {
+      "uuid": "689195ce-e4c4-4ac8-8708-a43be55d9d1e",
+      "net": "NTC_PHASE_C",
+      "position_mm": [
+        -13.5,
+        1.15
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "69e4690b-adbe-4fd3-8fdc-c872f92eb7f6",
+      "nearest_ground_mm": 1.1673
+    },
+    {
+      "uuid": "b96ae1db-903d-4d39-ae78-b2f4bdc8dead",
+      "net": "NTC_PHASE_C",
+      "position_mm": [
+        -12.075,
+        7.05
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "191fd546-7ff5-4129-8338-f1d063a37db5",
+      "nearest_ground_mm": 1.325
+    },
+    {
+      "uuid": "352f36c2-8b0f-4859-b608-a1bc804daecc",
+      "net": "Net-(D501-K)",
+      "position_mm": [
+        11.400001,
+        -15.245
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "22d2e1c1-3e65-4e08-a680-e2fa7a818d2e",
+      "nearest_ground_mm": 1.4009
+    },
+    {
+      "uuid": "1a782579-b03f-48d3-8e91-cb0f70398284",
+      "net": "Net-(D601-IO1)",
+      "position_mm": [
+        -16.117852,
+        17.904482
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "9a1f1c19-7636-4942-a72e-373cc5e1accd",
+      "nearest_ground_mm": 2.0634
+    },
+    {
+      "uuid": "451e8b0f-eb86-4257-8d84-2b2f72db2aad",
+      "net": "Net-(D601-IO1)",
+      "position_mm": [
+        -12.94,
+        17.24
+      ],
+      "signal_layers": [
+        "F.Cu"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "9a1f1c19-7636-4942-a72e-373cc5e1accd",
+      "nearest_ground_mm": 1.8768
+    },
+    {
+      "uuid": "286c36d0-2286-4f00-97b7-ec7c2caf3fc2",
+      "net": "Net-(D601-IO2)",
+      "position_mm": [
+        -11.69,
+        17.24
+      ],
+      "signal_layers": [
+        "F.Cu"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "9a1f1c19-7636-4942-a72e-373cc5e1accd",
+      "nearest_ground_mm": 2.8653
+    },
+    {
+      "uuid": "dcbb1af1-a496-4de2-98b7-1aadd47b939f",
+      "net": "Net-(D601-IO2)",
+      "position_mm": [
+        -14.649999,
+        15.575
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "bfdd9360-5f92-441d-8cdc-9666e7a6e755",
+      "nearest_ground_mm": 0.7736
+    },
+    {
+      "uuid": "7f26fcd8-d236-4907-8c8b-8c2a2a434f4f",
+      "net": "Net-(D601-IO3)",
+      "position_mm": [
+        -17.016593,
+        17.112894
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "bfdd9360-5f92-441d-8cdc-9666e7a6e755",
+      "nearest_ground_mm": 2.344
+    },
+    {
+      "uuid": "ada8b32d-090b-48a2-acf5-d5b971e40c17",
+      "net": "Net-(D601-IO3)",
+      "position_mm": [
+        -10.44,
+        17.24
+      ],
+      "signal_layers": [
+        "F.Cu"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "6ca4e555-ecf5-4724-b640-9309c493de3a",
+      "nearest_ground_mm": 1.829
+    },
+    {
+      "uuid": "b8f74f1e-f6c4-4219-bf27-024575c50039",
+      "net": "HS_RETURN_U",
+      "position_mm": [
+        0.183568,
+        6.697511
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+      "nearest_ground_mm": 2.8298
+    },
+    {
+      "uuid": "fe2b2129-2f93-4e0a-8ffa-2c3e1cd79141",
+      "net": "HS_RETURN_U",
+      "position_mm": [
+        16.68598,
+        4.161452
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "84608cae-1dba-41a5-a596-2dd5ffbeac8c",
+      "nearest_ground_mm": 3.1225
+    },
+    {
+      "uuid": "857a6c2f-5cf0-422a-ae32-7a5751c85f5e",
+      "net": "HS_RETURN_V",
+      "position_mm": [
+        16.647564,
+        11.745245
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "91f48629-6a5a-459b-befc-2b0d4fc45f1d",
+      "nearest_ground_mm": 3.6301
+    },
+    {
+      "uuid": "cf6f6155-d632-48c2-a329-35b8e6404d81",
+      "net": "HS_RETURN_V",
+      "position_mm": [
+        0.183467,
+        8.197534
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+      "nearest_ground_mm": 3.6195
+    },
+    {
+      "uuid": "bf8a7478-c85d-4a23-933e-4f9bdede045a",
+      "net": "HS_RETURN_W",
+      "position_mm": [
+        0.183361,
+        9.697557
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "39cc7157-4ee8-42f7-9aa4-9a94d2b1453d",
+      "nearest_ground_mm": 3.0587
+    },
+    {
+      "uuid": "cce08aac-3a7f-49da-b272-3de2367d90fa",
+      "net": "HS_RETURN_W",
+      "position_mm": [
+        16.638476,
+        19.239813
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "91f48629-6a5a-459b-befc-2b0d4fc45f1d",
+      "nearest_ground_mm": 3.865
+    },
+    {
+      "uuid": "2a9103fe-9ed1-428f-8ac4-cc06da31b085",
+      "net": "Net-(U4A-PF0)",
+      "position_mm": [
+        -11.46,
+        4.29
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "76cb84be-a027-4fa7-92c2-aa1f01c36af4",
+      "nearest_ground_mm": 0.96
+    },
+    {
+      "uuid": "512746a0-c6a0-4f66-8bdc-8fdd04ea34b0",
+      "net": "Net-(U4A-PF1)",
+      "position_mm": [
+        -13.51,
+        5.25
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "718a50de-5417-4e3d-af01-9ca05f58ee79",
+      "nearest_ground_mm": 0.96
+    },
+    {
+      "uuid": "27376ee5-7b8c-4291-a16f-b951cf4d1246",
+      "net": "Net-(U4C-SCREF)",
+      "position_mm": [
+        -2.85,
+        3.55
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 4.272
+    },
+    {
+      "uuid": "4d6f5927-e717-4f32-8bab-ea1ead932cd8",
+      "net": "Net-(U201-BOOT)",
+      "position_mm": [
+        1.635005,
+        -20.5375
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "e3e8dae1-4fa1-4a70-88ba-d6503c1fdfc9",
+      "nearest_ground_mm": 2.3138
+    },
+    {
+      "uuid": "29fd140a-0e77-4c78-a1b8-5af641d58b48",
+      "net": "Net-(U201-SW)",
+      "position_mm": [
+        0.365006,
+        -20.5375
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "2fc21bea-a698-48f2-b3cb-bfb22350251c",
+      "nearest_ground_mm": 2.3058
+    },
+    {
+      "uuid": "815d2759-250d-4913-9604-c99bb4028b29",
+      "net": "Net-(U201-VCC)",
+      "position_mm": [
+        2.905,
+        -20.5375
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "e3e8dae1-4fa1-4a70-88ba-d6503c1fdfc9",
+      "nearest_ground_mm": 2.3138
+    },
+    {
+      "uuid": "af3aee63-959f-436a-8e6c-38840ea9ec4a",
+      "net": "Net-(U203-CP2)",
+      "position_mm": [
+        -16.225,
+        -20.1
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+      "nearest_ground_mm": 0.7701
+    },
+    {
+      "uuid": "bb3414f4-fc32-48df-9ce3-3f8b6f48c016",
+      "net": "Net-(U203-ILM)",
+      "position_mm": [
+        -13.372949,
+        -16.790732
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "db219d76-7f46-4c58-88a6-9b2066c2b1c9",
+      "nearest_ground_mm": 1.7019
+    },
+    {
+      "uuid": "8bbc3905-1d92-4c2f-9663-165b47575aed",
+      "net": "Net-(U203-OV1)",
+      "position_mm": [
+        -11.25,
+        -20.1
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "a1e543f8-d735-4b8f-b906-e95535bd5768",
+      "nearest_ground_mm": 1.1
+    },
+    {
+      "uuid": "a7807713-a270-4f45-887c-d5b161a97b76",
+      "net": "Net-(U203-OV1)",
+      "position_mm": [
+        -16.274999,
+        -21.6
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+      "nearest_ground_mm": 0.7603
+    },
+    {
+      "uuid": "f9b7553c-7178-473d-9398-2a18b503ef23",
+      "net": "Net-(U203-OV2)",
+      "position_mm": [
+        -14.6,
+        -20.625
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "ea4c39e9-3410-4ade-9fa4-d2c6e7baed33",
+      "nearest_ground_mm": 1.814
+    },
+    {
+      "uuid": "30ae4289-88a9-436f-9643-8895f4493832",
+      "net": "Net-(U203-PR1)",
+      "position_mm": [
+        -11.399999,
+        -20.85
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "0e853b39-4f2e-4efa-8d57-fdbd9ccf1495",
+      "nearest_ground_mm": 0.8
+    },
+    {
+      "uuid": "06218a3d-3a83-4404-b92b-fa477606808c",
+      "net": "Net-(U502-IN+)",
+      "position_mm": [
+        5.745,
+        -11.53
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "c72e16e9-ea16-454b-9f4c-b517332cadf4",
+      "nearest_ground_mm": 0.945
+    },
+    {
+      "uuid": "81f1d055-4e1f-427e-bc62-088fbbffd1c2",
+      "net": "Net-(U601-MISO)",
+      "position_mm": [
+        6.0,
+        -0.899999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "69cca4f4-118d-41a1-9cbe-3663828fc9cd",
+      "nearest_ground_mm": 0.8139
+    },
+    {
+      "uuid": "8c78eca4-49bd-4f4c-a40c-4996eda225b6",
+      "net": "Net-(U601-MISO)",
+      "position_mm": [
+        1.75,
+        -0.524999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "0029451e-bf76-4914-921a-a942dd4b8be7",
+      "nearest_ground_mm": 1.0957
+    },
+    {
+      "uuid": "129e0ff8-a950-499d-85d2-81a9bce699df",
+      "net": "Net-(U601-MOSI)",
+      "position_mm": [
+        -0.75,
+        2.65
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 1.9925
+    },
+    {
+      "uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+      "net": "Net-(U601-MOSI)",
+      "position_mm": [
+        -4.8,
+        3.65
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 3.8006
+    },
+    {
+      "uuid": "b1ffada4-2ed9-4624-aa22-54506182d62b",
+      "net": "Net-(U602A-S3B)",
+      "position_mm": [
+        -12.865852,
+        20.369999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "a65388a0-265e-4b4e-84dd-f67048cb970f",
+      "nearest_ground_mm": 1.4247
+    },
+    {
+      "uuid": "f14f4022-ffef-42f9-bcec-a4d18adb697d",
+      "net": "Net-(U602A-S3B)",
+      "position_mm": [
+        -3.305,
+        17.225001
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "8296460e-c62d-48a9-9391-bfb2997bbdce",
+      "nearest_ground_mm": 2.0282
+    },
+    {
+      "uuid": "451c4b6e-8509-4162-894b-fd71fe88bda7",
+      "net": "PWR_SOURCE_STATUS",
+      "position_mm": [
+        -13.009014,
+        -17.538056
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "1810ff38-f724-40df-b34e-8afb0295559e",
+      "nearest_ground_mm": 1.9587
+    },
+    {
+      "uuid": "0aa4fd58-7408-4a14-ad53-8c0692060f2f",
+      "net": "SHUNT_U_SENSE_N",
+      "position_mm": [
+        -11.804999,
+        11.57
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "d0489921-c513-4564-8875-20bb4dc12c87",
+      "nearest_ground_mm": 1.7464
+    },
+    {
+      "uuid": "0ce052fe-2d5d-4ef0-b275-49f792c8e933",
+      "net": "SHUNT_U_SENSE_N",
+      "position_mm": [
+        5.269998,
+        0.700002
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "cdcf53fb-5a13-4177-a226-2b0ef5f63817",
+      "nearest_ground_mm": 0.8006
+    },
+    {
+      "uuid": "6c678473-321e-4e17-98b2-71cbff095ab7",
+      "net": "SHUNT_U_SENSE_P",
+      "position_mm": [
+        6.429999,
+        0.7
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "69cca4f4-118d-41a1-9cbe-3663828fc9cd",
+      "nearest_ground_mm": 0.8476
+    },
+    {
+      "uuid": "8d14652b-417c-4f52-bfe7-ced2b79c4dce",
+      "net": "SHUNT_U_SENSE_P",
+      "position_mm": [
+        -9.95958,
+        14.159579
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "0892352c-ae23-4e78-b4f7-5ea3a6d8c487",
+      "nearest_ground_mm": 1.5036
+    },
+    {
+      "uuid": "45ed45ca-64af-479f-a0ad-cb6340221e59",
+      "net": "SHUNT_V_SENSE_N",
+      "position_mm": [
+        5.269998,
+        8.2
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+      "nearest_ground_mm": 3.4437
+    },
+    {
+      "uuid": "96052beb-8394-4295-ae3b-5d2b26af3333",
+      "net": "SHUNT_V_SENSE_N",
+      "position_mm": [
+        -6.595,
+        13.899999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "0892352c-ae23-4e78-b4f7-5ea3a6d8c487",
+      "nearest_ground_mm": 1.966
+    },
+    {
+      "uuid": "5efcaf60-9721-4cab-a1c0-4830ad7c6bd3",
+      "net": "SHUNT_V_SENSE_P",
+      "position_mm": [
+        -7.351164,
+        13.637823
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "0892352c-ae23-4e78-b4f7-5ea3a6d8c487",
+      "nearest_ground_mm": 1.1939
+    },
+    {
+      "uuid": "bcf1d7af-7895-4d0b-ae43-db6418b0f1b8",
+      "net": "SHUNT_V_SENSE_P",
+      "position_mm": [
+        6.429999,
+        8.2
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "ad8c0bb6-e66f-4a26-9cfb-fb6302af8878",
+      "nearest_ground_mm": 4.3381
+    },
+    {
+      "uuid": "4ef249f2-77d1-4a03-b961-48fb553146d8",
+      "net": "SHUNT_W_SENSE_N",
+      "position_mm": [
+        -4.965415,
+        10.542119
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "3fe67ddd-6314-4784-a7dc-56641a241ee0",
+      "nearest_ground_mm": 1.8938
+    },
+    {
+      "uuid": "7484f7fa-7a67-4aab-aca8-a5f0fb8bcd19",
+      "net": "SHUNT_W_SENSE_N",
+      "position_mm": [
+        5.269998,
+        15.7
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "5093de51-eb6c-4a47-9022-c45c911da0a1",
+      "nearest_ground_mm": 3.0065
+    },
+    {
+      "uuid": "c7325133-599c-4b2e-9d39-7990ebaaf662",
+      "net": "SHUNT_W_SENSE_P",
+      "position_mm": [
+        -5.44,
+        9.96
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "nearest_ground_mm": 1.5833
+    },
+    {
+      "uuid": "e8e0f80d-a205-45cf-85df-acb7c29ec5a5",
+      "net": "SHUNT_W_SENSE_P",
+      "position_mm": [
+        6.429999,
+        15.7
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "5093de51-eb6c-4a47-9022-c45c911da0a1",
+      "nearest_ground_mm": 3.7761
+    },
+    {
+      "uuid": "1df38be0-0160-42d3-9d14-64dea830578b",
+      "net": "SPI3_MISO",
+      "position_mm": [
+        5.45,
+        -1.449999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "69cca4f4-118d-41a1-9cbe-3663828fc9cd",
+      "nearest_ground_mm": 1.5207
+    },
+    {
+      "uuid": "8de0d3f8-0b48-4537-b594-cf5da8a933c3",
+      "net": "SPI3_MISO",
+      "position_mm": [
+        -1.549999,
+        3.65
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 3.1385
+    },
+    {
+      "uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+      "net": "SPI3_MOSI_MCU",
+      "position_mm": [
+        -4.449999,
+        4.35
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 4.1975
+    },
+    {
+      "uuid": "dca7d7f8-db94-4017-958e-6e3c71082ff5",
+      "net": "SPI3_MOSI_MCU",
+      "position_mm": [
+        -6.399999,
+        0.0
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+      "nearest_ground_mm": 1.3038
+    },
+    {
+      "uuid": "63999344-2fb0-4119-a058-eb36d42fee7a",
+      "net": "SPI3_SCK_MCU",
+      "position_mm": [
+        -5.349999,
+        -0.199999
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+      "nearest_ground_mm": 1.9679
+    },
+    {
+      "uuid": "fb2586be-a387-42cd-8ad8-002e34e4d2a4",
+      "net": "SPI3_SCK_MCU",
+      "position_mm": [
+        -7.524999,
+        -0.474999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f7484f98-ec96-434a-a1fe-1221882faeaf",
+      "nearest_ground_mm": 0.7558
+    },
+    {
+      "uuid": "fc684bda-4ae9-4387-9c72-bea2c3d1a98c",
+      "net": "SPI3_SCK_MCU",
+      "position_mm": [
+        -7.85,
+        3.95
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 0.7845
+    },
+    {
+      "uuid": "01bc5121-3145-4e97-9a1c-7ec2303817ea",
+      "net": "USB_UART_RX",
+      "position_mm": [
+        -12.95,
+        -6.05
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "97f90dcb-7de1-4360-b630-3d2218a64258",
+      "nearest_ground_mm": 0.8
+    },
+    {
+      "uuid": "1b16397d-a7db-46f8-a12e-5ea12b4663a1",
+      "net": "USB_UART_RX",
+      "position_mm": [
+        -10.899999,
+        2.55
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 2.5805
+    },
+    {
+      "uuid": "878d624e-cdf7-49b8-be36-2a3a0c384427",
+      "net": "USB_UART_RX",
+      "position_mm": [
+        -17.18875,
+        -11.459999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "1df88d86-bd64-4847-a2aa-4f46af04e377",
+      "nearest_ground_mm": 2.0159
+    },
+    {
+      "uuid": "d8a81d10-587e-47e5-a366-a670fdc02c4a",
+      "net": "USB_UART_RX",
+      "position_mm": [
+        -2.018632,
+        4.378433
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 3.9322
+    },
+    {
+      "uuid": "f62e8fa4-f7f3-49e6-baec-70e5bb305f7b",
+      "net": "USB_UART_TX",
+      "position_mm": [
+        -1.51,
+        4.95
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "b86b804d-1e08-41ea-873f-602828f0d323",
+      "nearest_ground_mm": 3.9352
+    },
+    {
+      "uuid": "7bd959a3-20b3-4093-9eeb-87858f67cd70",
+      "net": "VBUS_MUX_IN",
+      "position_mm": [
+        -4.949999,
+        19.25
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "4faffcb5-2156-47e4-a317-73e36dadf929",
+      "nearest_ground_mm": 1.0512
+    },
+    {
+      "uuid": "b90085f0-a10c-4c1b-a374-858e9e182de8",
+      "net": "VBUS_MUX_IN",
+      "position_mm": [
+        1.45,
+        18.875
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "5c3cc62a-690e-4d64-9a49-920a35f559b5",
+      "nearest_ground_mm": 0.9003
+    },
+    {
+      "uuid": "20e4c18d-5f33-4de4-930d-33553c049ce1",
+      "net": "VBUS_SENSE",
+      "position_mm": [
+        -10.21,
+        7.45
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "76cb84be-a027-4fa7-92c2-aa1f01c36af4",
+      "nearest_ground_mm": 2.5303
+    },
+    {
+      "uuid": "84e8ed77-452f-413c-99cf-baf614789ad3",
+      "net": "VBUS_SENSE",
+      "position_mm": [
+        -5.425,
+        18.15
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "8296460e-c62d-48a9-9391-bfb2997bbdce",
+      "nearest_ground_mm": 1.5102
+    },
+    {
+      "uuid": "2a1c749d-6c88-4b79-a1aa-15d3b24873b4",
+      "net": "NTC_BRAKE",
+      "position_mm": [
+        -8.649999,
+        6.12
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 2.4005
+    },
+    {
+      "uuid": "acf5ed9a-e17c-437c-b160-690d8b1c14b4",
+      "net": "NTC_BRAKE",
+      "position_mm": [
+        -8.565,
+        7.24
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "nearest_ground_mm": 2.7748
+    },
+    {
+      "uuid": "dc11939a-ec6c-46fe-9ed1-0293abb2f789",
+      "net": "NTC_BRAKE",
+      "position_mm": [
+        1.4,
+        12.55
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "2c74fb34-1915-434d-92a7-2cdd5e465a34",
+      "nearest_ground_mm": 1.2
+    },
+    {
+      "uuid": "51d22702-6bea-45ef-a5d8-92fbe16add30",
+      "net": "CAN_TERM_GATE",
+      "position_mm": [
+        -14.67,
+        5.33
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "718a50de-5417-4e3d-af01-9ca05f58ee79",
+      "nearest_ground_mm": 1.5579
+    },
+    {
+      "uuid": "a13e6a91-25f1-4900-ac80-f43b9efd361a",
+      "net": "CAN_TERM_GATE",
+      "position_mm": [
+        -15.240002,
+        8.025
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu",
+        "Signals L3"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "39471489-c134-443f-be29-537a68841fc9",
+      "nearest_ground_mm": 1.104
+    },
+    {
+      "uuid": "3cd693bc-5d0e-4f10-9680-8769383d33a9",
+      "net": "CAN_TERM_DISABLE",
+      "position_mm": [
+        -14.11,
+        9.724999
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "39471489-c134-443f-be29-537a68841fc9",
+      "nearest_ground_mm": 1.6814
+    },
+    {
+      "uuid": "775a4041-16d3-45d1-8c0b-8bf65be169bb",
+      "net": "CAN_TERM_DISABLE",
+      "position_mm": [
+        -8.875,
+        5.4
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "934a73ac-2f65-458c-8feb-3a1c25c9d606",
+      "nearest_ground_mm": 1.7024
+    },
+    {
+      "uuid": "98fe5d19-aeda-4c14-8f2f-5ceeb4245c4f",
+      "net": "CAN_TERM_DISABLE",
+      "position_mm": [
+        -10.325,
+        15.625
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "6ca4e555-ecf5-4724-b640-9309c493de3a",
+      "nearest_ground_mm": 1.371
+    },
+    {
+      "uuid": "eae75da2-3624-4da3-b659-2651c5880902",
+      "net": "CAN_TERM_DISABLE",
+      "position_mm": [
+        -11.975,
+        15.625
+      ],
+      "signal_layers": [
+        "B.Cu",
+        "Power L4"
+      ],
+      "reference_layers": [
+        "GND L5"
+      ],
+      "reference_change": false,
+      "nearest_ground_uuid": "6ca4e555-ecf5-4724-b640-9309c493de3a",
+      "nearest_ground_mm": 2.9792
+    },
+    {
+      "uuid": "50a08a57-ad8f-44a4-81ff-35943e6036fc",
+      "net": "Net-(Q802A-S1)",
+      "position_mm": [
+        -16.635001,
+        5.595001
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "e3125aff-5343-435a-be63-b17d384ef235",
+      "nearest_ground_mm": 2.0862
+    },
+    {
+      "uuid": "78a972a4-177a-4869-a786-66dcb436c4ce",
+      "net": "Net-(Q802A-S1)",
+      "position_mm": [
+        -18.585001,
+        6.895
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "e3125aff-5343-435a-be63-b17d384ef235",
+      "nearest_ground_mm": 2.7923
+    },
+    {
+      "uuid": "2abb1049-4810-4ee6-aa66-d738ede59e59",
+      "net": "Net-(D201-GK)",
+      "position_mm": [
+        -12.394015,
+        -14.788057
+      ],
+      "signal_layers": [
+        "F.Cu",
+        "B.Cu"
+      ],
+      "reference_layers": [
+        "GND L2",
+        "GND L5"
+      ],
+      "reference_change": true,
+      "nearest_ground_uuid": "bf3e02b2-611e-4080-a963-2199c1ddee98",
+      "nearest_ground_mm": 1.5108
+    }
+  ],
+  "method": "All signal-via same-net physical copper contacts, adjacent GND planes and through GND interconnect contacts. Geometric proximity only."
+}

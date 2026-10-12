@@ -1,0 +1,595 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_03/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "192743ddd26768cae5c64b662d253b784ded1abfa7457791f452c03a9b1aee6c",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/ground/local_courtyard/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "ground_C603_2",
+      "kind": "pad_ground_stitch",
+      "pad": "C603.2",
+      "pad_uuid": "deb2d07e-557a-4a69-a329-b048e0d795d5",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -0.12,
+        20.6
+      ],
+      "end_mm": [
+        -0.12,
+        21.2
+      ],
+      "stub_length_mm": 0.6,
+      "added_uuids": [
+        "7ca27b5f-623d-4bc2-bd6c-a39709d6e5c4",
+        "4d964219-f070-4541-8f6a-efcf9d6bd1bb"
+      ],
+      "new_items": [
+        "7ca27b5f-623d-4bc2-bd6c-a39709d6e5c4",
+        "4d964219-f070-4541-8f6a-efcf9d6bd1bb"
+      ],
+      "added_via_uuid": "7ca27b5f-623d-4bc2-bd6c-a39709d6e5c4",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_C711_2",
+      "kind": "pad_ground_stitch",
+      "pad": "C711.2",
+      "pad_uuid": "1ab76947-837c-4849-9612-f4556165ba1c",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -7.605,
+        9.18
+      ],
+      "end_mm": [
+        -6.955,
+        9.5
+      ],
+      "stub_length_mm": 0.782548,
+      "added_uuids": [
+        "1496a68f-fbf4-451d-9914-34d9085c6f4c",
+        "dc97d4b6-ef7a-472e-a0b2-c5d8a5db21d6"
+      ],
+      "new_items": [
+        "1496a68f-fbf4-451d-9914-34d9085c6f4c",
+        "dc97d4b6-ef7a-472e-a0b2-c5d8a5db21d6"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "f03b7746-bab2-4a36-9880-1ea56688760b",
+      "track_widths_mm": [
+        0.254
+      ]
+    },
+    {
+      "group_id": "ground_R306_2",
+      "kind": "pad_ground_stitch",
+      "pad": "R306.2",
+      "pad_uuid": "3cf8d880-5fab-4dd8-aa99-5b356b673a26",
+      "net": "GND",
+      "layer": "B.Cu",
+      "start_mm": [
+        -0.09,
+        19.4
+      ],
+      "end_mm": [
+        0.55,
+        18.9
+      ],
+      "stub_length_mm": 0.847107,
+      "added_uuids": [
+        "5e34d2fb-144a-4dcd-a005-020346cdd716",
+        "ab0c1de6-84ba-421a-b05b-05fa88c2d169"
+      ],
+      "new_items": [
+        "5e34d2fb-144a-4dcd-a005-020346cdd716",
+        "ab0c1de6-84ba-421a-b05b-05fa88c2d169"
+      ],
+      "added_via_uuid": null,
+      "reused_via_uuid": "5c3cc62a-690e-4d64-9a49-920a35f559b5",
+      "track_widths_mm": [
+        0.254
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "pad": "C301.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C302.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C303.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C304.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C305.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C306.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C307.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C308.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C309.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C310.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C312.2",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "C313.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C314.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C108.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C503.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C504.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C505.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C601.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C602.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C604.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C605.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C606.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C607.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C701.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C702.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C712.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C713.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C801.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C802.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C901.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C902.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C903.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C904.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "C208.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C209.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C211.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C212.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C213.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.32",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.65",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "U601.5",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U601.13",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U701.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U701.6",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U701.7",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.3",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U901.12",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.21",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U202.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U801.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U801.9",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "U602.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U602.5",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U602.8",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U602.11",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U603.4",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U604.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U502.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "U204.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "Y301.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "Y301.4",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R1.4",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "R5.4",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "R509.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R3.4",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "R311.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R618.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R214.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R220.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R315.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R905.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R501.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R209.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R105.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R616.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R202.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R204.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R615.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R443.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R203.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R617.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R504.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R442.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R207.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R213.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R219.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R505.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R211.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R307.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R441.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "R804.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "Q301.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "Q801.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "D801.3",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "J801.1",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "J801.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J801.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J802.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "J802.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J802.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J601.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "J601.6",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "J601.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J601.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J502.2",
+      "reason": "no legal <=1.5 mm local plane stitch"
+    },
+    {
+      "pad": "J502.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "J502.MP",
+      "reason": "large exposed/thermal pad intentionally excluded"
+    },
+    {
+      "pad": "TH701.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "TH702.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "TH703.2",
+      "reason": "already reaches existing GND plane"
+    }
+  ],
+  "signal_returns": null,
+  "added_counts": {
+    "PCB_VIA": 1,
+    "PCB_TRACK": 5
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 1.5,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "/Current / temperature/NTC_B_RAW",
+      "source": "fba9fb3d-bc1e-4d82-ae4e-fc7f2d88bbab",
+      "target": "6923c7e1-e32b-4927-b0f2-81e9b262fbd1",
+      "source_ref": "R712",
+      "source_pin": "1",
+      "target_ref": "TH702",
+      "target_pin": "1",
+      "distance_mm": 31.972335307262117,
+      "length_mm": 49.21558979633412,
+      "vias": 5,
+      "path_points": 1700,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 4.817183017730713
+    },
+    {
+      "net": "/Current / temperature/NTC_C_RAW",
+      "source": "66593c0d-5690-4b5d-8ec6-d76487069f37",
+      "target": "7d8c86e6-c817-4ebe-98c5-7f5677c311fa",
+      "source_ref": "R713",
+      "source_pin": "1",
+      "target_ref": "TH703",
+      "target_pin": "1",
+      "distance_mm": 34.542079048603895,
+      "length_mm": 46.374116139069834,
+      "vias": 5,
+      "path_points": 1658,
+      "rejected": true,
+      "new_items": [],
+      "elapsed_seconds": 4.638513088226318
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/local_trimmed/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6
+  ],
+  "connections": [
+    {
+      "net": "VREF+",
+      "source": "6f430396-faa6-4bfa-a8cc-7d21722eb818",
+      "target": "9b10b282-2228-41e2-99bb-91a24e16c887",
+      "source_ref": "U4",
+      "source_pin": "26",
+      "target_ref": "R430",
+      "target_pin": "1",
+      "distance_mm": 3.3809322672484874,
+      "length_mm": 3.8056349186103993,
+      "vias": 0,
+      "path_points": 68,
+      "rejected": false,
+      "new_items": [
+        "8286b5ea-3227-43c6-9243-f82a734b7599",
+        "be3eb99a-95f3-40c7-a0a0-aa9b98d8126a",
+        "798fa66c-0847-401d-9f60-e71559becd8d"
+      ],
+      "elapsed_seconds": 0.9962079524993896
+    },
+    {
+      "net": "VREF+",
+      "source": "c18e5748-8df3-4cad-899d-97bce380e99c",
+      "target": "9b10b282-2228-41e2-99bb-91a24e16c887",
+      "source_ref": "R420",
+      "source_pin": "1",
+      "target_ref": "R430",
+      "target_pin": "1",
+      "distance_mm": 4.387903396840112,
+      "length_mm": 3.591421356237305,
+      "vias": 0,
+      "path_points": 72,
+      "rejected": false,
+      "new_items": [
+        "27cb4ea1-c7b6-45c9-8ae8-212d241f17a3",
+        "06cbc53b-5c0a-4323-a964-c914f9f0700e"
+      ],
+      "elapsed_seconds": 0.9676401615142822
+    },
+    {
+      "net": "VREF+",
+      "source": "b0c54faa-17be-4d4d-97cb-9c486d53c98e",
+      "target": "c18e5748-8df3-4cad-899d-97bce380e99c",
+      "source_ref": "R410",
+      "source_pin": "1",
+      "target_ref": "R420",
+      "target_pin": "1",
+      "distance_mm": 4.949071371480107,
+      "length_mm": 8.180508652763308,
+      "vias": 0,
+      "path_points": 141,
+      "rejected": false,
+      "new_items": [
+        "302e6881-01ba-4a0d-b0bd-4693f37c1c48",
+        "6cd82993-5911-4cb7-bda2-743f60915113",
+        "e9dbc35e-3a36-47f2-855c-264f7d7034bb",
+        "462b924f-c5de-4ee5-9d51-201dcb27a095",
+        "e88f4695-d7b6-4454-9d23-0605376ecef7"
+      ],
+      "elapsed_seconds": 0.9868509769439697
+    },
+    {
+      "net": "VBUS_SENSE",
+      "source": "0053dd7e-d0aa-4c6a-94bc-9733e61a78cd",
+      "target": "57c7a55f-14de-4341-a901-4a2020f773c1",
+      "source_ref": "U4",
+      "source_pin": "9",
+      "target_ref": "U602",
+      "target_pin": "12",
+      "distance_mm": 12.711877499172537,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 0.9891049861907959
+    },
+    {
+      "net": "NTC_BRAKE",
+      "source": "b57629f8-5b68-4712-b44d-6c5850463c4a",
+      "target": "a3c491f2-8a22-4cea-8b53-bf3af012622a",
+      "source_ref": "R512",
+      "source_pin": "2",
+      "target_ref": "C505",
+      "target_pin": "1",
+      "distance_mm": 12.129972176390183,
+      "length_mm": 16.603300858899182,
+      "vias": 1,
+      "path_points": 303,
+      "rejected": false,
+      "new_items": [
+        "8151fb5e-b501-4c36-8dac-fb10fb5bcad4",
+        "d0c222bd-0474-49f6-8c9e-1260a53d7796",
+        "23729f52-8de6-4ded-9e12-26bff6e94107",
+        "dc11939a-ec6c-46fe-9ed1-0293abb2f789",
+        "8f4391e2-686f-4b3b-bc86-a3ded3c9b885",
+        "1d225d33-28ca-4776-89ae-961f58276e82",
+        "2199c2fc-f3c6-4001-a32b-7431616db1b3",
+        "9c1f2983-e5aa-4b2d-af11-002cf08eeb1f",
+        "933668ef-c32a-4b6b-aaaa-0f8449f49e2f"
+      ],
+      "elapsed_seconds": 0.9737808704376221
+    },
+    {
+      "net": "NTC_PHASE_B",
+      "source": "9555ff87-84f1-402b-b95d-6a3b7c0772d5",
+      "target": "7d8f11af-2c64-45c7-b8c3-94de47b6f59a",
+      "source_ref": "U4",
+      "source_pin": "11",
+      "target_ref": "R712",
+      "target_pin": "2",
+      "distance_mm": 9.781163713956792,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 1.1241159439086914
+    },
+    {
+      "net": "NTC_PHASE_C",
+      "source": "8620edfb-5c81-4041-aedc-f5d5d06266e2",
+      "target": "3f199580-9e60-4891-a464-c51186b23659",
+      "source_ref": "U4",
+      "source_pin": "13",
+      "target_ref": "R713",
+      "target_pin": "2",
+      "distance_mm": 9.735662171700959,
+      "length_mm": 11.388225099390878,
+      "vias": 1,
+      "path_points": 190,
+      "rejected": false,
+      "new_items": [
+        "4b5eec13-a623-4521-ac3d-1dcb689e5445",
+        "d5f3b5f4-6214-4865-a8d4-696f3a223037",
+        "a4cc4ce2-d214-4448-826d-e039dfb508b6",
+        "689195ce-e4c4-4ac8-8708-a43be55d9d1e",
+        "955d4ea4-b05e-4485-94ab-2a56f3ac05c4"
+      ],
+      "elapsed_seconds": 0.9797351360321045
+    }
+  ]
+}

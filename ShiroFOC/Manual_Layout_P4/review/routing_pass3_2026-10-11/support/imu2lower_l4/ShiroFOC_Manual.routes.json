@@ -1,0 +1,28 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/support/imu2lower_open/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    8
+  ],
+  "connections": [
+    {
+      "net": "IMU_INT2",
+      "source": "1321bdee-2e31-48d6-a335-b8bfed642789",
+      "target": "851f9906-61c9-43bd-9f19-94eda29dba7b",
+      "source_ref": "U701",
+      "source_pin": "9",
+      "target_ref": "U4",
+      "target_pin": "18",
+      "distance_mm": 14.322199018333777,
+      "length_mm": 0,
+      "vias": 0,
+      "path_points": -2,
+      "rejected": false,
+      "new_items": [],
+      "elapsed_seconds": 1.0150928497314453
+    }
+  ]
+}

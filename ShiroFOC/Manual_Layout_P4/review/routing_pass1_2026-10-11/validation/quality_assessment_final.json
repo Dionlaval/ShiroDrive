@@ -1,0 +1,118 @@
+{
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/final/ShiroFOC_Manual.kicad_pcb",
+  "sha256": "0377dac62f42cae4ee8205d58f0a06d141545b332f3cf237d79f053e5bf536ec",
+  "ground_plane_regions": {
+    "GND L2": [
+      1
+    ],
+    "GND L5": [
+      1
+    ]
+  },
+  "new_segments_without_adjacent_ground_reference": 0,
+  "segments_with_reference_void_at_least_0p75mm": 0,
+  "max_single_segment_reference_void_mm": 0.6,
+  "signal_layer_transitions_over_2mm_to_ground_interconnect": [
+    {
+      "uuid": "e92cd088-71d7-4660-bb63-30bdc6e7c281",
+      "net": "I2C2_SCL",
+      "position_mm": [
+        -3.299999,
+        4.65
+      ],
+      "track_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "nearest_ground_through_interconnect_mm": 4.003,
+      "nearest_ground_interconnect_type": "via"
+    },
+    {
+      "uuid": "66d9fb2f-cdc1-4e57-a7e0-35450d46da35",
+      "net": "INPUT_MUX_ENABLE_N",
+      "position_mm": [
+        -2.099999,
+        21.35
+      ],
+      "track_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "nearest_ground_through_interconnect_mm": 3.084,
+      "nearest_ground_interconnect_type": "via"
+    },
+    {
+      "uuid": "046a681f-c7bc-48dc-bce1-59542cd1d109",
+      "net": "SPI3_MOSI_MCU",
+      "position_mm": [
+        -4.449999,
+        4.35
+      ],
+      "track_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "nearest_ground_through_interconnect_mm": 2.885,
+      "nearest_ground_interconnect_type": "via"
+    },
+    {
+      "uuid": "77dfdfc9-1396-4153-9e22-1abb364fdd0b",
+      "net": "Net-(U601-MOSI)",
+      "position_mm": [
+        -4.8,
+        3.65
+      ],
+      "track_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "nearest_ground_through_interconnect_mm": 2.752,
+      "nearest_ground_interconnect_type": "via"
+    },
+    {
+      "uuid": "1b16397d-a7db-46f8-a12e-5ea12b4663a1",
+      "net": "USB_UART_RX",
+      "position_mm": [
+        -10.899999,
+        2.55
+      ],
+      "track_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "nearest_ground_through_interconnect_mm": 2.58,
+      "nearest_ground_interconnect_type": "via"
+    },
+    {
+      "uuid": "95b5cd3f-f021-475d-b98d-b338ece1f527",
+      "net": "EXT_FEEDBACK_SELECT",
+      "position_mm": [
+        -1.699999,
+        19.4
+      ],
+      "track_layers": [
+        "B.Cu",
+        "Signals L3"
+      ],
+      "nearest_ground_through_interconnect_mm": 2.305,
+      "nearest_ground_interconnect_type": "via"
+    },
+    {
+      "uuid": "b93268c2-6589-4d32-ada2-02cb3f04a629",
+      "net": "IMU_INT2",
+      "position_mm": [
+        -8.35,
+        10.95
+      ],
+      "track_layers": [
+        "B.Cu",
+        "F.Cu"
+      ],
+      "nearest_ground_through_interconnect_mm": 2.012,
+      "nearest_ground_interconnect_type": "via"
+    }
+  ],
+  "largest_remaining_digital_return_distance_mm": 4.003,
+  "remaining_layout_cleanup": "SPI3_MOSI_MCU 11.52 mm for 1.58 mm direct; SPI3_SCK_MCU 9.03 mm for 3.51 mm direct; EXT_FEEDBACK_SELECT 34.25 mm for 16.79 mm direct. Existing MCU copper limits direct escapes.",
+  "confidence": "Geometric checks only: 0.05 mm centerline samples of adjacent filled GND polygons, nearest interconnect distance only; no electromagnetic simulation."
+}

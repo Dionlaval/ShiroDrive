@@ -1,0 +1,825 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/power_fed/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "342cde3957200cf6bb7f071025db8b6d668d6bd7e5e1f8d0e0f22d913e35ea9a",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/ancillary/io2/ShiroFOC_Manual.kicad_pcb",
+  "candidate_sha256": "15ffc5794541788200066bd7837980efad69dc80bd031e53be1766ed6aeefdf7",
+  "groups": [
+    {
+      "id": "u203_ov1_fanout",
+      "nets": [
+        "Net-(U203-OV1)",
+        "Net-(U203-CP2)",
+        "Net-(U203-PR1)"
+      ],
+      "new_items": [
+        "012c38e1-822b-4d7f-b919-2bae112dc796",
+        "1d864028-d5be-48d4-8c71-06595e4f8c39",
+        "22098874-3ce8-43e8-a392-6785bc2b27cf",
+        "3143487c-e403-47a7-873f-c71cdf3dbf99",
+        "328307de-82fb-479c-be69-4950d74a0327",
+        "3581b5d4-cb02-433d-bb11-7a384e3540be",
+        "3bee6c33-7f55-4b91-9bec-bbeb5debb895",
+        "48805db2-82ec-41f7-9568-788436775bdd",
+        "5625e39b-a944-42b1-8d61-0f3dbbf32f1b",
+        "62826be0-5eb9-4b7f-b9c4-23a522981a9b",
+        "67985fa4-c7a0-4094-be6c-c7f7ded5c078",
+        "6b1b084d-9d04-40a4-a38e-7cefedc80f22",
+        "6cde2e14-ed26-4771-a185-604be9dd1c3e",
+        "8274e224-0011-428a-8c99-4abc00bf3b24",
+        "8bbc3905-1d92-4c2f-9663-165b47575aed",
+        "903380fb-311b-4c34-ba80-f4443e32343a",
+        "9dc5401a-5fa9-43c3-9f65-2463748b5518",
+        "a796ccc5-a831-4bea-9453-43564716965b",
+        "e32f53a3-bf99-43cf-9bae-551a35d45864",
+        "fb9f7d0d-f0ac-48f8-aa8f-14e11600a7dd"
+      ],
+      "removed_items": [
+        "21e355bb-7907-4af8-a9d6-d839714d1cbb",
+        "b16a5eb2-51ec-4362-8df9-3f12564a5f23",
+        "bc533e80-bb7f-4fb6-b2ed-72e9fab4289f",
+        "c1b5d8cc-f585-4bc4-b233-20ff1407af77"
+      ]
+    },
+    {
+      "id": "uart_bridge_rx",
+      "nets": [
+        "/USB service/UART_BRIDGE_RX"
+      ],
+      "new_items": [
+        "07f9ff97-31bd-4030-8dbc-3392c9e3f2fe",
+        "156d9fe2-63c1-4507-a732-62fb1adecee7",
+        "2ce3c4ec-29ef-41ab-aa32-a1bb5ce1d3ea",
+        "48e04d8f-beb4-48ef-8919-51f955eb5ff6",
+        "4fc00b2e-2280-47fb-bdfa-9f7c307dca80",
+        "50108ffa-f709-4a9b-a07e-bae15fb01fe2",
+        "747877ff-0da9-4ca1-9bf2-ae5dcd627921",
+        "7ec9a4f1-6d7b-4b08-ad3b-73fe238b41b2",
+        "89e48dd6-4a1e-46eb-9e8c-0276b7f929ec",
+        "a025ba72-dae2-4be7-ab58-74409c52b7d8",
+        "af6c276f-b546-4fa7-8deb-1b6a9b3a4822",
+        "e88fa71a-c33e-4d21-aa8e-3d01e0721fb9"
+      ],
+      "removed_items": [
+        "65ffde8f-24df-4c84-89d8-36f8597a9d51",
+        "c27971af-5589-4f82-8871-dee3f3b4aa32",
+        "ea3de25d-2047-483c-bc10-e36b76c5c330"
+      ]
+    },
+    {
+      "id": "external_feedback_io2",
+      "nets": [
+        "Net-(D601-IO2)"
+      ],
+      "new_items": [
+        "155e79e2-1e65-4764-9b44-f5dee14683de",
+        "16327216-824e-439b-a872-0d9ae8edea94",
+        "5663ba35-a4bc-497e-aefa-28fbc51fb908",
+        "6fb85cfb-cdf3-4120-9e57-ed4ca4b1637e",
+        "8ac425d4-61c6-416a-bbe3-df1e11ed6e8c",
+        "adbe7b6f-4b6a-4937-9702-9fa7ad7da029",
+        "dcbb1af1-a496-4de2-98b7-1aadd47b939f"
+      ],
+      "removed_items": [
+        "01a897e4-5de9-432a-8e2c-4afde5db5d50"
+      ]
+    }
+  ],
+  "added": [
+    {
+      "uuid": "012c38e1-822b-4d7f-b919-2bae112dc796",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_TRACK",
+      "layer": "Signals L3",
+      "start_nm": [
+        -15774999,
+        -21600000
+      ],
+      "end_nm": [
+        -15575000,
+        -21400000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "07f9ff97-31bd-4030-8dbc-3392c9e3f2fe",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -16900000,
+        -99999
+      ],
+      "end_nm": [
+        -16900000,
+        -6549999
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "155e79e2-1e65-4764-9b44-f5dee14683de",
+      "net": "Net-(D601-IO2)",
+      "class": "PCB_TRACK",
+      "layer": "F.Cu",
+      "start_nm": [
+        -14649999,
+        15700000
+      ],
+      "end_nm": [
+        -14649999,
+        15575000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "156d9fe2-63c1-4507-a732-62fb1adecee7",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -2774999,
+        5000000
+      ],
+      "end_nm": [
+        -2849999,
+        5000000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "16327216-824e-439b-a872-0d9ae8edea94",
+      "net": "Net-(D601-IO2)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -15125000,
+        16775000
+      ],
+      "end_nm": [
+        -15524999,
+        17175000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "1d864028-d5be-48d4-8c71-06595e4f8c39",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_TRACK",
+      "layer": "F.Cu",
+      "start_nm": [
+        -13799999,
+        -21600000
+      ],
+      "end_nm": [
+        -15774999,
+        -21600000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "22098874-3ce8-43e8-a392-6785bc2b27cf",
+      "net": "Net-(U203-PR1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -10700000,
+        -19850000
+      ],
+      "end_nm": [
+        -11000000,
+        -19550000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "2ce3c4ec-29ef-41ab-aa32-a1bb5ce1d3ea",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -2849999,
+        5000000
+      ],
+      "end_nm": [
+        -3199999,
+        5350000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "3143487c-e403-47a7-873f-c71cdf3dbf99",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -12274999,
+        -20100000
+      ],
+      "end_nm": [
+        -12975000,
+        -20800000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "328307de-82fb-479c-be69-4950d74a0327",
+      "net": "Net-(U203-PR1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -10975000,
+        -20625000
+      ],
+      "end_nm": [
+        -10700000,
+        -20350000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "3581b5d4-cb02-433d-bb11-7a384e3540be",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_TRACK",
+      "layer": "F.Cu",
+      "start_nm": [
+        -13020003,
+        -20860000
+      ],
+      "end_nm": [
+        -13049999,
+        -20850000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "3bee6c33-7f55-4b91-9bec-bbeb5debb895",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_TRACK",
+      "layer": "Signals L3",
+      "start_nm": [
+        -12750000,
+        -21400000
+      ],
+      "end_nm": [
+        -11450000,
+        -20100000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "48805db2-82ec-41f7-9568-788436775bdd",
+      "net": "Net-(U203-CP2)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -14774999,
+        -20475000
+      ],
+      "end_nm": [
+        -14769015,
+        -19838056
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "48e04d8f-beb4-48ef-8919-51f955eb5ff6",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -14424999,
+        1900000
+      ],
+      "end_nm": [
+        -14899999,
+        1900000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "4fc00b2e-2280-47fb-bdfa-9f7c307dca80",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -9600000,
+        5350000
+      ],
+      "end_nm": [
+        -13150000,
+        1800000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "50108ffa-f709-4a9b-a07e-bae15fb01fe2",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -3199999,
+        5350000
+      ],
+      "end_nm": [
+        -9600000,
+        5350000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "5625e39b-a944-42b1-8d61-0f3dbbf32f1b",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_TRACK",
+      "layer": "Signals L3",
+      "start_nm": [
+        -15575000,
+        -21400000
+      ],
+      "end_nm": [
+        -12750000,
+        -21400000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "5663ba35-a4bc-497e-aefa-28fbc51fb908",
+      "net": "Net-(D601-IO2)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -14649999,
+        15575000
+      ],
+      "end_nm": [
+        -15125000,
+        16050000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "62826be0-5eb9-4b7f-b9c4-23a522981a9b",
+      "net": "Net-(U203-PR1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -12975000,
+        -19550000
+      ],
+      "end_nm": [
+        -13269015,
+        -19838056
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "67985fa4-c7a0-4094-be6c-c7f7ded5c078",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_VIA",
+      "layer": "F.Cu",
+      "start_nm": [
+        -15774999,
+        -21600000
+      ],
+      "end_nm": [
+        -15774999,
+        -21600000
+      ],
+      "width_nm": 500000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "6b1b084d-9d04-40a4-a38e-7cefedc80f22",
+      "net": "Net-(U203-PR1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -10700000,
+        -20350000
+      ],
+      "end_nm": [
+        -10700000,
+        -19850000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "6cde2e14-ed26-4771-a185-604be9dd1c3e",
+      "net": "Net-(U203-PR1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -11174999,
+        -20750000
+      ],
+      "end_nm": [
+        -11049999,
+        -20625000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "6fb85cfb-cdf3-4120-9e57-ed4ca4b1637e",
+      "net": "Net-(D601-IO2)",
+      "class": "PCB_TRACK",
+      "layer": "F.Cu",
+      "start_nm": [
+        -15524999,
+        15950000
+      ],
+      "end_nm": [
+        -15975000,
+        15950000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "747877ff-0da9-4ca1-9bf2-ae5dcd627921",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_VIA",
+      "layer": "F.Cu",
+      "start_nm": [
+        -20775000,
+        -10424999
+      ],
+      "end_nm": [
+        -20775000,
+        -10424999
+      ],
+      "width_nm": 500000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "7ec9a4f1-6d7b-4b08-ad3b-73fe238b41b2",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -20775000,
+        -10424999
+      ],
+      "end_nm": [
+        -20775000,
+        -10399999
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "8274e224-0011-428a-8c99-4abc00bf3b24",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_TRACK",
+      "layer": "Signals L3",
+      "start_nm": [
+        -11450000,
+        -20100000
+      ],
+      "end_nm": [
+        -11250000,
+        -20100000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "89e48dd6-4a1e-46eb-9e8c-0276b7f929ec",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -13150000,
+        1800000
+      ],
+      "end_nm": [
+        -14325000,
+        1800000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "8ac425d4-61c6-416a-bbe3-df1e11ed6e8c",
+      "net": "Net-(D601-IO2)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -15125000,
+        16050000
+      ],
+      "end_nm": [
+        -15125000,
+        16775000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "8bbc3905-1d92-4c2f-9663-165b47575aed",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_VIA",
+      "layer": "F.Cu",
+      "start_nm": [
+        -11250000,
+        -20100000
+      ],
+      "end_nm": [
+        -11250000,
+        -20100000
+      ],
+      "width_nm": 500000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "903380fb-311b-4c34-ba80-f4443e32343a",
+      "net": "Net-(U203-CP2)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -15024999,
+        -20725000
+      ],
+      "end_nm": [
+        -14774999,
+        -20475000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "9dc5401a-5fa9-43c3-9f65-2463748b5518",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -11250000,
+        -20100000
+      ],
+      "end_nm": [
+        -12274999,
+        -20100000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "a025ba72-dae2-4be7-ab58-74409c52b7d8",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -16900000,
+        -6549999
+      ],
+      "end_nm": [
+        -20775000,
+        -10424999
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "a796ccc5-a831-4bea-9453-43564716965b",
+      "net": "Net-(U203-PR1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -11049999,
+        -20625000
+      ],
+      "end_nm": [
+        -10975000,
+        -20625000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "adbe7b6f-4b6a-4937-9702-9fa7ad7da029",
+      "net": "Net-(D601-IO2)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -15524999,
+        17175000
+      ],
+      "end_nm": [
+        -16125000,
+        17175000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "af6c276f-b546-4fa7-8deb-1b6a9b3a4822",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -14325000,
+        1800000
+      ],
+      "end_nm": [
+        -14424999,
+        1900000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "dcbb1af1-a496-4de2-98b7-1aadd47b939f",
+      "net": "Net-(D601-IO2)",
+      "class": "PCB_VIA",
+      "layer": "F.Cu",
+      "start_nm": [
+        -14649999,
+        15575000
+      ],
+      "end_nm": [
+        -14649999,
+        15575000
+      ],
+      "width_nm": 500000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "e32f53a3-bf99-43cf-9bae-551a35d45864",
+      "net": "Net-(U203-OV1)",
+      "class": "PCB_TRACK",
+      "layer": "F.Cu",
+      "start_nm": [
+        -13049999,
+        -20850000
+      ],
+      "end_nm": [
+        -13799999,
+        -21600000
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "e88fa71a-c33e-4d21-aa8e-3d01e0721fb9",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "Power L4",
+      "start_nm": [
+        -14899999,
+        1900000
+      ],
+      "end_nm": [
+        -16900000,
+        -99999
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "fb9f7d0d-f0ac-48f8-aa8f-14e11600a7dd",
+      "net": "Net-(U203-PR1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -11000000,
+        -19550000
+      ],
+      "end_nm": [
+        -12975000,
+        -19550000
+      ],
+      "width_nm": 152400
+    }
+  ],
+  "removed": [
+    {
+      "uuid": "01a897e4-5de9-432a-8e2c-4afde5db5d50",
+      "net": "Net-(D601-IO2)",
+      "class": "PCB_VIA",
+      "layer": "F.Cu",
+      "start_nm": [
+        -16179016,
+        17207157
+      ],
+      "end_nm": [
+        -16179016,
+        17207157
+      ],
+      "width_nm": 500000,
+      "drill_nm": 300000
+    },
+    {
+      "uuid": "21e355bb-7907-4af8-a9d6-d839714d1cbb",
+      "net": "Net-(U203-PR1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -13269015,
+        -19838056
+      ],
+      "end_nm": [
+        -13061946,
+        -19838056
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "65ffde8f-24df-4c84-89d8-36f8597a9d51",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -17780001,
+        -11529999
+      ],
+      "end_nm": [
+        -17780000,
+        -12349999
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "b16a5eb2-51ec-4362-8df9-3f12564a5f23",
+      "net": "Net-(U203-CP2)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -14769015,
+        -20629016
+      ],
+      "end_nm": [
+        -15000000,
+        -20860002
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "bc533e80-bb7f-4fb6-b2ed-72e9fab4289f",
+      "net": "Net-(U203-PR1)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -13061946,
+        -19838056
+      ],
+      "end_nm": [
+        -12040003,
+        -20860002
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "c1b5d8cc-f585-4bc4-b233-20ff1407af77",
+      "net": "Net-(U203-CP2)",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -14769015,
+        -19838056
+      ],
+      "end_nm": [
+        -14769015,
+        -20629016
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "c27971af-5589-4f82-8871-dee3f3b4aa32",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_TRACK",
+      "layer": "B.Cu",
+      "start_nm": [
+        -18336600,
+        -10973397
+      ],
+      "end_nm": [
+        -17780001,
+        -11529999
+      ],
+      "width_nm": 152400
+    },
+    {
+      "uuid": "ea3de25d-2047-483c-bc10-e36b76c5c330",
+      "net": "/USB service/UART_BRIDGE_RX",
+      "class": "PCB_VIA",
+      "layer": "F.Cu",
+      "start_nm": [
+        -17780000,
+        -12349999
+      ],
+      "end_nm": [
+        -17780000,
+        -12349999
+      ],
+      "width_nm": 500000,
+      "drill_nm": 300000
+    }
+  ],
+  "modified_existing": [],
+  "remaining": [
+    "Net-(U203-OV2)",
+    "BRAKE_PWM"
+  ],
+  "supply_regression_after_uart_refill": {
+    "extra_3V3_airwires": 2,
+    "near_mm": [
+      [
+        -10.03,
+        1.28
+      ],
+      [
+        -7.85,
+        -1.17
+      ],
+      [
+        -14,
+        1.85
+      ]
+    ],
+    "requires_supply_reconnection_or_uart_group_omission": true
+  }
+}

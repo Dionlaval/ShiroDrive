@@ -1,0 +1,17 @@
+PASS — structural placement validation
+Final PCB SHA256: fba207d4fc2c73df36f0851bced566ba3b39e7fdf050cce382e5cd80ab6fbb3c
+Footprints: 277 -> 278; moved existing: 40; added: R618
+On-board origins: 179 -> 212
+U references: 18; true courtyards: 15; native body/pad fallback: U1, U2, U3
+Origins by placement / assembly status: {"on_board | fitted/default": 212, "staged | fitted/default": 50, "staged | DNP": 15, "staged | PCB feature": 1}
+Still staged:
+  VM input ceramic support: 3 ({'fitted/default': 3}); C104, C105, C106
+  optional bus damping/TVS: 3 ({'DNP': 3}); C107, D101, R102
+  DC-link ceramic bank: 50 ({'fitted/default': 44, 'DNP': 6}); C111, C112, C113, C114, C115, C116, C117, C118, C119, C120, C121, C122, C123, C124, C125, C126, C127, C128, C129, C130, C131, C132, C133, C134, C135, C136, C137, C138, C139, C140, C141, C142, C143, C144, C145, C146, C147, C148, C149, C150, C151, C152, C153, C154, C155, C156, C157, C158, C159, C160
+  phase RC snubbers: 6 ({'DNP': 6}); C413, C423, C433, R415, R425, R435
+  SWD programming footprint: 1 ({'PCB feature': 1}); J1001
+  brake NTC connector: 1 ({'fitted/default': 1}); J502
+  VM bleeder: 1 ({'fitted/default': 1}); R101
+  reset switch: 1 ({'fitted/default': 1}); SW301
+Warnings: ['No courtyard polygons on U1, U2, U3; native body/pad envelopes checked instead.']
+Failures: []

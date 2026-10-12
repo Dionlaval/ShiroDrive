@@ -1,0 +1,145 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/nrst_fixed/ShiroFOC_Manual.kicad_pcb",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/mcu_left/cluster_shift/ShiroFOC_Manual.kicad_pcb",
+  "removed_ids": [
+    "718a50de-5417-4e3d-af01-9ca05f58ee79",
+    "76cb84be-a027-4fa7-92c2-aa1f01c36af4",
+    "2a9103fe-9ed1-428f-8ac4-cc06da31b085",
+    "512746a0-c6a0-4f66-8bdc-8fdd04ea34b0",
+    "bb565293-f95d-4add-b81d-2d4a5ab603cc",
+    "cccf689b-950b-4732-8d29-02a786d9f3ca",
+    "d9b664c4-7905-4726-8709-4cbafbb3df83",
+    "ed8d0836-ddc0-44db-96ba-e4eba16254c0",
+    "380e9350-db20-4df9-b45a-d1bcb54a9a01",
+    "af8e4eb5-a857-49a3-96c5-221920c6d8b8",
+    "fe3754b5-329c-4bfa-b3bc-a8a403149e39"
+  ],
+  "new_ids": [
+    "46c7ec94-34f5-493b-8c00-285c0b2cb1f8",
+    "430fb9ec-2cb9-44d6-b010-b13a3d80b133",
+    "d9f606f6-0def-49fe-9626-fe373eef25c8",
+    "164547a5-5dd5-4cfe-8de8-fadd68f0cf4d",
+    "a7c97bee-ba96-4c89-b018-ae593d8f414c",
+    "3629d5e6-aa40-4327-9f56-ea0c1a362344",
+    "c94a223d-0659-4147-87ae-d47b17993d79",
+    "8077eb0b-f378-41d7-9f8c-29a6d2083ca7",
+    "ab871142-65fd-40d6-aa70-9fa2abf8d56d",
+    "664bf39a-a18e-4815-badc-38504ac367ae",
+    "80bedb2c-8c1f-4ba0-a76f-27ad81ec5b6a",
+    "ab007003-9b01-49da-8a59-21583c7078d3",
+    "6e34f5c9-e7f0-402a-9026-cc66bd583fc5",
+    "686726bd-76a6-40ea-9586-ae15c1792d8c",
+    "498c11b1-419f-404e-9991-dc27da4a93a0",
+    "f83ea35f-1235-4c76-9a3e-9e5d1b3919e0"
+  ],
+  "footprint_moves": [
+    {
+      "uuid": "a148d178-4217-43b6-9f24-87a1d94eddd9",
+      "reference": "Y301",
+      "old": {
+        "position_nm": [
+          -12410000,
+          4770000
+        ],
+        "angle_deg": 180.0
+      },
+      "new": {
+        "position_nm": [
+          -13210000,
+          4770000
+        ],
+        "angle_deg": 180.0
+      }
+    },
+    {
+      "uuid": "266653cb-839e-4ee7-ac36-b088a8553f28",
+      "reference": "C309",
+      "old": {
+        "position_nm": [
+          -13510000,
+          4770000
+        ],
+        "angle_deg": 90.0
+      },
+      "new": {
+        "position_nm": [
+          -14310000,
+          4770000
+        ],
+        "angle_deg": 90.0
+      }
+    },
+    {
+      "uuid": "dc8ac227-209d-41a1-bb62-4909b44452c9",
+      "reference": "C308",
+      "old": {
+        "position_nm": [
+          -11460000,
+          4770000
+        ],
+        "angle_deg": -90.0
+      },
+      "new": {
+        "position_nm": [
+          -12260000,
+          4770000
+        ],
+        "angle_deg": -90.0
+      }
+    }
+  ],
+  "existing_via_moves": [
+    {
+      "old_uuid": "718a50de-5417-4e3d-af01-9ca05f58ee79",
+      "new_uuid": "46c7ec94-34f5-493b-8c00-285c0b2cb1f8",
+      "net": "GND",
+      "old_position_nm": [
+        -13510000,
+        4290000
+      ],
+      "new_position_nm": [
+        -14310000,
+        4290000
+      ]
+    },
+    {
+      "old_uuid": "76cb84be-a027-4fa7-92c2-aa1f01c36af4",
+      "new_uuid": "430fb9ec-2cb9-44d6-b010-b13a3d80b133",
+      "net": "GND",
+      "old_position_nm": [
+        -11460000,
+        5250000
+      ],
+      "new_position_nm": [
+        -12260000,
+        5250000
+      ]
+    },
+    {
+      "old_uuid": "2a9103fe-9ed1-428f-8ac4-cc06da31b085",
+      "new_uuid": "d9f606f6-0def-49fe-9626-fe373eef25c8",
+      "net": "Net-(U4A-PF0)",
+      "old_position_nm": [
+        -11460000,
+        4290000
+      ],
+      "new_position_nm": [
+        -12260000,
+        4290000
+      ]
+    },
+    {
+      "old_uuid": "512746a0-c6a0-4f66-8bdc-8fdd04ea34b0",
+      "new_uuid": "164547a5-5dd5-4cfe-8de8-fadd68f0cf4d",
+      "net": "Net-(U4A-PF1)",
+      "old_position_nm": [
+        -13510000,
+        5250000
+      ],
+      "new_position_nm": [
+        -14310000,
+        5250000
+      ]
+    }
+  ]
+}

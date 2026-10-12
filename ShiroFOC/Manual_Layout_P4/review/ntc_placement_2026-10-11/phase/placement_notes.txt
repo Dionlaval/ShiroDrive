@@ -1,0 +1,12 @@
+Phase thermistor resistor relocation candidate — 2026-10-11
+
+R701/R702/R703 bias resistors and R711/R712/R713 series resistors are now arranged in three rows in the quiet USB/CAN service-side gap. All are on B.Cu, orientation 0 degrees. Bias column X=-16.4 mm; series column X=-14.0 mm; row Y=-1.55, -0.50, +0.55 mm. The RAW-net ends face each other across each row.
+
+This clears the crowded MCU/ADC area. C711/C712/C713 remain beside their ADC pins and TH701/TH702/TH703 remain near their power stages. No other footprint, copper, zone, board drawing, pad identity, net assignment, or schematic path changed. The thermistor signals still require routing; keep the longer resistor-to-capacitor paths ground-referenced and away from the bridge switching copper.
+
+Read-only validation: PASS. Exactly the six authorized footprints differ. Courtyard/body and opposite-side through-hole checks report zero conflicts; all six envelopes are inside the board. Copper, zones and outline are unchanged.
+
+Native DRC: 33 existing errors remain; zero new error UUID pairs. Warnings decrease from 398 to 396 overall, with five new silkscreen-only pairs: four adjacent-row gaps of 0.17 mm against the 0.20 mm silk rule, and the R703 outline overlapping the D801 symbol. These still need silkscreen cleanup. Unconnected count remains 433. This is a placement candidate, not routing or fabrication sign-off.
+
+Candidate SHA256: 62de3befb5c0526d70e8a35c4d0f6070b61b1e4ab005fcc709358bc91263ceba
+Candidate frozen after parent integration. See manifest.json, validation.json and drc_candidate.json for exact evidence.

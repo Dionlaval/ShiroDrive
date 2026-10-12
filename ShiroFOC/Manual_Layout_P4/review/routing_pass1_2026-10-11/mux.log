@@ -1,0 +1,89 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+1/28 /Brake chopper/BRAKE_NTC_RAW: 25 points; 1.20 mm; 0 vias; accepted candidate; 1.16s
+2/28 /Brake chopper/BRAKE_NTC_RAW: 41 points; 2.17 mm; 0 vias; accepted candidate; 1.11s
+4/28 /Current / temperature/NTC_A_RAW: 29 points; 1.40 mm; 0 vias; accepted candidate; 1.09s
+5/28 /Current / temperature/NTC_A_RAW: 654 points; 34.26 mm; 3 vias; accepted candidate; 1.14s
+7/28 /Current / temperature/NTC_B_RAW: 29 points; 1.40 mm; 0 vias; accepted candidate; 1.11s
+8/28 /Current / temperature/NTC_B_RAW: 683 points; 39.37 mm; 4 vias; not routed; 1.15s
+10/28 /Current / temperature/NTC_C_RAW: 29 points; 1.40 mm; 0 vias; accepted candidate; 1.12s
+11/28 /Current / temperature/NTC_C_RAW: 831 points; 46.18 mm; 2 vias; not routed; 1.17s
+12/28 Net-(U602A-S1B): 40 points; 2.16 mm; 0 vias; accepted candidate; 1.11s
+13/28 Net-(U602A-S2B): 44 points; 2.65 mm; 0 vias; accepted candidate; 1.12s
+14/28 Net-(U602A-S3B): 9 points; 0.40 mm; 0 vias; accepted candidate; 1.12s
+15/28 FEEDBACK_A_H1: -2 points; 0.00 mm; 0 vias; not routed; 1.11s
+16/28 FEEDBACK_B_H2: -2 points; 0.00 mm; 0 vias; not routed; 1.17s
+17/28 FEEDBACK_I_H3: 33 points; 1.72 mm; 0 vias; accepted candidate; 1.11s
+18/28 FEEDBACK_I_H3: -2 points; 0.00 mm; 0 vias; not routed; 1.23s
+20/28 INPUT_MUX_ENABLE_N: 100 points; 5.99 mm; 2 vias; accepted candidate; 1.20s
+21/28 INPUT_MUX_ENABLE_N: -2 points; 0.00 mm; 0 vias; not routed; 1.21s
+23/28 EXT_FEEDBACK_SELECT: 162 points; 8.65 mm; 2 vias; accepted candidate; 1.17s
+24/28 EXT_FEEDBACK_SELECT: 601 points; 34.24 mm; 3 vias; accepted candidate; 1.20s
+27/28 EXT_SENSOR_FAULT_N: 298 points; 15.93 mm; 2 vias; accepted candidate; 1.27s
+{"candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/mux/ShiroFOC_Manual.kicad_pcb", "connections": 14, "new_items": 81, "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/mux/ShiroFOC_Manual.routes.json"}
+Found 422 violations
+Found 372 unconnected items
+Saved DRC Report to /Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/mux/drc.json
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+05:48:53 PM: Debug: Adding duplicate image handler for 'PNG file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'JPEG file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'TIFF file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'GIF file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'PNM file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'PCX file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'IFF file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'TGA file'
+05:48:53 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "failures": [],
+  "new_item_count": 347,
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 389,
+    "unconnected": 372
+  }
+}
+{
+  "status": "PASS",
+  "failures": [],
+  "new_routing_by_layer": {
+    "B.Cu": {
+      "tracks": 151,
+      "vias": 0,
+      "length_mm": 166.902133
+    },
+    "F.Cu": {
+      "tracks": 83,
+      "vias": 0,
+      "length_mm": 85.169328
+    },
+    "Signals L3": {
+      "tracks": 76,
+      "vias": 0,
+      "length_mm": 162.517168
+    },
+    "through": {
+      "tracks": 0,
+      "vias": 37,
+      "length_mm": 0.0
+    }
+  },
+  "baseline_drc": {
+    "errors": 33,
+    "warnings": 395,
+    "unconnected": 433
+  },
+  "candidate_drc": {
+    "errors": 33,
+    "warnings": 389,
+    "unconnected": 372
+  }
+}

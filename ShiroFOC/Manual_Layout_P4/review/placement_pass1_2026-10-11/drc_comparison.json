@@ -1,0 +1,27 @@
+{
+  "baseline": {
+    "errors": 64,
+    "warnings": 331,
+    "unconnected_items": 456
+  },
+  "after": {
+    "errors": 33,
+    "warnings": 401,
+    "unconnected_items": 444
+  },
+  "new_error_count": 0,
+  "new_warning_types": {
+    "track_dangling": 14,
+    "via_dangling": 2,
+    "silk_edge_clearance": 2,
+    "text_height": 3,
+    "silk_over_copper": 6,
+    "silk_overlap": 66
+  },
+  "remaining_error_types": {
+    "clearance": 22,
+    "courtyards_overlap": 2,
+    "copper_edge_clearance": 9
+  },
+  "comparison": "type plus sorted item UUIDs against native project-aware refilled baseline"
+}

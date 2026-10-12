@@ -268,9 +268,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ShiroFOCLib:AMASS_MR60PW_M"
+		(symbol "ShiroFOCLib:DirectWire_Phase_3"
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "J"
 				(at -11.43 -1.2701 0)
@@ -281,7 +281,7 @@
 					(justify right)
 				)
 			)
-			(property "Value" "MR60PW-M"
+			(property "Value" "Motor phases - solder wires"
 				(at -11.43 1.2699 0)
 				(effects
 					(font
@@ -290,7 +290,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "ShiroFOCLib:AMASS_MR60PW-M_1x03_P5.50mm_Horizontal"
+			(property "Footprint" "ShiroFOCLib:WireSolder_Phase_1x03_P6.35mm_D2.90mm_Pad4.10mm"
 				(at -23.114 22.86 0)
 				(effects
 					(font
@@ -299,7 +299,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.china-amass.com/public/upload/20240530/b96cfb0ffabb422135a2a15093576222.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -308,7 +308,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "AMASS MR60PW-M horizontal male 3-pole motor connector; project pin assignment 1=U, 2=V, 3=W"
+			(property "Description" "Direct-solder plated wire terminals; no fitted connector"
 				(at 0 -11.938 0)
 				(effects
 					(font
@@ -317,7 +317,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "AMASS"
+			(property "Manufacturer" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -326,7 +326,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MR60PW-M"
+			(property "MPN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -335,7 +335,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "Horizontal through-hole, 3 contacts, 5.50 mm pitch"
+			(property "Package" "Plated wire holes; 2.90 mm drill; 6.35 mm pitch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -344,7 +344,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMASS_MR60PW_M_1_1"
+			(symbol "DirectWire_Phase_3_1_1"
 				(rectangle
 					(start -10.16 10.16)
 					(end 10.16 -10.16)
@@ -7745,12 +7745,12 @@
 		)
 	)
 	(symbol
-		(lib_id "ShiroFOCLib:AMASS_MR60PW_M")
+		(lib_id "ShiroFOCLib:DirectWire_Phase_3")
 		(at 257.81 123.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b3b725-1525-4bb1-ad21-698fe6f415d6")
@@ -7762,7 +7762,7 @@
 				)
 			)
 		)
-		(property "Value" "MR60PW-M"
+		(property "Value" "Motor phases - solder wires"
 			(at 257.81 110.49 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ShiroFOCLib:AMASS_MR60PW-M_1x03_P5.50mm_Horizontal"
+		(property "Footprint" "ShiroFOCLib:WireSolder_Phase_1x03_P6.35mm_D2.90mm_Pad4.10mm"
 			(at 280.924 100.33 0)
 			(effects
 				(font
@@ -7779,7 +7779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.china-amass.com/public/upload/20240530/b96cfb0ffabb422135a2a15093576222.pdf"
+		(property "Datasheet" ""
 			(at 257.81 123.19 0)
 			(effects
 				(font
@@ -7788,7 +7788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "AMASS MR60PW-M horizontal male 3-pole motor connector; project pin assignment 1=U, 2=V, 3=W"
+		(property "Description" "Direct-solder plated wire terminals; no fitted connector"
 			(at 257.81 135.128 0)
 			(effects
 				(font
@@ -7797,7 +7797,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MR60PW-M"
+		(property "MPN" ""
 			(at 280.924 100.33 0)
 			(effects
 				(font
@@ -7806,7 +7806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "AMASS"
+		(property "Manufacturer" ""
 			(at 280.924 100.33 0)
 			(effects
 				(font
@@ -7815,7 +7815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "Horizontal through-hole, 3 contacts, 5.50 mm pitch"
+		(property "Package" "Plated wire holes; 2.90 mm drill; 6.35 mm pitch"
 			(at 257.81 123.19 0)
 			(effects
 				(font

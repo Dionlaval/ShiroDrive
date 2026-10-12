@@ -1,0 +1,40 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/power_mux_feed/ShiroFOC_Manual.kicad_pcb",
+  "width_mm": 0.1524,
+  "via_diameter_mm": 0.5,
+  "via_drill_mm": 0.3,
+  "drill_web_mm": 0.45,
+  "layers": [
+    0,
+    2,
+    6,
+    8
+  ],
+  "connections": [
+    {
+      "net": "VBUS_MUX_IN",
+      "source": "28eccf97-0814-4080-8a81-e945a3557112",
+      "target": "566f8085-ac84-48bb-8faf-32cd5be81e37",
+      "source_ref": "U602",
+      "source_pin": "14",
+      "target_ref": "R106",
+      "target_pin": "2",
+      "distance_mm": 4.777515012012103,
+      "length_mm": 5.986700935788386,
+      "vias": 2,
+      "path_points": 223,
+      "rejected": false,
+      "new_items": [
+        "10f0da6a-335f-44e8-891c-55b571271b2d",
+        "81df5dd7-a264-45fb-a1c0-4324677bb1c4",
+        "c1931330-fc0e-4bc4-9016-f5b6dc9ce585",
+        "dca8fdc9-cabe-4721-b6d8-a9b9949bf9e8",
+        "ba146db0-782e-43a0-9037-4117b4cc8d5a",
+        "7b39548b-7cf8-4850-8d61-86d3622ec3f8",
+        "e0109d1f-8234-4005-8b6c-5c357de9189c",
+        "e1b1d45b-1f60-465f-998d-a324a3297b63"
+      ],
+      "elapsed_seconds": 6.453110218048096
+    }
+  ]
+}

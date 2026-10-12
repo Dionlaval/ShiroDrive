@@ -1,0 +1,247 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/power_fed/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "342cde3957200cf6bb7f071025db8b6d668d6bd7e5e1f8d0e0f22d913e35ea9a",
+  "destination": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/power_extended/ShiroFOC_Manual.kicad_pcb",
+  "groups": [
+    {
+      "group_id": "power_R801_1",
+      "kind": "pad_ground_stitch",
+      "pad": "R801.1",
+      "pad_uuid": "6a78e03c-1b34-4276-8fb5-d3f4f2a8f166",
+      "net": "3V3",
+      "layer": "B.Cu",
+      "start_mm": [
+        -17.580002,
+        10.694999
+      ],
+      "end_mm": [
+        -16.030002,
+        12.244999
+      ],
+      "stub_length_mm": 2.192031,
+      "added_uuids": [
+        "c7b2030f-046a-4c97-ad11-4cea7a9c5ae5",
+        "0a42a7e8-e87d-4d9d-b998-be6b67c5a0b2"
+      ],
+      "new_items": [
+        "c7b2030f-046a-4c97-ad11-4cea7a9c5ae5",
+        "0a42a7e8-e87d-4d9d-b998-be6b67c5a0b2"
+      ],
+      "added_via_uuid": "c7b2030f-046a-4c97-ad11-4cea7a9c5ae5",
+      "reused_via_uuid": null,
+      "track_widths_mm": [
+        0.254
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "pad": "U204.5",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C213.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C301.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C302.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C307.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C503.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C601.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C602.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C603.1",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "C605.1",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "C701.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C702.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C801.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C802.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C901.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C902.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C903.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "C904.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U4.64",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U601.11",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U601.12",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U701.5",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U701.8",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U701.12",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.6",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U901.7",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U801.3",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U801.5",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U602.16",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U603.8",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "U502.6",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R310.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R511.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R308.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R715.1",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "R303.1",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "R702.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R701.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R703.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R604.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "D505.2",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R301.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R805.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R305.1",
+      "reason": "no legal <=3.0 mm local plane stitch"
+    },
+    {
+      "pad": "R901.1",
+      "reason": "already reaches existing GND plane"
+    },
+    {
+      "pad": "R309.1",
+      "reason": "already reaches existing GND plane"
+    }
+  ],
+  "signal_returns": null,
+  "added_counts": {
+    "PCB_VIA": 1,
+    "PCB_TRACK": 1
+  },
+  "checks": {
+    "native_effective_shapes": true,
+    "all_enabled_copper_layers_for_vias": true,
+    "min_default_clearance_mm": 0.2,
+    "min_power_clearance_mm": 0.5,
+    "min_hole_web_mm": 0.45,
+    "min_copper_edge_mm": 0.5,
+    "max_stub_length_mm": 3.0,
+    "no_new_via_in_pad": true,
+    "plane_refill_and_native_drc_required": true
+  }
+}

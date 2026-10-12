@@ -1,0 +1,1380 @@
+PDF PAGE 1
+CSD88599Q5DC 60V Half-Bridge NexFET™ Power Block
+1 Features
+• Half-bridge power block
+• High-density SON 5mm × 6mm footprint
+• Low RDS(ON) for minimized conduction Losses
+– 3.0W PLoss at 30A
+• DualCool™ thermally Enhanced Package
+• Ultra-low-inductance package
+• RoHS compliant
+• Halogen free
+• Lead-free terminal plating
+2 Applications
+• Three-phase bridge for brushless DC motor control
+• Up to 12s battery power tools
+• Other half and full bridge topologies
+Copyright © 2017, Texas Instruments Incorporated
+GH
+SH
+GL
+PGND
+VSW
+VIN
+Power Block Schematic
+3 Description
+The CSD88599Q5DC 60V power block is an 
+optimized design for high-current motor control 
+applications, such as handheld, cordless garden and 
+power tools. This device utilizes TI's stacked die 
+technology in order to minimize parasitic inductances 
+while offering a complete half bridge in a space 
+saving thermally enhanced DualCool™ 5mm × 6mm 
+package. With an exposed metal top, this power block 
+device allows for simple heat sink application to draw 
+heat out through the top of the package and away 
+from the PCB, for superior thermal performance at 
+the higher currents demanded by many motor control 
+applications.
+GH
+SH
+VSW
+GL
+PGND
+VIN
+NC
+Bottom View
+PGND
+Top View
+Device Information
+DEVICE QTY MEDIA PACKAGE SHIP
+CSD88599Q5DC 2500 13 Inch Reel SON
+5.00mm × 6.00mm
+Plastic Package
+Tape 
+and 
+ReelCSD88599Q5DCT 250 7 Inch Reel
+DRV832X
+ Gate Driver
+VIN
+CSD88599
+CSD88599
+CSD88599 Motor
+VM
+GH_A
+GL_A
+GH_B
+GL_B
+GH_C
+GL_C
+Copyright © 2017, Texas Instruments Incorporated
+Typical Circuit
+RMS Phase Current (A)
+Power Loss (W)
+0 5 10 15 20 25 30 35 40
+0
+1
+2
+3
+4
+5
+6
+D000
+VIN = 36 V
+VDD = 10 V
+D.C. = 50%
+L = 480 PH
+fSW = 20 kHz
+TA = 25qC
+Power Loss vs Output Current
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, 
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+
+PDF PAGE 2
+Table of Contents
+1 Features............................................................................1
+2 Applications.....................................................................1
+3 Description.......................................................................1
+4 Specifications.................................................................. 3
+4.1 Absolute Maximum Ratings........................................ 3
+4.2 Recommended Operating Conditions.........................3
+4.3 Power Block Performance.......................................... 3
+4.4 Thermal Information....................................................3
+4.5 Electrical Characteristics.............................................4
+4.6 Typical Power Block Device Characteristics...............5
+4.7 Typical Power Block MOSFET Characteristics...........7
+5 Application and Implementation....................................9
+5.1 Application Information............................................... 9
+5.2 Brushless DC Motor With Trapezoidal Control......... 10
+5.3 Power Loss Curves...................................................12
+5.4 Safe Operating Area (SOA) Curve............................13
+5.5 Normalized Power Loss Curves................................13
+5.6 Design Example – Regulate Current to Maintain 
+Safe Operation............................................................ 13
+5.7 Design Example – Regulate Board and Case 
+Temperature to Maintain Safe Operation.................... 14
+5.8 Layout....................................................................... 15
+6 Device and Documentation Support............................18
+6.1 Receiving Notification of Documentation Updates....18
+6.2 Support Resources................................................... 18
+6.3 Trademarks...............................................................18
+6.4 Electrostatic Discharge Caution................................18
+6.5 Glossary....................................................................18
+7 Revision History............................................................ 18
+8 Mechanical, Packaging, and Orderable Information..19
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+ www.ti.com
+2 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 3
+4 Specifications
+4.1 Absolute Maximum Ratings
+TJ = 25°C (unless otherwise noted)(1)
+PARAMETER CONDITIONS MIN MAX UNIT
+Voltage
+VIN to PGND –0.8 60
+V
+VSW to PGND –0.3 60
+GH to SH –20 20
+GL to PGND –20 20
+Pulsed current rating, IDM (2) 400 A
+Power dissipation, PD 12 W
+Avalanche energy, EAS
+High-side FET, ID = 95A, L = 0.1mH 448
+mJ
+Low-side FET, ID = 95A, L = 0.1mH 448
+Operating junction temperature, TJ –55 150 °C
+Storage temperature, Tstg –55 150 °C
+(1) Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress ratings 
+only, and functional operation of the device at these or any other conditions beyond those indicated in the Recommended Operating 
+Conditions is not implied. Exposure to absolute-maximum-rated conditions for extended periods may affect device reliability.
+(2) Single FET conduction, max RθJC = 1.1°C/W, pulse duration ≤ 100μs, single pulse.
+4.2 Recommended Operating Conditions
+TJ = 25°C (unless otherwise noted)
+PARAMETER CONDITIONS MIN MAX UNIT
+VDD Gate drive voltage 4.5 16 V
+VIN Input supply voltage(1) 54 V
+ƒSW Switching frequency CBST = 0.1 µF (min) 5 50 kHz
+IOUT RMS motor winding current 40 A
+TJ Operating temperature 125 °C
+(1) Up to 42V input use one capacitor per phase, MLCC 10nF, 100V, X7S, 0402, PN: C1005X7S2A103K050BB from VIN to GND return. 
+Between 42V to 54V input operation, add RC switch-node snubber as described in the Section 5.8.1.1 section of this data sheet.
+4.3 Power Block Performance
+TJ = 25°C (unless otherwise noted)
+PARAMETER CONDITIONS MIN TYP MAX UNIT
+PLOSS Power loss(1)
+VIN = 36V, VDD = 10V,
+IOUT = 30A, ƒSW = 20kHz,
+TJ = 25°C, duty cycle = 50%,
+L = 480µH
+3.0 W
+PLOSS Power loss
+VIN = 36V, VDD = 10V,
+IOUT = 30A, ƒSW = 20kHz,
+TJ = 125°C, duty cycle = 50%,
+L = 480µH
+3.4 W
+(1) Measurement made with eight 10µF 50V ±10% X5R (TDK C3225X5R1H106K250AB or equivalent) ceramic capacitors placed across 
+VIN to PGND pins and using UCC27210DDAR 100V, 4A driver IC.
+4.4 Thermal Information
+TJ = 25°C (unless otherwise stated)
+THERMAL METRIC MIN TYP MAX UNIT
+RθJA
+Junction-to-ambient thermal resistance (min Cu)(2) 125
+°C/W
+Junction-to-ambient thermal resistance (max Cu)(2) (1) 50
+www.ti.com
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 3
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 4
+4.4 Thermal Information (continued)
+TJ = 25°C (unless otherwise stated)
+THERMAL METRIC MIN TYP MAX UNIT
+RθJC
+Junction-to-case thermal resistance (top of package)(2) 2.1
+°C/W
+Junction-to-case thermal resistance (VIN pin)(2) 1.1
+(1) Device mounted on FR4 material with 1in2 (6.45cm2) Cu.
+(2) RθJC is determined with the device mounted on a 1in2 (6.45cm2), 2oz (0.071mm) thick Cu pad on a 1.5in × 1.5in
+(3.81cm × 3.81cm), 0.06in (1.52mm) thick FR4 board. RθJC is specified by design while RθJA is determined by the user’s board design.
+4.5 Electrical Characteristics
+TJ = 25°C (unless otherwise stated)
+PARAMETER TEST CONDITIONS MIN TYP MAX UNIT
+STATIC CHARACTERISTICS
+BVDSS Drain-to-source voltage VGS = 0V, IDS = 250µA 60 V
+IDSS Drain-to-source leakage current VGS = 0V, VDS = 48V 1 µA
+IGSS Gate-to-source leakage current VDS = 0V, VGS = 20V 100 nA
+VGS(th) Gate-to-source threshold voltage VDS = VGS, IDS = 250µA 1.4 2.0 2.5 V
+RDS(on) Drain-to-source on-resistance
+VGS = 4.5V, IDS = 30A 2.5 3.3
+mΩ
+VGS = 10V, IDS = 30A 1.7 2.1
+gfs Transconductance VDS = 6V, IDS = 30A 130 S
+DYNAMIC CHARACTERISTICS
+CISS Input capacitance
+VGS = 0V, VDS = 30V,
+ƒ = 1MHz
+3720 4840 pF
+COSS Output capacitance 670 870 pF
+CRSS Reverse transfer capacitance 12 16 pF
+RG Series gate resistance 0.9 1.8 Ω
+Qg Gate charge total (4.5 V)
+VDS = 30V,
+IDS = 30A
+21 27 nC
+Qg Gate charge total (10 V) 43 56 nC
+Qgd Gate charge gate-to-drain 7.0 nC
+Qgs Gate charge gate-to-source 10.1 nC
+Qg(th) Gate charge at Vth 6.3 nC
+QOSS Output charge VDS = 30V, VGS = 0V 100 nC
+td(on) Turnon delay time
+VDS = 30V, VGS = 10V,
+IDS = 30A, RG = 0Ω
+9 ns
+tr Rise time 20 ns
+td(off) Turnoff delay time 23 ns
+tf Fall time 3 ns
+DIODE CHARACTERISTICS
+VSD Diode forward voltage IDS = 30A, VGS = 0V 0.8 1.0 V
+Qrr Reverse recovery charge VDS = 30V, IF = 30A,
+di/dt = 300A/µs
+172 nC
+trr Reverse recovery time 36 ns
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+ www.ti.com
+4 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 5
+Max RθJA = 50°C/W when 
+mounted on 1in2 (6.45cm2) 
+of 2oz (0.071mm) thick Cu.
+Max RθJA = 125°C/W when 
+mounted on minimum pad 
+area of 2oz (0.071mm) thick 
+Cu.
+4.6 Typical Power Block Device Characteristics
+The typical power block system characteristic curves ( Figure 4-1  through Figure 4-6 ) are based on 
+measurements made on a PCB design with dimensions of 4in (W) × 3.5in (L) × 0.062in (H) and 6 copper layers 
+of 2oz copper thickness. See Section 5 section for detailed explanation. TJ = 125°C, unless stated otherwise.
+Output Current (A)
+Power Loss (W)
+0 5 10 15 20 25 30 35 40
+0
+1
+2
+3
+4
+5
+6
+7
+8
+D001
+Typical
+Max
+VIN = 36V VDD = 10V D.C. = 50%
+ƒSW = 20kHz L = 480µH
+Figure 4-1. Power Loss vs Output Current
+Junction Temperature (qC)
+Power Loss, Normalized
+-50 -25 0 25 50 75 100 125 150
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+1.2
+D002
+VIN = 36V VDD = 10V D.C. = 50%
+ƒSW = 20kHz L = 480µH IOUT = 40 A
+Figure 4-2. Power Loss vs Temperature
+Board Temperature (qC)
+Top Case Temperature (qC)
+Output Current (A)
+100
+100
+104
+104
+108
+108
+112
+112
+116
+116
+120
+120
+124
+124
+128
+128
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+D005
+TX
+VIN = 36V VDD = 10V D.C. = 50%
+ƒSW = 20kHz L = 480µH
+Figure 4-3. Typical Safe Operating Area
+Switching Frequency (kHz)
+Power Loss, Normalized
+SOA Temperature Adj. (qC)
+5 10 15 20 25 30 35 40 45 50
+0.8 -1.4
+0.9 -0.7
+1 0.0
+1.1 0.7
+1.2 1.4
+1.3 2.1
+1.4 2.7
+D006
+VIN = 36V VDD = 10V IOUT = 40A
+L = 480µH D.C. = 50%
+Figure 4-4. Normalized Power Loss vs Switching 
+Frequency
+www.ti.com
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 5
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 6
+Input Voltage (V)
+Power Loss, Normalized
+SOA Temperature Adj. (qC)
+15 20 25 30 35 40 45 50
+0.9 -0.7
+0.925 -0.5
+0.95 -0.3
+0.975 -0.2
+1 0.0
+1.025 0.2
+1.05 0.3
+1.075 0.5
+D007
+D.C. = 50% VDD = 10V IOUT = 40A
+ƒSW = 20kHz L = 480µH
+Figure 4-5. Normalized Power Loss vs Input 
+Voltage
+Duty Cycle (%)
+Power Loss, Normalized
+SOA Temperature Adj. (qC)
+10 20 30 40 50 60 70 80 90 100
+0.95 -0.3
+1 0.0
+1.05 0.3
+1.1 0.7
+1.15 1.0
+1.2 1.4
+D009
+VIN = 36V VDD = 10V
+ƒSW = 20kHz L = 480µH
+Figure 4-6. Normalized Power Loss vs Duty Cycle
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+ www.ti.com
+6 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 7
+4.7 Typical Power Block MOSFET Characteristics
+TJ = 25°C, unless stated otherwise.
+Duration (s)
+Single Pulse Current (A)
+1E-5 0.0001 0.001 0.01 0.1 1
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+Max RθJA = 125°C/W
+Figure 4-7. Single Pulse Current vs Pulse Duration
+VDS - Drain-to-Source Voltage (V)
+IDS - Drain-to-Source Current (A)
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+D010
+VGS = 4.5 V
+VGS = 8 V
+VGS = 10 V
+Figure 4-8. MOSFET Saturation Characteristics
+VGS - Gate-to-Source Voltage (V)
+IDS - Drain-to-Source Current (A)
+0 0.5 1 1.5 2 2.5 3 3.5
+0.001
+0.01
+0.1
+1
+10
+100
+D012
+TC = 125° C
+TC = 25° C
+TC = -55° C
+VDS = 5V
+Figure 4-9. MOSFET Transfer Characteristics
+Qg - Gate Charge (nC)
+VGS - Gate-to-Source Voltage (V)
+0 5 10 15 20 25 30 35 40 45 50
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+D014
+ID = 30A VDS = 30V
+Figure 4-10. MOSFET Gate Charge
+VDS - Drain-to-Source Voltage (V)
+C - Capacitance (pF)
+0 10 20 30 40 50 60
+1
+10
+100
+1000
+10000
+D016
+Ciss = Cgd + Cgs
+Coss = Cds + Cgd
+Crss = Cgd
+Figure 4-11. MOSFET Capacitance
+TC - Case Temperature (° C)
+VGS(th) - Threshold Voltage (V)
+-75 -50 -25 0 25 50 75 100 125 150 175
+0.95
+1.15
+1.35
+1.55
+1.75
+1.95
+2.15
+2.35
+2.55
+D018 ID = 250µA
+Figure 4-12. Threshold Voltage vs Temperature
+www.ti.com
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 7
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 8
+VGS - Gate-to-Source Voltage (V)
+RDS(on) - On-State Resistance (m:)
+0 2 4 6 8 10 12 14 16 18 20
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+D020
+TC = 25° C
+TC = 125° C
+ID = 30A
+Figure 4-13. MOSFET RDS(on) vs VGS 
+TC - Case Temperature (° C)
+Normalized On-State Resistance
+-75 -50 -25 0 25 50 75 100 125 150 175
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+1.8
+2
+D022
+VGS = 4.5 V
+VGS = 10 V
+ID = 30A VDS = 30V
+Figure 4-14. MOSFET Normalized RDS(on) vs 
+Temperature
+VSD - Source-to-Drain Voltage (V)
+ISD - Source-to-Drain Current (A)
+0 0.2 0.4 0.6 0.8 1
+0.0001
+0.001
+0.01
+0.1
+1
+10
+100
+D024
+TC = 25° C
+TC = 125° C
+Figure 4-15. MOSFET Body Diode Forward Voltage
+TAV - Time in Avalanche (ms)
+IAV - Peak Avalanche Current (A)
+0.01 0.1 1
+1
+10
+100
+1000
+D026
+TC = 25q C
+TC = 125q C Figure 4-16. MOSFET Single Pulse Unclamped 
+Inductive Switching
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+ www.ti.com
+8 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 9
+5 Application and Implementation
+Note
+Information in the following Application section is not part of the TI component specification, and 
+TI does not warrant its accuracy or completeness. TI customers are responsible for determining 
+suitability of components selection for their designs. Customers should validate and test their design 
+implementation to confirm system functionality.
+5.1 Application Information
+Historically, battery powered tools have favored brushed DC configurations to spin their primary motors, but 
+more recently, the advantages offered by brushless DC operation (BLDC) operation have brought about the 
+advent of popular designs that favor the latter. Those advantages include, but are not limited to higher efficiency 
+and therefore longer battery life, superior reliability, greater peak torque capability, and smooth operation over 
+a wider range of speeds. However, BLDC designs put increased demand for higher power density and current 
+handling capabilities on the power stage responsible for driving the motor.
+The CSD88599Q5DC is part of TI’s power block product family and is a highly optimized product designed 
+explicitly for the purpose driving higher current DC motors in power and gardening tools. It incorporates TI’s 
+latest generation silicon which has been optimized for low resistance to minimize conduction losses and offer 
+excellent thermal performance. The power block utilizes TI’s stacked die technology to offer one complete half 
+bridge vertically integrated into a single 5mm × 6mm package with a DualCool exposed metal case. This feature 
+allows the designer to apply a heatsink to the top of the package and pull heat away from the PCB, thus 
+maximizing the power density while reducing the power stage footprint by up to 50%.
+www.ti.com
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 9
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 10
+5.2 Brushless DC Motor With Trapezoidal Control
+The trapezoidal commutation control is simple and has fewer switching losses compared to sinusoidal control.
+Copyright © 2017, Texas Instruments Incorporated
+GH1
+GH2
+GL1
+SH1
+GL2
+SH2
+SH3
+GH3
+Gate Driver
+Three Phase
+GL3VCS
+0
+Rcs1
+SPA
+0
+Rcs3
+SPCSPA
+SPC
+SPB
+Q1
+0
+Q4
+Vin
+GH1
+GL1
+SH1
+PGND
+Vin
+Vsw1
+0
+Q2
+Q5
+SH2
+GH2
+Vin
+GL2
+Vsw2
+PGND
+Q3
+Q6
+GH3
+GL3
+SH3
+Vsw3
+PGND
+VinPB3PB2PB1
+DRV8323RX
+Rcs2
+N
+SPEED SET
+TORQUE SET
+MICROCONTROLLER
+SPB
+PWM1
+Sensors
+HallU
+PWM2
+V
+PWM4
+PWM3
+WS
+PWM6
+PWM5
+B
+A
+C
+C
+B
+A
+Inputs
+Hall
+ 
+Figure 5-1. Functional Block Diagram
+The block diagram shown in Figure 5-1 offers a simple instruction of what is required to drive a BLDC motor: one 
+microcontroller, one three-phase driver IC, three power blocks (historically six power MOSFETs) and three Hall 
+effect sensors. The microcontroller responsible for block commutation must always know the rotor orientation or 
+its position relative to the stator coils. This is easy achieved with a brushed DC motor due to the fixed geometry 
+and position of the rotor windings, shaft and commutator.
+A three-phase BLDC motor requires three Hall effect sensors or a rotary encoder to detect the rotor position 
+in relation to stator armature windings. With input from these three Hall effect sensors output signals, the 
+microcontroller can determine the proper commutation sequence. The three Hall sensors named A, B, and C 
+are mounted on the stator core at 120° intervals and the stator phase windings are implemented in a star 
+configuration. For every 60° of motor rotation, one Hall sensor changes its state. Based on the Hall sensors' 
+output code, at the end of each block commutation interval the ampere conductors are commutated to the next 
+position. There are 6 steps required to complete a full electrical cycle. The number of block commutation cycles 
+to complete a full mechanical rotation is determined by the number of rotor pole pairs.
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+ www.ti.com
+10 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 11
+0
+0
+1 1 0 1 0 0 1 0 1 0 1 1 0 1 0 c o d e 
+H a l l  0 0 1 
+i _ U 
+0
+i _ W 
+i _ V 
+ 
+Figure 5-2. Winding Current Waveforms on a BLDC Motor
+Figure 5-2 above shows the three phase motor winding currents i_U, i_V, and i_W when running at 100% duty 
+cycle.
+Trapezoidal commutation control offers the following advantages:
+• Only two windings in series carry the phase winding current at any time while the third winding is open.
+• Only one current sensor is necessary for all three windings U, V, and W.
+• The position of the current sensor allows the use of low-cost shunt resistors.
+However, trapezoidal commutation control has the disadvantage of commutation torque ripple. The current 
+sense on a three-phase inverter can be configured to use a single-shunt or three different sense resistors. For 
+cost sensitive applications targeting sensorless control, the three Hall effect sensors can be replaced with BEMF 
+voltage feedback dividers.
+To obtain faster motor rotations and higher revolutions per minute (RPM), shorter periods and higher V IN voltage 
+are necessary. Contrarily, to reduce the rotational speed of the motor, it is necessary to lower the RMS voltage 
+applied across stator windings. This can easily be easily achieved by modulating the duty cycle, while maintain 
+a constant switching frequency. Frequency for the three-phase inverter chosen is usually low between 10kHz to 
+50kHz to reduce winding losses and to avoid audible noise.
+www.ti.com
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 11
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 12
+5.3 Power Loss Curves
+CSD88599Q5DC was designed to operate up to 10-cell Li-Ion battery voltage applications ranging from 30V 
+to 42V, typical 36V. For 11 and 12s, input voltages between 42V to 54V, RC snubbers are required for each 
+switch-node U, V, and W. To reduce ringing, refer to the Section 5.8.1.1 section. In an effort to simplify the design 
+process, Texas Instruments has provided measured power loss performance curves over a variety of typical 
+conditions.
+Figure 4-1  plots the CSD88599Q5DC power loss as a function of load current. The measured power loss 
+includes both input conversion loss and gate drive loss.
+Equation 1 is used to generate the power loss curve:
+Power loss (W) = (VIN × IIN_SHUNT) + (VDD × IDD_SHUNT) – (VSW_AVG × IOUT) (1)
+The power loss measurements were made on the circuit shown in Figure 5-3 . Power block devices for legs 
+U and V, PB1 and PB2 were disabled by shorting the CSD88599Q5DC high-side and low-side FETs' gate-to-
+source terminals. Current shunt Iin_SHUNT provides input current and Idd_SHUNT provides driver supply 
+current measurements. The winding current is measured from the DC load. An averaging circuit provides switch 
+node W equivalent RMS voltage.
+Copyright © 2017, Texas Instruments Incorporated
+U
+GH1
+Vin
+GL1
+SH1
+Vsw1
+PGND
+SH2
+GH2
+Vin
+GL2
+Vsw2
+PGND
+W
+GH3
+GL3
+SH3
+Vsw3
+PGND
+VinPB3PB2PB1
+DCR
+0
+Vin
+0 0 0
+0
+Lout
+00 0
+PWM AVERAGING
+CIRCUIT
+GATE
+DRIVER
+U1A
+1 2
+Vdd
+0
+V
+Iout
+Vsw_AVG
+Iin_SHUNT
+Cin2
+0
+Cin1
+0
+Idd_SHUNT
+HI
+AVERAGE
+LI
+SWITCH NODE 
+0
+LOAD
+Vdd
+0
+ 
+Figure 5-3. Power Loss Test Circuit
+The RMS current on the CSD88599Q5DC device depends on the motor winding current. For trapezoidal control, 
+the MOSFET RMS current is calculated using Equation 2.
+IRMS = IOUT × √2 (2)
+Taking into consideration system tolerances with the current measurement scheme, the inverter design needs to 
+withstand a 20% overload current.
+Table 5-1. RMS and Overload Current Calculations
+Winding RMS Current (A) CSD88599Q5DC IRMS (A) Overload 20% × IRMS (A)
+20 28 34
+30 42 51
+40 56 68
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+ www.ti.com
+12 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 13
+5.4 Safe Operating Area (SOA) Curve
+The SOA curve in Figure 4-3  provides guidance on the temperature boundaries within an operating system 
+by incorporating the thermal resistance and system power loss. This curve outlines the board and case 
+temperatures required for a given load current. The area under the curve dictates the safe operating area. 
+This curve is based on measurements made on a PCB design with dimensions of 4in (W) × 3.5in (L) × 0.062in 
+(H) and 6 copper layers of 2oz copper thickness.
+5.5 Normalized Power Loss Curves
+The normalized curves in the CSD88599Q5DC data sheet provide guidance on the power loss and SOA 
+adjustments based on application specific needs. These curves show how the power loss and SOA temperature 
+boundaries will adjust for different operation conditions. The primary Y-axis is the normalized change in power 
+loss while the secondary Y-axis is the change in system temperature required in order to comply with the SOA 
+curve. The change in power loss is a multiplier for the typical power loss. The change in SOA temperature is 
+subtracted from the SOA curve.
+5.6 Design Example – Regulate Current to Maintain Safe Operation
+If the case and board temperature of the power block are known, the SOA can be used to determine the 
+maximum allowed current that will maintain operation within the safe operating area of the device. The following 
+procedure outlines how to determine the RMS current limit while maintaining operation within the confines of the 
+SOA, assuming the temperatures of the top of the package and PCB directly underneath the part are known.
+1. Start at the maximum current of the device on the Y-axis and draw a line from this point at the known top 
+case temperature to the known PCB temperature.
+2. Observe where this point intersects the TX line.
+3. At this intersection with the TX line, draw vertical line until you hit the SOA current limit. This intercept is the 
+maximum allowed current at the corresponding power block PCB and case temperatures.
+In the example below, we show how to achieve this for the temperatures T C = 124°C and T B = 120°C. First we 
+draw from 40 A on the Y-axis at 124°C to 120°C on the X-axis. Then, we draw a line up from where this line 
+crosses the T X line to see that this line intercepts the SOA at 34A. Thus we can assume if we are measuring a 
+PCB temperature of 124°C, and a top case temperature of 120°C, the power block can handle 34A RMS, at the 
+normalized conditions. At conditions that differ from those in Figure 4-1, the user may be required to make an 
+SOA temperature adjustment on the TX line, as shown in the next section.
+Figure 5-4. Regulating Current to Maintain Safe Operation
+www.ti.com
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 13
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 14
+5.7 Design Example – Regulate Board and Case Temperature to Maintain Safe Operation
+In the previous example we showed how given the PCB and case temperature, the current of the power block 
+could be limited to ensure operation within the SOA. Conversely, if the current and other application conditions 
+are known, one can determine from the SOA what board or case temperature the user will need to limit their 
+design to. The user can estimate product loss and SOA boundaries by arithmetic means. Though the power loss 
+and SOA curves in this data sheet are taken for a specific set of test conditions, the following procedure outlines 
+the steps the user should take to predict product performance for any set of system conditions.
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+ www.ti.com
+14 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 15
+5.8 Layout
+The two key system-level parameters that can be optimized with proper PCB design are electrical and thermal 
+performance. A proper PCB layout will yield maximum performance in both areas. Below are some tips for how 
+to address each.
+5.8.1 Layout Guidelines
+5.8.1.1 Electrical Performance
+The CSD88599Q5DC power block has the ability to switch at voltage rates greater than 1kV/µs. Special care 
+must be then taken with the PCB layout design and placement of the input capacitors; high-current, high dI/dT 
+switching path; current shunt resistors; and GND return planes. As with any high-power inverter operated in 
+hard switching mode, there will be voltage ringing present on the switch nodes U, V, and W. Switch-node 
+ringing appears mainly at the HS FET turnon commutation with positive winding current direction. The U, V, 
+and W phase connections to the BLDC motor can be usually excluded from the ringing behavior since they 
+are subjected to high-peak currents but low dI/dT slew-rates. However, a compact PCB design with short and 
+low-parasitic loop inductances is critical to achieve low ringing and compliance with EMI specifications.
+For safe and reliable operation of the three-phase inverter, motor phase currents have to be accurately 
+monitored and reported to the system microcontroller. One current sensor needs to be connected on each 
+motor phase winding U, V, and W. This sensing method is best for current sensing as it provides good accuracy 
+over a wide range of duty cycles, motor torque, and winding currents. Using current sensors is recommended 
+because it is less intrusive to the VIN and GND connections.
+Copyright © 2017, Texas Instruments Incorporated
+0 0 0
+0
+V in
+G H 1 
+G L 1 
+S H 1 
+U
+P G N D 
+V i n 
+G H 2 
+S H 2 
+V i n 
+G L 2 
+V
+P G N D 
+G H 3 
+G L 3 
+S H 3 
+P G N D 
+V i n 
+W
+P B 2 P B 1 P B 3 
+0
+R c s
+G N D
+C s1
+R s1
+0
+C s2
+R s2
+0
+C 4 C 6 C 5 
+C s3
+0
+R s3
+V s w V s w V s w 
+ 
+Figure 5-5. Recommended Ringing Reduction Components
+However, for cost sensitive applications, current sensors are generally replaced with current sense resistors.
+• For designs using the 60V three-phase smart gate driver DRV8320SRHBR, current sense resistor RCS can 
+be placed between common source terminals for all 3 power block devices CSD88599Q5DC to PGND and 
+measured using an external current sense amplifier as depicted in Figure 5-5 above.
+• For designs using the 60V three-phase gate driver DRV8323RSRGZT, three current sense resistors RCS1, 
+RCS2 and RCS3 can be used between each CSD88599Q5DC source terminal to GND and measured by the 
+included DRV8323 current sense amplifiers. The three-phase driver IC should be placed as close as possible 
+to the power block gate GL and GH terminals.
+www.ti.com
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 15
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 16
+Breaking the high-current flow path from the source terminals of the power block to GND by introducing the R CS 
+current shunt resistors introduces parasitic PCB inductance. In the event the switch node waveforms exhibits 
+peak ringing that reaches undesirable levels, the ringing can be reduced by using the following ringing reduction 
+components:
+• The use of a high-side gate resistor in series with the GH pin is one effective way to reduce peak ringing. 
+The recommended HS FET gate resistor value will range between 4.7Ω to 10Ω depending on the driver IC 
+output characteristics used in conjunction with the power block device. The low-side FET gate pin GL should 
+connect directly to the driver IC output to avoid any parasitic cdV/dT turnon effect.
+• Low-inductance MLCC caps C4, C5, and C6 can be used across each power block device from VIN 
+to the source terminal PGND. MLCC 10nF, 100V, ±10%, X7S, 0402, PN: C1005X7S2A103K050BB are 
+recommended.
+• Ringing can be reduced via the implementation of RC snubbers from each switch node U, V, and W to GND. 
+Recommended snubber component values are as follows:
+– Snubber resistors Rs1, Rs2, Rs3: 2.21Ω, 1%, 0.125W, 0805, PN: CRCW08052R21FKEA
+– Snubber caps Cs1, Cs2, and Cs3: MLCC 4.7nF, 100V, X7S, 0402, PN: C1005X7S2A472M050BB
+With a switching frequency of 20kHz on the three-phase inverter, the power dissipation on the RC snubber 
+resistor is 80mW per channel. As a result, 0805 package size for resistors Rs1, Rs2, and Rs3 is sufficient.
+5.8.1.2 Thermal Considerations
+The CSD88599Q5DC power block device has the ability to utilize the PCB copper planes as the primary thermal 
+path. As such, the use of thermal vias included in the footprint is an effective way to pull away heat from 
+the device and into the system board. Concerns regarding solder voids and manufacturability issues can be 
+addressed through the use of three basic tactics to minimize the amount of solder attach that will wick down the 
+via barrel.
+• Intentionally space out the vias from one another to avoid a cluster of holes in a given area.
+• Use the smallest drill size allowed by the design. The example in Figure 5-6 uses vias with a 10-mil drill hole 
+and a 16mil solder pad.
+• Tent the opposite side of the via with solder-mask. Ultimately the number and drill size of the thermal vias 
+should align with the end user’s PCB design rules and manufacturing capabilities.
+To take advantage of the DualCool thermally enhanced package, an external heatsink can be applied on top of 
+the power block devices. For low EMI, the heatsink is usually connected to GND through the mounting screws 
+to the PCB. Gap pad insulators with good thermal conductivity should be used between the top of the package 
+and the heatsink. The Bergquist Sil-Pad 980 is recommended which provides excellent thermal impedance of 
+1.07°C/W @ 50psi.
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+ www.ti.com
+16 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 17
+5.8.2 Layout Example
+ 
+Figure 5-6. Top Layer
+ Figure 5-7. Bottom Layer
+The placement of the input capacitors C4, C5, and C6 relative to V IN and PGND pins of CSD88599Q5DC device 
+should have the highest priority during the component placement routine. It is critical to minimize the V IN to GND 
+parasitic loop inductance. A shunt resistor R21 is used between all three U4, U5, and U6 power block source 
+terminals to the input supply GND return pin.
+Input RMS current filtering is achieved via two bulk caps C17 and C18. Based on the RMS current ratings, the 
+recommended part number for input bulk is CAP AL, 330µF, 63V, ±20%, PN: EMVA630ADA331MKG5S.
+www.ti.com
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 17
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 18
+6 Device and Documentation Support
+6.1 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on 
+Subscribe to updates  to register and receive a weekly digest of any product information that has changed. For 
+change details, review the revision history included in any revised document.
+6.2 Support Resources
+TI E2E ™ support forums  are an engineer's go-to source for fast, verified answers and design help — straight 
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do 
+not necessarily reflect TI's views; see TI's Terms of Use.
+6.3 Trademarks
+NexFET™ and DualCool™ are trademarks of TI.
+TI E2E™ is a trademark of Texas Instruments.
+All trademarks are the property of their respective owners.
+6.4 Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled 
+with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may 
+be more susceptible to damage because very small parametric changes could cause the device not to meet its published 
+specifications.
+6.5 Glossary
+TI Glossary This glossary lists and explains terms, acronyms, and definitions.
+7 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision C (April 2018) to Revision D (June 2024) Page
+• Updated the numbering format for tables, figures, and cross-references throughout the document................. 1
+• Added PGND to the Top View pinout diagram................................................................................................... 1
+• Added Pin Configuration Table......................................................................................................................... 19
+Changes from Revision B (January 2018) to Revision C (April 2018) Page
+• Corrected Figure 5-4 to show 40A maximum...................................................................................................13
+Changes from Revision A (May 2017) to Revision B (January 2018) Page
+• Updated the mechanical data...........................................................................................................................19
+Changes from Revision * (April 2017) to Revision A (May 2017) Page
+• Updated Typical Circuit drawing.........................................................................................................................1
+• Changed the copper thickness to 2oz in Typical Power Block Device Characteristics conditions..................... 5
+• Changed the copper thickness to 2oz in Safe Operating Area (SOA) Curve paragraph..................................13
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+ www.ti.com
+18 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 19
+8 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical packaging and orderable information. This information is the most 
+current data available for the designated devices. This data is subject to change without notice and revision of 
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+Table 8-1. Pin Configuration Table
+POSITION PIN NAME DESCRIPTION
+1 GH High Side Gate
+2 SH High Side Gate Return
+3-11 VSW Switch Node
+12-20 PGND Power Ground
+21 NC No Connect
+22 GL Low Side Gate
+23-26 NC No Connect
+27 VIN Input Voltage
+www.ti.com
+CSD88599Q5DC
+SLPS597D – APRIL 2017 – REVISED JUNE 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 19
+Product Folder Links: CSD88599Q5DC
+
+PDF PAGE 20
+PACKAGE OPTION ADDENDUM
+www.ti.com 8-Nov-2025
+PACKAGING INFORMATION
+Orderable part number Status
+(1)
+Material type
+(2)
+Package | Pins Package qty | Carrier RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C) Part marking
+(6)
+CSD88599Q5DC Active Production VSON-CLIP
+(DMM) | 22
+2500 | LARGE T&R ROHS Exempt SN Level-1-260C-UNLIM -55 to 150 88599
+CSD88599Q5DC.B Active Production VSON-CLIP
+(DMM) | 22
+2500 | LARGE T&R ROHS Exempt SN Level-1-260C-UNLIM -55 to 150 88599
+CSD88599Q5DCT Active Production VSON-CLIP
+(DMM) | 22
+250 | SMALL T&R ROHS Exempt SN Level-1-260C-UNLIM -55 to 150 88599
+CSD88599Q5DCT.B Active Production VSON-CLIP
+(DMM) | 22
+250 | SMALL T&R ROHS Exempt SN Level-1-260C-UNLIM -55 to 150 88599
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+Addendum-Page 1
+
+PDF PAGE 21
+PACKAGE OPTION ADDENDUM
+www.ti.com 8-Nov-2025
+ 
+Addendum-Page 2
+
+PDF PAGE 22
+PACKAGE MATERIALS INFORMATION
+  
+www.ti.com 25-Sep-2024
+TAPE AND REEL INFORMATION
+Reel Width (W1)
+REEL DIMENSIONS
+A0B0K0WDimension designed to accommodate the component lengthDimension designed to accommodate the component thicknessOverall width of the carrier tapePitch between successive cavity centersDimension designed to accommodate the component width
+TAPE DIMENSIONSK0 P1B0WA0Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket QuadrantsSprocket HolesQ1Q1Q2Q2Q3Q3Q4Q4User Direction of Feed
+P1ReelDiameter
+ 
+*All dimensions are nominal
+Device Package
+Type
+Package
+Drawing
+Pins SPQ Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+CSD88599Q5DC VSON-
+CLIP
+DMM 22 2500 330.0 15.4 6.3 5.3 1.2 8.0 12.0 Q2
+CSD88599Q5DCT VSON-
+CLIP
+DMM 22 250 178.0 12.4 6.3 5.3 1.2 8.0 12.0 Q2
+Pack Materials-Page 1
+
+PDF PAGE 23
+PACKAGE MATERIALS INFORMATION
+  
+www.ti.com 25-Sep-2024
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W LH
+ 
+*All dimensions are nominal
+Device Package Type Package Drawing Pins SPQ Length (mm) Width (mm) Height (mm)
+CSD88599Q5DC VSON-CLIP DMM 22 2500 333.2 345.9 28.6
+CSD88599Q5DCT VSON-CLIP DMM 22 250 180.0 180.0 79.0
+Pack Materials-Page 2
+
+PDF PAGE 24
+www.ti.com
+PACKAGE OUTLINE
+C
+22X 0.3
+0.2
+5.4 0.1
+22X 0.55
+0.45
+2X
+5
+3.3 0.1
+20X 0.5
+1.05 MAX
+2.284 0.1
+3.329 0.1
+0.05
+0.00
+4X 0.48
+0.38
+B 5.1
+4.9
+A
+6.1
+5.9
+(0.2) TYP
+2X (2) 4X (0.25)
+2X (0.35)
+(1.486)
+(0.701)
+2X (0.3)
+4X (0.175)
+4X (1.9)
+LSON-CLIP - 1.05 mm max heightDMM0022A
+PLASTIC SMALL OUTLINE - NO LEAD
+4222731/B   07/2020
+PIN 1 INDEX AREA
+EXPOSED
+HEAT SLUG
+SEATING PLANE
+0.08 C
+1
+11 12
+22
+(OPTIONAL)
+PIN 1 ID 0.1 C A B
+0.05 C
+EXPOSED
+THERMAL
+PAD
+27 PKG
+SYMM23
+24 25
+26
+NOTES:
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. The package thermal pad must be soldered to the printed circuit board for thermal and mechanical performance.
+4. Tie bar size and position may vary.
+SCALE  2.200
+
+PDF PAGE 25
+www.ti.com
+EXAMPLE BOARD LAYOUT
+2X
+(1.13)
+6X
+(1.32)
+0.05 MIN
+ALL AROUND
+0.05 MAX
+ALL AROUND
+(3.3)
+20X (0.5)
+(4.7)
+22X (0.25)
+22X (0.7)
+(5.4)
+(R0.05) TYP
+( 0.2) VIA
+TYP
+6X (1.4)
+(0.3) TYP
+4X (2.115)
+4X
+(3.013)
+4X (0.43)4X (0.375)
+(R0.05) TYP
+LSON-CLIP - 1.05 mm max heightDMM0022A
+PLASTIC SMALL OUTLINE - NO LEAD
+4222731/B   07/2020
+SYMM
+1
+11 12
+22
+PKG
+LAND PATTERN EXAMPLE
+SCALE:15X
+27
+23
+24 25
+26
+2X
+SOLDER MASK
+METAL UNDER
+2X
+OPENING
+SOLDER MASK
+3 20
+212
+NOTES: (continued)
+ 
+5. This package is designed to be soldered to a thermal pad on the board. For more information, see Texas Instruments literature
+    number SLUA271 (www.ti.com/lit/slua271).
+6. Vias are optional depending on application, refer to device data sheet. If some or all are implemented, recommended via locations are shown.
+SOLDER MASK
+OPENING
+SOLDER MASK
+METAL UNDER
+SOLDER MASK
+DEFINED
+PADS: 3-20
+PAD 27: OPTIONAL
+METALSOLDER MASK
+OPENING SOLDER MASK DETAILS
+NON SOLDER MASK
+DEFINED
+PADS: 1, 2, 21-26
+PAD 27: OPTIONAL
+
+PDF PAGE 26
+www.ti.com
+EXAMPLE STENCIL DESIGN
+22X (0.25)
+22X (0.7)
+20X (0.5)
+8X
+(1.12)
+8X (1.41)
+(4.7)
+(R0.05) TYP
+(0.66)
+TYP
+(1.32)
+TYP
+(0.8) TYP
+(0.3) TYP
+4X (2.115)
+4X
+(3.013)
+4X (0.43)4X (0.375)
+LSON-CLIP - 1.05 mm max heightDMM0022A
+PLASTIC SMALL OUTLINE - NO LEAD
+4222731/B   07/2020
+NOTES: (continued)
+ 
+7. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+ 
+EXPOSED PAD 23
+ 71% PRINTED SOLDER COVERAGE BY AREA UNDER PACKAGE
+SCALE:20X
+SYMM
+1
+11 12
+22
+SYMM
+TYP
+METAL
+23
+24 25
+26
+27
+2X
+SOLDER MASK
+METAL UNDER
+2
+3 20
+21
+
+PDF PAGE 27
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2025, Texas Instruments Incorporated
+Last updated 10/2025

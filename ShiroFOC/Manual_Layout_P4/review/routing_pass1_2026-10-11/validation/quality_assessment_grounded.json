@@ -1,0 +1,56 @@
+{
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass1_2026-10-11/grounded/ShiroFOC_Manual.kicad_pcb",
+  "candidate_sha256": "f3373ae490a2eae4adec55c76ed96165a088774fd3db36fbe5ec601ccb190f1c",
+  "review_scope": "Independent read-only route geometry, ground reference sampling, and front/back preview review",
+  "confidence": "Geometric evidence only; no signal-integrity simulation",
+  "ground_plane_check": {
+    "result": "PASS sampled geometry",
+    "ground_plane_regions": {
+      "GND L2": [
+        1
+      ],
+      "GND L5": [
+        1
+      ]
+    },
+    "new_segments_without_adjacent_ground_reference": 0,
+    "segments_with_single_contiguous_reference_void_at_least_0p75mm": 0,
+    "sample_pitch_mm": 0.05,
+    "limitation": "Per-segment centerline sampling; small antipad gaps are present; connectivity or rise-time behavior is not proven by this check."
+  },
+  "visual_check": {
+    "front_preview": "reviewed",
+    "back_preview": "reviewed",
+    "finding": "Compact local supporting links generally preserve component access and board organization. Existing power stage copper remains in place."
+  },
+  "concerns": [
+    {
+      "severity": "layout improvement",
+      "net": "EXT_FEEDBACK_SELECT",
+      "details": "U4.53 to R306.1 takes 34.25 mm versus 16.79 mm straight-line distance and 3 vias; low-speed control path can be tightened later."
+    },
+    {
+      "severity": "return-path improvement",
+      "nets": [
+        "SPI3_MISO",
+        "Net-(U601-MOSI)",
+        "I2C2_SCL"
+      ],
+      "details": "Back-to-L3 transitions change adjacent reference planes. Nearby ground interconnects remain 10.156, 7.749, and 5.372 mm away respectively. Add local GND stitching if placement/DRC allows.",
+      "evidence": "signal_via_ground_proximity_grounded.json"
+    },
+    {
+      "severity": "known optimization in progress",
+      "nets": [
+        "SPI3_MOSI_MCU",
+        "SPI3_SCK_MCU",
+        "Net-(U601-MISO)"
+      ],
+      "details": "Root/engine already reviewing SPI detours; final candidate must be rechecked after replacement."
+    }
+  ],
+  "evidence": [
+    "quality_grounded.json",
+    "signal_via_ground_proximity_grounded.json"
+  ]
+}

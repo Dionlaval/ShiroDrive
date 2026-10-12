@@ -1,0 +1,75 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+07:41:54 PM: Debug: Adding duplicate image handler for 'PNG file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'JPEG file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'TIFF file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'GIF file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'PNM file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'PCX file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'IFF file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'TGA file'
+07:41:54 PM: Debug: Adding duplicate image handler for 'XPM file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'PNG file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'JPEG file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'TIFF file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'GIF file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'PNM file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'PCX file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'IFF file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'TGA file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'XPM file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'PNG file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'JPEG file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'TIFF file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'GIF file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'PNM file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'PCX file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'IFF file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'Windows icon file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'Windows cursor file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'TGA file'
+07:41:55 PM: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "status": "PASS",
+  "baseline": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_08/ShiroFOC_Manual.kicad_pcb",
+  "baseline_sha256": "50472e0a2f1a7ba792589dc73dc0080b39ec80e8b543991150fb515b0d1c73aa",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/merged_09/ShiroFOC_Manual.kicad_pcb",
+  "candidate_sha256": "86431ac1e0d10aa80f62f596962dc60f32f0cb7b31f864a337ca6ea213c829d7",
+  "accepted_sources": [
+    {
+      "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/support_ground/final/delta.json",
+      "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/validation/support_ground/final/ShiroFOC_Manual.kicad_pcb",
+      "sha256": "f49cc228baa62285d844d8512b3c0f2e86e719e2b63a8e3ea4fbc8ed0461f400"
+    },
+    {
+      "manifest": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/root_escape/c312/delta.json",
+      "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass3_2026-10-11/root_escape/c312/ShiroFOC_Manual.kicad_pcb",
+      "sha256": "024af5c2a51152e9913bd3d4e1aea13eaa32093f793fd10dbb6b029b0896f8d8"
+    }
+  ],
+  "baseline_copper_count": 1526,
+  "candidate_copper_count": 1550,
+  "unchanged_baseline_uuid_count": 1526,
+  "declared_old_uuid_removals": 0,
+  "declared_new_uuid_count": 24,
+  "fields_checked": [
+    "class",
+    "net name",
+    "layer",
+    "layer set",
+    "start/end coordinates",
+    "arc midpoint",
+    "width",
+    "per-layer via diameters",
+    "via drill",
+    "via type",
+    "locked"
+  ],
+  "failures": []
+}

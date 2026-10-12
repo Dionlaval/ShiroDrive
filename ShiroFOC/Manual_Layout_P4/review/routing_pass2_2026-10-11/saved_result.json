@@ -1,0 +1,49 @@
+{
+  "project": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4",
+  "saved_pcb": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/ShiroFOC_Manual.kicad_pcb",
+  "sha256": "aa2f73794ee34d12209cd3c946f5201601ee923cc8112b36ed58a221a39f93a5",
+  "previous_sha256": "0377dac62f42cae4ee8205d58f0a06d141545b332f3cf237d79f053e5bf536ec",
+  "backup": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/before",
+  "counts": {
+    "footprints": 272,
+    "tracks": 1086,
+    "vias": 235
+  },
+  "drc_before": {
+    "errors": 33,
+    "warnings": 388,
+    "unconnected": 337
+  },
+  "drc_after": {
+    "errors": 29,
+    "warnings": 381,
+    "unconnected": 307
+  },
+  "new_tracks": 236,
+  "new_vias": 45,
+  "replaced_old_copper_items": 53,
+  "all_project_schematic_rule_hashes_preserved": true,
+  "all_footprints_preserved": true,
+  "all_49_onboard_3V3_pads_connected": true,
+  "completed_selected_support_nets": 73,
+  "selected_support_nets": 81,
+  "remaining_support_nets": [
+    "/MCU / clock / SWD/NRST",
+    "AS5047P_CS_N",
+    "BRAKE_PWM",
+    "CAN_TERM_DISABLE",
+    "INPUT_MUX_ENABLE_N",
+    "NTC_PHASE_B",
+    "Net-(U203-OV2)",
+    "VBUS_SENSE"
+  ],
+  "quality_report": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/routing_pass2_2026-10-11/final/quality_summary.json",
+  "gui_reloaded": true,
+  "gui_verified_counts": {
+    "pads": 1001,
+    "vias": 235,
+    "track_segments": 1086,
+    "nets": 194,
+    "unrouted": 307
+  }
+}

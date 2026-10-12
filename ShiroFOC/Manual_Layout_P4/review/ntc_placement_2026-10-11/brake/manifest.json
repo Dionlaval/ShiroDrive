@@ -1,0 +1,134 @@
+{
+  "source": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/ntc_placement_2026-10-11/before/ShiroFOC_Manual.kicad_pcb",
+  "source_sha256": "b80f4e53a6b2d0f2141c7621ccca13b152eb86d52738a354707efabf63daf02e",
+  "candidate": "/Users/dionlava/Documents/GitHub/ShiroDrive/ShiroFOC/Manual_Layout_P4/review/ntc_placement_2026-10-11/brake/ShiroFOC_Manual.kicad_pcb",
+  "footprint_edits": {
+    "R511": {
+      "before": {
+        "uuid": "1bf4656c-71c8-42ee-bcff-8b81551564ef",
+        "xy_mm": [
+          -13.25,
+          6.75
+        ],
+        "angle_deg": 0.0,
+        "side": "B",
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "xy_mm": [
+              -13.76,
+              6.75
+            ]
+          },
+          {
+            "number": "2",
+            "net": "/Brake chopper/BRAKE_NTC_RAW",
+            "xy_mm": [
+              -12.74,
+              6.75
+            ]
+          }
+        ]
+      },
+      "after": {
+        "uuid": "1bf4656c-71c8-42ee-bcff-8b81551564ef",
+        "xy_mm": [
+          -2.3,
+          15.4
+        ],
+        "angle_deg": 0.0,
+        "side": "F",
+        "pads": [
+          {
+            "number": "1",
+            "net": "3V3",
+            "xy_mm": [
+              -2.81,
+              15.4
+            ]
+          },
+          {
+            "number": "2",
+            "net": "/Brake chopper/BRAKE_NTC_RAW",
+            "xy_mm": [
+              -1.79,
+              15.4
+            ]
+          }
+        ]
+      }
+    },
+    "R512": {
+      "before": {
+        "uuid": "b128f908-7771-4426-a7d5-18419c9d0603",
+        "xy_mm": [
+          -10.75,
+          6.75
+        ],
+        "angle_deg": 0.0,
+        "side": "B",
+        "pads": [
+          {
+            "number": "1",
+            "net": "/Brake chopper/BRAKE_NTC_RAW",
+            "xy_mm": [
+              -11.26,
+              6.75
+            ]
+          },
+          {
+            "number": "2",
+            "net": "NTC_BRAKE",
+            "xy_mm": [
+              -10.24,
+              6.75
+            ]
+          }
+        ]
+      },
+      "after": {
+        "uuid": "b128f908-7771-4426-a7d5-18419c9d0603",
+        "xy_mm": [
+          -0.1,
+          15.4
+        ],
+        "angle_deg": 0.0,
+        "side": "F",
+        "pads": [
+          {
+            "number": "1",
+            "net": "/Brake chopper/BRAKE_NTC_RAW",
+            "xy_mm": [
+              -0.61,
+              15.4
+            ]
+          },
+          {
+            "number": "2",
+            "net": "NTC_BRAKE",
+            "xy_mm": [
+              0.41,
+              15.4
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "new_footprints": [],
+  "removed_copper": [],
+  "moved_copper": [],
+  "attached_copper_before": {
+    "R511": [],
+    "R512": []
+  },
+  "zone_fill": "Refilled in candidate with copied project rules; selective integration only needs the two footprint blocks, then refill combined board.",
+  "preserved": [
+    "User J502 position/side/orientation",
+    "All other footprints including C505 and D505",
+    "Every track and via",
+    "Schematic pad-net assignments"
+  ],
+  "rationale": "Connector-local 10k pull-up establishes the raw divider; 4.7k series resistor makes the ADC-bound route originate behind input resistance. The existing 100nF capacitor and BAT54SW clamp stay at MCU end. Final ADC-node routing must stay away from PWM and switch nodes; connector-side series resistance does not make the following trace immune to coupled noise."
+}
