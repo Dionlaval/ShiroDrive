@@ -7509,6 +7509,17 @@
 		)
 		(uuid "29cf363b-d861-5850-9480-11408ec7d4bc")
 	)
+	(text "PC1 / pin 10: FAN_PWM = LPTIM1_OUT, 25kHz -> U503 AHCT buffer.\nR512 holds buffer input LOW at reset. Firmware keeps LOW until motor VM is present.\nPC13: EXT_POWER_FAULT_N = shared sensor/fan limiter U604 (active low)."
+		(exclude_from_sim no)
+		(at 195.58 22.86 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "356d48d9-623c-4aed-89e3-81db2a9c0ea1")
+	)
 	(text "U4 units: A digital, B supplies, C gate driver, D/E/F current amplifiers. Same STSPIN32G4 package."
 		(exclude_from_sim no)
 		(at 15.24 273.05 0)
@@ -14611,16 +14622,4 @@
 			)
 		)
 	)
-
-	(text "PC1 / pin 10: FAN_PWM = LPTIM1_OUT, 25kHz -> U503 AHCT buffer.\nR512 holds buffer input LOW at reset. Firmware keeps LOW until motor VM is present.\nPC13: EXT_POWER_FAULT_N = shared sensor/fan limiter U604 (active low)."
-		(at 195.58 22.86 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left top)
-		)
-		(uuid "356d48d9-623c-4aed-89e3-81db2a9c0ea1")
-	)
-
 )
