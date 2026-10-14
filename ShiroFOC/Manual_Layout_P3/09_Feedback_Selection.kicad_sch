@@ -7728,7 +7728,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "6be3f42b-702b-48f7-b5c8-ce5c7cfc7ad4")
-		(property "Reference" "#PWR_SHARED_ILIM"
+		(property "Reference" "#PWR_SHARED_ILIM0101"
 			(at 50.8 205.74 0)
 			(effects
 				(font
@@ -7775,7 +7775,7 @@
 		(instances
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/924ea1ce-eeef-4d2a-928e-6e88c4a8e14a"
-					(reference "#PWR_SHARED_ILIM")
+					(reference "#PWR_SHARED_ILIM0101")
 					(unit 1)
 				)
 			)
