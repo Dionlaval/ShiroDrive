@@ -1,4 +1,9 @@
 (version 1)
+# VM uses the normal 0.20 mm clearance while retaining Power widths and vias.
+(rule "VM standard clearance"
+  (condition "A.NetName == 'VM' || B.NetName == 'VM'")
+  (constraint clearance (min 0.20mm)))
+
 (rule "Component pad drill separation" (condition "A.Type == 'Pad' || B.Type == 'Pad'") (constraint hole_to_hole (min 0.45mm)))
 (rule "U901 thermal-via drill web" (condition "A.memberOfFootprint('U901') && B.memberOfFootprint('U901') && A.Pad_Number == '21' && B.Pad_Number == '21'") (constraint hole_to_hole (min 0.20mm)))
 (rule "U1 package internal copper" (condition "A.memberOfFootprint('U1') && B.memberOfFootprint('U1')") (constraint clearance (min 0.15mm)))
