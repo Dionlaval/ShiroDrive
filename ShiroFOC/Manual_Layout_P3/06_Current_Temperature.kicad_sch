@@ -8973,7 +8973,7 @@
 		)
 		(uuid "444b4cc9-b013-5e26-934e-964f5375a5f7")
 	)
-	(text "NTC B - place beside phase V"
+	(text "NTC A - place beside phase U"
 		(exclude_from_sim no)
 		(at 148.59 177.8 0)
 		(effects
@@ -9017,7 +9017,7 @@
 		)
 		(uuid "cdf15686-a1ab-57f2-9257-48aab3b21774")
 	)
-	(text "NTC A - place beside phase U"
+	(text "NTC B - place beside phase V"
 		(exclude_from_sim no)
 		(at 17.78 177.8 0)
 		(effects
@@ -10174,7 +10174,7 @@
 		)
 		(uuid "ffcef43f-403a-53b6-ae38-bf495b571249")
 	)
-	(label "NTC_B_RAW"
+	(label "NTC_A_RAW"
 		(at 176.53 219.71 0)
 		(effects
 			(font
@@ -10254,7 +10254,7 @@
 		)
 		(uuid "9dbd5ed9-a65c-539d-b36a-3da2052a1a4b")
 	)
-	(label "NTC_A_RAW"
+	(label "NTC_B_RAW"
 		(at 45.72 219.71 0)
 		(effects
 			(font
@@ -10344,7 +10344,7 @@
 			)
 		)
 	)
-	(global_label "NTC_PHASE_B"
+	(global_label "NTC_PHASE_A"
 		(shape bidirectional)
 		(at 254 219.71 0)
 		(effects
@@ -10464,7 +10464,7 @@
 			)
 		)
 	)
-	(global_label "NTC_PHASE_A"
+	(global_label "NTC_PHASE_B"
 		(shape bidirectional)
 		(at 123.19 219.71 0)
 		(effects
@@ -15533,7 +15533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTC_PHASE_A"
+		(property "Value" "NTC_PHASE_B"
 			(at 104.14 217.17 0)
 			(effects
 				(font
@@ -15562,7 +15562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Test point: NTC_PHASE_A"
+		(property "Description" "Test point: NTC_PHASE_B"
 			(at 101.6 219.71 0)
 			(effects
 				(font
@@ -15601,7 +15601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Test_Net" "NTC_PHASE_A"
+		(property "Test_Net" "NTC_PHASE_B"
 			(at 104.14 219.71 0)
 			(effects
 				(font
@@ -17022,7 +17022,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTC_PHASE_B"
+		(property "Value" "NTC_PHASE_A"
 			(at 234.95 217.17 0)
 			(effects
 				(font
@@ -17051,7 +17051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Test point: NTC_PHASE_B"
+		(property "Description" "Test point: NTC_PHASE_A"
 			(at 232.41 219.71 0)
 			(effects
 				(font
@@ -17090,7 +17090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Test_Net" "NTC_PHASE_B"
+		(property "Test_Net" "NTC_PHASE_A"
 			(at 234.95 219.71 0)
 			(effects
 				(font

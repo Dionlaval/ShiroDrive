@@ -1,0 +1,10 @@
+HRO TYPE-C-31-M-12 model for J201
+Source: https://github.com/ai03-2725/Type-C.pretty/blob/master/HRO%20%20TYPE-C-31-M-12.step
+Downloaded: 2026-10-18
+Author in STEP header: ryotagoto
+SHA256: 272b7208e6c8beb3f21766a3a1c444a005e1706a99f6e2ab6c035c4f558c2d9d
+Community model; not a manufacturer-certified mechanical drawing.
+Placement: scale 1,1,1; rotation 90,180,180 deg; offset -4.47,-3.65,0 mm.
+Rotation and X offset follow the source HRO-3DSettings.png.
+Y offset compensates for the +3.65 mm footprint Y origin shift: source mounting holes y=-6.78/-2.60; KiCad mounting holes y=-3.13/+1.05.
+Validation: KiCad 3D render inspected for placement; board parsed and STEP export completed.

@@ -438,7 +438,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -480,7 +480,7 @@
 				(pin passive line
 					(at -13.97 11.43 0)
 					(length 5.08)
-					(name "3"
+					(name "CANL"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -498,7 +498,7 @@
 				(pin passive line
 					(at -13.97 3.81 0)
 					(length 5.08)
-					(name "2"
+					(name "CANH"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -516,7 +516,7 @@
 				(pin passive line
 					(at -13.97 -3.81 0)
 					(length 5.08)
-					(name "1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -524,24 +524,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -11.43 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -595,7 +577,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -637,7 +619,7 @@
 				(pin passive line
 					(at -13.97 11.43 0)
 					(length 5.08)
-					(name "3"
+					(name "CANL"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -655,7 +637,7 @@
 				(pin passive line
 					(at -13.97 3.81 0)
 					(length 5.08)
-					(name "2"
+					(name "CANH"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -673,7 +655,7 @@
 				(pin passive line
 					(at -13.97 -3.81 0)
 					(length 5.08)
-					(name "1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -681,24 +663,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 0.889 0.889)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -13.97 -11.43 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 0.889 0.889)
@@ -2819,7 +2783,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Both headers: 1 GND | 2 CANL | 3 CANH | 4 shield/drain. Pin 4 carries no supply."
+	(text "Both headers: 1 GND | 2 CANH | 3 CANL. JST-GH 3-pin; mounting tabs grounded."
 		(exclude_from_sim no)
 		(at 15.24 171.45 0)
 		(effects
@@ -2920,12 +2884,6 @@
 		(uuid "0918c4ea-0639-5eff-ae94-7b57d2fe4faf")
 	)
 	(junction
-		(at 266.7 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12366f64-66dd-4f2c-ac63-9b47c2d745ac")
-	)
-	(junction
 		(at 165.1 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2984,12 +2942,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a93b8c4-f60c-59a9-a5fd-a39ecb9ebae5")
-	)
-	(junction
-		(at 248.92 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1846087-e6c4-40be-a19f-5f05a85d213c")
 	)
 	(junction
 		(at 109.22 35.56)
@@ -3073,16 +3025,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 102.87) (xy 248.92 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b41fc15-d72a-5899-8fb8-cef4dc75a7ae")
-	)
-	(wire
-		(pts
 			(xy 194.31 80.01) (xy 194.31 129.54)
 		)
 		(stroke
@@ -3123,16 +3065,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 114.3) (xy 266.7 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ad957d9-8918-4e9a-ab54-9ea8b4a26275")
-	)
-	(wire
-		(pts
 			(xy 184.15 110.49) (xy 184.15 129.54)
 		)
 		(stroke
@@ -3140,26 +3072,6 @@
 			(type default)
 		)
 		(uuid "2be8bd8e-3e1a-4ca9-a4c4-e7043805cae4")
-	)
-	(wire
-		(pts
-			(xy 266.7 111.76) (xy 266.7 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2de45ccc-3bb3-4e09-b93f-cd9eb02870be")
-	)
-	(wire
-		(pts
-			(xy 248.92 102.87) (xy 252.73 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e40eba6-1913-558f-ba0b-492c9ab06068")
 	)
 	(wire
 		(pts
@@ -3280,16 +3192,6 @@
 			(type default)
 		)
 		(uuid "6120a294-df01-51c6-9a94-0cc188180afb")
-	)
-	(wire
-		(pts
-			(xy 248.92 114.3) (xy 248.92 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65b16264-618b-4ffd-9625-dddc7d6f5e2d")
 	)
 	(wire
 		(pts
@@ -3563,16 +3465,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 158.75) (xy 252.73 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03e5242-8260-5bea-8e27-b30822ea0ea0")
-	)
-	(wire
-		(pts
 			(xy 177.8 205.74) (xy 177.8 213.36)
 		)
 		(stroke
@@ -3693,7 +3585,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 114.3) (xy 266.7 115.57)
+			(xy 266.7 111.76) (xy 266.7 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3800,16 +3692,6 @@
 			(justify left bottom)
 		)
 		(uuid "71da87a0-e56f-5069-893b-c88c7932380f")
-	)
-	(label "CAN_SHIELD"
-		(at 248.92 120.65 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3b6e1b5-a1a2-530b-b0e0-f2d51e7ba859")
 	)
 	(global_label "CAN_TERM_DISABLE"
 		(shape input)
@@ -4798,7 +4680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
 			(at 266.7 109.22 0)
 			(effects
 				(font
@@ -4824,7 +4706,7 @@
 				)
 			)
 		)
-		(property "MPN" "BM04B-GHS-TBT"
+		(property "MPN" "SM03B-GHS-TB"
 			(at 266.7 109.22 0)
 			(effects
 				(font
@@ -4850,9 +4732,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "4"
-			(uuid "155e474a-751d-45eb-bb0d-e1f873a60692")
 		)
 		(pin "3"
 			(uuid "f486a4be-0242-4f34-bfc2-16919a5e585f")
@@ -6127,7 +6006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal"
 			(at 266.7 165.1 0)
 			(effects
 				(font
@@ -6153,7 +6032,7 @@
 				)
 			)
 		)
-		(property "MPN" "BM04B-GHS-TBT"
+		(property "MPN" "SM03B-GHS-TB"
 			(at 266.7 165.1 0)
 			(effects
 				(font
@@ -6188,9 +6067,6 @@
 		)
 		(pin "1"
 			(uuid "4fc9c75b-c5cc-44af-9d99-2dae05dc7a37")
-		)
-		(pin "4"
-			(uuid "8c16706b-2e5e-4242-9d9d-c0f645731424")
 		)
 		(pin "MP"
 			(uuid "03fc0ef2-4acc-4313-b5ba-92c845f24b98")

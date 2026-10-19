@@ -1,0 +1,1681 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "573c6454-1622-45fe-bd7d-573e71104da5")
+	(paper "A3")
+	(title_block
+		(title "AS5047P alternative - isolated reference circuit"))
+	(lib_symbols
+		(symbol "ShiroFOCLib:COMP_C601"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C601"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C601_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "ShiroFOCLib:COMP_C602"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_C602"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_C602_1_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762)
+						(xy 2.032 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.032 -0.762)
+						(xy 2.032 -0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 0.762))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -0.762)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "ShiroFOCLib:COMP_R309"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_R309"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_R309_1_1"
+				(polyline
+					(pts
+						(xy -0.8255 1.905)
+						(xy -0.8255 -1.905)
+						(xy 0.8255 -1.905)
+						(xy 0.8255 1.905)
+						(xy -0.8255 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0 1.905))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 -1.905)
+						(xy 0 -2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "ShiroFOCLib:COMP_TP1010"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1010"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1010_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "ShiroFOCLib:COMP_TP1011"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1011"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1011_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "ShiroFOCLib:COMP_TP1012"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_TP1012"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_TP1012_1_1"
+				(circle
+					(center 0 3.81)
+					(radius 1.27)
+					(stroke
+						(width 0.2032)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "ShiroFOCLib:COMP_U601"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "COMP_U601"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "COMP_U601_1_1"
+				(rectangle
+					(start -21.59 30.48)
+					(end 21.59 -30.48)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin input line
+					(at -26.67 12.7 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -26.67 2.54 0)
+					(length 5.08)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "4"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin tri_state line
+					(at -26.67 -7.62 0)
+					(length 5.08)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "3"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at -5.08 35.56 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "11"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at -5.08 -35.56 90)
+					(length 5.08)
+					(name "TEST"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "5"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at 5.08 35.56 270)
+					(length 5.08)
+					(name "VDD3V3"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "12"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin power_in line
+					(at 5.08 -35.56 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "13"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 10.16 -35.56 90)
+					(length 5.08)
+					(name "W/PWM"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "8"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 15.24 -35.56 90)
+					(length 5.08)
+					(name "V"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "9"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 20.32 -35.56 90)
+					(length 5.08)
+					(name "U"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "10"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin input line
+					(at 26.67 20.32 180)
+					(length 5.08)
+					(name "CSn"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 26.67 5.08 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "7"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 26.67 -5.08 180)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "6"
+						(effects
+							(font
+								(size 0.889 0.889)))))
+				(pin output line
+					(at 26.67 -15.24 180)
+					(length 5.08)
+					(name "I/PWM"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "14"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no))
+		(symbol "ShiroFOCLib:FLAG"
+			(pin_names
+				(offset 0.635))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "FLAG"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "FLAG_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0)
+						(xy 0 1.27)
+						(xy 1.27 0)
+						(xy 0 -1.27)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(pin power_out line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.016 1.016))))
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889))))))
+			(embedded_fonts no)))
+	(junction
+		(at 223.52 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a25ba73b-ce88-4c64-b1eb-75429f4a3aa7"))
+	(no_connect
+		(at 190.5 132.08)
+		(uuid "fd3e9327-2393-4f70-bc84-305d57285579"))
+	(no_connect
+		(at 185.42 132.08)
+		(uuid "cad7872c-86b5-42e0-a993-79de96d1aa17"))
+	(no_connect
+		(at 201.93 91.44)
+		(uuid "da2b776d-4db4-457f-9b6a-d21ae26125a8"))
+	(no_connect
+		(at 195.58 132.08)
+		(uuid "0578af1f-b2e0-4cda-b0ad-32105c7da9f0"))
+	(no_connect
+		(at 201.93 111.76)
+		(uuid "fddb1c20-a727-442a-9db5-342021cbb36a"))
+	(no_connect
+		(at 201.93 101.6)
+		(uuid "ef951a3b-68e9-4864-9dcc-842ad0e56550"))
+	(wire
+		(pts
+			(xy 223.52 64.77)
+			(xy 223.52 76.2))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "724c4f47-01fd-4dae-ae11-52cf5d6b55f2"))
+	(wire
+		(pts
+			(xy 109.22 104.14)
+			(xy 148.59 104.14))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f87b3286-a655-49bd-9514-42556da1a736"))
+	(wire
+		(pts
+			(xy 223.52 49.53)
+			(xy 223.52 54.61))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b7772950-295d-4dce-be51-fc05ab275f29"))
+	(wire
+		(pts
+			(xy 154.94 38.1)
+			(xy 154.94 43.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d9ab4264-cdbd-4230-b943-4ee7c4cbc2f4"))
+	(wire
+		(pts
+			(xy 223.52 76.2)
+			(xy 260.35 76.2))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e4c54353-daab-4fb7-a4c9-0914d2767031"))
+	(wire
+		(pts
+			(xy 180.34 132.08)
+			(xy 180.34 137.16))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e8ce68d8-18c5-41e9-a6d3-f33e1b19a33f"))
+	(wire
+		(pts
+			(xy 71.12 93.98)
+			(xy 120.65 93.98))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "43f6a9ff-1483-452b-b919-fe55e8fc5c53"))
+	(wire
+		(pts
+			(xy 195.58 53.34)
+			(xy 195.58 58.42))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2345641b-c3f4-42b0-9f3e-1d5c3427b0b5"))
+	(wire
+		(pts
+			(xy 180.34 55.88)
+			(xy 180.34 60.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "611bfc01-cc6a-44de-8de6-bfa2e14fdf9b"))
+	(wire
+		(pts
+			(xy 201.93 76.2)
+			(xy 223.52 76.2))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e6f07bdf-36dc-432e-af7a-45f1819f786d"))
+	(wire
+		(pts
+			(xy 71.12 83.82)
+			(xy 120.65 83.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7c88e136-2592-4ff0-b74a-f400548a97bd"))
+	(wire
+		(pts
+			(xy 71.12 104.14)
+			(xy 109.22 104.14))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "78b1cea1-7df1-45a2-b756-f7f751fb9249"))
+	(wire
+		(pts
+			(xy 154.94 53.34)
+			(xy 154.94 58.42))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "94328dbd-e5eb-4d06-8d5e-a7cdf9db289f"))
+	(wire
+		(pts
+			(xy 170.18 132.08)
+			(xy 170.18 137.16))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "47a287bd-6434-4d77-a2cb-a7bfcee9f1dd"))
+	(wire
+		(pts
+			(xy 120.65 83.82)
+			(xy 148.59 83.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0748e100-9482-4e23-ac0a-83031ea7ad76"))
+	(wire
+		(pts
+			(xy 195.58 38.1)
+			(xy 195.58 43.18))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "83b017a2-3cac-401e-a345-876ae1a89378"))
+	(wire
+		(pts
+			(xy 120.65 93.98)
+			(xy 148.59 93.98))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "745f27bf-1375-48f1-a101-dd8d8cf580dc"))
+	(wire
+		(pts
+			(xy 170.18 55.88)
+			(xy 170.18 60.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4b7a9c1d-6eae-48a0-9933-c791778782c8"))
+	(label "ALT_SPI3_MOSI_MCU"
+		(at 71.12 93.98 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "c86b3c20-79ad-4195-a261-c0627fa190de"))
+	(label "ALT_SPI3_MISO"
+		(at 71.12 104.14 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "1ab04e54-bf41-4ef7-aeb0-54dc21328784"))
+	(label "ALT_AS5047P_CS_N"
+		(at 260.35 76.2 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "5ccf9aed-e1e0-428e-b5c1-2d3766b42f3d"))
+	(label "ALT_SPI3_SCK_MCU"
+		(at 71.12 83.82 180)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "3d192331-27f2-4057-a7de-ae4e6ece09af"))
+	(symbol
+		(lib_id "ShiroFOCLib:COMP_TP1012")
+		(at 120.65 93.98 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "5fb8880b-3881-4bb2-820b-04e80045fd25")
+		(property "Reference" "TP1303"
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "ENC_SPI_MOSI"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1 1))
+				(justify left)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" "Test point: ENC_SPI_MOSI"
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "DNP - isolated schematic reference only"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "PCB test pad"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Test_Net" "Net-(U601-MOSI)"
+			(at 123.19 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "89b02e98-ffe7-41d1-9689-e29ba475d5a7"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/573c6454-1622-45fe-bd7d-573e71104da5"
+					(reference "TP1303")
+					(unit 1)))))
+	(symbol
+		(lib_id "ShiroFOCLib:COMP_TP1011")
+		(at 109.22 104.14 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "71ef42ab-3972-412d-bd0a-85fa01976979")
+		(property "Reference" "TP1302"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "SPI3_MISO"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1 1))
+				(justify left)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" "Test point: SPI3_MISO"
+			(at 109.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "DNP - isolated schematic reference only"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "PCB test pad"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Test_Net" "SPI3_MISO"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "7c95da58-5ac7-4a7a-82f1-74149ef08c5b"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/573c6454-1622-45fe-bd7d-573e71104da5"
+					(reference "TP1302")
+					(unit 1)))))
+	(label "ALT_3V3"
+		(at 154.94 38.1 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "27aa7c86-82a5-4d68-98e4-c1baae68d50f"))
+	(label "ALT_GND"
+		(at 180.34 137.16 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "768c4732-459f-4eb2-ba9d-da8d8c33228a"))
+	(symbol
+		(lib_id "ShiroFOCLib:COMP_U601")
+		(at 175.26 96.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "de9aec02-f40a-4f3d-8d11-abea6f3f68e5")
+		(property "Reference" "U1301"
+			(at 148.59 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify right)))
+		(property "Value" "AS5047P-ATSM"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify right)))
+		(property "Footprint" "ShiroFOCLib:AS5047P_TSSOP14"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" "https://ams-osram.com/products/sensors/position-sensors/ams-as5047p-high-resolution-position-sensor"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" ""
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" "AS5047P-ATSM"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "DNP - isolated schematic reference only"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "2"
+			(uuid "d1eeb268-298f-4497-971b-c69d5ba8a0b4"))
+		(pin "4"
+			(uuid "6168f332-729c-47b1-9723-d2db0c2f1f34"))
+		(pin "3"
+			(uuid "dc1b323e-ac7b-42bf-8447-367d2d845786"))
+		(pin "11"
+			(uuid "d62d61c6-ed71-4c6b-96af-460e0f8b7e56"))
+		(pin "5"
+			(uuid "9ba21058-d99a-458c-892b-791c7ee42628"))
+		(pin "12"
+			(uuid "6ea284e7-b4be-49d1-801d-7f6db5e5dca5"))
+		(pin "13"
+			(uuid "55e348fe-ec44-424c-98d3-da22d54e758b"))
+		(pin "8"
+			(uuid "bae08af7-65fb-47e8-a880-237ef38e9a8b"))
+		(pin "9"
+			(uuid "ed6971dc-e6db-413c-a9ef-fa0fba119f92"))
+		(pin "10"
+			(uuid "43307f4c-03fb-4440-b5e9-73373d57b787"))
+		(pin "1"
+			(uuid "fd41f374-066e-4b6f-be63-d3a290eebf62"))
+		(pin "7"
+			(uuid "90ebc8da-bf18-4942-a90f-8b8db14231e6"))
+		(pin "6"
+			(uuid "6a2026ac-c539-43b5-8ec4-87aca486bb44"))
+		(pin "14"
+			(uuid "48e1ff10-3ad7-4674-af37-70a7f74fccdb"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/573c6454-1622-45fe-bd7d-573e71104da5"
+					(reference "U1301")
+					(unit 1)))))
+	(symbol
+		(lib_id "ShiroFOCLib:COMP_R309")
+		(at 223.52 59.69 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "9ccb4a3b-3ae7-4d80-98a3-6f5323ef9969")
+		(property "Reference" "R1301"
+			(at 227.33 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "10k"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 223.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "DNP - isolated schematic reference only"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 227.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "eb8ced39-0f42-40a1-9bb3-5beeaf0c1ff2"))
+		(pin "2"
+			(uuid "d9513c8a-1e60-4167-8a1a-1f6c557e6711"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/573c6454-1622-45fe-bd7d-573e71104da5"
+					(reference "R1301")
+					(unit 1)))))
+	(symbol
+		(lib_id "ShiroFOCLib:COMP_C601")
+		(at 154.94 48.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "2ee36fd3-2cf3-486c-81d1-e62ca0603f6a")
+		(property "Reference" "C1301"
+			(at 158.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "100nF"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "DNP - isolated schematic reference only"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "0402; preserve Value/tolerance requirements; exact part not selected"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 158.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "a9a2a912-04de-4a22-867e-0ffd338286fa"))
+		(pin "2"
+			(uuid "a89fef01-1e4d-41ac-80f1-6bedebd3f979"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/573c6454-1622-45fe-bd7d-573e71104da5"
+					(reference "C1301")
+					(unit 1)))))
+	(label "ALT_3V3"
+		(at 180.34 55.88 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "135fc51b-a2f8-41da-98e9-f208fc01d0da"))
+	(label "ALT_3V3"
+		(at 170.18 55.88 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "a4fb2478-ba19-4629-a8a3-8f3e3f4fbeae"))
+	(symbol
+		(lib_id "ShiroFOCLib:COMP_C602")
+		(at 195.58 48.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "167ffed3-4e58-4de9-8911-68783bad305d")
+		(property "Reference" "C1302"
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "1uF"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" ""
+			(at 195.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "MPN" ""
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Assembly" "DNP - isolated schematic reference only"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Procurement" "Select to specification: 1uF; C_0603_1608Metric"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "See Value; generic low-voltage passives: R >=0.1 W / 50 V, C >=16 V X7R unless specified"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "d57ddca9-0358-47bf-8673-15cb9d34e722"))
+		(pin "2"
+			(uuid "e0b7306f-e8a3-42b9-a007-bdc973b29495"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/573c6454-1622-45fe-bd7d-573e71104da5"
+					(reference "C1302")
+					(unit 1)))))
+	(label "ALT_GND"
+		(at 170.18 137.16 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "3ca41517-2f81-45d6-976b-6601e9d79353"))
+	(label "ALT_GND"
+		(at 154.94 58.42 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "48380aa8-ce76-4f24-a668-c553c2655db0"))
+	(label "ALT_3V3"
+		(at 195.58 38.1 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "fa698390-68c4-4c46-961f-6e0c0b92e5e0"))
+	(symbol
+		(lib_id "ShiroFOCLib:COMP_TP1010")
+		(at 120.65 83.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "313be931-3045-40fd-acff-7c911f60394c")
+		(property "Reference" "TP1301"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)))
+		(property "Value" "ENC_SPI_CLK"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1 1))
+				(justify left)))
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Description" "Test point: ENC_SPI_CLK"
+			(at 120.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Assembly" "DNP - isolated schematic reference only"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "MPN" "PCB feature"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Rating" "PCB test pad"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(property "Test_Net" "Net-(U601-CLK)"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify left)
+				(hide yes)))
+		(pin "1"
+			(uuid "8e64744d-2efd-4d74-9e2f-ccec10ce484f"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/573c6454-1622-45fe-bd7d-573e71104da5"
+					(reference "TP1301")
+					(unit 1)))))
+	(label "ALT_3V3"
+		(at 223.52 49.53 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "c61d9def-3751-49fe-bd08-08a7adecf869"))
+	(label "ALT_GND"
+		(at 195.58 58.42 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "257d2843-3516-4486-bffe-28a6ec2d6e48"))
+	(text "AS5047P ALTERNATIVE - NOT FITTED / EXCLUDED FROM PCB"
+		(at 20.32 20.32 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left top))
+		(uuid "cc8e7176-e44e-4336-a7f6-fe97e4e7b3ec"))
+	(text "Reference circuit only: all rails and SPI labels are local ALT_ nets.\nNo electrical connection to the active board.\nTo restore: replace the active MA600A circuit with this circuit, reconnect\n3V3/GND and SPI3 signals, restore fit/board flags, and use SPI mode 1.\nFootprint and firmware must change together; these ICs are not drop-in compatible."
+		(at 270 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "01b615ea-be09-41dd-b7b5-592345b5f448"))
+	(text "Original AS5047P wiring retained: 3.3 V operation, TEST grounded,\n100 nF + 1 uF decoupling and 10 kohm chip-select pull-up.\nA/B/index/UVW outputs remain unused."
+		(at 20.32 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left top))
+		(uuid "21731994-1923-4523-a143-f7dd185a1b1b"))
+	(symbol
+		(lib_id "ShiroFOCLib:FLAG")
+		(at 60.96 60.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "3800c5d9-603b-473c-a450-8bb6d36dc132")
+		(property "Reference" "#FLG1301"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "c078b3c9-530d-4e64-a313-ba30481e9ecf"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/573c6454-1622-45fe-bd7d-573e71104da5"
+					(reference "#FLG1301")
+					(unit 1)))))
+	(label "ALT_3V3"
+		(at 60.96 60.96 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "5f68a8d5-2d66-4c91-8d00-55e33875ddd4"))
+	(symbol
+		(lib_id "ShiroFOCLib:FLAG")
+		(at 60.96 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ee6fcfd9-a206-4f6a-bc08-0de340d6efe1")
+		(property "Reference" "#FLG1302"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "c0352a14-bd84-422c-ad3c-1733a2825d08"))
+		(instances
+			(project "ShiroFOC_Manual"
+				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/573c6454-1622-45fe-bd7d-573e71104da5"
+					(reference "#FLG1302")
+					(unit 1)))))
+	(label "ALT_GND"
+		(at 60.96 76.2 0)
+		(effects
+			(font
+				(size 1.016 1.016))
+			(justify left bottom))
+		(uuid "ce332bfa-eb08-4c9a-b4e0-e4cec2f5ef6b")))
