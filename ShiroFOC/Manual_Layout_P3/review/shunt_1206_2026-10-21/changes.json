@@ -1,0 +1,278 @@
+[
+  {
+    "reference": "R1",
+    "position": [
+      5.9,
+      6.65
+    ],
+    "rotation": 180.0,
+    "oldpads": [
+      {
+        "number": "1",
+        "net": "/Three-phase bridge/LS_SOURCE_V",
+        "position": [
+          8.24,
+          6.65
+        ]
+      },
+      {
+        "number": "2",
+        "net": "SHUNT_V_SENSE_P",
+        "position": [
+          6.48,
+          6.65
+        ]
+      },
+      {
+        "number": "3",
+        "net": "SHUNT_V_SENSE_N",
+        "position": [
+          5.32,
+          6.65
+        ]
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "position": [
+          3.56,
+          6.65
+        ]
+      }
+    ],
+    "newpads": [
+      {
+        "number": "1",
+        "net": "/Three-phase bridge/LS_SOURCE_V",
+        "position": [
+          7.45,
+          6.65
+        ],
+        "size": [
+          1.7,
+          1.8
+        ]
+      },
+      {
+        "number": "2",
+        "net": "SHUNT_V_SENSE_P",
+        "position": [
+          6.48,
+          6.65
+        ],
+        "size": [
+          0.2,
+          0.2
+        ]
+      },
+      {
+        "number": "3",
+        "net": "SHUNT_V_SENSE_N",
+        "position": [
+          5.32,
+          6.65
+        ],
+        "size": [
+          0.2,
+          0.2
+        ]
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "position": [
+          4.35,
+          6.65
+        ],
+        "size": [
+          1.7,
+          1.8
+        ]
+      }
+    ]
+  },
+  {
+    "reference": "R5",
+    "position": [
+      5.9,
+      13.7
+    ],
+    "rotation": 180.0,
+    "oldpads": [
+      {
+        "number": "1",
+        "net": "/Three-phase bridge/LS_SOURCE_W",
+        "position": [
+          8.24,
+          13.7
+        ]
+      },
+      {
+        "number": "2",
+        "net": "SHUNT_W_SENSE_P",
+        "position": [
+          6.48,
+          13.7
+        ]
+      },
+      {
+        "number": "3",
+        "net": "SHUNT_W_SENSE_N",
+        "position": [
+          5.32,
+          13.7
+        ]
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "position": [
+          3.56,
+          13.7
+        ]
+      }
+    ],
+    "newpads": [
+      {
+        "number": "1",
+        "net": "/Three-phase bridge/LS_SOURCE_W",
+        "position": [
+          7.45,
+          13.7
+        ],
+        "size": [
+          1.7,
+          1.8
+        ]
+      },
+      {
+        "number": "2",
+        "net": "SHUNT_W_SENSE_P",
+        "position": [
+          6.48,
+          13.7
+        ],
+        "size": [
+          0.2,
+          0.2
+        ]
+      },
+      {
+        "number": "3",
+        "net": "SHUNT_W_SENSE_N",
+        "position": [
+          5.32,
+          13.7
+        ],
+        "size": [
+          0.2,
+          0.2
+        ]
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "position": [
+          4.35,
+          13.7
+        ],
+        "size": [
+          1.7,
+          1.8
+        ]
+      }
+    ]
+  },
+  {
+    "reference": "R3",
+    "position": [
+      5.9,
+      -0.4
+    ],
+    "rotation": 180.0,
+    "oldpads": [
+      {
+        "number": "1",
+        "net": "/Three-phase bridge/LS_SOURCE_U",
+        "position": [
+          8.24,
+          -0.4
+        ]
+      },
+      {
+        "number": "2",
+        "net": "SHUNT_U_SENSE_P",
+        "position": [
+          6.48,
+          -0.4
+        ]
+      },
+      {
+        "number": "3",
+        "net": "SHUNT_U_SENSE_N",
+        "position": [
+          5.32,
+          -0.4
+        ]
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "position": [
+          3.56,
+          -0.4
+        ]
+      }
+    ],
+    "newpads": [
+      {
+        "number": "1",
+        "net": "/Three-phase bridge/LS_SOURCE_U",
+        "position": [
+          7.45,
+          -0.4
+        ],
+        "size": [
+          1.7,
+          1.8
+        ]
+      },
+      {
+        "number": "2",
+        "net": "SHUNT_U_SENSE_P",
+        "position": [
+          6.48,
+          -0.4
+        ],
+        "size": [
+          0.2,
+          0.2
+        ]
+      },
+      {
+        "number": "3",
+        "net": "SHUNT_U_SENSE_N",
+        "position": [
+          5.32,
+          -0.4
+        ],
+        "size": [
+          0.2,
+          0.2
+        ]
+      },
+      {
+        "number": "4",
+        "net": "GND",
+        "position": [
+          4.35,
+          -0.4
+        ],
+        "size": [
+          1.7,
+          1.8
+        ]
+      }
+    ]
+  }
+]

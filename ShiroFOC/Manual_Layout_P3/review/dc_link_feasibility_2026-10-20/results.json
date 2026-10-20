@@ -1,0 +1,75 @@
+{
+  "assumptions": {
+    "capacitors": "10 x Samsung CL32Y106KCVZNWE, no other capacitance credited",
+    "current": "balanced sinusoidal phase RMS; peak=sqrt(2)*RMS; frozen within a PWM period",
+    "pwm": "center-aligned min/max-injected sinusoidal PWM, linear modulation only",
+    "source_for_main_table": "constant switching-cycle-average current, not a universal ripple bound",
+    "capacitance_uF_typical": {
+      "18": 68,
+      "24": 55,
+      "36": 39,
+      "42": 33
+    },
+    "sensitivity_C_factor": 0.72,
+    "source_R_ohm_for_RLC_examples": 0.05,
+    "source_example_phase_Arms": 10,
+    "source_example_C_uF": 33,
+    "source_example_pwm_kHz": 20
+  },
+  "coefficients": {
+    "1.0": {
+      "max_k": 0.12499999159275674,
+      "m_at_max": 0.6668395609140179
+    },
+    "0.9": {
+      "max_k": 0.13298310632608606,
+      "m_at_max": 1.0507774899251192
+    },
+    "0.8": {
+      "max_k": 0.1651590959074694,
+      "m_at_max": 1.1547005383792517
+    },
+    "0.7": {
+      "max_k": 0.18868514924498542,
+      "m_at_max": 1.1547005383792517
+    },
+    "0.0": {
+      "max_k": 0.25,
+      "m_at_max": 1.1547005383792517
+    }
+  },
+  "source_examples": [
+    {
+      "loop_uH": 0.1,
+      "resonance_kHz": 87.61191269246237,
+      "Vpp": 1.2357097251219198
+    },
+    {
+      "loop_uH": 0.2,
+      "resonance_kHz": 61.9509775775639,
+      "Vpp": 1.949362477239057
+    },
+    {
+      "loop_uH": 0.5,
+      "resonance_kHz": 39.1812384838245,
+      "Vpp": 5.63743224505642
+    },
+    {
+      "loop_uH": 1.0,
+      "resonance_kHz": 27.705319427199626,
+      "Vpp": 4.440993022763989
+    },
+    {
+      "loop_uH": 2.0,
+      "resonance_kHz": 19.59061924191225,
+      "Vpp": 3.359830748099365
+    }
+  ],
+  "regen_energy_42_to_45p8_mJ": 5.5050599999999985,
+  "sources": [
+    "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf",
+    "https://github.com/mjbots/moteus/blob/8f747f4ac448d117c1390b77ca2d80c27e751a56/hw/controller/r4.11/controller.sch",
+    "https://mjbots.github.io/moteus/guides/electrical-setup/",
+    "https://mjbots.com/products/moteus-r4-11"
+  ]
+}

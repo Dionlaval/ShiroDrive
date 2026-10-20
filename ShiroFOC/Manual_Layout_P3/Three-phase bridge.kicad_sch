@@ -1113,7 +1113,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ShiroFOCLib:LR2512D_Kelvin"
+		(symbol "ShiroFOCLib:HCS1206_Kelvin"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1129,7 +1129,7 @@
 					)
 				)
 			)
-			(property "Value" "LR2512D_Kelvin"
+			(property "Value" "HCS1206_Kelvin"
 				(at 0 0 90)
 				(effects
 					(font
@@ -1137,7 +1137,7 @@
 					)
 				)
 			)
-			(property "Footprint" "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
+			(property "Footprint" "ShiroFOCLib:R_Shunt_HCS1206_0m5_2W_Kelvin"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1146,7 +1146,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "${KIPRJMOD}/../DataSheets/LR2512D_C500733.pdf"
+			(property "Datasheet" "${KIPRJMOD}/../DataSheets/HCS1206_C346511.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1155,7 +1155,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two-terminal LR2512D with four PCB connections: 1/2 joined and 4/3 joined by footprint Kelvin stubs."
+			(property "Description" "Two-terminal HCS1206 with four PCB connections: 1/2 joined and 4/3 joined by footprint Kelvin stubs."
 				(at 0 0 0)
 				(effects
 					(font
@@ -1173,7 +1173,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_Shunt_LR2512D_0m5_3W_Kelvin"
+			(property "ki_fp_filters" "R_Shunt_HCS1206_0m5_2W_Kelvin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1182,7 +1182,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LR2512D_Kelvin_0_1"
+			(symbol "HCS1206_Kelvin_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1219,7 +1219,7 @@
 					)
 				)
 			)
-			(symbol "LR2512D_Kelvin_1_1"
+			(symbol "HCS1206_Kelvin_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -3738,7 +3738,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ShiroFOCLib:LR2512D_Kelvin")
+		(lib_id "ShiroFOCLib:HCS1206_Kelvin")
 		(at 34.29 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3765,7 +3765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
+		(property "Footprint" "ShiroFOCLib:R_Shunt_HCS1206_0m5_2W_Kelvin"
 			(at 32.512 67.31 90)
 			(effects
 				(font
@@ -3774,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../DataSheets/LR2512D_C500733.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../DataSheets/HCS1206_C346511.pdf"
 			(at 34.29 67.31 0)
 			(effects
 				(font
@@ -3801,7 +3801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" "3 W; derate above 70 C to zero at 170 C per supplied datasheet; actual cooling requires validation."
+		(property "Power Rating" "2 W at 100 C terminal temperature; derate to zero at 170 C per HCS datasheet. Validate PCB cooling."
 			(at 0 0 0)
 			(effects
 				(font
@@ -3810,7 +3810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Milliohm"
+		(property "Manufacturer" "Stackpole Electronics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3819,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LR2512D-3W-0.5mR-1%"
+		(property "MPN" "HCS1206FTL500"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3848,6 +3848,10 @@
 				)
 			)
 		)
+	
+		(property "LCSC" "C346511" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Tolerance" "1%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "TCR" "200 ppm/C maximum magnitude" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "ShiroFOCLib:CSD88599Q5DC")
@@ -4681,7 +4685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ShiroFOCLib:LR2512D_Kelvin")
+		(lib_id "ShiroFOCLib:HCS1206_Kelvin")
 		(at 120.65 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4708,7 +4712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
+		(property "Footprint" "ShiroFOCLib:R_Shunt_HCS1206_0m5_2W_Kelvin"
 			(at 118.872 67.31 90)
 			(effects
 				(font
@@ -4717,7 +4721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../DataSheets/LR2512D_C500733.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../DataSheets/HCS1206_C346511.pdf"
 			(at 120.65 67.31 0)
 			(effects
 				(font
@@ -4744,7 +4748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" "3 W; derate above 70 C to zero at 170 C per supplied datasheet; actual cooling requires validation."
+		(property "Power Rating" "2 W at 100 C terminal temperature; derate to zero at 170 C per HCS datasheet. Validate PCB cooling."
 			(at 0 0 0)
 			(effects
 				(font
@@ -4753,7 +4757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Milliohm"
+		(property "Manufacturer" "Stackpole Electronics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4762,7 +4766,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LR2512D-3W-0.5mR-1%"
+		(property "MPN" "HCS1206FTL500"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4791,6 +4795,10 @@
 				)
 			)
 		)
+	
+		(property "LCSC" "C346511" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Tolerance" "1%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "TCR" "200 ppm/C maximum magnitude" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4991,7 +4999,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ShiroFOCLib:LR2512D_Kelvin")
+		(lib_id "ShiroFOCLib:HCS1206_Kelvin")
 		(at 209.55 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5018,7 +5026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ShiroFOCLib:R_Shunt_LR2512D_0m5_3W_Kelvin"
+		(property "Footprint" "ShiroFOCLib:R_Shunt_HCS1206_0m5_2W_Kelvin"
 			(at 207.772 67.31 90)
 			(effects
 				(font
@@ -5027,7 +5035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../DataSheets/LR2512D_C500733.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../DataSheets/HCS1206_C346511.pdf"
 			(at 209.55 67.31 0)
 			(effects
 				(font
@@ -5054,7 +5062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" "3 W; derate above 70 C to zero at 170 C per supplied datasheet; actual cooling requires validation."
+		(property "Power Rating" "2 W at 100 C terminal temperature; derate to zero at 170 C per HCS datasheet. Validate PCB cooling."
 			(at 0 0 0)
 			(effects
 				(font
@@ -5063,7 +5071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Milliohm"
+		(property "Manufacturer" "Stackpole Electronics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5072,7 +5080,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LR2512D-3W-0.5mR-1%"
+		(property "MPN" "HCS1206FTL500"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5101,6 +5109,10 @@
 				)
 			)
 		)
+	
+		(property "LCSC" "C346511" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Tolerance" "1%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "TCR" "200 ppm/C maximum magnitude" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")

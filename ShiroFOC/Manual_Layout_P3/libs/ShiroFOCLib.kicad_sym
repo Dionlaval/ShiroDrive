@@ -27078,4 +27078,125 @@
 					(effects
 						(font
 							(size 1.016 1.016))))))
-		(embedded_fonts no)))
+		(embedded_fonts no))
+	(symbol "HCS1206_Kelvin"
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "HCS1206_Kelvin"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "ShiroFOCLib:R_Shunt_HCS1206_0m5_2W_Kelvin"
+			(at -1.778 0 90)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" "${KIPRJMOD}/../DataSheets/HCS1206_C346511.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "Two-terminal HCS1206 with four PCB connections: 1/2 joined and 4/3 joined by footprint Kelvin stubs."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "ki_keywords" "R res shunt resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "ki_fp_filters" "R_Shunt_HCS1206_0m5_2W_Kelvin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "HCS1206_Kelvin_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy 0 -2.54)
+					(xy 1.27 -2.54))
+				(stroke
+					(width 0)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy 1.27 2.54)
+					(xy 0 2.54))
+				(stroke
+					(width 0)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "HCS1206_Kelvin_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "POWER+"
+					(effects
+						(font
+							(size 1.27 1.27))))
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)))))
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "POWER-"
+					(effects
+						(font
+							(size 1.27 1.27))))
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)))))
+			(pin passive line
+				(at 2.54 2.54 180)
+				(length 1.27)
+				(name "SENSE+"
+					(effects
+						(font
+							(size 1.27 1.27))))
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)))))
+			(pin passive line
+				(at 2.54 -2.54 180)
+				(length 1.27)
+				(name "SENSE-"
+					(effects
+						(font
+							(size 1.27 1.27))))
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27))))))
+		(embedded_fonts no))
+)

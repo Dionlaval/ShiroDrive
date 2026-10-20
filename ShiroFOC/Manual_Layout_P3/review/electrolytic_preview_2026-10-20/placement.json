@@ -1,0 +1,38 @@
+{
+  "added": [
+    {
+      "reference": "C_PREVIEW_BULK1",
+      "value": "680uF 63V - placement preview",
+      "x_mm": -24.0,
+      "y_mm": 61.525,
+      "nets": [
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "C_PREVIEW_BULK2",
+      "value": "680uF 63V - placement preview",
+      "x_mm": 0.0,
+      "y_mm": 61.525,
+      "nets": [
+        0,
+        0
+      ]
+    },
+    {
+      "reference": "C_PREVIEW_BULK3",
+      "value": "680uF 63V - placement preview",
+      "x_mm": 24.0,
+      "y_mm": 61.525,
+      "nets": [
+        0,
+        0
+      ]
+    }
+  ],
+  "original_footprint_count": 266,
+  "new_footprint_count": 269,
+  "source": "P2 C101-C103: EEVFK1J681M, 680uF 63V",
+  "model_note": "Existing library uses an approximate 18x17.5 mm envelope for the 18x16.5 mm part."
+}

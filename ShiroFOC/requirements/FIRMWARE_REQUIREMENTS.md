@@ -18,7 +18,7 @@ This is the current firmware requirements document. It supersedes conflicting in
 | Current target | Provisional 25 A RMS phase current **with qualified cooling**; not a demonstrated board rating |
 | Gate supply | External approximately 10 V: VM → LMR36510 → VCC; SW tied to VM |
 | Logic supplies | VCC → MPM3620A → 5V_BAT; USB/battery mux → 5V_SYS → 3V3 LDO |
-| Current sensing | Three 0.5 mΩ shunts; external op-amp feedback gain 28; nominal 14 mV/A about VREF/2 |
+| Current sensing | P3: three Stackpole HCS1206FTL500 shunts (0.5 mΩ, 1%, 1206, 2 W, LCSC C346511); external op-amp feedback gain 28; nominal 14 mV/A about VREF/2 |
 | Bus measurement | P3: R103 = 560 kΩ (0603, 75 V), R105 = 28 kΩ (0402), both 0.1%; nominal division by 21; R104 removed; R106 = 1 kΩ, C108 = 10 nF |
 | Angle | AS5047P absolute-angle SPI3, dedicated bus |
 | IMU | BMI323 on I2C2, address 0x68; configuration and data over I²C |
@@ -226,3 +226,11 @@ A restricted, explicitly entered commissioning build may use documented low-ener
 - [STM32G4 reference manual RM0440](https://www.st.com/resource/en/reference_manual/rm0440-stm32g4-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf): firmware agent must verify exact register routing, flash geometry and option-byte procedures for STM32G431. The full manual was not re-audited in creating this document.
 
 Current native schematic and explicit later user-approved changes take precedence over historical design notes. If they disagree with this contract, report and reconcile the discrepancy before enabling torque.
+
+## Shunt gain accuracy (P3, 2026-10-21)
+
+R1/R3/R5 now use HCS1206FTL500. Nominal resistance and current scaling are unchanged; retain the existing U/W op-amp mapping. These are two-terminal resistors with separate PCB Kelvin sense connections, not four-terminal resistor bodies.
+
+The specified TCR is ±200 ppm/°C: a 50°C shunt temperature change permits approximately ±1% current-measurement gain drift, in addition to the initial ±1% resistance tolerance and amplifier/ADC errors. At a true 25 A this contribution is about ±0.25 A. ADC zero-offset calibration does not remove gain drift. A calibrated gain can remove initial scale error, but temperature compensation would need characterized shunt temperature and behavior; the nearby MOSFET NTC is not a direct shunt-temperature measurement.
+
+The 2 W rating is specified at 100°C terminal temperature with derating to zero at 170°C; it is not an unconditional rating on this PCB. At 25 A RMS through a shunt, nominal dissipation is 0.3125 W. Validate temperature and pulse loading before assigning a continuous board current rating. Source: `DataSheets/HCS1206_C346511.pdf` (Stackpole HCS series, revision 2022-05-12).
