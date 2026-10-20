@@ -8929,7 +8929,7 @@
 		)
 		(uuid "05b32fbe-e0cd-526a-a6c8-19b94967aed2")
 	)
-	(text "PHASE U / OPAMP1"
+	(text "PHASE W / OPAMP1"
 		(exclude_from_sim no)
 		(at 17.78 41.91 0)
 		(effects
@@ -8984,7 +8984,7 @@
 		)
 		(uuid "64e4dcad-75de-524a-afc1-c3aa4ef0552f")
 	)
-	(text "PHASE W / OPAMP3"
+	(text "PHASE U / OPAMP3"
 		(exclude_from_sim no)
 		(at 279.4 41.91 0)
 		(effects
@@ -10184,7 +10184,7 @@
 		)
 		(uuid "0410e243-2f4c-5ad2-bca4-d2c318246a1f")
 	)
-	(label "OPN_U1"
+	(label "OPN_W1"
 		(at 57.15 97.79 0)
 		(effects
 			(font
@@ -10194,7 +10194,7 @@
 		)
 		(uuid "2b9992d2-f6cd-58b1-a6d6-89a8e1adb561")
 	)
-	(label "OPP_U1"
+	(label "OPP_W1"
 		(at 54.61 110.49 0)
 		(effects
 			(font
@@ -10214,7 +10214,7 @@
 		)
 		(uuid "4dfd1cc6-b641-585f-8429-1010cbc62fd7")
 	)
-	(label "OPN_W1"
+	(label "OPN_U1"
 		(at 318.77 97.79 0)
 		(effects
 			(font
@@ -10224,7 +10224,7 @@
 		)
 		(uuid "57702cdc-ab17-5539-9ae9-494e68757a5d")
 	)
-	(label "OPP_W1"
+	(label "OPP_U1"
 		(at 316.23 110.49 0)
 		(effects
 			(font
@@ -10304,7 +10304,7 @@
 			)
 		)
 	)
-	(global_label "SHUNT_U_SENSE_N"
+	(global_label "SHUNT_W_SENSE_N"
 		(shape bidirectional)
 		(at 34.29 97.79 180)
 		(effects
@@ -10324,7 +10324,7 @@
 			)
 		)
 	)
-	(global_label "OPO_W1"
+	(global_label "OPO_U1"
 		(shape bidirectional)
 		(at 388.62 104.14 0)
 		(effects
@@ -10364,7 +10364,7 @@
 			)
 		)
 	)
-	(global_label "SHUNT_W_SENSE_N"
+	(global_label "SHUNT_U_SENSE_N"
 		(shape bidirectional)
 		(at 295.91 97.79 180)
 		(effects
@@ -10404,7 +10404,7 @@
 			)
 		)
 	)
-	(global_label "SHUNT_W_SENSE_P"
+	(global_label "SHUNT_U_SENSE_P"
 		(shape bidirectional)
 		(at 295.91 110.49 180)
 		(effects
@@ -10504,7 +10504,7 @@
 			)
 		)
 	)
-	(global_label "OPO_U1"
+	(global_label "OPO_W1"
 		(shape bidirectional)
 		(at 127 104.14 0)
 		(effects
@@ -10524,7 +10524,7 @@
 			)
 		)
 	)
-	(global_label "SHUNT_U_SENSE_P"
+	(global_label "SHUNT_W_SENSE_P"
 		(shape bidirectional)
 		(at 34.29 110.49 180)
 		(effects
@@ -10945,7 +10945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPO_W1"
+		(property "Value" "OPO_U1"
 			(at 389.89 101.6 0)
 			(effects
 				(font
@@ -10974,7 +10974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Test point: OPO_W1"
+		(property "Description" "Test point: OPO_U1"
 			(at 387.35 104.14 0)
 			(effects
 				(font
@@ -11013,7 +11013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Test_Net" "OPO_W1"
+		(property "Test_Net" "OPO_U1"
 			(at 389.89 104.14 0)
 			(effects
 				(font
@@ -11640,7 +11640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPO_U1"
+		(property "Value" "OPO_W1"
 			(at 128.27 101.6 0)
 			(effects
 				(font
@@ -11669,7 +11669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Test point: OPO_U1"
+		(property "Description" "Test point: OPO_W1"
 			(at 125.73 104.14 0)
 			(effects
 				(font
@@ -11708,7 +11708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Test_Net" "OPO_U1"
+		(property "Test_Net" "OPO_W1"
 			(at 128.27 104.14 0)
 			(effects
 				(font

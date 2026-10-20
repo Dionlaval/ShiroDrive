@@ -1,8 +1,10 @@
-# ShiroFOC firmware requirements — P2 baseline with P3 divider updates
+# ShiroFOC firmware requirements — P2 baseline with documented P3 updates
 
 **Baseline:** 27 September 2026, `Manual_Layout_P2/ShiroFOC_Manual.kicad_sch`.
 **Revision change:** optional external brake NTC on PC2; status LED moved from PC2 to PC15. The archived Manual_Rebuild project retains the previous pin assignment.
-**P3 divider update (4 October 2026):** `Manual_Layout_P3` uses 560 kΩ / 28 kΩ for bus sensing (the nominal ×21 firmware scale is unchanged), and the hardware OV divider now trips nominally at 45.8 V / releases at 44.1 V. P2 files retain their original divider components. The rows and filter timing below describe the revised P3 dividers; other requirements retain the P2 baseline pending revision-specific verification.
+**P3 divider update (4 October 2026):** `Manual_Layout_P3` uses 560 kΩ / 28 kΩ for bus sensing (the nominal ×21 firmware scale is unchanged), and the hardware OV divider now trips nominally at 45.8 V / releases at 44.1 V. P2 files retain their original divider components.
+**P3 current-sense update (20 October 2026):** phase U now uses OPAMP3; phase W now uses OPAMP1; phase V remains on OPAMP2. The current rows in section 5 and FW-ADC-03 describe this mapping. P2 retains U → OPAMP1, V → OPAMP2, W → OPAMP3.
+**Revision coverage:** the documented P3 divider and current-sense changes supersede the P2 baseline below. Other sections have not been fully reconciled with the latest P3 schematic; verify them against P3 before implementing firmware.
 **Status:** implementation contract, not implemented or safety-qualified firmware.
 
 This is the current firmware requirements document. It supersedes conflicting instructions in the older A0 bring-up contract, pinout plan and design constraints. **MUST** means required; **PROVISIONAL** means a bring-up starting point that requires measurement before release. An unresolved safety parameter must prevent normal arming, rather than silently receiving a guessed default.
@@ -89,9 +91,9 @@ ST's HAL names for the first two settings are `OB_BOOT0_FROM_OB` and `OB_nBOOT0_
 |---|---|---|
 | Inverter | TIM1; internal PE8–PE13 | Complementary PWM; hardware break; no reuse for unrelated PWM |
 | Driver | I2C3 PC8/PC9; PE7 WAKE; PE14 READY; PE15 nFAULT | Reserved internal connections; verified AF/break mapping |
-| Current U | PA1 +, PA3 −, PA2 out | OPAMP1 external feedback; ADC1_IN3 |
+| Current U (P3) | PB0 +, PB2 −, PB1 out | OPAMP3 external feedback; ADC1_IN12 |
 | Current V | PA7 +, PC5 −, PA6 out | OPAMP2 external feedback; ADC2_IN3 |
-| Current W | PB0 +, PB2 −, PB1 out | OPAMP3 external feedback; ADC1_IN12 |
+| Current W (P3) | PA1 +, PA3 −, PA2 out | OPAMP1 external feedback; ADC1_IN3 |
 | VM | PA0 | ADC1/2_IN1; mux validity required |
 | NTC U/V/W | PC3 / PC0 / PC1 | ADC channels 9 / 6 / 7 |
 | Brake NTC | PC2 / STSPIN pad 11 | ADC1 or ADC2 channel 8; regular slow acquisition, no GPIO output |
@@ -109,6 +111,20 @@ ST's HAL names for the first two settings are `OB_BOOT0_FROM_OB` and `OB_nBOOT0_
 **FW-ADC-01:** Three op-amps do not provide three simultaneous ADCs. ADC1 is shared by U and W. Schedule synchronized conversions in valid low-side conduction windows; account for deadtime, blanking, op-amp settling, ADC acquisition and channel switching. Reject clipped/out-of-window samples. Reconstruct the third current from two valid samples only under the appropriate three-wire motor assumptions. Limit modulation when sampling windows become too short. Slow VM/NTC/reference measurements must not disrupt current acquisition.
 
 **FW-ADC-02:** Nominal conversion is `I_phase = (V_adc − V_offset) / 0.014`, with sign verified physically for each phase. Use measured VREF and calibrated scaling. Define whether every API limit is instantaneous peak, RMS, dq amplitude or battery current. The 25 A RMS target corresponds to about 35.4 A sinusoidal peak; neither the ADC's approximate ±100 A range nor a MOSFET headline rating is a permissible current limit. Start commissioning at 1–2 A instantaneous and raise limits only against recorded tests.
+
+**FW-ADC-03 — P3 U/W sense swap, 20 October 2026:** the existing amplifier circuits remain in place; their shunt inputs and phase labels were exchanged to simplify routing. Use this mapping for P3:
+
+| Measured phase | Shunt Kelvin inputs | Amplifier input resistors | STSPIN32G4 U4 pins (+ / − / out) | Output net / external ADC route |
+|---|---|---|---|---|
+| U | R3 pad 2 (+), pad 3 (−); `SHUNT_U_SENSE_P/N` | R437 pin 1 (+), R438 pin 1 (−) | OPAMP3: 23 / 25 / 24 | `OPO_U1`; PB1 / ADC1_IN12 |
+| V | R1 pad 2 (+), pad 3 (−); `SHUNT_V_SENSE_P/N` | R427 pin 1 (+), R428 pin 1 (−) | OPAMP2: 20 / 22 / 19 | `OPO_V1`; PA6 / ADC2_IN3 |
+| W | R5 pad 2 (+), pad 3 (−); `SHUNT_W_SENSE_P/N` | R417 pin 1 (+), R418 pin 1 (−) | OPAMP1: 14 / 16 / 15 | `OPO_W1`; PA2 / ADC1_IN3 |
+
+- Map ADC samples, calibration offsets/gains, current reconstruction, telemetry and fault attribution to the **measured phase**, not the OPAMP number. With the external ADC routes above, ADC1_IN3 is W and ADC1_IN12 is U.
+- Preserve inverter PWM/gate-drive phase assignments and NTC phase assignments. This change only swaps current measurement channels; it does not swap the motor phases or invert the shunt polarity. Recheck measured current sign and phase identity during low-energy commissioning.
+- The nominal gain, bias and 14 mV/A scale are unchanged. Recalibrate offsets at startup. Recheck sector-dependent sampling windows for the new sample-to-phase mapping; U and W still share ADC1 with these external routes. An alternative internal OPAMP3-to-ADC route requires a separately verified peripheral configuration.
+- If implementing the COMP1/2/4 protection paths described below, their phase attribution is now **COMP1 → W, COMP2 → V, COMP4 → U**. Physical comparator inputs remain the biased amplifier inputs; the swap does not validate trip thresholds or timer-break configuration.
+- Schematic/netlist and affected PCB pad assignments were checked together. Existing component positions and trace geometry were preserved; four unfinished shunt-sense connections remained at the time of the swap. This record documents the hardware mapping, not completed routing or an implemented firmware change.
 
 **FW-OCP-01:** Provide an ISR-independent fast inverter shutdown using verified on-chip comparator/TIM1-break routing and STSPIN VDS protection. The previous proposed COMP1/2/4 paths observe biased op-amp **inputs**, not the amplified ADC outputs. Re-derive DAC thresholds, polarity, offset sensitivity, common-mode validity and exact internal routing from the schematic and MCU reference manual. Do not copy the old illustrative “60 A / DAC code 107” into a release. This path is not automatically a precise bipolar current limit. Require software limits for both polarities and demonstrate low-energy fault injection into each implemented hardware trip path. VDS protection is not a calibrated phase-current measurement.
 
@@ -200,6 +216,7 @@ A restricted, explicitly entered commissioning build may use documented low-ener
 
 ## 9. Evidence and precedence
 
+- P3 U/W current-sense mapping: [current/temperature schematic](../Manual_Layout_P3/06_Current_Temperature.kicad_sch), [exported netlist after the swap](../Manual_Layout_P3/review/opamp_uw_swap_2026-10-20/after.xml), and [connectivity verification](../Manual_Layout_P3/review/opamp_uw_swap_2026-10-20/verification.json).
 - [Current sensor interface revision and exact connectivity checks](../Manual_Rebuild/review/sensor_interface_revision/README.md).
 - [Half-bridge and current-amplifier decisions](../Manual_Rebuild/review/bridge_current_parts/README.md).
 - [Brake topology, values and resistor limitations](../Manual_Rebuild/review/brake_parts/README.md).

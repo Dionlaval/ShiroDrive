@@ -1,5 +1,7 @@
 # ShiroFOC Rev A MCU Pinout and Interface Plan
 
+> **Historical A0 allocation.** For firmware, use the [current firmware requirements](../requirements/FIRMWARE_REQUIREMENTS.md). In P3, the 20 October 2026 current-sense swap assigns **U → OPAMP3, V → OPAMP2, W → OPAMP1**; the original U/W mapping below does not apply to that board.
+
 Status: A0 layout-release allocation, checked against the STSPIN32G4 datasheet pin table. The native schematic and this table agree. STM32CubeMX has not been run; generate and verify the complete STM32G431VBx3 firmware configuration before motor commissioning. See [release review](DESIGN_REVIEW_REV_A.md) and [firmware contract](FIRMWARE_BRINGUP_CONTRACT.md).
 
 ## Design intent

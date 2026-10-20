@@ -1,0 +1,15 @@
+{
+  "scope": "U/W current-sense amplifier assignment swap",
+  "mapping": {
+    "U": "OPAMP3",
+    "V": "OPAMP2",
+    "W": "OPAMP1"
+  },
+  "schematic_pins_changed": 28,
+  "pcb_pads_changed": 22,
+  "pcb_net_updates": 72,
+  "geometry_preserved": true,
+  "shunt_polarity_preserved": true,
+  "firmware_updated": false,
+  "remaining_work": "Existing four unfinished shunt sense connections remain to be routed. Firmware ADC phase mapping must follow the new assignments."
+}
