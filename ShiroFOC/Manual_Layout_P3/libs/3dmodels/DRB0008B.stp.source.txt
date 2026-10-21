@@ -1,0 +1,3 @@
+Source: https://webench.ti.com/cad/dlbxl.cgi/newstep/DRB0008B.stp
+Manufacturer TI DRB0008B model, specified in the TCAN3413 datasheet.
+Corrected 2026-10-21: zero offset, unit scale, zero rotation. STEP assembly transforms already orient the package Z-up. Full imported assembly bounds: X/Y +/-1.5mm, Z 0..0.775mm. Bottom exposed-pad chamfer at X negative/Y positive matches footprint pin 1. Raw untransformed STEP vertices do not describe the final assembly orientation.

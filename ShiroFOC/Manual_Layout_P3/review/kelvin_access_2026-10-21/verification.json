@@ -1,0 +1,27 @@
+{
+  "status": "applied to live PCB and saved",
+  "references": [
+    "R1",
+    "R3",
+    "R5"
+  ],
+  "sense_pad_local_x_mm": [
+    -0.3,
+    0.3
+  ],
+  "sense_pad_size_mm": [
+    0.2,
+    0.2
+  ],
+  "clearance_to_power_pad_mm": 0.3,
+  "clearance_between_sense_pads_mm": 0.4,
+  "only_changes": "six sense pad positions and six footprint copper link endpoints",
+  "other_board_content_unchanged": true,
+  "additional_drc_violations": 0,
+  "test_escape_width_mm": 0.2,
+  "test_escape_length_mm": 0.45,
+  "six_test_escapes_no_clearance_errors": true,
+  "test_tracks_not_applied": true,
+  "phase_W_further_route_obstacle": "existing GND track; unchanged",
+  "live_board_non_shunt_content_unchanged": true
+}

@@ -3828,6 +3828,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C346511"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TCR" "200 ppm/C maximum magnitude"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c377b42-e12e-4bd2-90d0-86a41a554afa")
 		)
@@ -3848,10 +3875,6 @@
 				)
 			)
 		)
-	
-		(property "LCSC" "C346511" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Tolerance" "1%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "TCR" "200 ppm/C maximum magnitude" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "ShiroFOCLib:CSD88599Q5DC")
@@ -4775,6 +4798,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C346511"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TCR" "200 ppm/C maximum magnitude"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb3dcf53-b4ae-44a6-af30-b2bd73874f13")
 		)
@@ -4795,10 +4845,6 @@
 				)
 			)
 		)
-	
-		(property "LCSC" "C346511" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Tolerance" "1%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "TCR" "200 ppm/C maximum magnitude" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5089,6 +5135,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C346511"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TCR" "200 ppm/C maximum magnitude"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23071f5c-113a-4d3f-bc42-6c273c4e8f90")
 		)
@@ -5109,10 +5182,6 @@
 				)
 			)
 		)
-	
-		(property "LCSC" "C346511" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Tolerance" "1%" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "TCR" "200 ppm/C maximum magnitude" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6075,7 +6144,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 62.484 32.766 0)
 			(effects
 				(font
@@ -6093,7 +6162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/info/en/documents/chara_sheet/C3225X7S2A475K200AB.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf"
 			(at 62.23 30.48 0)
 			(effects
 				(font
@@ -6111,7 +6180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product URL" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7S2A475K200AB"
+		(property "Product URL" "https://product.samsungsem.com/mlcc/CL32Y106KCVZNW.do"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6120,7 +6189,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM Comments" "Local VM bypass. Nominal capacitance; effective capacitance and RMS ripple temperature require final PWM/layout validation. Generic STEP is visualization only; maximum component height 2.2 mm."
+		(property "BOM Comments" "Local VM bypass; same part as DC-link ceramic bank. Approximately 3.3 uF typical at 42 V before temperature, tolerance and aging. Validate RMS ripple heating. Generic STEP is visualization only; maximum component height 2.8 mm."
 			(at 0 0 0)
 			(effects
 				(font
@@ -6156,7 +6225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6165,11 +6234,20 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C3225X7S2A475K200AB"
+		(property "MPN" "CL32Y106KCVZNWE"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3840810"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -6952,7 +7030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 148.844 32.766 0)
 			(effects
 				(font
@@ -6970,7 +7048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/info/en/documents/chara_sheet/C3225X7S2A475K200AB.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf"
 			(at 148.59 30.48 0)
 			(effects
 				(font
@@ -6988,7 +7066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product URL" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7S2A475K200AB"
+		(property "Product URL" "https://product.samsungsem.com/mlcc/CL32Y106KCVZNW.do"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6997,7 +7075,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM Comments" "Local VM bypass. Nominal capacitance; effective capacitance and RMS ripple temperature require final PWM/layout validation. Generic STEP is visualization only; maximum component height 2.2 mm."
+		(property "BOM Comments" "Local VM bypass; same part as DC-link ceramic bank. Approximately 3.3 uF typical at 42 V before temperature, tolerance and aging. Validate RMS ripple heating. Generic STEP is visualization only; maximum component height 2.8 mm."
 			(at 0 0 0)
 			(effects
 				(font
@@ -7033,7 +7111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7042,11 +7120,20 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C3225X7S2A475K200AB"
+		(property "MPN" "CL32Y106KCVZNWE"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3840810"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -7460,7 +7547,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 237.744 32.766 0)
 			(effects
 				(font
@@ -7478,7 +7565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/info/en/documents/chara_sheet/C3225X7S2A475K200AB.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf"
 			(at 237.49 30.48 0)
 			(effects
 				(font
@@ -7496,7 +7583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product URL" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7S2A475K200AB"
+		(property "Product URL" "https://product.samsungsem.com/mlcc/CL32Y106KCVZNW.do"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7505,7 +7592,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM Comments" "Local VM bypass. Nominal capacitance; effective capacitance and RMS ripple temperature require final PWM/layout validation. Generic STEP is visualization only; maximum component height 2.2 mm."
+		(property "BOM Comments" "Local VM bypass; same part as DC-link ceramic bank. Approximately 3.3 uF typical at 42 V before temperature, tolerance and aging. Validate RMS ripple heating. Generic STEP is visualization only; maximum component height 2.8 mm."
 			(at 0 0 0)
 			(effects
 				(font
@@ -7541,7 +7628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7550,11 +7637,20 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C3225X7S2A475K200AB"
+		(property "MPN" "CL32Y106KCVZNWE"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3840810"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(hide yes)
 			)

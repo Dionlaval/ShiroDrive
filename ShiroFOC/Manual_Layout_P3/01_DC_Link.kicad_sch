@@ -3110,12 +3110,6 @@
 		(uuid "03561dc4-09ed-5c2f-9cf8-d69e06337485")
 	)
 	(junction
-		(at 330.2 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04397fb8-afcb-5d52-8099-d2c2fe7bd349")
-	)
-	(junction
 		(at 226.06 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3158,12 +3152,6 @@
 		(uuid "0fdcce2f-67c8-5357-a6dc-2790b97686fe")
 	)
 	(junction
-		(at 311.15 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1243f633-2297-5796-ad20-68eac6a72cd2")
-	)
-	(junction
 		(at 82.55 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3176,22 +3164,10 @@
 		(uuid "1efdea1d-768f-5abe-bf88-f1c41c0827bc")
 	)
 	(junction
-		(at 311.15 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24182ede-4b17-588c-90d6-a1d91f0301e0")
-	)
-	(junction
 		(at 101.6 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27166e20-e282-5ad4-b077-8544d0254647")
-	)
-	(junction
-		(at 330.2 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c3cdf74-e6c1-516a-ad90-757d5b190030")
 	)
 	(junction
 		(at 227.33 119.38)
@@ -3216,12 +3192,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e81233f-ebfa-546c-8650-44123fc2784b")
-	)
-	(junction
-		(at 330.2 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3486b86b-736c-5822-b97c-e7b5bb498ac3")
 	)
 	(junction
 		(at 177.8 198.12)
@@ -3356,22 +3326,10 @@
 		(uuid "6acc7ed5-ccdc-5965-9062-165e826edd2e")
 	)
 	(junction
-		(at 311.15 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c621e13-46a1-5bf9-bf20-ee0fe7502a23")
-	)
-	(junction
 		(at 139.7 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fbf29a4-3668-5975-9071-d56facb59e5e")
-	)
-	(junction
-		(at 311.15 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72cec5f2-61c6-5c12-be4f-b13aa90aeab7")
 	)
 	(junction
 		(at 273.05 198.12)
@@ -3476,12 +3434,6 @@
 		(uuid "9f6a2c6e-370e-5d50-aca5-ac64d6eb31f2")
 	)
 	(junction
-		(at 330.2 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0d89922-b6da-5074-8a77-9fedaf6c21d2")
-	)
-	(junction
 		(at 157.48 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3566,22 +3518,10 @@
 		(uuid "b94e63ea-1353-5c83-9e01-4c6450eaafab")
 	)
 	(junction
-		(at 311.15 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba24041c-0bfa-5051-9f15-dde0f643496f")
-	)
-	(junction
 		(at 234.95 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf7be299-6288-52d9-b6c3-5bff7c08f0b1")
-	)
-	(junction
-		(at 330.2 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5c9c059-c96f-52ce-b7ac-3c7a6d064177")
 	)
 	(junction
 		(at 44.45 236.22)
@@ -3612,18 +3552,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5c4af30-acf3-5e65-8ff7-7595cf735a40")
-	)
-	(junction
-		(at 330.2 224.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6c8c598-c231-59bd-9729-62ea1856d02b")
-	)
-	(junction
-		(at 311.15 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d74c1eae-2731-5793-a496-6cf83e6ba696")
 	)
 	(junction
 		(at 273.05 251.46)
@@ -3855,16 +3783,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 236.22) (xy 330.2 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fab3525-783d-55f6-a7f3-50228cd5b42e")
-	)
-	(wire
-		(pts
 			(xy 273.05 209.55) (xy 273.05 213.36)
 		)
 		(stroke
@@ -3882,16 +3800,6 @@
 			(type default)
 		)
 		(uuid "130ac8f5-a09a-5683-b811-0abf5589b1dc")
-	)
-	(wire
-		(pts
-			(xy 349.25 247.65) (xy 349.25 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13952f05-c330-5128-b610-2f56a143c2f1")
 	)
 	(wire
 		(pts
@@ -4012,16 +3920,6 @@
 			(type default)
 		)
 		(uuid "1fe6c9bd-2018-580c-be2e-7432d0979678")
-	)
-	(wire
-		(pts
-			(xy 349.25 236.22) (xy 349.25 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "207287ef-bbde-52dd-afcb-73275866d4d3")
 	)
 	(wire
 		(pts
@@ -4192,16 +4090,6 @@
 			(type default)
 		)
 		(uuid "346ffab7-2907-527f-bbe1-1d12609051f2")
-	)
-	(wire
-		(pts
-			(xy 311.15 209.55) (xy 330.2 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34862094-cf94-56a7-bace-33866fdcefd1")
 	)
 	(wire
 		(pts
@@ -4475,16 +4363,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 220.98) (xy 330.2 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a46974-d9ce-567c-b052-922810622748")
-	)
-	(wire
-		(pts
 			(xy 292.1 182.88) (xy 292.1 186.69)
 		)
 		(stroke
@@ -4495,16 +4373,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 182.88) (xy 330.2 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5379273c-671c-5d37-b0a5-f1ed1d5d45cb")
-	)
-	(wire
-		(pts
 			(xy 234.95 220.98) (xy 234.95 224.79)
 		)
 		(stroke
@@ -4512,16 +4380,6 @@
 			(type default)
 		)
 		(uuid "551f9f13-e9d1-54b9-9bb1-b476161d4ae1")
-	)
-	(wire
-		(pts
-			(xy 349.25 194.31) (xy 349.25 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e52abd-d83c-5332-aa1f-c8307c2849be")
 	)
 	(wire
 		(pts
@@ -4672,16 +4530,6 @@
 			(type default)
 		)
 		(uuid "6874a430-d440-5d5c-8c6f-f9c0446e131b")
-	)
-	(wire
-		(pts
-			(xy 349.25 182.88) (xy 349.25 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69343286-b4df-5a5a-8c3c-640ba6d00a4d")
 	)
 	(wire
 		(pts
@@ -4845,16 +4693,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 224.79) (xy 349.25 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73663127-26ca-579f-8db2-fed42caeae6b")
-	)
-	(wire
-		(pts
 			(xy 255.27 134.62) (xy 265.43 134.62)
 		)
 		(stroke
@@ -4925,16 +4763,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 236.22) (xy 330.2 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c755513-7186-547e-8b2a-8c4aec61b0d5")
-	)
-	(wire
-		(pts
 			(xy 45.72 57.15) (xy 63.5 57.15)
 		)
 		(stroke
@@ -4992,16 +4820,6 @@
 			(type default)
 		)
 		(uuid "82ceae74-4378-509c-8335-9c4014e11f6a")
-	)
-	(wire
-		(pts
-			(xy 311.15 251.46) (xy 330.2 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c4939c-b4ae-53cd-87e6-c719011bb6f1")
 	)
 	(wire
 		(pts
@@ -5265,16 +5083,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 209.55) (xy 349.25 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc9ab9a-ffe3-5445-acdf-11ead946688d")
-	)
-	(wire
-		(pts
 			(xy 139.7 182.88) (xy 139.7 186.69)
 		)
 		(stroke
@@ -5325,16 +5133,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 198.12) (xy 330.2 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fb0c010-b9c3-5bec-ab85-c531b0a03c31")
-	)
-	(wire
-		(pts
 			(xy 44.45 220.98) (xy 44.45 224.79)
 		)
 		(stroke
@@ -5352,16 +5150,6 @@
 			(type default)
 		)
 		(uuid "a02d6c0a-4967-5dbb-aebc-49fa31f9daea")
-	)
-	(wire
-		(pts
-			(xy 349.25 220.98) (xy 349.25 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e8eb78-084a-5019-8cad-3faec6313a96")
 	)
 	(wire
 		(pts
@@ -5525,26 +5313,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 209.55) (xy 330.2 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b055aac1-0f66-5262-a3bb-a84f5e54506a")
-	)
-	(wire
-		(pts
-			(xy 330.2 198.12) (xy 349.25 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0dd42f1-0f98-5e80-bfaf-dd7d41e57716")
-	)
-	(wire
-		(pts
 			(xy 82.55 182.88) (xy 101.6 182.88)
 		)
 		(stroke
@@ -5585,26 +5353,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 182.88) (xy 330.2 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b37252d3-3b7d-512f-8f32-38a0cc7c48c5")
-	)
-	(wire
-		(pts
-			(xy 330.2 182.88) (xy 349.25 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b41d9ce5-582e-5450-8db3-c8ca59a9dac2")
-	)
-	(wire
-		(pts
 			(xy 311.15 182.88) (xy 311.15 186.69)
 		)
 		(stroke
@@ -5642,16 +5390,6 @@
 			(type default)
 		)
 		(uuid "b85795a0-5cfb-5eaf-aa4d-0e1f237364eb")
-	)
-	(wire
-		(pts
-			(xy 330.2 194.31) (xy 330.2 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8709e8e-3d9c-5696-bd8b-316a2f773262")
 	)
 	(wire
 		(pts
@@ -5785,16 +5523,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 224.79) (xy 330.2 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6c9614b-e993-5371-ac91-448b4a53aa57")
-	)
-	(wire
-		(pts
 			(xy 158.75 194.31) (xy 158.75 198.12)
 		)
 		(stroke
@@ -5872,16 +5600,6 @@
 			(type default)
 		)
 		(uuid "d332d4e1-c3f2-460b-b9fb-fa37656f1282")
-	)
-	(wire
-		(pts
-			(xy 330.2 236.22) (xy 349.25 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d340cd27-f8c0-5562-abb8-a918c2407560")
 	)
 	(wire
 		(pts
@@ -5985,16 +5703,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 247.65) (xy 330.2 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11693a8-0416-52ec-9736-4afd5c7870c5")
-	)
-	(wire
-		(pts
 			(xy 158.75 247.65) (xy 158.75 251.46)
 		)
 		(stroke
@@ -6002,16 +5710,6 @@
 			(type default)
 		)
 		(uuid "e363da2f-1a36-5c86-8aad-6627f04c0d6c")
-	)
-	(wire
-		(pts
-			(xy 349.25 209.55) (xy 349.25 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b2b8f5-2761-5c5f-aae8-55a3fa77dc21")
 	)
 	(wire
 		(pts
@@ -6072,16 +5770,6 @@
 			(type default)
 		)
 		(uuid "eac3b670-75be-5b88-ac6c-fd7b51dfc173")
-	)
-	(wire
-		(pts
-			(xy 330.2 251.46) (xy 349.25 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe8763b-add4-57e6-a963-cf955bac4c98")
 	)
 	(wire
 		(pts
@@ -7478,166 +7166,6 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
 					(reference "C102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 330.2 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "1a83a944-e68f-5901-97c0-3d70d7d202c9")
-		(property "Reference" "C142"
-			(at 332.74 215.9 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF DNP"
-			(at 332.74 218.44 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32Y106KCVZNWE"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3840810"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100 V"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7S"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "DNP"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Bank" "V"
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BOM Comments" "Prototype ceramic DC link. Approximately 3.3 uF typical at 42 V per manufacturer DC-bias curve, before temperature, tolerance and aging. Validate bus ripple, hot-plug and regeneration."
-			(at 330.2 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e2cf804-ed5a-5b36-807c-702fac44ef3d")
-		)
-		(pin "2"
-			(uuid "b0988080-8824-58fe-a0df-e5e929cd2388")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
-					(reference "C142")
 					(unit 1)
 				)
 			)
@@ -10374,166 +9902,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 330.2 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "6963560d-5383-5060-ac96-e8cca02afddc")
-		(property "Reference" "C159"
-			(at 332.74 242.57 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF DNP"
-			(at 332.74 245.11 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32Y106KCVZNWE"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3840810"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100 V"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7S"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "DNP"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Bank" "W"
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BOM Comments" "Prototype ceramic DC link. Approximately 3.3 uF typical at 42 V per manufacturer DC-bias curve, before temperature, tolerance and aging. Validate bus ripple, hot-plug and regeneration."
-			(at 330.2 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3b43f3f-dd6f-54bf-9510-d1524266ce30")
-		)
-		(pin "2"
-			(uuid "3e2395b4-e5e9-54ba-bef9-b4f50f421396")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
-					(reference "C159")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 234.95 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11117,166 +10485,6 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
 					(reference "C152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 349.25 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "75a2e717-fc63-59d8-be2e-9c7692365265")
-		(property "Reference" "C160"
-			(at 351.79 242.57 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF DNP"
-			(at 351.79 245.11 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32Y106KCVZNWE"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3840810"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100 V"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7S"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "DNP"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Bank" "W"
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BOM Comments" "Prototype ceramic DC link. Approximately 3.3 uF typical at 42 V per manufacturer DC-bias curve, before temperature, tolerance and aging. Validate bus ripple, hot-plug and regeneration."
-			(at 349.25 243.84 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "415fe60c-2f3b-5b16-bc19-8029b6d1b341")
-		)
-		(pin "2"
-			(uuid "5ed611be-3fd3-5871-8a16-b570303df5ac")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
-					(reference "C160")
 					(unit 1)
 				)
 			)
@@ -12039,166 +11247,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 349.25 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "7f2859db-4b1c-5de8-bedf-0d69896e7db8")
-		(property "Reference" "C126"
-			(at 351.79 189.23 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF DNP"
-			(at 351.79 191.77 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32Y106KCVZNWE"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3840810"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100 V"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7S"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "DNP"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Bank" "U"
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BOM Comments" "Prototype ceramic DC link. Approximately 3.3 uF typical at 42 V per manufacturer DC-bias curve, before temperature, tolerance and aging. Validate bus ripple, hot-plug and regeneration."
-			(at 349.25 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "513bd951-95ae-5d20-82ef-b7ba61e4cfcf")
-		)
-		(pin "2"
-			(uuid "9e57840d-f407-57fc-bc8e-b351332303c9")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
-					(reference "C126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 254 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12414,166 +11462,6 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
 					(reference "#PWR01BatteryDCLink7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 330.2 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "85e37415-9d90-5741-9c34-2c6c8e86d92a")
-		(property "Reference" "C125"
-			(at 332.74 189.23 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF DNP"
-			(at 332.74 191.77 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32Y106KCVZNWE"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3840810"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100 V"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7S"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "DNP"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Bank" "U"
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BOM Comments" "Prototype ceramic DC link. Approximately 3.3 uF typical at 42 V per manufacturer DC-bias curve, before temperature, tolerance and aging. Validate bus ripple, hot-plug and regeneration."
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c08a8da5-2ac9-5996-92b5-9c9083733128")
-		)
-		(pin "2"
-			(uuid "e4a837bc-6bfd-5fa6-8d4a-a39a126c84d3")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
-					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -16415,166 +15303,6 @@
 			(project "ShiroFOC_Manual"
 				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
 					(reference "C145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 349.25 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "e49ec1f0-2eb1-575f-9243-dc22d5aec800")
-		(property "Reference" "C143"
-			(at 351.79 215.9 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF DNP"
-			(at 351.79 218.44 0)
-			(effects
-				(font
-					(size 0.95 0.95)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3563/CL32Y106KCVZNWE_Tech_Article.pdf"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL32Y106KCVZNWE"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3840810"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100 V"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7S"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Assembly" "DNP"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Bank" "V"
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "BOM Comments" "Prototype ceramic DC link. Approximately 3.3 uF typical at 42 V per manufacturer DC-bias curve, before temperature, tolerance and aging. Validate bus ripple, hot-plug and regeneration."
-			(at 349.25 217.17 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a789572-50d5-57f7-a446-693cdd7e2db1")
-		)
-		(pin "2"
-			(uuid "99820f79-d151-5a59-9c59-076eeb02af8d")
-		)
-		(instances
-			(project "ShiroFOC_Manual"
-				(path "/2c8b7510-9664-4afd-8f00-ac42aa791be9/302dc34a-7561-4149-81f0-6edd60941159"
-					(reference "C143")
 					(unit 1)
 				)
 			)
